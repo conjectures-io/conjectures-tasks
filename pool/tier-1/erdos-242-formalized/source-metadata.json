@@ -23,7 +23,7 @@
     "[erdosproblems.com/242](https://www.erdosproblems.com/242)",
     "[Si56](https://zbmath.org/?q=an%3A0075.03302) Sierpiński, W., Sur les décompositions de nombres rationnels en fractions primaires. Mathesis (1956), 16--32."
   ],
-  "repository_commit": "e923379e609b9d5987011a1d1f06ec22ea25cd20",
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/242.lean",
   "supported_modes": [
     "positive",

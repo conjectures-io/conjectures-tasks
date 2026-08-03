@@ -26,7 +26,7 @@
     "[EGP66](https://doi.org/10.4153/CJM-1966-014-3) Erdős, Paul and Goodman, A. W. and Pósa, Lajos, The representation of a graph by set intersections. Canadian J. Math. (1966), 106-112.",
     "[Er71](https://users.renyi.hu/~p_erdos/1971-25.pdf) Erdős, P., Some unsolved problems in graph theory and combinatorial analysis. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford, 1969) (1971), 97-109."
   ],
-  "repository_commit": "e923379e609b9d5987011a1d1f06ec22ea25cd20",
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/184.lean",
   "supported_modes": [
     "positive",

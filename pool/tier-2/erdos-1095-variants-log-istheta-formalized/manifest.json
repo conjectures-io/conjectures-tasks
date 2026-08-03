@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos1095.erdos_1095.variants.log_isTheta"
+  ],
+  "generated_target_type_hash": "sha256:8c6b1dff26369eee096133e410b35d7a3fcf94d748f974cf22d47f61eb69f601",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 1000000,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«1095»",
+  "source_path": "FormalConjectures/ErdosProblems/1095.lean",
+  "source_theorem": "Erdos1095.erdos_1095.variants.log_isTheta",
+  "source_type_hash": "sha256:8c6b1dff26369eee096133e410b35d7a3fcf94d748f974cf22d47f61eb69f601",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-379fc029-variants-log-istheta-c279801145-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:a39a8b08f185318aed55648a2f6e2164bf8b2e995f9a2f9b914eda580bf620bd",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:3b85661d06efecc2856c83b204c6c77c5cd7bfa19197f71db5fc1301557bb31c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:b63eb3effa2d99ab5baf07c1d1c3b53961427a08ca74d98438fb0831d70e9cac"
+  }
+}

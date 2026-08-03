@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos1055.erdos_1055.variants.selfridge_limit"
+  ],
+  "generated_target_type_hash": "sha256:d5acbfcfee2d8509c20c7f4d47e9eece78cec227d12a255aa92cd5fbc4612249",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 1000000,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«1055»",
+  "source_path": "FormalConjectures/ErdosProblems/1055.lean",
+  "source_theorem": "Erdos1055.erdos_1055.variants.selfridge_limit",
+  "source_type_hash": "sha256:f7b1d731b04e15c137e6a01d29894372e52cb1ecdc7f8035bde494e9ac638c72",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-379fc029-variants-selfridge-limit-9161bd969a-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:4b831e6b8824217b952082349fd07edd59021cb8af13c96e6a1f1da615da93c1",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7c62e911e8ea35db41d548983faab9ccfebba91dcf5c11d1afac2278bf78703e",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0e9587effbe03cf2fdd8884560ba98ca9de524474f8fd22daa74e595f3974f01"
+  }
+}

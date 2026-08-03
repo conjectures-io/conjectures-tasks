@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes"
+  ],
+  "generated_target_type_hash": "sha256:e97b249289aa404738eb4eb9cfe374acb1a55607e5eecfb6d42d54e5b527c7c8",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 1000000,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«913»",
+  "source_path": "FormalConjectures/ErdosProblems/913.lean",
+  "source_theorem": "Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes",
+  "source_type_hash": "sha256:9238757bf05c18a87aa8fb76bc1cdfaffce9c8331144a35da36765f6bbb3dea5",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-379fc029-variants-infinite-many-8p-sq-sub-one-primes-5a03532080-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:325cbd816765a6f50997567734a829ae7f0e1eea02db24ea7dcb279f50de5af1",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:b4aeafb1f51800362a9fc510818ba7df2ce2e5582570733ac8ceb490b4c92150",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:d24350f56e4ec38ecaef291182433eb07b32708afc8b43673d8b408e3397a55f"
+  }
+}
