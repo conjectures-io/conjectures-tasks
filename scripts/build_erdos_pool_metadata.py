@@ -163,7 +163,7 @@ def target_document(theorems: list[str]) -> dict:
         "targets": [
             {
                 "erdos_problem_number": problem_number(theorem),
-                "reward_family_id": f"erdos-{problem_number(theorem)}",
+                "reward_target_id": f"fc-target:{theorem}",
                 "source_path": (
                     f"FormalConjectures/ErdosProblems/{problem_number(theorem)}.lean"
                 ),

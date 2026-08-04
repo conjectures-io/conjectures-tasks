@@ -66,9 +66,10 @@ problems.
 
 The pool creates one `formalized`/`counterexample` pair for every admitted theorem.
 Both bundles have distinct task IDs and commitments but share one deterministic, source-pinned
-`problem_id`. They also carry a stable `reward_family_id` derived from the numbered Erdős problem.
-The reward store enforces at most one reward per family, so related parts, variants, parent targets,
-and later source repins cannot produce duplicate payouts.
+`problem_id`. They also carry a stable `reward_target_id` derived from the exact theorem name.
+The reward store enforces at most one reward for that theorem target across its proof/refutation
+pair and later source repins. Parent statements, parts, and variants are independent targets with
+independent rewards.
 The pool does not extract propositions from answer wrappers or substitute answers.
 
 A counterexample task asks for a kernel-checked proof of `¬ P`. For a universal
@@ -79,8 +80,7 @@ machine-readable witness.
 ## Scope
 
 `tier-1` contains all 148 task bundles covering 74 audited Erdős targets. Every bundle has exactly
-one theorem target. The 74 theorem targets map to 55 stable reward families;
-acceptance of any target in a family closes that family's reward.
+one theorem target and every theorem target has its own stable reward identity.
 
 The GitHub review covered all 281 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
@@ -98,7 +98,7 @@ determine a reward.
 those exact commitments. For the single active tier:
 
 - `selection-audit.json` records upstream status and feasibility review;
-- `task-targets.json` records the exact target selection and stable reward-family mapping;
+- `task-targets.json` records the exact target selection and stable per-target reward identity;
 - `task-groups.json` records any grouped tasks (`tier-1` has none);
 - `retired-source-theorems.json` prevents retired sources and canonical types
   from being selected again.

@@ -524,7 +524,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-grechuk-8fa9b7ec45282eb8d95790b2e244ffbb-problem",
-      "reward_family_id": "erdos-10",
+      "reward_target_id": "fc-target:Erdos10.erdos_10.variants.grechuk",
       "source_indices": [
         340
       ],
@@ -543,7 +543,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-grechuk-8fa9b7ec45282eb8d95790b2e244ffbb-problem",
-      "reward_family_id": "erdos-10",
+      "reward_target_id": "fc-target:Erdos10.erdos_10.variants.grechuk",
       "source_indices": [
         340
       ],
@@ -562,7 +562,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-erdos-limit-5f673834efe02fb286a5bea88ac33b55-problem",
-      "reward_family_id": "erdos-1055",
+      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.erdos_limit",
       "source_indices": [
         382
       ],
@@ -581,7 +581,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-erdos-limit-5f673834efe02fb286a5bea88ac33b55-problem",
-      "reward_family_id": "erdos-1055",
+      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.erdos_limit",
       "source_indices": [
         382
       ],
@@ -600,7 +600,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-selfridge-limit-521fdd9dc31f8d947abc664c8ee41602-problem",
-      "reward_family_id": "erdos-1055",
+      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.selfridge_limit",
       "source_indices": [
         383
       ],
@@ -619,7 +619,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-selfridge-limit-521fdd9dc31f8d947abc664c8ee41602-problem",
-      "reward_family_id": "erdos-1055",
+      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.selfridge_limit",
       "source_indices": [
         383
       ],
@@ -638,7 +638,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-ii-3f7c4604488541dcfba405d382d8583f-problem",
-      "reward_family_id": "erdos-1060",
+      "reward_target_id": "fc-target:Erdos1060.erdos_1060.parts.ii",
       "source_indices": [
         405
       ],
@@ -657,7 +657,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-ii-3f7c4604488541dcfba405d382d8583f-problem",
-      "reward_family_id": "erdos-1060",
+      "reward_target_id": "fc-target:Erdos1060.erdos_1060.parts.ii",
       "source_indices": [
         405
       ],
@@ -676,7 +676,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-ehsnumbers-one-half-1cae0cd02e45e6a0016e4d7cbecdb9b1-problem",
-      "reward_family_id": "erdos-1074",
+      "reward_target_id": "fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
       "source_indices": [
         443
       ],
@@ -695,7 +695,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-ehsnumbers-one-half-1cae0cd02e45e6a0016e4d7cbecdb9b1-problem",
-      "reward_family_id": "erdos-1074",
+      "reward_target_id": "fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
       "source_indices": [
         443
       ],
@@ -714,7 +714,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-ii-84385626b3eea46dc59fc4058f8a3a55-problem",
-      "reward_family_id": "erdos-1093",
+      "reward_target_id": "fc-target:Erdos1093.erdos_1093.parts.ii",
       "source_indices": [
         471
       ],
@@ -733,7 +733,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-ii-84385626b3eea46dc59fc4058f8a3a55-problem",
-      "reward_family_id": "erdos-1093",
+      "reward_target_id": "fc-target:Erdos1093.erdos_1093.parts.ii",
       "source_indices": [
         471
       ],
@@ -752,7 +752,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos1094-erdos-1094-9b7b88e449216f750ef86b550001d32e-problem",
-      "reward_family_id": "erdos-1094",
+      "reward_target_id": "fc-target:Erdos1094.erdos_1094",
       "source_indices": [
         472
       ],
@@ -771,7 +771,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos1094-erdos-1094-9b7b88e449216f750ef86b550001d32e-problem",
-      "reward_family_id": "erdos-1094",
+      "reward_target_id": "fc-target:Erdos1094.erdos_1094",
       "source_indices": [
         472
       ],
@@ -790,7 +790,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-log-istheta-771cef3e9cc94a29367cce70a58793d0-problem",
-      "reward_family_id": "erdos-1095",
+      "reward_target_id": "fc-target:Erdos1095.erdos_1095.variants.log_isTheta",
       "source_indices": [
         473
       ],
@@ -809,7 +809,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-log-istheta-771cef3e9cc94a29367cce70a58793d0-problem",
-      "reward_family_id": "erdos-1095",
+      "reward_target_id": "fc-target:Erdos1095.erdos_1095.variants.log_isTheta",
       "source_indices": [
         473
       ],
@@ -828,7 +828,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-lower-conjecture-3fe343e1aecd642594fd405fc4a5e4af-problem",
-      "reward_family_id": "erdos-1095",
+      "reward_target_id": "fc-target:Erdos1095.erdos_1095.variants.lower_conjecture",
       "source_indices": [
         474
       ],
@@ -847,7 +847,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-lower-conjecture-3fe343e1aecd642594fd405fc4a5e4af-problem",
-      "reward_family_id": "erdos-1095",
+      "reward_target_id": "fc-target:Erdos1095.erdos_1095.variants.lower_conjecture",
       "source_indices": [
         474
       ],
@@ -866,7 +866,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos11-erdos-11-10cf4645b035bcd5a1122c9877eaac8d-problem",
-      "reward_family_id": "erdos-11",
+      "reward_target_id": "fc-target:Erdos11.erdos_11",
       "source_indices": [
         481
       ],
@@ -885,7 +885,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos11-erdos-11-10cf4645b035bcd5a1122c9877eaac8d-problem",
-      "reward_family_id": "erdos-11",
+      "reward_target_id": "fc-target:Erdos11.erdos_11",
       "source_indices": [
         481
       ],
@@ -904,7 +904,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos1107-erdos-1107-6fb16071e4435fbe194a1e362834cb44-problem",
-      "reward_family_id": "erdos-1107",
+      "reward_target_id": "fc-target:Erdos1107.erdos_1107",
       "source_indices": [
         499
       ],
@@ -923,7 +923,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos1107-erdos-1107-6fb16071e4435fbe194a1e362834cb44-problem",
-      "reward_family_id": "erdos-1107",
+      "reward_target_id": "fc-target:Erdos1107.erdos_1107",
       "source_indices": [
         499
       ],
@@ -942,7 +942,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-islittleo-9e0c8274df18d4426cefe76a2addbb97-problem",
-      "reward_family_id": "erdos-126",
+      "reward_target_id": "fc-target:Erdos126.erdos_126.variants.isLittleO",
       "source_indices": [
         618
       ],
@@ -961,7 +961,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-islittleo-9e0c8274df18d4426cefe76a2addbb97-problem",
-      "reward_family_id": "erdos-126",
+      "reward_target_id": "fc-target:Erdos126.erdos_126.variants.isLittleO",
       "source_indices": [
         618
       ],
@@ -980,7 +980,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-multiple-powerful-factors-bf407937c4060dbf270d922f924e1356-problem",
-      "reward_family_id": "erdos-137",
+      "reward_target_id": "fc-target:Erdos137.erdos_137.variants.multiple_powerful_factors",
       "source_indices": [
         624
       ],
@@ -999,7 +999,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-multiple-powerful-factors-bf407937c4060dbf270d922f924e1356-problem",
-      "reward_family_id": "erdos-137",
+      "reward_target_id": "fc-target:Erdos137.erdos_137.variants.multiple_powerful_factors",
       "source_indices": [
         624
       ],
@@ -1018,7 +1018,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-lower-dfcd20f95bc438225c8a3c87c6bcdaa2-problem",
-      "reward_family_id": "erdos-142",
+      "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
       "source_indices": [
         646
       ],
@@ -1037,7 +1037,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-lower-dfcd20f95bc438225c8a3c87c6bcdaa2-problem",
-      "reward_family_id": "erdos-142",
+      "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
       "source_indices": [
         646
       ],
@@ -1056,7 +1056,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-ii-01a397a575ce66e0afe631edd6443dd4-problem",
-      "reward_family_id": "erdos-143",
+      "reward_target_id": "fc-target:Erdos143.erdos_143.parts.ii",
       "source_indices": [
         650
       ],
@@ -1075,7 +1075,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-ii-01a397a575ce66e0afe631edd6443dd4-problem",
-      "reward_family_id": "erdos-143",
+      "reward_target_id": "fc-target:Erdos143.erdos_143.parts.ii",
       "source_indices": [
         650
       ],
@@ -1094,7 +1094,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos184-erdos-184-d7b0ff199cfb62760a3d9fdcd8a3a4cc-problem",
-      "reward_family_id": "erdos-184",
+      "reward_target_id": "fc-target:Erdos184.erdos_184",
       "source_indices": [
         706
       ],
@@ -1113,7 +1113,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos184-erdos-184-d7b0ff199cfb62760a3d9fdcd8a3a4cc-problem",
-      "reward_family_id": "erdos-184",
+      "reward_target_id": "fc-target:Erdos184.erdos_184",
       "source_indices": [
         706
       ],
@@ -1132,7 +1132,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-log-bound-7e3932ab115001cb0df53373f3c727d0-problem",
-      "reward_family_id": "erdos-208",
+      "reward_target_id": "fc-target:Erdos208.erdos_208.variants.log_bound",
       "source_indices": [
         741
       ],
@@ -1151,7 +1151,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-log-bound-7e3932ab115001cb0df53373f3c727d0-problem",
-      "reward_family_id": "erdos-208",
+      "reward_target_id": "fc-target:Erdos208.erdos_208.variants.log_bound",
       "source_indices": [
         741
       ],
@@ -1170,7 +1170,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-ge-4c7b69ef0489602f8fcfee1e1c04cda3-problem",
-      "reward_family_id": "erdos-218",
+      "reward_target_id": "fc-target:Erdos218.erdos_218.variants.ge",
       "source_indices": [
         746
       ],
@@ -1189,7 +1189,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-ge-4c7b69ef0489602f8fcfee1e1c04cda3-problem",
-      "reward_family_id": "erdos-218",
+      "reward_target_id": "fc-target:Erdos218.erdos_218.variants.ge",
       "source_indices": [
         746
       ],
@@ -1208,7 +1208,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-infinite-equal-prime-gap-c0329011aba0bd182c513136f80a6ce4-problem",
-      "reward_family_id": "erdos-218",
+      "reward_target_id": "fc-target:Erdos218.erdos_218.variants.infinite_equal_prime_gap",
       "source_indices": [
         747
       ],
@@ -1227,7 +1227,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-infinite-equal-prime-gap-c0329011aba0bd182c513136f80a6ce4-problem",
-      "reward_family_id": "erdos-218",
+      "reward_target_id": "fc-target:Erdos218.erdos_218.variants.infinite_equal_prime_gap",
       "source_indices": [
         747
       ],
@@ -1246,7 +1246,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-le-9ab1f4f1953df35cef0bbc3a5ac45619-problem",
-      "reward_family_id": "erdos-218",
+      "reward_target_id": "fc-target:Erdos218.erdos_218.variants.le",
       "source_indices": [
         748
       ],
@@ -1265,7 +1265,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-le-9ab1f4f1953df35cef0bbc3a5ac45619-problem",
-      "reward_family_id": "erdos-218",
+      "reward_target_id": "fc-target:Erdos218.erdos_218.variants.le",
       "source_indices": [
         748
       ],
@@ -1284,7 +1284,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos233-erdos-233-f6595928383e8e23482277a52fd9a4bd-problem",
-      "reward_family_id": "erdos-233",
+      "reward_target_id": "fc-target:Erdos233.erdos_233",
       "source_indices": [
         772
       ],
@@ -1303,7 +1303,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos233-erdos-233-f6595928383e8e23482277a52fd9a4bd-problem",
-      "reward_family_id": "erdos-233",
+      "reward_target_id": "fc-target:Erdos233.erdos_233",
       "source_indices": [
         772
       ],
@@ -1322,7 +1322,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos236-erdos-236-dd074c8771b2257fb9ac9b562704b248-problem",
-      "reward_family_id": "erdos-236",
+      "reward_target_id": "fc-target:Erdos236.erdos_236",
       "source_indices": [
         776
       ],
@@ -1341,7 +1341,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos236-erdos-236-dd074c8771b2257fb9ac9b562704b248-problem",
-      "reward_family_id": "erdos-236",
+      "reward_target_id": "fc-target:Erdos236.erdos_236",
       "source_indices": [
         776
       ],
@@ -1360,7 +1360,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-generalization-e29df90771bf93ee71e9ed85c4ef75da-problem",
-      "reward_family_id": "erdos-241",
+      "reward_target_id": "fc-target:Erdos241.erdos_241.variants.generalization",
       "source_indices": [
         781
       ],
@@ -1379,7 +1379,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-generalization-e29df90771bf93ee71e9ed85c4ef75da-problem",
-      "reward_family_id": "erdos-241",
+      "reward_target_id": "fc-target:Erdos241.erdos_241.variants.generalization",
       "source_indices": [
         781
       ],
@@ -1398,7 +1398,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos242-erdos-242-8bffe463014afc8eff94d4ebe75f76aa-problem",
-      "reward_family_id": "erdos-242",
+      "reward_target_id": "fc-target:Erdos242.erdos_242",
       "source_indices": [
         785
       ],
@@ -1417,7 +1417,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos242-erdos-242-8bffe463014afc8eff94d4ebe75f76aa-problem",
-      "reward_family_id": "erdos-242",
+      "reward_target_id": "fc-target:Erdos242.erdos_242",
       "source_indices": [
         785
       ],
@@ -1436,7 +1436,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-schinzel-generalization-dbcae48accfcf1e79006802339279bef-problem",
-      "reward_family_id": "erdos-242",
+      "reward_target_id": "fc-target:Erdos242.erdos_242.variants.schinzel_generalization",
       "source_indices": [
         786
       ],
@@ -1455,7 +1455,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-schinzel-generalization-dbcae48accfcf1e79006802339279bef-problem",
-      "reward_family_id": "erdos-242",
+      "reward_target_id": "fc-target:Erdos242.erdos_242.variants.schinzel_generalization",
       "source_indices": [
         786
       ],
@@ -1474,7 +1474,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos243-erdos-243-e14283253c2d48cfbb845314bb2fc568-problem",
-      "reward_family_id": "erdos-243",
+      "reward_target_id": "fc-target:Erdos243.erdos_243",
       "source_indices": [
         787
       ],
@@ -1493,7 +1493,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos243-erdos-243-e14283253c2d48cfbb845314bb2fc568-problem",
-      "reward_family_id": "erdos-243",
+      "reward_target_id": "fc-target:Erdos243.erdos_243",
       "source_indices": [
         787
       ],
@@ -1512,7 +1512,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-szabo-strong-b32b75f39e154e0e0e0afd1b9484af64-problem",
-      "reward_family_id": "erdos-272",
+      "reward_target_id": "fc-target:Erdos272.erdos_272.variants.szabo_strong",
       "source_indices": [
         854
       ],
@@ -1531,7 +1531,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-szabo-strong-b32b75f39e154e0e0e0afd1b9484af64-problem",
-      "reward_family_id": "erdos-272",
+      "reward_target_id": "fc-target:Erdos272.erdos_272.variants.szabo_strong",
       "source_indices": [
         854
       ],
@@ -1550,7 +1550,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos274-herzog-schonheim-7b53e7ca890fd9a542de9853d4d00541-problem",
-      "reward_family_id": "erdos-274",
+      "reward_target_id": "fc-target:Erdos274.herzog_schonheim",
       "source_indices": [
         859
       ],
@@ -1569,7 +1569,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos274-herzog-schonheim-7b53e7ca890fd9a542de9853d4d00541-problem",
-      "reward_family_id": "erdos-274",
+      "reward_target_id": "fc-target:Erdos274.herzog_schonheim",
       "source_indices": [
         859
       ],
@@ -1588,7 +1588,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos28-erdos-28-aa3110462e9b1d5235caa6af7a10d280-problem",
-      "reward_family_id": "erdos-28",
+      "reward_target_id": "fc-target:Erdos28.erdos_28",
       "source_indices": [
         864
       ],
@@ -1607,7 +1607,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos28-erdos-28-aa3110462e9b1d5235caa6af7a10d280-problem",
-      "reward_family_id": "erdos-28",
+      "reward_target_id": "fc-target:Erdos28.erdos_28",
       "source_indices": [
         864
       ],
@@ -1626,7 +1626,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos282-erdos-282-fd8b193e012cb1a9f28a799e2491197e-problem",
-      "reward_family_id": "erdos-282",
+      "reward_target_id": "fc-target:Erdos282.erdos_282",
       "source_indices": [
         867
       ],
@@ -1645,7 +1645,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos282-erdos-282-fd8b193e012cb1a9f28a799e2491197e-problem",
-      "reward_family_id": "erdos-282",
+      "reward_target_id": "fc-target:Erdos282.erdos_282",
       "source_indices": [
         867
       ],
@@ -1664,7 +1664,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-primary-pseudoperfect-are-infinite-a634bc60c44d36ec35f0cd281291dfa4-problem",
-      "reward_family_id": "erdos-313",
+      "reward_target_id": "fc-target:Erdos313.erdos_313.variants.primary_pseudoperfect_are_infinite",
       "source_indices": [
         941
       ],
@@ -1683,7 +1683,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-primary-pseudoperfect-are-infinite-a634bc60c44d36ec35f0cd281291dfa4-problem",
-      "reward_family_id": "erdos-313",
+      "reward_target_id": "fc-target:Erdos313.erdos_313.variants.primary_pseudoperfect_are_infinite",
       "source_indices": [
         941
       ],
@@ -1702,7 +1702,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-quintic-8ebbbb8226c266748e9f981e9aeeab94-problem",
-      "reward_family_id": "erdos-324",
+      "reward_target_id": "fc-target:Erdos324.erdos_324.variants.quintic",
       "source_indices": [
         979
       ],
@@ -1721,7 +1721,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-quintic-8ebbbb8226c266748e9f981e9aeeab94-problem",
-      "reward_family_id": "erdos-324",
+      "reward_target_id": "fc-target:Erdos324.erdos_324.variants.quintic",
       "source_indices": [
         979
       ],
@@ -1740,7 +1740,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos340-erdos-340-ed76833a1ee2895f8b8fa2b1575429d7-problem",
-      "reward_family_id": "erdos-340",
+      "reward_target_id": "fc-target:Erdos340.erdos_340",
       "source_indices": [
         1000
       ],
@@ -1759,7 +1759,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos340-erdos-340-ed76833a1ee2895f8b8fa2b1575429d7-problem",
-      "reward_family_id": "erdos-340",
+      "reward_target_id": "fc-target:Erdos340.erdos_340",
       "source_indices": [
         1000
       ],
@@ -1778,7 +1778,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-sub-hasposdensity-ad895f79431a37343341c6b62832ff63-problem",
-      "reward_family_id": "erdos-340",
+      "reward_target_id": "fc-target:Erdos340.erdos_340.variants.sub_hasPosDensity",
       "source_indices": [
         1006
       ],
@@ -1797,7 +1797,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-sub-hasposdensity-ad895f79431a37343341c6b62832ff63-problem",
-      "reward_family_id": "erdos-340",
+      "reward_target_id": "fc-target:Erdos340.erdos_340.variants.sub_hasPosDensity",
       "source_indices": [
         1006
       ],
@@ -1816,7 +1816,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-i-6451b25e6539a5f2f2668e8093e53198-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.parts.i",
       "source_indices": [
         1062
       ],
@@ -1835,7 +1835,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-i-6451b25e6539a5f2f2668e8093e53198-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.parts.i",
       "source_indices": [
         1062
       ],
@@ -1854,7 +1854,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-infinite-set-density-a1ae27192bed314c229129cde490b48d-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.variants.infinite_set_density",
       "source_indices": [
         1069
       ],
@@ -1873,7 +1873,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-infinite-set-density-a1ae27192bed314c229129cde490b48d-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.variants.infinite_set_density",
       "source_indices": [
         1069
       ],
@@ -1892,7 +1892,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-infinite-set-sum-c68f6517a0aec370c514322085253d3b-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.variants.infinite_set_sum",
       "source_indices": [
         1071
       ],
@@ -1911,7 +1911,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-infinite-set-sum-c68f6517a0aec370c514322085253d3b-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.variants.infinite_set_sum",
       "source_indices": [
         1071
       ],
@@ -1930,7 +1930,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-i-9e03c298750ea9e043d1c20ada0d0445-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.variants.monotone.parts.i",
       "source_indices": [
         1072
       ],
@@ -1949,7 +1949,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-i-9e03c298750ea9e043d1c20ada0d0445-problem",
-      "reward_family_id": "erdos-357",
+      "reward_target_id": "fc-target:Erdos357.erdos_357.variants.monotone.parts.i",
       "source_indices": [
         1072
       ],
@@ -1968,7 +1968,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-i-6f20941d66595f7daf288c9765447bd7-problem",
-      "reward_family_id": "erdos-359",
+      "reward_target_id": "fc-target:Erdos359.erdos_359.parts.i",
       "source_indices": [
         1085
       ],
@@ -1987,7 +1987,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-i-6f20941d66595f7daf288c9765447bd7-problem",
-      "reward_family_id": "erdos-359",
+      "reward_target_id": "fc-target:Erdos359.erdos_359.parts.i",
       "source_indices": [
         1085
       ],
@@ -2006,7 +2006,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-ii-39e51c5a2da6d8452a244f60af47a214-problem",
-      "reward_family_id": "erdos-359",
+      "reward_target_id": "fc-target:Erdos359.erdos_359.parts.ii",
       "source_indices": [
         1086
       ],
@@ -2025,7 +2025,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-ii-39e51c5a2da6d8452a244f60af47a214-problem",
-      "reward_family_id": "erdos-359",
+      "reward_target_id": "fc-target:Erdos359.erdos_359.parts.ii",
       "source_indices": [
         1086
       ],
@@ -2044,7 +2044,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-isgoodfor-1-asymptotic-38cf53e77cdc61fa92ac66765dace949-problem",
-      "reward_family_id": "erdos-359",
+      "reward_target_id": "fc-target:Erdos359.erdos_359.variants.isGoodFor_1_asymptotic",
       "source_indices": [
         1087
       ],
@@ -2063,7 +2063,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-isgoodfor-1-asymptotic-38cf53e77cdc61fa92ac66765dace949-problem",
-      "reward_family_id": "erdos-359",
+      "reward_target_id": "fc-target:Erdos359.erdos_359.variants.isGoodFor_1_asymptotic",
       "source_indices": [
         1087
       ],
@@ -2082,7 +2082,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos364-erdos-364-ab77c9a510a11ef6c72203b47a2bb23a-problem",
-      "reward_family_id": "erdos-364",
+      "reward_target_id": "fc-target:Erdos364.erdos_364",
       "source_indices": [
         1111
       ],
@@ -2101,7 +2101,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos364-erdos-364-ab77c9a510a11ef6c72203b47a2bb23a-problem",
-      "reward_family_id": "erdos-364",
+      "reward_target_id": "fc-target:Erdos364.erdos_364",
       "source_indices": [
         1111
       ],
@@ -2120,7 +2120,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-strong-be6a15628a3bb05e08616f8a03a11dce-problem",
-      "reward_family_id": "erdos-364",
+      "reward_target_id": "fc-target:Erdos364.erdos_364.variants.strong",
       "source_indices": [
         1112
       ],
@@ -2139,7 +2139,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-strong-be6a15628a3bb05e08616f8a03a11dce-problem",
-      "reward_family_id": "erdos-364",
+      "reward_target_id": "fc-target:Erdos364.erdos_364.variants.strong",
       "source_indices": [
         1112
       ],
@@ -2158,7 +2158,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos371-erdos-371-3694bab81a432bfb1aa86d66c72819cc-problem",
-      "reward_family_id": "erdos-371",
+      "reward_target_id": "fc-target:Erdos371.erdos_371",
       "source_indices": [
         1119
       ],
@@ -2177,7 +2177,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos371-erdos-371-3694bab81a432bfb1aa86d66c72819cc-problem",
-      "reward_family_id": "erdos-371",
+      "reward_target_id": "fc-target:Erdos371.erdos_371",
       "source_indices": [
         1119
       ],
@@ -2196,7 +2196,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos373-erdos-373-c3086e6b0a09792f85b41a5f3d09deb0-problem",
-      "reward_family_id": "erdos-373",
+      "reward_target_id": "fc-target:Erdos373.erdos_373",
       "source_indices": [
         1120
       ],
@@ -2215,7 +2215,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos373-erdos-373-c3086e6b0a09792f85b41a5f3d09deb0-problem",
-      "reward_family_id": "erdos-373",
+      "reward_target_id": "fc-target:Erdos373.erdos_373",
       "source_indices": [
         1120
       ],
@@ -2234,7 +2234,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-maximal-solution-d0dc4353d60220bf2c06b759122dd2cb-problem",
-      "reward_family_id": "erdos-373",
+      "reward_target_id": "fc-target:Erdos373.erdos_373.variants.maximal_solution",
       "source_indices": [
         1121
       ],
@@ -2253,7 +2253,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-maximal-solution-d0dc4353d60220bf2c06b759122dd2cb-problem",
-      "reward_family_id": "erdos-373",
+      "reward_target_id": "fc-target:Erdos373.erdos_373.variants.maximal_solution",
       "source_indices": [
         1121
       ],
@@ -2272,7 +2272,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-suranyi-66b430542a8893c98c0eccb17f1f3668-problem",
-      "reward_family_id": "erdos-373",
+      "reward_target_id": "fc-target:Erdos373.erdos_373.variants.suranyi",
       "source_indices": [
         1124
       ],
@@ -2291,7 +2291,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-suranyi-66b430542a8893c98c0eccb17f1f3668-problem",
-      "reward_family_id": "erdos-373",
+      "reward_target_id": "fc-target:Erdos373.erdos_373.variants.suranyi",
       "source_indices": [
         1124
       ],
@@ -2310,7 +2310,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-one-two-89c325ca2cc674ac0c872b03da4d4850-problem",
-      "reward_family_id": "erdos-406",
+      "reward_target_id": "fc-target:Erdos406.erdos_406.variants.one_two",
       "source_indices": [
         1187
       ],
@@ -2329,7 +2329,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-one-two-89c325ca2cc674ac0c872b03da4d4850-problem",
-      "reward_family_id": "erdos-406",
+      "reward_target_id": "fc-target:Erdos406.erdos_406.variants.one_two",
       "source_indices": [
         1187
       ],
@@ -2348,7 +2348,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-sigma-termination-ab7e4088f5e8d5046cdabe395922e82f-problem",
-      "reward_family_id": "erdos-409",
+      "reward_target_id": "fc-target:Erdos409.erdos_409.variants.sigma_termination",
       "source_indices": [
         1199
       ],
@@ -2367,7 +2367,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-sigma-termination-ab7e4088f5e8d5046cdabe395922e82f-problem",
-      "reward_family_id": "erdos-409",
+      "reward_target_id": "fc-target:Erdos409.erdos_409.variants.sigma_termination",
       "source_indices": [
         1199
       ],
@@ -2386,7 +2386,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos41-erdos-41-0015ecccafa4970097c2934c35b4baaf-problem",
-      "reward_family_id": "erdos-41",
+      "reward_target_id": "fc-target:Erdos41.erdos_41",
       "source_indices": [
         1201
       ],
@@ -2405,7 +2405,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos41-erdos-41-0015ecccafa4970097c2934c35b4baaf-problem",
-      "reward_family_id": "erdos-41",
+      "reward_target_id": "fc-target:Erdos41.erdos_41",
       "source_indices": [
         1201
       ],
@@ -2424,7 +2424,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-i-116576bfe7a5799ba9f2ae851c84aeed-problem",
-      "reward_family_id": "erdos-416",
+      "reward_target_id": "fc-target:Erdos416.erdos_416.parts.i",
       "source_indices": [
         1211
       ],
@@ -2443,7 +2443,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-i-116576bfe7a5799ba9f2ae851c84aeed-problem",
-      "reward_family_id": "erdos-416",
+      "reward_target_id": "fc-target:Erdos416.erdos_416.parts.i",
       "source_indices": [
         1211
       ],
@@ -2462,7 +2462,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-x-pow-three-c28a00869c7d465fac0e164a3df8fde2-problem",
-      "reward_family_id": "erdos-477",
+      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.X_pow_three",
       "source_indices": [
         1299
       ],
@@ -2481,7 +2481,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-x-pow-three-c28a00869c7d465fac0e164a3df8fde2-problem",
-      "reward_family_id": "erdos-477",
+      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.X_pow_three",
       "source_indices": [
         1299
       ],
@@ -2500,7 +2500,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-monomial-f5c188e04d02588312105b2558c24262-problem",
-      "reward_family_id": "erdos-477",
+      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.monomial",
       "source_indices": [
         1301
       ],
@@ -2519,7 +2519,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-monomial-f5c188e04d02588312105b2558c24262-problem",
-      "reward_family_id": "erdos-477",
+      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.monomial",
       "source_indices": [
         1301
       ],
@@ -2538,7 +2538,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos535-erdos-535-bea3b071661e2d22543528c994b6810e-problem",
-      "reward_family_id": "erdos-535",
+      "reward_target_id": "fc-target:Erdos535.erdos_535",
       "source_indices": [
         1393
       ],
@@ -2557,7 +2557,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos535-erdos-535-bea3b071661e2d22543528c994b6810e-problem",
-      "reward_family_id": "erdos-535",
+      "reward_target_id": "fc-target:Erdos535.erdos_535",
       "source_indices": [
         1393
       ],
@@ -2576,7 +2576,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-first-open-case-8eb2b323eda1a44ce61e60d33035b24b-problem",
-      "reward_family_id": "erdos-535",
+      "reward_target_id": "fc-target:Erdos535.erdos_535.variants.first_open_case",
       "source_indices": [
         1396
       ],
@@ -2595,7 +2595,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-first-open-case-8eb2b323eda1a44ce61e60d33035b24b-problem",
-      "reward_family_id": "erdos-535",
+      "reward_target_id": "fc-target:Erdos535.erdos_535.variants.first_open_case",
       "source_indices": [
         1396
       ],
@@ -2614,7 +2614,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos617-erdos-617-f0af3bac328fcb99efe8cf5c658a89f1-problem",
-      "reward_family_id": "erdos-617",
+      "reward_target_id": "fc-target:Erdos617.erdos_617",
       "source_indices": [
         1497
       ],
@@ -2633,7 +2633,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos617-erdos-617-f0af3bac328fcb99efe8cf5c658a89f1-problem",
-      "reward_family_id": "erdos-617",
+      "reward_target_id": "fc-target:Erdos617.erdos_617",
       "source_indices": [
         1497
       ],
@@ -2652,7 +2652,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos624-erdos-624-d231f48eaab3cd00c282d4d921083873-problem",
-      "reward_family_id": "erdos-624",
+      "reward_target_id": "fc-target:Erdos624.erdos_624",
       "source_indices": [
         1510
       ],
@@ -2671,7 +2671,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos624-erdos-624-d231f48eaab3cd00c282d4d921083873-problem",
-      "reward_family_id": "erdos-624",
+      "reward_target_id": "fc-target:Erdos624.erdos_624",
       "source_indices": [
         1510
       ],
@@ -2690,7 +2690,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos677-erdos-677-c0ccd3434c503e05c811c87220ad1916-problem",
-      "reward_family_id": "erdos-677",
+      "reward_target_id": "fc-target:Erdos677.erdos_677",
       "source_indices": [
         1537
       ],
@@ -2709,7 +2709,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos677-erdos-677-c0ccd3434c503e05c811c87220ad1916-problem",
-      "reward_family_id": "erdos-677",
+      "reward_target_id": "fc-target:Erdos677.erdos_677",
       "source_indices": [
         1537
       ],
@@ -2728,7 +2728,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-three-a23685ca72179d1efcaae5554aeb21e2-problem",
-      "reward_family_id": "erdos-770",
+      "reward_target_id": "fc-target:Erdos770.erdos_770.variants.three",
       "source_indices": [
         1656
       ],
@@ -2747,7 +2747,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-three-a23685ca72179d1efcaae5554aeb21e2-problem",
-      "reward_family_id": "erdos-770",
+      "reward_target_id": "fc-target:Erdos770.erdos_770.variants.three",
       "source_indices": [
         1656
       ],
@@ -2766,7 +2766,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos779-erdos-779-0f0b5df782e20068d59d745c90d82448-problem",
-      "reward_family_id": "erdos-779",
+      "reward_target_id": "fc-target:Erdos779.erdos_779",
       "source_indices": [
         1658
       ],
@@ -2785,7 +2785,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos779-erdos-779-0f0b5df782e20068d59d745c90d82448-problem",
-      "reward_family_id": "erdos-779",
+      "reward_target_id": "fc-target:Erdos779.erdos_779",
       "source_indices": [
         1658
       ],
@@ -2804,7 +2804,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos82-erdos-82-e394fa915e404e3244542bd82c1df654-problem",
-      "reward_family_id": "erdos-82",
+      "reward_target_id": "fc-target:Erdos82.erdos_82",
       "source_indices": [
         1678
       ],
@@ -2823,7 +2823,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos82-erdos-82-e394fa915e404e3244542bd82c1df654-problem",
-      "reward_family_id": "erdos-82",
+      "reward_target_id": "fc-target:Erdos82.erdos_82",
       "source_indices": [
         1678
       ],
@@ -2842,7 +2842,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-i-1a5d658cd63142aeef2ba37a5c8dcaae-problem",
-      "reward_family_id": "erdos-853",
+      "reward_target_id": "fc-target:Erdos853.erdos_853.parts.i",
       "source_indices": [
         1728
       ],
@@ -2861,7 +2861,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-i-1a5d658cd63142aeef2ba37a5c8dcaae-problem",
-      "reward_family_id": "erdos-853",
+      "reward_target_id": "fc-target:Erdos853.erdos_853.parts.i",
       "source_indices": [
         1728
       ],
@@ -2880,7 +2880,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-ii-1e1d345a4e7c1efed48161a4445543a2-problem",
-      "reward_family_id": "erdos-853",
+      "reward_target_id": "fc-target:Erdos853.erdos_853.parts.ii",
       "source_indices": [
         1729
       ],
@@ -2899,7 +2899,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-ii-1e1d345a4e7c1efed48161a4445543a2-problem",
-      "reward_family_id": "erdos-853",
+      "reward_target_id": "fc-target:Erdos853.erdos_853.parts.ii",
       "source_indices": [
         1729
       ],
@@ -2918,7 +2918,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos859-erdos-859-b7d32675040200133cf098145ed5beda-problem",
-      "reward_family_id": "erdos-859",
+      "reward_target_id": "fc-target:Erdos859.erdos_859",
       "source_indices": [
         1732
       ],
@@ -2937,7 +2937,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos859-erdos-859-b7d32675040200133cf098145ed5beda-problem",
-      "reward_family_id": "erdos-859",
+      "reward_target_id": "fc-target:Erdos859.erdos_859",
       "source_indices": [
         1732
       ],
@@ -2956,7 +2956,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-parts-ii-4afc36cbed6aad05a7124a8a79acc670-problem",
-      "reward_family_id": "erdos-887",
+      "reward_target_id": "fc-target:Erdos887.erdos_887.parts.ii",
       "source_indices": [
         1763
       ],
@@ -2975,7 +2975,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-parts-ii-4afc36cbed6aad05a7124a8a79acc670-problem",
-      "reward_family_id": "erdos-887",
+      "reward_target_id": "fc-target:Erdos887.erdos_887.parts.ii",
       "source_indices": [
         1763
       ],
@@ -2994,7 +2994,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos889-erdos-889-21daf3bbb36f5dead411ac35a7d343b6-problem",
-      "reward_family_id": "erdos-889",
+      "reward_target_id": "fc-target:Erdos889.erdos_889",
       "source_indices": [
         1770
       ],
@@ -3013,7 +3013,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos889-erdos-889-21daf3bbb36f5dead411ac35a7d343b6-problem",
-      "reward_family_id": "erdos-889",
+      "reward_target_id": "fc-target:Erdos889.erdos_889",
       "source_indices": [
         1770
       ],
@@ -3032,7 +3032,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-general-3fcde11f1c3918b71b8fd5828de223bc-problem",
-      "reward_family_id": "erdos-889",
+      "reward_target_id": "fc-target:Erdos889.erdos_889.variants.general",
       "source_indices": [
         1772
       ],
@@ -3051,7 +3051,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-general-3fcde11f1c3918b71b8fd5828de223bc-problem",
-      "reward_family_id": "erdos-889",
+      "reward_target_id": "fc-target:Erdos889.erdos_889.variants.general",
       "source_indices": [
         1772
       ],
@@ -3070,7 +3070,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos89-erdos-89-24491d42569331b2e4a341cf07bbdac4-problem",
-      "reward_family_id": "erdos-89",
+      "reward_target_id": "fc-target:Erdos89.erdos_89",
       "source_indices": [
         1775
       ],
@@ -3089,7 +3089,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos89-erdos-89-24491d42569331b2e4a341cf07bbdac4-problem",
-      "reward_family_id": "erdos-89",
+      "reward_target_id": "fc-target:Erdos89.erdos_89",
       "source_indices": [
         1775
       ],
@@ -3108,7 +3108,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos912-erdos-912-6d21b91c8a36cc79cc074967967701c0-problem",
-      "reward_family_id": "erdos-912",
+      "reward_target_id": "fc-target:Erdos912.erdos_912",
       "source_indices": [
         1824
       ],
@@ -3127,7 +3127,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos912-erdos-912-6d21b91c8a36cc79cc074967967701c0-problem",
-      "reward_family_id": "erdos-912",
+      "reward_target_id": "fc-target:Erdos912.erdos_912",
       "source_indices": [
         1824
       ],
@@ -3146,7 +3146,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-tao-8a2e7d704e36b512d651bda9bd3f1779-problem",
-      "reward_family_id": "erdos-912",
+      "reward_target_id": "fc-target:Erdos912.erdos_912.variants.tao",
       "source_indices": [
         1826
       ],
@@ -3165,7 +3165,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-tao-8a2e7d704e36b512d651bda9bd3f1779-problem",
-      "reward_family_id": "erdos-912",
+      "reward_target_id": "fc-target:Erdos912.erdos_912.variants.tao",
       "source_indices": [
         1826
       ],
@@ -3184,7 +3184,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-variants-infinite-many-8p-sq-sub-one-primes-2a84e5d5c549eb934cb6aff720c4d666-problem",
-      "reward_family_id": "erdos-913",
+      "reward_target_id": "fc-target:Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes",
       "source_indices": [
         1829
       ],
@@ -3203,7 +3203,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-variants-infinite-many-8p-sq-sub-one-primes-2a84e5d5c549eb934cb6aff720c4d666-problem",
-      "reward_family_id": "erdos-913",
+      "reward_target_id": "fc-target:Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes",
       "source_indices": [
         1829
       ],
@@ -3222,7 +3222,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos932-erdos-932-b99f80cb9f93d719e55399bb23cb9025-problem",
-      "reward_family_id": "erdos-932",
+      "reward_target_id": "fc-target:Erdos932.erdos_932",
       "source_indices": [
         1855
       ],
@@ -3241,7 +3241,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos932-erdos-932-b99f80cb9f93d719e55399bb23cb9025-problem",
-      "reward_family_id": "erdos-932",
+      "reward_target_id": "fc-target:Erdos932.erdos_932",
       "source_indices": [
         1855
       ],
@@ -3260,7 +3260,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos952-erdos-952-09c5fcfcdcbea44371d5b051bfd1a715-problem",
-      "reward_family_id": "erdos-952",
+      "reward_target_id": "fc-target:Erdos952.erdos_952",
       "source_indices": [
         1912
       ],
@@ -3279,7 +3279,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos952-erdos-952-09c5fcfcdcbea44371d5b051bfd1a715-problem",
-      "reward_family_id": "erdos-952",
+      "reward_target_id": "fc-target:Erdos952.erdos_952",
       "source_indices": [
         1912
       ],
@@ -3298,7 +3298,7 @@
       "completion_policy": "all_of",
       "mode": "formalized",
       "problem_id": "fc-379fc029-erdos982-erdos-982-555000ddcb0a0a3daf825f72d4df63dd-problem",
-      "reward_family_id": "erdos-982",
+      "reward_target_id": "fc-target:Erdos982.erdos_982",
       "source_indices": [
         1961
       ],
@@ -3317,7 +3317,7 @@
       "completion_policy": "all_of",
       "mode": "counterexample",
       "problem_id": "fc-379fc029-erdos982-erdos-982-555000ddcb0a0a3daf825f72d4df63dd-problem",
-      "reward_family_id": "erdos-982",
+      "reward_target_id": "fc-target:Erdos982.erdos_982",
       "source_indices": [
         1961
       ],
@@ -3353,12 +3353,12 @@
       ],
       "multi_target_tasks": 0,
       "one_reward_per_problem": true,
-      "one_reward_per_reward_family": true,
+      "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
       "pool_size": 148,
       "retired_source_theorems_sha256": "sha256:73eddc5857f58e02922cbaeaaf3fad04e0bcec5a950d0ff61321844ab3f8e6b5",
-      "reward_family_count": 55,
-      "reward_family_policy": "stable-erdos-number-v1",
+      "reward_target_count": 74,
+      "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-erdos-direct-propositions-v1",
       "selection_audit_sha256": "sha256:8c64342b582b91d37a066d2dbbf25dde0a5915f1ad31d7255abcbf0398eac5ac",
       "source_category": "research open",
@@ -3369,7 +3369,7 @@
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:c5765d22412bba70cfefa188f9d73b1a680698bfd1f6f49e035809911d18b2b6"
+      "task_targets_sha256": "sha256:6e891a134f05c4dede4f8daffd2fc683c0529dc499f2ab1223959e134d8f57f6"
     }
   }
 }

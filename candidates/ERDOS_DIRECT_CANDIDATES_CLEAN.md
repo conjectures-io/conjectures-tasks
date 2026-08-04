@@ -12,7 +12,8 @@ passed the semantic audit plus four declarations repaired by the accompanying so
 
 These are the 45 additions to the single-tier release. Every entry is a named part or variant
 rather than a complete numbered problem. Each receives its own proof/refutation task pair and commit-specific
-`problem_id`, but all targets under the same Erdős number share a stable `reward_family_id`.
+`problem_id`, plus a stable per-target `reward_target_id` shared only by that pair across source
+repins.
 
 The declaration names below omit the `ErdosN.erdos_N.` prefix.
 
@@ -68,5 +69,5 @@ The declaration names below omit the `ErdosN.erdos_N.` prefix.
 
 The source patch is applied at the pinned derived commit, the catalog has been regenerated, and all
 45 targets passed the direct-proposition and collision gates. They are admitted into the same tier
-as the existing 29 targets without creating duplicate rewards: variants and parts share the
-numbered problem's stable reward family, including the seven overlapping families.
+as the existing 29 targets. Every independently formalized part or variant is an independent
+bounty target; only its proof/refutation pair shares one reward identity.
