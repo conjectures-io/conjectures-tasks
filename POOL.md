@@ -2,8 +2,8 @@
 
 The checked-in task pool is a deny-by-default set of exact Formal Conjectures
 proof and counterexample targets for the production verifier and subnet submission protocol. Tasks
-are organized into explicit tiers. The allowlist commits the tier of every source
-and bundle, so moving a task between tiers is a reviewed policy change.
+retain a tier field for release compatibility. The current pool has one tier, and that label does
+not rank, price, or otherwise distinguish targets.
 
 ## Layout
 
@@ -12,9 +12,9 @@ and bundle, so moving a task between tiers is a reviewed policy change.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release has two tiers: `tier-1` for complete numbered statements and `tier-2` for
-audited parts and variants. Additional tiers can be added without renaming the pool or weakening
-deny-by-default validation.
+The current release places all 74 audited targets in `tier-1`, including both complete numbered
+statements and independently meaningful parts or variants. Additional tiers may be introduced
+later, but no tier distinction is active now.
 
 The current wide candidate count and the policy changes required to reach 500
 tasks are documented in [`CANDIDATE_AUDIT.md`](CANDIDATE_AUDIT.md).
@@ -38,16 +38,15 @@ Each admitted theorem target must:
 - contain no `sorryAx` term or answer annotation in its type;
 - have no formal-proof metadata or exact collision with a cataloged proved
   theorem;
-- satisfy the selection and freshness rules declared by its tier;
+- satisfy the common selection and freshness rules;
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. Partial results, numbered parts, variants, candidate
-bounds, and multi-target bundles are excluded from `tier-1`; `tier-2` admits only the 45 named
-parts and variants that passed the semantic audit. Answer wrappers and multi-target bundles remain
-excluded from both tiers.
+Each task contains one exact canonical theorem. The pool includes complete statements and the 45
+named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
+and multi-target bundles remain excluded.
 
-The `tier-1` selection has a separate solver-oriented audit. Every source:
+The shared selection has a solver-oriented audit. Every source:
 
 - is an Erdős problem;
 - is still marked `research open` on the reviewed upstream `main`;
@@ -61,9 +60,9 @@ The `tier-1` selection has a separate solver-oriented audit. Every source:
   standard Mathlib surface.
 
 No Formal Conjectures source family is excluded at the pool level. In particular,
-Written on the Wall II conjectures may be included in a future tier after the same
-open-status, pull-request, collision, and compiled-target checks. The current
-`tier-1` selection happens to contain only Erdős problems.
+Written on the Wall II conjectures may be included in a future release after the same open-status,
+pull-request, collision, and compiled-target checks. The current selection contains only Erdős
+problems.
 
 The pool creates one `formalized`/`counterexample` pair for every admitted theorem.
 Both bundles have distinct task IDs and commitments but share one deterministic, source-pinned
@@ -79,9 +78,8 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains 58 task bundles covering 29 complete Erdős targets from 29 source files.
-`tier-2` contains 90 bundles covering 45 audited parts or variants from 33 source files. Every
-bundle has exactly one theorem target. The 74 theorem targets map to 55 stable reward families;
+`tier-1` contains all 148 task bundles covering 74 audited Erdős targets. Every bundle has exactly
+one theorem target. The 74 theorem targets map to 55 stable reward families;
 acceptance of any target in a family closes that family's reward.
 
 The GitHub review covered all 281 open pull requests visible at audit time and
@@ -96,12 +94,11 @@ manageable formal surface. They do not establish that the conjecture is easy,
 guarantee that it can be solved, prove fidelity to its informal source, or
 determine a reward.
 
-`allowlist.json` commits to every task bundle, target type, and tier. The subnet
-miner accepts only those exact commitments. Within each tier:
+`allowlist.json` commits to every task bundle, target type, and tier. The subnet miner accepts only
+those exact commitments. For the single active tier:
 
 - `selection-audit.json` records upstream status and feasibility review;
-- `whole-problem-targets.json` or `subproblem-targets.json` records the exact target selection and
-  stable reward-family mapping;
+- `task-targets.json` records the exact target selection and stable reward-family mapping;
 - `task-groups.json` records any grouped tasks (`tier-1` has none);
 - `retired-source-theorems.json` prevents retired sources and canonical types
   from being selected again.
@@ -111,8 +108,8 @@ in each task's metadata for site rendering.
 
 ## Rebuilding
 
-The validator's `scripts/rebuild_task_pool.py` loads both checked-in selection audits and target policies, builds
-every target in both tiers, and
+The validator's `scripts/rebuild_task_pool.py` loads the checked-in selection audit and target
+policy, builds every target in the active tier, and
 inspects the result. It refuses to overwrite an existing task directory or
 allowlist. Generate into fresh staging paths, review the selection and hashes,
 and only then replace the published tier and pool-wide allowlist.
@@ -120,7 +117,7 @@ and only then replace the published tier and pool-wide allowlist.
 Production operates one active pinned pool. For a release, pause admissions and
 wait until no submission is queued, running, retryable, awaiting review, or
 awaiting reward processing. Then update the Formal Conjectures, Lean, Mathlib,
-and verifier dependency pins together, regenerate and audit the tiers and
+and verifier dependency pins together, regenerate and audit the tier and
 commitments, run the full test suite, and atomically activate the rebuilt pool
 and verifier image before reopening admissions. A failed update leaves the
 existing pins active. Historical pin values, task digests, tier assignments, and

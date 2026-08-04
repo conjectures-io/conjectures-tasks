@@ -2,7 +2,7 @@
   "schema_version": 1,
   "audit_date_utc": "2026-07-28",
   "formal_conjectures_commit": "f7349f32ba6df6e7b7baf77467a3c6c7777a634d",
-  "candidate_policy": "Direct research-open theorem or lemma; not in a retired release; current structured Erdős status allowed; passed the preliminary path-level PR screen; excludes the 29 current tier-1 tasks. Row-level rejection and hold decisions are recorded separately.",
+  "candidate_policy": "Direct research-open theorem or lemma; not in a retired release; current structured Erdős status allowed; passed the preliminary path-level PR screen; excludes the 29 tasks admitted at the audit boundary. Row-level rejection and hold decisions are recorded separately.",
   "candidate_count": 274,
   "remaining_after_exact_shape_rescan": 251,
   "provisional_remaining_after_manual_decisions": 249,

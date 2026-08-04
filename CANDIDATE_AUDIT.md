@@ -14,7 +14,7 @@ compilation checks.
 
 After freshness, current Erdős statuses, and the conservative
 resolution/correction PR screen, the first pass produced 303 declarations in
-186 source files, including the 29 current `tier-1` reward problems. Deeper review then:
+186 source files, including the 29 targets in the pool at that audit point. Deeper review then:
 
 - removed 21 answer-hole declarations missed by the first parser;
 - removed two `type_of%` aliases that merely point at canonical conjectures;
@@ -24,7 +24,7 @@ resolution/correction PR screen, the first pass produced 303 declarations in
   exact theorem signature.
 
 That leaves a **provisional ceiling of 278 total direct tasks across 168 source
-files**, including the current 29, or **at most 249 additional tasks**. This is
+files**, including those 29, or **at most 249 additional tasks**. This is
 still a review queue, not a certified admission set.
 
 The complete row-level inventory is in
@@ -177,8 +177,8 @@ classes and must not be counted as usable without new verifier support.
 
 ## Recommendation
 
-Keep `tier-1` as 29 compiled whole-problem rewards with 58 paired task bundles.
-Continue reviewing the 249 provisional additional direct candidates, expecting
+Keep the current single tier restricted to compiled and semantically audited direct propositions.
+Continue reviewing the remaining provisional direct candidates, expecting
 the count to fall during compiled, grouping, and mathematical review. Treat a 500-task target as
 a later protocol project:
 it requires an answer-wrapper tier with solver-selected polarity, not merely a

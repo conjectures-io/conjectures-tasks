@@ -10,8 +10,8 @@ This is the source-faithful replacement for the 68-declaration provisional Erdő
 contains **45 open direct propositions from 33 numbered source files**: the 41 declarations that
 passed the semantic audit plus four declarations repaired by the accompanying source patch.
 
-These are the exact `tier-2` release targets. Every entry is a named part or variant rather than a
-complete numbered problem. Each receives its own proof/refutation task pair and commit-specific
+These are the 45 additions to the single-tier release. Every entry is a named part or variant
+rather than a complete numbered problem. Each receives its own proof/refutation task pair and commit-specific
 `problem_id`, but all targets under the same Erdős number share a stable `reward_family_id`.
 
 The declaration names below omit the `ErdosN.erdos_N.` prefix.
@@ -67,6 +67,6 @@ The declaration names below omit the `ErdosN.erdos_N.` prefix.
 ## Release disposition
 
 The source patch is applied at the pinned derived commit, the catalog has been regenerated, and all
-45 targets passed the direct-proposition and collision gates. They are admitted as tier 2 without
-creating duplicate rewards: variants and parts share the numbered problem's stable reward family,
-including the seven families already represented in tier 1.
+45 targets passed the direct-proposition and collision gates. They are admitted into the same tier
+as the existing 29 targets without creating duplicate rewards: variants and parts share the
+numbered problem's stable reward family, including the seven overlapping families.
