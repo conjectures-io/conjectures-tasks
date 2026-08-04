@@ -30,8 +30,8 @@
   "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/274.lean",
   "supported_modes": [
-    "positive",
-    "negative"
+    "formalized",
+    "counterexample"
   ],
   "theorem": "Erdos274.herzog_schonheim",
   "transitive_axioms": [

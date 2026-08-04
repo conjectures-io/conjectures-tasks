@@ -26,8 +26,8 @@
   "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/1107.lean",
   "supported_modes": [
-    "positive",
-    "negative"
+    "formalized",
+    "counterexample"
   ],
   "theorem": "Erdos1107.erdos_1107",
   "transitive_axioms": [

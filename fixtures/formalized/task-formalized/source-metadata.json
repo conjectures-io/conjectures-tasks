@@ -1,17 +1,11 @@
 {
   "adapter_version": 1,
   "ams_subjects": [],
-  "answer_occurrences": [
-    {
-      "expression_pretty": "sorry",
-      "kind": "Prop",
-      "type_pretty": "Prop"
-    }
-  ],
+  "answer_occurrences": [],
   "category": "test",
-  "classification": "PROP_ANSWER_WRAPPER",
-  "contains_answer_annotation": true,
-  "contains_sorry_in_type": true,
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
   "contains_sorry_in_value": true,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
@@ -26,13 +20,13 @@
   "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "lean/TestFixtures.lean",
   "supported_modes": [
-    "positive",
-    "negative"
+    "formalized",
+    "counterexample"
   ],
-  "theorem": "VerifierFixtures.propAnswer",
+  "theorem": "VerifierFixtures.direct",
   "transitive_axioms": [
     "sorryAx"
   ],
-  "type_hash": "sha256:aa864ffefa191707d65db1c275f41698b5e8f66a7982136b577c79c06031215d",
+  "type_hash": "sha256:3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
   "type_pretty": "fixture"
 }

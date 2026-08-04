@@ -25,8 +25,8 @@
   "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/218.lean",
   "supported_modes": [
-    "positive",
-    "negative"
+    "formalized",
+    "counterexample"
   ],
   "theorem": "Erdos218.erdos_218.variants.infinite_equal_prime_gap",
   "transitive_axioms": [
