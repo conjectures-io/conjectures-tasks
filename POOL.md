@@ -108,8 +108,9 @@ in each task's metadata for site rendering.
 
 ## Rebuilding
 
-The validator's `scripts/rebuild_task_pool.py` loads the checked-in selection audit and target
-policy, builds every target in the active tier, and
+This repository's `scripts/rebuild_task_pool.py` loads the checked-in selection audit and target
+policy, uses the separately checked-out validator implementation to build every target in the
+active tier, and
 inspects the result. It refuses to overwrite an existing task directory or
 allowlist. Generate into fresh staging paths, review the selection and hashes,
 and only then replace the published tier and pool-wide allowlist.
