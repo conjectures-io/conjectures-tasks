@@ -17,7 +17,7 @@ the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
 configuration requires a new task id and commitment. The deny-by-default allowlist, tier policy,
-selection audits, and candidate reviews live beside the bundles in this repository; see
+and selection audits live beside the bundles in this repository; see
 [`POOL.md`](POOL.md). The validator pins one exact tasks commit and consumes that release as a unit.
 
 Task selection, bundle generation, pool rebuilding, and fixture generation are owned here under

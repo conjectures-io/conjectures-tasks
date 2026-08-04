@@ -9,22 +9,13 @@ not rank, price, or otherwise distinguish targets.
 
 - `allowlist.json` is the pool-wide, machine-readable admission set.
 - `tiers/<tier>/` contains that tier's selection audit and policy inputs.
+- `source-patches/` contains pinned source corrections required to reproduce the audited snapshot.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
 The current release places all 74 audited targets in `tier-1`, including both complete numbered
 statements and independently meaningful parts or variants. Additional tiers may be introduced
 later, but no tier distinction is active now.
-
-The current wide candidate count and the policy changes required to reach 500
-tasks are documented in [`CANDIDATE_AUDIT.md`](CANDIDATE_AUDIT.md).
-
-The semantic and compilation review of the 42 numbered Erdős sources in the
-direct-candidate backlog is documented in
-[`candidates/ERDOS_42_FORMALIZATION_AUDIT.md`](candidates/ERDOS_42_FORMALIZATION_AUDIT.md).
-The resulting filtered replacement list and upstream correction patch are in
-[`candidates/ERDOS_DIRECT_CANDIDATES_CLEAN.md`](candidates/ERDOS_DIRECT_CANDIDATES_CLEAN.md) and
-[`candidates/formal-conjectures-erdos-audit-fixes.patch`](candidates/formal-conjectures-erdos-audit-fixes.patch).
 
 ## Admission policy
 
