@@ -8,8 +8,7 @@ not rank, price, or otherwise distinguish targets.
 ## Layout
 
 - `allowlist.json` is the pool-wide, machine-readable admission set.
-- `tiers/<tier>/` contains that tier's selection audit and policy inputs.
-- `source-patches/` contains pinned source corrections required to reproduce the audited snapshot.
+- `tiers/<tier>/` contains that tier's selection audit, policy inputs, and pinned source corrections.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
