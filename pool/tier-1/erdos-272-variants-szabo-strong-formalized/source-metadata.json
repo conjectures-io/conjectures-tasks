@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Szabo asks whether the maximal $t$ is given by\n$$\n  \\frac{N^2}{2} + O(N)\n$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«272»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/272](https://www.erdosproblems.com/272)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/272.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos272.erdos_272.variants.szabo_strong",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1b53f078ce5311f741606ee47a8235037e49794e856a66e40f33327d0cce9edf",
+  "type_pretty": "(fun N => ↑(Erdos272.maxArithInterCard N) - ↑N ^ 2 / 2) =O[Filter.atTop] fun N => ↑N"
+}

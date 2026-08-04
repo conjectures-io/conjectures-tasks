@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős [Er82c] conjectures that, if $k$ is fixed, then for all $n$ sufficiently large and all\npositive integers $m$, there must be at least $k$ distinct primes $p$ such that\n$p\\mid m(m+1)\\cdots (m+n)$ and yet $p^2$ does not divide the right hand side.\n\n[Er82c] Erdős, Paul, \"Miscellaneous problems in number theory\". Congr. Numer. (1982), 25-45.,\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«137»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/137](https://www.erdosproblems.com/137)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/137.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos137.erdos_137.variants.multiple_powerful_factors",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f630d4ae7677b1393b79fb0d5b8e12035e5b7237ef60b4315ff3a8cca50d62c4",
+  "type_pretty": "∀ (k : ℕ),\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (m : ℕ),\n      0 < m →\n        ∃ P,\n          P.card = k ∧ ∀ p ∈ P, Nat.Prime p ∧ p ∣ ∏ x ∈ Finset.Icc m (m + n), x ∧ ¬p ^ 2 ∣ ∏ x ∈ Finset.Icc m (m + n), x"
+}

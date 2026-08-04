@@ -25,11 +25,11 @@
     "[GuKa15](https://doi.org/10.4007/annals.2015.181.1.2) Guth, Larry and Katz, Nets Hawk. On the Erdős distinct distances problem in the plane. Ann. of Math. (2) 181 (2015), 155--190.",
     "[Mo52](https://doi.org/10.2307/2307105) Moser, Leo. On the different distances determined by $n$ points. Amer. Math. Monthly 59 (1952), 85--91."
   ],
-  "repository_commit": "e923379e609b9d5987011a1d1f06ec22ea25cd20",
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/89.lean",
   "supported_modes": [
-    "positive",
-    "negative"
+    "formalized",
+    "counterexample"
   ],
   "theorem": "Erdos89.erdos_89",
   "transitive_axioms": [

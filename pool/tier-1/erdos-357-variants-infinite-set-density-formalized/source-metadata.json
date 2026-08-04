@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Suppose $A$ is an infinite set such that all finite sums of consecutive terms of $A$ are distinct.\nThen it is conjectured that $A$ has density 0. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«357»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/357](https://www.erdosproblems.com/357)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/357.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos357.erdos_357.variants.infinite_set_density",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3c615fd37ffe35e2505e2abad44f7b5b042c5625563adb5fda0e60f4caec8364",
+  "type_pretty": "∀ (A : ℕ → ℕ), StrictMono A → Erdos357.HasDistinctSums A → (Set.range A).HasDensity 0"
+}

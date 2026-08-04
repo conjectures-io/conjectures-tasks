@@ -23,11 +23,11 @@
     "[erdosproblems.com/1107](https://www.erdosproblems.com/1107)",
     "[He88](https://oeis.org/A187054) Heath-Brown, D. R., Ternary quadratic forms and sums of three square-full numbers. (1988)"
   ],
-  "repository_commit": "e923379e609b9d5987011a1d1f06ec22ea25cd20",
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
   "source_path": "FormalConjectures/ErdosProblems/1107.lean",
   "supported_modes": [
-    "positive",
-    "negative"
+    "formalized",
+    "counterexample"
   ],
   "theorem": "Erdos1107.erdos_1107",
   "transitive_axioms": [

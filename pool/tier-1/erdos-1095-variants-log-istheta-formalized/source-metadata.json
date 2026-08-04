@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Sorenson, Sorenson, and Webster [SSWE20] give heuristic evidence that $\\log g(k) \\asymp \\frac{k}{\\log k}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1095»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1095](https://www.erdosproblems.com/1095)",
+    "[EES74] Ecklund, Jr., E. F. and Erd\\H{o}s, P. and Selfridge, J. L., A new function associated with the prime factors of {$(\\sp{n}\\sb{k})$}. Math. Comp. (1974), 647--649.",
+    "[ELS93] Erdős, P. and Lacampagne, C. B. and Selfridge, J. L., Estimates of the least prime factor of a binomial coefficient. Math. Comp. (1993), 215--224.",
+    "[GrRa96] Granville, Andrew and Ramaré, Olivier, Explicit bounds on exponential sums and the scarcity of squarefree binomial coefficients. Mathematika (1996), 73--107.",
+    "[Ko99b] Konyagin, S. V., Estimates of the least prime factor of a binomial coefficient. Mathematika (1999), 41--55.",
+    "[SSW20] Sorenson, Brianna and Sorenson, Jonathan and Webster, Jonathan, An algorithm and estimates for the {E}rdős-{S}elfridge function. (2020), 371--385."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1095.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1095.erdos_1095.variants.log_isTheta",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8c6b1dff26369eee096133e410b35d7a3fcf94d748f974cf22d47f61eb69f601",
+  "type_pretty": "(fun k => Real.log ↑(Erdos1095.g k)) =Θ[Filter.atTop] fun k => ↑k / Real.log ↑k"
+}
