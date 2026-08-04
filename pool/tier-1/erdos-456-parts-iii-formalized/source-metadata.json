@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are there infinitely many primes $p$ such that $p-1$ is the only $n$ for which $m_n=p$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«456»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/456](https://www.erdosproblems.com/456)",
+    "[Er79e] Erdős, Paul, Some unconventional problems in number theory. Astérisque (1979), 73--82."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/456.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos456.erdos_456.parts.iii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8ceaf9e76ee4bcdc74fdb1532edaca6f235386adaeeadd88e0407a41a4107a18",
+  "type_pretty": "True ↔ {q | Nat.Prime q ∧ ∀ (n : ℕ), Erdos456.m n = q ↔ n = q - 1}.Infinite"
+}

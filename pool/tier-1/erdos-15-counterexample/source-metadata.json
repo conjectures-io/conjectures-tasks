@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that $\\sum_{n=1}^\\infty(-1)^n\\frac{n}{p_n}$ converges,\nwhere $p_n$ is the sequence of primes?\n\nNote: In the problem statement, $p_n$ is the $n$-th prime, indexed such that $p_1=2, p_2=3, \\ldots$.\nWe 0-index here to reflect how Nat.nth works.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«15»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/15](https://www.erdosproblems.com/15)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/15.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos15.erdos_15",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:fe6c809775c5e2a2fe8ac769e6b1da07de51b55d65e5aaf3fc8fa41d15a227ef",
+  "type_pretty": "True ↔ Summable fun k => (-1) ^ (k + 1) * (↑k + 1) / ↑(Nat.nth Nat.Prime k)"
+}

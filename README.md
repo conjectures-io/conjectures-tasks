@@ -11,7 +11,7 @@ bundle contains its challenge, manifest, comparator
 configuration, trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 148 bundles: proof/refutation pairs for 74 audited
+The current snapshot contains one tier with 248 bundles: proof/refutation pairs for 124 audited
 direct propositions. The tier label is retained for compatibility and does not rank or classify
 the targets.
 

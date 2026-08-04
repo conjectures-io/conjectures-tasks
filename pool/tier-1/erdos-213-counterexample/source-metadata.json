@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $n \\geq 4$. Are there $n$ points in $\\mathbb{R}^2$, no three on a line and no four on a circle,\nsuch that all pairwise distances are integers?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«213»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/213](https://www.erdosproblems.com/213)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/213.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos213.erdos_213",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c9cf524700e14d4dd7b374b0448dd2ab0eeefde35c4567aba82d9151e52ea302",
+  "type_pretty": "True ↔ ∀ n ≥ 4, Erdos213.Erdos213For n"
+}

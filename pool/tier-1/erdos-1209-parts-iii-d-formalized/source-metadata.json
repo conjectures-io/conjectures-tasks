@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are there $n$ such that $n+2^{2^k}$ is infinitely often squarefree?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1209»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/429](https://www.erdosproblems.com/429)",
+    "[erdosproblems.com/1102](https://www.erdosproblems.com/1102)",
+    "[erdosproblems.com/1209](https://www.erdosproblems.com/1209)",
+    "[Er80] Erdős, Paul, A survey of problems in combinatorial number theory. Ann. Discrete Math. (1980), 89-115."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1209.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1209.erdos_1209.parts.iii.d",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:e789aec3354065553035a6104a2473dbd2bc783e54f06ab500b85ab7b944a37a",
+  "type_pretty": "True ↔ ∃ n, {k | Squarefree (n + 2 ^ 2 ^ k)}.Infinite"
+}

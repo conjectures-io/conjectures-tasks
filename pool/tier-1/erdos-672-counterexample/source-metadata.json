@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can the product of an arithmetic progression of positive integers $n, n + d, ..., n + (k - 1)d$\nof length ≥ 4, with $(n, d) = 1$, be a perfect power?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«672»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/672](https://www.erdosproblems.com/672)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/672.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos672.erdos_672",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c445617cb40577954b07647947103591146b81f79e29b214a02745fc58e09a1a",
+  "type_pretty": "True ↔ ∀ (k l : ℕ), l > 1 → k ≥ 4 → Erdos672.Erdos672With k l"
+}

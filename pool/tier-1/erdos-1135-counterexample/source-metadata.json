@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11,
+    37
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The Collatz conjecture states that for any positive integer $n$, there exists a natural\nnumber $m$ such that the $m$-th term of the sequence is 1. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1135»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1135](https://www.erdosproblems.com/1135)",
+    "[Gu04] Guy, Richard K., Unsolved problems in number theory. (2004), xviii+437.",
+    "[La10] Lagarias, Jeffrey C., The {$3x+1$} problem: an overview. (2010), 3--29.",
+    "[La16] Lagarias, Jeffrey C., Erdős, Klarner, and the {$3x+1$} problem. Amer. Math. Monthly (2016), 753--776.",
+    "[La85] Lagarias, Jeffrey C., The {$3x+1$} problem and its generalizations. Amer. Math. Monthly (1985), 3--23."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1135.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1135.erdos_1135",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9ffc8897c27defc5d7172af89e2ab650c7e4404ff0e126a051d0dda128bd112d",
+  "type_pretty": "∀ n > 0, ∃ m, CollatzConjecture.collatzStep^[m] n = 1"
+}

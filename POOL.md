@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 74 audited targets in `tier-1`, including both complete numbered
+The current release places all 124 audited targets in `tier-1`, including both complete numbered
 statements and independently meaningful parts or variants. Additional tiers may be introduced
 later, but no tier distinction is active now.
 
@@ -32,7 +32,7 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 45
+Each task contains one exact canonical theorem. The pool includes complete statements and the 62
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
@@ -69,13 +69,19 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 148 task bundles covering 74 audited Erdős targets. Every bundle has exactly
+`tier-1` contains all 248 task bundles covering 124 audited Erdős targets. Every bundle has exactly
 one theorem target and every theorem target has its own stable reward identity.
 
-The GitHub review covered all 281 open pull requests visible at audit time and
+The GitHub review covered all 297 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
 pinned check against the Erdős Problems database excludes parent problems
 recorded as solved.
+
+For the 50 targets added in the 2026-08-04 audit, the source references, tracker
+discussion, and exact/problem-number literature searches disclosed no published
+solution. Their live Erdős Problems pages also reported zero claimed proofs.
+This is a dated negative-result screen, not proof that no obscure or unpublished
+argument exists.
 
 “Plausibly attackable” is a comparative solver-target screen, not a promise.
 These checks establish that a task is well-formed, remained upstream-open at the

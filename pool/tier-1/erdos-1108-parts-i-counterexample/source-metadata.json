@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For each $k \\geq 2$, does the set $A = \\left\\{ \\sum_{n\\in S}n! : S\\subset \\mathbb{N}\\text{ finite}\\right\\}$ of all finite sums of distinct factorials contain only finitely many $k$-th powers?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1108»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1108](https://www.erdosproblems.com/1108)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1108.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1108.erdos_1108.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2dee53b6faa8d3676ee111b2eb243b2145b0cd6066cab56218fa7ce45750f3a9",
+  "type_pretty": "True ↔ ∀ k ≥ 2, {a | a ∈ Erdos1108.FactorialSums ∧ ∃ m, m ^ k = a}.Finite"
+}

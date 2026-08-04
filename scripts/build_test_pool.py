@@ -1,6 +1,6 @@
 """Build a one-problem task pool whose counterexample task is actually provable.
 
-Development only. The audited pool is 74 open theorem targets in two modes each, and by design none
+Development only. The audited pool is 124 open theorem targets in two modes each, and by design none
 of them can be proved — so it cannot demonstrate that the pipeline reaches `accepted=true`. This builds
 a separate pool, with its own allowlist, that can:
 

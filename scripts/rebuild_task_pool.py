@@ -24,7 +24,6 @@ sys.path.insert(0, str(VALIDATOR_ROOT))
 
 from verifier.catalog import load_catalog
 from verifier.task_pool import (
-    DEFAULT_TIER_SIZE,
     build_task_allowlist,
     group_task_declarations,
     load_retired_sources,
@@ -125,7 +124,7 @@ def main() -> int:
             retired=retired,
             selection_audit=selection_audit,
             task_targets=task_targets,
-            pool_size=DEFAULT_TIER_SIZE,
+            pool_size=len(task_targets.targets),
         )
         grouping = load_task_grouping(metadata / "task-groups.json")
         selected = group_task_declarations(selected_declarations, grouping)

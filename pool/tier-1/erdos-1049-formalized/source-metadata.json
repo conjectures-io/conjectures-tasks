@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $t>1$ be a rational number. Is\n$\\sum_{n=1}^\\infty\\frac{1}{t^n-1}=\\sum_{n=1}^\\infty \\frac{\\tau(n)}{t^n}$ irrational, where\n$\\tau(n)$ counts the divisors of $n$?\n\nA conjecture of Chowla.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1049»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1049](https://www.erdosproblems.com/1049)",
+    "[Er48] Erdős, P., On arithmetical properties of Lambert series. J. Indian Math. Soc. (N.S.) (1948), 63-66."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1049.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1049.erdos_1049",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:61984f4bfedd1c5545e45fb8e9221223367c3dd8e5342548f8aa5bed543f9431",
+  "type_pretty": "True ↔ ∀ t > 1, Irrational (∑' (n : ℕ+), 1 / (↑t ^ ↑n - 1))"
+}

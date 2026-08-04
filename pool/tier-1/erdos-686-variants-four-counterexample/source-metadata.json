@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can $4$ be written as\n$$4=\\frac{\\prod_{1\\leq i\\leq k}(m+i)}{\\prod_{1\\leq i\\leq k}(n+i)}$$\nfor some $k≥2$ and $m≥n+k$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«686»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/686](https://www.erdosproblems.com/686)",
+    "[Er79d] Erdős, P., *Some unconventional problems in number theory*. Acta Math. Acad. Sci. Hungar. (1979), 71-80."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/686.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos686.erdos_686.variants.four",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ba400ba0844a1182de84df5aa217255c4343091b3aec968e35793bb0e75e8db2",
+  "type_pretty": "True ↔ ∃ k ≥ 2, ∃ n, ∃ m ≥ n + k, 4 = ↑(∏ i ∈ Finset.Icc 1 k, (m + i)) / ↑(∏ i ∈ Finset.Icc 1 k, (n + i))"
+}
