@@ -40,23 +40,36 @@ from verifier.workspace import target_validator
 
 TIER_NAME = "tier-1"
 
-ERDOS_NUMBER = re.compile(r"/ErdosProblems/(?P<number>[0-9]+)\.lean$")
+NUMBERED_SOURCE = re.compile(
+    r"/(?P<family>ErdosProblems|GreensOpenProblems)/(?P<number>[0-9]+)\.lean$"
+)
+SOURCE_DIRECTORY_PREFIX = {
+    "ErdosProblems": "erdos",
+    "GreensOpenProblems": "green",
+}
 
 
 def task_directory_name(manifest) -> str:
     """A readable storage label; the manifest's task ID remains the protocol identity."""
-    match = ERDOS_NUMBER.search("/" + manifest.source_path)
+    match = NUMBERED_SOURCE.search("/" + manifest.source_path)
     if match is None:
         return manifest.task_id
     number = match.group("number")
-    marker = f"erdos_{number}."
-    local = (
-        manifest.source_theorem.split(marker, 1)[1]
-        if marker in manifest.source_theorem
-        else ""
-    )
+    source_prefix = SOURCE_DIRECTORY_PREFIX[match.group("family")]
+    if source_prefix == "erdos":
+        marker = f"erdos_{number}."
+        local = (
+            manifest.source_theorem.split(marker, 1)[1]
+            if marker in manifest.source_theorem
+            else ""
+        )
+    else:
+        _namespace, _separator, local = manifest.source_theorem.partition(".")
+        marker = f"{source_prefix}_{number}"
+        if local.startswith(marker):
+            local = local.removeprefix(marker).lstrip("._")
     suffix = re.sub(r"[^A-Za-z0-9]+", "-", local).strip("-").lower()
-    parts = [f"erdos-{number}"]
+    parts = [f"{source_prefix}-{number}"]
     if suffix:
         parts.append(suffix)
     parts.append(manifest.task_mode)

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Problem 9 (ii): is $r_5(N) \\ll N(\\log N)^{-c}$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«9»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.9)",
+    "[BlSi20] Bloom, Thomas F., and Olof Sisask. \"Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions.\" arXiv preprint arXiv:2007.03528 (2020)."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green9.green_9_ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5",
+  "type_pretty": "True ↔ ∃ c > 0, (fun N => ↑(Green9.r 5 N)) =O[Filter.atTop] fun N => ↑N * Real.log ↑N ^ (-c)"
+}

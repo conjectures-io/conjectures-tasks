@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Given $n$ points in the unit disc, must there be a triangle of area at most $n^{-2+o(1)}$\ndetermined by them?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«77»",
+  "pointer_target": null,
+  "references": [
+    "[Ben Green's Open Problem 77](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.77)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/77.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green77.green_77",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ab6ba97b85e3e5a17231c85dde2623f20be4d66977e4fad39685725e405733eb",
+  "type_pretty": "True ↔ ∃ o, Filter.Tendsto o Filter.atTop (nhds 0) ∧ Erdos507.α =O[Filter.atTop] fun n => ↑n ^ (-2 + o n)"
+}

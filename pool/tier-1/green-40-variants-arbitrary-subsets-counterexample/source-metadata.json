@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    94
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does $\\tilde{f}(r) \\to \\infty$? [Gr24] ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«40»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Ben Green's Open Problem 40](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.40)",
+    "[Da90] Davydov, Alexander Abramovich. \"Construction of linear covering codes.\" Problemy Peredachi Informatsii 26.4 (1990): 38-55.",
+    "[CHL97] Cohen, G., Honkala, I., Litsyn, S., & Lobstein, A. (1997). Covering codes (Vol. 54). Elsevier.",
+    "[St94] R. Struik, Covering codes, PhD Thesis, Eindhoven University of Technology, the Netherlands, 106 pp, 1994."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green40.green_40.variants.arbitrary_subsets",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d29e1e3a808151f496305c306c2123be6ea34e5e51aecc88b175e0e4a6ade912",
+  "type_pretty": "True ↔ Filter.Tendsto Green40.f_tilde Filter.atTop (nhds ⊤)"
+}
