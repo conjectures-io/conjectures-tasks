@@ -1,8 +1,11 @@
 # Source theorem retirements
 
+- `Erdos10.erdos_10.variants.grechuk` — 2026-08-06 — `SOLVED + NOT_OPEN (approved submission 244ff2d0 proves the published target; the informal claim follows from Crocker's published theorem on sums of a prime and two powers of 2 by the parity reduction the source docstring itself describes, so the target was not open when it was offered)`
 - `Erdos1055.erdos_1055.variants.erdos_limit` — 2026-08-05 — `TYPE_DEPENDS_ON_SORRY (Erdos1055.p := Nat.find (exists_p r), exists_p is sorried)`
 - `Erdos1055.erdos_1055.variants.selfridge_limit` — 2026-08-05 — `TYPE_DEPENDS_ON_SORRY (Erdos1055.p := Nat.find (exists_p r), exists_p is sorried)`
 - `Erdos1093.erdos_1093.parts.ii` — 2026-08-05 — `SOURCE_MISMATCH (Nat.smoothNumbers k means primes < k; erdosproblems.com/1093 defines k-smooth as primes ≤ k)`
 - `Erdos15.erdos_15` — 2026-08-05 — `SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over ℚ, so failure of ℚ-summability does not establish real divergence; the counterexample exploited this domain mismatch)`
+- `Erdos939.erdos_939` — 2026-08-06 — `SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)`
+- `Green42.green_42` — 2026-08-06 — `SOURCE_MISMATCH + EXPLOITABLE + SOLVED (SatisfiesCohnElkiesScheme omits continuity of f, so f 0 may be set at a single null point independently of fHat f 0 and any positive bound is attainable; submission aa57d955 exhibited a Gaussian modified only at the origin)`
 - `Green54.green_54` — 2026-08-05 — `SOURCE_MISMATCH (Green #54 is per-n on ℝ^n; formalization is a single statement on ℕ → ℝ with Measure.infinitePi gaussian — nonequivalent setting)`
 - `Green77.green_77` — 2026-08-05 — `SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give α(n) ≳ 1/n, refuting the formalized n^(−2+o(1)) claim by elementary geometry)`
