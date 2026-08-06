@@ -858,13 +858,6 @@
       "theorem": "Green24.variants.conjecture"
     },
     {
-      "reward_target_id": "fc-target:Green29.green_29",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/29.lean",
-      "source_problem_number": 29,
-      "theorem": "Green29.green_29"
-    },
-    {
       "reward_target_id": "fc-target:Green3.green_3",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/3.lean",

@@ -2016,21 +2016,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/29.lean",
-      "source_problem_number": 29,
-      "source_status": "open",
-      "theorem": "Green29.green_29",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [],
