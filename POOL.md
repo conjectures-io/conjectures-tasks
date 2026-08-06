@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 146 audited targets in `tier-1`: 124 Erdős targets and 22 Green's
+The current release places all 140 audited targets in `tier-1`: 120 Erdős targets and 20 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -32,7 +32,7 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 62
+Each task contains one exact canonical theorem. The pool includes complete statements and the 59
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
@@ -65,6 +65,14 @@ pair and later source repins. Parent statements, parts, and variants are indepen
 independent rewards.
 The pool does not extract propositions from answer wrappers or substitute answers.
 
+Question-typed sources of the form `answer(sorry) ↔ P` are admitted as direct proposition
+pairs: under the pinned build's default `google.answer = always_true` elaboration the compiled
+target type is `True ↔ P`, so the `formalized` bundle rewards a proof of `P` and the
+`counterexample` bundle a proof of `¬P`, symmetrically, with one reward per theorem target.
+The earlier blanket exclusion of answer-annotated sources applies only to targets whose
+*compiled* type would retain an answer hole (e.g. non-Prop `answer(sorry)`), which remain
+excluded.
+
 A counterexample task asks for a kernel-checked proof of `¬ P`. For a universal
 conjecture this can normally exhibit a concrete violating witness. For other
 logical shapes it is more accurately a refutation and need not expose a
@@ -72,7 +80,7 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 292 task bundles covering 146 audited targets: 124 Erdős targets and 22
+`tier-1` contains all 280 task bundles covering 140 audited targets: 120 Erdős targets and 20
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
 has its own stable reward identity.
 

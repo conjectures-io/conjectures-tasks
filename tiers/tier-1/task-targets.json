@@ -32,20 +32,6 @@
       "theorem": "Erdos1049.erdos_1049"
     },
     {
-      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.erdos_limit",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/1055.lean",
-      "source_problem_number": 1055,
-      "theorem": "Erdos1055.erdos_1055.variants.erdos_limit"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.selfridge_limit",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/1055.lean",
-      "source_problem_number": 1055,
-      "theorem": "Erdos1055.erdos_1055.variants.selfridge_limit"
-    },
-    {
       "reward_target_id": "fc-target:Erdos1059.erdos_1059",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/1059.lean",
@@ -72,13 +58,6 @@
       "source_path": "FormalConjectures/ErdosProblems/1074.lean",
       "source_problem_number": 1074,
       "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos1093.erdos_1093.parts.ii",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/1093.lean",
-      "source_problem_number": 1093,
-      "theorem": "Erdos1093.erdos_1093.parts.ii"
     },
     {
       "reward_target_id": "fc-target:Erdos1094.erdos_1094",
@@ -191,13 +170,6 @@
       "source_path": "FormalConjectures/ErdosProblems/143.lean",
       "source_problem_number": 143,
       "theorem": "Erdos143.erdos_143.parts.ii"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos15.erdos_15",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/15.lean",
-      "source_problem_number": 15,
-      "theorem": "Erdos15.erdos_15"
     },
     {
       "reward_target_id": "fc-target:Erdos153.erdos_153",
@@ -977,13 +949,6 @@
       "theorem": "Green51.green_51.one_half"
     },
     {
-      "reward_target_id": "fc-target:Green54.green_54",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/54.lean",
-      "source_problem_number": 54,
-      "theorem": "Green54.green_54"
-    },
-    {
       "reward_target_id": "fc-target:Green60.green_60",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
@@ -1003,13 +968,6 @@
       "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
       "source_problem_number": 72,
       "theorem": "Green72.green_72"
-    },
-    {
-      "reward_target_id": "fc-target:Green77.green_77",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/77.lean",
-      "source_problem_number": 77,
-      "theorem": "Green77.green_77"
     },
     {
       "reward_target_id": "fc-target:Green9.green_9_ii",
