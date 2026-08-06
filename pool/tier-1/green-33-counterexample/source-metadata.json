@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are there infinitely many $q$ for which there is a set $A \\subset \\mathbb{Z}/q\\mathbb{Z}$,\n$|A| = (\\sqrt{2} + o(1))q^{1/2}$, with $A + A = \\mathbb{Z}/q\\mathbb{Z}$? [Gr24]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«33»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Ben Green's Open Problem 33](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.33)",
+    "[CaHa20] Caprace, Pierre-Emmanuel, and Pierre de la Harpe. \"Groups with irreducibly unfaithful subsets for unitary representations.\" Confluentes Mathematici 12.1 (2020): 31-68.",
+    "[CrLe07] Croot, Ernie, and Vsevolod F. Lev. \"Open problems in additive combinatorics.\" Additive combinatorics 43.207-233 (2007): 1."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green33.green_33",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:47220fa6ee4c5b7a3e11a18fd29683f9e3280055ba18709e222cab741e5cdd70",
+  "type_pretty": "True ↔ ∀ (ε : ℝ), 0 < ε → ∃ᶠ (q : ℕ+) in Filter.atTop, ∃ A, A + A = Finset.univ ∧ |↑A.card / √↑↑q - √2| < ε"
+}

@@ -1,0 +1,46 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős Problem 252: irrationality of the sum for a given $k$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«252»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/252](https://www.erdosproblems.com/252)",
+    "[ErSt71] Erdös, P., and E. G. Straus. \"Some number theoretic results.\" Pacific J. Math 36 (1971): 635-646.",
+    "[ErSt74] Erdős, Paul, and Ernst Straus. \"On the irrationality of certain series.\" Pacific journal of mathematics 55.1 (1974): 85-92.",
+    "[ErKa54] P. Erdős, M. Kac, Amer. Math. Monthly 61 (1954), Problem 4518.",
+    "[ScPu06] Schlage-Puchta, J. C., The irrationality of a number theoretical series. Ramanujan J. (2006), 455-460.",
+    "[FLC07] Friedlander, J. B. and Luca, F. and Stoiciu, M., On the irrationality of a divisor function series. Integers (2007).",
+    "[Pr22] Pratt, K., The irrationality of a divisor function series of Erdős and Kac. arXiv:2209.11124 (2022)."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/252.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos252.erdos_252",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ddba7c9c27b5665f6cfd200e37ee4ad2f1fbe6e1312d346bce5a2e5344bdbb11",
+  "type_pretty": "True ↔ ∀ k ≥ 1, Irrational (Erdos252.erdos_252_sum k)"
+}

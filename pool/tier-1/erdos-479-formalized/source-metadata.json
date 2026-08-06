@@ -1,0 +1,38 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for all $k\\neq 1$, there are infinitely many $n$ such that\n$2^n\\equiv k\\pmod{n}$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«479»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/479](https://www.erdosproblems.com/479)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/479.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos479.erdos_479",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:c20dd4a8e6b82d93c8dd560d6f1dc58abb05c3c35925d3cae21535502306d94f",
+  "type_pretty": "True ↔ ∀ k > 1, {n | 2 ^ n ≡ k [MOD n]}.Infinite"
+}

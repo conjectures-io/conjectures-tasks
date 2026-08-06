@@ -12,9 +12,9 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 74 audited targets in `tier-1`, including both complete numbered
-statements and independently meaningful parts or variants. Additional tiers may be introduced
-later, but no tier distinction is active now.
+The current release places all 140 audited targets in `tier-1`: 120 Erdős targets and 20 Green's
+Open Problems targets, including both complete numbered statements and independently meaningful
+parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
 ## Admission policy
 
@@ -32,16 +32,16 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 45
+Each task contains one exact canonical theorem. The pool includes complete statements and the 59
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
 The shared selection has a solver-oriented audit. Every source:
 
-- is an Erdős problem;
+- belongs to an explicitly approved source family with a canonical numbered source path;
 - is still marked `research open` on the reviewed upstream `main`;
-- belongs to a parent problem marked `open`, `verifiable`, `falsifiable`, or
-  `decidable` in the pinned Erdős Problems database;
+- has its source-family open status recorded against the pinned Erdős Problems database or
+  Ben Green's Open Problems document;
 - has no open upstream pull request resolving or correcting the selected theorem
   at audit time; unrelated source-file changes are recorded;
 - has no formal-proof metadata or cataloged proved-type collision;
@@ -49,10 +49,13 @@ The shared selection has a solver-oriented audit. Every source:
   domain, finite or finitary structure, partial results in the same source, or a
   standard Mathlib surface.
 
+The machine-checked source identity includes `source_family`, `source_problem_number`, the
+canonical source path, and the theorem namespace. The status source is pinned per family, so an
+Erdős tracker status cannot be used to admit a Green target (or vice versa).
+
 No Formal Conjectures source family is excluded at the pool level. In particular,
 Written on the Wall II conjectures may be included in a future release after the same open-status,
-pull-request, collision, and compiled-target checks. The current selection contains only Erdős
-problems.
+pull-request, collision, and compiled-target checks.
 
 The pool creates one `formalized`/`counterexample` pair for every admitted theorem.
 Both bundles have distinct task IDs and commitments but share one deterministic, source-pinned
@@ -62,6 +65,14 @@ pair and later source repins. Parent statements, parts, and variants are indepen
 independent rewards.
 The pool does not extract propositions from answer wrappers or substitute answers.
 
+Question-typed sources of the form `answer(sorry) ↔ P` are admitted as direct proposition
+pairs: under the pinned build's default `google.answer = always_true` elaboration the compiled
+target type is `True ↔ P`, so the `formalized` bundle rewards a proof of `P` and the
+`counterexample` bundle a proof of `¬P`, symmetrically, with one reward per theorem target.
+The earlier blanket exclusion of answer-annotated sources applies only to targets whose
+*compiled* type would retain an answer hole (e.g. non-Prop `answer(sorry)`), which remain
+excluded.
+
 A counterexample task asks for a kernel-checked proof of `¬ P`. For a universal
 conjecture this can normally exhibit a concrete violating witness. For other
 logical shapes it is more accurately a refutation and need not expose a
@@ -69,13 +80,20 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 148 task bundles covering 74 audited Erdős targets. Every bundle has exactly
-one theorem target and every theorem target has its own stable reward identity.
+`tier-1` contains all 280 task bundles covering 140 audited targets: 120 Erdős targets and 20
+Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
+has its own stable reward identity.
 
-The GitHub review covered all 281 open pull requests visible at audit time and
+The GitHub review covered all 297 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
-pinned check against the Erdős Problems database excludes parent problems
-recorded as solved.
+pinned check against the Erdős Problems database excludes Erdős parent problems
+recorded as solved. The Green targets are checked against the December 2025 update
+of Ben Green's Open Problems document and a dated literature/preprint screen.
+
+For the 22 Green targets added in the 2026-08-05 audit, the source references,
+the Green document, and exact/problem-number literature and preprint searches
+disclosed no published solution. This is a dated negative-result screen, not proof
+that no obscure or unpublished argument exists.
 
 “Plausibly attackable” is a comparative solver-target screen, not a promise.
 These checks establish that a task is well-formed, remained upstream-open at the

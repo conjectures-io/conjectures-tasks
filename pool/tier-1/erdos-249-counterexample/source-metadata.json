@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is\n$$\\sum_{n} \\frac{\\phi(n)}{2^n}$$\nirrational? Here $\\phi$ is the Euler totient function.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«249»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/249](https://www.erdosproblems.com/249)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/249.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos249.erdos_249",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:50958c75eb82dfa63690899d9c7a87adaf9c4c6dc67de73e9782172842b2fe4d",
+  "type_pretty": "True ↔ Irrational (∑' (n : ℕ), ↑n.totient / 2 ^ n)"
+}

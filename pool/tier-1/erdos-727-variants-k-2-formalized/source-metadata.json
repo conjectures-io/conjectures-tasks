@@ -1,0 +1,38 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is open even for $k = 2$.\nLet $k = 2$. Does $((n+k)!)^2∣(2n)!$ hold for infinitely many n?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«727»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/727](https://www.erdosproblems.com/727)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/727.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos727.erdos_727.variants.k_2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:fd6640da42952371709f4bac8d9c66cc89d0d511eb0ec40d86975eb97d39c34e",
+  "type_pretty": "True ↔ {n | (n + 2).factorial ^ 2 ∣ (2 * n).factorial}.Infinite"
+}

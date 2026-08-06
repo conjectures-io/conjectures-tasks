@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11,
+    20
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Suppose that $G$ is a finite group, and let $A \\subset G \\times G$ be a subset of density $\\alpha$.\nIs it true that there are $\\gg_\\alpha |G|^3$ triples $x, y, g$ such that $(x, y), (gx, y), (x, gy)$\nall lie in $A$?\n\nNote: A is taken as $\\alpha$-dense, i.e. $|A| \\ge \\alpha |G|^2$ [Au16, Question 2]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«18»",
+  "pointer_target": null,
+  "references": [
+    "[Gr26] [Ben Green's Open Problem 18](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.18)",
+    "[Au16] Austin, Tim. \"Ajtai–Szemerédi theorems over quasirandom groups.\" Recent trends in combinatorics. Cham: Springer International Publishing, 2016. 453-484.",
+    "[So13] Solymosi, Jozsef. \"Roth-type theorems in finite groups.\" European Journal of Combinatorics 34.8 (2013): 1454-1458.",
+    "[Go01] Gowers, William T. \"A new proof of Szemerédi's theorem.\" Geometric & Functional Analysis GAFA 11.3 (2001): 465-588."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green18.green_18",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5a31ee676aa0957a349062ecdb11dfccb340dc34ec96516418e8eed3f7e9c9d0",
+  "type_pretty": "True ↔\n  ∀ α > 0,\n    ∃ c > 0,\n      ∃ m₀,\n        ∀ (G : Type u_1) [inst : Group G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset (G × G)),\n          Fintype.card G ≥ m₀ →\n            ↑A.card ≥ α * ↑(Fintype.card G) ^ 2 → ↑(Green18.numNaiveCorners A) ≥ c * ↑(Fintype.card G) ^ 3"
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does there exist a $k>2$ such that the $k$-sized subsets of {1,...,2k} can be coloured with\n$k+1$ colours such that for every $A\\subset \\{1,\\ldots,2k\\}$ with $\\lvert A\\rvert=k+1$ all $k+1$\ncolours appear among the $k$-sized subsets of $A$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«835»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/835](https://www.erdosproblems.com/835)",
+    "[MT25](https://github.com/QuanyuTang/erdos-problem-835/blob/main/On_Problem_835.pdf)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/835.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos835.erdos_835",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f967e72c8bf53da5895721dfe2bcf951ec3b0ace3ff8180ca1355d1639d592a4",
+  "type_pretty": "(∃ k > 2, Erdos835.Property k) ↔ True"
+}

@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for every $\\epsilon>0$, there exist infinitely many $n$ such that\n$g(n) > n^{1-\\epsilon}$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«821»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/821](https://www.erdosproblems.com/821)",
+    "[BaHa98] Baker, R. C. and Harman, G., Shifted primes without large prime factors. Acta Arith. (1998), 331--361.",
+    "[Er35b] Erdős, P., On the normal number of prime factors of $p-1$ and some related problems concerning Euler's $\\varphi$-function. Quart. J. Math. (1935), 205-213.",
+    "[Er74b] Erdős, P., Remarks on some problems in number theory. Math. Balkanica (1974), 197-202.",
+    "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
+    "[LuPo11] Luca, Florian and Pollack, Paul, An arithmetic function arising from {C}armichael's conjecture. J. Théor. Nombres Bordeaux (2011), 697--714."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/821.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos821.erdos_821",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:fe0cbb31deba837199efeccabcb9f2b93965afb14a5c2397b1d1281d3247df6f",
+  "type_pretty": "True ↔ ∀ ε > 0, {n | ↑(Erdos821.g n) > ↑n ^ (1 - ε)}.Infinite"
+}

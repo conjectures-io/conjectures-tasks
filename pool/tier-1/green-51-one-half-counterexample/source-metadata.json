@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Suppose that $A \\subset \\mathbb{F}_2^n$ has density $\\alpha > 1/2 - C/\\sqrt{n}$.\nDoes $A + A$ contain a subspace of co-dimension $O_C(1)$? [Sa11, Question 5.1]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«51»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green's Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.51)",
+    "[Gr13] B. J. Green, Restriction and Kakeya phenomena, notes from a 2003 course. Available at http://people.maths.ox.ac.uk/greenbj/papers/rkp.pdf",
+    "[Sa11] Sanders, Tom. \"Green's sumset problem at density one half.\" Acta Arithmetica 146.1 (2011): 91-101.",
+    "[Gr02] Green, Ben. \"Arithmetic progressions in sumsets.\" Geometric & Functional Analysis GAFA 12.3 (2002): 584-597.",
+    "[Ruz91] Ruzsa, Imre Z. \"Arithmetic progressions in sumsets.\" Acta Arithmetica 60.2 (1991): 191-202."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green51.green_51.one_half",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1ee955eab2652fc3b13aa3a43d36344759718a27f818afde66c86c13befbb67d",
+  "type_pretty": "True ↔\n  ∀ (k : ℝ),\n    0 < k → ∃ c, ∀ᶠ (n : ℕ) in Filter.atTop, ∀ α > 1 / 2 - k / √↑n, α ≤ 1 → n ≤ Green51.guaranteedMaxCosetDim n α + c"
+}

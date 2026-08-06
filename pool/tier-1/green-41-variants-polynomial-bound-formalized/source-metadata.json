@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    51,
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is $\\varepsilon^{-C}$ rotations enough? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«41»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Ben Green's Open Problem 41](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.41)",
+    "[Ma15] Manners, Freddie. \"A solution to the pyjama problem.\" Inventiones mathematicae 202.1 (2015): 239-270.",
+    "[KrLe25] Kravitz, Noah, and James Leng. \"Quantitative pyjama.\" arXiv preprint arXiv:2510.17744 (2025)."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green41.green_41.variants.polynomial_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
+  "type_pretty": "True ↔ ∃ C, ∃ ε₀ > 0, ∀ ε ∈ Set.Ioc 0 ε₀, ↑(Green41.minCopies ε) ≤ ε ^ (-C)"
+}

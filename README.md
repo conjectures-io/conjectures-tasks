@@ -11,9 +11,9 @@ bundle contains its challenge, manifest, comparator
 configuration, trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 148 bundles: proof/refutation pairs for 74 audited
-direct propositions. The tier label is retained for compatibility and does not rank or classify
-the targets.
+The current snapshot contains one tier with 280 bundles: proof/refutation pairs for 140 audited
+direct propositions (120 Erdős targets and 20 Green's Open Problems targets). The tier label is
+retained for compatibility and does not rank or classify the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
 configuration requires a new task id and commitment. The deny-by-default allowlist, tier policy,

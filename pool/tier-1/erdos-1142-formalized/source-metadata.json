@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are there infinitely many $n > 2$ such that $n - 2^k$ is prime for all $k \\geq 1$ with $2^k < n$?\n\nThe only known such $n$ are $4, 7, 15, 21, 45, 75, 105$ (OEIS [A039669](https://oeis.org/A039669)).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1142»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1142](https://www.erdosproblems.com/1142)",
+    "[A039669](https://oeis.org/A039669)",
+    "[Va99] Various, Some of Paul's favorite problems. Booklet produced for the conference \"Paul Erdős and his mathematics\", Budapest, July 1999 (1999).",
+    "[MiWe69] Mientka, W. E. and Weitzenkamp, R. C., On f-plentiful numbers, Journal of Combinatorial Theory, Volume 7, Issue 4, December 1969, pages 374-377."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1142.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1142.erdos_1142",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:04dfbf3c7c9e470546dd6f9b372fcff4ddf4f1369f23d66a3fccc4ee628ee887",
+  "type_pretty": "True ↔ Infinite ↑{n | Erdos1142.Erdos1142Prop n}"
+}
