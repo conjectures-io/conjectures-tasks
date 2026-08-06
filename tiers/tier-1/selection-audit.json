@@ -10,25 +10,6 @@
       "feasibility_signals": [
         "compact-formal-target",
         "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4004,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/10.lean",
-      "source_problem_number": 10,
-      "source_status": "open",
-      "theorem": "Erdos10.erdos_10.variants.grechuk",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
         "finite-or-finitary-structure",
         "partial-results-in-source",
         "standard-mathlib-surface"
@@ -1851,27 +1832,6 @@
         "partial-results-in-source",
         "standard-mathlib-surface"
       ],
-      "open_prs_touching_source": [
-        3691,
-        4004,
-        4025,
-        4356,
-        4428
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/939.lean",
-      "source_problem_number": 939,
-      "source_status": "open",
-      "theorem": "Erdos939.erdos_939",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
       "open_prs_touching_source": [],
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/945.lean",
@@ -2171,20 +2131,6 @@
       "source_problem_number": 41,
       "source_status": "open",
       "theorem": "Green41.green_41.variants.polynomial_bound",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/42.lean",
-      "source_problem_number": 42,
-      "source_status": "open",
-      "theorem": "Green42.green_42",
       "upstream_status": "research open"
     },
     {

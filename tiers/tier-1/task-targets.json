@@ -4,13 +4,6 @@
   "schema_version": 3,
   "targets": [
     {
-      "reward_target_id": "fc-target:Erdos10.erdos_10.variants.grechuk",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/10.lean",
-      "source_problem_number": 10,
-      "theorem": "Erdos10.erdos_10.variants.grechuk"
-    },
-    {
       "reward_target_id": "fc-target:Erdos100.erdos_100",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/100.lean",
@@ -781,13 +774,6 @@
       "theorem": "Erdos936.erdos_936.variants.two_pow_add_one"
     },
     {
-      "reward_target_id": "fc-target:Erdos939.erdos_939",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/939.lean",
-      "source_problem_number": 939,
-      "theorem": "Erdos939.erdos_939"
-    },
-    {
       "reward_target_id": "fc-target:Erdos945.erdos_945",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/945.lean",
@@ -926,13 +912,6 @@
       "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
       "source_problem_number": 41,
       "theorem": "Green41.green_41.variants.polynomial_bound"
-    },
-    {
-      "reward_target_id": "fc-target:Green42.green_42",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/42.lean",
-      "source_problem_number": 42,
-      "theorem": "Green42.green_42"
     },
     {
       "reward_target_id": "fc-target:Green50.green_50",

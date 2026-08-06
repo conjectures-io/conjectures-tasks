@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 140 audited targets in `tier-1`: 120 Erdős targets and 20 Green's
+The current release places all 137 audited targets in `tier-1`: 118 Erdős targets and 19 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -32,7 +32,7 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 59
+Each task contains one exact canonical theorem. The pool includes complete statements and the 58
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
@@ -80,7 +80,7 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 280 task bundles covering 140 audited targets: 120 Erdős targets and 20
+`tier-1` contains all 274 task bundles covering 137 audited targets: 118 Erdős targets and 19
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
 has its own stable reward identity.
 
