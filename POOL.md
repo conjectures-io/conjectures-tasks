@@ -116,6 +116,11 @@ in each task's metadata for site rendering.
 
 ## Rebuilding
 
+Rebuilding is for a pin rotation, not for withdrawing a target. Retiring one is a surgical edit that
+leaves every surviving bundle byte-identical; a rebuild would move all their digests and break
+content-addressing for submissions already accepted against them. See **Retiring a target** in
+[`README.md`](README.md).
+
 This repository's `scripts/rebuild_task_pool.py` loads the checked-in selection audit and target
 policy, uses the separately checked-out validator implementation to build every target in the
 active tier, and
