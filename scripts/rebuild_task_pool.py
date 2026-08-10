@@ -24,8 +24,10 @@ sys.path.insert(0, str(VALIDATOR_ROOT))
 
 from verifier.catalog import load_catalog
 from verifier.task_pool import (
+    DEFAULT_TIER_SIZE,
     build_task_allowlist,
     group_task_declarations,
+    load_retired_conjectures,
     load_retired_sources,
     load_selection_audit,
     load_task_grouping,
@@ -40,36 +42,23 @@ from verifier.workspace import target_validator
 
 TIER_NAME = "tier-1"
 
-NUMBERED_SOURCE = re.compile(
-    r"/(?P<family>ErdosProblems|GreensOpenProblems)/(?P<number>[0-9]+)\.lean$"
-)
-SOURCE_DIRECTORY_PREFIX = {
-    "ErdosProblems": "erdos",
-    "GreensOpenProblems": "green",
-}
+ERDOS_NUMBER = re.compile(r"/ErdosProblems/(?P<number>[0-9]+)\.lean$")
 
 
 def task_directory_name(manifest) -> str:
     """A readable storage label; the manifest's task ID remains the protocol identity."""
-    match = NUMBERED_SOURCE.search("/" + manifest.source_path)
+    match = ERDOS_NUMBER.search("/" + manifest.source_path)
     if match is None:
         return manifest.task_id
     number = match.group("number")
-    source_prefix = SOURCE_DIRECTORY_PREFIX[match.group("family")]
-    if source_prefix == "erdos":
-        marker = f"erdos_{number}."
-        local = (
-            manifest.source_theorem.split(marker, 1)[1]
-            if marker in manifest.source_theorem
-            else ""
-        )
-    else:
-        _namespace, _separator, local = manifest.source_theorem.partition(".")
-        marker = f"{source_prefix}_{number}"
-        if local.startswith(marker):
-            local = local.removeprefix(marker).lstrip("._")
+    marker = f"erdos_{number}."
+    local = (
+        manifest.source_theorem.split(marker, 1)[1]
+        if marker in manifest.source_theorem
+        else ""
+    )
     suffix = re.sub(r"[^A-Za-z0-9]+", "-", local).strip("-").lower()
-    parts = [f"{source_prefix}-{number}"]
+    parts = [f"erdos-{number}"]
     if suffix:
         parts.append(suffix)
     parts.append(manifest.task_mode)
@@ -130,6 +119,9 @@ def main() -> int:
     try:
         metadata = arguments.metadata_root
         retired = load_retired_sources(metadata / "retired-source-theorems.json")
+        retired_conjectures = load_retired_conjectures(
+            metadata / "retired-conjectures.json"
+        )
         selection_audit = load_selection_audit(metadata / "selection-audit.json")
         task_targets = load_task_targets(metadata / "task-targets.json")
         selected_declarations = select_task_declarations(
@@ -137,7 +129,7 @@ def main() -> int:
             retired=retired,
             selection_audit=selection_audit,
             task_targets=task_targets,
-            pool_size=len(task_targets.targets),
+            pool_size=DEFAULT_TIER_SIZE,
         )
         grouping = load_task_grouping(metadata / "task-groups.json")
         selected = group_task_declarations(selected_declarations, grouping)
@@ -182,6 +174,7 @@ def main() -> int:
         allowlist_content = build_task_allowlist(
             catalog=catalog,
             retired=retired,
+            retired_conjectures=retired_conjectures,
             selection_audit=selection_audit,
             task_targets=task_targets,
             grouping=grouping,

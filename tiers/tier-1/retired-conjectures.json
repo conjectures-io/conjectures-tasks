@@ -1,0 +1,699 @@
+{
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "retired": [
+    {
+      "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-10-grechuk.md",
+      "reason": "SOLVED + NOT_OPEN (approved submission 244ff2d0 proves the published target; the informal claim follows from Crocker's published theorem on sums of a prime and two powers of 2 by the parity reduction the source docstring itself describes, so the target was not open when it was offered)",
+      "reason_code": "SOLVED + NOT_OPEN",
+      "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
+      "retired_on": "2026-08-06",
+      "reward_target_id": "fc-target:Erdos10.erdos_10.variants.grechuk",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Bogdan Grechuk has observed that $1117175146$ is not the sum of a prime and at most $3$\npowers of $2$, and pointed out that parity considerations, coupled with the fact that there\nare many integers not the sum of a prime and $2$ powers of $2$ suggest that there exist\ninfinitely many even integers which are not the sum of a prime and at most $3$ powers of $2$).\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«10»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/10](https://www.erdosproblems.com/10)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/10.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos10.erdos_10.variants.grechuk",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:b92788d3cc0d75ad145bb34985748e1cb9d91b0df6880bf7c63452f123611241",
+        "type_pretty": "({n | Even n} \\ Erdos10.sumPrimeAndTwoPows 3).Infinite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«10»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos10.erdos_10.variants.grechuk\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-grechuk-8fa9b7ec45282eb8d95790b2e244ffbb-problem",
+          "target_type_sha256": "sha256:17d1f9158e5ad175dc1ea48b0955d47054edb36d702f9ef5494d18265721e590",
+          "task_bundle_sha256": "sha256:98055253b81c32575dd0c7302c95a47e43f33fe3f30a5d5d01aeefce87b17328",
+          "task_id": "fc-379fc029-variants-grechuk-fbdceddb05-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«10»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos10.erdos_10.variants.grechuk\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-grechuk-8fa9b7ec45282eb8d95790b2e244ffbb-problem",
+          "target_type_sha256": "sha256:b92788d3cc0d75ad145bb34985748e1cb9d91b0df6880bf7c63452f123611241",
+          "task_bundle_sha256": "sha256:75dae50947998fe526401998132fe589b236a539908bc9166e8f2b05d8a8f28f",
+          "task_id": "fc-379fc029-variants-grechuk-e26c885566-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos10.erdos_10.variants.grechuk",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "TYPE_DEPENDS_ON_SORRY (Erdos1055.p := Nat.find (exists_p r), exists_p is sorried)",
+      "reason_code": "TYPE_DEPENDS_ON_SORRY",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "retired_on": "2026-08-05",
+      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.erdos_limit",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "A prime $p$ is in class $1$ if the only prime divisors of $p+1$ are\n$2$ or $3$. In general, a prime $p$ is in class $r$ if every prime factor\nof $p+1$ is in some class $\\leq r-1$, with equality for at least one prime factor.\nIf $p_r$ is the least prime in class $r$, then how does $p_r^{1/r}$ behave?\nErdos conjectured that this tends to infinity. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«1055»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/1055](https://www.erdosproblems.com/1055)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/1055.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos1055.erdos_1055.variants.erdos_limit",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:c6f6e6642963acf686d9afce67c051cac0d607dc841eaaf64b840e0c6dd0bf7f",
+        "type_pretty": "Filter.Tendsto (fun r => ↑(Erdos1055.p r) ^ (1 / ↑↑r)) Filter.atTop Filter.atTop"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1055.erdos_1055.variants.erdos_limit\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-erdos-limit-5f673834efe02fb286a5bea88ac33b55-problem",
+          "target_type_sha256": "sha256:7c13f3728bb0b139fb2f797249d1c6bb2833bafc2a6042baff7547cd155c54f6",
+          "task_bundle_sha256": "sha256:f6b0dea1eff33357eb449d4f3ff0f1bfb315e628f898b2e5b71f880641a7922a",
+          "task_id": "fc-379fc029-variants-erdos-limit-26cb69b637-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1055.erdos_1055.variants.erdos_limit\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-erdos-limit-5f673834efe02fb286a5bea88ac33b55-problem",
+          "target_type_sha256": "sha256:c6f6e6642963acf686d9afce67c051cac0d607dc841eaaf64b840e0c6dd0bf7f",
+          "task_bundle_sha256": "sha256:03fc8747f06ef12c246f215f1657406f5bf269a3ade623fdc4a0c21ed68dfe9c",
+          "task_id": "fc-379fc029-variants-erdos-limit-902d2e9797-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos1055.erdos_1055.variants.erdos_limit",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "TYPE_DEPENDS_ON_SORRY (Erdos1055.p := Nat.find (exists_p r), exists_p is sorried)",
+      "reason_code": "TYPE_DEPENDS_ON_SORRY",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "retired_on": "2026-08-05",
+      "reward_target_id": "fc-target:Erdos1055.erdos_1055.variants.selfridge_limit",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "A prime $p$ is in class $1$ if the only prime divisors of $p+1$ are\n$2$ or $3$. In general, a prime $p$ is in class $r$ if every prime factor\nof $p+1$ is in some class $\\leq r-1$, with equality for at least one prime factor.\nIf $p_r$ is the least prime in class $r$, then how does $p_r^{1/r}$ behave?\nSelfridge conjectured that this is bounded. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«1055»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/1055](https://www.erdosproblems.com/1055)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/1055.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos1055.erdos_1055.variants.selfridge_limit",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:f7b1d731b04e15c137e6a01d29894372e52cb1ecdc7f8035bde494e9ac638c72",
+        "type_pretty": "∃ M, ∀ (r : ℕ+), ↑(Erdos1055.p r) ^ (1 / ↑↑r) ≤ M"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1055.erdos_1055.variants.selfridge_limit\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-selfridge-limit-521fdd9dc31f8d947abc664c8ee41602-problem",
+          "target_type_sha256": "sha256:d5acbfcfee2d8509c20c7f4d47e9eece78cec227d12a255aa92cd5fbc4612249",
+          "task_bundle_sha256": "sha256:528bd53701808f24e6a7ec8a5754cc89a5ba67c4e173cdeb7ab7eb631f133219",
+          "task_id": "fc-379fc029-variants-selfridge-limit-9161bd969a-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1055.erdos_1055.variants.selfridge_limit\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-selfridge-limit-521fdd9dc31f8d947abc664c8ee41602-problem",
+          "target_type_sha256": "sha256:f7b1d731b04e15c137e6a01d29894372e52cb1ecdc7f8035bde494e9ac638c72",
+          "task_bundle_sha256": "sha256:6ef9f19a9a03ab277471b668edd535c6f7755d6f7369aed2758dd3feada1ef6b",
+          "task_id": "fc-379fc029-variants-selfridge-limit-fae6b54fdc-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos1055.erdos_1055.variants.selfridge_limit",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "SOURCE_MISMATCH (Nat.smoothNumbers k means primes < k; erdosproblems.com/1093 defines k-smooth as primes ≤ k)",
+      "reason_code": "SOURCE_MISMATCH",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "retired_on": "2026-08-05",
+      "reward_target_id": "fc-target:Erdos1093.erdos_1093.parts.ii",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Are there only finitely many binomial coefficients with deficiency > 1?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«1093»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/1093](https://www.erdosproblems.com/1093)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/1093.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos1093.erdos_1093.parts.ii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:0cdd45a79a7b1b196b24d1461cc697022e80f49b08b39b7a5677df26e6cc41c5",
+        "type_pretty": "{x |\n    have k := x.1;\n    have n := x.2;\n    2 * k ≤ n ∧ Erdos1093.deficiency n k > 1 ∧ ∀ (p : ℕ), Nat.Prime p → p ∣ n.choose k → k < p}.Finite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1093»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1093.erdos_1093.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-parts-ii-84385626b3eea46dc59fc4058f8a3a55-problem",
+          "target_type_sha256": "sha256:601cebe25f61a80913ebb9132522b2f47d098492be47de913661981e9c727895",
+          "task_bundle_sha256": "sha256:5aa422d98c0b775d4d6c38cdc2cf3729637d36bcbc445b8baa26cfa5ea00938a",
+          "task_id": "fc-379fc029-parts-ii-c3e596cae6-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1093»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1093.erdos_1093.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-parts-ii-84385626b3eea46dc59fc4058f8a3a55-problem",
+          "target_type_sha256": "sha256:0cdd45a79a7b1b196b24d1461cc697022e80f49b08b39b7a5677df26e6cc41c5",
+          "task_bundle_sha256": "sha256:7dac230ac9b2ee1669fd270dd47a2ec9b31645f03cdf10e8b196b28a068c03ee",
+          "task_id": "fc-379fc029-parts-ii-2ad1578658-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos1093.erdos_1093.parts.ii",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-05-erdos-15.md",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over ℚ, so failure of ℚ-summability does not establish real divergence; the counterexample exploited this domain mismatch)",
+      "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "retired_on": "2026-08-05",
+      "reward_target_id": "fc-target:Erdos15.erdos_15",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is it true that $\\sum_{n=1}^\\infty(-1)^n\\frac{n}{p_n}$ converges,\nwhere $p_n$ is the sequence of primes?\n\nNote: In the problem statement, $p_n$ is the $n$-th prime, indexed such that $p_1=2, p_2=3, \\ldots$.\nWe 0-index here to reflect how Nat.nth works.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«15»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/15](https://www.erdosproblems.com/15)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/15.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos15.erdos_15",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:fe6c809775c5e2a2fe8ac769e6b1da07de51b55d65e5aaf3fc8fa41d15a227ef",
+        "type_pretty": "True ↔ Summable fun k => (-1) ^ (k + 1) * (↑k + 1) / ↑(Nat.nth Nat.Prime k)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«15»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos15.erdos_15\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-erdos15-erdos-15-8bba8a81f1906bfad44c92bee5391780-problem",
+          "target_type_sha256": "sha256:bc53fe26a8d94053a75116bcba09c1b7f82386d0edd0a9fe966a212e7f161505",
+          "task_bundle_sha256": "sha256:dc25fd2c54bc637253031ba75871259f4453164396fcc445646e02ccd230e6ce",
+          "task_id": "fc-379fc029-erdos15-erdos-15-d24e35d900-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«15»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos15.erdos_15\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-erdos15-erdos-15-8bba8a81f1906bfad44c92bee5391780-problem",
+          "target_type_sha256": "sha256:fe6c809775c5e2a2fe8ac769e6b1da07de51b55d65e5aaf3fc8fa41d15a227ef",
+          "task_bundle_sha256": "sha256:758cf6ab9a3cea3df6f513ac09f61125ddad46ae450f441780fdc1b840ceb636",
+          "task_id": "fc-379fc029-erdos15-erdos-15-771c332347-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos15.erdos_15",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-939.md",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)",
+      "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
+      "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
+      "retired_on": "2026-08-06",
+      "reward_target_id": "fc-target:Erdos939.erdos_939",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "If $r≥4$ then can the sum of $r-2$ coprime $r$-powerful numbers ever be itself $r$-powerful?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«939»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/939](https://www.erdosproblems.com/939)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/939.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos939.erdos_939",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:14d19e36506522f685b0d221dda9ee6b6b2ca18f630aa7d17cd6d09424c7c4d9",
+        "type_pretty": "True ↔ ∀ r ≥ 4, (Erdos939.Erdos939Sums r).Nonempty"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«939»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos939.erdos_939\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-erdos939-erdos-939-5546d034c66d177b8304c5f8b4d9b870-problem",
+          "target_type_sha256": "sha256:ce02fd4f8c26aff133c9c4a0ba11c500e404de233a4a63acb220d71d6cc7f863",
+          "task_bundle_sha256": "sha256:79d853e91051c4f3bf0401386e945ccf6f34f36f11722d8c6a67a537beee04c0",
+          "task_id": "fc-379fc029-erdos939-erdos-939-d1d011274a-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«939»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos939.erdos_939\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-erdos939-erdos-939-5546d034c66d177b8304c5f8b4d9b870-problem",
+          "target_type_sha256": "sha256:14d19e36506522f685b0d221dda9ee6b6b2ca18f630aa7d17cd6d09424c7c4d9",
+          "task_bundle_sha256": "sha256:2c68588e889c3bd7b9d1ba57f88ce2946432555d3748a7f62861661c03547a54",
+          "task_id": "fc-379fc029-erdos939-erdos-939-84e8cfcfa6-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos939.erdos_939",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-29.md",
+      "reason": "SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} × H) ∪ ({+1} × H) ∪ {(0,1)} in Multiplicative ℤ × H, whose only element at coordinate 0 is the identity, so every S ⊆ A with S^8 ⊆ A^4 is a singleton; the formalization is faithful and no defect was found)",
+      "reason_code": "SOLVED",
+      "recovered_from_commit": "697613c323aa6e250fa48a70df7ac7915719d7f5",
+      "retired_on": "2026-08-06",
+      "reward_target_id": "fc-target:Green29.green_29",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          20
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Suppose that $A$ is a $K$-approximate group (not necessarily abelian). Is there $S \\subset A$,\n$|S| \\gg K^{-O(1)} |A|$, with $S^8 \\subset A^4$? ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«29»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 29](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.29)",
+          "[Gr12] Green, Ben. \"What is... an approximate group.\" Notices Amer. Math. Soc 59.5 (2012): 655-656.",
+          "[Br13] Breuillard, Emmanuel, Ben Green, and Terence Tao. \"Small doubling in groups.\" Erdős Centennial. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013. 129-151.",
+          "[Sa10] Sanders, Tom. \"On a nonabelian Balog–Szemerédi-type lemma.\" Journal of the Australian Mathematical Society 89.1 (2010): 127-132.",
+          "[CrSi10] Croot, Ernie, and Olof Sisask. \"A probabilistic technique for finding almost-periods of convolutions.\" Geometric and functional analysis 20.6 (2010): 1367-1396."
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/29.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green29.green_29",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:526c3f619eeed50ddb846d932fb177057e03d262db5b4ab020c01404c890f9ae",
+        "type_pretty": "True ↔\n  ∃ C c,\n    0 < C ∧\n      0 < c ∧\n        ∀ {G : Type u_1} [inst : Group G] [inst_1 : DecidableEq G] (K : ℝ) (A : Finset G),\n          1 ≤ K → IsApproximateSubgroup K ↑A → ∃ S ⊆ A, C * K ^ (-c) * ↑A.card ≤ ↑S.card ∧ S ^ 8 ⊆ A ^ 4"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«29»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green29.green_29\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green29-green-29-bddf2e0f00e5e2af5eb32b9644bb5c1d-problem",
+          "target_type_sha256": "sha256:1c9a3dd04e32a02b9b3e8f2c285d8d835f206c4eecc8f08ac6d89d4af6fa3f0d",
+          "task_bundle_sha256": "sha256:d93f338e0bdc26070d21afb455b3b681858807cc1d51688dc30b40849a8cfed2",
+          "task_id": "fc-379fc029-green29-green-29-3d9963bfe5-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«29»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green29.green_29\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green29-green-29-bddf2e0f00e5e2af5eb32b9644bb5c1d-problem",
+          "target_type_sha256": "sha256:526c3f619eeed50ddb846d932fb177057e03d262db5b4ab020c01404c890f9ae",
+          "task_bundle_sha256": "sha256:394cdfd3f61ec829bad29a0c166617a03bb58e547b60707c7934a0231404490e",
+          "task_id": "fc-379fc029-green29-green-29-8a1d71241e-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green29.green_29",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-42.md",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (SatisfiesCohnElkiesScheme omits continuity of f, so f 0 may be set at a single null point independently of fHat f 0 and any positive bound is attainable; submission aa57d955 exhibited a Gaussian modified only at the origin)",
+      "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
+      "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
+      "retired_on": "2026-08-06",
+      "reward_target_id": "fc-target:Green42.green_42",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          51,
+          52
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Can the Cohn-Elkies scheme be used to prove the optimal bound for circle-packings in 2 dimensions?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«42»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.42)",
+          "[CoEl03] Cohn, Henry, and Noam Elkies. \"New upper bounds on sphere packings I.\" Annals of Mathematics (2003): 689-714.",
+          "[Vi17] Viazovska, Maryna S. \"The sphere packing problem in dimension 8.\" Annals of mathematics (2017): 991-1015.",
+          "[CKM17] Cohn, H., Kumar, A., Miller, S., Radchenko, D., & Viazovska, M. (2017). The sphere packing problem in dimension 24. Annals of mathematics, 185(3), 1017-1033.",
+          "[Sa21] Sardari, Naser Talebizadeh. \"Higher Fourier interpolation on the plane.\" arXiv preprint arXiv:2102.08753 (2021)."
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/42.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green42.green_42",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:90586c657f6905c747525367ba3f1e3b1edaf30fa8995276b0af724a40e43cc0",
+        "type_pretty": "True ↔ Green42.CohnElkiesOptimal 2 (√3 / 6)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«42»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green42.green_42\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green42-green-42-67604f9cbebc216c554358c9c0c13e69-problem",
+          "target_type_sha256": "sha256:99c0891a82aa814a8ab422c9584057c40c4e9002702eaae64593c023e69d7187",
+          "task_bundle_sha256": "sha256:f77aa6fb53ae7a36d920ec4f3cb384f8d1bce6f5fdd10c48115b068fa986a03f",
+          "task_id": "fc-379fc029-green42-green-42-a6354b2f9e-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«42»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green42.green_42\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green42-green-42-67604f9cbebc216c554358c9c0c13e69-problem",
+          "target_type_sha256": "sha256:90586c657f6905c747525367ba3f1e3b1edaf30fa8995276b0af724a40e43cc0",
+          "task_bundle_sha256": "sha256:9789ded62b701c8f77a0d2bd9790f57542694a2b4b59ed718613764fe148dff5",
+          "task_id": "fc-379fc029-green42-green-42-8b8338f242-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green42.green_42",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "SOURCE_MISMATCH (Green #54 is per-n on ℝ^n; formalization is a single statement on ℕ → ℝ with Measure.infinitePi gaussian — nonequivalent setting)",
+      "reason_code": "SOURCE_MISMATCH",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "retired_on": "2026-08-05",
+      "reward_target_id": "fc-target:Green54.green_54",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          46,
+          52,
+          60
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $K \\subset \\mathbb{R}^n$ be a balanced compact set (that is, $\\lambda K \\subseteq K$ whenever\n$|\\lambda| \\leq 1$) and suppose that the normalised Gaussian measure $\\gamma_n(K) \\geq 0.99$.\nDoes $10K$ contain a compact convex set $C$ with $\\gamma_n(C) \\geq 0.01$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«54»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 54](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.54)",
+          "Original formulation: M. Talagrand, *Are All Sets of Positive Measure Essentially Convex?*, in Operator Theory:"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/54.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green54.green_54",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:a93e3be294669ae52648b4b3d9a2a417711cce4fd61665358e92d804e113d14d",
+        "type_pretty": "True ↔\n  ∀ (K : Set (ℕ → ℝ)),\n    IsCompact K →\n      Balanced ℝ K →\n        0.99 ≤ Green54.gaussianMeasureInf K →\n          ∃ C, IsCompact C ∧ Convex ℝ C ∧ C ⊆ 10 • K ∧ 1e-2 ≤ Green54.gaussianMeasureInf C"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«54»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green54.green_54\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green54-green-54-4b999541e6ed76366ee17980148e75c2-problem",
+          "target_type_sha256": "sha256:b74d844314cf4e7bad64642eba78a9c4727ba591397629b206fbfc89ec8f847b",
+          "task_bundle_sha256": "sha256:09e22ab166d7bc50b5db21029a278678ac7af7246d72dfa8f5aeb8f3e238d3f7",
+          "task_id": "fc-379fc029-green54-green-54-88740a5fc0-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«54»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green54.green_54\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green54-green-54-4b999541e6ed76366ee17980148e75c2-problem",
+          "target_type_sha256": "sha256:a93e3be294669ae52648b4b3d9a2a417711cce4fd61665358e92d804e113d14d",
+          "task_bundle_sha256": "sha256:5f2f6f4d6960b6b8ac53df6624428065451a5732d2e0d834f40d10038d984c9a",
+          "task_id": "fc-379fc029-green54-green-54-6ec57c163e-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green54.green_54",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give α(n) ≳ 1/n, refuting the formalized n^(−2+o(1)) claim by elementary geometry)",
+      "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "retired_on": "2026-08-05",
+      "reward_target_id": "fc-target:Green77.green_77",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          52
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Given $n$ points in the unit disc, must there be a triangle of area at most $n^{-2+o(1)}$\ndetermined by them?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«77»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 77](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.77)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/77.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green77.green_77",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:ab6ba97b85e3e5a17231c85dde2623f20be4d66977e4fad39685725e405733eb",
+        "type_pretty": "True ↔ ∃ o, Filter.Tendsto o Filter.atTop (nhds 0) ∧ Erdos507.α =O[Filter.atTop] fun n => ↑n ^ (-2 + o n)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«77»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green77.green_77\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green77-green-77-4e540815af7081f6f555b780e5c8ba36-problem",
+          "target_type_sha256": "sha256:cb953cd6a64d2cc3076141ee1deccebb6caae83dd276e4726f2000e6c9004a03",
+          "task_bundle_sha256": "sha256:a39ca7e080dfb45a7d173efef633fdf3e886ee912aa0a4d0c0674f90a9857c27",
+          "task_id": "fc-379fc029-green77-green-77-fea8dc5eb4-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«77»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green77.green_77\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green77-green-77-4e540815af7081f6f555b780e5c8ba36-problem",
+          "target_type_sha256": "sha256:ab6ba97b85e3e5a17231c85dde2623f20be4d66977e4fad39685725e405733eb",
+          "task_bundle_sha256": "sha256:da53d055780117287ff21e4ad2dc536ea17e58685942767e0139852942fcfc9f",
+          "task_id": "fc-379fc029-green77-green-77-035c0ca4b0-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green77.green_77",
+      "tier": "tier-1"
+    }
+  ],
+  "schema_version": 1
+}
