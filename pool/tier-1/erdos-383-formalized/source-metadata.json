@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that for every $k$ there are infinitely many primes $p$ such that the largest prime\ndivisor of\n$$\n  \\prod_{i = 0}^k (p ^ 2 + i)\n$$\nis $p$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«383»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/383](https://www.erdosproblems.com/383)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/383.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos383.erdos_383",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:94fcb2a4a80da3cde28c7cd2e80650581bf0f2f01e9f89d9f7499f398146adb7",
+  "type_pretty": "True ↔ ∀ (k : ℕ), {p | Nat.Prime p ∧ (∏ i ∈ Finset.Icc 0 k, (p ^ 2 + i)).maxPrimeFac = p}.Infinite"
+}

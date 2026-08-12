@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for any $c>1/2$, if $p$ is a sufficiently large prime then, for any\n$n\\geq 0$, there exist $a,b\\in(n,n+p^c)$ such that $ab\\equiv 1\\pmod{p}$?\n\nThis is discussed in this MathOverflow question [MathOverflow].\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«445»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/445](https://www.erdosproblems.com/445)",
+    "[He00] Heath-Brown, D. R., Arithmetic applications of {K}loosterman sums. Nieuw Arch. Wiskd. (5) (2000), 380--384.",
+    "[MathOverflow](https://mathoverflow.net/questions/69509/small-residue-classes-with-small-reciprocal)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/445.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos445.erdos_445",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:22e625cb1fa870660bd53ea979e4aa9393b30b01b05831ab8681a269a8753dbb",
+  "type_pretty": "True ↔ ∀ c > 1 / 2, ∀ᶠ (p : ℕ) in Filter.atTop, Nat.Prime p → ∀ (n : ℕ), Erdos445.Erdos445Prop c p n"
+}

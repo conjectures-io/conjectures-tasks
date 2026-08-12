@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Erdős Problem 44:** Let N ≥ 1 and `A ⊆ {1,…,N}` be a Sidon set. Is it true that, for any ε > 0,\nthere exist M = M(ε) and `B ⊆ {N+1,…,M}` such that `A ∪ B ⊆ {1,…,M}` is a Sidon set\nof size at least `(1−ε)M^{1/2}`?\n\nThis problem asks whether any Sidon set can be extended to achieve a density\narbitrarily close to the optimal density for Sidon sets.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«44»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/44](https://www.erdosproblems.com/44)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/44.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos44.erdos_44",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:42173e12611fc609d5de45ef313700eac222b86c061b79914ae8bd72c76f7e83",
+  "type_pretty": "True ↔\n  ∀ N ≥ 1,\n    ∀ A ⊆ Finset.Icc 1 N,\n      IsSidon ↑A → ∀ ε > 0, ∃ M > N, ∃ B ⊆ Finset.Icc (N + 1) M, IsSidon (↑A ∪ ↑B) ∧ (1 - ε) * √↑M ≤ ↑(A ∪ B).card"
+}

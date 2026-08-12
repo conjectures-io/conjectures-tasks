@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 136 audited targets in `tier-1`: 118 Erdős targets and 18 Green's
+The current release places all 164 audited targets in `tier-1`: 143 Erdős targets and 21 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -32,7 +32,7 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 58
+Each task contains one exact canonical theorem. The pool includes complete statements and the 65
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
@@ -80,20 +80,25 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 272 task bundles covering 136 audited targets: 118 Erdős targets and 18
+`tier-1` contains all 328 task bundles covering 164 audited targets: 143 Erdős targets and 21
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
 has its own stable reward identity.
 
-The GitHub review covered all 297 open pull requests visible at audit time and
+The GitHub review covered all 282 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
 pinned check against the Erdős Problems database excludes Erdős parent problems
-recorded as solved. The Green targets are checked against the December 2025 update
+recorded as solved. The Green targets are checked against the January 2026 update
 of Ben Green's Open Problems document and a dated literature/preprint screen.
 
 For the 22 Green targets added in the 2026-08-05 audit, the source references,
 the Green document, and exact/problem-number literature and preprint searches
 disclosed no published solution. This is a dated negative-result screen, not proof
 that no obscure or unpublished argument exists.
+
+For the 28 targets added in the 2026-08-12 audit, exact-statement and equivalent-form
+literature searches disclosed no published solution. `Erdos1199.erdos_1199` was excluded because
+arXiv:2607.17333 proves the exact Owings sumset statement, and `Erdos510.erdos_510` was excluded
+because its compiled proposition retains a `sorry` answer hole in its type.
 
 “Plausibly attackable” is a comparative solver-target screen, not a promise.
 These checks establish that a task is well-formed, remained upstream-open at the

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $p$ be a large prime, and let $A$ be the set of all primes less than $p$.\nIs every $x \\in \\{1, \\ldots, p-1\\}$ congruent to some product $a_1 a_2$ where $a_1, a_2 \\in A$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«62»",
+  "pointer_target": null,
+  "references": [
+    "[Ben Green's Open Problem 62](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.62)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green62.green_62",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b4a809f061e9107b929542f3d9dac7c245932d06708a2805cbc09ee1d9f77161",
+  "type_pretty": "True ↔\n  ∀ᶠ (p : ℕ) in Filter.atTop,\n    Nat.Prime p →\n      have A := Finset.filter Nat.Prime (Finset.range p);\n      ∀ (x : ℕ), 1 ≤ x ∧ x < p → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ↑x = ↑a₁ * ↑a₂"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is there an infinite set $A \\subset \\mathbb{N}$ such that for every $a \\in A$,\nthere is an integer n such that $\\phi(n)=a$, and\nyet if $n_a$ is the smallest such integer, then $\\frac{n_a}{a} → \\infty$ as $a → ∞$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«51»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/51](https://www.erdosproblems.com/51)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/51.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos51.erdos_51",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8d86ed569f7abf1bb04e214bfd638cb9cd69e1594308912f79142f1aa0ec4d1c",
+  "type_pretty": "True ↔\n  ∃ A n,\n    A.Infinite ∧\n      (∀ (a : ↑A), IsLeast (Nat.totient ⁻¹' {↑a}) (n a)) ∧\n        Filter.Tendsto (fun a => ↑(n a) / ↑↑a) Filter.atTop Filter.atTop"
+}
