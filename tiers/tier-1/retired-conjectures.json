@@ -482,6 +482,74 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": null,
+      "reason": "SOLVED + NOT_OPEN (Franchi–Gowers–Yip, arXiv:2607.06073v1, published 2026-07-07, proves the exact product-free-subset target; submissions af89c6c1 and df81aea1 were rejected under NOT_NOVEL after substantially implementing that published solution)",
+      "reason_code": "SOLVED + NOT_OPEN",
+      "recovered_from_commit": "f61ab1b9cb0165ad996f6cd3ad3c60253806e78d",
+      "retired_on": "2026-08-12",
+      "reward_target_id": "fc-target:Green3.green_3",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Suppose that $A \\subset [0,1]$ is open and has measure greater than $\\frac{1}{3}$. Is there a solution to $xy = z$ with $x, y, z \\in A$? ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«3»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 3](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.3 Problem 3)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/3.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green3.green_3",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:7e6597ee6b3c6a4c6913d8c03c38f1c3819e8e414eaaebe5f64b28c73fa1587c",
+        "type_pretty": "True ↔\n  ∀ (A : Set ℝ),\n    IsOpen A → A ⊆ Set.Icc 0 1 → MeasureTheory.volume A > 1 / 3 → ∃ x y z, x ∈ A ∧ y ∈ A ∧ z ∈ A ∧ x * y = z"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green3.green_3\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green3-green-3-913e9572e10291bc4cb6449086f7c26f-problem",
+          "target_type_sha256": "sha256:18dff6b90c23cb54b219ab91effbec14471ab962cd6c4810f9e930e5c11300c2",
+          "task_bundle_sha256": "sha256:429ad38e194c789d313b279541a0f052d88bf4a91ffee7070cae4764ba0c448e",
+          "task_id": "fc-379fc029-green3-green-3-d3215fe1c4-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green3.green_3\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green3-green-3-913e9572e10291bc4cb6449086f7c26f-problem",
+          "target_type_sha256": "sha256:7e6597ee6b3c6a4c6913d8c03c38f1c3819e8e414eaaebe5f64b28c73fa1587c",
+          "task_bundle_sha256": "sha256:89483fd4789090a55164cbbe2eea819ab5d540676194ef5207395af9d430caa8",
+          "task_id": "fc-379fc029-green3-green-3-e05757e673-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green3.green_3",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-42.md",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (SatisfiesCohnElkiesScheme omits continuity of f, so f 0 may be set at a single null point independently of fHat f 0 and any positive bound is attainable; submission aa57d955 exhibited a Gaussian modified only at the origin)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
