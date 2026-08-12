@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let `c₁, c₂ > 0`. Is it true that for any sufficiently large `x`, there exists more than\n`c₁ * log x` many consecutive primes `≤ x` such that the difference between any two is `> c₂`?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«238»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/238](https://www.erdosproblems.com/238)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/238.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos238.erdos_238",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e3595f23152f6cea6ea27f63a0feaa9799a83ec2aefef70e144dd3158b26d2fa",
+  "type_pretty": "True ↔\n  ∀ c₁ > 0,\n    ∀ c₂ > 0,\n      ∀ᶠ (x : ℝ) in Filter.atTop,\n        ∃ k,\n          c₁ * Real.log x < ↑k ∧\n            ∃ f m,\n              (∀ (i : Fin k), ↑(f i) ≤ x ∧ f i = Nat.nth Nat.Prime (m + ↑i)) ∧\n                ∀ (i : Fin (k - 1)), c₂ < primeGap (m + ↑i)"
+}

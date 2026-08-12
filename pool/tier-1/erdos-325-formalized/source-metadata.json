@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Writing $f_{k, 3}(x)$ for the number of integers $\\leq x$ which are the sum of three $k$th powers,\nis it true that $f_{k, 3}(x) \\gg x ^ (3 / k)$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«325»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/325](https://www.erdosproblems.com/325)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/325.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos325.erdos_325",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6660e5e755950ba32c311c9c29a62d54f296c950fd3cc640d58b5733adb9586a",
+  "type_pretty": "True ↔ ∀ (k : ℕ), 3 ≤ k → (fun x => ↑x ^ (3 / ↑k)) =O[Filter.atTop] fun x => ↑(Erdos325.cardIsSumThreePowerBelow k x)"
+}

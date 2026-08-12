@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is every proportionately dissociated (infinite) set the union of a finite\nnumber of dissociated sets?",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«774»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/774](https://www.erdosproblems.com/774)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/774.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos774.erdos_774",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8914d5a1276424975fa40f964c7ef097f9852f715c441699dda2f2103821cc4a",
+  "type_pretty": "True ↔\n  ∀ (A : Set ℕ), A.Infinite → A.IsProportionatelyDissociated → ∃ T, (∀ S ∈ T, S.IsDissociated) ∧ T.Finite ∧ A = ⋃₀ T"
+}
