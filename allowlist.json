@@ -554,13 +554,6 @@
       "tier": "tier-1"
     },
     {
-      "index": 1427,
-      "source_path": "FormalConjectures/ErdosProblems/567.lean",
-      "source_type_sha256": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
-      "theorem": "Erdos567.erdos_567.parts.i",
-      "tier": "tier-1"
-    },
-    {
       "index": 1497,
       "source_path": "FormalConjectures/ErdosProblems/617.lean",
       "source_type_sha256": "sha256:21890d8a7a194e61d643ac6026bd6c04481a9503619752d21f1a4b1160032eb8",
@@ -3952,44 +3945,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
-      "reward_target_id": "fc-target:Erdos567.erdos_567.parts.i",
-      "source_indices": [
-        1427
-      ],
-      "source_path": "FormalConjectures/ErdosProblems/567.lean",
-      "target_type_sha256s": [
-        "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039"
-      ],
-      "task_bundle_sha256": "sha256:96a265aeb2cd934677d0561853ae4d7051df9f6403256e23209f93e0d971020d",
-      "task_id": "fc-379fc029-parts-i-a8b1890dad-formalized-v1",
-      "theorems": [
-        "Erdos567.erdos_567.parts.i"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
-      "reward_target_id": "fc-target:Erdos567.erdos_567.parts.i",
-      "source_indices": [
-        1427
-      ],
-      "source_path": "FormalConjectures/ErdosProblems/567.lean",
-      "target_type_sha256s": [
-        "sha256:3fc7610ac7c78abb213243f942e2cc5b3d74612c5a6f1677914bb6e50b778ae4"
-      ],
-      "task_bundle_sha256": "sha256:78a2fcdf75db1b5751446fd415d65cd35649c31d1376c57753099d9159d6e670",
-      "task_id": "fc-379fc029-parts-i-7b7b8b6d56-counterexample-v1",
-      "theorems": [
-        "Erdos567.erdos_567.parts.i"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-379fc029-erdos617-erdos-617-f0af3bac328fcb99efe8cf5c658a89f1-problem",
       "reward_target_id": "fc-target:Erdos617.erdos_617",
       "source_indices": [
@@ -6091,7 +6046,7 @@
       "compiled_target_validation": true,
       "excluded_source_prefixes": [],
       "grouping": "none-single-target-v1",
-      "minimum_erdos_tasks": 118,
+      "minimum_erdos_tasks": 117,
       "modes": [
         "formalized",
         "counterexample"
@@ -6100,26 +6055,26 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 270,
+      "pool_size": 268,
       "retired_conjectures_sha256": "sha256:d6d9b316676a70d339e861c03c5799479e071a2a18e290c6d8fbb05a34c3fd71",
-      "retired_source_theorems_sha256": "sha256:d9cb98f30d5a4787ebc290e54e72b1f05968d58d76145adca9b98a08c6f0cff5",
-      "reward_target_count": 135,
+      "retired_source_theorems_sha256": "sha256:176319a277cee4dd3ac07281acd61d520735b1a183c6ec892bf36f6e7238c85c",
+      "reward_target_count": 134,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:d436f134a51b7fe976c4291a7eb331893fc2e12f07ade83c1602a5a38b78e0f0",
+      "selection_audit_sha256": "sha256:e95f8dcd01b07b607934faf4aeda77f7e29abac6bfadcc03dff72e8626d5f0a7",
       "source_category": "research open",
       "source_families": [
         "erdos",
         "greens-open-problems"
       ],
-      "source_theorem_count": 135,
+      "source_theorem_count": 134,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:55f39d326f9cb9944a8ee4811c033ad3c90da13782619afa09ec78f53e69a95d"
+      "task_targets_sha256": "sha256:a7eaf5db3794acdd1824158a6832df86aedbe82740b9005c4783486f5e3e4a1b"
     }
   }
 }

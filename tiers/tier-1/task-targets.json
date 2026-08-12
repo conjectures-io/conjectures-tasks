@@ -557,13 +557,6 @@
       "theorem": "Erdos535.erdos_535.variants.first_open_case"
     },
     {
-      "reward_target_id": "fc-target:Erdos567.erdos_567.parts.i",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/567.lean",
-      "source_problem_number": 567,
-      "theorem": "Erdos567.erdos_567.parts.i"
-    },
-    {
       "reward_target_id": "fc-target:Erdos617.erdos_617",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/617.lean",

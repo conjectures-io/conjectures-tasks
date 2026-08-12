@@ -1320,27 +1320,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        2356,
-        3691,
-        4025,
-        4356,
-        4428
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/567.lean",
-      "source_problem_number": 567,
-      "source_status": "open",
-      "theorem": "Erdos567.erdos_567.parts.i",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "discrete-domain",
         "finite-or-finitary-structure",
         "partial-results-in-source",
