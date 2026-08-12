@@ -342,6 +342,74 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": null,
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q₃,H), while the Lean target states SimpleGraph.sizeRamsey Q₃ H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)",
+      "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
+      "recovered_from_commit": "8ddff279b13d97f4546f3cf0b78985d5ea5a4b8f",
+      "retired_on": "2026-08-12",
+      "reward_target_id": "fc-target:Erdos567.erdos_567.parts.i",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "**Erdős Problem 567 (Q3)**\n\nIs $Q_3$ (the 3-dimensional hypercube) Ramsey size linear?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«567»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/567](https://www.erdosproblems.com/567)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/567.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos567.erdos_567.parts.i",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
+        "type_pretty": "True ↔ Erdos567.Q3.IsRamseySizeLinear"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«567»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos567.erdos_567.parts.i\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
+          "target_type_sha256": "sha256:3fc7610ac7c78abb213243f942e2cc5b3d74612c5a6f1677914bb6e50b778ae4",
+          "task_bundle_sha256": "sha256:78a2fcdf75db1b5751446fd415d65cd35649c31d1376c57753099d9159d6e670",
+          "task_id": "fc-379fc029-parts-i-7b7b8b6d56-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«567»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos567.erdos_567.parts.i\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
+          "target_type_sha256": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
+          "task_bundle_sha256": "sha256:96a265aeb2cd934677d0561853ae4d7051df9f6403256e23209f93e0d971020d",
+          "task_id": "fc-379fc029-parts-i-a8b1890dad-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos567.erdos_567.parts.i",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-939.md",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
