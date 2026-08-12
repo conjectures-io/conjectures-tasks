@@ -2812,23 +2812,6 @@
         4688
       ],
       "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/3.lean",
-      "source_problem_number": 3,
-      "source_status": "open",
-      "theorem": "Green3.green_3",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
       "source_problem_number": 32,
       "source_status": "open",
