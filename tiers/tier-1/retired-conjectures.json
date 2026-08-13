@@ -342,6 +342,74 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": null,
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q₃,H), while the Lean target states SimpleGraph.sizeRamsey Q₃ H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)",
+      "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
+      "recovered_from_commit": "8ddff279b13d97f4546f3cf0b78985d5ea5a4b8f",
+      "retired_on": "2026-08-12",
+      "reward_target_id": "fc-target:Erdos567.erdos_567.parts.i",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "**Erdős Problem 567 (Q3)**\n\nIs $Q_3$ (the 3-dimensional hypercube) Ramsey size linear?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«567»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/567](https://www.erdosproblems.com/567)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/567.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos567.erdos_567.parts.i",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
+        "type_pretty": "True ↔ Erdos567.Q3.IsRamseySizeLinear"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«567»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos567.erdos_567.parts.i\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
+          "target_type_sha256": "sha256:3fc7610ac7c78abb213243f942e2cc5b3d74612c5a6f1677914bb6e50b778ae4",
+          "task_bundle_sha256": "sha256:78a2fcdf75db1b5751446fd415d65cd35649c31d1376c57753099d9159d6e670",
+          "task_id": "fc-379fc029-parts-i-7b7b8b6d56-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«567»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos567.erdos_567.parts.i\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
+          "target_type_sha256": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
+          "task_bundle_sha256": "sha256:96a265aeb2cd934677d0561853ae4d7051df9f6403256e23209f93e0d971020d",
+          "task_id": "fc-379fc029-parts-i-a8b1890dad-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos567.erdos_567.parts.i",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-939.md",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
@@ -479,6 +547,74 @@
         }
       ],
       "theorem": "Green29.green_29",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "SOLVED + NOT_OPEN (Franchi–Gowers–Yip, arXiv:2607.06073v1, published 2026-07-07, proves the exact product-free-subset target; submissions af89c6c1 and df81aea1 were rejected under NOT_NOVEL after substantially implementing that published solution)",
+      "reason_code": "SOLVED + NOT_OPEN",
+      "recovered_from_commit": "f61ab1b9cb0165ad996f6cd3ad3c60253806e78d",
+      "retired_on": "2026-08-12",
+      "reward_target_id": "fc-target:Green3.green_3",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Suppose that $A \\subset [0,1]$ is open and has measure greater than $\\frac{1}{3}$. Is there a solution to $xy = z$ with $x, y, z \\in A$? ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«3»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 3](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.3 Problem 3)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/3.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green3.green_3",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:7e6597ee6b3c6a4c6913d8c03c38f1c3819e8e414eaaebe5f64b28c73fa1587c",
+        "type_pretty": "True ↔\n  ∀ (A : Set ℝ),\n    IsOpen A → A ⊆ Set.Icc 0 1 → MeasureTheory.volume A > 1 / 3 → ∃ x y z, x ∈ A ∧ y ∈ A ∧ z ∈ A ∧ x * y = z"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green3.green_3\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green3-green-3-913e9572e10291bc4cb6449086f7c26f-problem",
+          "target_type_sha256": "sha256:18dff6b90c23cb54b219ab91effbec14471ab962cd6c4810f9e930e5c11300c2",
+          "task_bundle_sha256": "sha256:429ad38e194c789d313b279541a0f052d88bf4a91ffee7070cae4764ba0c448e",
+          "task_id": "fc-379fc029-green3-green-3-d3215fe1c4-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green3.green_3\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green3-green-3-913e9572e10291bc4cb6449086f7c26f-problem",
+          "target_type_sha256": "sha256:7e6597ee6b3c6a4c6913d8c03c38f1c3819e8e414eaaebe5f64b28c73fa1587c",
+          "task_bundle_sha256": "sha256:89483fd4789090a55164cbbe2eea819ab5d540676194ef5207395af9d430caa8",
+          "task_id": "fc-379fc029-green3-green-3-e05757e673-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green3.green_3",
       "tier": "tier-1"
     },
     {

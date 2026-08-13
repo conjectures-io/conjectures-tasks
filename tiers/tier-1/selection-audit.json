@@ -1840,29 +1840,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        2356,
-        3691,
-        4025,
-        4198,
-        4356,
-        4428,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/567.lean",
-      "source_problem_number": 567,
-      "source_status": "open",
-      "theorem": "Erdos567.erdos_567.parts.i",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "discrete-domain",
         "finite-or-finitary-structure",
         "standard-mathlib-surface"
@@ -2799,23 +2776,6 @@
       "source_problem_number": 24,
       "source_status": "open",
       "theorem": "Green24.variants.conjecture",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/3.lean",
-      "source_problem_number": 3,
-      "source_status": "open",
-      "theorem": "Green3.green_3",
       "upstream_status": "research open"
     },
     {
