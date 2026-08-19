@@ -6,7 +6,10 @@
 - `Erdos1093.erdos_1093.parts.ii` — 2026-08-05 — `SOURCE_MISMATCH (Nat.smoothNumbers k means primes < k; erdosproblems.com/1093 defines k-smooth as primes ≤ k)`
 - `Erdos1199.erdos_1199` — 2026-08-12 — `SOLVED (Huang, Lian, Shao, Xiao, Xu, and Zhang, “An affirmative answer to Owings's sumset question,” arXiv:2607.17333v3, proves the exact two-colouring statement)`
 - `Erdos15.erdos_15` — 2026-08-05 — `SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over ℚ, so failure of ℚ-summability does not establish real divergence; the counterexample exploited this domain mismatch)`
+- `Erdos477.erdos_477.variants.X_pow_three` — 2026-08-19 — `WITHDRAWN (removed from the active solver pool by maintainer request)`
+- `Erdos477.erdos_477.variants.monomial` — 2026-08-19 — `WITHDRAWN (removed from the active solver pool by maintainer request)`
 - `Erdos510.erdos_510` — 2026-08-12 — `TYPE_DEPENDS_ON_SORRY (the Prop-valued answer(sorry) survives in the compiled theorem type, making this a mechanically ineligible PROP_ANSWER_WRAPPER target)`
+- `Erdos536.erdos_536` — 2026-08-19 — `WITHDRAWN (removed from the active solver pool by maintainer request)`
 - `Erdos567.erdos_567.parts.i` — 2026-08-12 — `SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q₃,H), while the Lean target states SimpleGraph.sizeRamsey Q₃ H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)`
 - `Erdos939.erdos_939` — 2026-08-06 — `SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)`
 - `Green29.green_29` — 2026-08-06 — `SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} × H) ∪ ({+1} × H) ∪ {(0,1)} in Multiplicative ℤ × H, whose only element at coordinate 0 is the identity, so every S ⊆ A with S^8 ⊆ A^4 is a singleton; the formalization is faithful and no defect was found)`

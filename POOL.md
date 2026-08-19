@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 162 audited targets in `tier-1`: 142 Erdős targets and 20 Green's
+The current release places all 159 audited targets in `tier-1`: 139 Erdős targets and 20 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -80,7 +80,7 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 324 task bundles covering 162 audited targets: 142 Erdős targets and 20
+`tier-1` contains all 318 task bundles covering 159 audited targets: 139 Erdős targets and 20
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
 has its own stable reward identity.
 
@@ -99,7 +99,8 @@ For the 28 targets added in the 2026-08-12 audit, exact-statement and equivalent
 literature searches disclosed no published solution. `Erdos1199.erdos_1199` was excluded because
 arXiv:2607.17333 proves the exact Owings sumset statement, and `Erdos510.erdos_510` was excluded
 because its compiled proposition retains a `sorry` answer hole in its type.
-The previously retired `Green3.green_3` and `Erdos567.erdos_567.parts.i` targets remain excluded.
+The previously retired `Green3.green_3`, `Erdos567.erdos_567.parts.i`, the selected Erdős 477
+variants, and `Erdos536.erdos_536` targets remain excluded.
 
 “Plausibly attackable” is a comparative solver-target screen, not a promise.
 These checks establish that a task is well-formed, remained upstream-open at the

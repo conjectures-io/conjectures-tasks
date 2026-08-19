@@ -634,20 +634,6 @@
       "theorem": "Erdos456.erdos_456.parts.iii"
     },
     {
-      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.X_pow_three",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/477.lean",
-      "source_problem_number": 477,
-      "theorem": "Erdos477.erdos_477.variants.X_pow_three"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.monomial",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/477.lean",
-      "source_problem_number": 477,
-      "theorem": "Erdos477.erdos_477.variants.monomial"
-    },
-    {
       "reward_target_id": "fc-target:Erdos479.erdos_479",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/479.lean",
@@ -674,13 +660,6 @@
       "source_path": "FormalConjectures/ErdosProblems/535.lean",
       "source_problem_number": 535,
       "theorem": "Erdos535.erdos_535.variants.first_open_case"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos536.erdos_536",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/536.lean",
-      "source_problem_number": 536,
-      "theorem": "Erdos536.erdos_536"
     },
     {
       "reward_target_id": "fc-target:Erdos579.erdos_579",

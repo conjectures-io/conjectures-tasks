@@ -1708,44 +1708,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/477.lean",
-      "source_problem_number": 477,
-      "source_status": "open",
-      "theorem": "Erdos477.erdos_477.variants.X_pow_three",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/477.lean",
-      "source_problem_number": 477,
-      "source_status": "open",
-      "theorem": "Erdos477.erdos_477.variants.monomial",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [
@@ -1815,25 +1777,6 @@
       "source_problem_number": 535,
       "source_status": "open",
       "theorem": "Erdos535.erdos_535.variants.first_open_case",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/536.lean",
-      "source_problem_number": 536,
-      "source_status": "open",
-      "theorem": "Erdos536.erdos_536",
       "upstream_status": "research open"
     },
     {
