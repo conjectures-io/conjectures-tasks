@@ -343,9 +343,215 @@
     },
     {
       "decision_url": null,
+      "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "4faa384c3f8eb007da1a1a28d5178dd9f2a0bb0e",
+      "retired_on": "2026-08-19",
+      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.X_pow_three",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          12
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Probably there is no such $A$ for the polynomial $X^3$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«477»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/477](https://www.erdosproblems.com/477)",
+          "[Sek59](http://dml.cz/dmlcz/100376) Milan Sekanina, Замечания к фактoризации беcкoнечнoй цикличеcкoй группы, Czechoslovak Mathematical Journal, Vol. 9 (1959), No. 4, 485–495"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/477.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos477.erdos_477.variants.X_pow_three",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:6b92749cc0b4a99fc7d402a7918889949b99f7e50709bd13e5546219d03dea46",
+        "type_pretty": "∀ (A : Set ℤ), ∃ z, ¬∃! a, (a ∈ A ×ˢ Set.range fun x => Polynomial.eval x (Polynomial.X ^ 3)) ∧ z = a.1 + a.2"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos477.erdos_477.variants.X_pow_three\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-x-pow-three-c28a00869c7d465fac0e164a3df8fde2-problem",
+          "target_type_sha256": "sha256:fbbceb7d06e5ddf23194e2cd8077934465951bf2627cf6b92d3455507fc03e6a",
+          "task_bundle_sha256": "sha256:84981b783bc4835a9439c575b79235fc8f92034f6000fae5b57cda5d2ebab943",
+          "task_id": "fc-379fc029-variants-x-pow-three-249b8cf7dd-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos477.erdos_477.variants.X_pow_three\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-x-pow-three-c28a00869c7d465fac0e164a3df8fde2-problem",
+          "target_type_sha256": "sha256:6b92749cc0b4a99fc7d402a7918889949b99f7e50709bd13e5546219d03dea46",
+          "task_bundle_sha256": "sha256:f278c242bb7374eee87d73a878784a6b1e1e0fac3bdb25131040a70b03828e62",
+          "task_id": "fc-379fc029-variants-x-pow-three-f045d570a6-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos477.erdos_477.variants.X_pow_three",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "4faa384c3f8eb007da1a1a28d5178dd9f2a0bb0e",
+      "retired_on": "2026-08-19",
+      "reward_target_id": "fc-target:Erdos477.erdos_477.variants.monomial",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          12
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Probably there is no such $A$ for the polynomial $X^k$ for any $k \\ge 2$. This is asked in [Sek59].\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«477»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/477](https://www.erdosproblems.com/477)",
+          "[Sek59](http://dml.cz/dmlcz/100376) Milan Sekanina, Замечания к фактoризации беcкoнечнoй цикличеcкoй группы, Czechoslovak Mathematical Journal, Vol. 9 (1959), No. 4, 485–495"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/477.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos477.erdos_477.variants.monomial",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:1e6a688779bfee53b7e5e2c4b678eb8ca0afb780bcfbdf327c2def1986076ff7",
+        "type_pretty": "∀ (k : ℕ),\n  2 ≤ k → ∀ (A : Set ℤ), ∃ z, ¬∃! a, (a ∈ A ×ˢ Set.range fun x => Polynomial.eval x (Polynomial.X ^ k)) ∧ z = a.1 + a.2"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos477.erdos_477.variants.monomial\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-monomial-f5c188e04d02588312105b2558c24262-problem",
+          "target_type_sha256": "sha256:a728b5e4a9c1c07f6d8a9b67cb591b98a57e9f020dfaad665ea320ae538e5650",
+          "task_bundle_sha256": "sha256:d53b5b41d710be5c975f854291911ed001f96147c12635d879a7f1eae0d4d035",
+          "task_id": "fc-379fc029-variants-monomial-fdf5bd0dc5-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos477.erdos_477.variants.monomial\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-variants-monomial-f5c188e04d02588312105b2558c24262-problem",
+          "target_type_sha256": "sha256:1e6a688779bfee53b7e5e2c4b678eb8ca0afb780bcfbdf327c2def1986076ff7",
+          "task_bundle_sha256": "sha256:da7f17175958fcb43ded55e18cf94c9eaa1e744151a6c3c719ac530c45090a66",
+          "task_id": "fc-379fc029-variants-monomial-cf7da87986-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos477.erdos_477.variants.monomial",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "4faa384c3f8eb007da1a1a28d5178dd9f2a0bb0e",
+      "retired_on": "2026-08-19",
+      "reward_target_id": "fc-target:Erdos536.erdos_536",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $\\epsilon>0$ and $N$ be sufficiently large. Is it true that if $A\\subseteq \\{1,\\ldots,N\\}$ has\nsize at least $\\epsilon N$ then there must be distinct $a,b,c\\in A$ such that\n$$[a, b]=[b, c]=[a, c],$$\nwhere $[\\cdot, \\cdot]$ denotes the least common multiple?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«536»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/536](https://www.erdosproblems.com/536)"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/ErdosProblems/536.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos536.erdos_536",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:59e10d319ea486a15475ad7dfcd237f7acaf43deb421bdfab99ae7eed0c707d4",
+        "type_pretty": "True ↔\n  ∀ ε > 0,\n    ∀ᶠ (N : ℕ) in Filter.atTop,\n      ∀ A ⊆ Finset.Icc 1 N,\n        ε * ↑N ≤ ↑A.card → ∃ a ∈ A, ∃ b ∈ A, ∃ c ∈ A, {a, b, c}.card = 3 ∧ a.lcm b = b.lcm c ∧ b.lcm c = a.lcm c"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«536»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos536.erdos_536\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-erdos536-erdos-536-5a5d0ee832acea568227382a73f41790-problem",
+          "target_type_sha256": "sha256:2070ee9aee1f6a67bdaa59a3e4934d3454d37178d52d05933cc94d26a6ddcedd",
+          "task_bundle_sha256": "sha256:ea3d50f8479cfb1c06ae9c904bc1dec8588f6b2c953dcdc7465e6a92e4758cae",
+          "task_id": "fc-379fc029-erdos536-erdos-536-088d4fd1ed-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«536»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos536.erdos_536\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-erdos536-erdos-536-5a5d0ee832acea568227382a73f41790-problem",
+          "target_type_sha256": "sha256:59e10d319ea486a15475ad7dfcd237f7acaf43deb421bdfab99ae7eed0c707d4",
+          "task_bundle_sha256": "sha256:b33ae3944c41d5a0b9ee4c717e76703e6b1c3d471dfb10721ab129ba54979abb",
+          "task_id": "fc-379fc029-erdos536-erdos-536-3571e2d944-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos536.erdos_536",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q₃,H), while the Lean target states SimpleGraph.sizeRamsey Q₃ H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
-      "recovered_from_commit": "8ddff279b13d97f4546f3cf0b78985d5ea5a4b8f",
+      "recovered_from_commit": "5f45ca06b4bc70c7a55f259d4b2e58278fd31f83",
       "retired_on": "2026-08-12",
       "reward_target_id": "fc-target:Erdos567.erdos_567.parts.i",
       "source": {
@@ -553,7 +759,7 @@
       "decision_url": null,
       "reason": "SOLVED + NOT_OPEN (Franchi–Gowers–Yip, arXiv:2607.06073v1, published 2026-07-07, proves the exact product-free-subset target; submissions af89c6c1 and df81aea1 were rejected under NOT_NOVEL after substantially implementing that published solution)",
       "reason_code": "SOLVED + NOT_OPEN",
-      "recovered_from_commit": "f61ab1b9cb0165ad996f6cd3ad3c60253806e78d",
+      "recovered_from_commit": "184aac41ce6690ad443e76bbc358e47b671a675c",
       "retired_on": "2026-08-12",
       "reward_target_id": "fc-target:Green3.green_3",
       "source": {
