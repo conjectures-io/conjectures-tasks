@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If $k>3$ (and $k \\neq 2^l$), and for all primes $p$ there exists $n$ such that $p^{k-2}\\nmid f(n)$,\nthen are there infinitely many $n$ for which $f(n)$ is $(k-2)$-power-free?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«978»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/978](https://www.erdosproblems.com/978)",
+    "[Ho67] Hooley, C., On the power free values of polynomials. Mathematika (1967), 21--26.",
+    "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
+    "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/978.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos978.erdos_978.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2ce98f554e4b76bc888ebfc4734728e9556132798b2850ef1e4e31ed5f1f04f0",
+  "type_pretty": "True ↔\n  ∀ {f : Polynomial ℤ},\n    Irreducible f →\n      f.natDegree > 3 →\n        (¬∃ l, f.natDegree = 2 ^ l) →\n          0 < f.leadingCoeff →\n            (∀ (p : ℕ), Nat.Prime p → ∃ n, ¬↑p ^ (f.natDegree - 2) ∣ Polynomial.eval (↑n) f) →\n              {n | Powerfree (f.natDegree - 2) (Polynomial.eval (↑n) f)}.Infinite"
+}

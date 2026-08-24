@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $f(n)$ be maximal such that if $A\\subseteq\\mathbb{N}$ has $|A| = n$ then\n$\\prod_{a\\neq b\\in A}(a + b)$ has at least $f(n)$ distinct prime factors.\nIs it true that $\\frac{f(n)}{\\log n} \\to\\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«126»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/126](https://www.erdosproblems.com/126)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/126.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos126.erdos_126",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:baceba31bace2d3c4aefa7abde6d6d4ad6e742acfe0dfdae6302fcf177f793d0",
+  "type_pretty": "True ↔\n  ∀ (f : ℕ → ℕ),\n    Erdos126.IsMaximalAddFactorsCard f → Filter.Tendsto (fun n => ↑(f n) / Real.log ↑n) Filter.atTop Filter.atTop"
+}

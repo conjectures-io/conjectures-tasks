@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    3
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**First open case beyond Erdős–Rado**: $\\mathfrak{c} \\to (\\omega \\cdot 2, 4)^3_2$.\n\nErdős and Rado proved $\\mathfrak{c} \\to (\\omega + n, 4)^3_2$ for every finite $n \\ge 2$\n(see `erdos_rado`), which covers all red ordinals below $\\omega \\cdot 2 = \\omega + \\omega$.\nThis variant asks whether the result extends to $\\beta = \\omega \\cdot 2$, the simplest\ncountable ordinal not covered by their theorem.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«70»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/70](https://www.erdosproblems.com/70)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/70.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos70.erdos_70.variants.omega_times_two_four",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
+  "type_pretty": "True ↔ Erdos70.OrdinalCardinalRamsey3 Cardinal.continuum.ord (Ordinal.omega0 * 2) 4"
+}

@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does there exist a set $A \\subseteq \\mathbb{N}$ such that $|A \\cap \\{1, \\ldots, N\\}| = o((\\log N)^2)$\nand every sufficiently large integer can be written as $p + a$ for some prime $p$ and $a \\in A$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«32»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/32](https://www.erdosproblems.com/32)",
+    "[Erd54] Erdős, Paul, Some results on additive number theory. Proc. Amer. Math. Soc. (1954), 847-853.",
+    "[Guy04] Guy, Richard K., Unsolved problems in number theory. (2004), xviii+437",
+    "[Ru98c] Ruzsa, Imre Z., On the additive completion of primes. Acta Arith. (1998), 269-275."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/32.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos32.erdos_32",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5517f12e37ad44b6b8a2049475cde72352adbc6775884434d5e8bfec0b8761ba",
+  "type_pretty": "True ↔\n  ∃ A,\n    Erdos32.IsAdditiveComplementToPrimes A ∧\n      (fun N => ↑{x ∈ Finset.Icc 1 N | x ∈ A}.card) =o[Filter.atTop] fun N => Real.log ↑N ^ 2"
+}

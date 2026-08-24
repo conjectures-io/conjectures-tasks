@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos70.erdos_70.variants.omega_times_two_four"
+  ],
+  "generated_target_type_hash": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 1000000,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«70»",
+  "source_path": "FormalConjectures/ErdosProblems/70.lean",
+  "source_theorem": "Erdos70.erdos_70.variants.omega_times_two_four",
+  "source_type_hash": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-379fc029-variants-omega-times-two-four-482be5d4ba-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:1178906317ec55b89e97ad34fe6ef8460b7280610c0730b322f4fbb605416db9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7cce8aeaa4da9449c2b2e9fc9d4df6c910c18eefcf9ceeec30d41fae855b0b0a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5a8dad64940821cd3cb34194a2e092c7e14adfc28d92ae4d21324cfab11a96a6"
+  }
+}

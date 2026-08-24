@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is there a sequence of primes $q_1 < q_2 < \\cdots$ such that $q_{i + 1} \\equiv 1 \\pmod{q_i}$ and\n$$\nq(k) \\leq \\exp(k (\\log k)^{1 + o(1)})?\n$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«695»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/695](https://www.erdosproblems.com/695)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/695.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos695.erdos_695.variants.upperBound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5d3b0dcca310b5be635b9260e38a0b7930d25a971b364e4543feb1a67468077a",
+  "type_pretty": "True ↔\n  ∃ q,\n    StrictMono q ∧\n      (∀ (i : ℕ), Nat.Prime (q i)) ∧\n        (∀ (i : ℕ), q (i + 1) % q i = 1) ∧\n          ∃ o, o =o[Filter.atTop] 1 ∧ ∀ (k : ℕ), ↑(q k) ≤ Real.exp ((↑k + 1) * Real.log (↑k + 1) ^ (1 + o k))"
+}
