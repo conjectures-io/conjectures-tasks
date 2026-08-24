@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is the $n^{4/3}\\log\\log n$ lower bound in 3D also an upper bound?. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1085»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1085](https://www.erdosproblems.com/1085)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1085.erdos_1085.variants.upper_d3",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:572861df5ecc3996e045308319c5cc289f7ec47f97227c17e29d6eda14608822",
+  "type_pretty": "True ↔ (fun n => ↑(Erdos1085.f 3 n)) =O[Filter.atTop] fun n => ↑n ^ (4 / 3) * Real.log (Real.log ↑n)"
+}

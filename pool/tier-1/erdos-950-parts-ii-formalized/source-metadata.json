@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that $\\limsup f(n)=\\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«950»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/855](https://www.erdosproblems.com/855)",
+    "[erdosproblems.com/950](https://www.erdosproblems.com/950)",
+    "[Er77c] Erdős, Paul, Problems and results on combinatorial number theory. III. Number theory day (Proc. Conf., Rockefeller Univ., New York, 1976) (1977), 43-72.",
+    "[mathoverflow/508491](https://mathoverflow.net/questions/508491)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/950.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos950.erdos_950.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b7fd4d41bfd0eb1f9be01a7f164b0ae1816049103ee6e82efb66295e0ddc9c7a",
+  "type_pretty": "True ↔ Filter.limsup (fun n => ↑(Erdos950.f n)) Filter.atTop = ⊤"
+}

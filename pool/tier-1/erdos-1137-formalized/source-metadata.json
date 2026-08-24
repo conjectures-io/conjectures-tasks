@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $d_n=p_{n+1}-p_n$, where $p_n$ denotes the $n$th prime. Is it true that\n$$\\frac{\\max_{n < x}d_{n}d_{n-1}}{(\\max_{n < x}d_n)^2}\\to 0$$ as $x\\to \\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1137»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1137](https://www.erdosproblems.com/1137)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1137.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1137.erdos_1137",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:96d9d56fb0a38908f5fdde11eab68df2bad467b53ddce71bed55150b40dda9a1",
+  "type_pretty": "True ↔\n  Filter.Tendsto\n    (fun x => ↑((Finset.range x).sup fun n => primeGap n * primeGap (n - 1)) / ↑((Finset.range x).sup primeGap) ^ 2)\n    Filter.atTop (nhds 0)"
+}

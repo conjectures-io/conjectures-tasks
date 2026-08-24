@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does there exist, for all $r\\geq 2$, a basis $A$ of order $r$ (so that $f_r(n)>0$ for all\nlarge $n$) such that $$\\sum_{n\\leq x}f_r(n)^2 \\ll x$$ for all $x$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1192»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1192](https://www.erdosproblems.com/1192)",
+    "[Ru90] Ruzsa, Imre Z., A just basis. Monatsh. Math. (1990), 145--151.",
+    "[Er80] Erdős, Paul, A survey of problems in combinatorial number theory. Ann. Discrete Math. 6 (1980), 89--115."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1192.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1192.erdos_1192",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:82dfbe82fe1b5bbca9d16f555655d8e5b3e26fc1b3dfe8a931db7f67770fc9b5",
+  "type_pretty": "True ↔\n  ∀ r ≥ 2,\n    ∃ A,\n      (∀ᶠ (n : ℕ) in Filter.atTop, Erdos1192.f_r A r n > 0) ∧\n        (fun x => ∑ n ∈ Finset.range (x + 1), ↑(Erdos1192.f_r A r n) ^ 2) =O[Filter.atTop] fun x => ↑x"
+}

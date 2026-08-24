@@ -1,0 +1,46 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that $C(x)=x^{1-o(1)}$?\n\nThis is discussed in problem A13 of Guy's collection [Gu04].\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1057»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1057](https://www.erdosproblems.com/1057)",
+    "[AGP94] Alford, W. R. and Granville, Andrew and Pomerance, Carl, There are infinitely many Carmichael numbers. Ann. of Math. (2) (1994), 703--722.",
+    "[Er56c] Erdős, P., On pseudoprimes and Carmichael numbers. Publ. Math. Debrecen (1956), 201--206.",
+    "[Gu04] Guy, Richard K., Unsolved problems in number theory. (2004), xviii+437.",
+    "[Ha08] Harman, Glyn, Watt's mean value theorem and Carmichael numbers. Int. J. Number Theory (2008), 241--248.",
+    "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
+    "[Po89] Pomerance, Carl, Two methods in elementary analytic number theory. (1989), 135--161."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/1057.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1057.erdos_1057",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d9d4e2c4c121fc065a35e95ed514ddd67f7ce3df8821ac1e9b832792b75983bf",
+  "type_pretty": "True ↔ Filter.Tendsto (fun x => Real.log (Erdos1057.carmichaelCounting x) / Real.log x) Filter.atTop (nhds 1)"
+}

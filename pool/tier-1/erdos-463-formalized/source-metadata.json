@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is there a function $f$ with $f(n)\\to\\infty$ as $n\\to\\infty$ such that,\nfor all large $n$, there is a composite number $m$ such that\n$$\nn + f(n) < m < n + p(m)\n$$\nHere $p(m)$ is the least prime factor of $m$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«463»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/463](https://www.erdosproblems.com/463)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/463.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos463.erdos_463",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:20c3316fde211c926c0f24a4be33346603ee27b460f46825d43f1552d0d26465",
+  "type_pretty": "True ↔\n  ∃ f,\n    ∃ (_ : Filter.Tendsto f Filter.atTop Filter.atTop),\n      ∀ᶠ (n : ℕ) in Filter.atTop, ∃ m, m.Composite ∧ n + f n < m ∧ m < n + m.minFac"
+}

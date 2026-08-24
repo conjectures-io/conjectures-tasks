@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $s_1 < s_2 < \\cdots$ be the sequence of squarefree numbers. Is it true that, for any\n$\\alpha\\geq 0$,\n$$\n\\lim_{x\\to\\infty} \\frac{1}{x}\\sum_{s_n\\leq x}(s_{n+1}-s_n)^\\alpha\n$$\nexists?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«145»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/145](https://www.erdosproblems.com/145)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/145.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos145.erdos_145",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f176a0bfb88442d3e2af7d9fd0574cf9f3c2a8fbf2509c1c12c8e4aa57fd694f",
+  "type_pretty": "True ↔\n  ∀ α ≥ 0,\n    ∃ β,\n      Filter.Tendsto (fun x => 1 / x * ∑ n ∈ Erdos145.A x, (↑(Erdos145.s (n + 1)) - ↑(Erdos145.s n)) ^ α) Filter.atTop\n        (nhds β)"
+}

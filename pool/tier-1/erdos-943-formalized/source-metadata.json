@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $A$ be the set of powerful numbers. Is is true that $1_A\\ast 1_A(n)=n^{o(1)}$ for every $n$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«943»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/943](https://www.erdosproblems.com/943)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/943.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos943.erdos_943",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c5a8f359522f97e397057bba602208dc7826505e2e60b9c4647e60fef5bb1171",
+  "type_pretty": "True ↔ ∃ o, o =o[Filter.atTop] 1 ∧ ∀ᶠ (n : ℕ) in Filter.atTop, ↑(AdditiveCombinatorics.sumRep Nat.Powerful n) ≤ ↑n ^ o n"
+}

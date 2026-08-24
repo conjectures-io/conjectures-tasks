@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $2=p_1 < p_2 < \\cdots$ be the primes and $k\\geq 2$. Is it true that, for all sufficiently large\n$n$, there must exist an integer in $[n,n+p_1\\cdots p_k)$ with $>k$ many prime factors?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«891»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/891](https://www.erdosproblems.com/891)",
+    "[Po18] Pólya, Georg, Zur arithmetischen {U}ntersuchung der {P}olynome. Math. Z. (1918), 143--148.",
+    "[Wikipedia] https://en.wikipedia.org/wiki/Dickson%27s_conjecture"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/891.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos891.erdos_891",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:84dd238bc29290f58b85c308b55eef43271bdcec150368672368bccd4e73f352",
+  "type_pretty": "True ↔\n  ∀ k ≥ 2,\n    ∀ᶠ (n : ℕ) in Filter.atTop,\n      ∃ m ∈ Finset.Ico n (n + ∏ i ∈ Finset.range k, Nat.nth Nat.Prime i), k < ArithmeticFunction.cardDistinctFactors m"
+}

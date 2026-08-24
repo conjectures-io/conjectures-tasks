@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For every r ≥ 4 and k ≥ 2 is there some finite f(k,r) such that every graph of chromatic number ≥ f(k,r)\ncontains a subgraph of girth ≥ r and chromatic number ≥ k?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«108»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/108](https://www.erdosproblems.com/108)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/108.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos108.erdos_108",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3bbbe11684218da1653d0fe0c24de6480477a26459659c3dfe0e846659461119",
+  "type_pretty": "True ↔\n  ∀ r ≥ 4,\n    ∀ k ≥ 2,\n      ∃ f,\n        ∀ (V : Type u) (G : SimpleGraph V),\n          Nonempty V → ↑f ≤ G.chromaticNumber → ∃ H, H.coe.girth ≥ r ∧ H.coe.chromaticNumber ≥ ↑k"
+}

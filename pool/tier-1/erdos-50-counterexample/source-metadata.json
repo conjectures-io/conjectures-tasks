@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $f$ be the asymptotic distribution function of $\\varphi(n)/n$, so that for each $c \\in [0,1]$,\n$f(c)$ is the natural density of $\\{n : \\varphi(n) < cn\\}$. Is it true that there is no $x$ such\nthat the derivative $f'(x)$ exists and is positive?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«50»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/50](https://www.erdosproblems.com/50)",
+    "[Er95] Erdős, Paul, Some of my favourite problems in number theory, combinatorics, and geometry."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/50.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos50.erdos_50",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:49437b186485c7a34248bc088d114225dcdd8ff9bc800f6a45ff2325bb55bea1",
+  "type_pretty": "True ↔\n  ∀ (f : ℝ → ℝ), Erdos50.IsDistributionOfPhiRatio f → ¬∃ x ∈ Set.Icc 0 1, ∃ y > 0, HasDerivWithinAt f y (Set.Icc 0 1) x"
+}

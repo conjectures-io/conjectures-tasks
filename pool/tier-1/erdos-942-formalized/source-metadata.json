@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is there some constant $c > 0$ such that $h(n) < (\\log n)^{c + o(1)}$ and, for infinitely many $n$,\n$h(n) > (\\log n)^{c - o(1)}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«942»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/942](https://www.erdosproblems.com/942)"
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/942.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos942.erdos_942",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:32a13035c76f2ccb7f9417c54eba68efd9280000b308bcf1aac4618cfe86b99b",
+  "type_pretty": "True ↔\n  ∃ c > 0,\n    ∃ o,\n      o =o[Filter.atTop] 1 ∧\n        (∀ᶠ (n : ℕ) in Filter.atTop, ↑(Erdos942.erdos_942.h n) < Real.log ↑n ^ (c + o n)) ∧\n          {n | ↑(Erdos942.erdos_942.h n) > Real.log ↑n ^ (c - o n)}.Infinite"
+}

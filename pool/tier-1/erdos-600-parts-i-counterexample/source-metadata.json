@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": true,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $r \\geq 2$. Is it true that $e(n,r+1) - e(n,r) \\to \\infty$ as $n \\to \\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«600»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/600](https://www.erdosproblems.com/600)",
+    "[erdosproblems.com/80](https://www.erdosproblems.com/80)",
+    "[Er87] Erdős, P., _Some problems on finite and infinite graphs_. Logic and combinatorics (Arcata, Calif., 1985) (1987), 223-228.",
+    "[RuSz78] Ruzsa, I. Z. and Szemerédi, E., _Triple systems with no six points carrying three triangles_. Combinatorics (Proc. Fifth Hungarian Colloq., Keszthely, 1976), Vol. II (1978), 939-945."
+  ],
+  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "source_path": "FormalConjectures/ErdosProblems/600.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos600.erdos_600.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7aeac9f2ec0e2514bbb4d975e0b2724ff741607674a3104ad6c50fab022e7aee",
+  "type_pretty": "True ↔\n  ∀ (r : ℕ),\n    2 ≤ r →\n      Filter.Tendsto (fun n => ↑(Erdos600.eFunction n (r + 1)) - ↑(Erdos600.eFunction n r)) Filter.atTop Filter.atTop"
+}
