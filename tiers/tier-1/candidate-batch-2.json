@@ -1,0 +1,770 @@
+{
+  "audit_status": "UNAUDITED",
+  "candidates": [
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1035.lean",
+      "source_problem_number": 1035,
+      "source_type_sha256": "sha256:e77a353407843c94d2a22e38b524bb257129a868de26d0faea86b0f47fd5065b",
+      "theorem": "Erdos1035.erdos_1035",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "solved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1044.lean",
+      "source_problem_number": 1044,
+      "source_type_sha256": "sha256:b1ed3af262368364d8c8562efa3890e1482f2cc46d3d9c7da3cc1772269ef85e",
+      "theorem": "Erdos1044.erdos_1044.variants.fixed_degree",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "disproved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4354
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/105.lean",
+      "source_problem_number": 105,
+      "source_type_sha256": "sha256:e3134b8159793e441f111bbe087d2f2495dd5c4e7620b22d878e9326423ac5a5",
+      "theorem": "Erdos105.erdos_105.variants.sub_four",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "proved",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1050.lean",
+      "source_problem_number": 1050,
+      "source_type_sha256": "sha256:8f10672da002db3a78a9215d55fdfaa15bae0d447447d25df2b7cc1e8dc80d87",
+      "theorem": "Erdos1050.erdos_1050.variants.transcendental",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "falsifiable",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/107.lean",
+      "source_problem_number": 107,
+      "source_type_sha256": "sha256:ba8757d5f6040523637ef00a6f7f106d17fa3b92059619951bf69d51b6bef883",
+      "theorem": "Erdos107.erdos_107",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1088.lean",
+      "source_problem_number": 1088,
+      "source_type_sha256": "sha256:735386a0709533a696943b2f758df112d5029b120b7ed5faa3273b76aaa21b41",
+      "theorem": "Erdos1088.erdos_1088",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1109.lean",
+      "source_problem_number": 1109,
+      "source_type_sha256": "sha256:775afaaa862db69b789ec7dbe14d3b9a914162f00533e6d29f3d6908da14e4ee",
+      "theorem": "Erdos1109.erdos_1109",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1109.lean",
+      "source_problem_number": 1109,
+      "source_type_sha256": "sha256:67f48f6128e9efe77c1554ae3cc919bf758b7d5b92a58b95370a37ba12083da5",
+      "theorem": "Erdos1109.erdos_1109.variants.polylog",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/1110.lean",
+      "source_problem_number": 1110,
+      "source_type_sha256": "sha256:610464b3f174cd66257b94c2452ea423b22455d835491daad4c0cd1e13a07c82",
+      "theorem": "Erdos1110.erdos_1110",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "disproved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/205.lean",
+      "source_problem_number": 205,
+      "source_type_sha256": "sha256:7812fbf40dc990c793571a0e2034c44494493c54e94cf35de81ac66b7cf6f8fb",
+      "theorem": "Erdos205.erdos_205.variants.odd_counterexamples",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/263.lean",
+      "source_problem_number": 263,
+      "source_type_sha256": "sha256:af6d102bacbb5919e321fb09fea19ce43d4c396bc5ada6f3580a72c6394d5c07",
+      "theorem": "Erdos263.erdos_263.parts.ii",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "disproved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/337.lean",
+      "source_problem_number": 337,
+      "source_type_sha256": "sha256:2f29495271b0d3ceb3463ea190f2f7d8127cf2aee31401160c0a29be64c6b8a9",
+      "theorem": "Erdos337.erdos_337.variants.ruzsa_turjanyi",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        3422,
+        4003,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/342.lean",
+      "source_problem_number": 342,
+      "source_type_sha256": "sha256:3af121f9a98ad571f7794feaaf696d3aaab2b2aa21112224d5bbdd2e8cb73329",
+      "theorem": "Erdos342.erdos_342.parts.i",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        3422,
+        4003,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/342.lean",
+      "source_problem_number": 342,
+      "source_type_sha256": "sha256:019d824241b662dbe1586195a897080f1542458676ac73947db881cc2bef758d",
+      "theorem": "Erdos342.erdos_342.parts.ii",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        3422,
+        4003,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/342.lean",
+      "source_problem_number": 342,
+      "source_type_sha256": "sha256:df85acb086fe0582f653e342904222a09c55ce93f14d6a676af9079f3fed6202",
+      "theorem": "Erdos342.erdos_342.parts.iii",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/354.lean",
+      "source_problem_number": 354,
+      "source_type_sha256": "sha256:9f0174acff78e319128f0ee853bda2a54320062e29518c47d9d3b5187a9df72c",
+      "theorem": "Erdos354.erdos_354.parts.ii",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4354,
+        5090
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/367.lean",
+      "source_problem_number": 367,
+      "source_type_sha256": "sha256:6445fb812756dbe7fbee8110b674e7691dcf2b74060b465a9a19e310e9ce566e",
+      "theorem": "Erdos367.erdos_367.parts.i",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4354,
+        5090
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/367.lean",
+      "source_problem_number": 367,
+      "source_type_sha256": "sha256:8332c502bef064987afe55c7f30f5e8d133dee850c96e2718df11a988e110b4d",
+      "theorem": "Erdos367.erdos_367.variants.higher_full_parts",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "falsifiable",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/398.lean",
+      "source_problem_number": 398,
+      "source_type_sha256": "sha256:b3820f17127e75aa44208433926aeaaca6601491620e00bc1aaa6f494b5dbd3d",
+      "theorem": "Erdos398.erdos_398",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4003,
+        4198,
+        4577,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/424.lean",
+      "source_problem_number": 424,
+      "source_type_sha256": "sha256:09d90e637e7a582086121a7e78aa17aaebdb8e9622113fa24f33a7dcf7883647",
+      "theorem": "Erdos424.erdos_424",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4072
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/450.lean",
+      "source_problem_number": 450,
+      "source_type_sha256": "sha256:bf1ec34b9faa3513ac76d20b3fdec385164ce97f688da03fbd1a869ebba167c0",
+      "theorem": "Erdos450.erdos_450",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4194,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/470.lean",
+      "source_problem_number": 470,
+      "source_type_sha256": "sha256:5df3dc0cc2eaeb99789d8faac4ec0fa93bd39b5ed8a79e923a376a11c9dcf426",
+      "theorem": "Erdos470.erdos_470.parts.i",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4194,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/470.lean",
+      "source_problem_number": 470,
+      "source_type_sha256": "sha256:2f5a73c1d482d58a11858d6241a57e0fcc9baaa4ffd7c9741192fc5699993369",
+      "theorem": "Erdos470.erdos_470.parts.ii",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/5.lean",
+      "source_problem_number": 5,
+      "source_type_sha256": "sha256:d0133cf2daf022ef7e20dff76fda298223f5866bee27e4ab123b5a8889bcf411",
+      "theorem": "Erdos5.erdos_5",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/5.lean",
+      "source_problem_number": 5,
+      "source_type_sha256": "sha256:969b1fae05119ec7272ae6392c5fab7e219c103782c5905557ec9e8ffcd7b503",
+      "theorem": "Erdos5.erdos_5.variants.dense",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/5.lean",
+      "source_problem_number": 5,
+      "source_type_sha256": "sha256:115be2a05f12a6585569bae0ca83edce159471d260f54f6f72b3ecbb10aad168",
+      "theorem": "Erdos5.erdos_5.variants.limit_point_set",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/538.lean",
+      "source_problem_number": 538,
+      "source_type_sha256": "sha256:c26ca794649eee1f30ddf93e25c02c993a7916fe00ed9868c55e40a5c7caf461",
+      "theorem": "Erdos538.erdos_538",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4198
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/60.lean",
+      "source_problem_number": 60,
+      "source_type_sha256": "sha256:ded82056dd6f01a0d5c30db65bd9ad87877ec9c2523187a02ec1cc2447d93748",
+      "theorem": "Erdos60.erdos_60",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "falsifiable",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4198
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/628.lean",
+      "source_problem_number": 628,
+      "source_type_sha256": "sha256:e8920976656ae4d690a98c0173d483297677c2f5cf335f7047ebea508e16acd6",
+      "theorem": "Erdos628.erdos_628",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "disproved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/649.lean",
+      "source_problem_number": 649,
+      "source_type_sha256": "sha256:ada39ff963c88405553c8a8c7fc79c6e4883867752a42337132b9c0a28c5a3aa",
+      "theorem": "Erdos649.erdos_649.variants.tong_question",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/660.lean",
+      "source_problem_number": 660,
+      "source_type_sha256": "sha256:17c11cbed81fc4c03bb2c31820dc1627ba8c28acaeba016040b611aef6424efa",
+      "theorem": "Erdos660.erdos_660",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/660.lean",
+      "source_problem_number": 660,
+      "source_type_sha256": "sha256:11bf181b7f3a138ef922097c54b40dc02ca95749251a95ad0c88cde76ecf40ea",
+      "theorem": "Erdos660.erdos_660.variants.Er75f",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4004,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/689.lean",
+      "source_problem_number": 689,
+      "source_type_sha256": "sha256:aa4537061f8191d9d0a76e4ce652098cbb38f79befffcbe678e2401f98c4f9d7",
+      "theorem": "Erdos689.erdos_689",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/769.lean",
+      "source_problem_number": 769,
+      "source_type_sha256": "sha256:1c7cdabfb70fd94696076f01e1ca8f6d4c3543444898db75c4522adb7373aba1",
+      "theorem": "Erdos769.erdos_769.variants.growth_rate",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "proved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/785.lean",
+      "source_problem_number": 785,
+      "source_type_sha256": "sha256:38dc383656816e70b1be9307edb381651cd69726bd99b646f5fef420468c72f1",
+      "theorem": "Erdos785.erdos_785.variants.chen_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/80.lean",
+      "source_problem_number": 80,
+      "source_type_sha256": "sha256:6b4fb78b381bbf17fab93e714d0e1728a15f1426623ff8d3f1111e2f8b4e8f0a",
+      "theorem": "Erdos80.erdos_80",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/80.lean",
+      "source_problem_number": 80,
+      "source_type_sha256": "sha256:40b1b8eb864a22f364b55a64e9a7fceb8015494c57defa0193eb4e392ad198c7",
+      "theorem": "Erdos80.erdos_80.variants.log",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/830.lean",
+      "source_problem_number": 830,
+      "source_type_sha256": "sha256:e7a096c9f05cd7e377864ff9035f9790f42ca4651fbbca16df8c4d1900621d04",
+      "theorem": "Erdos830.erdos_830.parts.i",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": false,
+      "open_prs_touching_source": [
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/830.lean",
+      "source_problem_number": 830,
+      "source_type_sha256": "sha256:2ab8c315d2eef1bf9074ee5b26bb265fa25af194574c316860b4839b2adca0aa",
+      "theorem": "Erdos830.erdos_830.parts.ii",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "proved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/94.lean",
+      "source_problem_number": 94,
+      "source_type_sha256": "sha256:34addfb85c6d11514abbb657422db02276d5f6714e31453faab1e2340979a1a6",
+      "theorem": "Erdos94.erdos_94.variants.regular_ngon",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/955.lean",
+      "source_problem_number": 955,
+      "source_type_sha256": "sha256:f736dda2da89d2805f5e9d9882e3afc883bc711c4e55af1443bd051004e262aa",
+      "theorem": "Erdos955.erdos_955",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "open",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/959.lean",
+      "source_problem_number": 959,
+      "source_type_sha256": "sha256:26db7435445838746c9ec4e4e76c7dfcfc7cbe8711d0c51cd228df0cb89d943a",
+      "theorem": "Erdos959.erdos_959",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "disproved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4895
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/967.lean",
+      "source_problem_number": 967,
+      "source_type_sha256": "sha256:cc5e0120e12d4700bdccb434225e868c96612934cbec3d0155c8a556323377ec",
+      "theorem": "Erdos967.erdos_967.variants.finite",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "erdos_database_status": "disproved (Lean)",
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [
+        3422,
+        4895
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/967.lean",
+      "source_problem_number": 967,
+      "source_type_sha256": "sha256:524be7a2d692467db45f882627cd478048d088d45403f65a0e4f7b26d08d7c97",
+      "theorem": "Erdos967.erdos_967.variants.two_three_five",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/21.lean",
+      "source_problem_number": 21,
+      "source_type_sha256": "sha256:b2fdc363bd7e4aa37a3784f5d40bab10c684a01d2dce8e3f38c02a08a849f8a6",
+      "theorem": "Green21.green_21",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/21.lean",
+      "source_problem_number": 21,
+      "source_type_sha256": "sha256:20cded7cfb3abc59025988f0c5573b04843bc828b9367a0fd64bc45236bf0282",
+      "theorem": "Green21.green_21.variants.fox_kleitman_modular",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/21.lean",
+      "source_problem_number": 21,
+      "source_type_sha256": "sha256:6db6eeb8202ca4112092e94e62c172a5e9eb4d199a8d7418ad62639d646a1c14",
+      "theorem": "Green21.green_21.variants.milicevic",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/53.lean",
+      "source_problem_number": 53,
+      "source_type_sha256": "sha256:47b2b442e9db7d3483d1fa880fc5ea9e819426b2d2e6de032d16f74cf9847358",
+      "theorem": "Green53.green_53",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/64.lean",
+      "source_problem_number": 64,
+      "source_type_sha256": "sha256:e209fc140f5c6dc090e770f696df70a0a4632b3b246a67a74585c7483d0ca99c",
+      "theorem": "Green64.green_64",
+      "upstream_status": "research open"
+    },
+    {
+      "audited": false,
+      "new_at_this_pin": true,
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/64.lean",
+      "source_problem_number": 64,
+      "source_type_sha256": "sha256:08b3ec35814165020e63effa229d4c9587d8ceb1f5d8cf8a3ae23ddf2c0c1661",
+      "theorem": "Green64.green_64.variants.p_sub_one",
+      "upstream_status": "research open"
+    }
+  ],
+  "generated_for_repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "lapsed_mechanical_retirements": [
+    {
+      "new_classification": "DIRECT_PROP",
+      "note": "the mechanical retirement reason no longer holds at this pin; readmission needs a new audit and removal from retired-source-theorems.json",
+      "old_classification": "PROP_ANSWER_WRAPPER",
+      "source_path": "FormalConjectures/ErdosProblems/20.lean",
+      "source_type_sha256": "sha256:5cbbdcfc9963bd4758175f91fffa233f6fb7eb609a4e1dae0b79c57a0e519659",
+      "theorem": "Erdos20.erdos_20"
+    },
+    {
+      "new_classification": "DIRECT_PROP",
+      "note": "the mechanical retirement reason no longer holds at this pin; readmission needs a new audit and removal from retired-source-theorems.json",
+      "old_classification": "PROP_ANSWER_WRAPPER",
+      "source_path": "FormalConjectures/ErdosProblems/510.lean",
+      "source_type_sha256": "sha256:fbeda363cc34745e328df20153b5d7580086c53533674701836f7837ca70b1b5",
+      "theorem": "Erdos510.erdos_510"
+    },
+    {
+      "new_classification": "DIRECT_PROP",
+      "note": "the mechanical retirement reason no longer holds at this pin; readmission needs a new audit and removal from retired-source-theorems.json",
+      "old_classification": "PROP_ANSWER_WRAPPER",
+      "source_path": "FormalConjectures/Mathoverflow/75792.lean",
+      "source_type_sha256": "sha256:33bcf2a7bdb8b658828e1e53a110ddd17432946f848b9273ddb849b63bd36c8d",
+      "theorem": "Mathoverflow75792.complexity_two_pow"
+    },
+    {
+      "new_classification": "DIRECT_PROP",
+      "note": "the mechanical retirement reason no longer holds at this pin; readmission needs a new audit and removal from retired-source-theorems.json",
+      "old_classification": "PROP_ANSWER_WRAPPER",
+      "source_path": "FormalConjectures/OpenQuantumProblems/35.lean",
+      "source_type_sha256": "sha256:b00199ff3e1f1e4ccf77f3dafaf08bea304ad72cd4e07be4cc57c7f3f07176e5",
+      "theorem": "OpenQuantumProblem35.ame_10_10_open"
+    },
+    {
+      "new_classification": "DIRECT_PROP",
+      "note": "the mechanical retirement reason no longer holds at this pin; readmission needs a new audit and removal from retired-source-theorems.json",
+      "old_classification": "PROP_ANSWER_WRAPPER",
+      "source_path": "FormalConjectures/OpenQuantumProblems/35.lean",
+      "source_type_sha256": "sha256:c040b511944962fd034b6a9f42d05b0b2947eca3906bdd1ecdd53706ac8ee59a",
+      "theorem": "OpenQuantumProblem35.ame_10_6_open"
+    }
+  ],
+  "pending_audit_inputs": [
+    "feasibility_signals",
+    "source_status",
+    "exact-statement and equivalent-form literature screen"
+  ],
+  "schema_version": 1
+}
