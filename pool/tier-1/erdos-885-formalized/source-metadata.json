@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for every $k \\geq 1$, there exist integers $N_1 < \\dots < N_k$ such that\n$|\\cap_i D(N_i)| \\geq k$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«885»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/885](https://www.erdosproblems.com/885)",
+    "[ErRo97] Erdős, P. and Rosenfeld, M., The factor-difference set of integers. (1997)",
+    "[Ji99] Jiménez-Urroz, J., A note on a conjecture of Erdős and {R}osenfeld. (1999)",
+    "[Br19] Bremner, A., On a problem of Erdős related to common factor differences. (2019)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/885.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos885.erdos_885",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:69c05c3c7313bb78e965549ee66cadffda2e6cf60728fe7fe0c81fe2ec75ab41",
+  "type_pretty": "True ↔ ∀ k ≥ 1, ∃ Ns, (∀ n ∈ Ns, 1 ≤ n) ∧ Ns.card = k ∧ (⋂ n ∈ Ns, Erdos885.factorDifferenceSet n).ncard ≥ k"
+}

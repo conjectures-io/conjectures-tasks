@@ -15,10 +15,24 @@
       "tier": "tier-1"
     },
     {
+      "index": 472,
+      "source_path": "FormalConjectures/ErdosProblems/1004.lean",
+      "source_type_sha256": "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664",
+      "theorem": "Erdos1004.erdos_1004",
+      "tier": "tier-1"
+    },
+    {
       "index": 538,
       "source_path": "FormalConjectures/ErdosProblems/1049.lean",
       "source_type_sha256": "sha256:8a4ce72ea0a41aceb11ac705364b6d90e856eb71ce4970ee48ce81a5b5cbe195",
       "theorem": "Erdos1049.erdos_1049",
+      "tier": "tier-1"
+    },
+    {
+      "index": 571,
+      "source_path": "FormalConjectures/ErdosProblems/1057.lean",
+      "source_type_sha256": "sha256:d9d4e2c4c121fc065a35e95ed514ddd67f7ce3df8821ac1e9b832792b75983bf",
+      "theorem": "Erdos1057.erdos_1057",
       "tier": "tier-1"
     },
     {
@@ -36,6 +50,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 605,
+      "source_path": "FormalConjectures/ErdosProblems/1068.lean",
+      "source_type_sha256": "sha256:18aadc80443418fe2cdc6e8658361f772dfac497a2279d7ec9048f0a57804b76",
+      "theorem": "Erdos1068.erdos_1068",
+      "tier": "tier-1"
+    },
+    {
       "index": 615,
       "source_path": "FormalConjectures/ErdosProblems/1072.lean",
       "source_type_sha256": "sha256:5d55a338668375e93fbf0ad985db12019fcde7d09295ae644bedc2b23c1b6880",
@@ -43,10 +64,38 @@
       "tier": "tier-1"
     },
     {
+      "index": 616,
+      "source_path": "FormalConjectures/ErdosProblems/1072.lean",
+      "source_type_sha256": "sha256:face433702cb92461a257a2be4165cb1ec8401d61973ebe72b7337cec6972eb0",
+      "theorem": "Erdos1072.erdos_1072.parts.ii",
+      "tier": "tier-1"
+    },
+    {
+      "index": 618,
+      "source_path": "FormalConjectures/ErdosProblems/1073.lean",
+      "source_type_sha256": "sha256:ce379578bcf74e9c9f0f26f3097db5efb58de820117e694203a10aba079b3ce4",
+      "theorem": "Erdos1073.erdos_1073",
+      "tier": "tier-1"
+    },
+    {
       "index": 625,
       "source_path": "FormalConjectures/ErdosProblems/1074.lean",
       "source_type_sha256": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
       "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
+      "tier": "tier-1"
+    },
+    {
+      "index": 632,
+      "source_path": "FormalConjectures/ErdosProblems/108.lean",
+      "source_type_sha256": "sha256:8be2c005c0290f01e2370d1ab68e8a1901ef0b52836b2685bb0fe2075b318142",
+      "theorem": "Erdos108.erdos_108",
+      "tier": "tier-1"
+    },
+    {
+      "index": 645,
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "source_type_sha256": "sha256:572861df5ecc3996e045308319c5cc289f7ec47f97227c17e29d6eda14608822",
+      "theorem": "Erdos1085.erdos_1085.variants.upper_d3",
       "tier": "tier-1"
     },
     {
@@ -78,6 +127,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 686,
+      "source_path": "FormalConjectures/ErdosProblems/1106.lean",
+      "source_type_sha256": "sha256:3a79424001452961961cc10b1ab7e9653b853758d2edcf306248b0b9a775c8f8",
+      "theorem": "Erdos1106.erdos_1106.parts.ii",
+      "tier": "tier-1"
+    },
+    {
       "index": 687,
       "source_path": "FormalConjectures/ErdosProblems/1107.lean",
       "source_type_sha256": "sha256:7d3f25595511760c3b8766591417c5ee5db47667b52adbf48af1d8e4aad5d229",
@@ -99,10 +155,24 @@
       "tier": "tier-1"
     },
     {
+      "index": 721,
+      "source_path": "FormalConjectures/ErdosProblems/1137.lean",
+      "source_type_sha256": "sha256:a62d844e5fab8e4377daba553a74aa8ae79e3a98cbf6f1b7c3031dbc18f6895d",
+      "theorem": "Erdos1137.erdos_1137",
+      "tier": "tier-1"
+    },
+    {
       "index": 727,
       "source_path": "FormalConjectures/ErdosProblems/1142.lean",
       "source_type_sha256": "sha256:140c4194bf440ed9095b2b1a1f8cb6b534b1f4738ee1c9d78a89ec890ed38632",
       "theorem": "Erdos1142.erdos_1142",
+      "tier": "tier-1"
+    },
+    {
+      "index": 769,
+      "source_path": "FormalConjectures/ErdosProblems/1192.lean",
+      "source_type_sha256": "sha256:deb84e4a73cad6e9d9b6f934a99d436ba2a0ba545694e0d16cca0f266636f5a8",
+      "theorem": "Erdos1192.erdos_1192",
       "tier": "tier-1"
     },
     {
@@ -134,6 +204,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 830,
+      "source_path": "FormalConjectures/ErdosProblems/126.lean",
+      "source_type_sha256": "sha256:baceba31bace2d3c4aefa7abde6d6d4ad6e742acfe0dfdae6302fcf177f793d0",
+      "theorem": "Erdos126.erdos_126",
+      "tier": "tier-1"
+    },
+    {
       "index": 832,
       "source_path": "FormalConjectures/ErdosProblems/126.lean",
       "source_type_sha256": "sha256:e51da61bab02dff3343888e4508dfbd1cb0dcede06e43085d132d5f8a50b05e1",
@@ -145,6 +222,13 @@
       "source_path": "FormalConjectures/ErdosProblems/137.lean",
       "source_type_sha256": "sha256:5719716b719a2e2b8a4d34bc622abf2383f67b0c6f5a8e4fb02acc0104af9791",
       "theorem": "Erdos137.erdos_137.variants.multiple_powerful_factors",
+      "tier": "tier-1"
+    },
+    {
+      "index": 852,
+      "source_path": "FormalConjectures/ErdosProblems/14.lean",
+      "source_type_sha256": "sha256:92676249a3598e8a654641b6d8078ed91bb3b00db116143e5a586cd63e1e6b20",
+      "theorem": "Erdos14.erdos_14.parts.ii",
       "tier": "tier-1"
     },
     {
@@ -169,10 +253,31 @@
       "tier": "tier-1"
     },
     {
+      "index": 866,
+      "source_path": "FormalConjectures/ErdosProblems/145.lean",
+      "source_type_sha256": "sha256:f176a0bfb88442d3e2af7d9fd0574cf9f3c2a8fbf2509c1c12c8e4aa57fd694f",
+      "theorem": "Erdos145.erdos_145",
+      "tier": "tier-1"
+    },
+    {
       "index": 880,
       "source_path": "FormalConjectures/ErdosProblems/153.lean",
       "source_type_sha256": "sha256:b35a9b51e1956e50dac187c15f5e0fd861c1ae3dcaaceb7941a1ce9bfd770316",
       "theorem": "Erdos153.erdos_153",
+      "tier": "tier-1"
+    },
+    {
+      "index": 883,
+      "source_path": "FormalConjectures/ErdosProblems/155.lean",
+      "source_type_sha256": "sha256:e200e0171f6b5e78d0cc6b256d346b3e6b66f39f97ab4ab49de7bd5b80badb55",
+      "theorem": "Erdos155.erdos_155",
+      "tier": "tier-1"
+    },
+    {
+      "index": 884,
+      "source_path": "FormalConjectures/ErdosProblems/156.lean",
+      "source_type_sha256": "sha256:69fff1f4ac55d0ed271ae93c03d155a308965a4a265c87207817f12eecb3687a",
+      "theorem": "Erdos156.erdos_156",
       "tier": "tier-1"
     },
     {
@@ -208,6 +313,13 @@
       "source_path": "FormalConjectures/ErdosProblems/196.lean",
       "source_type_sha256": "sha256:1969cd67b2bc2d369d8a90a88c2aec507b2944165032da740c678331c519e620",
       "theorem": "Erdos196.erdos_196",
+      "tier": "tier-1"
+    },
+    {
+      "index": 962,
+      "source_path": "FormalConjectures/ErdosProblems/200.lean",
+      "source_type_sha256": "sha256:d43fa2325088a551f87016acbf0fea01b86760180eef57029b6670de0c56bea0",
+      "theorem": "Erdos200.erdos_200",
       "tier": "tier-1"
     },
     {
@@ -309,6 +421,20 @@
       "tier": "tier-1"
     },
     {
+      "index": 1030,
+      "source_path": "FormalConjectures/ErdosProblems/244.lean",
+      "source_type_sha256": "sha256:be71220d898ba55e56d412aa1e3b4436767010db89b0a92f44ca455ac9fff577",
+      "theorem": "Erdos244.erdos_244",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1035,
+      "source_path": "FormalConjectures/ErdosProblems/247.lean",
+      "source_type_sha256": "sha256:ce0836dc5f58e6f27951338ad3b6fba46e4507500a218bf3ff77317bd07b4cb4",
+      "theorem": "Erdos247.erdos_247",
+      "tier": "tier-1"
+    },
+    {
       "index": 1038,
       "source_path": "FormalConjectures/ErdosProblems/249.lean",
       "source_type_sha256": "sha256:aa65acfc70e27f2eed2ea6a5b1700165d6ecdcea833d3364b4faec5dc830aedb",
@@ -400,6 +526,20 @@
       "tier": "tier-1"
     },
     {
+      "index": 1213,
+      "source_path": "FormalConjectures/ErdosProblems/32.lean",
+      "source_type_sha256": "sha256:4103eceb66462a5a4e78e45ab3320a5297ef1e9e17933fcc232abe73badd2998",
+      "theorem": "Erdos32.erdos_32",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1227,
+      "source_path": "FormalConjectures/ErdosProblems/323.lean",
+      "source_type_sha256": "sha256:6999fdcf13250f347167761e85107cc258e7b4dd6475cfce32b2ca8fed30726e",
+      "theorem": "Erdos323.erdos_323.variants.k_gt_2",
+      "tier": "tier-1"
+    },
+    {
       "index": 1229,
       "source_path": "FormalConjectures/ErdosProblems/324.lean",
       "source_type_sha256": "sha256:c1e9a0de1689c4c2d12bec0132b08f9ff32eadee40ac771ab26038c13f9e888c",
@@ -425,6 +565,13 @@
       "source_path": "FormalConjectures/ErdosProblems/340.lean",
       "source_type_sha256": "sha256:4b7136a5f14bf1fc1bb8609b078c12b5972a1a413574705aab984ed18cecad87",
       "theorem": "Erdos340.erdos_340.variants.sub_hasPosDensity",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1314,
+      "source_path": "FormalConjectures/ErdosProblems/354.lean",
+      "source_type_sha256": "sha256:de4262d428cc1a0deb7df106c6951e4db5d808b9a6d6a4e21c29f05775c50488",
+      "theorem": "Erdos354.erdos_354.parts.i",
       "tier": "tier-1"
     },
     {
@@ -582,6 +729,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 1469,
+      "source_path": "FormalConjectures/ErdosProblems/412.lean",
+      "source_type_sha256": "sha256:76232ceb7eac301b3c9a58bdf2e5f7fe16e3d9a81a9f299b0f56f2c493266557",
+      "theorem": "Erdos412.erdos_412",
+      "tier": "tier-1"
+    },
+    {
       "index": 1475,
       "source_path": "FormalConjectures/ErdosProblems/414.lean",
       "source_type_sha256": "sha256:f34e7a73bb00d956355b3dfaf8a9d2844d28196332c64b9aefc01342c404bd75",
@@ -593,6 +747,13 @@
       "source_path": "FormalConjectures/ErdosProblems/416.lean",
       "source_type_sha256": "sha256:e59204a269577064de274740a6a877339d25875f3f26f185d95133e79bbc2f70",
       "theorem": "Erdos416.erdos_416.parts.i",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1506,
+      "source_path": "FormalConjectures/ErdosProblems/428.lean",
+      "source_type_sha256": "sha256:2b3c9b455f9a0af251361349f272481934f62a120bd713409e7d90e0cfb5f626",
+      "theorem": "Erdos428.erdos_428",
       "tier": "tier-1"
     },
     {
@@ -631,6 +792,20 @@
       "tier": "tier-1"
     },
     {
+      "index": 1555,
+      "source_path": "FormalConjectures/ErdosProblems/458.lean",
+      "source_type_sha256": "sha256:909d60f631d5bf196c4bbe998c7ccc755c1f67be8a90e99926311a249344db99",
+      "theorem": "Erdos458.erdos_458",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1561,
+      "source_path": "FormalConjectures/ErdosProblems/463.lean",
+      "source_type_sha256": "sha256:20c3316fde211c926c0f24a4be33346603ee27b460f46825d43f1552d0d26465",
+      "theorem": "Erdos463.erdos_463",
+      "tier": "tier-1"
+    },
+    {
       "index": 1579,
       "source_path": "FormalConjectures/ErdosProblems/479.lean",
       "source_type_sha256": "sha256:42b69be220a84dd48e29df5445b5c6f6bf8263ed4371a22066b5df6be6202c39",
@@ -638,10 +813,24 @@
       "tier": "tier-1"
     },
     {
+      "index": 1627,
+      "source_path": "FormalConjectures/ErdosProblems/50.lean",
+      "source_type_sha256": "sha256:e6a7b24360576c0b2a1c778c45da94547d8bac944427e1e77b12c6812a6c0ef9",
+      "theorem": "Erdos50.erdos_50",
+      "tier": "tier-1"
+    },
+    {
       "index": 1673,
       "source_path": "FormalConjectures/ErdosProblems/51.lean",
       "source_type_sha256": "sha256:8d86ed569f7abf1bb04e214bfd638cb9cd69e1594308912f79142f1aa0ec4d1c",
       "theorem": "Erdos51.erdos_51",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1684,
+      "source_path": "FormalConjectures/ErdosProblems/517.lean",
+      "source_type_sha256": "sha256:f49614b72ab32a1ccd4fb7dbe54c86d23d11a3d4e52e0d9a690f4265fa1e8ed8",
+      "theorem": "Erdos517.erdos_517",
       "tier": "tier-1"
     },
     {
@@ -659,10 +848,24 @@
       "tier": "tier-1"
     },
     {
+      "index": 1738,
+      "source_path": "FormalConjectures/ErdosProblems/564.lean",
+      "source_type_sha256": "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092",
+      "theorem": "Erdos564.erdos_564",
+      "tier": "tier-1"
+    },
+    {
       "index": 1743,
       "source_path": "FormalConjectures/ErdosProblems/579.lean",
       "source_type_sha256": "sha256:f43cff368cfa4be30db0d7ec9e85fa26fd163b361528cb8db47da018f30b0b1b",
       "theorem": "Erdos579.erdos_579",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1793,
+      "source_path": "FormalConjectures/ErdosProblems/600.lean",
+      "source_type_sha256": "sha256:7aeac9f2ec0e2514bbb4d975e0b2724ff741607674a3104ad6c50fab022e7aee",
+      "theorem": "Erdos600.erdos_600.parts.i",
       "tier": "tier-1"
     },
     {
@@ -715,6 +918,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 1888,
+      "source_path": "FormalConjectures/ErdosProblems/680.lean",
+      "source_type_sha256": "sha256:d0068db7ed3750f57e52cb8465a3662197735d0284cf00ed1d3549169ce44777",
+      "theorem": "Erdos680.erdos_680.parts.ii",
+      "tier": "tier-1"
+    },
+    {
       "index": 1895,
       "source_path": "FormalConjectures/ErdosProblems/686.lean",
       "source_type_sha256": "sha256:ba400ba0844a1182de84df5aa217255c4343091b3aec968e35793bb0e75e8db2",
@@ -736,10 +946,31 @@
       "tier": "tier-1"
     },
     {
+      "index": 1918,
+      "source_path": "FormalConjectures/ErdosProblems/695.lean",
+      "source_type_sha256": "sha256:5d3b0dcca310b5be635b9260e38a0b7930d25a971b364e4543feb1a67468077a",
+      "theorem": "Erdos695.erdos_695.variants.upperBound",
+      "tier": "tier-1"
+    },
+    {
       "index": 1927,
       "source_path": "FormalConjectures/ErdosProblems/699.lean",
       "source_type_sha256": "sha256:f5eee958e682d353b94818dd365b7f9a090f1cb6d7361dfe754876412168b217",
       "theorem": "Erdos699.erdos_699",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1935,
+      "source_path": "FormalConjectures/ErdosProblems/70.lean",
+      "source_type_sha256": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
+      "theorem": "Erdos70.erdos_70.variants.omega_times_two_four",
+      "tier": "tier-1"
+    },
+    {
+      "index": 1946,
+      "source_path": "FormalConjectures/ErdosProblems/701.lean",
+      "source_type_sha256": "sha256:ca0ae541b657e550f538d41a62a6ebd5d370b8cbde8971ccc3066b1e8ff687b8",
+      "theorem": "Erdos701.erdos_701",
       "tier": "tier-1"
     },
     {
@@ -785,6 +1016,20 @@
       "tier": "tier-1"
     },
     {
+      "index": 2054,
+      "source_path": "FormalConjectures/ErdosProblems/789.lean",
+      "source_type_sha256": "sha256:5f0475c69d1d1d8fe299a0db410a528e1ee8017f96eaf19609441e9bc257c04d",
+      "theorem": "Erdos789.erdos_789.variants.sq",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2069,
+      "source_path": "FormalConjectures/ErdosProblems/812.lean",
+      "source_type_sha256": "sha256:e27111c9f2a0896182ff6489ff6a82cf045c41f102ec676f15d45633245816bc",
+      "theorem": "Erdos812.erdos_812.parts.i",
+      "tier": "tier-1"
+    },
+    {
       "index": 2076,
       "source_path": "FormalConjectures/ErdosProblems/82.lean",
       "source_type_sha256": "sha256:cf3932e65018cf1da8fdceb468deafb47936cf7bfb3d85d4e8ba9b26c7475331",
@@ -806,6 +1051,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 2089,
+      "source_path": "FormalConjectures/ErdosProblems/829.lean",
+      "source_type_sha256": "sha256:674daeaeec7a9a9cb6549a8413858ef55c09c66fb3c14a9f10b4baa95289fb49",
+      "theorem": "Erdos829.erdos_829",
+      "tier": "tier-1"
+    },
+    {
       "index": 2106,
       "source_path": "FormalConjectures/ErdosProblems/835.lean",
       "source_type_sha256": "sha256:f967e72c8bf53da5895721dfe2bcf951ec3b0ace3ff8180ca1355d1639d592a4",
@@ -817,6 +1069,13 @@
       "source_path": "FormalConjectures/ErdosProblems/849.lean",
       "source_type_sha256": "sha256:8c85bb0d73e0374d83f0808a3914ff030ecc9a24473e6471b8c861d3c4235a71",
       "theorem": "Erdos849.erdos_849",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2123,
+      "source_path": "FormalConjectures/ErdosProblems/85.lean",
+      "source_type_sha256": "sha256:da2437c05a6a570fd6224ce38798081c0d3208e49357c6b7c8bab76b9095e787",
+      "theorem": "Erdos85.erdos_85",
       "tier": "tier-1"
     },
     {
@@ -838,6 +1097,20 @@
       "source_path": "FormalConjectures/ErdosProblems/859.lean",
       "source_type_sha256": "sha256:4f4795e89af6055c399d26699442aeb7bde299f32c6aca425af593391e4cde39",
       "theorem": "Erdos859.erdos_859",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2159,
+      "source_path": "FormalConjectures/ErdosProblems/873.lean",
+      "source_type_sha256": "sha256:f65bfe32e4ca49963d561bbe51dc02312f9b260863cd7537acd49d813914419c",
+      "theorem": "Erdos873.erdos_873",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2163,
+      "source_path": "FormalConjectures/ErdosProblems/885.lean",
+      "source_type_sha256": "sha256:69c05c3c7313bb78e965549ee66cadffda2e6cf60728fe7fe0c81fe2ec75ab41",
+      "theorem": "Erdos885.erdos_885",
       "tier": "tier-1"
     },
     {
@@ -869,6 +1142,27 @@
       "tier": "tier-1"
     },
     {
+      "index": 2187,
+      "source_path": "FormalConjectures/ErdosProblems/890.lean",
+      "source_type_sha256": "sha256:3e332fb3ae679532aff86de00ec4490a65925f13321c5f5de0d166dfa59adcf4",
+      "theorem": "Erdos890.erdos_890.parts.a",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2191,
+      "source_path": "FormalConjectures/ErdosProblems/891.lean",
+      "source_type_sha256": "sha256:3114dca122af84199da3e5a5680ee5f110455c698328c16ce9954ae0f4de74de",
+      "theorem": "Erdos891.erdos_891",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2195,
+      "source_path": "FormalConjectures/ErdosProblems/893.lean",
+      "source_type_sha256": "sha256:200751647459d0c8ae82a267d3c6d3a380afb15b41e19fe688dacf27f0d842ac",
+      "theorem": "Erdos893.erdos_893",
+      "tier": "tier-1"
+    },
+    {
       "index": 2207,
       "source_path": "FormalConjectures/ErdosProblems/9.lean",
       "source_type_sha256": "sha256:fdb6a95e07366ccfe900e1ccbff74fc142176661e0d243f51e17fe872f897cdb",
@@ -897,6 +1191,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 2265,
+      "source_path": "FormalConjectures/ErdosProblems/931.lean",
+      "source_type_sha256": "sha256:a3fdb1e0c9cd62095f030d8b4a9c3880b2fc1b9ede3e1274e66c5a6876fff1ac",
+      "theorem": "Erdos931.erdos_931",
+      "tier": "tier-1"
+    },
+    {
       "index": 2269,
       "source_path": "FormalConjectures/ErdosProblems/932.lean",
       "source_type_sha256": "sha256:0d6f116dffd63d9df4c15f481afadf57c6bc4f160f2f862a7450bd95be43269f",
@@ -911,6 +1212,27 @@
       "tier": "tier-1"
     },
     {
+      "index": 2277,
+      "source_path": "FormalConjectures/ErdosProblems/936.lean",
+      "source_type_sha256": "sha256:e5bffba36bb70a04fe72bca6bfe3a5b40ac5902be91bdb3160b250b524f86984",
+      "theorem": "Erdos936.erdos_936.variants.two_pow_sub_one",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2297,
+      "source_path": "FormalConjectures/ErdosProblems/942.lean",
+      "source_type_sha256": "sha256:7fcefb0311ab5885c59f7f1a144170fd77a22db5a71c39b98a016707c0e1a134",
+      "theorem": "Erdos942.erdos_942",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2300,
+      "source_path": "FormalConjectures/ErdosProblems/943.lean",
+      "source_type_sha256": "sha256:c5a8f359522f97e397057bba602208dc7826505e2e60b9c4647e60fef5bb1171",
+      "theorem": "Erdos943.erdos_943",
+      "tier": "tier-1"
+    },
+    {
       "index": 2308,
       "source_path": "FormalConjectures/ErdosProblems/945.lean",
       "source_type_sha256": "sha256:eab5b8eae8550d0644aee25494ee33af0be37757c4e9f126f14b711ae959841a",
@@ -922,6 +1244,20 @@
       "source_path": "FormalConjectures/ErdosProblems/950.lean",
       "source_type_sha256": "sha256:7e1118bf0c5700f2f1dd307c13776deb823bf13036d54f86c4baa8350ffbf1bf",
       "theorem": "Erdos950.erdos_950.parts.i",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2321,
+      "source_path": "FormalConjectures/ErdosProblems/950.lean",
+      "source_type_sha256": "sha256:aa1aca555798121bd7bb6747a34c344b2466dbd21980f80e9edbe7e661d25542",
+      "theorem": "Erdos950.erdos_950.parts.ii",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2327,
+      "source_path": "FormalConjectures/ErdosProblems/951.lean",
+      "source_type_sha256": "sha256:0f4168af6d8364a00bc88dcb79548550a6d1ba32ab87f2f8a6ccb926546f9e33",
+      "theorem": "Erdos951.erdos_951",
       "tier": "tier-1"
     },
     {
@@ -943,6 +1279,20 @@
       "source_path": "FormalConjectures/ErdosProblems/972.lean",
       "source_type_sha256": "sha256:fe66a71034293c43aa557b8675649c983d91a8e18dc27b01b1a08c2f1beb325b",
       "theorem": "Erdos972.erdos_972",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2385,
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "source_type_sha256": "sha256:606fbe108dd21d8b94989b96851ff5a6bd86dd7e9350377a9c03d92e6ffa64b4",
+      "theorem": "Erdos975.erdos_975",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2392,
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "source_type_sha256": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
+      "theorem": "Erdos978.erdos_978.parts.ii",
       "tier": "tier-1"
     },
     {
@@ -1187,6 +1537,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos1004-erdos-1004-92c16b71a50b01e2bc02603421fcbda7-problem",
+      "reward_target_id": "fc-target:Erdos1004.erdos_1004",
+      "source_indices": [
+        472
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1004.lean",
+      "target_type_sha256s": [
+        "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664"
+      ],
+      "task_bundle_sha256": "sha256:7a870c79202a299c84c57d4286c1784890772ef7e948bb8f60013007db83b44c",
+      "task_id": "fc-8432eac9-erdos1004-erdos-1004-29e632a5bc-formalized-v1",
+      "theorems": [
+        "Erdos1004.erdos_1004"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos1004-erdos-1004-92c16b71a50b01e2bc02603421fcbda7-problem",
+      "reward_target_id": "fc-target:Erdos1004.erdos_1004",
+      "source_indices": [
+        472
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1004.lean",
+      "target_type_sha256s": [
+        "sha256:4d5d37a6e9594dbd3df1dbe4cc7a8aaf72cc882d47dbd82c53283f7cd554d8da"
+      ],
+      "task_bundle_sha256": "sha256:fa4d1dc6ad8c7326d277b6dd574eccb685306b188a70064f33217946bb2bebf2",
+      "task_id": "fc-8432eac9-erdos1004-erdos-1004-a96ab29c0e-counterexample-v1",
+      "theorems": [
+        "Erdos1004.erdos_1004"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos1049-erdos-1049-d613e8ab6202f399c654a6b8274b2cf1-problem",
       "reward_target_id": "fc-target:Erdos1049.erdos_1049",
       "source_indices": [
@@ -1219,6 +1607,44 @@
       "task_id": "fc-8432eac9-erdos1049-erdos-1049-608f9a9ff1-counterexample-v1",
       "theorems": [
         "Erdos1049.erdos_1049"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos1057-erdos-1057-18d8d717080e31e3a37e16b99579ba73-problem",
+      "reward_target_id": "fc-target:Erdos1057.erdos_1057",
+      "source_indices": [
+        571
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1057.lean",
+      "target_type_sha256s": [
+        "sha256:d9d4e2c4c121fc065a35e95ed514ddd67f7ce3df8821ac1e9b832792b75983bf"
+      ],
+      "task_bundle_sha256": "sha256:8226eee720a779e933c3a0fff869626f36e42358a6bd06fc4b7afa28f09c6e61",
+      "task_id": "fc-8432eac9-erdos1057-erdos-1057-6bf2b183af-formalized-v1",
+      "theorems": [
+        "Erdos1057.erdos_1057"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos1057-erdos-1057-18d8d717080e31e3a37e16b99579ba73-problem",
+      "reward_target_id": "fc-target:Erdos1057.erdos_1057",
+      "source_indices": [
+        571
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1057.lean",
+      "target_type_sha256s": [
+        "sha256:64d33ebee10cda22de1b2af0cc965bc01a26acb409de0026df24767fff99370e"
+      ],
+      "task_bundle_sha256": "sha256:abbe4470b6e7dc1cc59603f7d8e1c94e196ec5222ab954e75db9199bb2a78322",
+      "task_id": "fc-8432eac9-erdos1057-erdos-1057-9bb3ccae28-counterexample-v1",
+      "theorems": [
+        "Erdos1057.erdos_1057"
       ],
       "tier": "tier-1"
     },
@@ -1301,6 +1727,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos1068-erdos-1068-aad8bb0bebf8a994945fa34625f865ea-problem",
+      "reward_target_id": "fc-target:Erdos1068.erdos_1068",
+      "source_indices": [
+        605
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1068.lean",
+      "target_type_sha256s": [
+        "sha256:18aadc80443418fe2cdc6e8658361f772dfac497a2279d7ec9048f0a57804b76"
+      ],
+      "task_bundle_sha256": "sha256:c96e7934c6c0e712bb64a463d9f0a28b907bb1021fc52bdcd8dfb331d0186492",
+      "task_id": "fc-8432eac9-erdos1068-erdos-1068-298252e9d5-formalized-v1",
+      "theorems": [
+        "Erdos1068.erdos_1068"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos1068-erdos-1068-aad8bb0bebf8a994945fa34625f865ea-problem",
+      "reward_target_id": "fc-target:Erdos1068.erdos_1068",
+      "source_indices": [
+        605
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1068.lean",
+      "target_type_sha256s": [
+        "sha256:8d65f68d4cc2496626b82c77fc24fd1acc564833d239397208535e105616a8f2"
+      ],
+      "task_bundle_sha256": "sha256:3effa2a8b5c8721e1f0759015b2d84045ea80393dfa300c3dfce3bef4ba94577",
+      "task_id": "fc-8432eac9-erdos1068-erdos-1068-e5e45ffc4f-counterexample-v1",
+      "theorems": [
+        "Erdos1068.erdos_1068"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-parts-i-16c32cd98b69d0f40adae17d9217a562-problem",
       "reward_target_id": "fc-target:Erdos1072.erdos_1072.parts.i",
       "source_indices": [
@@ -1339,6 +1803,82 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-ii-700388440daaec753a27f91916475da5-problem",
+      "reward_target_id": "fc-target:Erdos1072.erdos_1072.parts.ii",
+      "source_indices": [
+        616
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1072.lean",
+      "target_type_sha256s": [
+        "sha256:face433702cb92461a257a2be4165cb1ec8401d61973ebe72b7337cec6972eb0"
+      ],
+      "task_bundle_sha256": "sha256:1f6dad8c7a1424833af59bf93710ddc31b3d26a5d90dae329523bfff1867492c",
+      "task_id": "fc-8432eac9-parts-ii-361a98a162-formalized-v1",
+      "theorems": [
+        "Erdos1072.erdos_1072.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-ii-700388440daaec753a27f91916475da5-problem",
+      "reward_target_id": "fc-target:Erdos1072.erdos_1072.parts.ii",
+      "source_indices": [
+        616
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1072.lean",
+      "target_type_sha256s": [
+        "sha256:b1a8e9e182066b5d8ab8269e6e6a82b31807b3c9a1cea26f8a5c14c736a52bef"
+      ],
+      "task_bundle_sha256": "sha256:e1f8201e52e5385e5e47a9dea5ba245d8a17d4cc3e868d8b2613ba151833a744",
+      "task_id": "fc-8432eac9-parts-ii-451049ef17-counterexample-v1",
+      "theorems": [
+        "Erdos1072.erdos_1072.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos1073-erdos-1073-a69c5c4d0d02c2dc9be617f0fcd651ce-problem",
+      "reward_target_id": "fc-target:Erdos1073.erdos_1073",
+      "source_indices": [
+        618
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1073.lean",
+      "target_type_sha256s": [
+        "sha256:ce379578bcf74e9c9f0f26f3097db5efb58de820117e694203a10aba079b3ce4"
+      ],
+      "task_bundle_sha256": "sha256:8287570b70eb5807edcff10cac3370e5d6008d7a1013466806fcaff19f299398",
+      "task_id": "fc-8432eac9-erdos1073-erdos-1073-12aca9a7f1-formalized-v1",
+      "theorems": [
+        "Erdos1073.erdos_1073"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos1073-erdos-1073-a69c5c4d0d02c2dc9be617f0fcd651ce-problem",
+      "reward_target_id": "fc-target:Erdos1073.erdos_1073",
+      "source_indices": [
+        618
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1073.lean",
+      "target_type_sha256s": [
+        "sha256:faa4560be2c2be61d5bba55177a2491f7363a96c30ccbaa66071d3cba2a9b5de"
+      ],
+      "task_bundle_sha256": "sha256:df615d4aa777ef245c445426df8fd5854bd767da2b545a1bdc145860e9443f1e",
+      "task_id": "fc-8432eac9-erdos1073-erdos-1073-6883a503b4-counterexample-v1",
+      "theorems": [
+        "Erdos1073.erdos_1073"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-variants-ehsnumbers-one-half-400d6b0a8f20f00a99cb193ebebd424a-problem",
       "reward_target_id": "fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
       "source_indices": [
@@ -1371,6 +1911,82 @@
       "task_id": "fc-8432eac9-variants-ehsnumbers-one-half-4ffa646697-counterexample-v1",
       "theorems": [
         "Erdos1074.erdos_1074.variants.EHSNumbers_one_half"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos108-erdos-108-50d84b8f797172445199c3408319078f-problem",
+      "reward_target_id": "fc-target:Erdos108.erdos_108",
+      "source_indices": [
+        632
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/108.lean",
+      "target_type_sha256s": [
+        "sha256:8be2c005c0290f01e2370d1ab68e8a1901ef0b52836b2685bb0fe2075b318142"
+      ],
+      "task_bundle_sha256": "sha256:3682417b7881d63a98e00b3bfe5c8d8c44c2ecccd3a3cb63294dff29f0f75978",
+      "task_id": "fc-8432eac9-erdos108-erdos-108-d69b7ae4f6-formalized-v1",
+      "theorems": [
+        "Erdos108.erdos_108"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos108-erdos-108-50d84b8f797172445199c3408319078f-problem",
+      "reward_target_id": "fc-target:Erdos108.erdos_108",
+      "source_indices": [
+        632
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/108.lean",
+      "target_type_sha256s": [
+        "sha256:36daf141850189562b018ffd47b673d00a8d03e28ee1c48f41867551351bac16"
+      ],
+      "task_bundle_sha256": "sha256:7c689e28a9f5fca840462b2b4208150d9352d6c4166812831b688219456e45f8",
+      "task_id": "fc-8432eac9-erdos108-erdos-108-155aec853d-counterexample-v1",
+      "theorems": [
+        "Erdos108.erdos_108"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-variants-upper-d3-c867001a2f0b70337562220f589c9214-problem",
+      "reward_target_id": "fc-target:Erdos1085.erdos_1085.variants.upper_d3",
+      "source_indices": [
+        645
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "target_type_sha256s": [
+        "sha256:572861df5ecc3996e045308319c5cc289f7ec47f97227c17e29d6eda14608822"
+      ],
+      "task_bundle_sha256": "sha256:78406953536dc82c4d1133e853949a4c8c195edadbbc16ae6dbc116fecff3513",
+      "task_id": "fc-8432eac9-variants-upper-d3-7e965a9a09-formalized-v1",
+      "theorems": [
+        "Erdos1085.erdos_1085.variants.upper_d3"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-variants-upper-d3-c867001a2f0b70337562220f589c9214-problem",
+      "reward_target_id": "fc-target:Erdos1085.erdos_1085.variants.upper_d3",
+      "source_indices": [
+        645
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "target_type_sha256s": [
+        "sha256:815c912ecacd190d377f75134396fe7868f3ad6dbb7891de075912c560d4be27"
+      ],
+      "task_bundle_sha256": "sha256:2b88b82b4f63a1825292406ad3155b7bccc7c39c8e4d12202ad50dbb025a941d",
+      "task_id": "fc-8432eac9-variants-upper-d3-b768ca8db5-counterexample-v1",
+      "theorems": [
+        "Erdos1085.erdos_1085.variants.upper_d3"
       ],
       "tier": "tier-1"
     },
@@ -1529,6 +2145,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-ii-56d284e291658cd4751257424e5e28bc-problem",
+      "reward_target_id": "fc-target:Erdos1106.erdos_1106.parts.ii",
+      "source_indices": [
+        686
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1106.lean",
+      "target_type_sha256s": [
+        "sha256:3a79424001452961961cc10b1ab7e9653b853758d2edcf306248b0b9a775c8f8"
+      ],
+      "task_bundle_sha256": "sha256:a9363437338e7691792000a5ac9165685330c92eeb33b381e2ebf19dbe42eec3",
+      "task_id": "fc-8432eac9-parts-ii-a7dc365c04-formalized-v1",
+      "theorems": [
+        "Erdos1106.erdos_1106.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-ii-56d284e291658cd4751257424e5e28bc-problem",
+      "reward_target_id": "fc-target:Erdos1106.erdos_1106.parts.ii",
+      "source_indices": [
+        686
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1106.lean",
+      "target_type_sha256s": [
+        "sha256:170562a6a370e52c86a753b96a236b1421682cb4dec56351dc0f7725978f1bf4"
+      ],
+      "task_bundle_sha256": "sha256:ad4cb957bb9f53272b3cdfd9afe76078a5daf40bb6768d52d5946f0597e901f2",
+      "task_id": "fc-8432eac9-parts-ii-87764d3882-counterexample-v1",
+      "theorems": [
+        "Erdos1106.erdos_1106.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos1107-erdos-1107-a7a3ad036418fa03a86d06c00ee0e0cf-problem",
       "reward_target_id": "fc-target:Erdos1107.erdos_1107",
       "source_indices": [
@@ -1643,6 +2297,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos1137-erdos-1137-f57909e5a07ffb8da630880cca01d35e-problem",
+      "reward_target_id": "fc-target:Erdos1137.erdos_1137",
+      "source_indices": [
+        721
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1137.lean",
+      "target_type_sha256s": [
+        "sha256:a62d844e5fab8e4377daba553a74aa8ae79e3a98cbf6f1b7c3031dbc18f6895d"
+      ],
+      "task_bundle_sha256": "sha256:01b6c564326485bbe0b0f4d6e9cb004b46f679c4dbae96cd533bd235ef5010b6",
+      "task_id": "fc-8432eac9-erdos1137-erdos-1137-fba06d52b0-formalized-v1",
+      "theorems": [
+        "Erdos1137.erdos_1137"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos1137-erdos-1137-f57909e5a07ffb8da630880cca01d35e-problem",
+      "reward_target_id": "fc-target:Erdos1137.erdos_1137",
+      "source_indices": [
+        721
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1137.lean",
+      "target_type_sha256s": [
+        "sha256:dbb509897273f83f6caa6080e665dc52e0283d7ae082be3fd4932529cceac321"
+      ],
+      "task_bundle_sha256": "sha256:ef5211281ac265640efa48e238404d78f2d82b732232d1ae6c93312f1c3e1531",
+      "task_id": "fc-8432eac9-erdos1137-erdos-1137-e684c08eee-counterexample-v1",
+      "theorems": [
+        "Erdos1137.erdos_1137"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos1142-erdos-1142-e927ddcc7b47a3a2e6da80191d3baab8-problem",
       "reward_target_id": "fc-target:Erdos1142.erdos_1142",
       "source_indices": [
@@ -1675,6 +2367,44 @@
       "task_id": "fc-8432eac9-erdos1142-erdos-1142-447fd37056-counterexample-v1",
       "theorems": [
         "Erdos1142.erdos_1142"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos1192-erdos-1192-194a1c5e8f042e5742d3838f0a4ef35b-problem",
+      "reward_target_id": "fc-target:Erdos1192.erdos_1192",
+      "source_indices": [
+        769
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1192.lean",
+      "target_type_sha256s": [
+        "sha256:deb84e4a73cad6e9d9b6f934a99d436ba2a0ba545694e0d16cca0f266636f5a8"
+      ],
+      "task_bundle_sha256": "sha256:50495053e8c6e7d9cd91152745bd82daa0f53f2ed381c9f641e3e40492eaa767",
+      "task_id": "fc-8432eac9-erdos1192-erdos-1192-255ae75def-formalized-v1",
+      "theorems": [
+        "Erdos1192.erdos_1192"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos1192-erdos-1192-194a1c5e8f042e5742d3838f0a4ef35b-problem",
+      "reward_target_id": "fc-target:Erdos1192.erdos_1192",
+      "source_indices": [
+        769
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/1192.lean",
+      "target_type_sha256s": [
+        "sha256:dff8724ba801633758c1c785691904e4ef32a57e2edfb126a2ffd2bbdbff3813"
+      ],
+      "task_bundle_sha256": "sha256:2435e725f453375e69d47badb579b1a4bcf72556200ae99171735bdcf23cff4e",
+      "task_id": "fc-8432eac9-erdos1192-erdos-1192-33960f50a1-counterexample-v1",
+      "theorems": [
+        "Erdos1192.erdos_1192"
       ],
       "tier": "tier-1"
     },
@@ -1833,6 +2563,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos126-erdos-126-6fe4c742016119da18345edaf51c3fbb-problem",
+      "reward_target_id": "fc-target:Erdos126.erdos_126",
+      "source_indices": [
+        830
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/126.lean",
+      "target_type_sha256s": [
+        "sha256:baceba31bace2d3c4aefa7abde6d6d4ad6e742acfe0dfdae6302fcf177f793d0"
+      ],
+      "task_bundle_sha256": "sha256:201690eeec1cae6dc13c65835dfce34a4d898b2f4f155a4c46accf7354c7c431",
+      "task_id": "fc-8432eac9-erdos126-erdos-126-5ee9a7b4c6-formalized-v1",
+      "theorems": [
+        "Erdos126.erdos_126"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos126-erdos-126-6fe4c742016119da18345edaf51c3fbb-problem",
+      "reward_target_id": "fc-target:Erdos126.erdos_126",
+      "source_indices": [
+        830
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/126.lean",
+      "target_type_sha256s": [
+        "sha256:fecb40c0b29348ae2dfc9bce527577fed3b06c4d1060cf51bb4725d8c939391a"
+      ],
+      "task_bundle_sha256": "sha256:cf677dedc93de22b011aa8708e02ca5db703f836be97689784f5b15aad6b3226",
+      "task_id": "fc-8432eac9-erdos126-erdos-126-7c2cf7df3a-counterexample-v1",
+      "theorems": [
+        "Erdos126.erdos_126"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-variants-islittleo-35eb46e8a54b27e191a7cb05d0045446-problem",
       "reward_target_id": "fc-target:Erdos126.erdos_126.variants.isLittleO",
       "source_indices": [
@@ -1903,6 +2671,44 @@
       "task_id": "fc-8432eac9-variants-multiple-powerful-factors-125c93d300-counterexample-v1",
       "theorems": [
         "Erdos137.erdos_137.variants.multiple_powerful_factors"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-ii-f88d475b746f1b642955410047ae494f-problem",
+      "reward_target_id": "fc-target:Erdos14.erdos_14.parts.ii",
+      "source_indices": [
+        852
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/14.lean",
+      "target_type_sha256s": [
+        "sha256:92676249a3598e8a654641b6d8078ed91bb3b00db116143e5a586cd63e1e6b20"
+      ],
+      "task_bundle_sha256": "sha256:a90a8a1f6a58ef66b6d9c2fb8ca3526aee24bcc382b090c1d735d8ed133a6682",
+      "task_id": "fc-8432eac9-parts-ii-3206ebb9eb-formalized-v1",
+      "theorems": [
+        "Erdos14.erdos_14.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-ii-f88d475b746f1b642955410047ae494f-problem",
+      "reward_target_id": "fc-target:Erdos14.erdos_14.parts.ii",
+      "source_indices": [
+        852
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/14.lean",
+      "target_type_sha256s": [
+        "sha256:f70369d772ff7a4ffb6b04dd772d2765f578571e039e13c26ef25d6ba92bd708"
+      ],
+      "task_bundle_sha256": "sha256:32d0be11c4700166a2597b5c7183667481382a91c0033d05500f6ee2f68f45ce",
+      "task_id": "fc-8432eac9-parts-ii-4ed5c2c9f4-counterexample-v1",
+      "theorems": [
+        "Erdos14.erdos_14.parts.ii"
       ],
       "tier": "tier-1"
     },
@@ -2023,6 +2829,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos145-erdos-145-f4a53945f4c9589eb0cf5698b455fc2a-problem",
+      "reward_target_id": "fc-target:Erdos145.erdos_145",
+      "source_indices": [
+        866
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/145.lean",
+      "target_type_sha256s": [
+        "sha256:f176a0bfb88442d3e2af7d9fd0574cf9f3c2a8fbf2509c1c12c8e4aa57fd694f"
+      ],
+      "task_bundle_sha256": "sha256:48afe370ac9634d1e7857c9b62fe1dcbba1d5c1beea027c0c9f941b8eb65e62f",
+      "task_id": "fc-8432eac9-erdos145-erdos-145-cf12ea4400-formalized-v1",
+      "theorems": [
+        "Erdos145.erdos_145"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos145-erdos-145-f4a53945f4c9589eb0cf5698b455fc2a-problem",
+      "reward_target_id": "fc-target:Erdos145.erdos_145",
+      "source_indices": [
+        866
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/145.lean",
+      "target_type_sha256s": [
+        "sha256:a1e40f562f28d5d6752be804e236bb5d96a63e880a372cfe94560d921a4af241"
+      ],
+      "task_bundle_sha256": "sha256:bf3d45e5d4b5f2b2f1d063ec85c782f026724aedfc97b6ceef8bc8c23307eb34",
+      "task_id": "fc-8432eac9-erdos145-erdos-145-0002f927a7-counterexample-v1",
+      "theorems": [
+        "Erdos145.erdos_145"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos153-erdos-153-ea28729bacf7839d13b2098e57bce63c-problem",
       "reward_target_id": "fc-target:Erdos153.erdos_153",
       "source_indices": [
@@ -2055,6 +2899,82 @@
       "task_id": "fc-8432eac9-erdos153-erdos-153-8ae895b52b-counterexample-v1",
       "theorems": [
         "Erdos153.erdos_153"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos155-erdos-155-54b58af84dc23824a820df50254d2ca9-problem",
+      "reward_target_id": "fc-target:Erdos155.erdos_155",
+      "source_indices": [
+        883
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/155.lean",
+      "target_type_sha256s": [
+        "sha256:e200e0171f6b5e78d0cc6b256d346b3e6b66f39f97ab4ab49de7bd5b80badb55"
+      ],
+      "task_bundle_sha256": "sha256:bdf162fc0d0ba276e8ed090cff3496096db7d932af5d2eb2bf611cc6d35f1533",
+      "task_id": "fc-8432eac9-erdos155-erdos-155-d6b2f12a8d-formalized-v1",
+      "theorems": [
+        "Erdos155.erdos_155"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos155-erdos-155-54b58af84dc23824a820df50254d2ca9-problem",
+      "reward_target_id": "fc-target:Erdos155.erdos_155",
+      "source_indices": [
+        883
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/155.lean",
+      "target_type_sha256s": [
+        "sha256:8c9b5abc3cbf8ef5467f7ad090ff2b2bde5450243defa195230fe8c03b37c5d3"
+      ],
+      "task_bundle_sha256": "sha256:6e28803c82de7d5cadbb5fc0b7cce338a40fd6a0e45d2d570bd868019e6f5795",
+      "task_id": "fc-8432eac9-erdos155-erdos-155-54db87fbd1-counterexample-v1",
+      "theorems": [
+        "Erdos155.erdos_155"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos156-erdos-156-00fec73309960a189bd83fe351155c52-problem",
+      "reward_target_id": "fc-target:Erdos156.erdos_156",
+      "source_indices": [
+        884
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/156.lean",
+      "target_type_sha256s": [
+        "sha256:69fff1f4ac55d0ed271ae93c03d155a308965a4a265c87207817f12eecb3687a"
+      ],
+      "task_bundle_sha256": "sha256:f300ce760d7bf9893d64512e97174d3db8e343162975976a8fbcd735a0909d10",
+      "task_id": "fc-8432eac9-erdos156-erdos-156-927920305e-formalized-v1",
+      "theorems": [
+        "Erdos156.erdos_156"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos156-erdos-156-00fec73309960a189bd83fe351155c52-problem",
+      "reward_target_id": "fc-target:Erdos156.erdos_156",
+      "source_indices": [
+        884
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/156.lean",
+      "target_type_sha256s": [
+        "sha256:1d1a1e3c4a77bf943f344b119cb48a1add8139a255e3c8879a8f800dd5d698e4"
+      ],
+      "task_bundle_sha256": "sha256:b918edd5cf13c041410568737037e6e117595c4302822129ad557d99d4a6637c",
+      "task_id": "fc-8432eac9-erdos156-erdos-156-899429f76c-counterexample-v1",
+      "theorems": [
+        "Erdos156.erdos_156"
       ],
       "tier": "tier-1"
     },
@@ -2245,6 +3165,44 @@
       "task_id": "fc-8432eac9-erdos196-erdos-196-90c481115a-counterexample-v1",
       "theorems": [
         "Erdos196.erdos_196"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos200-erdos-200-50878755bf01c12f393e38eb0c52c684-problem",
+      "reward_target_id": "fc-target:Erdos200.erdos_200",
+      "source_indices": [
+        962
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/200.lean",
+      "target_type_sha256s": [
+        "sha256:d43fa2325088a551f87016acbf0fea01b86760180eef57029b6670de0c56bea0"
+      ],
+      "task_bundle_sha256": "sha256:36abef7f636dea1d316970f441fbaae1218fe83294d6d72ac239ccbcf2b2edb2",
+      "task_id": "fc-8432eac9-erdos200-erdos-200-3a031d8371-formalized-v1",
+      "theorems": [
+        "Erdos200.erdos_200"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos200-erdos-200-50878755bf01c12f393e38eb0c52c684-problem",
+      "reward_target_id": "fc-target:Erdos200.erdos_200",
+      "source_indices": [
+        962
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/200.lean",
+      "target_type_sha256s": [
+        "sha256:b084b3e808e4032b4f04de09c43deb80058877347a260d3a9c8a48eed966854b"
+      ],
+      "task_bundle_sha256": "sha256:7336e4200f3b15387b1f4dfada851b1f44940d0d92d45993dcbc124b83d31e38",
+      "task_id": "fc-8432eac9-erdos200-erdos-200-f6ecc2dc0e-counterexample-v1",
+      "theorems": [
+        "Erdos200.erdos_200"
       ],
       "tier": "tier-1"
     },
@@ -2783,6 +3741,82 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos244-erdos-244-e900daa78c066370dc7c22e431e4feb3-problem",
+      "reward_target_id": "fc-target:Erdos244.erdos_244",
+      "source_indices": [
+        1030
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/244.lean",
+      "target_type_sha256s": [
+        "sha256:be71220d898ba55e56d412aa1e3b4436767010db89b0a92f44ca455ac9fff577"
+      ],
+      "task_bundle_sha256": "sha256:f14a4049a80b4614d1f46e33ec1302611a0c6c2e4ee970972a4f4c2674f5a97c",
+      "task_id": "fc-8432eac9-erdos244-erdos-244-7fca05f34f-formalized-v1",
+      "theorems": [
+        "Erdos244.erdos_244"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos244-erdos-244-e900daa78c066370dc7c22e431e4feb3-problem",
+      "reward_target_id": "fc-target:Erdos244.erdos_244",
+      "source_indices": [
+        1030
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/244.lean",
+      "target_type_sha256s": [
+        "sha256:098dfc7b21eb5a0600411cd63f41c2de11317697434ea631fd35fcef4f1aa146"
+      ],
+      "task_bundle_sha256": "sha256:799f0098629c513a96c1301edee4760aeac49a23df705008d4465dfef71d4f68",
+      "task_id": "fc-8432eac9-erdos244-erdos-244-efbf147c71-counterexample-v1",
+      "theorems": [
+        "Erdos244.erdos_244"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos247-erdos-247-322ca5ab01820bee315a37c26868031f-problem",
+      "reward_target_id": "fc-target:Erdos247.erdos_247",
+      "source_indices": [
+        1035
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/247.lean",
+      "target_type_sha256s": [
+        "sha256:ce0836dc5f58e6f27951338ad3b6fba46e4507500a218bf3ff77317bd07b4cb4"
+      ],
+      "task_bundle_sha256": "sha256:831037d609bce1af8ed3ef37b3c0312c87d7e609ba383970ed087fe9f9043dcc",
+      "task_id": "fc-8432eac9-erdos247-erdos-247-5111ef925b-formalized-v1",
+      "theorems": [
+        "Erdos247.erdos_247"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos247-erdos-247-322ca5ab01820bee315a37c26868031f-problem",
+      "reward_target_id": "fc-target:Erdos247.erdos_247",
+      "source_indices": [
+        1035
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/247.lean",
+      "target_type_sha256s": [
+        "sha256:903bce61b1818fe7f36b3486fdf7ef88e4e15a30608c1ac1c82f0955bf640783"
+      ],
+      "task_bundle_sha256": "sha256:85a52551a55997f23014cf77a87f392ed850614a0b3a003686ad4dd9e934f4be",
+      "task_id": "fc-8432eac9-erdos247-erdos-247-b21acababd-counterexample-v1",
+      "theorems": [
+        "Erdos247.erdos_247"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos249-erdos-249-a546c9615bbadcbc208bde1576fa270e-problem",
       "reward_target_id": "fc-target:Erdos249.erdos_249",
       "source_indices": [
@@ -3277,6 +4311,82 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos32-erdos-32-6241f2d0c7d1f5e46713d6350c753779-problem",
+      "reward_target_id": "fc-target:Erdos32.erdos_32",
+      "source_indices": [
+        1213
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/32.lean",
+      "target_type_sha256s": [
+        "sha256:4103eceb66462a5a4e78e45ab3320a5297ef1e9e17933fcc232abe73badd2998"
+      ],
+      "task_bundle_sha256": "sha256:bde8197c6fe7f8fd8c6017a5c02a905ecbfaecf389d089bd60a48d2f97d37693",
+      "task_id": "fc-8432eac9-erdos32-erdos-32-8a45e66c16-formalized-v1",
+      "theorems": [
+        "Erdos32.erdos_32"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos32-erdos-32-6241f2d0c7d1f5e46713d6350c753779-problem",
+      "reward_target_id": "fc-target:Erdos32.erdos_32",
+      "source_indices": [
+        1213
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/32.lean",
+      "target_type_sha256s": [
+        "sha256:deafac92a0dc0ffca3d20e2905d0a987d9ef06f55061d99945b720b14561842a"
+      ],
+      "task_bundle_sha256": "sha256:9479b0d9e24f72e7618cb13a00b4ba41ccdd402ad3efc2cf17815d10cbac8201",
+      "task_id": "fc-8432eac9-erdos32-erdos-32-0851660625-counterexample-v1",
+      "theorems": [
+        "Erdos32.erdos_32"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-variants-k-gt-2-5d0c8766c1ff78eadc56ac60895a945f-problem",
+      "reward_target_id": "fc-target:Erdos323.erdos_323.variants.k_gt_2",
+      "source_indices": [
+        1227
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/323.lean",
+      "target_type_sha256s": [
+        "sha256:6999fdcf13250f347167761e85107cc258e7b4dd6475cfce32b2ca8fed30726e"
+      ],
+      "task_bundle_sha256": "sha256:3c4f2056a9652151b96b007d8f63f08ba7c8f9832583820704ccd83a6ca34265",
+      "task_id": "fc-8432eac9-variants-k-gt-2-d55030fa92-formalized-v1",
+      "theorems": [
+        "Erdos323.erdos_323.variants.k_gt_2"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-variants-k-gt-2-5d0c8766c1ff78eadc56ac60895a945f-problem",
+      "reward_target_id": "fc-target:Erdos323.erdos_323.variants.k_gt_2",
+      "source_indices": [
+        1227
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/323.lean",
+      "target_type_sha256s": [
+        "sha256:144fea9c5a3a2ecbd557185e759535ac17e3b2e44f9422f8f3918b63ef23238a"
+      ],
+      "task_bundle_sha256": "sha256:b3f898e1d35247d5ea945985a189ddd86020ec2c71b0b14ab43f2fac9462dd9e",
+      "task_id": "fc-8432eac9-variants-k-gt-2-cc179b8c2d-counterexample-v1",
+      "theorems": [
+        "Erdos323.erdos_323.variants.k_gt_2"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-variants-quintic-1cf93d36a8f7ce559136a6facfd6e136-problem",
       "reward_target_id": "fc-target:Erdos324.erdos_324.variants.quintic",
       "source_indices": [
@@ -3423,6 +4533,44 @@
       "task_id": "fc-8432eac9-variants-sub-hasposdensity-943f339681-counterexample-v1",
       "theorems": [
         "Erdos340.erdos_340.variants.sub_hasPosDensity"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-i-222aa05707be6136658e8adf6b408520-problem",
+      "reward_target_id": "fc-target:Erdos354.erdos_354.parts.i",
+      "source_indices": [
+        1314
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/354.lean",
+      "target_type_sha256s": [
+        "sha256:de4262d428cc1a0deb7df106c6951e4db5d808b9a6d6a4e21c29f05775c50488"
+      ],
+      "task_bundle_sha256": "sha256:8e7de21a9f29a5b81c892f949eb22fa949d978a4aea842715f7a7ad8bd2bdd87",
+      "task_id": "fc-8432eac9-parts-i-cfa7760571-formalized-v1",
+      "theorems": [
+        "Erdos354.erdos_354.parts.i"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-i-222aa05707be6136658e8adf6b408520-problem",
+      "reward_target_id": "fc-target:Erdos354.erdos_354.parts.i",
+      "source_indices": [
+        1314
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/354.lean",
+      "target_type_sha256s": [
+        "sha256:5913cdcd2f7063406a32c75ceb44dbd84809ef0e007aa8b16781c0d14e5890c5"
+      ],
+      "task_bundle_sha256": "sha256:5875bffd8f35c69498a995452cd58a1795fd7c7b6f8a1e780373b3424107a441",
+      "task_id": "fc-8432eac9-parts-i-a1956352c2-counterexample-v1",
+      "theorems": [
+        "Erdos354.erdos_354.parts.i"
       ],
       "tier": "tier-1"
     },
@@ -4265,6 +5413,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos412-erdos-412-ae3657afbc8530782cc33cbc659f1580-problem",
+      "reward_target_id": "fc-target:Erdos412.erdos_412",
+      "source_indices": [
+        1469
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/412.lean",
+      "target_type_sha256s": [
+        "sha256:76232ceb7eac301b3c9a58bdf2e5f7fe16e3d9a81a9f299b0f56f2c493266557"
+      ],
+      "task_bundle_sha256": "sha256:be322f3bc4cf26ffa160b419db329232e12deed81696d1562a4c2741aa2f360f",
+      "task_id": "fc-8432eac9-erdos412-erdos-412-5eede71da4-formalized-v1",
+      "theorems": [
+        "Erdos412.erdos_412"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos412-erdos-412-ae3657afbc8530782cc33cbc659f1580-problem",
+      "reward_target_id": "fc-target:Erdos412.erdos_412",
+      "source_indices": [
+        1469
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/412.lean",
+      "target_type_sha256s": [
+        "sha256:8ed5df30a823ecf126b15114e232f2e95d08b1f36465da8101f01a7070520e9f"
+      ],
+      "task_bundle_sha256": "sha256:b02b40d3f24fab0aa309b8387f686780055327a9de51544587eebe28ba636215",
+      "task_id": "fc-8432eac9-erdos412-erdos-412-af9c66d316-counterexample-v1",
+      "theorems": [
+        "Erdos412.erdos_412"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos414-erdos-414-0565ff82a5852403e44a17ec68446bb8-problem",
       "reward_target_id": "fc-target:Erdos414.erdos_414",
       "source_indices": [
@@ -4335,6 +5521,44 @@
       "task_id": "fc-8432eac9-parts-i-afad932e9a-counterexample-v1",
       "theorems": [
         "Erdos416.erdos_416.parts.i"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos428-erdos-428-84adee43802ad3b6f46a92a8bdeb8509-problem",
+      "reward_target_id": "fc-target:Erdos428.erdos_428",
+      "source_indices": [
+        1506
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/428.lean",
+      "target_type_sha256s": [
+        "sha256:2b3c9b455f9a0af251361349f272481934f62a120bd713409e7d90e0cfb5f626"
+      ],
+      "task_bundle_sha256": "sha256:7a37df968ceb590b64ec9addaa63bf5e0574069b17bea61e1141c295450ca91a",
+      "task_id": "fc-8432eac9-erdos428-erdos-428-9d2eac9ec0-formalized-v1",
+      "theorems": [
+        "Erdos428.erdos_428"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos428-erdos-428-84adee43802ad3b6f46a92a8bdeb8509-problem",
+      "reward_target_id": "fc-target:Erdos428.erdos_428",
+      "source_indices": [
+        1506
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/428.lean",
+      "target_type_sha256s": [
+        "sha256:63cab5e3246c05c37ebbbcf1356a422cb5a338eca4930f86701632a9b13e72a4"
+      ],
+      "task_bundle_sha256": "sha256:d9b1bf81085b0a997b1a9811c9d74a2dde026ed7e872d3977a61299b3fab5168",
+      "task_id": "fc-8432eac9-erdos428-erdos-428-84469a6da4-counterexample-v1",
+      "theorems": [
+        "Erdos428.erdos_428"
       ],
       "tier": "tier-1"
     },
@@ -4531,6 +5755,82 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos458-erdos-458-75e3774644b0da5a1600804e096a3b0a-problem",
+      "reward_target_id": "fc-target:Erdos458.erdos_458",
+      "source_indices": [
+        1555
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/458.lean",
+      "target_type_sha256s": [
+        "sha256:909d60f631d5bf196c4bbe998c7ccc755c1f67be8a90e99926311a249344db99"
+      ],
+      "task_bundle_sha256": "sha256:fcf311169d5c5b6a4f67cbccc0d8b4e24bf0f1d21ba3c5025245cd68171d95da",
+      "task_id": "fc-8432eac9-erdos458-erdos-458-17e63b0456-formalized-v1",
+      "theorems": [
+        "Erdos458.erdos_458"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos458-erdos-458-75e3774644b0da5a1600804e096a3b0a-problem",
+      "reward_target_id": "fc-target:Erdos458.erdos_458",
+      "source_indices": [
+        1555
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/458.lean",
+      "target_type_sha256s": [
+        "sha256:6676b7fc528b417ad9e453c7898efe43185bf77ea28629496fc9a672df9b2278"
+      ],
+      "task_bundle_sha256": "sha256:a65d7b2e6b21a67248eeadda6f02460a74cad9ea6d6319d06f101ef251d1a536",
+      "task_id": "fc-8432eac9-erdos458-erdos-458-dd49e2a16f-counterexample-v1",
+      "theorems": [
+        "Erdos458.erdos_458"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos463-erdos-463-fdab2503fe63d7168f82ac4775fefb25-problem",
+      "reward_target_id": "fc-target:Erdos463.erdos_463",
+      "source_indices": [
+        1561
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/463.lean",
+      "target_type_sha256s": [
+        "sha256:20c3316fde211c926c0f24a4be33346603ee27b460f46825d43f1552d0d26465"
+      ],
+      "task_bundle_sha256": "sha256:89182c65cbe14fd4640789363d7289c1b0f5cb9943744b9bd8acc1f73cd98a46",
+      "task_id": "fc-8432eac9-erdos463-erdos-463-57fa461b43-formalized-v1",
+      "theorems": [
+        "Erdos463.erdos_463"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos463-erdos-463-fdab2503fe63d7168f82ac4775fefb25-problem",
+      "reward_target_id": "fc-target:Erdos463.erdos_463",
+      "source_indices": [
+        1561
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/463.lean",
+      "target_type_sha256s": [
+        "sha256:69084210ae259b500ee3bd7a8adb7ae7b3723098cebaa8e41b799b1e4f29cf91"
+      ],
+      "task_bundle_sha256": "sha256:b63a447957ec9802423cbc56585152724b2a2fed0b9e265eab884dbe4a40dccb",
+      "task_id": "fc-8432eac9-erdos463-erdos-463-144305b938-counterexample-v1",
+      "theorems": [
+        "Erdos463.erdos_463"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos479-erdos-479-7c1031f0c613bd6594aba6db99289bf5-problem",
       "reward_target_id": "fc-target:Erdos479.erdos_479",
       "source_indices": [
@@ -4569,6 +5869,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos50-erdos-50-9e4ab0a24ebe68710cf5e97a452e2ab1-problem",
+      "reward_target_id": "fc-target:Erdos50.erdos_50",
+      "source_indices": [
+        1627
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/50.lean",
+      "target_type_sha256s": [
+        "sha256:e6a7b24360576c0b2a1c778c45da94547d8bac944427e1e77b12c6812a6c0ef9"
+      ],
+      "task_bundle_sha256": "sha256:4bbda3bfcf03ecc599dc773ad78c4cebdcbdc2ffcd4b988deff0880270e199f6",
+      "task_id": "fc-8432eac9-erdos50-erdos-50-a875aaa41a-formalized-v1",
+      "theorems": [
+        "Erdos50.erdos_50"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos50-erdos-50-9e4ab0a24ebe68710cf5e97a452e2ab1-problem",
+      "reward_target_id": "fc-target:Erdos50.erdos_50",
+      "source_indices": [
+        1627
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/50.lean",
+      "target_type_sha256s": [
+        "sha256:976918c35a9b942307c3ee4052c74e0b73e7f1aa1a1c3bcb6eee54c48a24d932"
+      ],
+      "task_bundle_sha256": "sha256:dc2f824d4998ad2107b55533359477ffa3bb3fb547afc8e234850e587d062e9d",
+      "task_id": "fc-8432eac9-erdos50-erdos-50-c4fd13b315-counterexample-v1",
+      "theorems": [
+        "Erdos50.erdos_50"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos51-erdos-51-971876804d349ac68e73387997fbc15d-problem",
       "reward_target_id": "fc-target:Erdos51.erdos_51",
       "source_indices": [
@@ -4601,6 +5939,44 @@
       "task_id": "fc-8432eac9-erdos51-erdos-51-130f2d0619-counterexample-v1",
       "theorems": [
         "Erdos51.erdos_51"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos517-erdos-517-12654af8fb26a58a22a7184fa47bd97a-problem",
+      "reward_target_id": "fc-target:Erdos517.erdos_517",
+      "source_indices": [
+        1684
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/517.lean",
+      "target_type_sha256s": [
+        "sha256:f49614b72ab32a1ccd4fb7dbe54c86d23d11a3d4e52e0d9a690f4265fa1e8ed8"
+      ],
+      "task_bundle_sha256": "sha256:ff38caccf26049c2708eb699d3fdd57842f8833b8d20d5b43598ebb5a46fbd4c",
+      "task_id": "fc-8432eac9-erdos517-erdos-517-94c616a560-formalized-v1",
+      "theorems": [
+        "Erdos517.erdos_517"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos517-erdos-517-12654af8fb26a58a22a7184fa47bd97a-problem",
+      "reward_target_id": "fc-target:Erdos517.erdos_517",
+      "source_indices": [
+        1684
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/517.lean",
+      "target_type_sha256s": [
+        "sha256:1000d70abe27c208dd1faf2b41fc58df3ea4f9e3a4332da3c17cc7e3aad8981a"
+      ],
+      "task_bundle_sha256": "sha256:353078e9903d0f5dbf86140fd9076b82aa75245ad0cb6aa5d3bb9a3c76fcce1c",
+      "task_id": "fc-8432eac9-erdos517-erdos-517-6ac2e06c06-counterexample-v1",
+      "theorems": [
+        "Erdos517.erdos_517"
       ],
       "tier": "tier-1"
     },
@@ -4683,6 +6059,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos564-erdos-564-5383b597c148456d2035be18b94486ac-problem",
+      "reward_target_id": "fc-target:Erdos564.erdos_564",
+      "source_indices": [
+        1738
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/564.lean",
+      "target_type_sha256s": [
+        "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092"
+      ],
+      "task_bundle_sha256": "sha256:465a61cce2b7a9fbed4a4e5f2b4877f4ce7b9397acd87c41c6683184d647b259",
+      "task_id": "fc-8432eac9-erdos564-erdos-564-1cc0f60c1b-formalized-v1",
+      "theorems": [
+        "Erdos564.erdos_564"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos564-erdos-564-5383b597c148456d2035be18b94486ac-problem",
+      "reward_target_id": "fc-target:Erdos564.erdos_564",
+      "source_indices": [
+        1738
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/564.lean",
+      "target_type_sha256s": [
+        "sha256:654c69210ff664b296c7f53a80db7bd3790f91f5d4b76501fef2fab9df6cf611"
+      ],
+      "task_bundle_sha256": "sha256:8f758fbd6ea5579641405137e43d14955752e6fb128aa24f0528a17a9d7be5dd",
+      "task_id": "fc-8432eac9-erdos564-erdos-564-8ab811eadf-counterexample-v1",
+      "theorems": [
+        "Erdos564.erdos_564"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos579-erdos-579-c7588817efe755f086460d9246c89d4f-problem",
       "reward_target_id": "fc-target:Erdos579.erdos_579",
       "source_indices": [
@@ -4715,6 +6129,44 @@
       "task_id": "fc-8432eac9-erdos579-erdos-579-e7dad6863f-counterexample-v1",
       "theorems": [
         "Erdos579.erdos_579"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-i-beeac72f129c6471089ae0d34ddc5dc5-problem",
+      "reward_target_id": "fc-target:Erdos600.erdos_600.parts.i",
+      "source_indices": [
+        1793
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/600.lean",
+      "target_type_sha256s": [
+        "sha256:7aeac9f2ec0e2514bbb4d975e0b2724ff741607674a3104ad6c50fab022e7aee"
+      ],
+      "task_bundle_sha256": "sha256:369970297d00f1b4ecfa68fa8ef1322cb851e02cccbdb5704ee5b906e672b012",
+      "task_id": "fc-8432eac9-parts-i-cb2a31b766-formalized-v1",
+      "theorems": [
+        "Erdos600.erdos_600.parts.i"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-i-beeac72f129c6471089ae0d34ddc5dc5-problem",
+      "reward_target_id": "fc-target:Erdos600.erdos_600.parts.i",
+      "source_indices": [
+        1793
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/600.lean",
+      "target_type_sha256s": [
+        "sha256:710c94bf7dcc7adb6848956e5bfe7e439629724b5ffc82d8daa5adcc34fb2df4"
+      ],
+      "task_bundle_sha256": "sha256:f69ff3fca41055e87b1fc8d3a010c030175502787082151ca893bd751c94263d",
+      "task_id": "fc-8432eac9-parts-i-0e233432e3-counterexample-v1",
+      "theorems": [
+        "Erdos600.erdos_600.parts.i"
       ],
       "tier": "tier-1"
     },
@@ -4987,6 +6439,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-ii-ab2a23671bea916dcb06d485f866ab9a-problem",
+      "reward_target_id": "fc-target:Erdos680.erdos_680.parts.ii",
+      "source_indices": [
+        1888
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/680.lean",
+      "target_type_sha256s": [
+        "sha256:d0068db7ed3750f57e52cb8465a3662197735d0284cf00ed1d3549169ce44777"
+      ],
+      "task_bundle_sha256": "sha256:3ba70d9e35d7f518c8cdf44e439fd2a42b330166db3136af5ca212895ede3ca4",
+      "task_id": "fc-8432eac9-parts-ii-be32f4380a-formalized-v1",
+      "theorems": [
+        "Erdos680.erdos_680.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-ii-ab2a23671bea916dcb06d485f866ab9a-problem",
+      "reward_target_id": "fc-target:Erdos680.erdos_680.parts.ii",
+      "source_indices": [
+        1888
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/680.lean",
+      "target_type_sha256s": [
+        "sha256:271d1b85386c85e30404b3f721eeea4d9eb06add165b8154134e89d574f17d49"
+      ],
+      "task_bundle_sha256": "sha256:2c8600b7fa6f6ca1800bd62bfde1cfacc0a3e474268ef7782a8955d59a55f4df",
+      "task_id": "fc-8432eac9-parts-ii-152ccb73d2-counterexample-v1",
+      "theorems": [
+        "Erdos680.erdos_680.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-variants-four-989ac98d9241de6f54ded70afa5728ec-problem",
       "reward_target_id": "fc-target:Erdos686.erdos_686.variants.four",
       "source_indices": [
@@ -5101,6 +6591,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-variants-upperbound-5fe380761b4c970ea57c7aff68223c7b-problem",
+      "reward_target_id": "fc-target:Erdos695.erdos_695.variants.upperBound",
+      "source_indices": [
+        1918
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/695.lean",
+      "target_type_sha256s": [
+        "sha256:5d3b0dcca310b5be635b9260e38a0b7930d25a971b364e4543feb1a67468077a"
+      ],
+      "task_bundle_sha256": "sha256:8c4f7c360978c42ffbd30a91aec407120d771246ce91f90a65693de563a85c79",
+      "task_id": "fc-8432eac9-variants-upperbound-e6a0337e97-formalized-v1",
+      "theorems": [
+        "Erdos695.erdos_695.variants.upperBound"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-variants-upperbound-5fe380761b4c970ea57c7aff68223c7b-problem",
+      "reward_target_id": "fc-target:Erdos695.erdos_695.variants.upperBound",
+      "source_indices": [
+        1918
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/695.lean",
+      "target_type_sha256s": [
+        "sha256:3a0517f42374e6321ab3785ac9bf1f3d83b5e6e408bddb43e7f361dcd73c2d16"
+      ],
+      "task_bundle_sha256": "sha256:cfc35496927fec90774fcb8dbb6bf1ba19a8361904d724dbe3fa73a1bcbf0501",
+      "task_id": "fc-8432eac9-variants-upperbound-ea2d7627f1-counterexample-v1",
+      "theorems": [
+        "Erdos695.erdos_695.variants.upperBound"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos699-erdos-699-87f92997be8a89aa3e01652c26b98b48-problem",
       "reward_target_id": "fc-target:Erdos699.erdos_699",
       "source_indices": [
@@ -5133,6 +6661,82 @@
       "task_id": "fc-8432eac9-erdos699-erdos-699-4b309685d8-counterexample-v1",
       "theorems": [
         "Erdos699.erdos_699"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-variants-omega-times-two-four-d716257718d07c026a409076a80dc4a0-problem",
+      "reward_target_id": "fc-target:Erdos70.erdos_70.variants.omega_times_two_four",
+      "source_indices": [
+        1935
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/70.lean",
+      "target_type_sha256s": [
+        "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f"
+      ],
+      "task_bundle_sha256": "sha256:4f4471059b7c4fa64e33b1687693529bc2a189c1ee4d7a01c5ba88bb6f520319",
+      "task_id": "fc-8432eac9-variants-omega-times-two-four-1b64926281-formalized-v1",
+      "theorems": [
+        "Erdos70.erdos_70.variants.omega_times_two_four"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-variants-omega-times-two-four-d716257718d07c026a409076a80dc4a0-problem",
+      "reward_target_id": "fc-target:Erdos70.erdos_70.variants.omega_times_two_four",
+      "source_indices": [
+        1935
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/70.lean",
+      "target_type_sha256s": [
+        "sha256:d090626583f4d8405cfea85318e454da3aa1509287d098c4ed1b5e7c6d066131"
+      ],
+      "task_bundle_sha256": "sha256:e5e1156e70892ecc64bbc6f983033e483fda0177fc265f2c8c0021c1c9e9e14a",
+      "task_id": "fc-8432eac9-variants-omega-times-two-four-d19d981249-counterexample-v1",
+      "theorems": [
+        "Erdos70.erdos_70.variants.omega_times_two_four"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos701-erdos-701-07cd87bced4065d3e88e1f96667bd459-problem",
+      "reward_target_id": "fc-target:Erdos701.erdos_701",
+      "source_indices": [
+        1946
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/701.lean",
+      "target_type_sha256s": [
+        "sha256:ca0ae541b657e550f538d41a62a6ebd5d370b8cbde8971ccc3066b1e8ff687b8"
+      ],
+      "task_bundle_sha256": "sha256:1eaf7d144c5a2d1d40a18468d8e4ebb6dea1007fc84fc99dc9e583fe7872736d",
+      "task_id": "fc-8432eac9-erdos701-erdos-701-79da18cb54-formalized-v1",
+      "theorems": [
+        "Erdos701.erdos_701"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos701-erdos-701-07cd87bced4065d3e88e1f96667bd459-problem",
+      "reward_target_id": "fc-target:Erdos701.erdos_701",
+      "source_indices": [
+        1946
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/701.lean",
+      "target_type_sha256s": [
+        "sha256:d2df05a83bd934271e66d718777826d2834b941a7931d50a894f9f0ea5daf522"
+      ],
+      "task_bundle_sha256": "sha256:05fa55cccc1b5254981f18825cec8b1d18548ac8666dc11fdfad546f0d6a797b",
+      "task_id": "fc-8432eac9-erdos701-erdos-701-913b165ee0-counterexample-v1",
+      "theorems": [
+        "Erdos701.erdos_701"
       ],
       "tier": "tier-1"
     },
@@ -5367,6 +6971,82 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-variants-sq-ad0e890f282c89a0d4a76eda6027ada7-problem",
+      "reward_target_id": "fc-target:Erdos789.erdos_789.variants.sq",
+      "source_indices": [
+        2054
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/789.lean",
+      "target_type_sha256s": [
+        "sha256:5f0475c69d1d1d8fe299a0db410a528e1ee8017f96eaf19609441e9bc257c04d"
+      ],
+      "task_bundle_sha256": "sha256:f9083f1dc16cd4907bf6f314f8d1d7738b044b476f1d534fb38a734dedb0c769",
+      "task_id": "fc-8432eac9-variants-sq-2a10bc00e3-formalized-v1",
+      "theorems": [
+        "Erdos789.erdos_789.variants.sq"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-variants-sq-ad0e890f282c89a0d4a76eda6027ada7-problem",
+      "reward_target_id": "fc-target:Erdos789.erdos_789.variants.sq",
+      "source_indices": [
+        2054
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/789.lean",
+      "target_type_sha256s": [
+        "sha256:77ed6f7e60823b945ad8cbaa2453faa751e8f7c727f392893874edf81f455d4c"
+      ],
+      "task_bundle_sha256": "sha256:6d22ca744b22081af6dc65067df906c1f0daa31c1b24be3f2e71da1b0851a007",
+      "task_id": "fc-8432eac9-variants-sq-421ea81340-counterexample-v1",
+      "theorems": [
+        "Erdos789.erdos_789.variants.sq"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-i-d5fa859dc0ebd5ac1ff2f052c0ff2186-problem",
+      "reward_target_id": "fc-target:Erdos812.erdos_812.parts.i",
+      "source_indices": [
+        2069
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/812.lean",
+      "target_type_sha256s": [
+        "sha256:e27111c9f2a0896182ff6489ff6a82cf045c41f102ec676f15d45633245816bc"
+      ],
+      "task_bundle_sha256": "sha256:3912e5a16bc413780e7d2a8074e4f1c623451553ed568e9bef8dd9f8c97510cf",
+      "task_id": "fc-8432eac9-parts-i-4f2bca3795-formalized-v1",
+      "theorems": [
+        "Erdos812.erdos_812.parts.i"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-i-d5fa859dc0ebd5ac1ff2f052c0ff2186-problem",
+      "reward_target_id": "fc-target:Erdos812.erdos_812.parts.i",
+      "source_indices": [
+        2069
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/812.lean",
+      "target_type_sha256s": [
+        "sha256:48a0877ef1b777e1115e60fa3bb3a5427325aec0cb4f6da3a44f54882d74912b"
+      ],
+      "task_bundle_sha256": "sha256:5734e64d528585d0245a9c2da17449818ee59a96158f399e70d3d448cdcfaf46",
+      "task_id": "fc-8432eac9-parts-i-0f897171ff-counterexample-v1",
+      "theorems": [
+        "Erdos812.erdos_812.parts.i"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos82-erdos-82-8ba1b5b9597cbf165c0066ff6dd3a5ff-problem",
       "reward_target_id": "fc-target:Erdos82.erdos_82",
       "source_indices": [
@@ -5481,6 +7161,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos829-erdos-829-57632974093718234385bbc5f5d3c742-problem",
+      "reward_target_id": "fc-target:Erdos829.erdos_829",
+      "source_indices": [
+        2089
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/829.lean",
+      "target_type_sha256s": [
+        "sha256:674daeaeec7a9a9cb6549a8413858ef55c09c66fb3c14a9f10b4baa95289fb49"
+      ],
+      "task_bundle_sha256": "sha256:29f2fc3cad4b8bae59287c4eb36fd8e31099997a241dd686b99a593ceecff3e7",
+      "task_id": "fc-8432eac9-erdos829-erdos-829-835f9b035e-formalized-v1",
+      "theorems": [
+        "Erdos829.erdos_829"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos829-erdos-829-57632974093718234385bbc5f5d3c742-problem",
+      "reward_target_id": "fc-target:Erdos829.erdos_829",
+      "source_indices": [
+        2089
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/829.lean",
+      "target_type_sha256s": [
+        "sha256:350c530657c04b956805c749fc7fd234f7810af412f23b0eab6ff98ee9f2ea3f"
+      ],
+      "task_bundle_sha256": "sha256:4f2ed90ecf18213588b276a7b106c6958c56024fbd7238d75d041a3191db21ad",
+      "task_id": "fc-8432eac9-erdos829-erdos-829-e96ab999ec-counterexample-v1",
+      "theorems": [
+        "Erdos829.erdos_829"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos835-erdos-835-4acfee9aab58ae6ad0dcc1daeb6c4eed-problem",
       "reward_target_id": "fc-target:Erdos835.erdos_835",
       "source_indices": [
@@ -5551,6 +7269,44 @@
       "task_id": "fc-8432eac9-erdos849-erdos-849-02b2e417af-counterexample-v1",
       "theorems": [
         "Erdos849.erdos_849"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos85-erdos-85-16275cc052effd887e1615ec45c4cb35-problem",
+      "reward_target_id": "fc-target:Erdos85.erdos_85",
+      "source_indices": [
+        2123
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/85.lean",
+      "target_type_sha256s": [
+        "sha256:da2437c05a6a570fd6224ce38798081c0d3208e49357c6b7c8bab76b9095e787"
+      ],
+      "task_bundle_sha256": "sha256:8c96569849e98831871a1d777b52edad6122f36fa98f8c8d2070d9d17b8bde2e",
+      "task_id": "fc-8432eac9-erdos85-erdos-85-0490a5c9ec-formalized-v1",
+      "theorems": [
+        "Erdos85.erdos_85"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos85-erdos-85-16275cc052effd887e1615ec45c4cb35-problem",
+      "reward_target_id": "fc-target:Erdos85.erdos_85",
+      "source_indices": [
+        2123
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/85.lean",
+      "target_type_sha256s": [
+        "sha256:e75836746badaaf583458fa30059d935665b4cb86dff51c69e579f59c15bfc57"
+      ],
+      "task_bundle_sha256": "sha256:a792acbbe996fbdee2be7d0738eecb5f7418cb10e812dbfad843b3159b83026e",
+      "task_id": "fc-8432eac9-erdos85-erdos-85-bc3689e934-counterexample-v1",
+      "theorems": [
+        "Erdos85.erdos_85"
       ],
       "tier": "tier-1"
     },
@@ -5665,6 +7421,82 @@
       "task_id": "fc-8432eac9-erdos859-erdos-859-753c9c9a0d-counterexample-v1",
       "theorems": [
         "Erdos859.erdos_859"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos873-erdos-873-c7b94e60bb0179596db593a332cc3c29-problem",
+      "reward_target_id": "fc-target:Erdos873.erdos_873",
+      "source_indices": [
+        2159
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/873.lean",
+      "target_type_sha256s": [
+        "sha256:f65bfe32e4ca49963d561bbe51dc02312f9b260863cd7537acd49d813914419c"
+      ],
+      "task_bundle_sha256": "sha256:6ca26b36181c590014ef19f8497e9cc5eee80d6ccfc331d30e57ed80a1a09b27",
+      "task_id": "fc-8432eac9-erdos873-erdos-873-6115c214af-formalized-v1",
+      "theorems": [
+        "Erdos873.erdos_873"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos873-erdos-873-c7b94e60bb0179596db593a332cc3c29-problem",
+      "reward_target_id": "fc-target:Erdos873.erdos_873",
+      "source_indices": [
+        2159
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/873.lean",
+      "target_type_sha256s": [
+        "sha256:21f428be65fd59cc64dd3405cd16238572e53884503162f3edfcc9eefdfaf9f8"
+      ],
+      "task_bundle_sha256": "sha256:b830b81d414a2485c15f276ae8bd063fa2f84d43d045f72dbde2a386482cf3b0",
+      "task_id": "fc-8432eac9-erdos873-erdos-873-992ffccb48-counterexample-v1",
+      "theorems": [
+        "Erdos873.erdos_873"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos885-erdos-885-bc6356bdbd7019284f7fa9980a634229-problem",
+      "reward_target_id": "fc-target:Erdos885.erdos_885",
+      "source_indices": [
+        2163
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/885.lean",
+      "target_type_sha256s": [
+        "sha256:69c05c3c7313bb78e965549ee66cadffda2e6cf60728fe7fe0c81fe2ec75ab41"
+      ],
+      "task_bundle_sha256": "sha256:72c9ffb2571fc676760f02124583b573eb16d096d099ba7ce81b08afc8a085d2",
+      "task_id": "fc-8432eac9-erdos885-erdos-885-ab5c2acc5a-formalized-v1",
+      "theorems": [
+        "Erdos885.erdos_885"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos885-erdos-885-bc6356bdbd7019284f7fa9980a634229-problem",
+      "reward_target_id": "fc-target:Erdos885.erdos_885",
+      "source_indices": [
+        2163
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/885.lean",
+      "target_type_sha256s": [
+        "sha256:7b5d4498696d7e6a96c6fbabe3fc4099a6631c380cf2c0669c521c3f985dd19a"
+      ],
+      "task_bundle_sha256": "sha256:206ed6441772e157841b309a4b110b383047dcfbe23c70dce4bfa4f5da35074d",
+      "task_id": "fc-8432eac9-erdos885-erdos-885-38b803aac6-counterexample-v1",
+      "theorems": [
+        "Erdos885.erdos_885"
       ],
       "tier": "tier-1"
     },
@@ -5823,6 +7655,120 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-a-ccad5e0eb1935d301ae304ef93c72185-problem",
+      "reward_target_id": "fc-target:Erdos890.erdos_890.parts.a",
+      "source_indices": [
+        2187
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/890.lean",
+      "target_type_sha256s": [
+        "sha256:3e332fb3ae679532aff86de00ec4490a65925f13321c5f5de0d166dfa59adcf4"
+      ],
+      "task_bundle_sha256": "sha256:d1476d0ab7e6187d4a46758f387ba709ce0ce67556fa16042c7e70ab8c7e9af5",
+      "task_id": "fc-8432eac9-parts-a-571fbc4ad4-formalized-v1",
+      "theorems": [
+        "Erdos890.erdos_890.parts.a"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-a-ccad5e0eb1935d301ae304ef93c72185-problem",
+      "reward_target_id": "fc-target:Erdos890.erdos_890.parts.a",
+      "source_indices": [
+        2187
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/890.lean",
+      "target_type_sha256s": [
+        "sha256:5b35cb2ca272dd6446842bb1f50986dc377741192d079568c0863e55bdf33c87"
+      ],
+      "task_bundle_sha256": "sha256:866f3db36516a122803e37121fc06cd8aec5b83264a36e3c05aaf88ec9e4eab0",
+      "task_id": "fc-8432eac9-parts-a-eabc920cb2-counterexample-v1",
+      "theorems": [
+        "Erdos890.erdos_890.parts.a"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos891-erdos-891-54b29b90393862d710c64cbc2c3ea1df-problem",
+      "reward_target_id": "fc-target:Erdos891.erdos_891",
+      "source_indices": [
+        2191
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/891.lean",
+      "target_type_sha256s": [
+        "sha256:3114dca122af84199da3e5a5680ee5f110455c698328c16ce9954ae0f4de74de"
+      ],
+      "task_bundle_sha256": "sha256:b456a6587c73d3ac5aaba1cb02dcec4b55c7cfe1a223089689ddf3fa64d25119",
+      "task_id": "fc-8432eac9-erdos891-erdos-891-32f6609383-formalized-v1",
+      "theorems": [
+        "Erdos891.erdos_891"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos891-erdos-891-54b29b90393862d710c64cbc2c3ea1df-problem",
+      "reward_target_id": "fc-target:Erdos891.erdos_891",
+      "source_indices": [
+        2191
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/891.lean",
+      "target_type_sha256s": [
+        "sha256:fb205f885a4dcf736b86039d0ff71da6b7576da98396ca744ce41a0022196d35"
+      ],
+      "task_bundle_sha256": "sha256:b4ba20f27284fb60a06732c516ed0c6b80671b6b1ae028eb8e63336db9cdf8a2",
+      "task_id": "fc-8432eac9-erdos891-erdos-891-840841ba99-counterexample-v1",
+      "theorems": [
+        "Erdos891.erdos_891"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos893-erdos-893-555e7946f339a0599ef473ffc04f5997-problem",
+      "reward_target_id": "fc-target:Erdos893.erdos_893",
+      "source_indices": [
+        2195
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/893.lean",
+      "target_type_sha256s": [
+        "sha256:200751647459d0c8ae82a267d3c6d3a380afb15b41e19fe688dacf27f0d842ac"
+      ],
+      "task_bundle_sha256": "sha256:0e599622fd2b02b9ee9da7b406b19bf0c19f00839ad5b7cfaf7402cdbfddd313",
+      "task_id": "fc-8432eac9-erdos893-erdos-893-f6537c8de9-formalized-v1",
+      "theorems": [
+        "Erdos893.erdos_893"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos893-erdos-893-555e7946f339a0599ef473ffc04f5997-problem",
+      "reward_target_id": "fc-target:Erdos893.erdos_893",
+      "source_indices": [
+        2195
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/893.lean",
+      "target_type_sha256s": [
+        "sha256:dfe3b69ce25225dc882a317912e1aaca607685bcbbd3edc3d8fd013bd1c6fa5b"
+      ],
+      "task_bundle_sha256": "sha256:b5b7a73ee552a62ef6dd2e582ef980a2e2d58231262b212c9bb60608b122178f",
+      "task_id": "fc-8432eac9-erdos893-erdos-893-78f89cbe2b-counterexample-v1",
+      "theorems": [
+        "Erdos893.erdos_893"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos9-erdos-9-fa4a0524fa32491b2b2ecace0efa1887-problem",
       "reward_target_id": "fc-target:Erdos9.erdos_9",
       "source_indices": [
@@ -5975,6 +7921,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos931-erdos-931-220d878c07e4b01e145c8a6edab972c3-problem",
+      "reward_target_id": "fc-target:Erdos931.erdos_931",
+      "source_indices": [
+        2265
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/931.lean",
+      "target_type_sha256s": [
+        "sha256:a3fdb1e0c9cd62095f030d8b4a9c3880b2fc1b9ede3e1274e66c5a6876fff1ac"
+      ],
+      "task_bundle_sha256": "sha256:3a885e1edd11754da7b6ffabe63427dd26faa787d7cb5175ea0fe6f39239e067",
+      "task_id": "fc-8432eac9-erdos931-erdos-931-9da71249e7-formalized-v1",
+      "theorems": [
+        "Erdos931.erdos_931"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos931-erdos-931-220d878c07e4b01e145c8a6edab972c3-problem",
+      "reward_target_id": "fc-target:Erdos931.erdos_931",
+      "source_indices": [
+        2265
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/931.lean",
+      "target_type_sha256s": [
+        "sha256:757ea3dfbbb62e9f3b7c6151c0950fd7779f62af24c20dffddce5aba5911b4fc"
+      ],
+      "task_bundle_sha256": "sha256:75f1f6a3e340d5d8864cb13a1e8ef66020804f051aba7be76b7fab640ca24999",
+      "task_id": "fc-8432eac9-erdos931-erdos-931-b251dec742-counterexample-v1",
+      "theorems": [
+        "Erdos931.erdos_931"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos932-erdos-932-6a2e8091789fbaff96c16dee1e2894ce-problem",
       "reward_target_id": "fc-target:Erdos932.erdos_932",
       "source_indices": [
@@ -6051,6 +8035,120 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-variants-two-pow-sub-one-cfbee5fa6f5689565ca6b7d6353d197e-problem",
+      "reward_target_id": "fc-target:Erdos936.erdos_936.variants.two_pow_sub_one",
+      "source_indices": [
+        2277
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/936.lean",
+      "target_type_sha256s": [
+        "sha256:e5bffba36bb70a04fe72bca6bfe3a5b40ac5902be91bdb3160b250b524f86984"
+      ],
+      "task_bundle_sha256": "sha256:47c21f4549fdb39e418da1c6c2b8aa453ad11a056ba90427dee3edcb5a67c88c",
+      "task_id": "fc-8432eac9-variants-two-pow-sub-one-61c78e56a9-formalized-v1",
+      "theorems": [
+        "Erdos936.erdos_936.variants.two_pow_sub_one"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-variants-two-pow-sub-one-cfbee5fa6f5689565ca6b7d6353d197e-problem",
+      "reward_target_id": "fc-target:Erdos936.erdos_936.variants.two_pow_sub_one",
+      "source_indices": [
+        2277
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/936.lean",
+      "target_type_sha256s": [
+        "sha256:1087e762b96f51a6df61b6dade966dfe41a0d7552793d72863a4457164a510f0"
+      ],
+      "task_bundle_sha256": "sha256:465b60e15f5dcbee151627be4d3b26d14b96035b013d1e423369880cacac2424",
+      "task_id": "fc-8432eac9-variants-two-pow-sub-one-f0aab41e8b-counterexample-v1",
+      "theorems": [
+        "Erdos936.erdos_936.variants.two_pow_sub_one"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos942-erdos-942-2ae113970374795a1a24ada86faae012-problem",
+      "reward_target_id": "fc-target:Erdos942.erdos_942",
+      "source_indices": [
+        2297
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/942.lean",
+      "target_type_sha256s": [
+        "sha256:7fcefb0311ab5885c59f7f1a144170fd77a22db5a71c39b98a016707c0e1a134"
+      ],
+      "task_bundle_sha256": "sha256:50839c5ff5c2cdd143bfb327d8985158e28748af31ced82ac51d663c782f4e22",
+      "task_id": "fc-8432eac9-erdos942-erdos-942-e6e8af0835-formalized-v1",
+      "theorems": [
+        "Erdos942.erdos_942"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos942-erdos-942-2ae113970374795a1a24ada86faae012-problem",
+      "reward_target_id": "fc-target:Erdos942.erdos_942",
+      "source_indices": [
+        2297
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/942.lean",
+      "target_type_sha256s": [
+        "sha256:694572729eb652120b578f69e911b8f66be0e0bb099140345828ab48a5e73fcd"
+      ],
+      "task_bundle_sha256": "sha256:77c2b1f893e59b525ed9fa39424940aad061a7313a82caece96d16fb4a5667fb",
+      "task_id": "fc-8432eac9-erdos942-erdos-942-b632eb6932-counterexample-v1",
+      "theorems": [
+        "Erdos942.erdos_942"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos943-erdos-943-2062a5dc8d2ebc8f209e304e78b0b0b8-problem",
+      "reward_target_id": "fc-target:Erdos943.erdos_943",
+      "source_indices": [
+        2300
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/943.lean",
+      "target_type_sha256s": [
+        "sha256:c5a8f359522f97e397057bba602208dc7826505e2e60b9c4647e60fef5bb1171"
+      ],
+      "task_bundle_sha256": "sha256:82274a7ba34d900823c3c077577472b668f69e6f0658ca36ecad790415d03aa2",
+      "task_id": "fc-8432eac9-erdos943-erdos-943-253879194d-formalized-v1",
+      "theorems": [
+        "Erdos943.erdos_943"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos943-erdos-943-2062a5dc8d2ebc8f209e304e78b0b0b8-problem",
+      "reward_target_id": "fc-target:Erdos943.erdos_943",
+      "source_indices": [
+        2300
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/943.lean",
+      "target_type_sha256s": [
+        "sha256:c8df449b739598efe34a667d9e5f22b4a2861272beb4271f6489f07f5b01e7d3"
+      ],
+      "task_bundle_sha256": "sha256:2a898ba0b814dd9db88d8e9fc1814bf3313a0462d32fed5de1ef26ddcfa855df",
+      "task_id": "fc-8432eac9-erdos943-erdos-943-d7ab7f5972-counterexample-v1",
+      "theorems": [
+        "Erdos943.erdos_943"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos945-erdos-945-9c0a39c0d10a1ded823a4380e41f32c2-problem",
       "reward_target_id": "fc-target:Erdos945.erdos_945",
       "source_indices": [
@@ -6121,6 +8219,82 @@
       "task_id": "fc-8432eac9-parts-i-234bced81c-counterexample-v1",
       "theorems": [
         "Erdos950.erdos_950.parts.i"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-ii-10c27d0cfd0ff8d91986efc165a35e61-problem",
+      "reward_target_id": "fc-target:Erdos950.erdos_950.parts.ii",
+      "source_indices": [
+        2321
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/950.lean",
+      "target_type_sha256s": [
+        "sha256:aa1aca555798121bd7bb6747a34c344b2466dbd21980f80e9edbe7e661d25542"
+      ],
+      "task_bundle_sha256": "sha256:2b5f8542885d96f0b2feb7c0de268d72093c7add6ecb22612a0a23bf6640d08e",
+      "task_id": "fc-8432eac9-parts-ii-c89128094e-formalized-v1",
+      "theorems": [
+        "Erdos950.erdos_950.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-ii-10c27d0cfd0ff8d91986efc165a35e61-problem",
+      "reward_target_id": "fc-target:Erdos950.erdos_950.parts.ii",
+      "source_indices": [
+        2321
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/950.lean",
+      "target_type_sha256s": [
+        "sha256:dcbf91982f4b3c4bacf72a786b8c26acf1f0daa8cf41d1566e5388ccf5f64feb"
+      ],
+      "task_bundle_sha256": "sha256:81669f490bf4441b5db7e5885c1bef04d384ff79a0ad0663e9c81ec4b4c0e217",
+      "task_id": "fc-8432eac9-parts-ii-d61954f31f-counterexample-v1",
+      "theorems": [
+        "Erdos950.erdos_950.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos951-erdos-951-125e1a236271fc0fc616b9b6b43b965d-problem",
+      "reward_target_id": "fc-target:Erdos951.erdos_951",
+      "source_indices": [
+        2327
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/951.lean",
+      "target_type_sha256s": [
+        "sha256:0f4168af6d8364a00bc88dcb79548550a6d1ba32ab87f2f8a6ccb926546f9e33"
+      ],
+      "task_bundle_sha256": "sha256:53b1cf6694e51eb62a6bd18fa5bd46bb035f2cf25833f9c658195a25503fb92b",
+      "task_id": "fc-8432eac9-erdos951-erdos-951-4da2ca4e59-formalized-v1",
+      "theorems": [
+        "Erdos951.erdos_951"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos951-erdos-951-125e1a236271fc0fc616b9b6b43b965d-problem",
+      "reward_target_id": "fc-target:Erdos951.erdos_951",
+      "source_indices": [
+        2327
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/951.lean",
+      "target_type_sha256s": [
+        "sha256:e20bb5e6b8c0f0ef1c242b61808a4337eaaad27d9397f1e53b3c30d41fdd637b"
+      ],
+      "task_bundle_sha256": "sha256:3913aee90e4d80dbdc3cb6760acf01a219ea7292c5d238f9a0ea3f44449f0df7",
+      "task_id": "fc-8432eac9-erdos951-erdos-951-d8bdabefde-counterexample-v1",
+      "theorems": [
+        "Erdos951.erdos_951"
       ],
       "tier": "tier-1"
     },
@@ -6235,6 +8409,82 @@
       "task_id": "fc-8432eac9-erdos972-erdos-972-5e9a2582bf-counterexample-v1",
       "theorems": [
         "Erdos972.erdos_972"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos975-erdos-975-1d3148f4e4a8054031dd71dbda7066e1-problem",
+      "reward_target_id": "fc-target:Erdos975.erdos_975",
+      "source_indices": [
+        2385
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "target_type_sha256s": [
+        "sha256:606fbe108dd21d8b94989b96851ff5a6bd86dd7e9350377a9c03d92e6ffa64b4"
+      ],
+      "task_bundle_sha256": "sha256:85bf509bf8a8f23cd530eb83c637b605875af9bcb4985d0c2cfd99218a7fe971",
+      "task_id": "fc-8432eac9-erdos975-erdos-975-3f2ae565ce-formalized-v1",
+      "theorems": [
+        "Erdos975.erdos_975"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos975-erdos-975-1d3148f4e4a8054031dd71dbda7066e1-problem",
+      "reward_target_id": "fc-target:Erdos975.erdos_975",
+      "source_indices": [
+        2385
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "target_type_sha256s": [
+        "sha256:ca21586d5f41c8fcb4a77a26afeaa39abc40358b46672ef258708eb94fc511da"
+      ],
+      "task_bundle_sha256": "sha256:c4b60d5816f72d003099c078a3a75d73f41ebba3c047f8177a043110dc238d98",
+      "task_id": "fc-8432eac9-erdos975-erdos-975-9c8e13b709-counterexample-v1",
+      "theorems": [
+        "Erdos975.erdos_975"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-8432eac9-parts-ii-bcf1849628df988deb046343889777d1-problem",
+      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+      "source_indices": [
+        2392
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "target_type_sha256s": [
+        "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787"
+      ],
+      "task_bundle_sha256": "sha256:3b490c017346cf09f5cd25c8ba94ea7afc648c2a94e3923e0d92f1e650302d36",
+      "task_id": "fc-8432eac9-parts-ii-27fb73dc82-formalized-v1",
+      "theorems": [
+        "Erdos978.erdos_978.parts.ii"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-parts-ii-bcf1849628df988deb046343889777d1-problem",
+      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+      "source_indices": [
+        2392
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "target_type_sha256s": [
+        "sha256:2fae4b2704d90a9537406855522ed62866992621f5e198c951a0120dd5697e7a"
+      ],
+      "task_bundle_sha256": "sha256:587b002562580b4df72f080e13ed6687121ae04a04848229a48468ef4c6abfc3",
+      "task_id": "fc-8432eac9-parts-ii-30a4a73a91-counterexample-v1",
+      "theorems": [
+        "Erdos978.erdos_978.parts.ii"
       ],
       "tier": "tier-1"
     },
@@ -7126,7 +9376,7 @@
       "compiled_target_validation": true,
       "excluded_source_prefixes": [],
       "grouping": "none-single-target-v1",
-      "minimum_erdos_tasks": 139,
+      "minimum_erdos_tasks": 189,
       "modes": [
         "formalized",
         "counterexample"
@@ -7135,26 +9385,26 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 316,
+      "pool_size": 416,
       "retired_conjectures_sha256": "sha256:552576afe7256d3f1ff1e7cfe84a2334e9981792c88b8a51abe1ca221fbd3aae",
       "retired_source_theorems_sha256": "sha256:a7775b915ea8e9537ff213bb5b044fd353dba1525359dcd3543cbe80567ea38b",
-      "reward_target_count": 158,
+      "reward_target_count": 208,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:3637a2f19b2f63647dec98834c7c4954c0a29b80ca51d7e7356cccbfa51002ce",
+      "selection_audit_sha256": "sha256:9994785c0ffbcb43235d6300a97d9eed7ef158ec5b4ef5d0e75b10ec64daa2c9",
       "source_category": "research open",
       "source_families": [
         "erdos",
         "greens-open-problems"
       ],
-      "source_theorem_count": 158,
+      "source_theorem_count": 208,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:dc5f153f3705c607035111bf1e2c90fb2cde0169e70ae0ab1a890ca96ac56e04"
+      "task_targets_sha256": "sha256:938b1f329080c5ea8d256e0f7efd2d0dcadfff7ef5b50b8d721ddef4c9cce71a"
     }
   }
 }

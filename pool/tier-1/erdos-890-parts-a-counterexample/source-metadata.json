@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If $\\omega_k(n)$ counts the number of distinct prime factors of $n$ which are $>k$, then is it true\nthat, for every $k\\geq 1$,\n$$\\liminf_{n\\to \\infty}\\sum_{0\\leq i < k}\\omega_k(n+i)\\leq k?$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«890»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/890](https://www.erdosproblems.com/890)",
+    "[ErSe67] Erdős, P. and Selfridge, J. L., Some problems on the prime factors of consecutive integers. Illinois J. Math. (1967), 428--430."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/890.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos890.erdos_890.parts.a",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3e332fb3ae679532aff86de00ec4490a65925f13321c5f5de0d166dfa59adcf4",
+  "type_pretty": "True ↔ ∀ k ≥ 1, Filter.liminf (fun n => ∑ i ∈ Finset.range k, ↑(Erdos890.omegaGt k (n + i))) Filter.atTop ≤ ↑k"
+}

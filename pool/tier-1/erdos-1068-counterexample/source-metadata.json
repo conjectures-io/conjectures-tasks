@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does every graph with chromatic number $\\aleph_1$ contain a countable subgraph which is\ninfinitely connected?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1068»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1068](https://www.erdosproblems.com/1068)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1068.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1068.erdos_1068",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:18aadc80443418fe2cdc6e8658361f772dfac497a2279d7ec9048f0a57804b76",
+  "type_pretty": "True ↔\n  ∀ (V : Type) (G : SimpleGraph V),\n    G.chromaticCardinal = Cardinal.aleph 1 → ∃ s, s.Countable ∧ (SimpleGraph.induce s G).InfinitelyConnected"
+}

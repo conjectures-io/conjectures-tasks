@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can one prove this is false if we replace $k^2+1$ by $e^{(1+\\epsilon)\\sqrt{k}}+C_\\epsilon$, for all\n$\\epsilon>0$, where $C_\\epsilon>0$ is some constant?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«680»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/680](https://www.erdosproblems.com/680)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/680.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos680.erdos_680.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d0068db7ed3750f57e52cb8465a3662197735d0284cf00ed1d3549169ce44777",
+  "type_pretty": "True ↔ ∀ ε > 0, ∃ C > 0, ¬∀ᶠ (n : ℕ) in Filter.atTop, ∃ k, k ≠ 0 ∧ ↑(n + k).minFac > Real.exp ((1 + ε) * √↑k) + C"
+}

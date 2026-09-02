@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that $f(p)/p \\to 0$ for $p \\to \\infty$ in a density 1 subset of the primes? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1072»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1072](https://www.erdosproblems.com/1072)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1072.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1072.erdos_1072.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:face433702cb92461a257a2be4165cb1ec8401d61973ebe72b7337cec6972eb0",
+  "type_pretty": "True ↔\n  ∃ P ⊆ {p | Nat.Prime p},\n    P.HasDensity 1 {p | Nat.Prime p} ∧\n      Filter.Tendsto (fun p => ↑(Erdos1072.f p) / ↑p) (Filter.atTop ⊓ Filter.principal P) (nhds 0)"
+}

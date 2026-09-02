@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $A = \\{a_1 < a_2 < \\dots\\} \\subseteq \\mathbb{N}$ and let $F(A,X,k)$ count the number of $i$\nsuch that $[a_i,a_{i+1}, \\dots ,a_{i+k−1}] < X$, where the left-hand side is the least common\nmultiple. Is it true that, for every $\\epsilon > 0$, there exists some $k$ such that\n$F(A,X,k) < X^\\epsilon$?",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«873»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/873](https://www.erdosproblems.com/873)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/873.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos873.erdos_873",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f65bfe32e4ca49963d561bbe51dc02312f9b260863cd7537acd49d813914419c",
+  "type_pretty": "True ↔ ∀ (a : ℕ → ℕ), ∀ ε > 0, 0 < a 0 → StrictMono a → ∃ k, ∀ X > 0, ↑↑(Erdos873.F a X k) < ↑(X ^ ε)"
+}

@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 158 audited targets in `tier-1`: 139 Erdős targets and 19 Green's
+The current release places all 208 audited targets in `tier-1`: 189 Erdős targets and 19 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -32,7 +32,7 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 65
+Each task contains one exact canonical theorem. The pool includes complete statements and the 78
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
@@ -80,9 +80,9 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 316 task bundles covering 158 audited targets: 139 Erdős targets and 19
+`tier-1` contains all 416 task bundles covering 208 audited targets: 189 Erdős targets and 19
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
-has its own stable reward identity.
+has its own stable reward identity. Those targets occupy 182 distinct canonical source paths.
 
 The GitHub review covered all 330 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
@@ -99,6 +99,18 @@ For the 28 targets added in the 2026-08-12 audit, exact-statement and equivalent
 literature searches disclosed no published solution. `Erdos1199.erdos_1199` was excluded because
 arXiv:2607.17333 proves the exact Owings sumset statement, and `Erdos510.erdos_510` was excluded
 because its compiled proposition retains a `sorry` answer hole in its type.
+
+For the 50 Erdős targets added in the 2026-08-24 candidate audit, the review rechecked the exact
+formal statements against the live tracker, 300 open Formal Conjectures pull requests, direct
+problem pages, discussions, exact-statement searches, and current source drift. It also compiled
+4,200 isolated proof/refutation attacks and found no admissible cheap proof or counterexample. Five
+initial candidates were rejected and replaced before publication. The candidate-specific review is
+recorded in the validator's
+[`2026-08-24 review decision`](https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-24-add-50-candidate-review.md).
+The global selection-audit header remains at its 2026-08-12 retained-pool review boundary; it was
+not advanced in a way that would falsely imply that all 159 retained targets received the later
+candidate-only freshness review.
+
 The previously retired `Green3.green_3`, `Erdos567.erdos_567.parts.i`, the selected Erdős 477
 variants, and `Erdos536.erdos_536` targets remain excluded.
 

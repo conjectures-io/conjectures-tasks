@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    30
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If `f(z) = ∑ aₖzⁿₖ` is an entire function (with `aₖ ≠ 0` for all `k`) such that `nₖ / k → ∞`,\nis it true that `f` assumes every value infinitely often? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«517»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/517](https://www.erdosproblems.com/517)",
+    "[Bi28] Biernacki, Miécislas, Sur les équations algébriques contenant des paramétres arbitraires. (1928), 145."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/517.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos517.erdos_517",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f49614b72ab32a1ccd4fb7dbe54c86d23d11a3d4e52e0d9a690f4265fa1e8ed8",
+  "type_pretty": "True ↔\n  ∀ {f : ℂ → ℂ} {n : ℕ → ℕ},\n    HasFabryGaps n →\n      ∀ {a : ℕ → ℂ},\n        (∀ (k : ℕ), a k ≠ 0) → (∀ (z : ℂ), HasSum (fun k => a k * z ^ n k) (f z)) → ∀ (z : ℂ), {x | f x = z}.Infinite"
+}
