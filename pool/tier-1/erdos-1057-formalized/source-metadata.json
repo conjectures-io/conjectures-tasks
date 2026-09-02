@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that $C(x)=x^{1-o(1)}$?\n\nThis is discussed in problem A13 of Guy's collection [Gu04].\n",
@@ -28,7 +28,7 @@
     "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
     "[Po89] Pomerance, Carl, Two methods in elementary analytic number theory. (1989), 135--161."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1057.lean",
   "supported_modes": [
     "formalized",

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Problem 9 (iii): is $r_4(\\mathbf{F}_5^n) \\ll N^{1-c}$, where $N=5^n$?\n",
@@ -23,7 +23,7 @@
     "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.9)",
     "[BlSi20] Bloom, Thomas F., and Olof Sisask. \"Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions.\" arXiv preprint arXiv:2007.03528 (2020)."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:52c06f9eeccbf6b3e1a76212d62eb73abb1935bd716c73681a6a23350c52fe36",
+  "type_hash": "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab",
   "type_pretty": "True ↔ ∃ c > 0, (fun n => ↑(Finset.maxAPFreeCard 4 Finset.univ)) =O[Filter.atTop] fun n => (5 ^ n) ^ (1 - c)"
 }

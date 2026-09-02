@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Are there infinitely many $n$ such that ${2n\\choose n}$ is coprime to $105$?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/376](https://www.erdosproblems.com/376)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/376.lean",
   "supported_modes": [
     "formalized",
@@ -32,6 +32,6 @@
   "transitive_axioms": [
     "sorryAx"
   ],
-  "type_hash": "sha256:f4e6248cce761d39d1351429041fa49c2ce574bb3752e60498d3ebaa5fd0dbc9",
+  "type_hash": "sha256:83aa384e77fe25f943ed3670056017df36b3d4ba6760b2beb7b855321c36d887",
   "type_pretty": "True ↔ {n | n.centralBinom.Coprime 105}.Infinite"
 }

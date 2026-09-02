@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that there are infinitely many $p$ for which $f(p) = p − 1$? ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1072](https://www.erdosproblems.com/1072)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1072.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:549d7f97f1b8311cb01cca64fe7235468408a4881e9d8f78eac594e03262c3a0",
+  "type_hash": "sha256:5d55a338668375e93fbf0ad985db12019fcde7d09295ae644bedc2b23c1b6880",
   "type_pretty": "True ↔ {p | Nat.Prime p ∧ Erdos1072.f p = p - 1}.Infinite"
 }

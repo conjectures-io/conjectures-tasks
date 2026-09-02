@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Suppose monotone sequence $A$ satisfies the following: `A 0 = 1` and for all `j`, `A (j + 1)` is the\nsmallest natural number that cannot be written as a sum of consecutive terms of `A 0, ..., A j`.\nThen it is conjectured that $$a_k ~ \\frac{k \\log k}{\\log \\log k}$$. ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/359](https://www.erdosproblems.com/359)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/359.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:e8d3274560c69189522bcba232b7c4eed67b4ba51c1bfeb8843d7ee8293f764f",
+  "type_hash": "sha256:866d9c3f216f0535dc483adb5c7dd41f57f0924003dad735fd1c04d6637d5b14",
   "type_pretty": "∀ (A : ℕ → ℕ),\n  Erdos359.IsGoodFor A 1 →\n    Asymptotics.IsEquivalent Filter.atTop (fun k => ↑(A k)) fun k => ↑k * Real.log ↑k / Real.log (Real.log ↑k)"
 }

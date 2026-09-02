@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is every odd $n > 1$ the sum of a squarefree number and a power of 2?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/11](https://www.erdosproblems.com/11)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/11.lean",
   "supported_modes": [
     "formalized",
@@ -33,6 +33,6 @@
     "propext",
     "sorryAx"
   ],
-  "type_hash": "sha256:7e9596e7603a5b3f536d79ee62512def1ce39a45e429cb460712833ba19ea738",
+  "type_hash": "sha256:4a1a64ebc8e1aeffa65059bcab7647589d4e9508acb4d8e9436db1de2899f281",
   "type_pretty": "∀ (n : ℕ), Odd n → 1 < n → ∃ k l, Squarefree k ∧ n = k + 2 ^ l"
 }

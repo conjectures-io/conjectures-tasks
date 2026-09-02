@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "If $n > 1$ then the iteration $n\\mapsto\\sigma(n) - 1$ necessarily reaches a prime.\nNote: this is open — it is not clear that the σ iteration always terminates,\nsince it is non-decreasing (unlike the φ iteration which is strictly decreasing). ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/409](https://www.erdosproblems.com/409)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/409.lean",
   "supported_modes": [
     "formalized",

@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Suppose $A, B ⊆ \\{1, \\dots, N\\}$ both have size at least $N^{0.49}$. Must the sumset $A + B$\ncontain a composite number?\n",
@@ -23,7 +23,7 @@
   "references": [
     "[Ben Green's Open Problem 58](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8 Problem 58)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:fc96650a48ec19b72cd9b06034992b9f70e77f965289517cb25ce897692ae301",
+  "type_hash": "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435",
   "type_pretty": "True ↔\n  ∀ᶠ (N : ℕ) in Filter.atTop,\n    ∀ A ⊆ Finset.Icc 1 N, ∀ B ⊆ Finset.Icc 1 N, ↑N ^ 0.49 ≤ ↑A.card → ↑N ^ 0.49 ≤ ↑B.card → ∃ m ∈ A + B, m.Composite"
 }

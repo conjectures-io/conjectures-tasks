@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $P$ be a finite set of primes with $|P| \\ge 2$ and let\n$\\{a_1 < a_2 < \\dots\\}$ be the set of positive integers whose prime factors\nare all in $P$. Is the sum\n$$ \\sum_{n=1}^\\infty \\frac{1}{[a_1,\\ldots,a_n]} $$\nirrational?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/269](https://www.erdosproblems.com/269)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/269.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:f1fcf00ed269c69d0c0fa310589946f2e89564e4386245dca80cc68ca7e26311",
+  "type_hash": "sha256:2a63529741eab05474bb3f1f4ee24cb6baee35189869a74d1b7a0b616410a9c9",
   "type_pretty": "True ↔ ∀ (P : Finset ℕ), (∀ p ∈ P, Nat.Prime p) → P.card ≥ 2 → Irrational (Erdos269.series ↑P)"
 }

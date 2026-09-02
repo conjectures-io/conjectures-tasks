@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Surányi was the first to conjecture that the only non-trivial solution to `a!b!=n!`\nis `6!7!=10!`.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/373](https://www.erdosproblems.com/373)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/373.lean",
   "supported_modes": [
     "formalized",
@@ -32,6 +32,6 @@
   "transitive_axioms": [
     "sorryAx"
   ],
-  "type_hash": "sha256:4391b6fe2419b3ff7ca82e28d5d5c31fcd5f570506ae383d34ca0b5ed80b1d46",
+  "type_hash": "sha256:31fba37157604a1d8487f10d10fe3e245653c73bf851f47dc2beffde91804a6e",
   "type_pretty": "{(n, a, b) | n.factorial = a.factorial * b.factorial ∧ 1 < n ∧ 1 < a ∧ 1 < b ∧ b ≤ a ∧ a + 1 ≠ n} = {(10, 7, 6)}"
 }

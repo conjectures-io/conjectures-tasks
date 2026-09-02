@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $A \\subset \\mathbb{F}_2^n$ be a set of density $\\alpha > 0$. Does $10A$ contain a coset\nof some subspace of dimension at least $n - O(\\log(1/\\alpha))$?\n\nMore precisely: does there exist an absolute constant $C > 0$ such that for all $n \\geq 1$ and all\nnonempty $A \\subseteq \\mathbb{F}_2^n$ with density $\\alpha > 0$, the sumset $10A$ contains a coset\nof some subspace of dimension at least $n - C \\log_2(1/\\alpha)$?\n\nThe sumset $10A$ is defined as $\\{a_1 + a_2 + \\cdots + a_{10} : a_i \\in A\\}$, using the pointwise\nscalar multiplication notation `10 • A` where `•` denotes the iterated addition of a set.\n\nNote: We model $\\mathbb{F}_2^n$ as `Fin n → ZMod 2`, which is an $n$-dimensional vector space\nover $\\mathbb{F}_2$.\n",
@@ -23,7 +23,7 @@
   "references": [
     "[Ben Green's Open Problem 50](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.6 Problem 50)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:c1fd81cdd113651e6fdf8a717643066c5698d45712dac90180e3bfb33c0c468b",
+  "type_hash": "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26",
   "type_pretty": "True ↔\n  ∃ C > 0,\n    ∀ (n : ℕ) (A : Finset (𝔽₂ n)),\n      A.Nonempty →\n        have α := ↑A.dens;\n        ∃ W v, v +ᵥ ↑W ⊆ ↑(10 • A) ∧ ↑n - C * Real.logb 2 (1 / α) ≤ ↑(Module.finrank (ZMod 2) ↥W)"
 }

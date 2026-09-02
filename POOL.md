@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 209 audited targets in `tier-1`: 189 Erdős targets and 20 Green's
+The current release places all 208 audited targets in `tier-1`: 189 Erdős targets and 19 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -80,11 +80,11 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 418 task bundles covering 209 audited targets: 189 Erdős targets and 20
+`tier-1` contains all 416 task bundles covering 208 audited targets: 189 Erdős targets and 19
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
 has its own stable reward identity. Those targets occupy 182 distinct canonical source paths.
 
-The GitHub review covered all 282 open pull requests visible at audit time and
+The GitHub review covered all 330 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
 pinned check against the Erdős Problems database excludes Erdős parent problems
 recorded as solved. The Green targets are checked against the January 2026 update
@@ -113,6 +113,27 @@ candidate-only freshness review.
 
 The previously retired `Green3.green_3`, `Erdos567.erdos_567.parts.i`, the selected Erdős 477
 variants, and `Erdos536.erdos_536` targets remain excluded.
+
+For the 2026-09-02 repin onto Formal Conjectures `7d1a8c99`, no target was added; the audit
+re-ran the mechanical screens only. `Green72.green_72` was **dropped from the selection** because
+open pull request 4941 corrects that exact theorem: the published statement asserts
+`AllowedSetSize 3 N = 2 * N` for every `N ≥ 3`, while Green asks whether such sets become
+impossible for large `N`, and both references cited in the source expect the published direction to
+fail. It is retired rather than merely dropped, because those are the only two states the
+pool represents: a deleted bundle must be recorded, and everything carrying a display payload is
+asserted to be deny-listed, so a live target can never be shown as closed. The record keeps the
+problem readable. Should pull request 4941 land, the corrected statement is re-admissible by
+removing this name and its canonical type from `retired-source-theorems.json` under a new
+audit.
+`Erdos479.erdos_479` was **kept** across an upstream restatement from `ℕ`/`Nat.ModEq` with `k > 1`
+to `ℤ`/`Int.ModEq` with `k ≠ 1`; the new formalization is the faithful one, and the target is
+offered as that new proposition under a new task identity. `Erdos952.erdos_952` gained an
+`answer(sorry) ↔` wrapper upstream and is admitted only because the rebuilt catalog classifies its
+compiled type as a direct proposition. Every other selected theorem is byte-identical upstream. The
+2026-09-02 screen re-verified upstream `research open` status, the open-pull-request review, the
+pinned Erdős Problems database status, and the revision of Ben Green's Open Problems document; it
+did not re-run the exact-statement literature search behind the 2026-08-05 and 2026-08-12 audits,
+which stands as dated at those boundaries.
 
 “Plausibly attackable” is a comparative solver-target screen, not a promise.
 These checks establish that a task is well-formed, remained upstream-open at the

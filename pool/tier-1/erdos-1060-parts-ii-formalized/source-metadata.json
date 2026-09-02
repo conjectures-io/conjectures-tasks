@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Part (ii) of Erdős Problem 1060: bound on the number of $k \\le n$ with $k \\sigma_1(k) = n$. ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1060](https://www.erdosproblems.com/1060)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1060.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:54f3b7b4b823bc8a18df4ae05c4ab1de33341861f66042fd8c0818a59f1b053c",
+  "type_hash": "sha256:7ff417c0c5796d1d731ccfd2ac2ba6582670e385b8d06766ea300a27ba543f60",
   "type_pretty": "∃ C,\n  (fun n => ↑{k ∈ Finset.Iic n | k * (ArithmeticFunction.sigma 1) k = n}.card) =O[Filter.atTop] fun n => Real.log ↑n ^ C"
 }

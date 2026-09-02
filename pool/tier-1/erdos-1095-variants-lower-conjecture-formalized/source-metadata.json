@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Erdős, Lacampagne, and Selfridge [ELS93] write 'it is clear to every right-thinking person' that\n$g(k)\\geq\\exp(c\\frac{k}{\\log k})$ for some constant $c>0$.\n",
@@ -27,7 +27,7 @@
     "[Ko99b] Konyagin, S. V., Estimates of the least prime factor of a binomial coefficient. Mathematika (1999), 41--55.",
     "[SSW20] Sorenson, Brianna and Sorenson, Jonathan and Webster, Jonathan, An algorithm and estimates for the {E}rdős-{S}elfridge function. (2020), 371--385."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1095.lean",
   "supported_modes": [
     "formalized",

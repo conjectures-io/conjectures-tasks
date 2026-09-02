@@ -8,7 +8,7 @@
   "forbidden_dependencies": [
     "Erdos357.erdos_357.variants.infinite_set_density"
   ],
-  "generated_target_type_hash": "sha256:3c615fd37ffe35e2505e2abad44f7b5b042c5625563adb5fda0e60f4caec8364",
+  "generated_target_type_hash": "sha256:9cbe3bb7aa7c651cac5193f6abaaefda7d00775d64bc4d0c7598f4758072be1f",
   "known_proof_collisions": [],
   "max_submission_bytes": 1000000,
   "permitted_axioms": [
@@ -17,15 +17,15 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«357»",
   "source_path": "FormalConjectures/ErdosProblems/357.lean",
   "source_theorem": "Erdos357.erdos_357.variants.infinite_set_density",
-  "source_type_hash": "sha256:3c615fd37ffe35e2505e2abad44f7b5b042c5625563adb5fda0e60f4caec8364",
+  "source_type_hash": "sha256:9cbe3bb7aa7c651cac5193f6abaaefda7d00775d64bc4d0c7598f4758072be1f",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-variants-infinite-set-density-20987dfd50-formalized-v1",
+  "task_id": "fc-8432eac9-variants-infinite-set-density-4a8a1e3fb4-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:e8994427ea9ff6dd4631afcef7f9c3550930b461296ea87aeee3f4db1e0bfec9",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:25644d96b1c5b2316500444bb3e126e0f635371de5fff36ce80705f32ee71d8a"
+    "source-metadata.json": "sha256:5e49b4cb7f156be31ef478de6def404f4127ae3b39384de7118654f1cb486fa2"
   }
 }

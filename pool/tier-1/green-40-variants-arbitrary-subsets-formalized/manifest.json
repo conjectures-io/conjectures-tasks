@@ -8,7 +8,7 @@
   "forbidden_dependencies": [
     "Green40.green_40.variants.arbitrary_subsets"
   ],
-  "generated_target_type_hash": "sha256:d29e1e3a808151f496305c306c2123be6ea34e5e51aecc88b175e0e4a6ade912",
+  "generated_target_type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
   "known_proof_collisions": [],
   "max_submission_bytes": 1000000,
   "permitted_axioms": [
@@ -17,15 +17,15 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.GreensOpenProblems.«40»",
   "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
   "source_theorem": "Green40.green_40.variants.arbitrary_subsets",
-  "source_type_hash": "sha256:d29e1e3a808151f496305c306c2123be6ea34e5e51aecc88b175e0e4a6ade912",
+  "source_type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-variants-arbitrary-subsets-b8ad71f7bc-formalized-v1",
+  "task_id": "fc-8432eac9-variants-arbitrary-subsets-ac28ad2753-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:10486437945c80ba360ed4e2b8526a061ef9259761681ddfbbe928369781267a",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:426c300fa8e7b8e232a99b24b22292d4d38706999e5548c32e91100e2ff353c5"
+    "source-metadata.json": "sha256:beda155749b31457067e9f3321f0b5205a58794112e7e927538c27164cd02e1d"
   }
 }

@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "It is not known whether f(2) = 1 [Gr24] ",
@@ -26,7 +26,7 @@
     "[CHL97] Cohen, G., Honkala, I., Litsyn, S., & Lobstein, A. (1997). Covering codes (Vol. 54). Elsevier.",
     "[St94] R. Struik, Covering codes, PhD Thesis, Eindhoven University of Technology, the Netherlands, 106 pp, 1994."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
   "supported_modes": [
     "formalized",
@@ -39,6 +39,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:dd9ab9a1a25d01d3421a1597a6377fd04c2a56fbd1800ba539e89034ddbb8ec4",
+  "type_hash": "sha256:af660ea10315b3b644d0b3f001886cda5921cd09ec1966726b858f91ae264255",
   "type_pretty": "True ↔ Green40.f 2 = 1"
 }

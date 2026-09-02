@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $R_3(n)$ be the minimal $m$ such that if the edges of the $3$-uniform hypergraph on $m$\nvertices are $2$-coloured then there is a monochromatic copy of the complete $3$-uniform\nhypergraph on $n$ vertices.\n\nIs there some constant $c>0$ such that\n$$ R_3(n) \\geq 2^{2^{cn}}? $$\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/564](https://www.erdosproblems.com/564)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/564.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:4f45446140ae17cb1c0fac3316b084440d1b8d0bd65fd94fa5a8230266c87c6f",
+  "type_hash": "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092",
   "type_pretty": "True ↔ ∃ c > 0, ∀ᶠ (n : ℕ) in Filter.atTop, 2 ^ 2 ^ (c * n) ≤ ↑(Combinatorics.hypergraphRamsey 3 n)"
 }

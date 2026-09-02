@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let `c₁, c₂ > 0`. Is it true that for any sufficiently large `x`, there exists more than\n`c₁ * log x` many consecutive primes `≤ x` such that the difference between any two is `> c₂`?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/238](https://www.erdosproblems.com/238)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/238.lean",
   "supported_modes": [
     "formalized",

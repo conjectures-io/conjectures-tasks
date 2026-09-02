@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $q_1 < q_2 < \\cdots$ be a sequence of primes such that $q_{i + 1} \\equiv 1 \\pmod{q_i}$. Is it\ntrue that\n$$\n\\lim_{k \\to \\infty} q_k^{1/k} = \\infty?\n$$\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/695](https://www.erdosproblems.com/695)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/695.lean",
   "supported_modes": [
     "formalized",

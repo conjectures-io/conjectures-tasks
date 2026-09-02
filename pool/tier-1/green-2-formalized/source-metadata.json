@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $A \\subset \\mathbf{Z}$ be a set of $n$ integers. Is there a set $S \\subset A$ of size\n$(\\log n)^{100}$ such that the restricted sumset$S \\hat{+} S$ is disjoint from $A$?\n",
@@ -27,7 +27,7 @@
     "[Ch71] S. L. G. Choi. On a combinatorial problem in number theory. Proc. London Math. Soc. (3), 23:629–642, 1971. doi:10.1112/plms/s3-23.4.629.",
     "[BSS00] A. Baltz, T. Schoen, and A. Srivastav. Probabilistic construction of small strongly sum-free sets via large Sidon sets. Colloq. Math., 86(2):171–176, 2000. doi:10.4064/cm-86-2-171-176."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
   "supported_modes": [
     "formalized",
@@ -40,6 +40,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:3811fe8c548fd7798a35697e0ca8338d37802d4abe79db3ac431a8097277148f",
+  "type_hash": "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219",
   "type_pretty": "True ↔\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (A : Finset ℤ), A.card = n → ↑(Green2.maxRestrictedSumAvoidingSubsetSize A) ≥ Real.log ↑n ^ 100"
 }

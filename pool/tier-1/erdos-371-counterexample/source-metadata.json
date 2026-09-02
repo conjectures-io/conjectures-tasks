@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $P(n)$ denote the largest prime factor of $n$. Show that the set of $n$\nwith $P(n+1) > P(n)$ has density $\\frac{1}{2}$.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/371](https://www.erdosproblems.com/371)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/371.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:3664c31ed73005e1596d77d8def95d6bf93c45cefc30d3f1c34a1324337ab9ad",
+  "type_hash": "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71",
   "type_pretty": "{n | (n + 1).maxPrimeFac > n.maxPrimeFac}.HasDensity (1 / 2)"
 }

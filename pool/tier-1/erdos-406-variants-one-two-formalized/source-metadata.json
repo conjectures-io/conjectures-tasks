@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "If we only allow the digits $1$ and $2$ then $2^{15}$ seems to be the largest such power\nof $2$.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/406](https://www.erdosproblems.com/406)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/406.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:66fad51bd8c856f9a94cf73a5fa420bdf371f3091af7fd84455d5f562eae1df0",
+  "type_hash": "sha256:450efb0b9baef627a7cec4dab22d8ed38fa7131f0216ef80f28f46f867522371",
   "type_pretty": "IsGreatest {n | n.isPowerOfTwo ∧ Nat.digits 3 n ⊆ [1, 2]} (2 ^ 15)"
 }

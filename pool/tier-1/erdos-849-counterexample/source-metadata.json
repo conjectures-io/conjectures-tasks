@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that, for every integer $t\\geq1$, there is some integer $a$ such that ${n \\choose k} = a$\nwith $1\\leq k \\le \\frac{n}{2}$ has exactly $t$ solutions?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/849](https://www.erdosproblems.com/849)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/849.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:1fd73d95d2ff39aa91222466c0987e9ab168b2f0984eae65161211a49e91dd56",
+  "type_hash": "sha256:8c85bb0d73e0374d83f0808a3914ff030ecc9a24473e6471b8c861d3c4235a71",
   "type_pretty": "True ↔ ∀ t ≥ 1, ∃ a, {n | ∃ k ≥ 1, 2 * k ≤ n ∧ n.choose k = a}.ncard = t"
 }

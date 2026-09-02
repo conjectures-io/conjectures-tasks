@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "For an irreducible polynomial $f \\in \\mathbb{Z}[x]$ with $f(n) \\ge 1$ for sufficiently large $n$,\ndoes there exists a constant $c = c(f) > 0$ such that\n$\\sum_{n \\le x} \\tau(f(n)) \\approx c \\cdot x \\log x$?\n\nNote that it is unclear whether the polynomial should have integer coefficients or merely be\ninteger-valued. We assume the former. ",
@@ -29,7 +29,7 @@
     "[Mc99] McKee, James, The average number of divisors of an irreducible quadratic polynomial. Math. Proc. Cambridge Philos. Soc. (1999), 17--22.",
     "[T] T. Tao, Erdos' divisor bound, https://terrytao.wordpress.com/2011/07/23/erdos-divisor-bound/"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/975.lean",
   "supported_modes": [
     "formalized",
@@ -42,6 +42,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:81dcf2ec44832ea4834f84aea071e5869a7003db2972096758f2237b9101bdca",
+  "type_hash": "sha256:606fbe108dd21d8b94989b96851ff5a6bd86dd7e9350377a9c03d92e6ffa64b4",
   "type_pretty": "True ↔\n  ∀ (f : Polynomial ℤ),\n    f.natDegree ≠ 0 →\n      Irreducible f →\n        (∀ᶠ (n : ℤ) in Filter.atTop, 1 ≤ Polynomial.eval n f) →\n          ∃ c > 0, Filter.Tendsto (fun x => Erdos975.Erdos975Sum f x / (x * Real.log x)) Filter.atTop (nhds c)"
 }

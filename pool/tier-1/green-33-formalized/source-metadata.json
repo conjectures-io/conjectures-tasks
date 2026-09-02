@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Are there infinitely many $q$ for which there is a set $A \\subset \\mathbb{Z}/q\\mathbb{Z}$,\n$|A| = (\\sqrt{2} + o(1))q^{1/2}$, with $A + A = \\mathbb{Z}/q\\mathbb{Z}$? [Gr24]\n",
@@ -25,7 +25,7 @@
     "[CaHa20] Caprace, Pierre-Emmanuel, and Pierre de la Harpe. \"Groups with irreducibly unfaithful subsets for unitary representations.\" Confluentes Mathematici 12.1 (2020): 31-68.",
     "[CrLe07] Croot, Ernie, and Vsevolod F. Lev. \"Open problems in additive combinatorics.\" Additive combinatorics 43.207-233 (2007): 1."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
   "supported_modes": [
     "formalized",
@@ -38,6 +38,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:47220fa6ee4c5b7a3e11a18fd29683f9e3280055ba18709e222cab741e5cdd70",
+  "type_hash": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
   "type_pretty": "True ↔ ∀ (ε : ℝ), 0 < ε → ∃ᶠ (q : ℕ+) in Filter.atTop, ∃ A, A + A = Finset.univ ∧ |↑A.card / √↑↑q - √2| < ε"
 }

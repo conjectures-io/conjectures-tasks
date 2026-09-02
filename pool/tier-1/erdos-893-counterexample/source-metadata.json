@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Does the limit $\\lim_{n\\to\\infty} \\frac{f(2n)}{f(n)}$ tend to infinity?\n\n(Other finite limits have been ruled out by [KoLu25], see below)\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/893](https://www.erdosproblems.com/893)",
     "[KoLu25] V. Kovač and F. Luca, On the number of divisors of Mersenne numbers. arXiv:2506.04883 (2025)."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/893.lean",
   "supported_modes": [
     "formalized",

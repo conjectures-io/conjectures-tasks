@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that for every $k$ there are infinitely many primes $p$ such that the largest prime\ndivisor of\n$$\n  \\prod_{i = 0}^k (p ^ 2 + i)\n$$\nis $p$?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/383](https://www.erdosproblems.com/383)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/383.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:94fcb2a4a80da3cde28c7cd2e80650581bf0f2f01e9f89d9f7499f398146adb7",
+  "type_hash": "sha256:d98d376b9bc60d164f1e7a42d863872572bfca544463fa37a4135da4f4457246",
   "type_pretty": "True ↔ ∀ (k : ℕ), {p | Nat.Prime p ∧ (∏ i ∈ Finset.Icc 0 k, (p ^ 2 + i)).maxPrimeFac = p}.Infinite"
 }

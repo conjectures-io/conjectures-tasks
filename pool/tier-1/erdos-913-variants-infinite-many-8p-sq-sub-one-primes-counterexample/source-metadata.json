@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "It is likely that there are infinitely many primes $p$ such that $8p^2 - 1$ is also prime.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/913](https://www.erdosproblems.com/913)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/913.lean",
   "supported_modes": [
     "formalized",
@@ -33,6 +33,6 @@
     "propext",
     "sorryAx"
   ],
-  "type_hash": "sha256:9238757bf05c18a87aa8fb76bc1cdfaffce9c8331144a35da36765f6bbb3dea5",
+  "type_hash": "sha256:5f22b392fd5dc0ec7b2718ad9408ad3b1a056e53f379bc7d43c21e0b206a6232",
   "type_pretty": "{p | Nat.Prime p ∧ Nat.Prime (8 * p ^ 2 - 1)}.Infinite"
 }

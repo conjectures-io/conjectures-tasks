@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "If $\\omega_k(n)$ counts the number of distinct prime factors of $n$ which are $>k$, then is it true\nthat, for every $k\\geq 1$,\n$$\\liminf_{n\\to \\infty}\\sum_{0\\leq i < k}\\omega_k(n+i)\\leq k?$$\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/890](https://www.erdosproblems.com/890)",
     "[ErSe67] Erdős, P. and Selfridge, J. L., Some problems on the prime factors of consecutive integers. Illinois J. Math. (1967), 428--430."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/890.lean",
   "supported_modes": [
     "formalized",

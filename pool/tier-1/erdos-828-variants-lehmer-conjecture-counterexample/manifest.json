@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«828»",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos828.erdos_828.variants.lehmer_conjecture",
   "source_type_hash": "sha256:337ac83858d3d220844b1daf2652e936386eba74718044de14dec1b34604137f",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-variants-lehmer-conjecture-b9f9dafabe-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-lehmer-conjecture-1bdd7b20dc-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:38962f738472e7a7941f8ea3469fa3c19e5e009dc2ddee4949b34849374af6a5",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:20ee8c4d2ce66e9aed0950bf56d6614dd272172dcef6661aa52a29f73c2a5dac"
+    "source-metadata.json": "sha256:33e0aae594df1507eedddb2702bd224f7104ed227b5fe942c4a08c81b1d93a53"
   }
 }

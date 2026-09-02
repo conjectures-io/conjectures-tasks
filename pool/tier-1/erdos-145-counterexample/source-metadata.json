@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $s_1 < s_2 < \\cdots$ be the sequence of squarefree numbers. Is it true that, for any\n$\\alpha\\geq 0$,\n$$\n\\lim_{x\\to\\infty} \\frac{1}{x}\\sum_{s_n\\leq x}(s_{n+1}-s_n)^\\alpha\n$$\nexists?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/145](https://www.erdosproblems.com/145)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/145.lean",
   "supported_modes": [
     "formalized",

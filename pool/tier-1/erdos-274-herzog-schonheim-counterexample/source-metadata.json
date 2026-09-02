@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $G$ be a group, and let $A = \\{a_1G_1, \\dots, a_kG_k\\}$ be a finite system of left cosets of\nsubgroups $G_1, \\dots, G_k$ of $G$.\n\nHerzog and Schönheim conjectured that if $A$ forms a partition of $G$ with $k > 1$, then the\nindices $[G:G_1], \\dots, [G:G_k]$ cannot be distinct.\n",
@@ -27,7 +27,7 @@
     "[PMC7247885](https://pmc.ncbi.nlm.nih.gov/articles/PMC7247885/)",
     "[arXiv:1804.11103](https://arxiv.org/abs/1804.11103)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/274.lean",
   "supported_modes": [
     "formalized",
@@ -40,6 +40,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:6e309ada359ca6dd3d37cc74ae7fe2288fce8c2c6332911204d420be9433a74b",
+  "type_hash": "sha256:a334889fc46ffbdf036146f0bc787ce44b71263ebe07971d64823f1e39cbe278",
   "type_pretty": "∀ {G : Type u_1} [inst : Group G],\n  1 < ENat.card G →\n    ∀ {ι : Type u_2} [inst_1 : Fintype ι],\n      1 < Fintype.card ι →\n        ∀ (P : Erdos274.Group.ExactCovering G ι), ∃ i j, i ≠ j ∧ (P.parts i).index = (P.parts j).index"
 }

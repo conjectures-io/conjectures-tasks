@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "**First open case beyond Erdős–Rado**: $\\mathfrak{c} \\to (\\omega \\cdot 2, 4)^3_2$.\n\nErdős and Rado proved $\\mathfrak{c} \\to (\\omega + n, 4)^3_2$ for every finite $n \\ge 2$\n(see `erdos_rado`), which covers all red ordinals below $\\omega \\cdot 2 = \\omega + \\omega$.\nThis variant asks whether the result extends to $\\beta = \\omega \\cdot 2$, the simplest\ncountable ordinal not covered by their theorem.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/70](https://www.erdosproblems.com/70)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/70.lean",
   "supported_modes": [
     "formalized",

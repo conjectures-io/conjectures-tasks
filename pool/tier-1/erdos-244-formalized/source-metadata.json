@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $C > 1$. Does the set of integers of the form $p + \\lfloor C^k \\rfloor$,\nfor some prime $p$ and $k\\geq 0$, have density $>0$? ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/244](https://www.erdosproblems.com/244)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/244.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:0f3326bc9f6fac3ba29ddbe12782a09b6d17d9ae33984b569eb2dd7dc1e3ff12",
+  "type_hash": "sha256:be71220d898ba55e56d412aa1e3b4436767010db89b0a92f44ca455ac9fff577",
   "type_pretty": "True ↔ ∀ C > 1, 0 < {x | ∃ p k, ∃ (_ : Nat.Prime p), p + ⌊C ^ k⌋₊ = x}.lowerDensity"
 }

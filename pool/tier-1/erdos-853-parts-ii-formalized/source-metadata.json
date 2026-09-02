@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $d_n = p_{n+1} - p_n$, where $p_n$ is the $n$th prime. Let $r(x)$ be the smallest even\ninteger $t$ such that $d_n = t$ has no solutions for $n \\le x$.\n\nIs it true that $r(x) / \\log x \\to \\infty$? ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/853](https://www.erdosproblems.com/853)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/853.lean",
   "supported_modes": [
     "formalized",

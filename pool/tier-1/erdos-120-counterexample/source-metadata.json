@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $A \\subseteq \\mathbb{R}$ be an infinite set. Must there be a set $E \\subseteq \\mathbb{R}$\nof positive measure which does not contain any set of the shape $a * A + b$\nfor some $a,b \\in \\mathbb{R}$ and $a \\neq 0$?\n",
@@ -24,7 +24,7 @@
     "[erdosproblems.com/120](https://www.erdosproblems.com/120)",
     "[St20](http://matwbn.icm.edu.pl/ksiazki/fm/fm1/fm1111.pdf) Steinhaus, Hugo, Sur les distances des points dans les ensembles de measure positive. Fund. Math. (1920), 93-104."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/120.lean",
   "supported_modes": [
     "formalized",

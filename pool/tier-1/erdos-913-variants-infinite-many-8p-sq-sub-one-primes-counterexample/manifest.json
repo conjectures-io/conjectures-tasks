@@ -8,7 +8,7 @@
   "forbidden_dependencies": [
     "Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes"
   ],
-  "generated_target_type_hash": "sha256:e97b249289aa404738eb4eb9cfe374acb1a55607e5eecfb6d42d54e5b527c7c8",
+  "generated_target_type_hash": "sha256:e4bc962b5f32460ab1472b3a7f84e6939c258753b2a8230fd318ce9b2f1be2ea",
   "known_proof_collisions": [],
   "max_submission_bytes": 1000000,
   "permitted_axioms": [
@@ -17,15 +17,15 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«913»",
   "source_path": "FormalConjectures/ErdosProblems/913.lean",
   "source_theorem": "Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes",
-  "source_type_hash": "sha256:9238757bf05c18a87aa8fb76bc1cdfaffce9c8331144a35da36765f6bbb3dea5",
+  "source_type_hash": "sha256:5f22b392fd5dc0ec7b2718ad9408ad3b1a056e53f379bc7d43c21e0b206a6232",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-variants-infinite-many-8p-sq-sub-one-primes-5a03532080-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-infinite-many-8p-sq-sub-one-primes-0355051a21-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:b4aeafb1f51800362a9fc510818ba7df2ce2e5582570733ac8ceb490b4c92150",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:f047ea47bc271edcf595d386a44254c1accbcf9e2c61e5475ef6fb5fe6efbc29"
+    "source-metadata.json": "sha256:fee1ff5c20f287c97352f340bb73c63cce3775e5fe66c87edc6bd5116f9281ca"
   }
 }

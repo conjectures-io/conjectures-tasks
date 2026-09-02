@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is $\\sum_{n=1}^\\infty \\frac{p_n}{2^n}$ irrational? Here $p_n$ is the $n$-th prime ($p_1=2, p_2=3, \\dots$).\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/251](https://www.erdosproblems.com/251)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/251.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:8b8156a5bf7c346ce72c6bc3f71bd5cf3e84860f37b4ecfb41b959217ad82450",
+  "type_hash": "sha256:a9da1561b5ba0a92686cc7eb6a1d7b06c66906dc4b7584bb1793a3f9010aa844",
   "type_pretty": "True ↔ Irrational (∑' (n : ℕ), ↑(Nat.nth Nat.Prime n) / 2 ^ n)"
 }

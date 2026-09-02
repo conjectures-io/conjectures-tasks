@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Probably $f(x) = x^5$ has the property that the sums $f(a)+f(b)$ with\n$a < b$ nonnegative integers are distinct.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/324](https://www.erdosproblems.com/324)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/324.lean",
   "supported_modes": [
     "formalized",
@@ -33,6 +33,6 @@
     "propext",
     "sorryAx"
   ],
-  "type_hash": "sha256:946fff095619d97c20997ba5e2741224f3afc216f61ee495ffb293c048201243",
+  "type_hash": "sha256:c1e9a0de1689c4c2d12bec0132b08f9ff32eadee40ac771ab26038c13f9e888c",
   "type_pretty": "Set.InjOn\n  (fun x =>\n    match x with\n    | (a, b) => a ^ 5 + b ^ 5)\n  {(a, b) | a < b}"
 }

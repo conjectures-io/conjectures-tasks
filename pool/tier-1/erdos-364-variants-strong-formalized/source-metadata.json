@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Erdős [Er76d] conjectured a stronger statement: if $n_k$ is the $k$th powerful number,\nthen $n_{k+2} - n_k > n_k^c$ for some constant $c > 0$.\n\n[Er76d] Erdős, P., Problems and results on number theoretic properties of consecutive integers and related questions. Proceedings of the Fifth Manitoba Conference on Numerical Mathematics (Univ. Manitoba, Winnipeg, Man., 1975) (1976), 25-44.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/364](https://www.erdosproblems.com/364)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/364.lean",
   "supported_modes": [
     "formalized",

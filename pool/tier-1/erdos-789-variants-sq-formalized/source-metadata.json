@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $h(n)$ be maximal such that if $A\\subseteq \\mathbb{Z}$ with $\\lvert A\\rvert=n$\nthen there is $B\\subseteq A$ with $\\lvert B\\rvert \\geq h(n)$ such that if\n$a_1+\\cdots+a_r=b_1+\\cdots+b_s$ with $a_i,b_i\\in B$ then $r=s$.\n\nIs $h(n) = \\Theta(\\sqrt{n})$?\n",
@@ -25,7 +25,7 @@
     "[Er62c] Erdős, Pál, _Some remarks on number theory_. {III}. Mat. Lapok (1962), 28--38.",
     "[Ch74b] Choi, S. L. G., _On an extremal problem in number theory_. J. Number Theory (1974), 105--111."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/789.lean",
   "supported_modes": [
     "formalized",

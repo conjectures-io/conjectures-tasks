@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is `Erdos375Prop` true? ",
@@ -24,7 +24,7 @@
     "[ErGr80] Erdős, P. and Graham, R., Old and new problems and results in combinatorial number theory. Monographies de L'Enseignement Mathematique (1980).",
     "[RST75] Ramachandra, K. and Shorey, T. N. and Tijdeman, R., On Grimm's problem relating to factorisation of a block of consecutive integers. J. Reine Angew. Math. (1975), 109-124. -"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/375.lean",
   "supported_modes": [
     "formalized",

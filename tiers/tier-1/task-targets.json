@@ -1,6 +1,6 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 3,
   "targets": [
     {
@@ -1444,13 +1444,6 @@
       "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
       "source_problem_number": 7,
       "theorem": "Green7.green_7.variants.positive_density"
-    },
-    {
-      "reward_target_id": "fc-target:Green72.green_72",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
-      "source_problem_number": 72,
-      "theorem": "Green72.green_72"
     },
     {
       "reward_target_id": "fc-target:Green9.green_9_ii",

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let `q : ℕ → ℕ` be a strictly increasing sequence of primes such that\n`q (n + 2) - q (n + 1) ≥ q (n + 1) - q n`. Must `lim q n / (n ^ 2) = ∞`? ",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/455](https://www.erdosproblems.com/455)",
     "[Ri76] Richter, Bernd, Über die Monotonie von Differenzenfolgen. Acta Arith. (1976), 225-227."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/455.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:3efb28bf5a87e1c508c4ae4ef7e52130aed549c9fd80bbac20fb9905a6cfd561",
+  "type_hash": "sha256:a07ec2deb4e3ccf81a055e2cea8b3e2cbf67bb97e062b2e47e4c052fa21cdd32",
   "type_pretty": "True ↔\n  ∀ (q : ℕ → ℕ),\n    StrictMono q →\n      (∀ (n : ℕ), Nat.Prime (q n) ∧ q (n + 2) - q (n + 1) ≥ q (n + 1) - q n) →\n        Filter.Tendsto (fun n => ↑(q n) / ↑n ^ 2) Filter.atTop Filter.atTop"
 }

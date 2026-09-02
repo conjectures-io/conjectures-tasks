@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "For any fixed c > 0, if x is sufficiently large then there exists n ≤ x such that\nthe values of φ(n+k) are all distinct for 1 ≤ k ≤ (log x)^c.\nThis is an open problem.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1004](https://www.erdosproblems.com/1004)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1004.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:9e8759cd8569a0f823d624ca196c909b12dd34eba5c6b823d6e5886b031be601",
+  "type_hash": "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664",
   "type_pretty": "True ↔ ∀ c > 0, ∀ᶠ (x : ℕ) in Filter.atTop, ∃ n ≤ x, Erdos1004.IsDistinctTotientRun n ⌊Real.log ↑x ^ c⌋₊"
 }

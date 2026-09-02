@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that in any finite colouring of $\\mathbb{N}$ there exist arbitrarily large finite $A$ such that all sums\nand products of distinct elements in $A$ are the same colour?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/172](https://www.erdosproblems.com/172)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/172.lean",
   "supported_modes": [
     "formalized",
@@ -32,6 +32,7 @@
   "transitive_axioms": [
     "propext",
     "sorryAx",
+    "Classical.choice",
     "Quot.sound"
   ],
   "type_hash": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",

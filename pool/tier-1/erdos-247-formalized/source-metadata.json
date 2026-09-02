@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $n_1 < n_2 < \\cdots$ be a sequence of integers such that\n$$\n  \\limsup \\frac{n_k}{k} = \\infty.\n$$\nIs\n$$\n  \\sum_{k=1}^{\\infty} \\frac{1}{2^{n_k}}\n$$\ntranscendental?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/247](https://www.erdosproblems.com/247)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/247.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:fc1a51eefa55e36b0beb64cfb799fcc1ef092cbfc9068a64bc3712d971af2479",
+  "type_hash": "sha256:ce0836dc5f58e6f27951338ad3b6fba46e4507500a218bf3ff77317bd07b4cb4",
   "type_pretty": "True ↔\n  ∀ (n : ℕ → ℕ),\n    StrictMono n →\n      Filter.limsup (fun k => ↑(n k) / ↑k.succ) Filter.atTop = ⊤ → Transcendental ℚ (∑' (k : ℕ), 1 / 2 ^ n k)"
 }

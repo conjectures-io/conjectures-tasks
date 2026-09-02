@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Does $\\tilde{f}(r) \\to \\infty$? [Gr24] ",
@@ -26,7 +26,7 @@
     "[CHL97] Cohen, G., Honkala, I., Litsyn, S., & Lobstein, A. (1997). Covering codes (Vol. 54). Elsevier.",
     "[St94] R. Struik, Covering codes, PhD Thesis, Eindhoven University of Technology, the Netherlands, 106 pp, 1994."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
   "supported_modes": [
     "formalized",
@@ -39,6 +39,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:d29e1e3a808151f496305c306c2123be6ea34e5e51aecc88b175e0e4a6ade912",
+  "type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
   "type_pretty": "True ↔ Filter.Tendsto Green40.f_tilde Filter.atTop (nhds ⊤)"
 }

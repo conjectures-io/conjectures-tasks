@@ -8,7 +8,7 @@
   "forbidden_dependencies": [
     "Erdos359.erdos_359.variants.isGoodFor_1_asymptotic"
   ],
-  "generated_target_type_hash": "sha256:9a0e26dda0fb21c85dca9dfb486e7402a11e91a0fa0d273709146353ee439861",
+  "generated_target_type_hash": "sha256:b4c99d59dd0a8aced07abe083ea33dc61c6ecb719a6082b523da9825e85cf22f",
   "known_proof_collisions": [],
   "max_submission_bytes": 1000000,
   "permitted_axioms": [
@@ -17,15 +17,15 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«359»",
   "source_path": "FormalConjectures/ErdosProblems/359.lean",
   "source_theorem": "Erdos359.erdos_359.variants.isGoodFor_1_asymptotic",
-  "source_type_hash": "sha256:e8d3274560c69189522bcba232b7c4eed67b4ba51c1bfeb8843d7ee8293f764f",
+  "source_type_hash": "sha256:866d9c3f216f0535dc483adb5c7dd41f57f0924003dad735fd1c04d6637d5b14",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-variants-isgoodfor-1-asymptotic-ce9cfc393e-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-isgoodfor-1-asymptotic-9431914103-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:c9ef6fad257875e9928fa9b7c216f210ccf51743da137546bdb1895b9ff608d4",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:3d42c96b6cda21efa49de324cea10213850a31f05ee25ba6619e2cd58afd890c"
+    "source-metadata.json": "sha256:f445a397987d780cfb60ea16ddd66513c47ea1fc23ce32bca971fe2001915753"
   }
 }

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that $\\limsup f(n)=\\infty$?\n",
@@ -25,7 +25,7 @@
     "[Er77c] Erdős, Paul, Problems and results on combinatorial number theory. III. Number theory day (Proc. Conf., Rockefeller Univ., New York, 1976) (1977), 43-72.",
     "[mathoverflow/508491](https://mathoverflow.net/questions/508491)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/950.lean",
   "supported_modes": [
     "formalized",
@@ -38,6 +38,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:b7fd4d41bfd0eb1f9be01a7f164b0ae1816049103ee6e82efb66295e0ddc9c7a",
+  "type_hash": "sha256:aa1aca555798121bd7bb6747a34c344b2466dbd21980f80e9edbe7e661d25542",
   "type_pretty": "True ↔ Filter.limsup (fun n => ↑(Erdos950.f n)) Filter.atTop = ⊤"
 }

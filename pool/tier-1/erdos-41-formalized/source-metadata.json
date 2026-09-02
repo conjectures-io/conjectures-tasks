@@ -8,10 +8,10 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
-  "docstring": "Let `A ⊆ ℕ` be an infinite set such that the triple sums `a + b + c` are all distinct for\n`a, b, c` in `A` (aside from the trivial coincidences). Is it true that\n`liminf n → ∞ |A ∩ {1, …, N}| / N^(1/3) = 0`?\n",
+  "docstring": "Let $A \\subset \\mathbb{N}$ be an infinite set such that the triple sums $a+b+c$ are all distinct\nfor $a,b,c \\in A$ (aside from the trivial coincidences). Is it true that\n$$\\liminf_{N \\to \\infty} \\frac{\\lvert A \\cap \\{1,\\ldots,N\\}\\rvert}{N^{1/3}}=0?$$\n",
   "finite_constructors": [],
   "formal_proof_kind": null,
   "formal_proof_link": null,
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/41](https://www.erdosproblems.com/41)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/41.lean",
   "supported_modes": [
     "formalized",

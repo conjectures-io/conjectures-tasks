@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $r\\geq 3$. If the edges of $K_{r^2+1}$ are $r$-coloured then there exist $r+1$ vertices with at\nleast one colour missing on the edges of the induced $K_{r+1}$.\n\nIn other words, there is no balanced colouring.\n\nA conjecture of Erdős and Gyárfás [ErGy99].\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/617](https://www.erdosproblems.com/617)",
     "[ErGy99](https://doi.org/10.1016/S0012-365X(98)00323-9) Erdős, Paul and Gyárfás, András, Split and balanced colorings of complete graphs. Discrete Math. (1999), 79-86."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/617.lean",
   "supported_modes": [
     "formalized",
@@ -33,8 +33,9 @@
   "transitive_axioms": [
     "propext",
     "sorryAx",
+    "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:21890d8a7a194e61d643ac6026bd6c04481a9503619752d21f1a4b1160032eb8",
+  "type_hash": "sha256:b09f19335b263c526494b75db3aa54d45f08510855a534f9aa0b9e76d6c0aab5",
   "type_pretty": "∀ r ≥ 3,\n  ∀ {V : Type} [inst : Fintype V] [DecidableEq V],\n    Fintype.card V = r ^ 2 + 1 →\n      ∀ (coloring : Sym2 V → Fin r), ∃ S k, S.card = r + 1 ∧ ∀ u ∈ S, ∀ v ∈ S, u ≠ v → coloring s(u, v) ≠ k"
 }

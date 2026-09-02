@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $\\operatorname{lcm}(1, \\dots, n)$ denote the least common multiple of $\\{1, \\dots, n\\}$.\nLet $p_k$ be the $k$-th prime.\nIs it true that for all $k \\geq 1$, $\\operatorname{lcm}(1, \\dots, p_{k+1}-1) < p_k \\cdot \\operatorname{lcm}(1, \\dots, p_k)$?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/458](https://www.erdosproblems.com/458)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/458.lean",
   "supported_modes": [
     "formalized",

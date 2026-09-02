@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Does the longest arithmetic progression of primes in $\\{1,\\ldots,N\\}$ have length $o(\\log N)$?\n",
@@ -23,7 +23,7 @@
   "references": [
     "[erdosproblems.com/200](https://www.erdosproblems.com/200)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/200.lean",
   "supported_modes": [
     "formalized",

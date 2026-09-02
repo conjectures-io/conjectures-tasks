@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Are there infinitely many primes $p$ such that $p - k!$ is composite for each $k$ such that $1 ≤ k! < p$? ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1059](https://www.erdosproblems.com/1059)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1059.lean",
   "supported_modes": [
     "formalized",
@@ -33,6 +33,6 @@
     "propext",
     "sorryAx"
   ],
-  "type_hash": "sha256:98974fba9f1c9ea6a2cacf4fd3f1ef139bb69c2ace4d6e77536cf4aae51995ba",
+  "type_hash": "sha256:53abaf08e3f7a13ce73c25bb8221ed8680c26ce4903eb2dafeae8134bd3c2881",
   "type_pretty": "True ↔ {p | Nat.Prime p ∧ Erdos1059.AllFactorialSubtractionsComposite p}.Infinite"
 }

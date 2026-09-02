@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Are there infinitely many solutions to $\\phi(n) = \\phi(n+1)$, where $\\phi$ is the Euler totient\nfunction?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1003](https://www.erdosproblems.com/1003)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1003.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:5902565df865cd02e0fe1594a872f85f4cd73fa838872192fb91d562fadd53f7",
+  "type_hash": "sha256:58949236044a32db43dae94ff8db01ef6660e2c74e2dad8f708f96b31cd6fa70",
   "type_pretty": "True ↔ {n | n.totient = (n + 1).totient}.Infinite"
 }

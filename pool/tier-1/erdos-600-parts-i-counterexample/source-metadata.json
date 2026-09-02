@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $r \\geq 2$. Is it true that $e(n,r+1) - e(n,r) \\to \\infty$ as $n \\to \\infty$?\n",
@@ -25,7 +25,7 @@
     "[Er87] Erdős, P., _Some problems on finite and infinite graphs_. Logic and combinatorics (Arcata, Calif., 1985) (1987), 223-228.",
     "[RuSz78] Ruzsa, I. Z. and Szemerédi, E., _Triple systems with no six points carrying three triangles_. Combinatorics (Proc. Fifth Hungarian Colloq., Keszthely, 1976), Vol. II (1978), 939-945."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/600.lean",
   "supported_modes": [
     "formalized",

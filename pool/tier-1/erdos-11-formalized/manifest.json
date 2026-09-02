@@ -8,7 +8,7 @@
   "forbidden_dependencies": [
     "Erdos11.erdos_11"
   ],
-  "generated_target_type_hash": "sha256:7e9596e7603a5b3f536d79ee62512def1ce39a45e429cb460712833ba19ea738",
+  "generated_target_type_hash": "sha256:4a1a64ebc8e1aeffa65059bcab7647589d4e9508acb4d8e9436db1de2899f281",
   "known_proof_collisions": [],
   "max_submission_bytes": 1000000,
   "permitted_axioms": [
@@ -17,15 +17,15 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«11»",
   "source_path": "FormalConjectures/ErdosProblems/11.lean",
   "source_theorem": "Erdos11.erdos_11",
-  "source_type_hash": "sha256:7e9596e7603a5b3f536d79ee62512def1ce39a45e429cb460712833ba19ea738",
+  "source_type_hash": "sha256:4a1a64ebc8e1aeffa65059bcab7647589d4e9508acb4d8e9436db1de2899f281",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-erdos11-erdos-11-2bde7d8572-formalized-v1",
+  "task_id": "fc-8432eac9-erdos11-erdos-11-aaab57b26e-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:29d39e418327ab071670dafc636be2da8069b40e53fbdb9a356804e22090de2f",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:0eafad14bf1873a411a35e8f971798ebadae45064c65f3fb04f4db8b5d3d4fe8"
+    "source-metadata.json": "sha256:4e361da3e1094ba92e1fe83a6caf460e01603c4668461024221e12b9a98ef347"
   }
 }

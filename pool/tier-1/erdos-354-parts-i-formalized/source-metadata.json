@@ -8,10 +8,10 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
-  "docstring": "Let $\\alpha,\\beta\\in \\mathbb{R}_{>0}$ such that $\\alpha/\\beta$ is irrational. Is\n$$\\{ \\lfloor \\alpha\\rfloor,\\lfloor \\gamma\\alpha\\rfloor,\\lfloor \\gamma^2\\alpha\\rfloor,\\ldots\\}\\cup\n\\{ \\lfloor \\beta\\rfloor,\\lfloor \\gamma\\beta\\rfloor,\\lfloor \\gamma^2\\beta\\rfloor,\\ldots\\}$$ complete?",
+  "docstring": "Let $\\alpha,\\beta\\in \\mathbb{R}_{>0}$ such that $\\alpha/\\beta$ is irrational. Is the multiset\n$$\\{ \\lfloor \\alpha\\rfloor,\\lfloor 2\\alpha\\rfloor,\\lfloor 4\\alpha\\rfloor,\\ldots\\}\\cup\n\\{ \\lfloor \\beta\\rfloor,\\lfloor 2\\beta\\rfloor,\\lfloor 4\\beta\\rfloor,\\ldots\\}$$ complete? ",
   "finite_constructors": [],
   "formal_proof_kind": null,
   "formal_proof_link": null,
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/354](https://www.erdosproblems.com/354)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/354.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:173f55ac95b251a0388db86fbd8b1d5d27babb8fa0769821d95c57ac2587f15b",
+  "type_hash": "sha256:de4262d428cc1a0deb7df106c6951e4db5d808b9a6d6a4e21c29f05775c50488",
   "type_pretty": "True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2)"
 }

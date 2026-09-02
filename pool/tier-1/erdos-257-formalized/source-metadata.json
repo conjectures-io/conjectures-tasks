@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $A\\subseteq\\mathbb{N}$ be an infinite set. Is\n$$\n\\sum_{n\\in A} \\frac{1}{2^n - 1}\n$$\nirrational?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/257](https://www.erdosproblems.com/257)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/257.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:86fd81e3fec445b90ef9757a29bea0e053ef971f44467411269149888e4e0d95",
+  "type_hash": "sha256:ea2cb191d3c90c243e3dc61ea1fd34cc9d2ba1d315deb67a1984d363c3834fda",
   "type_pretty": "True ↔ ∀ (A : Set ℕ), A.Infinite → Irrational (∑' (n : ↑A), 1 / (2 ^ ↑n - 1))"
 }

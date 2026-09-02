@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $A$ be a finite Sidon set and $A+A=\\{s_1<\\cdots<s_t\\}$. Is it true that\n$$\\frac{1}{t}\\sum_{1\\leq i<t}(s_{i+1}-s_i)^2 \\to \\infty$$\nas $\\lvert A\\rvert\\to \\infty$? ",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/153](https://www.erdosproblems.com/153)",
     "[ESS94] Erdős, P. and Sárközy, A. and Sós, T., On Sum Sets of Sidon Sets, I. Journal of Number Theory (1994), 329-347."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/153.lean",
   "supported_modes": [
     "formalized",

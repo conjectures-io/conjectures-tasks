@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is the upper density of the set of odd numbers that cannot be expressed as a prime plus\ntwo powers of 2 positive?\n",
@@ -23,7 +23,7 @@
   "references": [
     "[erdosproblems.com/9](https://www.erdosproblems.com/9)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/9.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:92d78723b8eaef03950c32aabe1192376ff7d54c84570decbade87285ac69f6e",
+  "type_hash": "sha256:fdb6a95e07366ccfe900e1ccbff74fc142176661e0d243f51e17fe872f897cdb",
   "type_pretty": "True ↔ 0 < Erdos9.Erdos9A.upperDensity"
 }

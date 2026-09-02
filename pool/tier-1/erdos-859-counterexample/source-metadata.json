@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "The density of the divisor sum set is asymptotically equivalent to $c_1 / \\log(t)^{c_2}$. ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/859](https://www.erdosproblems.com/859)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/859.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:8c497b4f2a8504f2d06c6ffd6524c4773fa037d7c99a539a3efbd9809e173f99",
+  "type_hash": "sha256:4f4795e89af6055c399d26699442aeb7bde299f32c6aca425af593391e4cde39",
   "type_pretty": "∃ c₁ > 0,\n  ∃ c₂ > 0,\n    ∃ d,\n      (∀ t > 0, (Erdos859.DivisorSumSet t).HasDensity (d t)) ∧\n        Asymptotics.IsEquivalent Filter.atTop (fun t => d t) fun t => c₁ / Real.log ↑t ^ c₂"
 }

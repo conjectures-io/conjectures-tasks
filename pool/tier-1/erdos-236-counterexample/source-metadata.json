@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $f(n)$ count the number of solutions to $n=p+2^k$ for prime $p$ and $k\\geq 0$. Show that $f(n)=o(\\log n)$.\n",
@@ -23,7 +23,7 @@
   "references": [
     "[erdosproblems.com/236](https://www.erdosproblems.com/236)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/236.lean",
   "supported_modes": [
     "formalized",

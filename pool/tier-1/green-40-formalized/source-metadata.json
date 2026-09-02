@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Does $f(r) \\to \\infty$? [Gr24]",
@@ -26,7 +26,7 @@
     "[CHL97] Cohen, G., Honkala, I., Litsyn, S., & Lobstein, A. (1997). Covering codes (Vol. 54). Elsevier.",
     "[St94] R. Struik, Covering codes, PhD Thesis, Eindhoven University of Technology, the Netherlands, 106 pp, 1994."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
   "supported_modes": [
     "formalized",
@@ -39,6 +39,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:baa8efc094db058dc4acdf7d60097c3c89aca17590aa37de890584a421e820a2",
+  "type_hash": "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1",
   "type_pretty": "True ↔ Filter.Tendsto Green40.f Filter.atTop (nhds ⊤)"
 }

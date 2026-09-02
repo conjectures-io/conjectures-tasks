@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "It is open even for $k = 2$.\nLet $k = 2$. Does $((n+k)!)^2∣(2n)!$ hold for infinitely many n?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/727](https://www.erdosproblems.com/727)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/727.lean",
   "supported_modes": [
     "formalized",
@@ -33,6 +33,6 @@
     "propext",
     "sorryAx"
   ],
-  "type_hash": "sha256:fd6640da42952371709f4bac8d9c66cc89d0d511eb0ec40d86975eb97d39c34e",
+  "type_hash": "sha256:5ffa6d1b71dff334913e5494bb611ed2d63edbe4791a1ea6f2f73e960437fea9",
   "type_pretty": "True ↔ {n | (n + 2).factorial ^ 2 ∣ (2 * n).factorial}.Infinite"
 }

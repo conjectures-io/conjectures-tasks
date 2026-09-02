@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "As $n\\to \\infty$ ranges over integers\n$\\sum_{p\\leq n}1_{n\\in (p/2,p)\\pmod{p}}\\frac{1}{p}\\sim \\frac{\\log\\log n}{2}$?\n\nA conjecture of Erdős, Graham, Ruzsa, and Straus [EGRS75].\n\nBy $n\\in (p/2,p)\\pmod{p}$ we mean $n\\equiv r\\pmod{p}$ for some integer $r$ with $p/2<r<p$.\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/726](https://www.erdosproblems.com/726)",
     "[EGRS75] Erdős, P., and Graham, R. L. and Ruzsa, I. Z. and Straus, E. G., On the prime factors of $(\\sp{2n}\\sb{n})$. Math. Comp. (1975), 83-92."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/726.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:ce45905671b87d2b8e912323952f79c5f01c9b6842424f53069d9d7cb801dac4",
+  "type_hash": "sha256:822328a232d3284a02988561f550c6a7ce3dc660a574c600ae53f8e085fe2be3",
   "type_pretty": "True ↔\n  Asymptotics.IsEquivalent Filter.atTop\n    (fun n => ∑ p ∈ Finset.range (n + 1) with Nat.Prime p ∧ ↑p / 2 < ↑n % ↑p, 1 / ↑p) fun n =>\n    Real.log (Real.log ↑n) / 2"
 }
