@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is the diameter of $A$ at least $Cn$ for some constant $C > 0$? ",
@@ -25,7 +25,7 @@
     "[GuKa15](Guth, Larry and Katz, Nets Hawk, On the Erd\\H{o}s distinct distances problem in the plane. Ann. of Math. (2) (2015), 155-190.)",
     "[Piepmeyer](No references found)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/100.lean",
   "supported_modes": [
     "formalized",
@@ -38,6 +38,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:67345968121f038b64220e15ea294c9eace0ba0bb2ae2304143d4bb2d3bae514",
+  "type_hash": "sha256:a196de07a38d09443ce43fc97fda0921de3ed70450cc51809f69c9673454d3ae",
   "type_pretty": "True ↔\n  ∃ C > 0,\n    ∀ᶠ (n : ℕ) in Filter.atTop,\n      ∀ (A : Finset (EuclideanSpace ℝ (Fin 2))), A.card = n → Erdos100.DistancesSeparated A → Metric.diam ↑A > C * ↑n"
 }

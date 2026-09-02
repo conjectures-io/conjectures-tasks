@@ -8,10 +8,10 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
-  "docstring": "If $A \\subset \\mathbb{N} has $\\sum_{n \\in A}\\frac 1 n = \\infty$, then must $A$ contain arbitrarily\nlong arithmetic progressions?\n",
+  "docstring": "If $A \\subset \\mathbb{N}$ has $\\sum_{n \\in A}\\frac 1 n = \\infty$, then must $A$ contain arbitrarily\nlong arithmetic progressions?\n",
   "finite_constructors": [],
   "formal_proof_kind": null,
   "formal_proof_link": null,
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/3](https://www.erdosproblems.com/3)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/3.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:3171bf1503ae34c68c1c38c502caac8cb2e21019c0d3d492f5334061a054a3b6",
+  "type_hash": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
   "type_pretty": "True ↔ ∀ (A : Set ℕ), (¬Summable fun a => 1 / ↑↑a) → ∃ᶠ (k : ℕ) in Filter.atTop, ∃ S ⊆ A, S.IsAPOfLength ↑k"
 }

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "For sufficiently large n, is it the case that any set of n points with minimum distance $1$\nthat minimizes diameter must contain an equilateral triangle of side length 1? ",
@@ -24,7 +24,7 @@
     "[BeFo99] Bezdek, Andr\\'{a}s and Fodor, Ferenc, Minimal diameter of certain sets in the plane. J. Combin. Theory Ser. A (1999), 105-111.",
     "[Er94b] Erd\\H{o}s, Paul, Some problems in number theory, combinatorics and combinatorial geometry. Math. Pannon. (1994), 261-269."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/99.lean",
   "supported_modes": [
     "formalized",
@@ -37,6 +37,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:3dbc60d13ec579926cf0f0596c3be0eedd010f22dc8cc6a2787918ffebcbf5b3",
+  "type_hash": "sha256:c883d468ba24479864732bf6a44f98a817fd9720d479c2b0b3bbbf81ad012cb4",
   "type_pretty": "True ↔\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (A : Finset (EuclideanSpace ℝ (Fin 2))),\n      A.card = n →\n        Erdos99.HasMinDist1 A →\n          IsMinOn (fun B => Metric.diam ↑B) {B | B.card = n ∧ Erdos99.HasMinDist1 B} A →\n            ∃ p ∈ A, ∃ q ∈ A, ∃ r ∈ A, Erdos99.FormsEquilateralTriangle p q r"
 }

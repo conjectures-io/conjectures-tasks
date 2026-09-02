@@ -9,10 +9,10 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
-  "docstring": "Conjecture p.579 in [Aa19]: $\\left({1}{3} + o(1)\\right) n^2$. ",
+  "docstring": "Conjecture p.579 in [Aa19]: $\\left(\\frac{1}{3} + o(1)\\right) n^2$. ",
   "finite_constructors": [],
   "formal_proof_kind": null,
   "formal_proof_link": null,
@@ -25,7 +25,7 @@
     "[Aa19] Aaronson, James. \"Maximising the number of solutions to a linear equation in a set of integers.\" Bulletin of the London Mathematical Society 51.4 (2019): 577-594.",
     "[HaL28] Hardy, G. H., and J. E. Littlewood. \"Notes on the theory of series (VIII): an inequality.\" Journal of the London Mathematical Society 1.2 (1928): 105-110."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/24.lean",
   "supported_modes": [
     "formalized",

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that, for every $\\epsilon>0$, there exist infinitely many $n$ such that\n$g(n) > n^{1-\\epsilon}$?\n",
@@ -27,7 +27,7 @@
     "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
     "[LuPo11] Luca, Florian and Pollack, Paul, An arithmetic function arising from {C}armichael's conjecture. J. Théor. Nombres Bordeaux (2011), 697--714."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/821.lean",
   "supported_modes": [
     "formalized",
@@ -40,6 +40,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:fe0cbb31deba837199efeccabcb9f2b93965afb14a5c2397b1d1281d3247df6f",
+  "type_hash": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
   "type_pretty": "True ↔ ∀ ε > 0, {n | ↑(Erdos821.g n) > ↑n ^ (1 - ε)}.Infinite"
 }

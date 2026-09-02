@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Regarding the first question, Hardy and Subbarao computed all EHS numbers up to $2^{10}$, and\nwrite \"...if this trend conditions we expect [the limit] to be around 0.5, if it exists.\" ",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1074](https://www.erdosproblems.com/1074)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1074.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:ab7dd633c706410553805acc220e9409d13ef5746b39bf6fd142546f86097fe7",
+  "type_hash": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
   "type_pretty": "Erdos1074.EHSNumbers.HasDensity (1 / 2)"
 }

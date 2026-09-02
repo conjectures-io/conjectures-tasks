@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is there an absolute constant $c > 0$ such that, whenever $A ⊆ \\mathbb{N}$ is a set of squares\nwith $|A| ≥ 2$, the sumset $A + A$ satisfies $|A + A| ≥ |A|^{1 + c}$?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[Ben Green's Open Problem 60](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8 Problem 60)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:dae916f88c61d34e3fbdf05354813ffe54f4ec35b1c65cd277599fcc501f5703",
+  "type_hash": "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc",
   "type_pretty": "True ↔ ∃ c > 0, ∀ (A : Finset ℕ), (∀ a ∈ A, IsSquare a) → 2 ≤ A.card → ↑(A + A).card ≥ ↑A.card ^ (1 + c)"
 }

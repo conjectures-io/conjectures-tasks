@@ -8,7 +8,7 @@
   "forbidden_dependencies": [
     "Green12.green_12"
   ],
-  "generated_target_type_hash": "sha256:20e4a5d0e1c32e743821fd78401f7b8743e3049569a071ef6abb3342cfc9891b",
+  "generated_target_type_hash": "sha256:ecfb079f3cb21baf57883714a687174094664e82c0b37b332829b5ea3c1697ae",
   "known_proof_collisions": [],
   "max_submission_bytes": 1000000,
   "permitted_axioms": [
@@ -17,15 +17,15 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.GreensOpenProblems.«12»",
   "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
   "source_theorem": "Green12.green_12",
-  "source_type_hash": "sha256:03ec075d26bd8f703eaf9c9734b182c8d67afc5948b8e208824c4460cde39d46",
+  "source_type_hash": "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-379fc029-green12-green-12-f5a5026dae-counterexample-v1",
+  "task_id": "fc-8432eac9-green12-green-12-d5d1d8dac2-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:2180213c60405622d0d67f0d409e4d982c46432d4112b8008b931bd5cf235b2f",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:66a4e58c40d36518af165a94eced97b48753b64710188165c4ab0d413ef8cf14"
+    "source-metadata.json": "sha256:42ef6cd2a2ae571ec7f925c173496949133cdb73faf6bef313a9b6ecb181008b"
   }
 }

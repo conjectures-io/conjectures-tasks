@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "A heuristic of Tao using the Cramér model for the primes suggests this is true with\n$c=\\sqrt{2\\pi}$. ",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/912](https://www.erdosproblems.com/912)",
     "[Er82c](https://users.renyi.hu/~p_erdos/1982-08.pdf) Erdős, P., Miscellaneous problems in number theory. Congr. Numer. (1982), 25-45."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/912.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:86a7121b84ed886e77186ebb259080e1fc8e9c8a77a4ae9f5d848c02ac9838db",
+  "type_hash": "sha256:93ab51fb27ff62b321ce22ad1e5e4161c3b7230eb2a0ffe9eeb4d3e238d5ae9a",
   "type_pretty": "Asymptotics.IsEquivalent Filter.atTop (fun n => ↑(Erdos912.h n)) fun n => √(2 * Real.pi) * (↑n / Real.log ↑n) ^ (1 / 2)"
 }

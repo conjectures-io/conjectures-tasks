@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is there an infinite sequence of distinct Gaussian primes $x_1,x_2,\\ldots$\nsuch that $\\lvert x_{n+1}-x_n\\rvert \\ll 1$?\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/952](https://www.erdosproblems.com/952)",
     "[Wikipedia](https://wikipedia.org/wiki/Gaussian_moat)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/952.lean",
   "supported_modes": [
     "formalized",
@@ -32,10 +32,8 @@
   "theorem": "Erdos952.erdos_952",
   "transitive_axioms": [
     "propext",
-    "sorryAx",
-    "Classical.choice",
-    "Quot.sound"
+    "sorryAx"
   ],
-  "type_hash": "sha256:cef5aee910f965dda18f7dcdb5b300bd9c7b6adf8457ea2a6efb14c5fb973633",
-  "type_pretty": "∃ x C, Function.Injective x ∧ ∀ (n : ℕ), Prime (x n) ∧ Zsqrtd.norm (x (n + 1) - x n) < C"
+  "type_hash": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
+  "type_pretty": "True ↔ ∃ x C, Function.Injective x ∧ ∀ (n : ℕ), Prime (x n) ∧ Zsqrtd.norm (x (n + 1) - x n) < C"
 }

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that, for every prime $p$, there is a prime $q \\leq p$ which is a primitive root modulo $p$?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/985](https://www.erdosproblems.com/985)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/985.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:fcd125c43ed37bed9fcadde4a86540d8009b8ecbba51101fe6236bf870c43aec",
+  "type_hash": "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b",
   "type_pretty": "True ↔ ∀ (p : ℕ), Nat.Prime p → p ≠ 2 → ∃ q, Nat.Prime q ∧ q < p ∧ orderOf ↑q = p - 1"
 }

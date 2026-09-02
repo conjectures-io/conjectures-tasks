@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Erdős and Graham [ErGr80] also asked about the difference set $A - A$ and whether this has\npositive density.\n\n[ErGr80] Erdős, P. and Graham, R., Old and new problems and results in combinatorial number\ntheory. Monographies de L'Enseignement Mathematique (1980).\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/340](https://www.erdosproblems.com/340)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/340.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:395967a12427202302da8898c121439ff48e951cf226a57b4ebddff4a68e1e2b",
+  "type_hash": "sha256:4b7136a5f14bf1fc1bb8609b078c12b5972a1a413574705aab984ed18cecad87",
   "type_pretty": "(Set.range Finset.greedySidon - Set.range Finset.greedySidon).HasPosDensity"
 }

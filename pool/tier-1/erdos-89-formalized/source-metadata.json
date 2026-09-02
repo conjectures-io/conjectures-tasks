@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Erdős [Er46] asked whether every set of $n$ distinct points in $\\mathbb{R}^2$\ndetermines $\\gg \\frac{n}{\\sqrt{\\log n}}$ many distinct distances.\n",
@@ -25,7 +25,7 @@
     "[GuKa15](https://doi.org/10.4007/annals.2015.181.1.2) Guth, Larry and Katz, Nets Hawk. On the Erdős distinct distances problem in the plane. Ann. of Math. (2) 181 (2015), 155--190.",
     "[Mo52](https://doi.org/10.2307/2307105) Moser, Leo. On the different distances determined by $n$ points. Amer. Math. Monthly 59 (1952), 85--91."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/89.lean",
   "supported_modes": [
     "formalized",

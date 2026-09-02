@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is there an absolute constant $K$ such that, for every $C > 0$, if $n$ is sufficiently large then\n$n$ has at most $K$ divisors in $(n^{\\frac{1}{2}}, n^{\\frac{1}{2}} + C n^{\\frac{1}{4}})$.\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/887](https://www.erdosproblems.com/887)",
     "[ErRo97] Erdős, Paul and Rosenfeld, Moshe, The factor-difference set of integers. Acta Arith. (1997), 353--359."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/887.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:f6dad1724b63c7fb7f9ff163660e91619d28b9a144dd18f7857d668e36e685b9",
+  "type_hash": "sha256:869e68472c87758ed735ec9905e981c1948591269bcdf19fd92574021681991e",
   "type_pretty": "∃ K, ∀ C > 0, ∀ᶠ (n : ℕ) in Filter.atTop, {d ∈ Finset.Ioo ⌊√↑n⌋₊ ⌈√↑n + C * ↑n ^ (1 / 4)⌉₊ | d ∣ n}.card ≤ K"
 }

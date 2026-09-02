@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "The set of indices $n$ for which a prime gap is followed by a larger or equal prime gap has a\nnatural density of $\\frac 1 2$.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/218](https://www.erdosproblems.com/218)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/218.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:500fe5b6e6370b9dac095765a9e6da3ac8955c9c279ab3151b35de4884cebead",
+  "type_hash": "sha256:ed787e1d1abeb8888b6b34a1bcb9c5210f050a29d25e1f1fe4dde6d1847a47ec",
   "type_pretty": "{n | primeGap n ≤ primeGap (n + 1)}.HasDensity (1 / 2)"
 }

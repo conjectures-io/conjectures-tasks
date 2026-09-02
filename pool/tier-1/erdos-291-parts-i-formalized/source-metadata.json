@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $n\\geq 1$ and define $L_n$ to be the least common multiple of $\\{1,\\ldots,n\\}$ and $a_n$ by\n$\\sum_{1\\leq k\\leq n}\\frac{1}{k}=\\frac{a_n}{L_n}$.\n\nIs it true that $(a_n,L_n)=1$ occurs for infinitely many $n$?\n",
@@ -25,7 +25,7 @@
     "[Sh16] P. Shiu, The denominators of harmonic numbers. arXiv:1607.02863 (2016).",
     "[WuYa22] Wu, Bing-Ling and Yan, Xiao-Hui, On the denominators of harmonic numbers. {IV}. C. R. Math. Acad. Sci. Paris (2022), 53--57."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/291.lean",
   "supported_modes": [
     "formalized",
@@ -38,6 +38,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:094af9636138ee2288928d45de7bdcbb58e55a7dc8c38ae83ed3d4cca8c78511",
+  "type_hash": "sha256:03a93b18e4006002588bf9dc58264328a2a202ac494b5dcd84c8356f558dfd3a",
   "type_pretty": "True ↔ {n | (Erdos291.a n).gcd (Erdos291.L n) = 1}.Infinite"
 }

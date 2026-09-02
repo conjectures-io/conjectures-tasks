@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "If $n$ distinct points in $\\mathbb{R}^2$ form a convex polygon then some vertex has at least\n$\\lfloor\\frac{n}{2}\\rfloor$ different distances to other vertices.\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/982](https://www.erdosproblems.com/982)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/982.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:0a01ef88795bf069398d58438ffc583a4dd349255095f8807f7c61a6483818a6",
+  "type_hash": "sha256:59a833a16359a9f8144d355fec3994414dd53eefce58c0e54cbfd271738a6402",
   "type_pretty": "∀ (n : ℕ),\n  3 ≤ n →\n    ∀ (p : Fin n → EuclideanSpace ℝ (Fin 2)),\n      Function.Injective p →\n        EuclideanGeometry.IsConvexPolygon p → ∃ i, {d | ∃ j, j ≠ i ∧ d = dist (p i) (p j)}.ncard ≥ n / 2"
 }

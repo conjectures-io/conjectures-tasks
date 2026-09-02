@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $p$ be a large prime, and let $A$ be the set of all primes less than $p$.\nIs every $x \\in \\{1, \\ldots, p-1\\}$ congruent to some product $a_1 a_2$ where $a_1, a_2 \\in A$?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[Ben Green's Open Problem 62](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.62)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:b4a809f061e9107b929542f3d9dac7c245932d06708a2805cbc09ee1d9f77161",
+  "type_hash": "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a",
   "type_pretty": "True ↔\n  ∀ᶠ (p : ℕ) in Filter.atTop,\n    Nat.Prime p →\n      have A := Finset.filter Nat.Prime (Finset.range p);\n      ∀ (x : ℕ), 1 ≤ x ∧ x < p → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ↑x = ↑a₁ * ↑a₂"
 }

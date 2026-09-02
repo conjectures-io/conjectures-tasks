@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $\\delta > 0$. If $n$ is sufficiently large and $G$ is a graph on $n$ vertices with no\n$K_{2,2,2}$ (the octahedron) and at least $\\delta n^2$ edges, must $G$ contain an independent\nset of size $\\gg_\\delta n$?\n\nThis is a problem of Erdős, Hajnal, Sós, and Szemerédi [EHSS83]. It is **open**; they proved\nthe statement for $\\delta > 1/8$ (see `erdos_579.variants.ehss_large_delta`), and the\ndifficulty is to push the edge-density threshold down to an arbitrary $\\delta > 0$.\n\nHere $K_{2,2,2}$ is the complete tripartite graph with all parts of size $2$, encoded as\n`completeMultipartiteGraph (fun _ : Fin 3 => Fin 2)`; \"contains no $K_{2,2,2}$\" is expressed\nvia `SimpleGraph.Free`.\n",
@@ -23,7 +23,7 @@
     "[erdosproblems.com/579](https://www.erdosproblems.com/579)",
     "[EHSS83] P. Erdős, A. Hajnal, V. T. Sós and E. Szemerédi, *More results on Ramsey–Turán type problems*, Combinatorica **3** (1983), 69–81."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/579.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:89cb5e445fe9443803c61fe033d81dc10ab110de42023d88c398d6c4bce29c26",
+  "type_hash": "sha256:f43cff368cfa4be30db0d7ec9e85fa26fd163b361528cb8db47da018f30b0b1b",
   "type_pretty": "True ↔\n  ∀ (δ : ℝ),\n    0 < δ →\n      ∃ c,\n        0 < c ∧\n          ∀ᶠ (n : ℕ) in Filter.atTop,\n            ∀ (G : SimpleGraph (Fin n)),\n              Erdos579.octahedron.Free G → δ * ↑n ^ 2 ≤ ↑G.edgeFinset.card → c * ↑n ≤ ↑G.indepNum"
 }

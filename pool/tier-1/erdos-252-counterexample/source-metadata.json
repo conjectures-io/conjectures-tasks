@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Erdős Problem 252: irrationality of the sum for a given $k$. ",
@@ -28,7 +28,7 @@
     "[FLC07] Friedlander, J. B. and Luca, F. and Stoiciu, M., On the irrationality of a divisor function series. Integers (2007).",
     "[Pr22] Pratt, K., The irrationality of a divisor function series of Erdős and Kac. arXiv:2209.11124 (2022)."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/252.lean",
   "supported_modes": [
     "formalized",

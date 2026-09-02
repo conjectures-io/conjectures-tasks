@@ -9,7 +9,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Let $p$ be a prime and let $A \\subset \\mathbb{Z}/p\\mathbb{Z}$ be a set of size $\\lfloor \\sqrt{p} \\rfloor$.\nIs there a dilate of $A$ containing a gap of length $100\\sqrt{p}$?\n",
@@ -24,7 +24,7 @@
     "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.32)",
     "[Sh20] Shakan, George. \"A Large Gap in a Dilate of a Set.\" SIAM Journal on Discrete Mathematics 34.4 (2020): 2553-2555."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
   "supported_modes": [
     "formalized",

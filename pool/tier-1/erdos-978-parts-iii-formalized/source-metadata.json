@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Does `n ^ 4 + 2` represent infinitely many squarefree numbers? ",
@@ -25,7 +25,7 @@
     "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
     "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/978.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "propext",
     "sorryAx"
   ],
-  "type_hash": "sha256:80a9df89a29578a51de4dd06033d43a7d46931b1a956c65cd5f5fa6e860d631b",
+  "type_hash": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
   "type_pretty": "True ↔ {n | Squarefree (n ^ 4 + 2)}.Infinite"
 }

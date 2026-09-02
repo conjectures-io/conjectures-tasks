@@ -42,23 +42,37 @@ from verifier.workspace import target_validator
 
 TIER_NAME = "tier-1"
 
-ERDOS_NUMBER = re.compile(r"/ErdosProblems/(?P<number>[0-9]+)\.lean$")
+SOURCE_NUMBER = re.compile(
+    r"/(?P<family>ErdosProblems|GreensOpenProblems)/(?P<number>[0-9]+)\.lean$"
+)
+SOURCE_LABEL = {"ErdosProblems": "erdos", "GreensOpenProblems": "green"}
 
 
 def task_directory_name(manifest) -> str:
-    """A readable storage label; the manifest's task ID remains the protocol identity."""
-    match = ERDOS_NUMBER.search("/" + manifest.source_path)
+    """A readable storage label; the manifest's task ID remains the protocol identity.
+
+    Both audited families get a readable label. This used to match `ErdosProblems/` only, so every
+    Green bundle fell through to the opaque `task_id` branch and the pool published half its
+    directories under names nobody can read. The names the Green bundles already carry are the ones
+    this produces.
+
+    The label drops the theorem's own namespace and then the `<family>_<number>` stem, keeping
+    whatever distinguishes the target inside its file. Keeping that remainder matters: matching only
+    the dotted `erdos_<number>.` form discarded it whenever a theorem was named some other way, so
+    two targets in one file could both land on `<family>-<number>-<mode>`.
+    """
+    match = SOURCE_NUMBER.search("/" + manifest.source_path)
     if match is None:
         return manifest.task_id
+    label = SOURCE_LABEL[match.group("family")]
     number = match.group("number")
-    marker = f"erdos_{number}."
-    local = (
-        manifest.source_theorem.split(marker, 1)[1]
-        if marker in manifest.source_theorem
-        else ""
-    )
+    theorem = manifest.source_theorem
+    local = theorem.split(".", 1)[1] if "." in theorem else ""
+    stem = f"{label}_{number}"
+    if local.startswith(stem):
+        local = local[len(stem):]
     suffix = re.sub(r"[^A-Za-z0-9]+", "-", local).strip("-").lower()
-    parts = [f"erdos-{number}"]
+    parts = [f"{label}-{number}"]
     if suffix:
         parts.append(suffix)
     parts.append(manifest.task_mode)

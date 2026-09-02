@@ -8,10 +8,10 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
-  "docstring": "The set of indices $n$ for which a prime gap is preceeded by a larger or equal prime gap has a\nnatural density of $\\frac 1 2$.\n",
+  "docstring": "The set of indices $n$ for which a prime gap is preceded by a larger or equal prime gap has a\nnatural density of $\\frac 1 2$.\n",
   "finite_constructors": [],
   "formal_proof_kind": null,
   "formal_proof_link": null,
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/218](https://www.erdosproblems.com/218)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/218.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:e18230aa1dec34ab29027eee7e5a34159aa4a7b0d8e46c2488bae34af3ad0cd8",
+  "type_hash": "sha256:cc3420fa42b06801da415e0603d803b673859f2163bddd44b6c8a1dd52ace84d",
   "type_pretty": "{n | primeGap (n + 1) ≤ primeGap n}.HasDensity (1 / 2)"
 }

@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "For each $k \\geq 2$, does the set $A = \\left\\{ \\sum_{n\\in S}n! : S\\subset \\mathbb{N}\\text{ finite}\\right\\}$ of all finite sums of distinct factorials contain only finitely many $k$-th powers?\n",
@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/1108](https://www.erdosproblems.com/1108)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/1108.lean",
   "supported_modes": [
     "formalized",
@@ -34,6 +34,6 @@
     "sorryAx",
     "Quot.sound"
   ],
-  "type_hash": "sha256:2dee53b6faa8d3676ee111b2eb243b2145b0cd6066cab56218fa7ce45750f3a9",
+  "type_hash": "sha256:d35a609a887a939546950a716f0546e9718c957ff2c490984ab4982972dc9f16",
   "type_pretty": "True ↔ ∀ k ≥ 2, {a | a ∈ Erdos1108.FactorialSums ∧ ∃ m, m ^ k = a}.Finite"
 }

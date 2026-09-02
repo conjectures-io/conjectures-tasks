@@ -8,7 +8,7 @@
   "classification": "DIRECT_PROP",
   "contains_answer_annotation": false,
   "contains_sorry_in_type": false,
-  "contains_sorry_in_value": true,
+  "contains_sorry_in_value": false,
   "declaration_kind": "theorem",
   "depends_on_sorry": true,
   "docstring": "Is it true that, for any $c>1/2$, if $p$ is a sufficiently large prime then, for any\n$n\\geq 0$, there exist $a,b\\in(n,n+p^c)$ such that $ab\\equiv 1\\pmod{p}$?\n\nThis is discussed in this MathOverflow question [MathOverflow].\n",
@@ -24,7 +24,7 @@
     "[He00] Heath-Brown, D. R., Arithmetic applications of {K}loosterman sums. Nieuw Arch. Wiskd. (5) (2000), 380--384.",
     "[MathOverflow](https://mathoverflow.net/questions/69509/small-residue-classes-with-small-reciprocal)"
   ],
-  "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "source_path": "FormalConjectures/ErdosProblems/445.lean",
   "supported_modes": [
     "formalized",
