@@ -107,8 +107,12 @@ re-ran the mechanical screens only. `Green72.green_72` was **dropped from the se
 open pull request 4941 corrects that exact theorem: the published statement asserts
 `AllowedSetSize 3 N = 2 * N` for every `N ≥ 3`, while Green asks whether such sets become
 impossible for large `N`, and both references cited in the source expect the published direction to
-fail. It is not retired — the corrected upstream statement may be re-audited on its own merits — so
-it carries no retired-conjecture display payload and leaves the public catalog with this release.
+fail. It is retired rather than merely dropped, because those are the only two states the
+pool represents: a deleted bundle must be recorded, and everything carrying a display payload is
+asserted to be deny-listed, so a live target can never be shown as closed. The record keeps the
+problem readable. Should pull request 4941 land, the corrected statement is re-admissible by
+removing this name and its canonical type from `retired-source-theorems.json` under a new
+audit.
 `Erdos479.erdos_479` was **kept** across an upstream restatement from `ℕ`/`Nat.ModEq` with `k > 1`
 to `ℤ`/`Int.ModEq` with `k ≠ 1`; the new formalization is the faithful one, and the target is
 offered as that new proposition under a new task identity. `Erdos952.erdos_952` gained an

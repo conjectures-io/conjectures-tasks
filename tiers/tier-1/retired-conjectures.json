@@ -969,6 +969,77 @@
     },
     {
       "decision_url": null,
+      "reason": "WITHDRAWN (held out of the selection while upstream pull request 4941 corrects this exact statement: the published target asserts AllowedSetSize 3 N = 2 * N for every N ≥ 3, while Green asks whether sets of that size become impossible for large N, and both references cited in the source expect the published direction to fail; deliberately absent from retired-source-theorems.json, so the corrected upstream statement can be re-audited on its own merits)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "802f60b888abc19e4f5708c6b58f17b114703477",
+      "retired_on": "2026-09-02",
+      "reward_target_id": "fc-target:Green72.green_72",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          52
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": true,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "**Green's Open Problem 72 / No-three-in-line problem**:\nThe no-k-in-line conjecture holds for $k = 3$. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«72»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 72](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.72)",
+          "[Wikipedia](https://en.wikipedia.org/wiki/No-three-in-line_problem)",
+          "[GK2025] Grebennikov, A. Kwan, M. No $(k + 1)$-in-line problem for large constant $k$. https://arxiv.org/abs/2510.17743"
+        ],
+        "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
+        "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green72.green_72",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:89e65e952fc8e9f8c7344e71a61043775a01fbe01bc01c718c389ecc2775f101",
+        "type_pretty": "∀ {N : ℕ}, 3 ≤ N → Green72.NoKInLineFor 3 N"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«72»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green72.green_72\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green72-green-72-d43c79a30cdc68ce342d72111ceb48cd-problem",
+          "target_type_sha256": "sha256:4eaa9a26763b9d0521f434539c8963368c06a2b9e39bb3bd71bcd0f834903060",
+          "task_bundle_sha256": "sha256:4c3879822717623725c2b963b1ccec84a3667e1a2cba0da8c1c8155df8e97da5",
+          "task_id": "fc-379fc029-green72-green-72-f51a39556d-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«72»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green72.green_72\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-379fc029-green72-green-72-d43c79a30cdc68ce342d72111ceb48cd-problem",
+          "target_type_sha256": "sha256:89e65e952fc8e9f8c7344e71a61043775a01fbe01bc01c718c389ecc2775f101",
+          "task_bundle_sha256": "sha256:a8dca2b3cac151afddd1c5dce8791c2de6df03c3dbb23d433a90e5e78c238a18",
+          "task_id": "fc-379fc029-green72-green-72-00559620fa-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green72.green_72",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give α(n) ≳ 1/n, refuting the formalized n^(−2+o(1)) claim by elementary geometry)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
