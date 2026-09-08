@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
   "source_type_hash": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-ehsnumbers-one-half-4ea2b8ea8f-formalized-v1",
+  "task_id": "fc-8432eac9-variants-ehsnumbers-one-half-dca2836c18-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

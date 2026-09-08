@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:579e16211baeec96610c4b8e8a1d0517fd1e6853f190d1fe95d1bcc9a9052c30",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos218.erdos_218.variants.infinite_equal_prime_gap",
   "source_type_hash": "sha256:86b3a12099b2647d0a8380bd5311fa79ad04e3444fac67fa572e5867f5ff9b3e",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-infinite-equal-prime-gap-0807fd07e4-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-infinite-equal-prime-gap-c80450b838-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

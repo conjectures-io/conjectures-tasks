@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Filaseta–Finch–Kozek conjecture (2008).** Every Sierpiński number is either a perfect power\nor possesses a finite covering set of primes.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1113»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1113](https://www.erdosproblems.com/1113)",
+    "[ErGr80] Erdős, P. and Graham, R. L., Old and New Problems and Results in Combinatorial Number Theory. Monographie de l'Enseignement Mathématique, No. 28 (1980).",
+    "[Si60] Sierpiński, W., Elementary Theory of Numbers. Państwowe Wydawnictwo Naukowe, Warsaw (1960).",
+    "[FFK08] Filaseta, M., Finch, C., and Kozek, M., On powers associated with Sierpiński numbers, Riesel numbers and Polignac's conjecture. Journal of Number Theory 128 (2008), 1916–1940."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1113.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1113.erdos_1113.variants.filaseta_finch_kozek",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:be47c529de84a4d1a48c3834d4522a99e658a19e737f1f79b0f1e66bcff35bea",
+  "type_pretty": "∀ (k : ℕ), k.IsSierpinskiNumber → k.IsPerfectPower ∨ Erdos1113.HasFinitePrimeCoveringSet k"
+}

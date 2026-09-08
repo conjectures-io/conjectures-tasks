@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for any $a \\in \\mathbb{Z}$, there are infinitely many $n$ such that\n$$\\phi(n) | n + a$$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«828»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/828](https://www.erdosproblems.com/828)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/828.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos828.erdos_828",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:85848ab3b068a748ce9a708c3c3f70d0c79bb2415702246a2c9a2e71849f7cc8",
+  "type_pretty": "True ↔ ∀ (a : ℤ), {n | ↑n.totient ∣ ↑n + a}.Infinite"
+}

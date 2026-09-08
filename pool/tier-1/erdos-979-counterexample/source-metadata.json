@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $k ≥ 2$, and let $f_k(n)$ count the number of solutions to $n = p_1^k + \\dots + p_k^k$,\nwhere the $p_i$ are prime numbers. Is it true that $\\limsup f_k(n) = \\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«979»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/979](https://www.erdosproblems.com/979)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/979.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos979.erdos_979",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c451f45e1f996d236b10fefcf827fd2f7828b3530747e0924ad05d90c4137dff",
+  "type_pretty": "True ↔ ∀ k ≥ 2, Filter.limsup (fun n => (Erdos979.solutionSet n k).encard) Filter.atTop = ⊤"
+}

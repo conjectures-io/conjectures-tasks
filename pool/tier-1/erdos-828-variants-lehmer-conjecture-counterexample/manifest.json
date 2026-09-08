@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:8397c7638b3ae0b34731ad26d326caaf39455eb382232457d9684c9bf18cc0a5",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos828.erdos_828.variants.lehmer_conjecture",
   "source_type_hash": "sha256:337ac83858d3d220844b1daf2652e936386eba74718044de14dec1b34604137f",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-lehmer-conjecture-1bdd7b20dc-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-lehmer-conjecture-3ee5fedbea-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:4a1a64ebc8e1aeffa65059bcab7647589d4e9508acb4d8e9436db1de2899f281",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos11.erdos_11",
   "source_type_hash": "sha256:4a1a64ebc8e1aeffa65059bcab7647589d4e9508acb4d8e9436db1de2899f281",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-erdos11-erdos-11-aaab57b26e-formalized-v1",
+  "task_id": "fc-8432eac9-erdos11-erdos-11-8464cb7063-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

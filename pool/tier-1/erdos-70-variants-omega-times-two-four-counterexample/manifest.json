@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:d090626583f4d8405cfea85318e454da3aa1509287d098c4ed1b5e7c6d066131",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos70.erdos_70.variants.omega_times_two_four",
   "source_type_hash": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-omega-times-two-four-d19d981249-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-omega-times-two-four-79158a0480-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that if $m < k$ then $f_{k,m}(x) \\gg x^{m/k}$ for sufficiently large $x$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«323»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/323](https://www.erdosproblems.com/323)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/323.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos323.erdos_323.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9f5249f1964808fe99db494f7e52b5f75e17c1d386af7989fae27eaf5c32024f",
+  "type_pretty": "True ↔ ∀ (k m : ℕ), 1 ≤ m → m < k → (fun x => ↑x ^ (↑m / ↑k)) =O[Filter.atTop] fun x => ↑(Erdos323.f k m x)"
+}

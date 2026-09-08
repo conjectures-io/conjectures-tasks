@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:42f8895e89daf11827d2ea11b7cfb9b3455bf3aa61f47c8f0c9cfa2e2b042c06",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Green7.green_7.variants.positive_density",
   "source_type_hash": "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-positive-density-d7a8407ddf-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-positive-density-b75f543f32-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

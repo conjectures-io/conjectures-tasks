@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:0da24d0288f63e0441d5ba4817f97745a5905d3ac84e18f32cfcb62b3abf9686",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos409.erdos_409.variants.sigma_termination",
   "source_type_hash": "sha256:0da24d0288f63e0441d5ba4817f97745a5905d3ac84e18f32cfcb62b3abf9686",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-sigma-termination-b433e1ce8f-formalized-v1",
+  "task_id": "fc-8432eac9-variants-sigma-termination-b75306a9bb-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

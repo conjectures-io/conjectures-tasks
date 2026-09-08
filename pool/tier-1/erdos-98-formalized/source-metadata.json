@@ -1,0 +1,48 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $h(n)$ be such that any $n$ points in $\\mathbb{R}^2$, with no three on a line\nand no four on a circle, determine at least $h(n)$ distinct distances. Does\n$h(n)/n\\to \\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«98»",
+  "pointer_target": null,
+  "references": [
+    "[[Er75f](https://mathscinet.ams.org/mathscinet/relay-station?mr=411984)] Erdős, Paul, On some problems of elementary and combinatorial geometry. Ann. Mat. Pura Appl. (4) (1975), 99-108.",
+    "[[Er83c](https://mathscinet.ams.org/mathscinet/relay-station?mr=706025)] Erdős, Paul, Combinatorial problems in geometry. Math. Chronicle (1983), 35-54.",
+    "[[Er87b](https://mathscinet.ams.org/mathscinet/relay-station?mr=910710)] Erdős, P., Some combinatorial and metric problems in geometry. Intuitive geometry (Siófok, 1985) (1987), 167-177.",
+    "[[Er90](https://mathscinet.ams.org/mathscinet/relay-station?mr=1117038)] Erdős, Paul, Some of my favourite unsolved problems. A tribute to Paul Erdős (1990), 467-478.",
+    "[[Er92b](https://mathscinet.ams.org/mathscinet/relay-station?mr=1275857)] Erdős, Paul, Some of my favourite problems in various branches of combinatorics. Matematiche (Catania) (1992), 231-240.",
+    "[[EFPR93](https://mathscinet.ams.org/mathscinet/relay-station?mr=1210096)] Erdős, Paul and Füredi, Zoltán and Pach, János and Ruzsa, Imre Z., The grid revisited. Discrete Math. (1993), 189-196.",
+    "[[Er94b](https://mathscinet.ams.org/mathscinet/relay-station?mr=1304854)] Erdős, Paul, Some problems in number theory, combinatorics and combinatorial geometry. Math. Pannon. (1994), 261-269.",
+    "[[Er97e](https://mathscinet.ams.org/mathscinet/relay-station?mr=1487304)] Erdős, Paul, Some of my favourite unsolved problems. Math. Japon. (1997), 527-537.",
+    "[erdosproblems.com/98](https://www.erdosproblems.com/98)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/98.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos98.erdos_98",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:bab0232e1cb04c281b0958d95e0222cf35ebed4589ac0e26252ab02288eee7ba",
+  "type_pretty": "True ↔ Filter.Tendsto (fun n => ↑(Erdos98.h n) / ↑n) Filter.atTop Filter.atTop"
+}

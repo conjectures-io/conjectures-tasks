@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $k ≥ 2$. Does there exist a prime $p$ and consecutive intervals $I_0,\\dots,I_k$\nsuch that $\\prod\\limits_{n{\\in}I_i}n \\equiv 1 \\mod n$ for all $1 \\le i \\le k$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1056»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1056](https://www.erdosproblems.com/1056)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1056.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1056.erdos_1056",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:fda08b8781283f3deccd1cf466d486319555c16f17421fd07953a1013eb8a943",
+  "type_pretty": "True ↔\n  ∀ k ≥ 2,\n    ∃ p, ∃ (_ : Nat.Prime p), ∃ boundaries, ∃ (_ : StrictMono boundaries), Erdos1056.AllModProdEqualsOne p boundaries"
+}

@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Green40.green_40.variants.arbitrary_subsets",
   "source_type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-arbitrary-subsets-ac28ad2753-formalized-v1",
+  "task_id": "fc-8432eac9-variants-arbitrary-subsets-9b1922f5d6-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

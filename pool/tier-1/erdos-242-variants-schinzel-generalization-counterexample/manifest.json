@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:4cbebddd902a0fbf2a7cad7d1e24b36bd58d2ec649aaa8432b3a1ed448c715c0",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos242.erdos_242.variants.schinzel_generalization",
   "source_type_hash": "sha256:b141d6fbf1dbb8c97357e6826fd853a1f6d34d12832fa021225f8b1a4afcb6b5",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-schinzel-generalization-d053a63f57-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-schinzel-generalization-1787ebde08-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

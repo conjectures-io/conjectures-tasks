@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:413736cdfc63f432ecea8e9038a0663b01599ef4de832fc873ae6ba05106d113",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos1095.erdos_1095.variants.lower_conjecture",
   "source_type_hash": "sha256:37d44d6c19d5ade926d4526f136139d92c93efb06d460b3208f456fd7e04f3f1",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-lower-conjecture-5d7fbc2d7f-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-lower-conjecture-36008155f7-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

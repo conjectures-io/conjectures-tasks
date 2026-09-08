@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    20
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Variant using the exact simultaneous double product property from [CKS05, 4.1]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«36»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green's Open Problems #36](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.36)",
+    "[CKS05] Cohn, H., Kleinberg, R., Szegedy, B., and Umans, C. \"Group-theoretic Algorithms for Matrix Multiplication\" (Problem 4.7)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green36.green_36.variants.cks05",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
+  "type_pretty": "True ↔\n  ∀ ε > 0,\n    ∃ᶠ (n : ℕ) in Filter.atTop,\n      ∃ H x,\n        ∃ (_ : Finite H),\n          ∃ A B,\n            ↑n ^ (2 - ε) ≤ ↑(Nat.card H) ∧\n              ↑(Nat.card H) ≤ ↑n ^ (2 + ε) ∧\n                (∀ (i : Fin n), ↑n ^ (2 - ε) ≤ ↑(A i).card * ↑(B i).card) ∧ Green36.SimultaneousDoubleProduct A B"
+}

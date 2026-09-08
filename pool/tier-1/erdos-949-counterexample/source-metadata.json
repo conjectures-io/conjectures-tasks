@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $S \\subseteq \\mathbb{R}$ be a set containing no solutions to $a + b = c$.\nMust there be a set $A \\subseteq \\mathbb{R} \\setminus S$ of cardinality continuum such that\n$A + A \\subseteq \\mathbb{R}\\setminus S$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«949»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/949](https://www.erdosproblems.com/949)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/949.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos949.erdos_949",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0ef86c7712702e486df368060ac9762c435efe61bd273de18cc461ebf5fdf7f4",
+  "type_pretty": "True ↔ ∀ (S : Set ℝ), (∀ a ∈ S, ∀ b ∈ S, a + b ∉ S) → ∃ A ⊆ Sᶜ, Cardinal.mk ↑A = Cardinal.continuum ∧ A + A ⊆ Sᶜ"
+}

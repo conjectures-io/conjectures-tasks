@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Suppose $A\\subset \\mathbb{R}^2$ has $\\lvert A\\rvert=n$ and minimises the number of distinct\ndistances between points in $A$. Prove that for large $n$ there are at least two\n(and probably many) such $A$ which are non-similar.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«91»",
+  "pointer_target": null,
+  "references": [
+    "[Er87b] Erdős, P., Some combinatorial and metric problems in geometry. Intuitive geometry (Siófok, 1985) (1987), 167-177.",
+    "[Ko24c] Z. Kovács, A note on Erdős's mysterious remark. arXiv:2412.05190 (2024).",
+    "[erdosproblems.com/91](https://www.erdosproblems.com/91)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/91.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos91.erdos_91",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:906e9786999d6a619208647ee42f6d3f0932ecdebe09abccb3b1b23e791b9203",
+  "type_pretty": "(∀ᶠ (n : ℕ) in Filter.atTop, ¬Erdos91.UniqueMinimizer n) ↔ True"
+}

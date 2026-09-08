@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Erdős problem 681.**\nIs it true that for all large $n$ there exists $k$\nsuch that $n + k$ is composite and $p(n+k) > k^2$,\nwhere $p(m)$ is the least prime factor of $m$ ?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«681»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/681](https://www.erdosproblems.com/681)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/681.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos681.erdos_681",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f35ef816c9698c972e68d0f4e05afaaf3b656b224209a2164ea69223b5ba9a3f",
+  "type_pretty": "True ↔ ∀ᶠ (n : ℕ) in Filter.atTop, ∃ k > 0, (n + k).Composite ∧ ∀ (p : ℕ), Erdos681.IsLPF p (n + k) → p > k ^ 2"
+}

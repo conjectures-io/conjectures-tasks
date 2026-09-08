@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Green33.green_33",
   "source_type_hash": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-green33-green-33-6c36ef83a0-formalized-v1",
+  "task_id": "fc-8432eac9-green33-green-33-9f25656c49-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

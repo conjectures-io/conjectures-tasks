@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:c1e9a0de1689c4c2d12bec0132b08f9ff32eadee40ac771ab26038c13f9e888c",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos324.erdos_324.variants.quintic",
   "source_type_hash": "sha256:c1e9a0de1689c4c2d12bec0132b08f9ff32eadee40ac771ab26038c13f9e888c",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-quintic-ba998e4152-formalized-v1",
+  "task_id": "fc-8432eac9-variants-quintic-4d21e1f5c8-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
