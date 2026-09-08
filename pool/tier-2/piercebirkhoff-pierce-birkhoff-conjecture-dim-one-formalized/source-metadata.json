@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    13
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The Pierce-Birkhoff conjecture holds for `n = 1`.\nThis was proved by Louis Mahé.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.PierceBirkhoff",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Pierce%E2%80%93Birkhoff_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/PierceBirkhoff.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "PierceBirkhoff.pierce_birkhoff_conjecture_dim_one",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3db20f400e592a2459a80bb71546fbdee7c3b686d1a725239721792f9a7ef109",
+  "type_pretty": "∀ (f : ℝ → ℝ),\n  PierceBirkhoff.IsPiecewisePolynomial f →\n    ∃ ι κ g, Finite ι ∧ Finite κ ∧ ∀ (x : ℝ), f x = ⨆ i, ⨅ j, Polynomial.eval x (g i j)"
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Kaplansky.UnitConjecture.counterexamples.i"
+  ],
+  "generated_target_type_hash": "sha256:92fae37f21dfbbc50241b66c81ad018e1c5a4f9de4109623581810efbc556861",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Kaplansky",
+  "source_path": "FormalConjectures/Wikipedia/Kaplansky.lean",
+  "source_theorem": "Kaplansky.UnitConjecture.counterexamples.i",
+  "source_type_hash": "sha256:92fae37f21dfbbc50241b66c81ad018e1c5a4f9de4109623581810efbc556861",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-counterexamples-i-a3de5f4a4a-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:0b48cee826f48f8f4f12dbf623195e2a44ec7fa6c2b710c4df8b03c5141dd8e6",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:e3db8ee6909435d2a54f2a754ddfbb4781a2103db2a10b50470338c65eeb9a54",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:926d1d8ecf8308aa8ee97f3396a0c90eebee5dfaa13c43391edda94eabd69052"
+  }
+}

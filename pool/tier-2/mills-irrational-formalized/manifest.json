@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Mills.irrational"
+  ],
+  "generated_target_type_hash": "sha256:ed3e3b9e05146855d2ae5c35669ddeb54b655b098c36243f0ee521ec220cd039",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Mills",
+  "source_path": "FormalConjectures/Wikipedia/Mills.lean",
+  "source_theorem": "Mills.irrational",
+  "source_type_hash": "sha256:ed3e3b9e05146855d2ae5c35669ddeb54b655b098c36243f0ee521ec220cd039",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-mills-irrational-7d671a29b3-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:a7f6128fbd28cf891d1d7eeddf5450df54ff0a22f88bab3cc76577e6b617f60c",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:8b2c50628e82c4222a13854c0a1f7266d815c27ee3fd7d7f40f0b029f4b52724",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0391be7c9c2713aab24a778a309acd85f52f425275b2d0d3cc7bcd1365eecc09"
+  }
+}

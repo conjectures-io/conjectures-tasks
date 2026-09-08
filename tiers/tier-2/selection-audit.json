@@ -1,0 +1,1363 @@
+{
+  "audit_date_utc": "2026-09-08",
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 8,
+  "selected": [
+    {
+      "source_path": "FormalConjectures/ErdosProblems/10.lean",
+      "theorem": "Erdos10.erdos_10.variants.gallagher",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/10.lean",
+      "theorem": "Erdos10.erdos_10.variants.grechuk_example",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/10.lean",
+      "theorem": "Erdos10.erdos_10.variants.two_pows",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/100.lean",
+      "theorem": "Erdos100.erdos_100.variants.guth_katz",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/100.lean",
+      "theorem": "Erdos100.erdos_100.variants.kanold",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1003.lean",
+      "theorem": "Erdos1003.erdos_1003.variants.eps87",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1049.lean",
+      "theorem": "Erdos1049.erdos_1049.variants.geq_2_integer",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1062.lean",
+      "theorem": "Erdos1062.erdos_1062.variants.lebensold_bounds",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1063.lean",
+      "theorem": "Erdos1063.erdos_1063.variants.cambie_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1063.lean",
+      "theorem": "Erdos1063.erdos_1063.variants.exists_exception",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1063.lean",
+      "theorem": "Erdos1063.erdos_1063.variants.exp_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1063.lean",
+      "theorem": "Erdos1063.erdos_1063.variants.monier_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/107.lean",
+      "theorem": "Erdos107.nonempty_cardSet",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1074.lean",
+      "theorem": "Erdos1074.erdos_1074.variants.PillaiPrimes_infinite",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1084.lean",
+      "theorem": "Erdos1084.erdos_1084.variants.easy_upper_d2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1084.lean",
+      "theorem": "Erdos1084.erdos_1084.variants.upper_d2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1084.lean",
+      "theorem": "Erdos1084.erdos_1084.variants.upper_lower_d3",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "theorem": "Erdos1085.erdos_1085.variants.lower_d2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "theorem": "Erdos1085.erdos_1085.variants.lower_d3",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "theorem": "Erdos1085.erdos_1085.variants.lower_d4_lenz",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "theorem": "Erdos1085.erdos_1085.variants.upper_d2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "theorem": "Erdos1085.erdos_1085.variants.upper_d4_erdos",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+      "theorem": "Erdos1085.erdos_1085.variants.upper_lower_d5_odd",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1095.lean",
+      "theorem": "Erdos1095.erdos_1095.variants.lower_solved",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/11.lean",
+      "theorem": "Erdos11.erdos_11.variants.finite_bound1",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/11.lean",
+      "theorem": "Erdos11.erdos_11.variants.finite_bound2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/11.lean",
+      "theorem": "Erdos11.erdos_11.variants.granville_soundararajan",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1104.lean",
+      "theorem": "Erdos1104.erdos_1104.variants.lower",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1104.lean",
+      "theorem": "Erdos1104.erdos_1104.variants.upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1107.lean",
+      "theorem": "Erdos1107.erdos_1107.variants.two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1192.lean",
+      "theorem": "Erdos1192.erdos_1192.variants.renyi",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1192.lean",
+      "theorem": "Erdos1192.erdos_1192.variants.ruzsa",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/12.lean",
+      "theorem": "Erdos12.erdos_12.variants.baier",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/12.lean",
+      "theorem": "Erdos12.erdos_12.variants.erdos_sarkozy_density_0",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/12.lean",
+      "theorem": "Erdos12.erdos_12.variants.erdos_sarkozy",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/12.lean",
+      "theorem": "Erdos12.erdos_12.variants.example",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/12.lean",
+      "theorem": "Erdos12.erdos_12.variants.schoen",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/120.lean",
+      "theorem": "Erdos120.erdos_120.variants.finite_set",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1201.lean",
+      "theorem": "Erdos1201.erdos_1201.variants.epsilon_half",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/1203.lean",
+      "theorem": "Erdos1203.erdos_1203.variants.lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/124.lean",
+      "theorem": "Erdos124.erdos124.melfi_construction",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/124.lean",
+      "theorem": "Erdos124.erdos124.ne_zero_three_four_seven",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/126.lean",
+      "theorem": "Erdos126.erdos_126.variants.IsBigO",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/137.lean",
+      "theorem": "Erdos137.erdos_137.variants.perfect_power",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/138.lean",
+      "theorem": "Erdos138.erdos_138.variants.prime",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/138.lean",
+      "theorem": "Erdos138.erdos_138.variants.upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/138.lean",
+      "theorem": "Erdos138.monoAP_guarantee_set_nonempty",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/141.lean",
+      "theorem": "Erdos141.erdos_141.variants.first_cases",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/145.lean",
+      "theorem": "Erdos145.erdos_145.variants.le_eleven_thirds",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/145.lean",
+      "theorem": "Erdos145.erdos_145.variants.le_three",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/145.lean",
+      "theorem": "Erdos145.erdos_145.variants.le_two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/160.lean",
+      "theorem": "Erdos160.erdos_160.known_upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/160.lean",
+      "theorem": "Erdos160.erdos_160.variants.known_lower",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/168.lean",
+      "theorem": "Erdos168.erdos_168.variants.limit_exists",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/17.lean",
+      "theorem": "Erdos17.erdos_17.variants.upper_BES",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/17.lean",
+      "theorem": "Erdos17.erdos_17.variants.upper_Elsholtz",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/170.lean",
+      "theorem": "Erdos170.erdos170.existing_bounds",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/188.lean",
+      "theorem": "Erdos188.erdos_188.variants.estimate",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/188.lean",
+      "theorem": "Erdos188.erdos_188.variants.nonempty",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/200.lean",
+      "theorem": "Erdos200.erdos_200.variants.upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/213.lean",
+      "theorem": "Erdos213.erdos_213.variants.KK08",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/23.lean",
+      "theorem": "Erdos23.erdos_23.variants.n5",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/23.lean",
+      "theorem": "Erdos23.erdos_23.variants.n5_tight",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/238.lean",
+      "theorem": "Erdos238.erdos_238.variants.small_c1",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/244.lean",
+      "theorem": "Erdos244.erdos_244.variants.Romanoff",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/247.lean",
+      "theorem": "Erdos247.erdos_247.variants.strong_condition",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.k_eq_four",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.k_eq_one",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.k_eq_three",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.k_eq_two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.k_eq_zero",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.prime_tuples",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/252.lean",
+      "theorem": "Erdos252.erdos_252.variants.schinzel",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/257.lean",
+      "theorem": "Erdos257.erdos_257.variants.tsum_top",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/263.lean",
+      "theorem": "Erdos263.erdos_263.variants.doubly_exponential_all_but_countable",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/263.lean",
+      "theorem": "Erdos263.erdos_263.variants.folklore",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/263.lean",
+      "theorem": "Erdos263.erdos_263.variants.sub_doubly_exponential",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/264.lean",
+      "theorem": "Erdos264.erdos_264.parts.i",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/264.lean",
+      "theorem": "Erdos264.erdos_264.variants.example",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/264.lean",
+      "theorem": "Erdos264.erdos_264.variants.ko_tao_neg",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/264.lean",
+      "theorem": "Erdos264.erdos_264.variants.ko_tao_pos",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/269.lean",
+      "theorem": "Erdos269.erdos_269.variants.infinite",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/295.lean",
+      "theorem": "Erdos295.erdos_295.variants.erdos_straus",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/304.lean",
+      "theorem": "Erdos304.erdos_304.variants.lower_1950",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/304.lean",
+      "theorem": "Erdos304.erdos_304.variants.upper_1950",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/304.lean",
+      "theorem": "Erdos304.erdos_304.variants.upper_1985",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/306.lean",
+      "theorem": "Erdos306.erdos_306.variants.integer_three_primes",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/32.lean",
+      "theorem": "Erdos32.erdos_32.variants.liminf_gt_one",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/32.lean",
+      "theorem": "Erdos32.erdos_32.variants.log_squared",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/32.lean",
+      "theorem": "Erdos32.erdos_32.variants.ruzsa",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/325.lean",
+      "theorem": "Erdos325.erdos_325.variants.wooley",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/326.lean",
+      "theorem": "Erdos326.erdos_326.variants.eq",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/329.lean",
+      "theorem": "Erdos329.erdos_329.variants.kruckeberg_1961",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/329.lean",
+      "theorem": "Erdos329.erdos_329.variants.lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/329.lean",
+      "theorem": "Erdos329.erdos_329.variants.turan_1941",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/33.lean",
+      "theorem": "Erdos33.erdos_33.variants.one_mem_lowerBounds",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/33.lean",
+      "theorem": "Erdos33.erdos_33.variants.vanDoorn",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/357.lean",
+      "theorem": "Erdos357.erdos_357.variants.infinite_set_lower_density",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/357.lean",
+      "theorem": "Erdos357.erdos_357.variants.weisenberg",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.erdos_36.variants.exists",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.lower.haugland_1996",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.lower.scherk_1955",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.lower.swierczkowski_1958",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.lower.white_2022",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.upper.erdos_1955",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.upper.haugland_1996",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.upper.haugland_2022",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/36.lean",
+      "theorem": "Erdos36.minimum_overlap.variants.upper.MRS_1956",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/373.lean",
+      "theorem": "Erdos373.erdos_373.variants.of_limit",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/373.lean",
+      "theorem": "Erdos373.erdos_373.variants.of_lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/375.lean",
+      "theorem": "Erdos375.erdos_375.variants.bounded_gap",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/375.lean",
+      "theorem": "Erdos375.erdos_375.variants.log",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/376.lean",
+      "theorem": "Erdos376.erdos_376.variants.prime",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/377.lean",
+      "theorem": "Erdos377.erdos_377.variants.ae",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/377.lean",
+      "theorem": "Erdos377.erdos_377.variants.limit.i",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/377.lean",
+      "theorem": "Erdos377.erdos_377.variants.limit.ii",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/377.lean",
+      "theorem": "Erdos377.erdos_377.variants.ub",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/41.lean",
+      "theorem": "Erdos41.erdos_41.variants.pairwise",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/413.lean",
+      "theorem": "Erdos413.erdos_413.variants.hasPosDensity_barrier_expProd",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/416.lean",
+      "theorem": "Erdos416.erdos_416.variants.Erdos",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/416.lean",
+      "theorem": "Erdos416.erdos_416.variants.Pillai",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/454.lean",
+      "theorem": "Erdos454.erdos_454.variants.two_le_limsup",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/455.lean",
+      "theorem": "Erdos455.erdos_455.variants.liminf",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/470.lean",
+      "theorem": "Erdos470.erdos_470.variants.odd_weird_10_pow_21",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/470.lean",
+      "theorem": "Erdos470.erdos_470.variants.odd_weird_prime_div",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/470.lean",
+      "theorem": "Erdos470.erdos_470.variants.prime_gap_imp_inf_prim_weird",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/470.lean",
+      "theorem": "Erdos470.erdos_470.variants.weird_pos_density",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/503.lean",
+      "theorem": "Erdos503.erdos_503.variants.upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/507.lean",
+      "theorem": "Erdos507.erdos_507.variants.lower_erdos",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/507.lean",
+      "theorem": "Erdos507.erdos_507.variants.lower_kps82",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/507.lean",
+      "theorem": "Erdos507.erdos_507.variants.upper_cpz24",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/507.lean",
+      "theorem": "Erdos507.erdos_507.variants.upper_trivial",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/508.lean",
+      "theorem": "Erdos508.HadwigerNelsonAtLeast4",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/508.lean",
+      "theorem": "Erdos508.HadwigerNelsonAtLeastFive",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/510.lean",
+      "theorem": "Erdos510.erdos_510.variants.bedert",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/510.lean",
+      "theorem": "Erdos510.erdos_510.variants.ruzsa",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/522.lean",
+      "theorem": "Erdos522.erdos_522.variants.number_real_roots",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/61.lean",
+      "theorem": "Erdos61.erdos_61.variants.bnss23",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/61.lean",
+      "theorem": "Erdos61.erdos_61.variants.c5",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/61.lean",
+      "theorem": "Erdos61.erdos_61.variants.erha89",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/61.lean",
+      "theorem": "Erdos61.erdos_61.variants.p5",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/617.lean",
+      "theorem": "Erdos617.erdos_617.variants.r_eq_3",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/617.lean",
+      "theorem": "Erdos617.erdos_617.variants.r_eq_4",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/617.lean",
+      "theorem": "Erdos617.erdos_617.variants.r2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/672.lean",
+      "theorem": "Erdos672.erdos_672.variants.euler",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/672.lean",
+      "theorem": "Erdos672.erdos_672.variants.oblath",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/686.lean",
+      "theorem": "Erdos686.erdos_686.variants.four_three",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/723.lean",
+      "theorem": "Erdos723.erdos_723.variants.bruck_ryser",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/723.lean",
+      "theorem": "Erdos723.erdos_723.variants.leq_11",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/723.lean",
+      "theorem": "Erdos723.erdos_723.variants.prime_power_is_projplane_order",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/727.lean",
+      "theorem": "Erdos727.erdos_727.variants.k_1_2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/786.lean",
+      "theorem": "Erdos786.erdos_786.parts.i.selfridge",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/817.lean",
+      "theorem": "Erdos817.erdos_817.variants.bdd_power",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/82.lean",
+      "theorem": "Erdos82.erdos_82.variants.F_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/830.lean",
+      "theorem": "Erdos830.erdos_830.variants.erdos",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/830.lean",
+      "theorem": "Erdos830.erdos_830.variants.pomerance",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/830.lean",
+      "theorem": "Erdos830.erdos_830.variants.pomerance_stronger",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/835.lean",
+      "theorem": "Erdos835.chromaticNumber_johnson_2k_k_lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/835.lean",
+      "theorem": "Erdos835.johnsonGraph_18_9_chromaticNumber",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/835.lean",
+      "theorem": "Erdos835.johnsonGraph_2k_k_chromaticNumber_known_cases",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/859.lean",
+      "theorem": "Erdos859.erdos_859.variants.erdos_upper_lower_bounds",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/885.lean",
+      "theorem": "Erdos885.erdos_885.variants.k_eq_2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/885.lean",
+      "theorem": "Erdos885.erdos_885.variants.k_eq_3",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/885.lean",
+      "theorem": "Erdos885.erdos_885.variants.k_eq_4",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/886.lean",
+      "theorem": "Erdos886.erdos_886.variants.rosenfeld_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/886.lean",
+      "theorem": "Erdos886.erdos_886.variants.rosenfeld_infinite",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/887.lean",
+      "theorem": "Erdos887.erdos_887.variants.rosenfeld_infinite",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/889.lean",
+      "theorem": "Erdos889.erdos_889.variants.v0_gt_1",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/89.lean",
+      "theorem": "Erdos89.erdos_89.variants.grid_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/89.lean",
+      "theorem": "Erdos89.erdos_89.variants.n_dvd_log_n",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/890.lean",
+      "theorem": "Erdos890.erdos_890.variants.liminf_lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/890.lean",
+      "theorem": "Erdos890.erdos_890.variants.omega_limsup",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/891.lean",
+      "theorem": "Erdos891.erdos_891.variants.schinzel",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/893.lean",
+      "theorem": "Erdos893.erdos_893.variants.unbounded",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/9.lean",
+      "theorem": "Erdos9.erdos_9.variants.infinite",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/912.lean",
+      "theorem": "Erdos912.erdos_912.variants.selfridge",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/918.lean",
+      "theorem": "Erdos918.erdos_918.variants.erdos_hajnal",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/930.lean",
+      "theorem": "Erdos930.erdos_930.variants.consecutive_integers",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/930.lean",
+      "theorem": "Erdos930.erdos_930.variants.consecutive_strong",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/932.lean",
+      "theorem": "Erdos932.erdos_932.variants.one_le",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/940.lean",
+      "theorem": "Erdos940.erdos_940.variants.three_powerful",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/940.lean",
+      "theorem": "Erdos940.erdos_940.variants.two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/944.lean",
+      "theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_eq_5",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/944.lean",
+      "theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_ge_five",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/944.lean",
+      "theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_sub_one_not_prime",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/944.lean",
+      "theorem": "Erdos944.erdos_944.variants.large_k_for_any_r",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/945.lean",
+      "theorem": "Erdos945.erdos_945.variants.lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/945.lean",
+      "theorem": "Erdos945.erdos_945.variants.upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/951.lean",
+      "theorem": "Erdos951.erdos_951.variants.beurling",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/961.lean",
+      "theorem": "Erdos961.erdos_961.sylvester_schur",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/961.lean",
+      "theorem": "Erdos961.erdos_961.variants.erdos_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/961.lean",
+      "theorem": "Erdos961.erdos_961.variants.jutila_ramachandra_shorey_upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/968.lean",
+      "theorem": "Erdos968.erdos_968.variants.sum_abs_diff_isTheta_log_sq",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/97.lean",
+      "theorem": "Erdos97.erdos_97.variants.three_unit_distance",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/971.lean",
+      "theorem": "Erdos971.erdos_971.variants.infinite_sequence",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/971.lean",
+      "theorem": "Erdos971.erdos_971.variants.many_small",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "theorem": "Erdos975.erdos_975.variants.lower_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "theorem": "Erdos975.erdos_975.variants.n2_plus_1",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "theorem": "Erdos975.erdos_975.variants.n2_plus_1_strong",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/975.lean",
+      "theorem": "Erdos975.erdos_975.variants.upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "theorem": "Erdos978.erdos_978.parts.i",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "theorem": "Erdos978.erdos_978.variants.sub_one",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "theorem": "Erdos978.erdos_978.variants.sub_two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/979.lean",
+      "theorem": "Erdos979.erdos_979.variants.k2",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/ErdosProblems/985.lean",
+      "theorem": "Erdos985.erdos_985.variants.two_three_five_primitive_root",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.green_14_polynomial_k_eq_3",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_10",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_11",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_12",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_13",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_14",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_15",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_16",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_17",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_18",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_19",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_3",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_4",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_5",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_6",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_7",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_8",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+      "theorem": "Green14.W_3_9",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/15.lean",
+      "theorem": "Green15.green_15_ap4",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
+      "theorem": "Green18.green_18.bmz_corners",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/19.lean",
+      "theorem": "Green19.green_19",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+      "theorem": "Green2.green_2_lower_bound_sanders",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+      "theorem": "Green2.green_2_upper_bound_choi",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+      "theorem": "Green2.green_2_upper_bound_erdos",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+      "theorem": "Green2.green_2_upper_bound_ruzsa",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/22.lean",
+      "theorem": "Green22.green_22.variants.green_sawhney_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/22.lean",
+      "theorem": "Green22.green_22.variants.lower_nine",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/22.lean",
+      "theorem": "Green22.green_22.variants.moreira_infinite",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/25.lean",
+      "theorem": "Green25.green_25.variants.lower_ess89",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/25.lean",
+      "theorem": "Green25.green_25.variants.upper_ess89",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/25.lean",
+      "theorem": "Green25.green_25.variants.upper_ess89_trivial",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/26.lean",
+      "theorem": "Green26.green_26",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/26.lean",
+      "theorem": "Green26.green_26.variants.alm91",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/26.lean",
+      "theorem": "Green26.green_26.variants.yu25",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/27.lean",
+      "theorem": "Green27.green_27.variants.lower_be23",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/27.lean",
+      "theorem": "Green27.green_27.variants.previous_lower",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/27.lean",
+      "theorem": "Green27.green_27.variants.previous_upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/31.lean",
+      "theorem": "Green31.green_31.variants.sidon_01n_clz01",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/31.lean",
+      "theorem": "Green31.green_31.variants.upper_bfr23",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/31.lean",
+      "theorem": "Green31.green_31.variants.upper_cho25",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/31.lean",
+      "theorem": "Green31.green_31.variants.upper_li69",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+      "theorem": "Green32.green_32.variants.dirichlet_regime",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+      "theorem": "Green32.green_32.variants.finite_field",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+      "theorem": "Green32.green_32.variants.sh20_general",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+      "theorem": "Green32.green_32.variants.sh20_sqrt",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+      "theorem": "Green32.green_32.variants.szemeredi_regime",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/38.lean",
+      "theorem": "Green38.green_38.variants.best_lower",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/38.lean",
+      "theorem": "Green38.green_38.variants.best_upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/4.lean",
+      "theorem": "Green4.large_green_4",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+      "theorem": "Green40.green_40.sanity_f_one",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+      "theorem": "Green40.green_40.upper_bound_f_two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+      "theorem": "Green40.green_40.upper_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+      "theorem": "Green40.green_40.variants.arbitrary_subsets_sanity_f_tilde_two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
+      "theorem": "Green41.green_41.variants.kravitz_leng",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
+      "theorem": "Green41.minCopies_set_nonempty",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/46.lean",
+      "theorem": "Green46.green_46.variants.lower",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/46.lean",
+      "theorem": "Green46.green_46.variants.upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/5.lean",
+      "theorem": "Green5.green_5.variants.gowers_sl_two",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/5.lean",
+      "theorem": "Green5.green_5.variants.kedlaya",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
+      "theorem": "Green51.green_51.lower_ap",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
+      "theorem": "Green51.green_51.lower",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
+      "theorem": "Green51.green_51.upper_ap",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
+      "theorem": "Green51.green_51.upper",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
+      "theorem": "Green66.green_66.variants.trivial_bound",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/85.lean",
+      "theorem": "Green85.green_85_loose",
+      "upstream_status": "research solved"
+    },
+    {
+      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
+      "theorem": "Green9.green_9_i",
+      "upstream_status": "research solved"
+    }
+  ],
+  "source_repository": "https://github.com/google-deepmind/formal-conjectures"
+}

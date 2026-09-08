@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Lower bound (Hefty–Horn–King–Pfender 2025).\nThere exists a constant $c_1 \\in (0,1]$ such that, for sufficiently large $n$,\n$$\nc_1 \\sqrt{\\frac{n}{\\log n}} \\le f(n),\n$$\nwhere $f(n)$ denotes the maximum chromatic number of a triangle-free graph on\n$n$ vertices, formalized as `triangleFreeMaxChromatic n`.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1104»",
+  "pointer_target": null,
+  "references": [
+    "https://www.erdosproblems.com/1104"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1104.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1104.erdos_1104.variants.lower",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4f951361965b2bebb6ecb9f194c105fa14c894f5a27995039393aa3b8f070b62",
+  "type_pretty": "∃ c₁, 0 < c₁ ∧ c₁ ≤ 1 ∧ ∀ᶠ (n : ℕ) in Filter.atTop, c₁ * √↑n / √(Real.log ↑n) ≤ ↑(Erdos1104.triangleFreeMaxChromatic n)"
+}

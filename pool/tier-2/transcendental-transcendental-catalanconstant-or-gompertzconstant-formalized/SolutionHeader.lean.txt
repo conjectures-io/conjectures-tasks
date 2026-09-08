@@ -1,0 +1,4 @@
+import FormalConjectures.Wikipedia.Transcendental
+import TaskSupport
+
+namespace Bounty

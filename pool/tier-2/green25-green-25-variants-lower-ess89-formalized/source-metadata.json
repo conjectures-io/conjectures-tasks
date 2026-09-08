@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For $k \\ll \\log \\log N$, this is true [Gr24].\n\nNOTE: [ESS89] derive a precise constant for which this is true, but $\\ll$ would imply that it works\nfor any constant. We thus prefer a little-o statement.\n ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«25»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.25)",
+    "[ESS89] Erdős, Pál, András Sárközy, and V. T. Sós. \"On a conjecture of Roth and some related problems I.\" Irregularities of partitions. Berlin, Heidelberg: Springer Berlin Heidelberg, 1989. 47-59.",
+    "[Ru04] Ruzsa, Imre Z. \"A problem on restricted sumsets.\" CONTEMPORARY MATHEMATICS 342 (2004): 245-248."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/25.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green25.green_25.variants.lower_ess89",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6830656623db204e75bda6ff632680b7fb052575f7ef0cd38b534b6823d33e0f",
+  "type_pretty": "∀ (k : ℕ → ℕ),\n  (∀ᶠ (N : ℕ) in Filter.atTop, 1 ≤ k N ∧ k N ≤ N) ∧ (fun N => ↑(k N)) =o[Filter.atTop] Green25.bestLower →\n    ∀ᶠ (N : ℕ) in Filter.atTop, Green25.Property25 (k N) N"
+}

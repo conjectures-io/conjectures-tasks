@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**There are infinitely many Steiner systems with $t = 4$.**\n\nKeevash (2014) proved that for any fixed $t$ and $k$, a Steiner system $S(t, k, n)$\nexists for all sufficiently large $n$ satisfying the necessary divisibility conditions.\nSince there are infinitely many such admissible $n$, this implies infinitely many\n$S(4, k, n)$ systems exist (for any fixed $k > 4$). The proof is nonconstructive.\n\nExplicit examples include $S(4, 5, 11)$ (the unique system, related to the Mathieu\ngroup $M_{11}$) and $S(4, 7, 23)$ (related to the Mathieu group $M_{23}$).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.SteinerSystem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Steiner_system)",
+    "[Large Steiner Systems](https://epoch.ai/frontiermath/open-problems/large-steiner-systems) by Kunal Marwaha"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/SteinerSystem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "SteinerSystems.infinitely_many_steiner_t4",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7f0c8adbe3801c4644c266ac3701170d0444786c546f39bfb13a54f074f78912",
+  "type_pretty": "∃ S, S.Infinite"
+}

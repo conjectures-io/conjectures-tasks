@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Mathoverflow486451.exists_semiring_unique_left_maximal_not_unique_right_maximal"
+  ],
+  "generated_target_type_hash": "sha256:f17ae37e97686adb087175136ad219c50ea69c02ffe6640f2585a62f2ae96934",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Mathoverflow.«486451»",
+  "source_path": "FormalConjectures/Mathoverflow/486451.lean",
+  "source_theorem": "Mathoverflow486451.exists_semiring_unique_left_maximal_not_unique_right_maximal",
+  "source_type_hash": "sha256:f17ae37e97686adb087175136ad219c50ea69c02ffe6640f2585a62f2ae96934",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-mathoverflow486451-exists-semiring-unique-left-maximal-not-unique-right-maximal-f2f974bff1-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f5cd0caed496bf96d87a58d4c15a17c4e55046508ffd88ccc9d03ed344aaa355",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:e222e01c13f8ecdec69b5ecda310aaf5616d1b0bd1217de8e11876382a397383",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:22e3b40bcb1e79ece5f03ec14fc9e41c35873164a7deca4797f48f923b52c179"
+  }
+}

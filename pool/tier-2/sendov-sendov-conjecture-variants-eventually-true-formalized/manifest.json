@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Sendov.sendov_conjecture.variants.eventually_true"
+  ],
+  "generated_target_type_hash": "sha256:e4fdebcfe71d91aef91fbf43f42cd54991d5ab39d7ef7b273481340fe424d917",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Sendov",
+  "source_path": "FormalConjectures/Wikipedia/Sendov.lean",
+  "source_theorem": "Sendov.sendov_conjecture.variants.eventually_true",
+  "source_type_hash": "sha256:e4fdebcfe71d91aef91fbf43f42cd54991d5ab39d7ef7b273481340fe424d917",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-eventually-true-a33cd42ee5-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:4d13001c147a79ead37322cd6762c25d0aefd0a769827298433dd8e85cbac160",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:e1ae058458ccde0ab43af33d74a16050edcf7563127ccb47ffe961e2b692aa44",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:58a76083b58f32518c5a6c837c9a046137f836dd2cbce68ddd135cc0c32f04bb"
+  }
+}

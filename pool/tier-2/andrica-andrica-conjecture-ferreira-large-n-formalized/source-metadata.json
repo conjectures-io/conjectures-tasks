@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Ferreira proved that Andrica's conjecture is true for sufficiently large n.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Andrica",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Andrica%27s_conjecture)",
+    "[Luan Alberto Ferreira, *Real exponential sums over primes and prime gaps*](https://arxiv.org/abs/2307.08725)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/Andrica.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Andrica.andrica_conjecture.ferreira_large_n",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7e4d6183442e69d5d0238133377e8c4f611a6c53bbe81aa7592fd3eb6c62f737",
+  "type_pretty": "∀ᶠ (n : ℕ) in Filter.atTop, √↑(Nat.nth Nat.Prime (n + 1)) - √↑(Nat.nth Nat.Prime n) < 1"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    51
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The best upper bound known in general is due to Blokhius [Bl84] who showed that\n$$\n|A| \\leq \\binom{n + 2}{2}\n$$\n\n[Bl84] Blokhuis, A., Few-distance sets. (1984), iv+70.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«503»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/503](https://www.erdosproblems.com/503)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/503.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos503.erdos_503.variants.upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:760867d89013cb95232bfcea7a1f28efe938697d930a901a265b2fa77f11980d",
+  "type_pretty": "∀ (n m : ℕ), m ∈ {x | ∃ A, ∃ (_ : A.IsIsosceles), A.ncard = x} → m ≤ (n + 2).choose 2"
+}

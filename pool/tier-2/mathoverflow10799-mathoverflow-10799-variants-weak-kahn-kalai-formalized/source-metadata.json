@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    60
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Weaker version proven by Kahn–Kalai: the same conclusion holds when $1000 \\log n$ is replaced by\n$C_\\varepsilon \\, n^\\varepsilon$ for every fixed $\\varepsilon > 0$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Mathoverflow.«10799»",
+  "pointer_target": null,
+  "references": [
+    "[mathoverflow/10799](https://mathoverflow.net/questions/10799) asked by user [*Gil Kalai*](https://mathoverflow.net/users/1532/gil-kalai)",
+    "[Optimal Monotone Families for the Discrete Isoperimetric Inequality](https://gilkalai.wordpress.com/ai/optimal-monotone-families-for-the-discrete-isoperimetric-inequality/) by *Gil Kalai* (2026), a Polymath project with AI agents",
+    "[An Isoperimetric Inequality for the Hamming Cube and Integrality Gaps in Bounded-Degree Graphs](https://arxiv.org/abs/math/0603218) by *Jeff Kahn* and *Gil Kalai* (2006)",
+    "[A Proof of the Kahn–Kalai Conjecture](https://arxiv.org/abs/2203.17207) by *Jinyoung Park* and *Huy Tuan Pham* (2022)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Mathoverflow/10799.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Mathoverflow10799.mathoverflow_10799.variants.weak_kahn_kalai",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:618398214ca135f0d5da5b97a2b49ea9578342e13da0f2bcd7e0353fb4dc03de",
+  "type_pretty": "∀ ε > 0,\n  ∃ C > 0,\n    ∀ (n : ℕ),\n      2 ≤ n →\n        ∀ (F : Finset (Finset (Fin n))),\n          Mathoverflow10799.IsMonotoneIncreasing F →\n            ∀ (s t : ℝ),\n              0 < s → s ≤ t → t < 1 → t / s > C * ↑n ^ ε → ∃ p, s ≤ p ∧ p ≤ t ∧ Mathoverflow10799.IsOptimal p F"
+}

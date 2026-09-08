@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Sendov.sendov_conjecture.variants.le_nine"
+  ],
+  "generated_target_type_hash": "sha256:8e185300398111a7f1e88fd4034cf591311eb3826a2cdd688b10b38a1965b1cd",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Sendov",
+  "source_path": "FormalConjectures/Wikipedia/Sendov.lean",
+  "source_theorem": "Sendov.sendov_conjecture.variants.le_nine",
+  "source_type_hash": "sha256:8e185300398111a7f1e88fd4034cf591311eb3826a2cdd688b10b38a1965b1cd",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-le-nine-ebd5e11643-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:975eb2ec833c3a4ae01de25f88e88945712cb6529193b44df6fd1fe8ab7c1916",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:e1ae058458ccde0ab43af33d74a16050edcf7563127ccb47ffe961e2b692aa44",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:687cb4c12fdc2cd2adac9a47970be732a0658b193337b4fbc0e1df844d9c3a9d"
+  }
+}

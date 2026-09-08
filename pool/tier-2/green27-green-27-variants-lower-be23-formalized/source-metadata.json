@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "We have $m(p) \\geq \\omega(p) \\log p$ for some function $\\omega(p)$ tending to infinity [Be23, Theorem 3].\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«27»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.27)",
+    "[Be23] Bedert, Benjamin. \"On unique sums in Abelian groups.\" Combinatorica 44.2 (2024): 269-298.",
+    "[St76] Straus, E. G. \"Differences of residues (mod p).\" Journal of Number Theory 8.1 (1976): 40-42."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/27.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green27.green_27.variants.lower_be23",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:64fd1667a4b3d45de17e15693f70a751b27892c4626310190b09a3e02d8f7bbf",
+  "type_pretty": "∃ ω,\n  Filter.Tendsto ω Green27.primesAtTop Filter.atTop ∧ ∀ᶠ (p : ℕ) in Green27.primesAtTop, ω p * Real.log ↑p ≤ Green27.m p"
+}

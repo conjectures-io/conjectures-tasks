@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Ruzsa proved that any additive complement $A$ to the primes must satisfy\n$\\liminf_{N \\to \\infty} \\frac{|A \\cap \\{1, \\ldots, N\\}|}{\\log N} \\geq e^\\gamma$,\nwhere $\\gamma$ is the Euler-Mascheroni constant.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«32»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/32](https://www.erdosproblems.com/32)",
+    "[Erd54] Erdős, Paul, Some results on additive number theory. Proc. Amer. Math. Soc. (1954), 847-853.",
+    "[Guy04] Guy, Richard K., Unsolved problems in number theory. (2004), xviii+437",
+    "[Ru98c] Ruzsa, Imre Z., On the additive completion of primes. Acta Arith. (1998), 269-275."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/32.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos32.erdos_32.variants.ruzsa",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:be674ab5d1b0cd793bb6d84a4d3cd0857b32e058db7932e454f356df727db3ed",
+  "type_pretty": "∀ (A : Set ℕ),\n  Erdos32.IsAdditiveComplementToPrimes A →\n    ↑(Real.exp Real.eulerMascheroniConstant) ≤\n      Filter.liminf (fun N => ↑{x ∈ Finset.Icc 1 N | x ∈ A}.card / ↑(Real.log ↑N)) Filter.atTop"
+}

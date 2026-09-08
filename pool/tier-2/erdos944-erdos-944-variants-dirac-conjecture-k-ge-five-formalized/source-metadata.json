@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Jensen [Je02] gave an construction for $k$-critical graphs without any critical edges for all $k ≥ 5$.\n\n[Je02] Jensen, Tommy R., Dense critical and vertex-critical graphs. Discrete Math. (2002), 63--84.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«944»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/944](https://www.erdosproblems.com/944)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/944.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_ge_five",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9400ff1dfdf422da94832315a1f3df189e260de10bd41ccede6cd839a7ec32eb",
+  "type_pretty": "∀ (k : ℕ), 5 ≤ k → ∃ V G, Erdos944.SimpleGraph.IsErdos944 G k 1"
+}

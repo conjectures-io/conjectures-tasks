@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos1085.erdos_1085.variants.lower_d4_lenz"
+  ],
+  "generated_target_type_hash": "sha256:aa55e094fbc22416e4b586aa58f77679d7ccffd90e56d4c443f1b1377e90e066",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«1085»",
+  "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+  "source_theorem": "Erdos1085.erdos_1085.variants.lower_d4_lenz",
+  "source_type_hash": "sha256:aa55e094fbc22416e4b586aa58f77679d7ccffd90e56d4c443f1b1377e90e066",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-lower-d4-lenz-ed87bff0ca-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:bec8ffbdf7db780fe2c580431543cb6f06e862b7686539a815aa91ec7835fc79",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:cf7049d4bb370e484b6bd8acb50ac55cc80eb56bb7ef26fc7512fce14f1674a7",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:148cb911fd12dd66d2d1b57de82d862b588fd1ba5528280e19dd0e0670fa5f93"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos36.minimum_overlap.variants.lower.haugland_1996"
+  ],
+  "generated_target_type_hash": "sha256:7e183e81ca1ba433936f2b01dccd44e418425d6ced7158705f28be754b777044",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«36»",
+  "source_path": "FormalConjectures/ErdosProblems/36.lean",
+  "source_theorem": "Erdos36.minimum_overlap.variants.lower.haugland_1996",
+  "source_type_hash": "sha256:7e183e81ca1ba433936f2b01dccd44e418425d6ced7158705f28be754b777044",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-lower-haugland-1996-a07a4e29c9-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:5aa40ba5900c49617535a6664f234d80d4e40aa6045c69b5cadab992ef0c8dc6",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:f5e60ce964320ea18d18e6b10eccffb0ccb632574bb51660ac9b8453f483cd41",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:9e4f87d4853b01d149749fbab4b6e66457a3db0649864973667dcf4d8b91f461"
+  }
+}

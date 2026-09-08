@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Gyárfás [ErGy99] showed this property fails for infinitely many $r$ if we replace $r^2+1$\nby $r^2$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«617»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/617](https://www.erdosproblems.com/617)",
+    "[ErGy99](https://doi.org/10.1016/S0012-365X(98)00323-9) Erdős, Paul and Gyárfás, András, Split and balanced colorings of complete graphs. Discrete Math. (1999), 79-86."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/617.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos617.erdos_617.variants.r2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3b47ae4b1e5fb056d85db97ad5781afcb7d71a7574dab231497ce669ec253ada",
+  "type_pretty": "{r |\n    ∃ V x x_1,\n      Fintype.card V = r ^ 2 ∧\n        ∃ coloring,\n          ∀ (S : Finset V), S.card = r + 1 → ∀ (k : Fin r), ∃ u ∈ S, ∃ v ∈ S, u ≠ v ∧ coloring s(u, v) = k}.Infinite"
+}

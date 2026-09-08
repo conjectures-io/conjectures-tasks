@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "InverseGalois.inverse_galois_problem.variants.complex_rational_functions"
+  ],
+  "generated_target_type_hash": "sha256:711e1fb9c0c4d83421fd9d7ce10c0633c13e5ab11b7081d15b82a8c8830c331e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.InverseGalois",
+  "source_path": "FormalConjectures/Wikipedia/InverseGalois.lean",
+  "source_theorem": "InverseGalois.inverse_galois_problem.variants.complex_rational_functions",
+  "source_type_hash": "sha256:711e1fb9c0c4d83421fd9d7ce10c0633c13e5ab11b7081d15b82a8c8830c331e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-complex-rational-functions-8334e748a1-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:0633d224ad1c08a6705795ee42029f3fae8bb08ca1b6615e2f8d90f4678b4d30",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:41e3ac366d3b1274e72bec4e8f9692eb0a518e8472c26061c460bd51f51b1f48",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:ffa09ce3d469d3fdc9eef8566ceb183e2d78435eb273e4db0fee258fc6a2de49"
+  }
+}

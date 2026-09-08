@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "VCDimConvex.exists_infinite_convex_r3_shatters"
+  ],
+  "generated_target_type_hash": "sha256:2ca6c5c5538c57bc586a5acf3acf43d62d1df43877f73e5b82858dd60593c75f",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Other.VCDimConvex",
+  "source_path": "FormalConjectures/Other/VCDimConvex.lean",
+  "source_theorem": "VCDimConvex.exists_infinite_convex_r3_shatters",
+  "source_type_hash": "sha256:2ca6c5c5538c57bc586a5acf3acf43d62d1df43877f73e5b82858dd60593c75f",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-vcdimconvex-exists-infinite-convex-r3-shatters-3606a13e15-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:b425d89120f776bb3ade3f6e080693a482f192a382dcc4c1edba3700270a3363",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:91dbdb55945e47961e5d676a19789684fa9ef16400e5c7d3b8de0fc84bd72970",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4504e8bad3501f61f7706fa4fc6c6a50831e94eb14a9c82760e429b1913ad2f3"
+  }
+}

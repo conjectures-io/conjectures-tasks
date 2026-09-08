@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "VCDimConvex.exists_convex_rn_add_two_vc_n_forall_not_hasAddVCNDimAtMost"
+  ],
+  "generated_target_type_hash": "sha256:56838366911f586b8b8662b0aab07d991e73e42c828d9d2de3ff4c8e89a81f9b",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Other.VCDimConvex",
+  "source_path": "FormalConjectures/Other/VCDimConvex.lean",
+  "source_theorem": "VCDimConvex.exists_convex_rn_add_two_vc_n_forall_not_hasAddVCNDimAtMost",
+  "source_type_hash": "sha256:56838366911f586b8b8662b0aab07d991e73e42c828d9d2de3ff4c8e89a81f9b",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-vcdimconvex-exists-convex-rn-add-two-vc-n-forall-not-hasaddvcndimatmost-6872676ad5-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:97fee0aa1e8728468a0491ae749ae215b34f3d473121f5e323c07e327eaa7eb6",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:91dbdb55945e47961e5d676a19789684fa9ef16400e5c7d3b8de0fc84bd72970",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5566e5d86afd32f7489c4adeba9da81521c23dd8aaf2de8ec172d2536abf250a"
+  }
+}

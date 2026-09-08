@@ -1,0 +1,37 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    8
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Equation 677 does not imply Equation 255. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Other.EquationalTheories_677_255",
+  "pointer_target": null,
+  "references": [
+    "[Equational Theories project site](https://teorth.github.io/equational_theories/implications/?677&finite)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Other/EquationalTheories_677_255.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "EquationalTheories_677_255.Equation677_not_implies_Equation255",
+  "transitive_axioms": [
+    "sorryAx"
+  ],
+  "type_hash": "sha256:24c0f8d01f4fd845219026e50e82d71664611208b8cb9c01c6e822fb8ccbeb0e",
+  "type_pretty": "∃ G x, EquationalTheories_677_255.Equation677 G ∧ ¬EquationalTheories_677_255.Equation255 G"
+}

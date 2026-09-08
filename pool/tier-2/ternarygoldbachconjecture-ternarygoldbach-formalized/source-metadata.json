@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can every odd integer greater than 5 be written as the sum of three primes?\n(A prime may be used more than once.)\n\nNB. While Harald Helfgott's solution is not published in a peer-reviewed journal yet,\nhis results seem generally accepted.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.GoldbachConjecture",
+  "pointer_target": null,
+  "references": [
+    "[Landau Problems Wikipedia Page](https://en.wikipedia.org/wiki/Landau%27s_problems#Twin_prime_conjecture)",
+    "[Goldbach's Conjecture Wikipedia Page](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "TernaryGoldbachConjecture.ternaryGoldbach",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:08f55510d45838d4e37f79507b7e4632b38bb70360a52cd4183f46419fc4c59a",
+  "type_pretty": "∀ (n : ℕ), 5 < n → Odd n → ∃ p q r, Nat.Prime p ∧ Nat.Prime q ∧ Nat.Prime r ∧ n = p + q + r"
+}

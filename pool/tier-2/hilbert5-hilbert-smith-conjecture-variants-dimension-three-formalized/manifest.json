@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Hilbert5.hilbert_smith_conjecture.variants.dimension_three"
+  ],
+  "generated_target_type_hash": "sha256:2b27961c331112d761926609dd2dec3881acf34517f8d6319ad48d753a0b2223",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HilbertProblems.«5»",
+  "source_path": "FormalConjectures/HilbertProblems/5.lean",
+  "source_theorem": "Hilbert5.hilbert_smith_conjecture.variants.dimension_three",
+  "source_type_hash": "sha256:2b27961c331112d761926609dd2dec3881acf34517f8d6319ad48d753a0b2223",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-dimension-three-548badb779-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:40d40e6b9ba513d174a885f746f23dfdd76db252700344f22308c0e45beb360a",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7700957c3f3b69625641329168800c4946ed6b47fdb456aa1a80ca0ce1c984d2",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:1f09101f3dfd386daa52980f9fa5c281b0ab5c0e8fd58508c2d103b4f5f35d7d"
+  }
+}

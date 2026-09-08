@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Yu [Yu23] showed that the union-closed sets conjecture holds with a constant of approximately\n0.38234 instead of 1/2.\n[Yu23] Yu, Lei (2023). \"Dimension-free bounds for the union-closed sets conjecture\". Entropy. 25 (5): 767.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.UnionClosed",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Union-closed_sets_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/UnionClosed.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "UnionClosed.union_closed.variants.yu",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ec9004d2ce8c763ff4bf52192d61d2e7fe70b0c9dce04f918184cbf627a60e46",
+  "type_pretty": "∀ {n : Type u_1} [inst : DecidableEq n] {A : Finset (Finset n)} [Nonempty n],\n  A ≠ {∅} → UnionClosed.IsUnionClosed A → ∃ i, 0.38234 * ↑A.card ≤ ↑{x ∈ A | i ∈ x}.card"
+}

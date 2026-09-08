@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Bedocchi showed that any Giuga number has at least 1700 digits.\nRef: E. Bedocchi, _Note on a conjecture about prime numbers_\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.AgohGiuga",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Agoh-Giuga_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/AgohGiuga.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f272031d91ef7e380f6de7a50fe40c03346eb5e7f3b26b6d44155dfe2231dce8",
+  "type_pretty": "∀ (a : ℕ), AgohGiuga.IsStrongGiuga a → (Nat.digits 10 a).length > 1700"
+}

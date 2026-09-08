@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Existence of $S(5, 8, 24)$**: The large Witt design.\n\nThere exists a unique Steiner system $S(5, 8, 24)$, known as the large Witt design.\nIt was constructed by Witt (1938) and is closely related to the Mathieu group $M_{24}$.\nThis is one of only two known Steiner systems with $t = 5$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.SteinerSystem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Steiner_system)",
+    "[Large Steiner Systems](https://epoch.ai/frontiermath/open-problems/large-steiner-systems) by Kunal Marwaha"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/SteinerSystem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "SteinerSystems.steiner_system_5_8_24",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b952c4545b5989edde8657fa38aabe9203e108ae3477e72bd1279a52310ce460",
+  "type_pretty": "Nonempty (SteinerSystems.SteinerSystem 5 8 24)"
+}

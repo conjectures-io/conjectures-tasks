@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "AgohGiuga.isStrongGiuga_iff"
+  ],
+  "generated_target_type_hash": "sha256:6246830c316e723e386030de22ad6c33357fad4db2eeb24641aca120adec6383",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.AgohGiuga",
+  "source_path": "FormalConjectures/Wikipedia/AgohGiuga.lean",
+  "source_theorem": "AgohGiuga.isStrongGiuga_iff",
+  "source_type_hash": "sha256:6246830c316e723e386030de22ad6c33357fad4db2eeb24641aca120adec6383",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-agohgiuga-isstronggiuga-iff-b3aa1af0a6-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:957b01106f18c6299a4cad13b69fa8906d51a0df2b2e7b0ddd3901c9b3f75e27",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:9e80cf03b1f41d246c8a66f9a00bc094c739ddfa4b733b6cb2dd61c327b9322a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:dfce1ea3dfba36b99674037af05411a8e01327c2bef4e3874012d6ee4843a302"
+  }
+}

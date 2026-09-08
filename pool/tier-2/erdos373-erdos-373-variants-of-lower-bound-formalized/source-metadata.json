@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Show that if `P(n(n−1)) > 4 log n` for large enough `n`, where `P(m)` denotes the\nlargest prime factor of `m`, then the equation `n!=a_1!a_2!···a_k!`, with\n`n−1 > a_1 ≥ a_2 ≥ ··· ≥ a_k`, has only finitely many solutions.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«373»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/373](https://www.erdosproblems.com/373)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/373.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos373.erdos_373.variants.of_lower_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ada561a2f32785b26ecd8eff50edacb050abf3b2049eec60f1158bc65f7fa8c0",
+  "type_pretty": "(∀ᶠ (n : ℕ) in Filter.atTop, 4 * Real.log ↑n < ↑(n * (n - 1)).maxPrimeFac) → Erdos373.S.Finite"
+}

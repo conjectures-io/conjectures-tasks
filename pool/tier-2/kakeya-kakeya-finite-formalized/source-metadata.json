@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The finite field Kakeya conjecture asserts that any Kakeya set in `𝔽_qⁿ` has size at\nleast `c_n · qⁿ` for some constant `c_n` depending only on `n`.\nThis was first proved by Dvir [Dv08]. The best known bound to date, due to Bukh and Chao [BuCh21],\nestablishes that any Kakeya set in `𝔽_qⁿ` has size at least `qⁿ / (2 - 1/q)^(n - 1)`.\n\n[Dv08] Dvir, Z., _On the size of Kakeya sets in finite fields_. Journal of the American Mathematical Society 22 (2009), no. 4, 1093–1097.\n[BuCh21] Bukh, B. and Chao, T.-W., _Sharp density bounds on the finite field Kakeya problem_. Discrete Analysis 26 (2021), 9 pp.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Kakeya",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Kakeya_set)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/Kakeya.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Kakeya.kakeya_finite",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:425838cff964b4d3970f1890eb6ee268b66128ff52f9f1337124f2c063bb47ea",
+  "type_pretty": "∀ {F : Type u_1} [inst : Field F] [inst_1 : Fintype F] {n : ℕ} (K : Finset (Fin n → F)),\n  Kakeya.IsKakeyaFinite K → ↑(Fintype.card F) ^ n / (2 - 1 / ↑(Fintype.card F)) ^ (n - 1) ≤ ↑K.card"
+}

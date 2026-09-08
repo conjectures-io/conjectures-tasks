@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "SteinerSystems.infinitely_many_steiner_t4"
+  ],
+  "generated_target_type_hash": "sha256:7f0c8adbe3801c4644c266ac3701170d0444786c546f39bfb13a54f074f78912",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.SteinerSystem",
+  "source_path": "FormalConjectures/Wikipedia/SteinerSystem.lean",
+  "source_theorem": "SteinerSystems.infinitely_many_steiner_t4",
+  "source_type_hash": "sha256:7f0c8adbe3801c4644c266ac3701170d0444786c546f39bfb13a54f074f78912",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-steinersystems-infinitely-many-steiner-t4-18b4e51b36-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:69b96005317ac41298ced312d786cfd33c1915c4c4ad20acdde41322f035b27a",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:04737a4c02860b1816aa51da8df3f9c8ecb0c86367a58dbedf91f9e3ecda3c9a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:1c0d29b6391db9d4fbbf7640930668948c4408e6ecc3e15ca66e6f15baa4ca1c"
+  }
+}

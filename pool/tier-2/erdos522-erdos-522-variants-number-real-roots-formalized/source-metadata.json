@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    12,
+    60
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Offord showed that the number of real roots of a random degree `n` polynomial with `±1`\ncoefficients is `(2/π+o(1))log n`.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«522»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/522](https://www.erdosproblems.com/522)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/522.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos522.erdos_522.variants.number_real_roots",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2e8eb9b01d19565e300d29590a02dbdfeba347300eef2815e14d31b3f55facf1",
+  "type_pretty": "∃ p o,\n  Filter.Tendsto o Filter.atTop (nhds 0) ∧\n    Filter.Tendsto p Filter.atTop (nhds 0) ∧\n      ∀ (Ω : Type u_3) [inst : MeasureTheory.MeasureSpace Ω] [MeasureTheory.IsProbabilityMeasure MeasureTheory.volume]\n        (n : ℕ),\n        2 ≤ n →\n          ∀ (f : Erdos522.KacCoefficients {-1, 1} Ω MeasureTheory.volume),\n            (MeasureTheory.volume {ω | |↑(f.roots n ω).card / Real.log ↑n - 2 / Real.pi| ≥ o n}).toReal ≤ p n"
+}

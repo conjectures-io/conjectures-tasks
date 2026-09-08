@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos145.erdos_145.variants.le_eleven_thirds"
+  ],
+  "generated_target_type_hash": "sha256:3479a83941d25a53b3eead9acdd3e56d5b5d81d5c924517f0213e27697e36de4",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«145»",
+  "source_path": "FormalConjectures/ErdosProblems/145.lean",
+  "source_theorem": "Erdos145.erdos_145.variants.le_eleven_thirds",
+  "source_type_hash": "sha256:3479a83941d25a53b3eead9acdd3e56d5b5d81d5c924517f0213e27697e36de4",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-le-eleven-thirds-3f833cedfc-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:8b5eccd37bb6dee83dd5dcf682c84af67772f7186c602d5811114611db8ae145",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:43da75bd3a6e58db337a7c8049ddcddbbb15df2715a85cf728a618660159745c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:864ba49653cec45eda3e642e4d949ed3868088386676c88c8a7988eb5675d38b"
+  }
+}

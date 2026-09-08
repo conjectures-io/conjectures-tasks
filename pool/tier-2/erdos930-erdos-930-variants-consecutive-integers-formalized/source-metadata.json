@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdos and Selfridge [ErSe75] proved that the product of\nconsecutive integers is never a power (establishing the case $r=1$).\n\nTheorem 1 from [ErSe75].\n\nIt is implied from `erdos_930.variants.consecutive_strong`.\n\n[ErSe75] Erdős, P. and Selfridge, J. L., The product of consecutive integers is never a power. Illinois J. Math. (1975), 292-301.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«930»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/930](https://www.erdosproblems.com/930)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/930.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos930.erdos_930.variants.consecutive_integers",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:cb3412eb8a59bdbf5b2a3fe10eb0142ba91cb4380a3e0524e2bb845c8992e701",
+  "type_pretty": "∀ (n k : ℕ), 0 ≤ n → 2 ≤ k → ¬Erdos930.IsPower (∏ m ∈ Finset.Icc (n + 1) (n + k), m)"
+}

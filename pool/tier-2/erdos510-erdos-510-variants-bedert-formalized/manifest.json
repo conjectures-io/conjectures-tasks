@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos510.erdos_510.variants.bedert"
+  ],
+  "generated_target_type_hash": "sha256:0a6662532e7202ad0f5337a6fff3e2e627cca361093ae4b1503fae486b1ef281",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«510»",
+  "source_path": "FormalConjectures/ErdosProblems/510.lean",
+  "source_theorem": "Erdos510.erdos_510.variants.bedert",
+  "source_type_hash": "sha256:0a6662532e7202ad0f5337a6fff3e2e627cca361093ae4b1503fae486b1ef281",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-bedert-1351373249-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:a1e0612855702acd2e2110b0e67bc1234e468a0f82aac9b03a7b1fb8398b0639",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7793432a5ef6a42fb07bd2c8f4b2f95f3fe5c232a5be75c994445f6a85c1c6a8",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0bfa730a1c1fc276a9811789b6c1db383a29fcddacae639f1933666c0f9969b1"
+  }
+}

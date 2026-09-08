@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős [Er49c] proved that for any `ε > 0` we have `p(a, d) < ε * φ(d) * log d` for `≫_ε φ(d)` many\nvalues of `a` (for all large `d`).\n\n[Er49c] Erdős, P., _On some applications of Brun's method_. Acta Univ. Szeged. Sect. Sci. Math.\n(1949), 57--63.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«971»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/971](https://www.erdosproblems.com/971)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/971.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos971.erdos_971.variants.many_small",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:61eca46e1c271678589760ea39064617f0ad2d67612ee5d23f08afdc01d944e0",
+  "type_pretty": "∀ ε > 0,\n  ∃ C > 0,\n    ∀ᶠ (d : ℕ) in Filter.atTop,\n      C * ↑d.totient ≤\n        ↑{a ∈ Finset.Iio d | a.Coprime d ∧ ↑(Erdos971.leastCongruentPrime a d) < ε * ↑d.totient * Real.log ↑d}.card"
+}

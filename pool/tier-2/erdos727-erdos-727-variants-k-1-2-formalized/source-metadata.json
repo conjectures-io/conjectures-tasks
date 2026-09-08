@@ -1,0 +1,37 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős, Graham, Ruzsa, and Straus observe that the method of Balakran can be further used to prove\nthat there are infinitely many $n$ such that $(n+k)!(n+1)!∣(2n)!$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«727»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/727](https://www.erdosproblems.com/727)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/727.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos727.erdos_727.variants.k_1_2",
+  "transitive_axioms": [
+    "sorryAx"
+  ],
+  "type_hash": "sha256:046c659c69f1579a46e311e75c6065867ad7291283d4469c6fe88aaa99b9de7b",
+  "type_pretty": "∀ (k : ℕ), 2 ≤ k → {n | (n + k).factorial * (n + 1).factorial ∣ (2 * n).factorial}.Infinite"
+}

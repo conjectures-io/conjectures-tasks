@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Since $x, y \\geq 3$, we must have $xy \\geq 9$, so $N_0(r) \\geq 9$\n(assuming $N_0(r)$ is well-defined, which follows from [Mo17]).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«22»",
+  "pointer_target": null,
+  "references": [
+    "[Gr26] [Ben Green's Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.22)",
+    "[Mo17] Moreira, Joel. \"Monochromatic sums and products in N.\" Annals of Mathematics 185.3 (2017): 1069-1090.",
+    "[GrSa25] Green, Ben, and Mehtaab Sawhney. \"Bounds for monochromatic solutions to $\\{x+ y, xy\\} $.\" arXiv preprint arXiv:2511.09365 (2025).",
+    "[Ri25] Richter, Florian K. \"Sums and products in sets of positive density.\" arXiv preprint arXiv:2507.00515 (2025).",
+    "[BoSa24] Bowen, Matt, and Marcin Sabok. \"Monochromatic products and sums in the rationals.\" Forum of Mathematics, Pi. Vol. 12. Cambridge University Press, 2024.",
+    "[Bo25] Bowen, Matt. \"Monochromatic products and sums in 2-colorings of N.\" Advances in Mathematics 462 (2025): 110095.",
+    "[Al23] Alweiss, Ryan. \"Monochromatic Sums and Products over $\\mathbb {Q} $.\" arXiv preprint arXiv:2307.08901 (2023)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/22.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green22.green_22.variants.lower_nine",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:72d75f3115ee0b74b35ddbb53cf1b7227b9e9fda5fd542ec48966b079b46782c",
+  "type_pretty": "∀ (r : ℕ), r ≠ 0 → 9 ≤ Green22.N₀ r"
+}

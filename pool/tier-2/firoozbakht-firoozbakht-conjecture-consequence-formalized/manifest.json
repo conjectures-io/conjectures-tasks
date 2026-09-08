@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Firoozbakht.firoozbakht_conjecture_consequence"
+  ],
+  "generated_target_type_hash": "sha256:5558c09781f05772bd5c280c8aa4973c69e33acdddd90f8f8cc13d2b6953103a",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Firoozbakht",
+  "source_path": "FormalConjectures/Wikipedia/Firoozbakht.lean",
+  "source_theorem": "Firoozbakht.firoozbakht_conjecture_consequence",
+  "source_type_hash": "sha256:5558c09781f05772bd5c280c8aa4973c69e33acdddd90f8f8cc13d2b6953103a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-firoozbakht-firoozbakht-conjecture-consequence-76ae8d7a43-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:ee6920431de27992e2874541059ef90696c7860ee2718d49aa26334ad13d86db",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:4a80a9e48896604b4372649ab024cbb2827fe3a7da7ffbd8570150a36474ec3e",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:39f9546d851cf18ef2ff338586ca845928f1260ce6847947a9732a19d0f33e93"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    20
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Kedlaya [Ke97] observed, refining some work of Babai and Sós [BaSo85], that it follows from the\nclassification of finite simple groups that every finite group $G$ of order $n$ has a\nproduct-free subset of size $\\gg n^{11/14}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«5»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.5)",
+    "[BaSo85] Babai L, Sós VT. Sidon sets in groups and induced subgraphs of Cayley graphs. European Journal of Combinatorics. 1985 Jun 1;6(2):101-14.",
+    "[Ke97] Kedlaya, K. S., *Large product-free subsets of finite groups*, J. Combin. Theory Ser. A 77 (1997), no. 2, 339–343.",
+    "[Ke09] Kedlaya, K. S., *Product-free subsets of groups, then and now*, Contemp. Math., 479, American Mathematical Society, Providence, RI, 2009, 169–177.",
+    "[Go08] Gowers, W. T., *Quasirandom groups*, Combin. Probab. Comput. 17 (2008), no. 3, 363–387."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/5.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green5.green_5.variants.kedlaya",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ac60cbc7e1ac9a064cf7ec99a88d7c75c86b1cb850da2301c3af1f377ada8b1e",
+  "type_pretty": "∃ c > 0,\n  ∀ (G : Type) [inst : Group G] [inst_1 : Fintype G],\n    Nontrivial G → ∃ S, IsProductFree ↑S ∧ c * ↑(Fintype.card G) ^ (11 / 14) ≤ ↑S.card"
+}

@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Bedert [Be25c] proved an upper bound of $-c N^{1/7}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«510»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/510](https://www.erdosproblems.com/510)",
+    "[Ben Green's Open Problem 81](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.11)",
+    "[Ru04] Ruzsa, Imre Z., Negative values of cosine sums. Acta Arith. (2004), 179-186.",
+    "[Be25c] B. Bedert, Polynomial bounds for the Chowla Cosine Problem. arXiv:2509.05260 (2025)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/510.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos510.erdos_510.variants.bedert",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0a6662532e7202ad0f5337a6fff3e2e627cca361093ae4b1503fae486b1ef281",
+  "type_pretty": "∃ c,\n  ∃ (_ : 0 < c),\n    ∀ᶠ (N : ℕ) in Filter.atTop,\n      ∀ (A : Finset ℕ), 0 ∉ A → A.card = N → ∃ θ, ∑ n ∈ A, Real.cos (↑n * θ) < -c * ↑N ^ (1 / 7)"
+}

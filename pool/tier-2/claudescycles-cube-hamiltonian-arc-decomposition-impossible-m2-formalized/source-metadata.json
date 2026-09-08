@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The case `m = 2` is impossible: the cube digraph on `(ZMod 2)³` does not have a\nHamiltonian arc decomposition [Aub82]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Paper.ClaudesCycles",
+  "pointer_target": null,
+  "references": [
+    "[Claude's Cycles](https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Paper/ClaudesCycles.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "ClaudesCycles.cube_hamiltonian_arc_decomposition_impossible_m2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8bcf3927117eb9daaccf75a1a30c60e2a5bb4a7f7cd8086e66d46275ae642d52",
+  "type_pretty": "¬ClaudesCycles.HasHamiltonianArcDecomposition 2"
+}

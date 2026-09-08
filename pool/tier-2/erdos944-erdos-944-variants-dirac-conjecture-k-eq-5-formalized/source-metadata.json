@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Dirac's conjecture was proved, for $k=5$: There exists a graph $G$ with chromatic number $5$, such\nthat every vertex is critical, yet every critical set of edges has size $>1$, or in other words:\nhas no critical edge.\n\n[Br92] Brown, Jason I., A vertex critical graph without critical edges. Discrete Math. (1992), 99--101\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«944»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/944](https://www.erdosproblems.com/944)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/944.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_eq_5",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b7006ea079a22fb028eabc9c840757484af8c0981d1091c45cfe6f773260dc59",
+  "type_pretty": "∃ V G, Erdos944.SimpleGraph.IsErdos944 G 5 1"
+}

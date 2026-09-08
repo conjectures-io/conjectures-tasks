@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    12,
+    14
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "One can find a counterexample to the Noether Problem's claim by considering a\nrational function field in 47 indeterminates.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.NoetherProblem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Rational_variety)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/NoetherProblem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "NoetherProblem.noether_problem.variants.forty_seven",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:11f11f019b95b9362911948dc9c396237ed665552f918f70e498f9d9ad661f62",
+  "type_pretty": "∃ K L ι G x x_1 x_2 x_3,\n  ∃ (x_4 : NoetherProblem.IsRationalExtension K L ι), Fintype.card ι = 47 ∧ ¬NoetherProblem.HasNoetherProperty K L ι"
+}

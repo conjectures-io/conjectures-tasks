@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Asymptotics for `Erdos975Sum` with $f(X) = X^2 + 1$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«975»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/975](https://www.erdosproblems.com/975)",
+    "[Va39] van der Corput, J. G., Une in\\'egalit\\'e{} relative au nombre des diviseurs. Nederl. Akad. Wetensch., Proc. (1939), 547--553.",
+    "[Er52b] Erd\\\"os, P., On the sum {$\\sum^x_{k=1} d(f(k))$}. J. London Math. Soc. (1952), 7--15.",
+    "[Ho63] Hooley, Christopher, On the number of divisors of a quadratic polynomial. Acta Math. (1963), 97--114.",
+    "[Mc95] McKee, James, On the average number of divisors of quadratic polynomials. Math. Proc. Cambridge Philos. Soc. (1995), 389--392.",
+    "[Mc97] McKee, James, A note on the number of divisors of quadratic polynomials. (1997), 275--281.",
+    "[Mc99] McKee, James, The average number of divisors of an irreducible quadratic polynomial. Math. Proc. Cambridge Philos. Soc. (1999), 17--22.",
+    "[T] T. Tao, Erdos' divisor bound, https://terrytao.wordpress.com/2011/07/23/erdos-divisor-bound/"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/975.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos975.erdos_975.variants.n2_plus_1",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:56fb34be207a04f18f4e8b77407a069a053632bdf3867e937cf0402ea4ca7584",
+  "type_pretty": "∃ c > 0,\n  Filter.Tendsto (fun x => Erdos975.Erdos975Sum (Polynomial.X ^ 2 + 1) x / (x * Real.log x)) Filter.atTop (nhds c)"
+}

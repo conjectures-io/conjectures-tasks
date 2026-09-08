@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A problem of Erdős and Sárközy who proved\n$$\n  g_3(n) \\gg \\frac{3^n}{n^{O(1)}}.\n$$ ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«817»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/817](https://www.erdosproblems.com/817)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/817.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos817.erdos_817.variants.bdd_power",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:57adb2d663991402cbfe3297ee7a3fb9c07c985d4c249359b2ab9f13bf2fe8c6",
+  "type_pretty": "∃ O > 0, (fun n => 3 ^ n / ↑n ^ O) =O[Filter.atTop] fun n => ↑(Erdos817.g 3 n)"
+}

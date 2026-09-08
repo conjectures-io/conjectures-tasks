@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Non-primitive terms have the form $m \\cdot s$ where $m$ is primitive and $s$ is\nsquarefree with $\\gcd(m, s) = 1$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.OEIS.«63880»",
+  "pointer_target": null,
+  "references": [
+    "[A063880](https://oeis.org/A063880)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/OEIS/63880.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "OeisA63880.exists_primitive_of_a",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7dc9584214ec9e98d2c618f2e911df74720efdb7a9c8a2e429458c0ae2cd4a05",
+  "type_pretty": "∀ {n : ℕ}, OeisA63880.A n → ∃ m s, OeisA63880.IsPrimitiveTerm m ∧ Squarefree s ∧ m.Coprime s ∧ n = m * s"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Borwein, Borwein, Borwein and Girgensohn showed that any strong Giuga\nnumber has at least 13000 digits.\nRef: D. Borwein, J. M. Borwein, P. B. Borwein, and R. Girgensohn, _Giuga’s conjecture on primality_\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.AgohGiuga",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Agoh-Giuga_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/AgohGiuga.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "AgohGiuga.agoh_giuga.variants._13000_le_digits_length_of_isStrongGiuga",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2c5777ba06a79cf23ea8e906887c78950aea788b9f2c05e3eec0a2588e20e675",
+  "type_pretty": "∀ (a : ℕ), AgohGiuga.IsStrongGiuga a → 13000 ≤ (Nat.digits 10 a).length"
+}

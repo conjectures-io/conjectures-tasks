@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Transcendental.transcendental_gamma_one_div_four"
+  ],
+  "generated_target_type_hash": "sha256:a9d399c1e527ca2cef192662a4b18f4a7f82c5475ea6cb564c17c5ae227e8c45",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Transcendental",
+  "source_path": "FormalConjectures/Wikipedia/Transcendental.lean",
+  "source_theorem": "Transcendental.transcendental_gamma_one_div_four",
+  "source_type_hash": "sha256:a9d399c1e527ca2cef192662a4b18f4a7f82c5475ea6cb564c17c5ae227e8c45",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-transcendental-transcendental-gamma-one-div-four-154e189390-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:dfc6c6077a42729c6927b5055b1a060c4602382c98a91ac0a5f3aaf1184bcab9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:a07c5c5b332dab2c8757d6428705ab2216492e2915492f6c5362a2288e7d5891",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:fcf330e6307a715a98a3ceb9e3d1d551b4869d77c4fc3bb5348c6e5754a182e1"
+  }
+}

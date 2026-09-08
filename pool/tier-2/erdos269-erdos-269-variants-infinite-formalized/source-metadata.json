@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "This theorem addresses the case where the set of primes $P$ is infinite. In this case the sum is\nirrational.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«269»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/269](https://www.erdosproblems.com/269)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/269.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos269.erdos_269.variants.infinite",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:fa65b611555e1e116b9ebdc9f4d018d6be4973d100b83d8e987f4c43b7bfb1b6",
+  "type_pretty": "∀ (P : Set ℕ), (∀ p ∈ P, Nat.Prime p) → P.Infinite → Irrational (Erdos269.series P)"
+}

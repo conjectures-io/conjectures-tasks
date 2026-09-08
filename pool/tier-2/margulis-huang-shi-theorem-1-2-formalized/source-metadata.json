@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11,
+    15,
+    22
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Huang–Shi, Theorem 1.2**\n\nLet `F` be a finite field of characteristic `p ∈ {3, 5, 7, 11}`, and set\n`K = F((t⁻¹))`, `A = F[t]`. Let\n\n* `D` be the diagonal subgroup of `SL₄(K)`,\n* `Γ = SL₄(A)` the lattice subgroup embedded into `SL₄(K)` via the natural inclusion `A →+* K`.\n\nThen there exists `z : SL₄(K)/Γ` such that the `D`-orbit of `z` has compact\nclosure but is not closed.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Arxiv.«2504.17644».Margulis",
+  "pointer_target": null,
+  "references": [
+    "[arxiv/2504.17644v3](https://arxiv.org/abs/2504.17644v3)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Arxiv/2504.17644/Margulis.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Margulis.huang_shi_theorem_1_2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b543f0d930cb7bf24d6c098d8d7e611e3347994e2347da0d0a753c121c0dcfeb",
+  "type_pretty": "∀ (F : Type u) [inst : Field F] [Fintype F],\n  ringChar F ∈ {3, 5, 7, 11} →\n    ∃ z,\n      IsCompact\n          (closure (MulAction.orbit (↥(Matrix.SpecialLinearGroup.diagonalSubgroup (Fin 4) (LaurentSeries F))) z)) ∧\n        ¬IsClosed (MulAction.orbit (↥(Matrix.SpecialLinearGroup.diagonalSubgroup (Fin 4) (LaurentSeries F))) z)"
+}

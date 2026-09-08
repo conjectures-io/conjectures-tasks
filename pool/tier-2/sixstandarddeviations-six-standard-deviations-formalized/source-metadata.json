@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Six standard deviations suffice** (Spencer, 1985)\n\nFor every $n$ and every family of $n$ subsets $S_1, \\dots, S_n$ of $\\{1, \\dots, n\\}$,\nthere is a colouring $\\chi : \\{1, \\dots, n\\} \\to \\{-1, +1\\}$ such that\n$\\left|\\sum_{j \\in S_i} \\chi(j)\\right| \\le 6\\sqrt{n}$ for every $i$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.SixStandardDeviations",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Discrepancy_of_hypergraphs#General_hypergraphs)",
+    "[J. Spencer, *Six standard deviations suffice*, Trans. Amer. Math. Soc. **289** (1985), 679–706](https://doi.org/10.1090/S0002-9947-1985-0784009-0)",
+    "[N. Bansal, *Constructive algorithms for discrepancy minimization*, FOCS 2010, 3–10](https://doi.org/10.1109/FOCS.2010.7)",
+    "[S. Lovett and R. Meka, *Constructive discrepancy minimization by walking on the edges*, SIAM J. Comput. **44** (2015), 1573–1582](https://doi.org/10.1137/130929400)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/SixStandardDeviations.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "SixStandardDeviations.six_standard_deviations",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:952ea1c180a24ac97a9efcdf349cddd32fdbb4ed00979d7a95842e940f7b45b0",
+  "type_pretty": "∀ (n : ℕ) (S : Fin n → Finset (Fin n)),\n  ∃ χ, (∀ (j : Fin n), χ j = 1 ∨ χ j = -1) ∧ ∀ (i : Fin n), |∑ j ∈ S i, χ j| ≤ 6 * √↑n"
+}

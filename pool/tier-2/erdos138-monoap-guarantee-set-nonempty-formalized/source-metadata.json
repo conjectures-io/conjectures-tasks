@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Asserts that for any number of colors `r` and any progression length `k`, there\nalways exists some number `N` large enough to guarantee a monochromatic arithmetic progression.\nIn other words, the set `monoAP_guarantee_set` is non-empty. This is the fundamental existence\nresult that allows for the definition of the van der Waerden numbers.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«138»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/138](https://www.erdosproblems.com/138)",
+    "[Be68] Berlekamp, E. R., A construction for partitions which avoid long arithmetic progressions. Canad. Math. Bull. (1968), 409-414.",
+    "[Er80] Erdős, Paul, A survey of problems in combinatorial number theory. Ann. Discrete Math. (1980), 89-115.",
+    "[Er81] Erdős, P., On the combinatorial problems which I would most like to see solved. Combinatorica (1981), 25-42.",
+    "[Go01] Gowers, W. T., A new proof of Szemerédi's theorem. Geom. Funct. Anal. (2001), 465-588."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/138.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos138.monoAP_guarantee_set_nonempty",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:462afd014cc94e766438c8de847ca5d8dcd3f17a827fd41bac8f04b3b30d0fcc",
+  "type_pretty": "∀ (r k : ℕ), (Erdos138.monoAP_guarantee_set r k).Nonempty"
+}

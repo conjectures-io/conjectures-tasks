@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős [Er51] proved this for all $0\\leq \\alpha\\leq 2$.\n\n[Er51] Erdös, P., Some problems and results in elementary number theory.\nPubl. Math. Debrecen (1951), 103-109.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«145»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/145](https://www.erdosproblems.com/145)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/145.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos145.erdos_145.variants.le_two",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:946df7e3928fd3e8dcd63d8d62a3a7ee4e88c3a5bd6571f6eb31ad9f1b9e4e55",
+  "type_pretty": "∀ {α : ℝ},\n  α ∈ Set.Icc 0 2 →\n    ∃ β,\n      Filter.Tendsto (fun x => 1 / x * ∑ n ∈ Erdos145.A x, (↑(Erdos145.s (n + 1)) - ↑(Erdos145.s n)) ^ α) Filter.atTop\n        (nhds β)"
+}

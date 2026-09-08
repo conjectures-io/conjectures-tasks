@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    16
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The **Amitsur Conjecture**: If `J` is a nil ideal in `R`, then `J[x]` is a nil ideal of the polynomial ring `R[x]`.\nThis is known to be false, see Agata Smoktunowicz, _Polynomial rings over nil rings need not be nil_.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Koethe",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/K%C3%B6the_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/Koethe.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Koethe.amitsur_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7d59c3d929b14b4bbf01aadffb08a2472fd98846e835aa5cfa046dcc452d8bc7",
+  "type_pretty": "∀ {R : Type u_1} [inst : Ring R] (J : TwoSidedIdeal R), Koethe.IsNil J → Koethe.IsNil (TwoSidedIdeal.map Polynomial.C J)"
+}

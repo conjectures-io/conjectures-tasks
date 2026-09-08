@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Lebensold proved that for large `n`, the function `f n` lies between `0.6725 n` and\n`0.6736 n`. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1062»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1062](https://www.erdosproblems.com/1062)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1062.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1062.erdos_1062.variants.lebensold_bounds",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6fe1de62bccdc899b80a63ee33f8a19212e85639da2c96db908527c8fda672d0",
+  "type_pretty": "∀ᶠ (n : ℕ) in Filter.atTop, 0.6725 * ↑n ≤ ↑(Erdos1062.f n) ∧ ↑(Erdos1062.f n) ≤ 0.6736 * ↑n"
+}

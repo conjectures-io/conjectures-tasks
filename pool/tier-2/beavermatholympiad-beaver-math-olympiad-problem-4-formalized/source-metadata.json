@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11,
+    68
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "[BMO#4](https://wiki.bbchallenge.org/wiki/Beaver_Math_Olympiad#4._1RB3RB---1LB0LA_2LA4RA3LA4RB1LB_(bbch))\n\nBonnie the beaver was bored, so she tried to construct a sequence of integers $\\{a_n\\}_{n \\ge 0}$.\nShe first defined $a_0=2$, then defined $a_{n+1}$ depending on $a_n$ and $n$\nusing the following rules:\n\n* If $a_n \\equiv 0\\text{ (mod 3)}$, then $a_{n+1}=\\frac{a_n}{3}+2^n+1$.\n* If $a_n \\equiv 2\\text{ (mod 3)}$, then $a_{n+1}=\\frac{a_n-2}{3}+2^n-1$.\n\nWith these two rules alone, Bonnie calculates the first few terms in the sequence: $2, 0, 3, 6, 11,\n18, 39, 78, 155, 306, \\dots$. At this point, Bonnie plans to continue writing terms until a term\nbecomes $1\\text{ (mod 3)}$. If Bonnie sticks to her plan, will she ever finish?\n\n[BMO#4](https://wiki.bbchallenge.org/wiki/Beaver_Math_Olympiad#4._1RB3RB---1LB0LA_2LA4RA3LA4RB1LB_(bbch))\nis equivalent to the non-termination of 2-state 5-symbol Turing machine\n[`1RB3RB---1LB0LA_2LA4RA3LA4RB1LB`](https://wiki.bbchallenge.org/wiki/1RB3RB---1LB0LA_2LA4RA3LA4RB1LB) (from all-0 tape).\n\nThe machine was informally proven not to halt [bbchallenge.org](https://bbchallenge.org)\ncontributor Daniel Yuan on July 19th 2024; see [sketched proof](https://wiki.bbchallenge.org/wiki/1RB3RB---1LB0LA_2LA4RA3LA4RB1LB) and [Discord discussion](https://discord.com/channels/960643023006490684/960643023530762343/1263666591900631210).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Other.BeaverMathOlympiad",
+  "pointer_target": null,
+  "references": [
+    "[bbchallenge.org](https://bbchallenge.org)",
+    "[Beaver Math Olympiad wiki page](https://wiki.bbchallenge.org/wiki/Beaver_Math_Olympiad)",
+    "[Antihydra web page](https://bbchallenge.org/antihydra)",
+    "[Antihydra wiki page](https://wiki.bbchallenge.org/wiki/Antihydra)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Other/BeaverMathOlympiad.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "BeaverMathOlympiad.beaver_math_olympiad_problem_4",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:dc9dea2576ef77fdf22add5eeb1ae7ee16513115ef7e99f616321af4e40dc43d",
+  "type_pretty": "∀ (a : ℕ → ℕ),\n  a 0 = 2 →\n    (∀ (n : ℕ), a (n + 1) = if a n % 3 = 0 then a n / 3 + 2 ^ n + 1 else (a n - 2) / 3 + 2 ^ n - 1) → ¬∃ n, a n % 3 = 1"
+}

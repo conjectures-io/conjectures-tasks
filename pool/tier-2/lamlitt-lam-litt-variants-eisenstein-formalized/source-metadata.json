@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    12,
+    13
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Eisenstein's theorem (1852): an algebraic power series over $\\mathbb{Q}[z]$ has bounded\ndenominators, i.e., there exists $N$ such that all coefficients lie in $\\mathbb{Z}[1/N]$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.LittProblems.«1»",
+  "pointer_target": null,
+  "references": [
+    "[Litt's problem 1](https://www.problemsilike.com/1)",
+    "Yeuk Hay Joshua Lam, Daniel Litt, \"Algebraicity and integrality of solutions to differential equations\", [arxiv/2501.13175](https://arxiv.org/abs/2501.13175)",
+    "Gotthold Eisenstein. \"Über eine allgemeine Eigenschaft der Reihen-Entwicklungen aller algebraischen Funktionen\", Bericht der Königl. Preuss. Akademie der Wissenschaften zu Berlin, 1852"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/LittProblems/1.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "LamLitt.lam_litt.variants.eisenstein",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ae61fe1dedb21f2ce42c7246a547581b61d5579876aa952d3bf5ec5ffe574b0f",
+  "type_pretty": "∀ (f : PowerSeries ℚ), IsAlgebraic (Polynomial ℚ) f → ∃ N, LamLitt.IsCoeffIntegralAdjointInvNat f N"
+}

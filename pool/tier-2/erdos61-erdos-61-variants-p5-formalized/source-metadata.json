@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Nguyen, Scott, and Seymour [NSS23] proved the conjecture for $H = P_5$, the path on five\nvertices: every $P_5$-free graph on $n$ vertices has a clique or independent set of\npolynomial size.\n\n[NSS23] Nguyen, T., Scott, A. and Seymour, P., Induced subgraph density. VII. The\nfive-vertex path. [arXiv:2312.15333](https://arxiv.org/abs/2312.15333)\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«61»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/61](https://www.erdosproblems.com/61)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/61.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos61.erdos_61.variants.p5",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8082795ebb57fa6ddef47e33d4b4f29d6183f11884f35ab227ba1a012a710086",
+  "type_pretty": "∃ c > 0, Erdos61.IsErdosHajnalLowerBound (SimpleGraph.pathGraph 5) fun n => ↑n ^ c"
+}

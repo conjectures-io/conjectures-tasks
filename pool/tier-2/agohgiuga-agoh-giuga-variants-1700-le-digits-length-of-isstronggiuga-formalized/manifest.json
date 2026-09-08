@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga"
+  ],
+  "generated_target_type_hash": "sha256:f272031d91ef7e380f6de7a50fe40c03346eb5e7f3b26b6d44155dfe2231dce8",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.AgohGiuga",
+  "source_path": "FormalConjectures/Wikipedia/AgohGiuga.lean",
+  "source_theorem": "AgohGiuga.agoh_giuga.variants._1700_le_digits_length_of_isStrongGiuga",
+  "source_type_hash": "sha256:f272031d91ef7e380f6de7a50fe40c03346eb5e7f3b26b6d44155dfe2231dce8",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-1700-le-digits-length-of-isstronggiuga-d30ad9dd27-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:557e47b57e59913354cd371145ceb6f63c03a8f3b85bbbfc3a40f36c5ec683a0",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:9e80cf03b1f41d246c8a66f9a00bc094c739ddfa4b733b6cb2dd61c327b9322a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:e9e94484e5d2540086fb38138b7eaccd0fd9721c9a84c32bc5c001338028f5e2"
+  }
+}

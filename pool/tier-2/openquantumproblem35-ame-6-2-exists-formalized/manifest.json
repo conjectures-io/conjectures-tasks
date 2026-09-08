@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "OpenQuantumProblem35.ame_6_2_exists"
+  ],
+  "generated_target_type_hash": "sha256:155ffcc8010fb4b24a51451f2f2829c7b641c679d9b60897bb302fe7d2ef3c9f",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.OpenQuantumProblems.«35»",
+  "source_path": "FormalConjectures/OpenQuantumProblems/35.lean",
+  "source_theorem": "OpenQuantumProblem35.ame_6_2_exists",
+  "source_type_hash": "sha256:155ffcc8010fb4b24a51451f2f2829c7b641c679d9b60897bb302fe7d2ef3c9f",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-openquantumproblem35-ame-6-2-exists-ce98b3d030-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:516ec3d8e7a56dd86937e996388b568480a43e31806b43841e0fed6a2df18af6",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:acef3418a3c3f6b8136d4c15499bfb0eac171800907c22f0f4096ba6de19e18f",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:189313db8567c022c2f685d39b5a3ac2ffb70f579c59d5d25e9b117c0c1bf19f"
+  }
+}

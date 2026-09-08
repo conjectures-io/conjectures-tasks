@@ -1,0 +1,38 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős, Graham, Ruzsa, and Straus [EGRS75] have shown that, for any two odd primes $p$ and $q$,\nthere are infinite many $n$ such that ${2n\\choose n}$ is coprime to $pq$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«376»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/376](https://www.erdosproblems.com/376)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/376.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos376.erdos_376.variants.prime",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:4e5dd964ed75857528b74539e8dd1b2e215e0000805e7e3f506fa6417b598590",
+  "type_pretty": "∀ {p q : ℕ}, Nat.Prime p → Odd p → Nat.Prime q → Odd q → {n | n.centralBinom.Coprime (p * q)}.Infinite"
+}

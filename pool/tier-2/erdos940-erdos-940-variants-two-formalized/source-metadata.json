@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The set of integers which are the sum of at most two $2$-powerful numbers has density $0$.\n\nErdős called this 'easy'. Baker and Brüdern [BaBr94] gave the first proof in the literature.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«940»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/940](https://www.erdosproblems.com/940)",
+    "[BaBr94] Baker, R. C. and Brüdern, J., _On sums of two squarefull numbers_. Math. Proc. Cambridge Philos. Soc. (1994), 1-5.",
+    "[He88](https://oeis.org/A187054) Heath-Brown, D. R., _Ternary quadratic forms and sums of three square-full numbers_. (1988), 137-163."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/940.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos940.erdos_940.variants.two",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2eace3ea3e5472dbaa6b49a8d1b359a16814359f81561282b0d4f4846967b276",
+  "type_pretty": "{n | ∃ S, S.card ≤ 2 ∧ (∀ s ∈ S, Nat.Full 2 s) ∧ n = S.sum}.HasDensity 0"
+}

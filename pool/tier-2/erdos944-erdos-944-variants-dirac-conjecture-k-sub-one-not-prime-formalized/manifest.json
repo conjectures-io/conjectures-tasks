@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos944.erdos_944.variants.dirac_conjecture.k_sub_one_not_prime"
+  ],
+  "generated_target_type_hash": "sha256:e99f3ebd20656118a320d570ad6e1dd1248b93034b60ffdff6c0288be1e978ea",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«944»",
+  "source_path": "FormalConjectures/ErdosProblems/944.lean",
+  "source_theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_sub_one_not_prime",
+  "source_type_hash": "sha256:e99f3ebd20656118a320d570ad6e1dd1248b93034b60ffdff6c0288be1e978ea",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-dirac-conjecture-k-sub-one-not-prime-b8f389cb7d-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:2f0b794f28e0164b1b99d1445ebe33c352f468128d404bdb7bbd3554b0589a29",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:07913089febec650cbb3b92962f8ec8636bc72919236398600628b7716057a3d",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5611faeab3b33980eb5174d8a38d58e0d396b63d49f64f86c3b1a0ae52a7e818"
+  }
+}

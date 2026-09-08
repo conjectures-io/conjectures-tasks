@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "DedekindNumber.M_eq_kisielewiczFormula"
+  ],
+  "generated_target_type_hash": "sha256:f3edba0f80b5365ebb96da3b43160baab82198413b0666422721f05d36dd9bb2",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.DedekindNumber",
+  "source_path": "FormalConjectures/Wikipedia/DedekindNumber.lean",
+  "source_theorem": "DedekindNumber.M_eq_kisielewiczFormula",
+  "source_type_hash": "sha256:f3edba0f80b5365ebb96da3b43160baab82198413b0666422721f05d36dd9bb2",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-dedekindnumber-m-eq-kisielewiczformula-974cbd513f-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:c5865ddcbe76412dd6faed6a53dd7d3e594691050b5ef9fb594360dc2e476a36",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:ceb759ed610b27cf9e067d1b70e53488ea1d60a9967e43b172d2c76c7265a5c7",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:9c6ce33dd5ffa07fcda1d4bbfc76b27fd6834580a34763262655c4a607cd953b"
+  }
+}

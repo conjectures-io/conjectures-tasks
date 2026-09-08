@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    16
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "There exists a semiring with a unique left maximal ideal but more than one right maximal ideals. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Mathoverflow.«486451»",
+  "pointer_target": null,
+  "references": [
+    "[mathoverflow/486451](https://mathoverflow.net/questions/486451)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Mathoverflow/486451.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Mathoverflow486451.exists_semiring_unique_left_maximal_not_unique_right_maximal",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f17ae37e97686adb087175136ad219c50ea69c02ffe6640f2585a62f2ae96934",
+  "type_pretty": "∃ R x, (∃! I, I.IsMaximal) ∧ ∃ I J, I.IsMaximal ∧ J.IsMaximal ∧ I ≠ J"
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    54,
+    57
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The Millennium Problem, solved by Grigori Perelman in 2003: the Poincaré Conjecture holds.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Millenium.Poincare",
+  "pointer_target": null,
+  "references": [
+    "[Miln2022](https://www.claymath.org/wp-content/uploads/2022/06/poincare.pdf)",
+    "[Wang2017](https://annals.math.princeton.edu/2017/186-2/p03).",
+    "[mo296171](https://mathoverflow.net/questions/296171/unique-smooth-structure-on-3-manifolds)",
+    "[mathlib4](https://github.com/leanprover-community/mathlib4)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Millenium/Poincare.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "PoincareConjecture.poincare_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:43e58b3ab9e54213ea14107ad1ac9c778159859f62201e7fe455581e5e7fd178",
+  "type_pretty": "PoincareConjecture.ConjectureFor 3"
+}

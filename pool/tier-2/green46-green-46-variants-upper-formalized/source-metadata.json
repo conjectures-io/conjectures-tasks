@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Best known upper bound: $y \\ll x^2$ [Iw78]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«46»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Ben Green's Open Problem 46](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.46)",
+    "[FGK18] Ford, K., Green, B., Konyagin, S., Maynard, J., & Tao, T. (2018). Long gaps between primes. Journal of the American Mathematical Society, 31(1), 65-105.",
+    "[Iw78] Iwaniec, Henryk. \"On the problem of Jacobsthal.\" Demonstratio Mathematica 11.1 (1978): 225-232."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/46.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green46.green_46.variants.upper",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:bbff86fc3d6429c7958ef5ab2ec7a36e3c3ab1d5a4cae025c28b47d045214597",
+  "type_pretty": "Green46.maxY =O[Filter.atTop] Green46.bestUpper"
+}

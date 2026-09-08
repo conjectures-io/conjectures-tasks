@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Green2.green_2_upper_bound_ruzsa"
+  ],
+  "generated_target_type_hash": "sha256:0e1ce6c2380ba4ea45617fffc82b8f2b96caab1cf00bc950102bdddfa3b17f04",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.GreensOpenProblems.«2»",
+  "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+  "source_theorem": "Green2.green_2_upper_bound_ruzsa",
+  "source_type_hash": "sha256:0e1ce6c2380ba4ea45617fffc82b8f2b96caab1cf00bc950102bdddfa3b17f04",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-green2-green-2-upper-bound-ruzsa-69c1145885-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:4dee16c80344f37061ed962fe0a15a33a7991d674a02577c33299a659aba3047",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:8c8a5aab165c9a31482b0961bf78894ce05ed1082e7dcf56a821cf7c175688a2",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:488bbe5b1df257690a7b8d2ad0cac8e997a9698c56ca213156f45fc00ea546a6"
+  }
+}

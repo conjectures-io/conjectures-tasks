@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "DeGiorgi.DeGiorgi_ge_nine"
+  ],
+  "generated_target_type_hash": "sha256:dedc3b133d53b578ad8ec832143fd91c7d12a7a2becb1f25913bf7d4d4ccbb69",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Paper.DeGiorgi",
+  "source_path": "FormalConjectures/Paper/DeGiorgi.lean",
+  "source_theorem": "DeGiorgi.DeGiorgi_ge_nine",
+  "source_type_hash": "sha256:dedc3b133d53b578ad8ec832143fd91c7d12a7a2becb1f25913bf7d4d4ccbb69",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-degiorgi-degiorgi-ge-nine-9d0b95c6e5-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:709e1d36b8a1efb002dc439544b6678c90b4eabd01970b341487f464978f7c5e",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:a5622712788a4bfb382b19b0ea5c1152cdba51fe70d21b3d63afaf120c1a40d0",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:852064362f5306a6bcd710e0e0399df2d20a5c2dba2c27f61dc5342e8ef87403"
+  }
+}

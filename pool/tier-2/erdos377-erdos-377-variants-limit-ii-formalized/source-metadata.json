@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdos, Graham, Ruzsa, and Straus proved that if\n$$\n  f(n) = \\sum_{p \\leq n} 1_{p\\nmid {2n \\choose n}}\\frac{1}{p}\n$$\nand\n$$\n  \\gamma_0 = \\sum_{k = 2}^{\\infty} \\frac{\\log k}{2^k}\n$$\nthen\n$$\n  \\lim_{x\\to\\infty} \\frac{1}{x}\\sum_{n\\leq x} f(n)^2 = \\gamma_0^2\n$$\n\n[EGRS75] Erdős, P. and Graham, R. L. and Ruzsa, I. Z. and Straus, E. G., _On the prime factors of $\\binom{2n}{n}$_. Math. Comp. (1975), 83-92.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«377»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/377](https://www.erdosproblems.com/377)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/377.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos377.erdos_377.variants.limit.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c888ddd03ef8b44ebc83a0d45e9a0b3d5e5c2d94545a36c2740fe30c66b4f095",
+  "type_pretty": "∀ (γ₀ : ℝ),\n  γ₀ = ∑' (k : ℕ), Real.log (↑k + 2) / 2 ^ (k + 2) →\n    Filter.Tendsto (fun x => 1 / ↑x * ∑ n ∈ Finset.Icc 1 x, Erdos377.sumInvPrimesNotDvdCentralBinom n ^ 2) Filter.atTop\n      (nhds (γ₀ ^ 2))"
+}

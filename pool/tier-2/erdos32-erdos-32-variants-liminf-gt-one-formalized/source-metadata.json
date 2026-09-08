@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Must every additive complement $A$ to the primes satisfy\n$\\liminf_{N \\to \\infty} \\frac{|A \\cap \\{1, \\ldots, N\\}|}{\\log N} > 1$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«32»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/32](https://www.erdosproblems.com/32)",
+    "[Erd54] Erdős, Paul, Some results on additive number theory. Proc. Amer. Math. Soc. (1954), 847-853.",
+    "[Guy04] Guy, Richard K., Unsolved problems in number theory. (2004), xviii+437",
+    "[Ru98c] Ruzsa, Imre Z., On the additive completion of primes. Acta Arith. (1998), 269-275."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/32.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos32.erdos_32.variants.liminf_gt_one",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c9c7b21e8770bbdf98a7de613b8464014f6249042f4366be2784a7f821dc4ff3",
+  "type_pretty": "∀ (A : Set ℕ),\n  Erdos32.IsAdditiveComplementToPrimes A →\n    1 < Filter.liminf (fun N => ↑{x ∈ Finset.Icc 1 N | x ∈ A}.card / ↑(Real.log ↑N)) Filter.atTop"
+}

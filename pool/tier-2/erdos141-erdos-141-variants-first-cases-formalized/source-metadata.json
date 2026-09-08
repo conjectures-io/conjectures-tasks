@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The existence of such progressions has been verified for $k≤10$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«141»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/141](https://www.erdosproblems.com/141)",
+    "[Wikipedia](https://en.wikipedia.org/wiki/Primes_in_arithmetic_progression#Consecutive_primes_in_arithmetic_progression)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/141.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos141.erdos_141.variants.first_cases",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d5bccef5fa0a8801930e27c6a443403fdefdad59b27dfb342331a0c5b818a9f4",
+  "type_pretty": "∀ k ≥ 3, k ≤ 10 → ∃ s, Erdos141.Set.IsAPAndPrimeProgressionOfLength s k"
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    51
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "On [Mathoverflow](https://mathoverflow.net/a/410815) user\n[leechlattice](https://mathoverflow.net/users/125498/leechlattice) shows that\n$h(n) \\ll n^{\\frac 2 3}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«160»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/160](https://www.erdosproblems.com/160)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/160.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos160.erdos_160.known_upper",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:91d8917a1fe3f6dfaf506360e2a6d2ce90d5e7b00396d2f2f1d5eda57f4a0f53",
+  "type_pretty": "(fun n => ↑(Erdos160.erdos_160.h n)) =O[Filter.atTop] fun n => ↑n ^ (2 / 3)"
+}

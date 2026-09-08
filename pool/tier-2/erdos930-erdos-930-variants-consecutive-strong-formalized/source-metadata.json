@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $k$, $l$, $n$ be integers such that $k \\ge 3$, $l \\ge 2$ and $n + k \\ge p^{(k)}$,\nwhere $p^{(k)}$ is the least prime satisfying $p^{(k)} \\ge k$.\nThen there is a prime $p \\ge k$ for which $l$ does not divide\nthe multiplicity of the prime factor $p$ in $(n + 1) \\ldots (n + k)$.\n\nTheorem 2 from [ErSe75].\n\n[ErSe75] Erdős, P. and Selfridge, J. L., The product of consecutive integers is never a power. Illinois J. Math. (1975), 292-301.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«930»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/930](https://www.erdosproblems.com/930)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/930.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos930.erdos_930.variants.consecutive_strong",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:32d9e53da2cbae3b2db85a5809154ea93861da8f18dffc17ff590349aace5443",
+  "type_pretty": "∀ (k l n : ℕ),\n  3 ≤ k →\n    2 ≤ l →\n      Erdos930.nextPrime k ≤ n + k →\n        ∃ p, k ≤ p ∧ Nat.Prime p ∧ ¬l ∣ (∏ m ∈ Finset.Icc (n + 1) (n + k), m).factorization p"
+}

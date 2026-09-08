@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Chudnovsky, Scott, Seymour, and Spirkl [CSSS23] proved the conjecture for $H = C_5$, the\ncycle on five vertices: every graph with no induced five-cycle has a clique or independent\nset of polynomial size.\n\n[CSSS23] Chudnovsky, M., Scott, A., Seymour, P. and Spirkl, S., Erdős–Hajnal for graphs with\nno 5-hole. Proc. Lond. Math. Soc. (3) 126 (2023), 997–1014.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«61»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/61](https://www.erdosproblems.com/61)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/61.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos61.erdos_61.variants.c5",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9b4ab210f5b52309923276c8941fd8799693023ffdca19aaab89cb1b18d364b7",
+  "type_pretty": "∃ c > 0, Erdos61.IsErdosHajnalLowerBound (SimpleGraph.cycleGraph 5) fun n => ↑n ^ c"
+}

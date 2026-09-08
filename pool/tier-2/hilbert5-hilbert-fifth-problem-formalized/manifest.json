@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Hilbert5.hilbert_fifth_problem"
+  ],
+  "generated_target_type_hash": "sha256:a4536d53e58e1329d67243bea0958a0551982a9e9a63f84a2e364fac8846072e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HilbertProblems.«5»",
+  "source_path": "FormalConjectures/HilbertProblems/5.lean",
+  "source_theorem": "Hilbert5.hilbert_fifth_problem",
+  "source_type_hash": "sha256:a4536d53e58e1329d67243bea0958a0551982a9e9a63f84a2e364fac8846072e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-hilbert5-hilbert-fifth-problem-2cb0030f6f-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:89ad3abe88bafc99c8349a27c5190f83a5dae4dda84b9701af91bad0f85024ed",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7700957c3f3b69625641329168800c4946ed6b47fdb456aa1a80ca0ce1c984d2",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:bcbf37f3def0e70a450f2a887b141d715dbfeeeb5f038e655e88222a24247e20"
+  }
+}

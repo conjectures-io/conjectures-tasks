@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "NoetherProblem.noether_problem.variants.two"
+  ],
+  "generated_target_type_hash": "sha256:31d4920b8bce6b30416c855a0a2a4b17f5fd2f3149e78709f22e7ff34746de2c",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.NoetherProblem",
+  "source_path": "FormalConjectures/Wikipedia/NoetherProblem.lean",
+  "source_theorem": "NoetherProblem.noether_problem.variants.two",
+  "source_type_hash": "sha256:31d4920b8bce6b30416c855a0a2a4b17f5fd2f3149e78709f22e7ff34746de2c",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-two-aaad30ab54-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f30a4c6ccb51997e75530ef1deb44090913c137f2946611fb7abf2c6f5fb24c9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:439d0e483e3a044c975526bce1c51d1021064072f097ba4f667be9453c4050d0",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:7ddf673c6672a81dc0d31e978190140627be3ed4004f856b29494cf72fdbb56e"
+  }
+}

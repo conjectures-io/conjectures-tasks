@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Hooley [Ho73] extended this to all $0 \\leq \\alpha\\leq 3$.\n\n[Ho73] Hooley, Christopher, On the intervals between consecutive terms of sequences. Proc. Symp. Pure Math, vol. 24, pp. 129-140. 1973.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«145»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/145](https://www.erdosproblems.com/145)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/145.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos145.erdos_145.variants.le_three",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e2e20023da1bfa07a426d462a39600a39824422877e40d984c5adcfc50899ea4",
+  "type_pretty": "∀ {α : ℝ},\n  α ∈ Set.Icc 0 3 →\n    ∃ β,\n      Filter.Tendsto (fun x => 1 / x * ∑ n ∈ Erdos145.A x, (↑(Erdos145.s (n + 1)) - ↑(Erdos145.s n)) ^ α) Filter.atTop\n        (nhds β)"
+}

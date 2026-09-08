@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Fishburn and Reeds [FiRe92] have found a convex polygon on 20 points such that\nevery vertex has three vertices equidistant from it (and this distance is the same for all vertices).\n\n[FiRe92] Fishburn, P. C. and Reeds, J. A., _Unit distances between vertices of a convex polygon_. Comput. Geom. (1992), 81-91.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«97»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/97](https://www.erdosproblems.com/97)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/97.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos97.erdos_97.variants.three_unit_distance",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:67d4401fc920b4f6f77676af07023cadf9e6a74c0c40ccb2240dd7cffb1ce03a",
+  "type_pretty": "∃ A, A.Nonempty ∧ EuclideanGeometry.ConvexIndep ↑A ∧ Erdos97.HasNUnitDistanceProperty 3 A"
+}

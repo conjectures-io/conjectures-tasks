@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A question of Erd\\H{o}s and Hajnal [ErHa68b], who proved that for every finite $k$\nthere is a graph with chromatic number $\\aleph_1$ and $\\aleph_k$ vertices where each subgraph on\nless than $\\aleph_k$ vertices has chromatic number $\\leq \\aleph_0$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«918»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/918](https://www.erdosproblems.com/918)",
+    "[ErHa68b] Erdős, P. and Hajnal, A., On chromatic number of infinite graphs. (1968), 83--98.",
+    "[Er69b] Erdős, P., Problems and results in chromatic graph theory. Proof Techniques in Graph Theory (Proc. Second Ann Arbor Graph Theory Conf., Ann Arbor, Mich., 1968) (1969), 27-35."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/918.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos918.erdos_918.variants.erdos_hajnal",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4af4eaa3302f129dd28e26a0fdba1821dd2daaedf907fe3180546f13d2e07ec3",
+  "type_pretty": "∀ (k : ℕ),\n  0 < k →\n    ∃ V G,\n      Cardinal.mk V = Cardinal.aleph ↑k ∧\n        G.chromaticCardinal = Cardinal.aleph 1 ∧\n          ∀ (W : Set V),\n            Cardinal.mk ↑W < Cardinal.aleph ↑k → (SimpleGraph.induce W G).chromaticCardinal ≤ Cardinal.aleph0"
+}

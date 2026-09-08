@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Kovač and Luca [KoLu25] (building on a heuristic independently found by\nCambie (personal communication)) have shown that there is no finite limit, in that\n$\\lim_{n\\to\\infty} \\frac{f(2n)}{f(n)}$ is unbounded.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«893»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/893](https://www.erdosproblems.com/893)",
+    "[KoLu25] V. Kovač and F. Luca, On the number of divisors of Mersenne numbers. arXiv:2506.04883 (2025)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/893.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos893.erdos_893.variants.unbounded",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:83eaa28295af68d99a5fe8875bd8cb3e26d1d389f6305ee0508fc6e192123dad",
+  "type_pretty": "¬BddAbove (Set.range fun n => ↑(Erdos893.f (2 * n)) / ↑(Erdos893.f n))"
+}

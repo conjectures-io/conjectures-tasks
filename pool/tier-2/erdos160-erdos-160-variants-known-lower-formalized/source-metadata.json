@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    51
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The observation of Zachary Hunter in [that question](https://mathoverflow.net/q/410808)\ncoupled with the bounds of Kelley-Meka [KeMe23](https://arxiv.org/abs/2302.05537) imply that\n$$h(N) \\gg \\exp(c(\\log N)^{\\frac 1 {12}})$$\nfor some $c > 0$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«160»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/160](https://www.erdosproblems.com/160)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/160.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos160.erdos_160.variants.known_lower",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:67cd2c5e22ac8ff90696bef9c1a40a8106de47feec0a85559d3ed33394cd7a8e",
+  "type_pretty": "∃ c > 0, (fun n => Real.exp (c * Real.log ↑n ^ (1 / 12))) =O[Filter.atTop] fun n => ↑(Erdos160.erdos_160.h n)"
+}

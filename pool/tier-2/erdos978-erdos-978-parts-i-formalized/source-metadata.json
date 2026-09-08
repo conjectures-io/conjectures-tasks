@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let `f ∈ ℤ[X]` be an irreducible polynomial with positive leading coefficient. Suppose that the\ndegree `k` of `f` is larger than `2`, is not equal to a power of `2`, and `f n` has no fixed\n`(k - 1)`-th power divisors other than `1`. Then the set of `n` such that `f n` is `(k - 1)`-th\npower free has positive density, and this is proved in [Ho67]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«978»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/978](https://www.erdosproblems.com/978)",
+    "[Ho67] Hooley, C., On the power free values of polynomials. Mathematika (1967), 21--26.",
+    "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
+    "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/978.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos978.erdos_978.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1850aef22958d8404965522893ea61d2c05b3a02577e1b5b8ce23f61d0f185da",
+  "type_pretty": "∀ {f : Polynomial ℤ},\n  Irreducible f →\n    2 < f.natDegree →\n      (∀ (x : ℕ), f.natDegree ≠ 2 ^ x) →\n        0 < f.leadingCoeff →\n          (∀ (p : ℕ), Nat.Prime p → ∃ n, ¬↑p ^ (f.natDegree - 1) ∣ Polynomial.eval (↑n) f) →\n            {n | Powerfree (f.natDegree - 1) (Polynomial.eval (↑n) f)}.HasPosDensity"
+}

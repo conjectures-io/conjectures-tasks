@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Richards [Ri74] showed that only one of the two Hardy-Littlewood conjectures can be true.\n\n[Ri74] Richards, Ian (1974). _On the Incompatibility of Two Conjectures Concerning Primes_. Bull. Amer. Math. Soc. 80: 419–438.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.HardyLittlewood",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/First_Hardy%E2%80%93Littlewood_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HardyLittlewood.not_first_and_secondHardyLittlewoodConjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:53e50bded0279a8a6d2be5b34742e1f458945b18675c0055bb10495652a31521",
+  "type_pretty": "(∀ {k : ℕ} (m : Fin k.succ → ℕ), HardyLittlewood.FirstHardyLittlewoodConjectureFor m) →\n  ¬∀ {x y : ℕ}, 2 ≤ x → 2 ≤ y → HardyLittlewood.SecondHardyLittlewoodConjectureFor x y"
+}

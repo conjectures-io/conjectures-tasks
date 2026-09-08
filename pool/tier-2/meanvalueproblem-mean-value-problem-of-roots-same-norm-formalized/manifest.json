@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "MeanValueProblem.mean_value_problem_of_roots_same_norm"
+  ],
+  "generated_target_type_hash": "sha256:d589f59b121ebcfb8130a1b3c6cc3afb25b8a0ea0ce2de768db05bc17ffdedae",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.MeanValueProblem",
+  "source_path": "FormalConjectures/Wikipedia/MeanValueProblem.lean",
+  "source_theorem": "MeanValueProblem.mean_value_problem_of_roots_same_norm",
+  "source_type_hash": "sha256:d589f59b121ebcfb8130a1b3c6cc3afb25b8a0ea0ce2de768db05bc17ffdedae",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-meanvalueproblem-mean-value-problem-of-roots-same-norm-c7d15b1f3c-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:eee23d7f196af4e217e99da685d859fc27c04da85b3e0237151942c0fe31a6ab",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:23b176d539903a0f2d1a4bd235c3e36ec62a9d7ce9e671ffecc326556e5e158c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0cb1c537748c0a16a76d081233267be34ac50150808329f2dde4bf41a9f56026"
+  }
+}

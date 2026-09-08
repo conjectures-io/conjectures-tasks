@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Bloch.landauConstant_upper_bound"
+  ],
+  "generated_target_type_hash": "sha256:161c4398ff28572f4126a112e408d519f80239a5ae6023eaf851c623f2aa8115",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Bloch",
+  "source_path": "FormalConjectures/Wikipedia/Bloch.lean",
+  "source_theorem": "Bloch.landauConstant_upper_bound",
+  "source_type_hash": "sha256:161c4398ff28572f4126a112e408d519f80239a5ae6023eaf851c623f2aa8115",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-bloch-landauconstant-upper-bound-5f6befcac8-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f219bf1ad9b63632de7f0e18703351ba35b57591e2f0fc1cd04709b0be7f969f",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:6dfbb5b607299f9645250b87b319b7abbf71954c4eb39ccb5d2ab26c2d469b56",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:eefcd5877839459f4cd8e64551900904c876a5eda9edb90ac22091be86eb8d08"
+  }
+}

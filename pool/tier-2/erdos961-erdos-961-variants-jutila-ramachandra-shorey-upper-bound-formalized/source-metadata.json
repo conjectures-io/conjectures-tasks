@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Jutila [Ju74], and Ramachandra--Shorey [RaSh73] proved a stronger upper bound\n$f(k) \\ll \\frac{\\log \\log \\log k}{\\log \\log k} \\frac{k}{\\log k}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«961»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/961](https://www.erdosproblems.com/961)",
+    "[Ju74] Jutila, Matti, On numbers with a large prime factor. {II}. J. Indian Math. Soc. (N.S.) (1974), 125--130.",
+    "[RaSh73](https://eudml.org/doc/urn:eudml:doc:205214) Ramachandra, K. and Shorey, T. N., On gaps between numbers with a large prime factor. Acta Arith. (1973), 99--111."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/961.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos961.erdos_961.variants.jutila_ramachandra_shorey_upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:41d43ad9322cb40aad29848a5ff75ae2c579443230c3dcf836f0f1be1bf218d2",
+  "type_pretty": "(fun k => ↑(Erdos961.f k)) =O[Filter.atTop] fun k =>\n  Real.log (Real.log (Real.log ↑k)) / Real.log (Real.log ↑k) * (↑k / Real.log ↑k)"
+}

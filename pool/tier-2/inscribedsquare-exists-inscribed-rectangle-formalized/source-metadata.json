@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    51
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is known that every Jordan curve admits at least one inscribed rectangle.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.InscribedSquare",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Inscribed_square_problem)",
+    "[A Survey on the Square Peg Problem](https://www.researchgate.net/publication/274622766_A_Survey_on_the_Square_Peg_Problem) by *Benjamin Matschke*",
+    "[arxiv/2005.09193](https://arxiv.org/abs/2005.09193)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "InscribedSquare.exists_inscribed_rectangle",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:62311998cdd85590ad42fe15d8f0fd067a85e01b2008adda3aa739b9655d5623",
+  "type_pretty": "∀ (γ : Circle → EuclideanSpace ℝ (Fin 2)),\n  Topology.IsEmbedding γ → ∃ t₁ t₂ t₃ t₄ r, InscribedSquare.IsRectangle (γ t₁) (γ t₂) (γ t₃) (γ t₄) r"
+}

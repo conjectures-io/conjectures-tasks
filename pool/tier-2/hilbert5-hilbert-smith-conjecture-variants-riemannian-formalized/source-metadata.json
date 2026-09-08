@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    22,
+    53,
+    57,
+    58
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The conjecture holds when `G` acts by isometries on a Riemannian manifold, since `G`\nembeds as a closed subgroup of the isometry group, which is a Lie group by Myers–Steenrod. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.HilbertProblems.«5»",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Hilbert%E2%80%93Smith_conjecture)",
+    "[Tao's blog](https://terrytao.wordpress.com/2011/08/13/the-hilbert-smith-conjecture/)",
+    "[Pardon 2013, arXiv:1112.2324](https://arxiv.org/abs/1112.2324)",
+    "[van den Dries–Goldbring, *Hilbert's Fifth Problem*] (https://ems.press/journals/lem/articles/13621)",
+    "[arXiv:math/0103145](https://arxiv.org/abs/math/0103145)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/HilbertProblems/5.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Hilbert5.hilbert_smith_conjecture.variants.riemannian",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:21d5f800bdcdce9ef0333f566f7902dcc3ab7c248501423704ab362bb58254f0",
+  "type_pretty": "∀ {G : Type u_1} [inst : Group G] [inst_1 : TopologicalSpace G] {n : ℕ} {X : Type u_2} [inst_2 : TopologicalSpace X]\n  [T2Space X] [ConnectedSpace X] [inst_5 : ChartedSpace (EuclideanSpace ℝ (Fin n)) X] [IsTopologicalGroup G]\n  [LocallyCompactSpace G] [inst_8 : MulAction G X] [ContinuousSMul G X] [FaithfulSMul G X] [inst_11 : MetricSpace X]\n  [IsManifold (modelWithCornersSelf ℝ (EuclideanSpace ℝ (Fin n))) (↑⊤) X],\n  (∀ (g : G), Isometry fun x => g • x) → Hilbert5.AdmitsLieGroupStructure G"
+}

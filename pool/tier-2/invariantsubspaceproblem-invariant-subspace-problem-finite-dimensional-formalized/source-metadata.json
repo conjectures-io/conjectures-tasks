@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    47
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every (bounded) linear operator `T : H → H` on a finite-dimensional linear space `H` of dimension\nat least 2 has a non-trivial (closed) `T`-invariant subspace. This can be solved using the Jordan\nnormal form, which is\n[not yet in mathlib](https://leanprover-community.github.io/undergrad_todo.html). ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.InvariantSubspaceProblem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Invariant_subspace_problem),"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/InvariantSubspaceProblem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "InvariantSubspaceProblem.Invariant_subspace_problem_finite_dimensional",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1a4b0a92b794d16f8377d8afabcd296ec4d0185ad6d1d86abbbfa37f55f818f3",
+  "type_pretty": "∀ {H : Type u_1} [inst : NormedAddCommGroup H] [inst_1 : Module ℂ H],\n  FiniteDimensional ℂ H →\n    2 ≤ Module.rank ℂ H → ∀ (T : H →L[ℂ] H), Nonempty (InvariantSubspaceProblem.ClosedInvariantSubspace T)"
+}

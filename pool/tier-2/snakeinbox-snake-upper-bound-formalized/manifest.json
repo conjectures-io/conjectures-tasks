@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "SnakeInBox.snake_upper_bound"
+  ],
+  "generated_target_type_hash": "sha256:4403e5dc5fda432a38691aa74ffb31698f2989bd5892cddf9e3aa2e093db8afd",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.SnakeInTheBox",
+  "source_path": "FormalConjectures/Wikipedia/SnakeInTheBox.lean",
+  "source_theorem": "SnakeInBox.snake_upper_bound",
+  "source_type_hash": "sha256:4403e5dc5fda432a38691aa74ffb31698f2989bd5892cddf9e3aa2e093db8afd",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-snakeinbox-snake-upper-bound-bb21e49354-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:59a2013ee66320e825cc1d6c1257cfb1b6bb2553258a6a5188d9babbe2a908b2",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:89be7b002f5f386b1e7cc33482187088d3cbd7bb32d2c34bf61b844974c5b858",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:2f0411870b5249747de3312a98ae4f075defbf37ab79228042d7b499788f2cc7"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The **Pollington–de Mathan theorem** [Pol79][Mat80]. For every lacunary sequence\n$(m_n)_{n \\ge 1}$ of positive integers, the set of real numbers $\\xi$ for which\n$(\\{\\xi m_n\\})_{n \\ge 1}$ is *not* dense modulo one has full Hausdorff dimension. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Books.BugeaudDistributionModuloOne.Problem10_6",
+  "pointer_target": null,
+  "references": [
+    "[Bos94] Boshernitzan, Michael D. \"Density modulo 1 of dilations of sublacunary sequences.\" Advances in Mathematics 108.1 (1994): 104-117.",
+    "[Bug12] Bugeaud, Yann. \"Distribution modulo one and Diophantine approximation.\" Vol. 193. Cambridge University Press, 2012. Chapter 10.",
+    "[Fur67] Furstenberg, H. \"Disjointness in ergodic theory, minimal sets, and a problem in diophantine approximation\". Math. Systems Theory 1, 1–49 (1967).",
+    "[Mat80] de Mathan, Bernard. \"Numbers contravening a condition in density modulo 1.\" Acta Mathematica Hungarica 36.3-4 (1980): 237-241.",
+    "[Pol79] Pollington, Andrew Douglas. \"On the density of sequence $\\{n_ {k}\\xi\\} $.\" Illinois Journal of Mathematics 23.4 (1979): 511-515."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Books/BugeaudDistributionModuloOne/Problem10_6.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Bugeaud06.pollington_de_mathan",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8395a4e84a726bea5a1832faeb7dda636efb946e1cf779821814c88ca1158477",
+  "type_pretty": "∀ (m : ℕ → ℕ), (∀ (n : ℕ), 0 < m n) → IsLacunary m → dimH {ξ | ¬Dense (Set.range fun n => ↑(ξ * ↑(m n)))} = 1"
+}

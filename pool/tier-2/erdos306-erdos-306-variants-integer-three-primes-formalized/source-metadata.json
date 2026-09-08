@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every positive integer can be expressed as an Egyptian fraction where each denominator is the\nproduct of three distinct primes.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«306»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/306](https://www.erdosproblems.com/306)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/306.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos306.erdos_306.variants.integer_three_primes",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5303f82680458ac1cddf0f17e5ffc7514b373933db3d45f3b95634ea026d8511",
+  "type_pretty": "∀ (m : ℕ),\n  0 < m →\n    ∃ k > 0,\n      ∃ n,\n        n 0 = 1 ∧\n          ∀ (i : ℕ) (hik : i < k),\n            n ⟨i, ⋯⟩ < n ⟨i + 1, ⋯⟩ ∧\n              (∀ i ∈ Finset.Icc 1 (Fin.last k),\n                  ArithmeticFunction.cardDistinctFactors (n i) = 3 ∧ ArithmeticFunction.cardFactors (n i) = 3) ∧\n                ↑m = ∑ i ∈ Finset.Icc 1 (Fin.last k), 1 / ↑(n i)"
+}

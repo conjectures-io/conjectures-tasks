@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos263.erdos_263.variants.folklore"
+  ],
+  "generated_target_type_hash": "sha256:ecf37d061802e33ded1ebe76cac071872d0aa5a69d5295d7a2285c575be95c4d",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«263»",
+  "source_path": "FormalConjectures/ErdosProblems/263.lean",
+  "source_theorem": "Erdos263.erdos_263.variants.folklore",
+  "source_type_hash": "sha256:ecf37d061802e33ded1ebe76cac071872d0aa5a69d5295d7a2285c575be95c4d",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-folklore-5469091a12-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:60ef9310f65d51d09947aabff3bd01be73a1706625d1c90cac3809fa9968e5ca",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:4ed570fddd085e6eec5d46cc6ac76662c0572680c98559e2a7e8f44f473f37b0",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:da002727aec8c043e59ab97ec2e2116595ce6f4350084236cf211f7d312750ee"
+  }
+}

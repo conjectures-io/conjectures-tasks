@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "SuffixPrefixAvoidance.suffix_prefix_avoidance_bound"
+  ],
+  "generated_target_type_hash": "sha256:28df1e98f2327874eeb1ae2cd967e703f86a84867ee8a7c5095ac17b1f8463be",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Other.SuffixPrefixAvoidance",
+  "source_path": "FormalConjectures/Other/SuffixPrefixAvoidance.lean",
+  "source_theorem": "SuffixPrefixAvoidance.suffix_prefix_avoidance_bound",
+  "source_type_hash": "sha256:28df1e98f2327874eeb1ae2cd967e703f86a84867ee8a7c5095ac17b1f8463be",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-suffixprefixavoidance-suffix-prefix-avoidance-bound-983d41205f-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:0e1592a07d958d3b704b63b800fa985804af1b68beeff3a5d41cd3a2063da040",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:64dcd6e0b9a11183d7fe987f43d4bf6cc590f256c87675186276125630401a0d",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:503e995120e33b6e363f7069ab6030d268351ad9ce6f8f3ea6a3761ce77e93fa"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Monier observed that $n_k \\le k!$ for $k \\ge 3$ ([Mo85]), since $\\binom{k!}{k}$ is divisible\nby $k! - i$ for $1 \\le i < k$.\n\nThe hypothesis `3 ≤ k` is necessary. At $k = 2$ the bound is false: $n_2 = 4$ and $2! = 2$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1063»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1063](https://www.erdosproblems.com/1063)",
+    "[ErSe83] Erdos, P. and Selfridge, J. L., Problem 6447. Amer. Math. Monthly (1983), 710.",
+    "[Gu04] Guy, Richard K., _Unsolved problems in number theory_. (2004), Problem B31.",
+    "[Mo85] Monier, Jean-Marie, _Problems and Solutions: Solutions of Advanced Problems: 6447_. Amer. Math. Monthly **92** (1985), 435-436."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1063.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1063.erdos_1063.variants.monier_upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4df21d7fafb2bcbc3a182a1e28bc5447963b957f18c0f15f9a9f79173a1011a2",
+  "type_pretty": "∀ {k : ℕ}, 3 ≤ k → Erdos1063.n k ≤ k.factorial"
+}

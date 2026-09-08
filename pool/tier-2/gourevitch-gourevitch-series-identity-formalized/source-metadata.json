@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11,
+    33
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The Gourevitch series identity:\nThe following identity holds:\n$\\sum_{n=0}^{\\infty} \\frac{1 + 14 n + 76 n^2 + 168 n^3}{2^{20 n}} \\binom{2n}{n}^7 = \\frac{32}{\\pi^3}.$\nThis was originally conjectured in [G2003] by Guillera and proven in [A2025] by Au.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Paper.Gourevitch",
+  "pointer_target": null,
+  "references": [
+    "[About a New Kind of Ramanujan-Type Series](https://doi.org/10.1080/10586458.2003.10504518) by *Jesús Guillera*",
+    "[G2003] Guillera, Jesús. \"About a new kind of Ramanujan-type series.\" Experimental Mathematics 12.4 (2003): 507-510.",
+    "[A2025] Au, Kam Cheong. \"Wilf-Zeilberger seeds and non-trivial hypergeometric identities.\" Journal of Symbolic Computation 130 (2025): 102421. [arXiv:2312.14051](https://arxiv.org/abs/2312.14051)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Paper/Gourevitch.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Gourevitch.gourevitch_series_identity",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9bfd4be5eefebb1e8b4981d6f28afb0ce46b9d0d3d1f0dfaf6184dc854a69896",
+  "type_pretty": "∑' (n : ℕ), (1 + 14 * ↑n + 76 * ↑n ^ 2 + 168 * ↑n ^ 3) / 2 ^ (20 * n) * ↑n.centralBinom ^ 7 = 32 / Real.pi ^ 3"
+}

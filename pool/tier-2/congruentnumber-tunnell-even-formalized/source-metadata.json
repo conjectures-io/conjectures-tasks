@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Tunnell's theorem (necessary condition) for even squarefree congruent numbers. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.CongruentNumber",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia (Congruent number)](https://en.wikipedia.org/wiki/Congruent_number)",
+    "[Wikipedia (Tunnell's theorem)](https://en.wikipedia.org/wiki/Tunnell%27s_theorem)",
+    "[Keith Conrad's note](https://kconrad.math.uconn.edu/blurbs/ugradnumthy/congnumber.pdf)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/CongruentNumber.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "CongruentNumber.Tunnell_even",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6d7b7e8d65c1223494fed08956189d3103f3628b7e826b30a6d2491faf0d0562",
+  "type_pretty": "∀ (n : ℕ),\n  Squarefree n →\n    Even n → CongruentNumber.congruentNumber n → 2 * (CongruentNumber.C n).ncard = (CongruentNumber.D n).ncard"
+}

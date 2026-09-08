@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    12
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The following weaker version of the mean value problem has been proven.\nGiven a complex polynomial $p$ of degree $d ≥ 2$ and a complex number $z$\nthere a critical point $c$ of $p$, such that $|p(z)-p(c)|/|z-c| ≤ 4|p'(z)|$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.MeanValueProblem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Mean_value_problem)",
+    "[The fundamental theorem of algebra and complexity theory](https://www.ams.org/journals/bull/1981-04-01/S0273-0979-1981-14858-8/)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/MeanValueProblem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "MeanValueProblem.mean_value_problem_leq_4",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ba0931719e97781ca204cff182ab8bf684cec71fe3582abcb755bae7411442c3",
+  "type_pretty": "∀ (p : Polynomial ℂ),\n  2 ≤ p.degree →\n    ∀ (z : ℂ) (K : ℝ),\n      ∃ c,\n        Polynomial.eval c (Polynomial.derivative p) = 0 ∧\n          ‖Polynomial.eval z p - Polynomial.eval c p‖ / ‖z - c‖ ≤ 4 * ‖Polynomial.eval z (Polynomial.derivative p)‖"
+}

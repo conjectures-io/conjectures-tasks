@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    68
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Shitov's bound (2019)**: Every synchronizing DFA with $n$ states admits a synchronizing\nword of length at most $\\left(\\frac{7}{48} + \\frac{2 \\cdot 15625}{1597536}\\right) n^3 + o(n^3)$,\nwhere the $o(n^3)$ term is uniform over all alphabets. This is the best known upper bound\ntowards the Černý conjecture.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.CernyConjecture",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia: Synchronizing word](https://en.wikipedia.org/wiki/Synchronizing_word)",
+    "J. Černý, [*Poznámka k homogénnym experimentom s konečnými automatmi*](https://dml.cz/bitstream/handle/10338.dmlcz/126647/MathSlov_14-1964-3_2.pdf), Matematicko-fyzikálny časopis, Vol. 14 (1964), No. 3, 208--216.",
+    "Y. Shitov, *An improvement to a recent upper bound for synchronizing words of finite automata*, J. Autom. Lang. Comb. Vol. 24 (2019), 367--373."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/CernyConjecture.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "CernyConjecture.shitov_upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3ea48c8f9fb77a38ae0b5c72e5f1478e37f35b6b5b18a6111db81d01c6f7642d",
+  "type_pretty": "∃ f,\n  (f =o[Filter.atTop] fun n => n ^ 3) ∧\n    ∀ {α : Type u_1} {σ : Type u_2} [inst : Fintype σ] (M : DFA α σ),\n      M.IsSynchronizing →\n        ∃ w,\n          M.IsSynchronizingWord w ∧\n            ↑w.length ≤ (7 / 48 + 2 * 15625 / 1597536) * ↑(Fintype.card σ) ^ 3 + f ↑(Fintype.card σ)"
+}

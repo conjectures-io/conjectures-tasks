@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős [Er37b] proved that if $f_2(n)$ counts the number of solutions to $n = p_1^2 + p_2^2$, where $p_1$ and $p_2$ are prime numbers, then $\\limsup f_2(n) = \\infty$.\n\n[Er37b] Erdős, Paul, On the Sum and Difference of Squares of Primes. J. London Math. Soc. (1937), 133--136.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«979»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/979](https://www.erdosproblems.com/979)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/979.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos979.erdos_979.variants.k2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ef5cff24e91953ccf240976d7e4c234c83021382e44486b61b627ea4d90ba035",
+  "type_pretty": "Filter.limsup (fun n => (Erdos979.solutionSet n 2).encard) Filter.atTop = ⊤"
+}

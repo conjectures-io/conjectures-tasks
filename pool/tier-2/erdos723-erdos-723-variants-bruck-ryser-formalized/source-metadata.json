@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Bruck and Ryser have proved that if $n \\equiv 1 (\\mod 4)$ or $n \\equiv 2 (\\mod 4)$ then $n$ must be\nthe sum of two squares.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«723»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/723](https://www.erdosproblems.com/723)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/723.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos723.erdos_723.variants.bruck_ryser",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b78ac384126309606f9b73982907ad80a9a214cbea89401aec17287ca8bc0806",
+  "type_pretty": "∀ {P L : Type} [inst : Membership P L] [Fintype P] [Fintype L] (n : ℕ) (pp : Configuration.ProjectivePlane P L),\n  Configuration.ProjectivePlane.order P L = n → n ≡ 1 [MOD 4] ∨ n ≡ 2 [MOD 4] → ∃ a b, n = a ^ 2 + b ^ 2"
+}

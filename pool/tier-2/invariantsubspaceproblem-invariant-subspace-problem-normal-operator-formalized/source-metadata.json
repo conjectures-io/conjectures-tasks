@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    47
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every normal linear operator `T : H → H` on a Hilbert space `H` of dimension at least 2 has a\nnon-trivial closed `T`-invariant subspace. If `T` is a multiple of the identity, one can tafrake any\nnon-trivial subspace . If not, one can take any nontrivial spectral subspace of `T`. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.InvariantSubspaceProblem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Invariant_subspace_problem),"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/InvariantSubspaceProblem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "InvariantSubspaceProblem.Invariant_subspace_problem_normal_operator",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2d76e46565eca9a32c67f55908dec6125bb9b674ae714dfee2ab1fb30ba3fb80",
+  "type_pretty": "∀ {H : Type u_1} [inst : NormedAddCommGroup H] [inst_1 : InnerProductSpace ℂ H] [inst_2 : CompleteSpace H],\n  2 ≤ Module.rank ℂ H →\n    ∀ (T : H →L[ℂ] H) [IsStarNormal T], Nonempty (InvariantSubspaceProblem.ClosedInvariantSubspace T)"
+}

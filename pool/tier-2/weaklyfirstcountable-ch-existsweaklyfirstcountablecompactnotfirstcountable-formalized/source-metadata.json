@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    54
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Under CH, such a space (for Problem 3 in [Ar2013]) exists as\nconstructed in [Ya1976] by Yakovlev. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Paper.WeaklyFirstCountable",
+  "pointer_target": null,
+  "references": [
+    "[Ar2013] Arhangeliski, Alexandr. \"Selected old open problems in general topology.\" Buletinul Academiei de Ştiinţe a Republicii Moldova. Matematica 73.2-3 (2013): 37-46. https://www.math.md/files/basm/y2013-n2-3/y2013-n2-3-(pp37-46).pdf.pdf",
+    "[Ya1976] Yakovlev, N. N. \"On the theory of o-metrizable spaces.\" Doklady Akademii Nauk. Vol. 229. No. 6. Russian Academy of Sciences, 1976. https://www.mathnet.ru/links/016f74007f9f96fa3aadae05cbd98457/dan40570.pdf (in Russian)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Paper/WeaklyFirstCountable.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "WeaklyFirstCountable.CH.existsWeaklyFirstCountableCompactNotFirstCountable",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7a9890bdc78dfbe841ede39aff2ccc6f6808d0d7987027c42078ff30c71ec024",
+  "type_pretty": "∀ [Fact (Cardinal.aleph 1 = Cardinal.continuum)],\n  ∃ X x, WeaklyFirstCountable.WeaklyFirstCountableTopology X ∧ CompactSpace X ∧ T2Space X ∧ ¬FirstCountableTopology X"
+}

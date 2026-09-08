@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "An upper bound of the maximal length of the longest snake in a box is given by\n$$\n1 + 2^{n-1}\\frac{6n}{6n + \\frac{1}{6\\sqrt{6}}n^{\\frac 1 2} - 7}.\n$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.SnakeInTheBox",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Snake-in-the-box)",
+    "[Hypercube](https://en.wikipedia.org/wiki/Hypercube_graph)",
+    "[xkcd](https://xkcd.com/3125/)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/SnakeInTheBox.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "SnakeInBox.snake_upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4403e5dc5fda432a38691aa74ffb31698f2989bd5892cddf9e3aa2e093db8afd",
+  "type_pretty": "∀ (n : ℕ), ↑(SnakeInBox.LongestSnakeInTheBox n) ≤ 1 + 2 ^ (n - 1) * (6 * ↑n) / (6 * ↑n + 1 / (6 * √6) * √↑n)"
+}

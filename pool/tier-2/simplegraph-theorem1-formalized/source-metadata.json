@@ -1,0 +1,37 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Theorem 1.** If a triangle-free graph has `f = 2`,\nthen it is bipartite, has minimum degree `1`, and\nits degree sequence is compact. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Paper.DegreeSequencesTriangleFree",
+  "pointer_target": null,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Paper/DegreeSequencesTriangleFree.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "SimpleGraph.theorem1",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b7c4af0d8a00a173812b426b910b80a2e70e12c3b236583cd1b4dc2659b6cc4d",
+  "type_pretty": "∀ {α : Type u_1} [inst : Fintype α] [DecidableEq α] (G : SimpleGraph α),\n  G.Connected →\n    ∀ [inst_2 : DecidableRel G.Adj],\n      G.CliqueFree 3 → G.degreeSequenceMultiplicity = 2 → G.IsBipartite ∧ G.minDegree = 1 ∧ G.HasCompactdegreeSequence"
+}

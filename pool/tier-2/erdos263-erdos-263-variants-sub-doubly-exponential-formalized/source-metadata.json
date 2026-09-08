@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Kovač and Tao [KoTa24] proved that any strictly increasing sequence $a_n$ such that\n$\\sum \\frac{1}{a_n}$ converges and $\\lim \\frac{a_{n+1}}{a_n^2} = 0$ is not\nan irrationality sequence in the above sense.\n\n[KoTa24] Kovač, V. and Tao T., On several irrationality problems for Ahmes series.\n         arXiv:2406.17593 (2024).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«263»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/263](https://www.erdosproblems.com/263)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/263.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos263.erdos_263.variants.sub_doubly_exponential",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9922650ea3ed1963567aa69d9e29fc89fd745001a808c1e09a14f62be65eecce",
+  "type_pretty": "∀ (a : ℕ → ℕ),\n  StrictMono a →\n    (Summable fun n => 1 / ↑(a n)) →\n      Filter.Tendsto (fun n => ↑(a (n + 1)) / ↑(a n) ^ 2) Filter.atTop (nhds 0) → ¬Erdos263.IsIrrationalitySequence a"
+}

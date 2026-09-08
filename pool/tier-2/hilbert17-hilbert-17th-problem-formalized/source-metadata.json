@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    12
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Hilbert's 17th problem: every non-negative multivariate polynomial is a sum of\nsquares of rational functions.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.HilbertProblems.«17»",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Hilbert%27s_seventeenth_problem)",
+    "Motzkin, \"The arithmetic-geometric inequality\". In Shisha, Oved (ed.). Inequalities. Academic Press. pp. 205–224."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/HilbertProblems/17.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Hilbert17.hilbert_17th_problem",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8f7d73457a703b024e4519cc86a78c2edce271d1eb524f7d9535d283934625ae",
+  "type_pretty": "∀ {n : ℕ},\n  0 < n →\n    ∀ (f : MvPolynomial (Fin n) ℝ),\n      (∀ (x : Fin n → ℝ), 0 ≤ (MvPolynomial.eval x) f) →\n        ∃ m g, (algebraMap (MvPolynomial (Fin n) ℝ) (MvRatFunc (Fin n) ℝ)) f = ∑ i, g i ^ 2"
+}

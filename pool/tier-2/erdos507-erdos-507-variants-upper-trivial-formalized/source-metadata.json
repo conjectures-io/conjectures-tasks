@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    51
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is trivial that $\\alpha(n) \\ll 1/n$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«507»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/507](https://www.erdosproblems.com/507)",
+    "[CPZ23] Cohen, Alex, Cosmin Pohoata, and Dmitrii Zakharov. \"A new upper bound for the Heilbronn triangle problem.\" arXiv preprint arXiv:2305.18253 (2023).",
+    "[CPZ24] Cohen, Alex, Cosmin Pohoata, and Dmitrii Zakharov. \"Lower bounds for incidences.\" Inventiones mathematicae (2025): 1-74.",
+    "[KPS82] Komlós, János, János Pintz, and Endre Szemerédi. \"A lower bound for Heilbronn's problem.\" Journal of the London Mathematical Society 2.1 (1982): 13-24.",
+    "[KPS81] Komlós, János, János Pintz, and Endre Szemerédi. \"On Heilbronn's triangle problem.\" Journal of the London Mathematical Society 2.3 (1981): 385-396."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/507.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos507.erdos_507.variants.upper_trivial",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e9afc98aded855e9ab5c5ffd6397cfceffe2fd699b764c641b0e07f7dcdcebd6",
+  "type_pretty": "Erdos507.α =O[Filter.atTop] fun n => 1 / ↑n"
+}

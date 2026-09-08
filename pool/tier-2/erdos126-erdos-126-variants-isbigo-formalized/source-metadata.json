@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Turán proved [ErTu34] in their first joint paper that\n$$\n  \\log n \\ll f(n) \\ll \\frac{n}{\\log n}\n$$\n\n[ErTu34] Erdős, Paul and Turan, Paul, _On a Problem in the Elementary Theory of Numbers_. Amer. Math. Monthly (1934), 608-611.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«126»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/126](https://www.erdosproblems.com/126)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/126.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos126.erdos_126.variants.IsBigO",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1112909ac9017653af0c2ed404ce0de66ba83e454592c625efefa31db172f037",
+  "type_pretty": "∀ (f : ℕ → ℕ),\n  Erdos126.IsMaximalAddFactorsCard f →\n    ((fun n => Real.log ↑n) =O[Filter.atTop] fun n => ↑(f n)) ∧\n      (fun n => ↑(f n)) =O[Filter.atTop] fun n => ↑n / Real.log ↑n"
+}

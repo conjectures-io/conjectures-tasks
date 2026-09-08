@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Upper bound** [Te02, DG05]\n\nThe dimension of the $\\mathbb{Q}$-vector space of MZVs of weight $n$ is at most $d_n$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Paper.ZagierMZV",
+  "pointer_target": null,
+  "references": [
+    "[Za94] Zagier, Don. \"Values of zeta functions and their applications.\" First European Congress of Mathematics Paris, July 6–10, 1992: Vol. II: Invited Lectures (Part 2). Basel: Birkhäuser Basel, 1994.",
+    "[Co18] Combariza, Germán AG. \"A few conjectures about the multiple zeta values.\" ACM Communications in Computer Algebra 52.1 (2018): 11-20.",
+    "[Te02] T. Terasoma. Mixed Tate motives and multiple zeta values. Invent. Math., 149(2):339–369, 2002.",
+    "[DG05] P. Deligne and A. Goncharov. Groupes fondamentaux motiviques de Tate mixte. Ann. Sci. Ecole Norm. Sup. (4), 38(1):1–56, 2005.",
+    "[OEIS A000931](https://oeis.org/A000931)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Paper/ZagierMZV.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "ZagierMZV.zagier_upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e41c846b8cd467b2d39d189cf60484665c6a306c4e11ee0f27679fa4cfe0d56c",
+  "type_pretty": "∀ (n : ℕ), Module.finrank ℚ ↥(ZagierMZV.mzvSpanOfWeight n) ≤ ZagierMZV.zagierDim n"
+}

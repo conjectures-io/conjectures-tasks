@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Ferreira proved that Brocard's conjecture is true for sufficiently large n.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.BrocardConjecture",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Brocard%27s_conjecture)",
+    "[Luan Alberto Ferreira, *Real exponential sums over primes and prime gaps*](https://arxiv.org/abs/2307.08725)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/BrocardConjecture.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Brocard.brocard_conjecture.ferreira_large_n",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4d589fc29c23fa0b4e60048249fdf89565c83a46fbcbc11a872b5f6b7457a06e",
+  "type_pretty": "∀ᶠ (n : ℕ) in Filter.atTop,\n  4 ≤ (Finset.filter Nat.Prime (Finset.Ioo (Nat.nth Nat.Prime n ^ 2) (Nat.nth Nat.Prime (n + 1) ^ 2))).card"
+}

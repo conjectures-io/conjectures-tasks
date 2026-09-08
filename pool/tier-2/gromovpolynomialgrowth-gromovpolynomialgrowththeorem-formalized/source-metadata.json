@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    20
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Gromov's Polynomial Growth Theorem** : A finitely generated group has\npolynomial growth if and only if it is virtually nilpotent. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.GromovPolynomialGrowth",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Gromov%27s_theorem_on_groups_of_polynomial_growth)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/GromovPolynomialGrowth.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "GromovPolynomialGrowth.GromovPolynomialGrowthTheorem",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0c6aed5d3936ad26d512d4cefbd21fbc3d8db95b3f247c5c7601f28bdd4a4f5d",
+  "type_pretty": "∀ (G : Type u_1) [inst : Group G] [Group.FG G],\n  GromovPolynomialGrowth.HasPolynomialGrowth G ↔ Group.IsVirtuallyNilpotent G"
+}

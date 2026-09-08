@@ -1,0 +1,37 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    35
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "In dimension $n ≥ 9$, the conclusion of De Giorgi's conjecture does not hold.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Paper.DeGiorgi",
+  "pointer_target": null,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Paper/DeGiorgi.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "DeGiorgi.DeGiorgi_ge_nine",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:dedc3b133d53b578ad8ec832143fd91c7d12a7a2becb1f25913bf7d4d4ccbb69",
+  "type_pretty": "∀ {n : ℕ} [inst : NeZero n], n ≥ 9 → ¬DeGiorgi.DeGiorgi_conclusion n"
+}

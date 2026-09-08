@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    12,
+    14
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The Noether problem has a positive solution in the four indeterminate case.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.NoetherProblem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Rational_variety)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/NoetherProblem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "NoetherProblem.noether_problem.variants.four",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9b168c74d190a6536b0c3e08b7ebd3343bcf901f653d5af47ed8ce518cd96bf4",
+  "type_pretty": "∀ {K L ι : Type} {G : Type} [inst : Field K] [inst_1 : Field L] [inst_2 : Fintype ι] [inst_3 : Algebra K L]\n  [inst_4 : NoetherProblem.IsRationalExtension K L ι], Fintype.card ι = 4 → NoetherProblem.HasNoetherProperty K L ι"
+}

@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is known that $A + A$ must contain a coset of dimension $\\gg_\\alpha n$ [Gr13]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«51»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green's Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.51)",
+    "[Gr13] B. J. Green, Restriction and Kakeya phenomena, notes from a 2003 course. Available at http://people.maths.ox.ac.uk/greenbj/papers/rkp.pdf",
+    "[Sa11] Sanders, Tom. \"Green's sumset problem at density one half.\" Acta Arithmetica 146.1 (2011): 91-101.",
+    "[Gr02] Green, Ben. \"Arithmetic progressions in sumsets.\" Geometric & Functional Analysis GAFA 12.3 (2002): 584-597.",
+    "[Ruz91] Ruzsa, Imre Z. \"Arithmetic progressions in sumsets.\" Acta Arithmetica 60.2 (1991): 191-202."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green51.green_51.lower",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c8ddff7e774d8d837626a757bda6ad3dbc76c2362bc9126371a4cd16648a295a",
+  "type_pretty": "∀ (α : ℝ), 0 < α → α ≤ 1 → ∃ c > 0, ∀ᶠ (n : ℕ) in Filter.atTop, c * ↑n ≤ ↑(Green51.guaranteedMaxCosetDim n α)"
+}

@@ -1,0 +1,46 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    22,
+    57,
+    58
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Pardon (2013): the Hilbert–Smith conjecture holds for 3-dimensional manifolds.\nSee [arXiv:1112.2324](https://arxiv.org/abs/1112.2324). ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.HilbertProblems.«5»",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Hilbert%E2%80%93Smith_conjecture)",
+    "[Tao's blog](https://terrytao.wordpress.com/2011/08/13/the-hilbert-smith-conjecture/)",
+    "[Pardon 2013, arXiv:1112.2324](https://arxiv.org/abs/1112.2324)",
+    "[van den Dries–Goldbring, *Hilbert's Fifth Problem*] (https://ems.press/journals/lem/articles/13621)",
+    "[arXiv:math/0103145](https://arxiv.org/abs/math/0103145)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/HilbertProblems/5.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Hilbert5.hilbert_smith_conjecture.variants.dimension_three",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2b27961c331112d761926609dd2dec3881acf34517f8d6319ad48d753a0b2223",
+  "type_pretty": "∀ {G : Type u_1} [inst : Group G] [inst_1 : TopologicalSpace G] {X : Type u_3} [inst_2 : TopologicalSpace X] [T2Space X]\n  [ConnectedSpace X] [ChartedSpace (EuclideanSpace ℝ (Fin 3)) X] [IsTopologicalGroup G] [LocallyCompactSpace G]\n  [inst_8 : MulAction G X] [ContinuousSMul G X] [FaithfulSMul G X], Hilbert5.AdmitsLieGroupStructure G"
+}

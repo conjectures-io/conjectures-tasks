@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "There exists a constant `c > 0` such that for all `n`, if\n`k < c * (log n / (log (log n))) ^ 3 → (∀ i < k, ¬ (n + i + 1).Prime)`, then\nthere are distinct primes `p₁, ... pₖ` such that `pᵢ ∣ n + i` for all `1 ≤ i ≤ k`. This is proved\nin [RST75]. There is no need to only consider sufficiently large `n` because one can always take\n`c` small enough so that `k < c * (log n / (log (log n))) ^ 3` implies that `k = 0` until `n` is\nlarge. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«375»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/375](https://www.erdosproblems.com/375)",
+    "[ErGr80] Erdős, P. and Graham, R., Old and new problems and results in combinatorial number theory. Monographies de L'Enseignement Mathematique (1980).",
+    "[RST75] Ramachandra, K. and Shorey, T. N. and Tijdeman, R., On Grimm's problem relating to factorisation of a block of consecutive integers. J. Reine Angew. Math. (1975), 109-124. -"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/375.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos375.erdos_375.variants.log",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:48b645d0bf0db8b9204ed64f0d5fcbfb89c6e257842073941c2c50f7a8bbbcd2",
+  "type_pretty": "∃ c > 0,\n  ∀ (n k : ℕ),\n    ↑k < c * (Real.log ↑n / Real.log (Real.log ↑n)) ^ 3 →\n      (∀ i < k, ¬Nat.Prime (n + i + 1)) → ∃ p, Function.Injective p ∧ ∀ (i : Fin k), Nat.Prime (p i) ∧ p i ∣ n + ↑i + 1"
+}

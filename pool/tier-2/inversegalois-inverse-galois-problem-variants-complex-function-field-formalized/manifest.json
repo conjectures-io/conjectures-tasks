@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "InverseGalois.inverse_galois_problem.variants.complex_function_field"
+  ],
+  "generated_target_type_hash": "sha256:3f44af3a0d212b4616bc219e03a03ef86b9cc46e02eeb0821a35d413954bec71",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.InverseGalois",
+  "source_path": "FormalConjectures/Wikipedia/InverseGalois.lean",
+  "source_theorem": "InverseGalois.inverse_galois_problem.variants.complex_function_field",
+  "source_type_hash": "sha256:3f44af3a0d212b4616bc219e03a03ef86b9cc46e02eeb0821a35d413954bec71",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-complex-function-field-024b1f3632-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:54fe54682ba686ee9c2bdcc852ab16aaf3a69b7acd5d8892fc9f24ef5f6e1582",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:41e3ac366d3b1274e72bec4e8f9692eb0a518e8472c26061c460bd51f51b1f48",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:80f0784ce7e28a09392bd34147ead30ef0796c92b388c410dcc2570162c1de67"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "In Theorem 6 in [F1998], Kevin Ford proves that the smallest counterexample to\nCarmichael's totient function conjecture must be $≥ 10 ^ (10 ^ 10)$ ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.CarmichaelTotient",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Carmichael%27s_totient_function_conjecture)",
+    "[F1998] Kevin Ford. The distribution of totients. https://arxiv.org/abs/1104.3264"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "CarmichaelTotient.carchimaelTotient_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:dfcdedb3746e9713f8bb4c842684b44b4450fbf965eb8cae388208b314e820f4",
+  "type_pretty": "∀ {n : ℕ}, 0 < n → n < 10 ^ 10 ^ 10 → CarmichaelTotient.CarmichaelTotientFor n"
+}

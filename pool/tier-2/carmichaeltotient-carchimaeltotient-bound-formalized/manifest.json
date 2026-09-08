@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "CarmichaelTotient.carchimaelTotient_bound"
+  ],
+  "generated_target_type_hash": "sha256:dfcdedb3746e9713f8bb4c842684b44b4450fbf965eb8cae388208b314e820f4",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.CarmichaelTotient",
+  "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+  "source_theorem": "CarmichaelTotient.carchimaelTotient_bound",
+  "source_type_hash": "sha256:dfcdedb3746e9713f8bb4c842684b44b4450fbf965eb8cae388208b314e820f4",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-carmichaeltotient-carchimaeltotient-bound-31e97cdc7b-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:1a15422919704f074709dc42bae7dce9f86c5eea734ccb6c58074b38a3b7cd61",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:efd850c839f77458b4549e112598f2e295b2192cf9f595f2241d78631cb3cf0b",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:b812f3dbcb0e9da8e905292ecc2bf634e161e5eabef2d05e1dca560a0c3d0366"
+  }
+}

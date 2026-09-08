@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Equidistribution.isAccumulationPoint_three_halves_pow_infinite"
+  ],
+  "generated_target_type_hash": "sha256:8e7f34675f8c17dbc970e2a523c372871cdbdb3983dc41b9f97805b5280d95e4",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Books.UniformDistributionOfSequences.Equidistribution",
+  "source_path": "FormalConjectures/Books/UniformDistributionOfSequences/Equidistribution.lean",
+  "source_theorem": "Equidistribution.isAccumulationPoint_three_halves_pow_infinite",
+  "source_type_hash": "sha256:8e7f34675f8c17dbc970e2a523c372871cdbdb3983dc41b9f97805b5280d95e4",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-equidistribution-isaccumulationpoint-three-halves-pow-infinite-3763b311dd-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:be1b0d2458e9bcf89f3730550b3b0de898b874d819543c3fe13f62f7bc070e45",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:b0383bfa22f709651fea4ab3aa864faad86360348b11dfc8d536cf8108caad13",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:83ef150c106e07f36b9e142db567148bba776815159225e3d93dba079e89717b"
+  }
+}

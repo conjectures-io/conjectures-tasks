@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "MoserWorm.mosers_worm_problem_upper_bound"
+  ],
+  "generated_target_type_hash": "sha256:d3a069c24996358d2cad4bb8e2c7a49ae51ee6a5a677862f92749b975f3ebfb0",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.MoserWorm",
+  "source_path": "FormalConjectures/Wikipedia/MoserWorm.lean",
+  "source_theorem": "MoserWorm.mosers_worm_problem_upper_bound",
+  "source_type_hash": "sha256:d3a069c24996358d2cad4bb8e2c7a49ae51ee6a5a677862f92749b975f3ebfb0",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-moserworm-mosers-worm-problem-upper-bound-1df8e7f730-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:d2bb941dd988f632bd5a09b8c0dc9a160457aa6889deee0faf4a10fd1d621654",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:94f67c80598561390fae1ad2ba401aea784649a2c1274fe1be55a5afe9aac8c5",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4fb46a0a22aa5769031291e2e9776c16ef16d31e5b31e213ccc6cc9bff5fdeb9"
+  }
+}

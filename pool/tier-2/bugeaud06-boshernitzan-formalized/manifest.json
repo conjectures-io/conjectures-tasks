@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Bugeaud06.boshernitzan"
+  ],
+  "generated_target_type_hash": "sha256:cddd0e07cdd135b9334349f5839304db1ec65fe6533572f5ea5c3e131f6cd31f",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Books.BugeaudDistributionModuloOne.Problem10_6",
+  "source_path": "FormalConjectures/Books/BugeaudDistributionModuloOne/Problem10_6.lean",
+  "source_theorem": "Bugeaud06.boshernitzan",
+  "source_type_hash": "sha256:cddd0e07cdd135b9334349f5839304db1ec65fe6533572f5ea5c3e131f6cd31f",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-bugeaud06-boshernitzan-2531ffb16b-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:c80770ee0fc60b6c6c60ae8b87f6aadcf74bd287b9a131975bee7483c6f81c41",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7315e795823f5be71e14764636b6dfca9aa0f8f2c43b8c1d06644568234e0ff7",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:483c43bf34ec5903efb7a1200a27b281eb3eececf160aeea92fcce4fd3d4f6b8"
+  }
+}

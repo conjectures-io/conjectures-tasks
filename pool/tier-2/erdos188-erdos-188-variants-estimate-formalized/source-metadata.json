@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Old and new problems and results in combinatorial number theory by Erdős & Graham (Page 15):\n\nHow small can $M$ be made? The only estimate currently known is that $M \\le 10000000$ (more or less).\nIn the other direction, it has just been shown by R. Juhász [Ju (79)] that we must have $M \\ge 5$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«188»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/188](https://www.erdosproblems.com/188)",
+    "[EGMRSS75] Erdős, P. and Graham, R. L. and Montgomery, P. and Rothschild, B. L. and Spencer, J. and Straus, E. G., Euclidean {R}amsey theorems. {II}. (1975), 529--557.",
+    "[Ts17] Tsaturian, Sergei, A {E}uclidean {R}amsey result in the plane. Electron. J. Combin. (2017), Paper No. 4.35, 9."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/188.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos188.erdos_188.variants.estimate",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:de9024352bcf6d1f1ec1be1ba007238d7e6c3172554eb63a5bb352b5e0aadde1",
+  "type_pretty": "(∀ k ∈ Erdos188.s, 5 ≤ k) ∧ ∃ k ∈ Erdos188.s, k ≤ 10000000"
+}

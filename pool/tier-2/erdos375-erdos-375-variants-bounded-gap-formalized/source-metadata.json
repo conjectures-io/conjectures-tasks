@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If `Erdos375Prop` is true, then `(n + 1).nth Prime - n.nth Prime < (n.nth Prime) ^ (1 / 2 - c)`\nfor some `c > 0`. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«375»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/375](https://www.erdosproblems.com/375)",
+    "[ErGr80] Erdős, P. and Graham, R., Old and new problems and results in combinatorial number theory. Monographies de L'Enseignement Mathematique (1980).",
+    "[RST75] Ramachandra, K. and Shorey, T. N. and Tijdeman, R., On Grimm's problem relating to factorisation of a block of consecutive integers. J. Reine Angew. Math. (1975), 109-124. -"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/375.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos375.erdos_375.variants.bounded_gap",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:54d0c579577a0857ae14da72a60b12befce6953e0cc2c270188d32e8f4775b42",
+  "type_pretty": "Erdos375.Erdos375Prop →\n  ∃ c > 0,\n    ∀ᶠ (n : ℕ) in Filter.atTop,\n      ↑(Nat.nth Nat.Prime (n + 1)) - ↑(Nat.nth Nat.Prime n) < ↑(Nat.nth Nat.Prime n) ^ (1 / 2 - c)"
+}

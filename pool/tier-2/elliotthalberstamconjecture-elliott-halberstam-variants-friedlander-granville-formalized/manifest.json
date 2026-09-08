@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "ElliottHalberstamConjecture.elliott_halberstam.variants.friedlander_granville"
+  ],
+  "generated_target_type_hash": "sha256:b6bf20836552abf9547455ab8a5f5c6565a486206e9f2be5e607f847df89c91c",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.ElliottHalberstamConjecture",
+  "source_path": "FormalConjectures/Wikipedia/ElliottHalberstamConjecture.lean",
+  "source_theorem": "ElliottHalberstamConjecture.elliott_halberstam.variants.friedlander_granville",
+  "source_type_hash": "sha256:b6bf20836552abf9547455ab8a5f5c6565a486206e9f2be5e607f847df89c91c",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-friedlander-granville-5054abab0b-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:0d91f5d2abff3fd9baf01034e4b5f4ebf8f4f81665e7309635d813f0334aed80",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:6b5ec96774926d056d3e398a71063d54c1491053c0fa8ab51f2981b78e88adf5",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:a622e8206630d75c1a0c4f95057be82db575ccfe59be8542cfb6020f12b812f1"
+  }
+}

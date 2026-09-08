@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A composite number $n$ is weak Giuga if and only if\n$$\n\\sum_{p\\mid n} \\frac{1}{p} - \\frac{1}{n} \\in\\mathbb{N}.\n$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.AgohGiuga",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Agoh-Giuga_conjecture)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/Wikipedia/AgohGiuga.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "AgohGiuga.isWeakGiuga_iff_sum_primeFactors",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:217140d310888f7ec39769be3b686c2d45477149759d7af7dccd4434744b7a64",
+  "type_pretty": "∀ {n : ℕ}, n.Composite → (AgohGiuga.IsWeakGiuga n ↔ ∃ m, ∑ p ∈ n.primeFactors, 1 / ↑p - 1 / ↑n = ↑m)"
+}

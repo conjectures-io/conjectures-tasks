@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For any $\\varepsilon > 0$, there exists an infinite sequence $2 \\le d_0 < d_1 < \\dots$ such\nthat all sufficiently large integer can be written as $\\sum_{i \\in I} a_i$ where $a_i$ has only\nthe digits $0, 1$ when written in base $d_i$,\nbut $\\sum_{i \\in I} \\frac 1{d_i - 1} \\le \\varepsilon$.\n\nProved by Melfi [Me04]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«124»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/124](https://www.erdosproblems.com/124)",
+    "[BEGL96] Burr, S. A. and Erdős, P. and Graham, R. L. and Li, W. Wen-Ching, Complete sequences of sets of integer powers. Acta Arith. (1996), 133-138."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/124.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos124.erdos124.melfi_construction",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:79396f73de3a99c6ee69806b849acba0a03261c10c5bc2eb18dbbaeb958db0f9",
+  "type_pretty": "∀ {ε : ℝ},\n  0 < ε →\n    ∃ d,\n      StrictMono d ∧\n        ∑' (i : ℕ), (↑(d i) - 1)⁻¹ ≤ ε ∧\n          ∀ᶠ (n : ℕ) in Filter.atTop, ∃ I a, (∀ i ∈ I, a i ∈ Erdos124.sumsOfDistinctPowers (d i) 0) ∧ ∑ i ∈ I, a i = n"
+}

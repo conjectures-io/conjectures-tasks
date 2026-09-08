@@ -1,0 +1,46 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    28,
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "From [Gr24] \"It is quite easy to show using Cauchy-Schwarz that there must be such a rectangle with\narea $\\gg \\alpha^2 (\\log 1/\\alpha)^{-1}$.\"\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«85»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.85)",
+    "[CCW99] Carbery, Anthony, Michael Christ, and James Wright. \"Multidimensional van der Corput and sublevel set estimates.\" Journal of the American Mathematical Society 12.4 (1999): 981-1015 Section 6.",
+    "[Ke00] Keleti, Tamás. \"Density and covering properties of intervals of ℝn.\" Mathematika 47.1-2 (2000): 229-242.",
+    "[KKM02] Katz, Nets Hawk, Elliot Krop, and Mauro Maggioni. \"Remarks on the box problem.\" Mathematical Research Letters 9.4 (2002): 515-520.",
+    "[Mu02] Mubayi, Dhruv. \"Some exact results and new asymptotics for hypergraph Turán numbers.\" Combinatorics, Probability and Computing 11.3 (2002): 299-309 Conjecture 1.4.",
+    "[CPZ20] Conlon, David, Cosmin Pohoata, and Dmitriy Zakharov. \"Random multilinear maps and the Erd\\H {o} s box problem.\" arXiv preprint arXiv:2011.09024 (2020)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/85.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green85.green_85_loose",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9e235c5b719b30645a6f5c5629c0cf51a6088b363382c2925eca7ebef57e8381",
+  "type_pretty": "∃ c > 0,\n  ∀ᶠ (α : ℝ) in nhdsWithin 0 (Set.Ioi 0),\n    ∀ (A : Set (ℝ × ℝ)),\n      IsOpen A →\n        A ⊆ Set.Icc 0 1 ×ˢ Set.Icc 0 1 →\n          A.Nonempty →\n            α = (MeasureTheory.volume A).toReal →\n              ∃ x₁ x₂ y₁ y₂,\n                {(x₁, y₁), (x₂, y₁), (x₂, y₂), (x₁, y₂)} ⊆ A ∧ c * α ^ 2 * (Real.log (1 / α))⁻¹ ≤ |x₁ - x₂| * |y₁ - y₂|"
+}

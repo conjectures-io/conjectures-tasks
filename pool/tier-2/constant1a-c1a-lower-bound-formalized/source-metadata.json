@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11,
+    26
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The best known lower bound, proven by Matolcsi-Vinuesa in [M2010]",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.OptimizationConstants.«1a»",
+  "pointer_target": null,
+  "references": [
+    "[Tao's optimization constant 1a](https://teorth.github.io/optimizationproblems/constants/1a.html)",
+    "[M2010] Matolcsi, Máté, and Carlos Vinuesa. \"Improved bounds on the supremum of autoconvolutions.\" Journal of mathematical analysis and applications 372.2 (2010): 439-447. [arXiv:0907.1379](https://arxiv.org/abs/0907.1379)",
+    "[Y2026] Yuksekgonul, Mert et al., \"Learning to Discover at Test Time,\" 2026, [arXiv:2601.16175](https://arxiv.org/abs/2601.16175)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/OptimizationConstants/1a.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Constant1a.c1a_lower_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e6c1300efc5d2590f558ebc3340a36ca4782c0a22e8d742da8e8c7b3072c4493",
+  "type_pretty": "1.2748 ≤ Constant1a.C1a"
+}

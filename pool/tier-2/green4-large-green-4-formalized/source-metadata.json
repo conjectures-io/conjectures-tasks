@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    20
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "In the case of large n, the problem was solved in\n[On the largest product-free subsets of the alternating groups](https://arxiv.org/pdf/2205.15191).\nSpecifically, this theorem formalizes the statement of theorem 1.1 in the mentioned paper\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«4»",
+  "pointer_target": null,
+  "references": [
+    "[Ben Green's Open Problem 4](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.4 Problem 4)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/4.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green4.large_green_4",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c796e86208d5f8d95b21bcff08db5377166a456e2687838e2c023bdd59affee6",
+  "type_pretty": "∀ᶠ (n : ℕ) in Filter.atTop,\n  ∀ (S : Set ↥(alternatingGroup (Fin n))),\n    MaximalFor Green4.ProdFree Set.ncard S →\n      ∃ x I, S = Green4.extremalFamily x I ∨ S = (fun x => x⁻¹) '' Green4.extremalFamily x I"
+}

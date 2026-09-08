@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A lower bound of $0.379005$.\nSee [Erdős' minimum overlap problem](https://arxiv.org/abs/2201.05704)\nby *Ethan Patrick White*, 2022\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«36»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/36](https://www.erdosproblems.com/36)",
+    "[Wikipedial: Minimum overlap problem](https://en.wikipedia.org/wiki/Minimum_overlap_problem)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/36.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos36.minimum_overlap.variants.lower.white_2022",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4d9a397d9401b3b9e12d5221af2a4458565eced43d62a930ecf73ba79beae251",
+  "type_pretty": "0.379005 < Filter.liminf Erdos36.MinOverlapQuotient Filter.atTop"
+}

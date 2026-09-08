@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "TernaryGoldbachConjecture.ternaryGoldbach"
+  ],
+  "generated_target_type_hash": "sha256:08f55510d45838d4e37f79507b7e4632b38bb70360a52cd4183f46419fc4c59a",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.GoldbachConjecture",
+  "source_path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+  "source_theorem": "TernaryGoldbachConjecture.ternaryGoldbach",
+  "source_type_hash": "sha256:08f55510d45838d4e37f79507b7e4632b38bb70360a52cd4183f46419fc4c59a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-ternarygoldbachconjecture-ternarygoldbach-c2c61e9da5-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f0cfbe48822ecf6c794c32036d86706c6b9068ef22b8b30fdd87673c6897fafd",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:924a0f5b7edec7a97152fed72ba5af93f1b98976ca602c99a8fee73c74ed66ed",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:b06e6d7e50366312cf79410d936d00913d3be26107e08ff274f23e06ad356b28"
+  }
+}

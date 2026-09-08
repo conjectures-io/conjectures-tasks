@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Sylvester and Schur [Er34] proved that every set of $k$ consecutive integers greater than $k$\ncontains an integer divisible by a prime greater than $k$, i.e. not $(k+1)$-smooth.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«961»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/961](https://www.erdosproblems.com/961)",
+    "[Ju74] Jutila, Matti, On numbers with a large prime factor. {II}. J. Indian Math. Soc. (N.S.) (1974), 125--130.",
+    "[RaSh73](https://eudml.org/doc/urn:eudml:doc:205214) Ramachandra, K. and Shorey, T. N., On gaps between numbers with a large prime factor. Acta Arith. (1973), 99--111."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/961.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos961.erdos_961.sylvester_schur",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:22f781c65f8ebebe991f39950f794a4ab1ef40631c59c8aa2d1836db23e23e98",
+  "type_pretty": "∀ (k : ℕ), 0 < k → Erdos961.Erdos961Prop k k"
+}
