@@ -215,13 +215,13 @@ def build() -> dict[str, object]:
             }
         )
 
-    commits = {item["source"]["repository_commit"] for item in retired}
-    if len(commits) != 1:
-        raise GeneratorError(f"retired bundles span several source revisions: {sorted(commits)}")
-
+    # Historical statements keep their original source revision. A retirement after a
+    # source repin must not relabel old statements or make regeneration impossible.
+    # The envelope identifies the active release this display index accompanies.
+    active = json.loads((TASKS_ROOT / "allowlist.json").read_text(encoding="utf-8"))
     return {
         "schema_version": SCHEMA_VERSION,
-        "repository_commit": commits.pop(),
+        "repository_commit": active["repository_commit"],
         "retired": retired,
     }
 
