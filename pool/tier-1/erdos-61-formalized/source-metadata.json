@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The Erdős–Hajnal Conjecture states that there is a constant $c(H) > 0$ for each\n$H$ such that we can take $f(n) = n^{c(H)}$ in the above formulation.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«61»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/61](https://www.erdosproblems.com/61)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/61.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos61.erdos_61",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:755fa0d6248d973a576bd0d6aeeb85af9d0fd90b28d99353b264577160f7700d",
+  "type_pretty": "True ↔\n  ∀ {α : Type u_1} [inst : Fintype α] [inst_1 : DecidableEq α] (H : SimpleGraph α),\n    ∃ c > 0, Erdos61.IsErdosHajnalLowerBound H fun n => ↑n ^ c"
+}

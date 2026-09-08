@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $A$ be a finite set of integers. Is it true that for every $\\epsilon>0$\n$\\max( \\lvert A+A\\rvert,\\lvert AA\\rvert)\\gg_\\epsilon \\lvert A\\rvert^{2-\\epsilon}?$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«52»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/52](https://www.erdosproblems.com/52)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/52.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos52.erdos_52",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8041b21dec4e998488bbd394153c5d601ca50730685206b0206d13a481033d9a",
+  "type_pretty": "True ↔ ∀ (ε : ℝ), 0 < ε → ε < 1 → ∃ C, 0 < C ∧ ∀ (A : Finset ℤ), max ↑(A + A).card ↑(A * A).card ≥ C * ↑A.card ^ (2 - ε)"
+}

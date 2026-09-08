@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:afa5c6312c4070e7f6695020d9d19b1436a176478495c349c5dd863fef5d1b1e",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos1095.erdos_1095.variants.log_isTheta",
   "source_type_hash": "sha256:8c6b1dff26369eee096133e410b35d7a3fcf94d748f974cf22d47f61eb69f601",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-log-istheta-866b9fb338-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-log-istheta-6c53759514-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

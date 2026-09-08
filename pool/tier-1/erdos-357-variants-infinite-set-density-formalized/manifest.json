@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:9cbe3bb7aa7c651cac5193f6abaaefda7d00775d64bc4d0c7598f4758072be1f",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos357.erdos_357.variants.infinite_set_density",
   "source_type_hash": "sha256:9cbe3bb7aa7c651cac5193f6abaaefda7d00775d64bc4d0c7598f4758072be1f",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-infinite-set-density-4a8a1e3fb4-formalized-v1",
+  "task_id": "fc-8432eac9-variants-infinite-set-density-ec7c0a5a80-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

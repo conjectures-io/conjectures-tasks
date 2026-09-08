@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that for all `c ≥ 0`, the density `f c` of integers for which\n`(p (n + 1) - p n) / log n < c` exists and is a continuous function of `c`?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«234»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/234](https://www.erdosproblems.com/234)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/234.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos234.erdos_234",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2e32ff378ce617e5e882d93d03320020c6ed690bd0374a3a91f6406ac55a3b7e",
+  "type_pretty": "True ↔ ∃ f, Continuous f ∧ ∀ (c : NNReal), {n | ↑(primeGap n) / Real.log ↑n < ↑c}.HasDensity (f c)"
+}

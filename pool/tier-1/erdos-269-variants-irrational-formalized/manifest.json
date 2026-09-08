@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:2a63529741eab05474bb3f1f4ee24cb6baee35189869a74d1b7a0b616410a9c9",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos269.erdos_269.variants.irrational",
   "source_type_hash": "sha256:2a63529741eab05474bb3f1f4ee24cb6baee35189869a74d1b7a0b616410a9c9",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-irrational-bda33e74c6-formalized-v1",
+  "task_id": "fc-8432eac9-variants-irrational-39590f47c3-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

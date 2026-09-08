@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:b4c99d59dd0a8aced07abe083ea33dc61c6ecb719a6082b523da9825e85cf22f",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos359.erdos_359.variants.isGoodFor_1_asymptotic",
   "source_type_hash": "sha256:866d9c3f216f0535dc483adb5c7dd41f57f0924003dad735fd1c04d6637d5b14",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-isgoodfor-1-asymptotic-9431914103-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-isgoodfor-1-asymptotic-cc45a116a7-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

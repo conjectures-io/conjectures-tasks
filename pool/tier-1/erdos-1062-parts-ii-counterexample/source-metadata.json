@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős asked whether the limiting density `f n / n` exists and, if so, whether it is\nirrational. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1062»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1062](https://www.erdosproblems.com/1062)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1062.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1062.erdos_1062.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8594d6cf09d2f4108163c3c4cc2ce01f55d3fa19c8d8e05eb8cc86c188d944e7",
+  "type_pretty": "(∃ l, Filter.Tendsto (fun n => ↑(Erdos1062.f n) / ↑n) Filter.atTop (nhds l) ∧ Irrational l) ↔ True"
+}

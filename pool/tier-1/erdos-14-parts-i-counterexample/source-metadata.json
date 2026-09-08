@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $A ⊆ \\mathbb{N}$. Let $B ⊆ \\mathbb{N}$ be the set of integers which are representable\nin exactly one way as the sum of two elements from $A$. Is it true that for all\n$\\epsilon > 0$ and large $N$, $|\\{1,\\ldots,N\\} \\setminus B| \\gg_\\epsilon N^{1/2 - \\epsilon}$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«14»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/14](https://www.erdosproblems.com/14)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/14.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos14.erdos_14.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:01f4b21faa141073550ace4791e41bb283bad80fb700e8965387588dc9238029",
+  "type_pretty": "True ↔ ∀ (A : Set ℕ), ∀ ε > 0, Erdos14.almostSquareRoot ε =O[Filter.atTop] Erdos14.nonUniqueSumCount A"
+}

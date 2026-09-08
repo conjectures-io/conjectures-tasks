@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "In particular, there should be infinitely many $n$, but the set of such $n$ should have\ndensity zero. Unfortunately this heuristic is difficult to turn into a proof.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«291»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/291](https://www.erdosproblems.com/291)",
+    "[ErGr80, p.34] Erdős, P. and Graham, R., Old and new problems and results in combinatorial number theory. Monographies de L'Enseignement Mathematique (1980).",
+    "[Sh16] P. Shiu, The denominators of harmonic numbers. arXiv:1607.02863 (2016).",
+    "[WuYa22] Wu, Bing-Ling and Yan, Xiao-Hui, On the denominators of harmonic numbers. {IV}. C. R. Math. Acad. Sci. Paris (2022), 53--57."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/291.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos291.erdos_291.variants.shiu_heuristic_density_zero",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e2829c437fcad6fe1da19ab961ad301299f96cf725e6af3bfd671ecaeefcdf20",
+  "type_pretty": "Filter.Tendsto (fun N => ↑{n ∈ Finset.Icc 1 N | (Erdos291.a n).gcd (Erdos291.L n) = 1}.card / ↑N) Filter.atTop (nhds 0)"
+}

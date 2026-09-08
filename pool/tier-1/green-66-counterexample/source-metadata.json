@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is there always a sum of two squares between $X - \\frac{1}{10}X^{1/4}$ and $X$?\nWe formalize this as an eventual statement for sufficiently large real $X$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«66»",
+  "pointer_target": null,
+  "references": [
+    "[Ben Green's Open Problem 66](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green66.green_66",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3",
+  "type_pretty": "True ↔ ∀ᶠ (X : ℝ) in Filter.atTop, ∃ n, Green66.IsSumOfTwoSquares n ∧ ↑n ∈ Set.Icc (X - 1 / 10 * X ^ (1 / 4)) X"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $n_1 < n_2 < \\dots$ be an arbitrary sequence of integers, each with an associated residue class\n$a_i \\pmod{n_i}$. Let $A$ be the set of integers $n$ such that for every $i$ either $n < n_i$ or\n$n \\not\\equiv a_i \\pmod{n_i}$. Must the logarithmic density of $A$ exist?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«25»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/25](https://www.erdosproblems.com/25)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/25.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos25.erdos_25",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0296f636686c1a8f82bdf2d005e25e6259d09e61f6181662bdea0e64f94d3e24",
+  "type_pretty": "True ↔\n  ∀ (seq_n : ℕ → ℕ) (seq_a : ℕ → ℤ),\n    (∀ (i : ℕ), 0 < seq_n i) →\n      StrictMono seq_n → ∃ d, {x | ∀ (i : ℕ), ↑x < ↑(seq_n i) ∨ ¬↑x ≡ seq_a i [ZMOD ↑(seq_n i)]}.HasLogDensity d"
+}

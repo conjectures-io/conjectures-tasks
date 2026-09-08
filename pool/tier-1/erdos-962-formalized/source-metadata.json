@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Main conjecture:\n\n$\\log k(n) \\le (\\log n)^{(1/2 + o(1))}$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«962»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/962](https://www.erdosproblems.com/962)",
+    "[Er65] Erdős, P., Extremal problems in number theory. Proc. Sympos. Pure Math., Vol. VIII (1965), 181-189.",
+    "[Er76e] Erdős, P., Problems and results on consecutive integers. Publ. Math. Debrecen (1976), 271-282.",
+    "[Tang](https://github.com/QuanyuTang/erdos-problem-962/blob/main/On_Erd%C5%91s_Problem_962.pdf)",
+    "[Tao](https://www.erdosproblems.com/forum/thread/962)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/962.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos962.erdos_962",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e1de89760714ea69d71079f402bd4bd936bb473f2221859a12b82aeef2b9331a",
+  "type_pretty": "True ↔\n  ∃ ε,\n    (∀ δ > 0, ∀ᶠ (n : ℕ) in Filter.atTop, |ε n| < δ) ∧\n      ∀ᶠ (n : ℕ) in Filter.atTop, Real.log ↑(Erdos962.k n) ≤ (Real.log ↑n).rpow (1 / 2 + ε n)"
+}

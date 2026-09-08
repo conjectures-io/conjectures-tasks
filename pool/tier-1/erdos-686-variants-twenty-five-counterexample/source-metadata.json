@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can $25$ be written as\n$$25=\\frac{\\prod_{1\\leq i\\leq k}(m+i)}{\\prod_{1\\leq i\\leq k}(n+i)}$$\nfor some $k≥2$ and $m≥n+k$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«686»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/686](https://www.erdosproblems.com/686)",
+    "[Er79d] Erdős, P., *Some unconventional problems in number theory*. Acta Math. Acad. Sci. Hungar. (1979), 71-80."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/686.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos686.erdos_686.variants.twenty_five",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3ff209c8b606e11ea4bcceed78a71b302f8728b0147777dc34b81e95f3be7cab",
+  "type_pretty": "True ↔ ∃ k ≥ 2, ∃ n, ∃ m ≥ n + k, 25 = ↑(∏ i ∈ Finset.Icc 1 k, (m + i)) / ↑(∏ i ∈ Finset.Icc 1 k, (n + i))"
+}

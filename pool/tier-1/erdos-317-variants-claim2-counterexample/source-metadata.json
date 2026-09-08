@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that for sufficiently large $n$, for any $\\delta_k\\in \\{-1,0,1\\}$,\n$$\\left\\lvert \\sum_{1\\leq k\\leq n}\\frac{\\delta_k}{k}\\right\\rvert > \\frac{1}{[1,\\ldots,n]}$$\nwhenever the left-hand side is not zero?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«317»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/317](https://www.erdosproblems.com/317)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/317.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos317.erdos_317.variants.claim2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:63e6a8eb86ef9f7e24f6ca82d49befe2da0fb47d0ef92902d9d1a9e12117ddb0",
+  "type_pretty": "True ↔\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (δ : Fin n → ℚ),\n      δ '' Set.univ ⊆ {-1, 0, 1} → |∑ k, δ k / (↑↑k + 1)| ≠ 0 → |∑ k, δ k / (↑↑k + 1)| > 1 / ↑((Finset.Icc 1 n).lcm id)"
+}

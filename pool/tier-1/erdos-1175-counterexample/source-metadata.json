@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $\\kappa$ be an uncountable cardinal. Must there exist a cardinal $\\lambda$ such that every\ngraph with chromatic number $\\lambda$ contains a triangle-free subgraph with chromatic number\n$\\kappa$?\n\nShelah proved that a negative answer is consistent when\n$\\kappa = \\lambda = \\aleph_1$ (see `erdos_1175.variants.shelah_consistency`).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1175»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1175](https://www.erdosproblems.com/1175)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1175.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1175.erdos_1175",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:94a0b96c19d37462875b6eb2bee2c8814c7b660b5b2f9173b6a473bb6d45be0f",
+  "type_pretty": "True ↔\n  ∀ (κ : Cardinal.{u_1}),\n    Cardinal.aleph0 < κ →\n      ∃ μ,\n        ∀ (V : Type u_1) (G : SimpleGraph V),\n          G.chromaticCardinal = μ → ∃ H, H.coe.CliqueFree 3 ∧ H.coe.chromaticCardinal = κ"
+}

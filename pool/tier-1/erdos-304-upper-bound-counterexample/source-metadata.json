@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that $$N(b) \\ll \\log \\log b$$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«304»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/304](https://www.erdosproblems.com/304)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/304.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos304.upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
+  "type_pretty": "True ↔ (fun b => ↑(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => Real.log (Real.log ↑b)"
+}

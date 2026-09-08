@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $k \\ne 0$ and $3\\leq d_1 < d_2 < \\cdots < d_r$ be integers of gcd equal to $1$ such that\n$$\\sum_{1 \\le i \\le r}\\frac 1{d_i - 1} \\ge 1.$$\nCan all sufficiently large integers be written as a sum of the shape $\\sum_i c_ia_i$\nwhere $c_i \\in \\{0, 1\\}$ and $a_i$ is divisible by $d_i ^ k$ and has only the digits $0, 1$ when\nwritten in base $d_i$?\n\nConjectured by Burr, Erdős, Graham, and Li [BEGL96]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«124»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/124](https://www.erdosproblems.com/124)",
+    "[BEGL96] Burr, S. A. and Erdős, P. and Graham, R. L. and Li, W. Wen-Ching, Complete sequences of sets of integer powers. Acta Arith. (1996), 133-138."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/124.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos124.erdos124.ne_zero",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1423a393df40cb7f5f4543388eb5a5532c0236f65fee237917b0888180f041b1",
+  "type_pretty": "True ↔\n  ∀ (k : ℕ),\n    k ≠ 0 →\n      ∀ (D : Finset ℕ),\n        (∀ d ∈ D, 3 ≤ d) →\n          1 ≤ ∑ d ∈ D, (↑d - 1)⁻¹ →\n            D.gcd id = 1 → ∀ᶠ (n : ℕ) in Filter.atTop, n ∈ ∑ d ∈ D, Erdos124.sumsOfDistinctPowers d k"
+}

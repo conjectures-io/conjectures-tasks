@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can $\\binom{n}{2}$ be the product of consecutive primes infinitely often?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«386»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/386](https://www.erdosproblems.com/386)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/386.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos386.erdos_386.variants.two",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e798685f86d1ee595697b30d12fa4a266334b871063b7e668ae245e875601b0e",
+  "type_pretty": "True ↔ ∃ᶠ (n : ℕ) in Filter.atTop, 2 ≤ n - 2 ∧ ∃ p q, n.choose 2 = ∏ i ∈ Finset.Ico p q, Nat.nth Nat.Prime i"
+}

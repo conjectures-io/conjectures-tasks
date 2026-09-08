@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 208 audited targets in `tier-1`: 189 Erdős targets and 19 Green's
+The current release places all 259 audited targets in `tier-1`: 235 Erdős targets and 24 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -32,7 +32,7 @@ Each admitted theorem target must:
 - have no cataloged non-admitted proof collision for either `P` or `¬ P`;
 - compile and pass the independent `TaskInspector` target check.
 
-Each task contains one exact canonical theorem. The pool includes complete statements and the 78
+Each task contains one exact canonical theorem. The pool includes complete statements and the
 named parts or variants that passed the semantic audit under the same tier policy. Answer wrappers
 and multi-target bundles remain excluded.
 
@@ -80,11 +80,11 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 416 task bundles covering 208 audited targets: 189 Erdős targets and 19
+`tier-1` contains all 518 task bundles covering 259 audited targets: 235 Erdős targets and 24
 Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
-has its own stable reward identity. Those targets occupy 182 distinct canonical source paths.
+has its own stable reward identity. Those targets occupy 224 distinct canonical source paths.
 
-The GitHub review covered all 330 open pull requests visible at audit time and
+The GitHub review covered all 359 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
 pinned check against the Erdős Problems database excludes Erdős parent problems
 recorded as solved. The Green targets are checked against the January 2026 update
@@ -177,3 +177,9 @@ and verifier image before reopening admissions. A failed update leaves the
 existing pins active. Historical pin values, task digests, tier assignments, and
 reports remain in the audit database even though only one verifier version is
 active.
+
+The September 8 release also reviews the separate Erdős proof-claim tabs and comments.
+Unresolved full-scope claims are withheld. A dated negative search does not certify that no prior
+solution exists; the validator release carries the individual evidence and decisions.
+Every active task permits 10 MiB of proof text. The enlarged limit receives a new task ID and
+bundle digest while the stable reward identity and retained trusted payloads remain unchanged.

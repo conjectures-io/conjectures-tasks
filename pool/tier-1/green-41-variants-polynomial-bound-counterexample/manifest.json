@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:3a3a3c8d2f0162b9f73fea85aa3c7c689d953aa767de2bcfd837181247858b91",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Green41.green_41.variants.polynomial_bound",
   "source_type_hash": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-polynomial-bound-aee1025e7c-counterexample-v1",
+  "task_id": "fc-8432eac9-variants-polynomial-bound-b41380afd8-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"

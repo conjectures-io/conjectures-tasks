@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for every $r$, there is a $k$ such that\nif $I_1,\\ldots,I_r$ are disjoint intervals of consecutive integers,\nall of length at least $k$, then\n$$\n  \\prod_{1\\leq i\\leq r}\\prod_{m\\in I_i}m\n$$\nis not a perfect power?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«930»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/930](https://www.erdosproblems.com/930)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/930.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos930.erdos_930",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:a3172ae86bfc8ac0c80d9332595d33db458db0dc4dd107b7b45a7ffc7ce461f4",
+  "type_pretty": "True ↔\n  ∀ r > 0,\n    ∃ k,\n      ∀ (I₁ I₂ : Fin r → ℕ),\n        (∀ (i : Fin r), 0 < I₁ i ∧ I₁ i + k ≤ I₂ i + 1) →\n          (∀ (i j : Fin r), i < j → I₂ i < I₁ j) → ¬Erdos930.IsPower (∏ i, ∏ m ∈ Finset.Icc (I₁ i) (I₂ i), m)"
+}

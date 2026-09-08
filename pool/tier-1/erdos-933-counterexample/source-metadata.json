@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If $n(n+1)=2^k3^lm$, where $(m,6)=1$, then is it true that\n$\\limsup_{n\\to \\infty} \\frac{2^k3^l}{n\\log n}=\\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«933»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/933](https://www.erdosproblems.com/933)",
+    "[Er76d] Erdős, P, Problems and results on number theoretic properties of consecutive integers and related questions. Proceedings of the Fifth Manitoba Conference on Numerical Mathematics (Univ. Manitoba, Winnipeg, Man., 1975) (1976), 25-44."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/933.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos933.erdos_933",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ced621714a8cfec17fa9a0b9d77470ad31b828fb4fe5a8e00a42c84a5562cb60",
+  "type_pretty": "True ↔ Filter.limsup (fun n => ↑↑(2 ^ Erdos933.k n * 3 ^ Erdos933.l n) / (↑↑n * ↑(Real.log ↑n))) Filter.atTop = ⊤"
+}

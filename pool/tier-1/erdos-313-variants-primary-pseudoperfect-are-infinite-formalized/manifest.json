@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:a835383c19e713416735605fbae85bd1d73bad5b08a991491b2f2f2117e8d8a4",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos313.erdos_313.variants.primary_pseudoperfect_are_infinite",
   "source_type_hash": "sha256:a835383c19e713416735605fbae85bd1d73bad5b08a991491b2f2f2117e8d8a4",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-primary-pseudoperfect-are-infinite-9f1f8463fe-formalized-v1",
+  "task_id": "fc-8432eac9-variants-primary-pseudoperfect-are-infinite-7815992dcd-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"

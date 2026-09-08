@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are there two finite set of primes $P$ and $Q$ such that\n\n$$\n1 = \\left( \\sum_{p \\in P} \\frac{1}{p} \\right) \\left( \\sum_{q \\in Q} \\frac{1}{q} \\right)\n$$\n?\n\nAsked by Barbeau [Ba76].\n\n[Ba76] Barbeau, E. J., _Computer challenge corner: Problem 477: A brute force program._\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«307»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/307](https://www.erdosproblems.com/307)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/307.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos307.erdos_307",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f31cff45e12b913249f45eb58350f4c17d99fa39f37193a1c5263496bb5279bd",
+  "type_pretty": "True ↔ ∃ P Q, (∀ p ∈ P, Nat.Prime p) ∧ (∀ q ∈ Q, Nat.Prime q) ∧ 1 = (∑ p ∈ P, (↑p)⁻¹) * ∑ q ∈ Q, (↑q)⁻¹"
+}

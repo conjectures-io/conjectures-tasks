@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $\\alpha,\\beta \\in \\mathbb{R}$. Is it true that$$\\liminf_{n\\to \\infty} n \\| n\\alpha \\|\n\\| n\\beta\\| =0$$? This is also known as the Littlewood conjecture.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«495»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/495](https://www.erdosproblems.com/495)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/495.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos495.erdos_495",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2bda9701627798e9a3ebb9440ba263fe6bb365b1682d74628be68f63663dd84c",
+  "type_pretty": "True ↔ ∀ (α β : ℝ), Filter.liminf (fun n => ↑n * distToNearestInt (↑n * α) * distToNearestInt (↑n * β)) Filter.atTop = 0"
+}

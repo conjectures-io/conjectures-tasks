@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $\\epsilon>0$. Does there exist $A\\subseteq \\mathbb{N}$\nsuch that the lower density of $A+A$ is at least $1-\\epsilon$\nand yet $1_A\\ast 1_A(n) \\ll_\\epsilon 1$ for all $n$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«749»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/749](https://www.erdosproblems.com/749)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/749.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos749.erdos_749",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2ffbf4c16caf1f45cafa6abf530838c58e817633bf60d0fa1f04b6d1ab8615c1",
+  "type_pretty": "True ↔\n  ∀ ε > 0, ∃ A, 1 - ε ≤ (A + A).lowerDensity ∧ (Nat.cast ∘ AdditiveCombinatorics.sumRep A) =O[Filter.atTop] fun n => 1"
+}

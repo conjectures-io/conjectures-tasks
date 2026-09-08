@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are there infinitely many barriers for `ω`? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«413»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/413](https://www.erdosproblems.com/413)",
+    "[A5236](https://oeis.org/A5236)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/413.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos413.erdos_413.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b90678e454c2696bc81a1d3eba48754eee89d16b5af685e73d755bf6dca50dbc",
+  "type_pretty": "True ↔ {n | Erdos413.IsBarrier (fun m => ↑(ArithmeticFunction.cardDistinctFactors m)) n}.Infinite"
+}

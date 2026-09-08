@@ -10,7 +10,7 @@
   ],
   "generated_target_type_hash": "sha256:d9eac933e6ce242245030c7e03c096589f73a436c49d93ddc28b4e3b4561a808",
   "known_proof_collisions": [],
-  "max_submission_bytes": 1000000,
+  "max_submission_bytes": 10485760,
   "permitted_axioms": [
     "propext",
     "Quot.sound",
@@ -25,7 +25,7 @@
   "source_theorem": "Green24.variants.conjecture",
   "source_type_hash": "sha256:d9eac933e6ce242245030c7e03c096589f73a436c49d93ddc28b4e3b4561a808",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-conjecture-19fd9217e8-formalized-v1",
+  "task_id": "fc-8432eac9-variants-conjecture-d8e9eeeb54-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
