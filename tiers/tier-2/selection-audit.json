@@ -810,16 +810,6 @@
     },
     {
       "source_path": "FormalConjectures/ErdosProblems/885.lean",
-      "theorem": "Erdos885.erdos_885.variants.k_eq_2",
-      "upstream_status": "research solved"
-    },
-    {
-      "source_path": "FormalConjectures/ErdosProblems/885.lean",
-      "theorem": "Erdos885.erdos_885.variants.k_eq_3",
-      "upstream_status": "research solved"
-    },
-    {
-      "source_path": "FormalConjectures/ErdosProblems/885.lean",
       "theorem": "Erdos885.erdos_885.variants.k_eq_4",
       "upstream_status": "research solved"
     },

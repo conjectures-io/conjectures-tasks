@@ -2941,20 +2941,6 @@
       "tier": "tier-2"
     },
     {
-      "index": 2892,
-      "source_path": "FormalConjectures/ErdosProblems/885.lean",
-      "source_type_sha256": "sha256:7eeede36325bd65371098ff3c329093eea005ba19dd4fb70fd4a0a537ca5785a",
-      "theorem": "Erdos885.erdos_885.variants.k_eq_2",
-      "tier": "tier-2"
-    },
-    {
-      "index": 2893,
-      "source_path": "FormalConjectures/ErdosProblems/885.lean",
-      "source_type_sha256": "sha256:364d82e651ea8d21dde53559f057a258bfd440d3bb5d4aac782efa5ffe28b510",
-      "theorem": "Erdos885.erdos_885.variants.k_eq_3",
-      "tier": "tier-2"
-    },
-    {
       "index": 2894,
       "source_path": "FormalConjectures/ErdosProblems/885.lean",
       "source_type_sha256": "sha256:8373616fd326e3cc21674eb42f0304d5b0c7ad9c3ec12347e347b1504fc53cf5",
@@ -16610,44 +16596,6 @@
       "task_id": "fc-8432eac9-variants-erdos-upper-lower-bounds-e8b80dcb96-formalized-v1",
       "theorems": [
         "Erdos859.erdos_859.variants.erdos_upper_lower_bounds"
-      ],
-      "tier": "tier-2"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-8432eac9-variants-k-eq-2-22c5dc8dd3e5032da25f681a57d01ea0-problem",
-      "reward_target_id": "fc-target:Erdos885.erdos_885.variants.k_eq_2",
-      "source_indices": [
-        2892
-      ],
-      "source_path": "FormalConjectures/ErdosProblems/885.lean",
-      "target_type_sha256s": [
-        "sha256:7eeede36325bd65371098ff3c329093eea005ba19dd4fb70fd4a0a537ca5785a"
-      ],
-      "task_bundle_sha256": "sha256:f5fda1ec617fc39c014c5e0c693a1f4717035f927549220eb25eaa099988a994",
-      "task_id": "fc-8432eac9-variants-k-eq-2-47b2ebf5f8-formalized-v1",
-      "theorems": [
-        "Erdos885.erdos_885.variants.k_eq_2"
-      ],
-      "tier": "tier-2"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-8432eac9-variants-k-eq-3-31802e2c95c97b0e8c0dccd067c9a2b2-problem",
-      "reward_target_id": "fc-target:Erdos885.erdos_885.variants.k_eq_3",
-      "source_indices": [
-        2893
-      ],
-      "source_path": "FormalConjectures/ErdosProblems/885.lean",
-      "target_type_sha256s": [
-        "sha256:364d82e651ea8d21dde53559f057a258bfd440d3bb5d4aac782efa5ffe28b510"
-      ],
-      "task_bundle_sha256": "sha256:17c1d238a5355dc00fa5bc24857853503d7678d72a5412b50cb08d81343a3349",
-      "task_id": "fc-8432eac9-variants-k-eq-3-1132fa66dc-formalized-v1",
-      "theorems": [
-        "Erdos885.erdos_885.variants.k_eq_3"
       ],
       "tier": "tier-2"
     },
