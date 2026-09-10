@@ -1747,13 +1747,6 @@
       "theorem": "Green41.green_41.variants.polynomial_bound"
     },
     {
-      "reward_target_id": "fc-target:Green44.green_44",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-      "source_problem_number": 44,
-      "theorem": "Green44.green_44"
-    },
-    {
       "reward_target_id": "fc-target:Green47.green_47",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/47.lean",

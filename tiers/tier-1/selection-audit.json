@@ -4567,23 +4567,6 @@
         4688
       ],
       "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-      "source_problem_number": 44,
-      "source_status": "open",
-      "theorem": "Green44.green_44",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/47.lean",
       "source_problem_number": 47,
       "source_status": "open",
