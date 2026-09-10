@@ -12,7 +12,7 @@ configuration, trusted hashes, and solution wrapper. The opaque `task_id` inside
 the stable protocol identity and intentionally does not depend on the directory name.
 
 The current snapshot contains one tier with 518 bundles: proof/refutation pairs for 259 audited
-direct propositions (235 Erdős targets and 24 Green's Open Problems targets). The tier label is
+direct propositions (236 Erdős targets and 23 Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
@@ -108,8 +108,8 @@ shows what it asked, who solved it, and why it closed.
 It is deliberately **not** part of `retired-source-theorems.json`. That file is an admission input:
 membership in it excludes a theorem from selection. This one is presentation only, and nothing in the
 submission or verification path reads it. Keeping them apart is what stops a display concern from
-ever widening the deny-by-default boundary — a retired target is readable forever and admissible
-never.
+ever widening the deny-by-default boundary — a retired target is readable forever and admissible only after an explicit reinstatement removes the retirement records and restores
+both audited modes. Reinstatements are recorded in `tiers/tier-1/REINSTATEMENTS.md`.
 
 Each recovered `Challenge.lean` is checked against the digest its own manifest published, so what the
 website renders is provably the audited bytes even though the bundle itself is gone.

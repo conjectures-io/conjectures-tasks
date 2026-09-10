@@ -6,9 +6,9 @@
   "definition_names": [],
   "enable_nanoda": false,
   "forbidden_dependencies": [
-    "Green44.green_44"
+    "Erdos96.erdos_96"
   ],
-  "generated_target_type_hash": "sha256:e2d78b046dfbab2bb11d581e55f8698e92092df40b24498a92aa8a3e65a70d30",
+  "generated_target_type_hash": "sha256:4f0d18cb094f2f8abff1478bf1dfbcdc2c1372dc6a46e485897c9edba23664db",
   "known_proof_collisions": [],
   "max_submission_bytes": 10485760,
   "permitted_axioms": [
@@ -20,22 +20,22 @@
   "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 1,
   "solution_module": "Solution",
-  "source_module": "FormalConjectures.GreensOpenProblems.«44»",
-  "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-  "source_theorem": "Green44.green_44",
-  "source_type_hash": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
+  "source_module": "FormalConjectures.ErdosProblems.«96»",
+  "source_path": "FormalConjectures/ErdosProblems/96.lean",
+  "source_theorem": "Erdos96.erdos_96",
+  "source_type_hash": "sha256:4f0d18cb094f2f8abff1478bf1dfbcdc2c1372dc6a46e485897c9edba23664db",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-green44-green-44-f21be00c87-counterexample-v1",
-  "task_mode": "counterexample",
+  "task_id": "fc-8432eac9-erdos96-erdos-96-7849c466eb-formalized-v1",
+  "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
   ],
   "timeout_seconds": 3600,
   "trusted_file_hashes": {
-    "Challenge.lean": "sha256:a6e766045d1237ad42f77b8546eddadd661b2a2a3373f36ce588da93dd76b7eb",
+    "Challenge.lean": "sha256:d1a4eaab2f6256ddb3ba5d212496fe14f6c412a023d17ed0334696e0f7bdd23c",
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
-    "SolutionHeader.lean.txt": "sha256:8ac3b13791e74d16974a67cc10fcfe83dc4b670d8dfd37dd69c6fd492c79c184",
+    "SolutionHeader.lean.txt": "sha256:95a1b24ec60146a914458b71e17ed657773474721ec416b174e1f193a07ee8e3",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:25256f84e6a8fc96ea5f0b54d9bb42f7b6eb0da21708c6ce5b202f50c335bec2"
+    "source-metadata.json": "sha256:348468be26d2053c5e5c4da937023a658711678133e4db33f047aa213bfd5c8b"
   }
 }

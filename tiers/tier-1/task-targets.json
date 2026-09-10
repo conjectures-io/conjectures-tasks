@@ -1579,6 +1579,13 @@
       "theorem": "Erdos952.erdos_952"
     },
     {
+      "reward_target_id": "fc-target:Erdos96.erdos_96",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "source_problem_number": 96,
+      "theorem": "Erdos96.erdos_96"
+    },
+    {
       "reward_target_id": "fc-target:Erdos962.erdos_962",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/962.lean",
@@ -1738,13 +1745,6 @@
       "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
       "source_problem_number": 41,
       "theorem": "Green41.green_41.variants.polynomial_bound"
-    },
-    {
-      "reward_target_id": "fc-target:Green44.green_44",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-      "source_problem_number": 44,
-      "theorem": "Green44.green_44"
     },
     {
       "reward_target_id": "fc-target:Green47.green_47",

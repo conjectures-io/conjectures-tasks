@@ -4136,6 +4136,24 @@
       ],
       "open_prs_touching_source": [
         3422,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "source_problem_number": 96,
+      "source_status": "open",
+      "theorem": "Erdos96.erdos_96",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        3422,
         4003,
         4198,
         4688
@@ -4536,23 +4554,6 @@
       "source_problem_number": 41,
       "source_status": "open",
       "theorem": "Green41.green_41.variants.polynomial_bound",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-      "source_problem_number": 44,
-      "source_status": "open",
-      "theorem": "Green44.green_44",
       "upstream_status": "research open"
     },
     {

@@ -1021,74 +1021,6 @@
       "tier": "tier-1"
     },
     {
-      "decision_url": null,
-      "reason": "QUARANTINE_DISPUTED_CLAIM (Khopkar arXiv:1605.08066v2 claims the exact O(n) convex unit-distance bound. The source discussion treats it as unconfirmed and identifies a missing decomposition argument. No accepted proof was established here; withhold pending adjudication of the published claim.)",
-      "reason_code": "QUARANTINE_DISPUTED_CLAIM",
-      "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
-      "retired_on": "2026-09-08",
-      "reward_target_id": "fc-target:Erdos96.erdos_96",
-      "source": {
-        "adapter_version": 1,
-        "ams_subjects": [
-          52
-        ],
-        "answer_occurrences": [],
-        "category": "research open",
-        "classification": "DIRECT_PROP",
-        "contains_answer_annotation": false,
-        "contains_sorry_in_type": false,
-        "contains_sorry_in_value": false,
-        "declaration_kind": "theorem",
-        "depends_on_sorry": true,
-        "docstring": "If $n$ points in $\\mathbb{R}^2$ form a convex polygon then there are $O(n)$ many pairs which are\ndistance $1$ apart.\n",
-        "finite_constructors": [],
-        "formal_proof_kind": null,
-        "formal_proof_link": null,
-        "has_parameters": false,
-        "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«96»",
-        "pointer_target": null,
-        "references": [
-          "[erdosproblems.com/96](https://www.erdosproblems.com/96)"
-        ],
-        "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
-        "source_path": "FormalConjectures/ErdosProblems/96.lean",
-        "supported_modes": [
-          "formalized",
-          "counterexample"
-        ],
-        "theorem": "Erdos96.erdos_96",
-        "transitive_axioms": [
-          "propext",
-          "sorryAx",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "type_hash": "sha256:4f0d18cb094f2f8abff1478bf1dfbcdc2c1372dc6a46e485897c9edba23664db",
-        "type_pretty": "True ↔ (fun n => ↑(Erdos96.maxConvexUnitDistances n)) =O[Filter.atTop] fun n => ↑n"
-      },
-      "tasks": [
-        {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«96»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos96.erdos_96\") := by\n  sorry\n\nend Bounty\n",
-          "problem_id": "fc-8432eac9-erdos96-erdos-96-de846ec4dbab20f9413fa9c6812fa959-problem",
-          "target_type_sha256": "sha256:ab55b2e33091395bc36ea27888a1523c77ac08c82e074a10305f07d69b1a133e",
-          "task_bundle_sha256": "sha256:a1f9635186921af4b650cfb044a45b607fd74caf286b9ca4e6ef4ad9a55c8cbd",
-          "task_id": "fc-8432eac9-erdos96-erdos-96-38be8cbf89-counterexample-v1",
-          "task_mode": "counterexample"
-        },
-        {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«96»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos96.erdos_96\" := by\n  sorry\n\nend Bounty\n",
-          "problem_id": "fc-8432eac9-erdos96-erdos-96-de846ec4dbab20f9413fa9c6812fa959-problem",
-          "target_type_sha256": "sha256:4f0d18cb094f2f8abff1478bf1dfbcdc2c1372dc6a46e485897c9edba23664db",
-          "task_bundle_sha256": "sha256:ff0ca56f73a1ab7f72307b75da8c41a235c78022b19f650b5bc6a332fb3b4e06",
-          "task_id": "fc-8432eac9-erdos96-erdos-96-5791c13df2-formalized-v1",
-          "task_mode": "formalized"
-        }
-      ],
-      "theorem": "Erdos96.erdos_96",
-      "tier": "tier-1"
-    },
-    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-29.md",
       "reason": "SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} × H) ∪ ({+1} × H) ∪ {(0,1)} in Multiplicative ℤ × H, whose only element at coordinate 0 is the identity, so every S ⊆ A with S^8 ⊆ A^4 is a singleton; the formalization is faithful and no defect was found)",
       "reason_code": "SOLVED",
@@ -1299,6 +1231,75 @@
         }
       ],
       "theorem": "Green42.green_42",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "PRIOR_EXTERNAL_FORMALIZATION (Green 44, also Erdos 1202, was resolved negatively by Price and GPT-5.4 Pro. The public plby/lean-proofs Erdos1202 counterexample predates pool admission; its unchanged source and an exact-target bridge were independently kernel-checked on September 9. See EXTERNAL-SOLUTIONS-2026-09-10.md for public sources.)",
+      "reason_code": "PRIOR_EXTERNAL_FORMALIZATION",
+      "recovered_from_commit": "7d9b9eb40e8f8edf84480ca51b8079e3d68236e0",
+      "retired_on": "2026-09-10",
+      "reward_target_id": "fc-target:Green44.green_44",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Sieve $[N]$ by removing half the residue classes mod $p_i$, for primes\n$2 \\leqslant p_1 < p_2 < \\dots < p_{1000} < N^{9/10}$. Does the remaining set have size at most\n$\\frac{1}{10} N$?\n\nWe interpret \"half the residue classes\" as $\\lfloor p_i / 2 \\rfloor$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«44»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Ben Green's 100 Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.44)",
+          "[Er80] Erdős, Paul. \"A survey of problems in combinatorial number theory.\" Annals of Discrete Mathematics 6 (1980): 89-115."
+        ],
+        "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+        "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green44.green_44",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
+        "type_pretty": "True ↔\n  ∀ (N : ℕ) (p : Fin 1000 → ℕ) (A : (i : Fin 1000) → Finset (ZMod (p i))),\n    have remaining := {x ∈ Finset.Icc 1 N | ∀ (i : Fin 1000), ↑x ∉ A i};\n    (∀ (i : Fin 1000), Nat.Prime (p i)) →\n      StrictMono p → p 999 ^ 10 < N ^ 9 → (∀ (i : Fin 1000), (A i).card = p i / 2) → 10 * remaining.card ≤ N"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«44»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green44.green_44\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-8432eac9-green44-green-44-98bd51eee2baa4578fa8ba12d4664553-problem",
+          "target_type_sha256": "sha256:e2d78b046dfbab2bb11d581e55f8698e92092df40b24498a92aa8a3e65a70d30",
+          "task_bundle_sha256": "sha256:8d2a5a76a8940c3c0060ae018d631fe39b5a212fee1e5a3ce993dd0da081a3b9",
+          "task_id": "fc-8432eac9-green44-green-44-f21be00c87-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«44»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green44.green_44\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-8432eac9-green44-green-44-98bd51eee2baa4578fa8ba12d4664553-problem",
+          "target_type_sha256": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
+          "task_bundle_sha256": "sha256:904ef8967f03c77ef2a49b0bcf6a62516b7b6451a208d74e3ebdfc2431f9042b",
+          "task_id": "fc-8432eac9-green44-green-44-2629003ac1-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green44.green_44",
       "tier": "tier-1"
     },
     {
