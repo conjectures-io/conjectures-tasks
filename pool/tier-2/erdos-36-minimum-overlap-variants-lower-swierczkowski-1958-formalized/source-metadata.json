@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A lower bound of $\\frac{4 - \\sqrt{6}}{5}$.\nSee [On the intersection of a linear set with the translation of its complement](https://bibliotekanauki.pl/articles/969027)\nby *Stanisław Świerczkowski1*, Colloquium Mathematicum 5(2), p. 185-197, 1958\n\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«36»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/36](https://www.erdosproblems.com/36)",
+    "[Wikipedial: Minimum overlap problem](https://en.wikipedia.org/wiki/Minimum_overlap_problem)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/36.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos36.minimum_overlap.variants.lower.swierczkowski_1958",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b251d70ac0357ea20dcdccea40d95914484b74bc15ff8849d971a7274f5325a1",
+  "type_pretty": "(4 - 6 ^ (1 / 2)) / 5 < Filter.liminf Erdos36.MinOverlapQuotient Filter.atTop"
+}

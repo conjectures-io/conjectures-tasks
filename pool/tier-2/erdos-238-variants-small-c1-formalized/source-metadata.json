@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is well-known that the conjecture above is true when `c₁` is sufficiently small.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«238»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/238](https://www.erdosproblems.com/238)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/238.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos238.erdos_238.variants.small_c1",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:a122bf38494d6f8b847e7aeb21d03b75217da76bc56f4ea3aac057eb50d2b8d7",
+  "type_pretty": "∀ c₂ > 0,\n  ∀ᶠ (c₁ : ℝ) in nhdsWithin 0 (Set.Ioi 0),\n    ∀ᶠ (x : ℝ) in Filter.atTop,\n      ∃ k,\n        c₁ * Real.log x < ↑k ∧\n          ∃ f m,\n            (∀ (i : Fin k), ↑(f i) ≤ x ∧ f i = Nat.nth Nat.Prime (m + ↑i)) ∧ ∀ (i : Fin (k - 1)), c₂ < primeGap (m + ↑i)"
+}

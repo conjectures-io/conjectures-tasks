@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is easy to prove that $F(n)\\geq 1-o(1)$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1203»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1203](https://www.erdosproblems.com/1203)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1203.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1203.erdos_1203.variants.lower_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:44859ead032810a043342d4d8e7d8c049f81605d4fb7798796ecea8aa23a04ea",
+  "type_pretty": "∀ ε > 0, ∀ᶠ (n : ℕ) in Filter.atTop, Erdos1203.F n ≥ 1 - ε"
+}

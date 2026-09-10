@@ -1,0 +1,48 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "$W(3, 3) = 9$ from [AKS14]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«14»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.14)",
+    "[AKS14] Ahmed, Tanbir, Oliver Kullmann, and Hunter Snevily. \"On the van der Waerden numbers w (2; 3, t).\" Discrete Applied Mathematics 174 (2014): 27-51.",
+    "[KeMe23] Kelley, Zander, and Raghu Meka. \"Strong bounds for 3-progressions.\" 2023 IEEE 64th Annual Symposium on Foundations of Computer Science (FOCS). IEEE, 2023.",
+    "[Hu22] Hunter, Zach. \"Improved lower bounds for van der Waerden numbers.\" Combinatorica 42. Suppl 2 (2022): 1231-1252.",
+    "[Gr21] Green, Ben. \"New lower bounds for van der Waerden numbers.\" Forum of Mathematics, Pi. Vol. 10. Cambridge University Press, 2022.",
+    "[Sc20] Schoen, Tomasz. \"A subexponential upper bound for van der Waerden numbers W (3, k).\" arXiv preprint arXiv:2006.02877 (2020).",
+    "[BLR08] Brown, Tom, Bruce M. Landman, and Aaron Robertson. \"Bounds on some van der Waerden numbers.\" Journal of Combinatorial Theory, Series A 115.7 (2008): 1304-1309.",
+    "[LiSh10] Li, Yusheng, and Jinlong Shu. \"A lower bound for off-diagonal van der Waerden numbers.\" Advances in Applied Mathematics 44.3 (2010): 243-247."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/14.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green14.W_3_3",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:da9eba2c92b882cc0e49e2f6d6c49e39bb814a35827a41e4a525b19af325c641",
+  "type_pretty": "Green14.W 3 3 = 9"
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Rosenfeld [ErRo97] proved that there are infinitely many $n$ such that there are\nfour divisors of $n$ in $(n^{1/2},n^{1/2}+16n^{1/4})$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«886»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/886](https://www.erdosproblems.com/886)",
+    "[ErRo97] Erdős, Paul and Rosenfeld, Moshe, The factor-difference set of integers. Acta Arith. (1997), 353--359."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/886.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos886.erdos_886.variants.rosenfeld_infinite",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:98ddfcf9a12c5684e84fc65f00ee2d4c4c0e9addba385c10e37450a4e78f19ea",
+  "type_pretty": "{n | 4 ≤ (Erdos886.Erdos886Divisors n (1 / 4) 16).card}.Infinite"
+}

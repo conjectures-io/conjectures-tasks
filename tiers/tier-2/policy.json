@@ -1,0 +1,35 @@
+{
+  "classification": "DIRECT_PROP",
+  "compiled_target_validation": true,
+  "excluded_source_prefixes": [],
+  "grouping": "none-single-target-v1",
+  "minimum_erdos_tasks": 0,
+  "modes": [
+    "formalized"
+  ],
+  "multi_target_tasks": 0,
+  "one_reward_per_problem": true,
+  "one_reward_per_reward_target": true,
+  "outcomes_per_problem": 1,
+  "policy_version": 1,
+  "pool_size": 269,
+  "retired_conjectures_sha256": "sha256:ef16034804ec8ed221f25e75a2615fc9f9ea02151e20d94796f34a9b5f20e2b0",
+  "retired_source_theorems_sha256": "sha256:1c41dced12c7a67ca9caee3fbae5dd06b644c16ad0bad6d219a41de393efc982",
+  "reward_target_count": 269,
+  "reward_target_policy": "stable-theorem-target-v1",
+  "selection": "audited-direct-propositions-v2",
+  "selection_audit_sha256": "sha256:b6935f2e2aaeb19ce9c9147ad386054a46122ad97be90efcd7b713fbd77f19b5",
+  "source_category": "research solved",
+  "source_families": [
+    "erdos",
+    "greens-open-problems"
+  ],
+  "source_theorem_count": 269,
+  "target_relations": {
+    "formalized": "definitionally-equal"
+  },
+  "task_groups_sha256": "sha256:f4deb04a2541784b92597a2a7107a95aa1a675588f031b76be16aa1ad1c51e5f",
+  "task_scope": "direct_proposition",
+  "task_targets_sha256": "sha256:1f028e2fc01766b9458ad270587ac57b64c6baa1724cec63baaaf2d1b87c7ee5",
+  "track": "formalization"
+}

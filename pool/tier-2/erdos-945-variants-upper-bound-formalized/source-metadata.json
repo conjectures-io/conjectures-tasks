@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Mirsky [ErMi52] proved that $\\log F(x) \\ll \\frac{(\\log x)^{1/2}}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«945»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/945](https://www.erdosproblems.com/945)",
+    "[ErMi52] Erdős, P. and Mirsky, L., The distribution of values of the divisor function {$d(n)$}. Proc. London Math. Soc. (3) (1952), 257--271."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/945.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos945.erdos_945.variants.upper_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5a37858b7b9bca14af14af884dfab87fd6765effee86ff7a408ed37ec7f64556",
+  "type_pretty": "(fun n => Real.log ↑(Erdos945.F ↑n)) =O[Filter.atTop] fun x => √(Real.log ↑x) / Real.log (Real.log ↑x)"
+}

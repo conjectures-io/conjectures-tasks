@@ -1,0 +1,38 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Suppose that every odd $n$ is the sum of a squarefree number and a power of 2. Then the set of primes\n$p$ such that $2 ^ p ≡ 2 \\mod p ^ 2$ is infinite. This is Theorem 1 in [GrSo98].\n[GrSo98] Granville, A. and Soundararajan, K., A Binary Additive Problem of Erdős and the Order of $2$ mod $p^2$. The Ramanujan Journal (1998), 283-298.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«11»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/11](https://www.erdosproblems.com/11)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/11.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos11.erdos_11.variants.granville_soundararajan",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:abf0aa50ad4a993eb1f05b7b5e949533c5d75542372c0e5f771480f711bc11d5",
+  "type_pretty": "(∀ (n : ℕ), Odd n → 1 < n → ∃ k l, Squarefree k ∧ n = k + 2 ^ l) → {p | Nat.Prime p ∧ 2 ^ p ≡ 2 [MOD p ^ 2]}.Infinite"
+}

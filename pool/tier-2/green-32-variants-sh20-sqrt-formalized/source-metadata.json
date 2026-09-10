@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "[Sh20] has used the polynomial method to show that this is true with 100 replaced by 2 [Gr24].\n\nNote: More precisely [Sh20, Theorem 1] implies a gap of at least $\\lfloor 2p/|A| - 2 \\rfloor$.\nFor a set $A$ of size $\\lfloor \\sqrt{p} \\rfloor$, this guarantees a gap of at least\n$\\lfloor 2\\sqrt{p} \\rfloor - 2$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«32»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.32)",
+    "[Sh20] Shakan, George. \"A Large Gap in a Dilate of a Set.\" SIAM Journal on Discrete Mathematics 34.4 (2020): 2553-2555."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green32.green_32.variants.sh20_sqrt",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ae93cb4051282bf5eb30391ad86ec74024c4b505a7b9c1ab095eae2aeeeff32d",
+  "type_pretty": "∀ᶠ (p : ℕ) in Filter.atTop,\n  Nat.Prime p → ∀ (A : Finset (ZMod p)), A.card = ⌊√↑p⌋₊ → ∃ c, Green32.HasGap (c • A) (⌊2 * √↑p⌋₊ - 2)"
+}

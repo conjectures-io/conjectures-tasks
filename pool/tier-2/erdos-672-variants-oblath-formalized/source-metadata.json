@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "According to https://www.erdosproblems.com/672, Obláth proved this.\n\n[Ob51] Oblath, Richard, Eine Bemerkung über Produkte aufeinander folgender Zahlen.\nJ. Indian Math. Soc. (N.S.) (1951), 135-139. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«672»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/672](https://www.erdosproblems.com/672)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/672.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos672.erdos_672.variants.oblath",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:74c0537e431eb71fc37bb865ad341493971c689599ba859bffc86feec7a8e37c",
+  "type_pretty": "Erdos672.Erdos672With 5 2 ∧ Erdos672.Erdos672With 3 3 ∧ Erdos672.Erdos672With 3 4 ∧ Erdos672.Erdos672With 3 5"
+}

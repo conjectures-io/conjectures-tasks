@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "From [Ru05] the best-known upper bound is $|S| \\lt e^{C \\sqrt{\\log |A|}}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«2»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.2)",
+    "[Er65] P. Erdős. Extremal problems in number theory, In Proc. Sympos. Pure Math., Vol. VIII, pages 181–189. Amer. Math. Soc., Providence, R.I., 1965.",
+    "[Sa21] Sanders, Tom. \"The Erdős–Moser Sum-free Set Problem.\" Canadian Journal of Mathematics 73.1 (2021): 63-107.",
+    "[Ru05] I. Z. Ruzsa, Sum-avoiding subsets. Ramanujan J., 9 (2005) (1-2):77–82.",
+    "[Ch71] S. L. G. Choi. On a combinatorial problem in number theory. Proc. London Math. Soc. (3), 23:629–642, 1971. doi:10.1112/plms/s3-23.4.629.",
+    "[BSS00] A. Baltz, T. Schoen, and A. Srivastav. Probabilistic construction of small strongly sum-free sets via large Sidon sets. Colloq. Math., 86(2):171–176, 2000. doi:10.4064/cm-86-2-171-176."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green2.green_2_upper_bound_ruzsa",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0e1ce6c2380ba4ea45617fffc82b8f2b96caab1cf00bc950102bdddfa3b17f04",
+  "type_pretty": "∃ C > 0,\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∃ A, A.card = n ∧ ↑(Green2.maxRestrictedSumAvoidingSubsetSize A) < Real.exp (C * √(Real.log ↑A.card))"
+}

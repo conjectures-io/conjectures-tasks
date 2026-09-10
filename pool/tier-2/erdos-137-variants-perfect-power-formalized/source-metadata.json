@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $k\\geq 2$. Erdős and Selfridge [ES75] proved that the product of any $k$ consecutive\nintegers $N$ cannot be a perfect power.\n\n[ES75] P. Erdös, J. L. Selfridge, \"The product of consecutive integers is never a power\",\n  Illinois J. Math. 19(2): 292-301, 1975\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«137»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/137](https://www.erdosproblems.com/137)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/137.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos137.erdos_137.variants.perfect_power",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:074ddb79589e983d76b0618213e7cc1f2e5b8b2409b5777b236a9d275125bf4c",
+  "type_pretty": "∀ k ≥ 2, ∀ (n x l : ℕ), 2 ≤ l → ∏ x ∈ Finset.Ioc n (n + k), x ≠ x ^ l"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "In 2003, Elsholtz [El03] refined the upper bound to\n$$\\pi^{\\mathcal{C}}(x) \\ll x\\,\\exp\\!\\bigl(-c(\\log\\log x)^2\\bigr)$$\nfor every real $0 < c < 1/8$.\n\n[El03] Elsholtz, Christian, On cluster primes. Acta Arith. (2003), 281--284.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«17»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/17](https://www.erdosproblems.com/17)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/17.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos17.erdos_17.variants.upper_Elsholtz",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:fd0f75df46f9743fd4b69866e226f8ff65aa079848192af91663dcb8db830afe",
+  "type_pretty": "∃ C,\n  0 < C ∧\n    ∀ c ∈ Set.Ioo 0 (1 / 8),\n      Asymptotics.IsBigOWith C Filter.atTop (fun x => ↑(Erdos17.clusterPrimeCount x)) fun x =>\n        ↑x * Real.exp (-c * Real.log (Real.log ↑x) ^ 2)"
+}

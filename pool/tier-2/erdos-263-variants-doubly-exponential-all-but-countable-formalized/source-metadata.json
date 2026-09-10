@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Koizumi [Ko25] showed that $a_n = \\lfloor \\alpha^{2^n} \\rfloor$ is an irrationality sequence\nfor all but countably many $\\alpha > 1$.\n\n[Ko25] Koizumi, J., Irrationality of the reciprocal sum of doubly exponential sequences,\n       arXiv:2504.05933 (2025).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«263»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/263](https://www.erdosproblems.com/263)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/263.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos263.erdos_263.variants.doubly_exponential_all_but_countable",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5267bb8c4dc0a768b19a1c9be0d207df9fdda63637a7f44bd126214c99ad1f93",
+  "type_pretty": "∀ᶠ (α : ℝ) in Filter.cocountable, α > 1 → Erdos263.IsIrrationalitySequence fun n => ⌊α ^ 2 ^ n⌋₊"
+}

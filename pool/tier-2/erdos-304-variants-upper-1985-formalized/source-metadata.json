@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "In 1985 Vose [Vo85] proved the upper bound $$N(b) \\ll \\sqrt{\\log b}$$.\n[Vo85] Vose, Michael D., Egyptian fractions. Bull. London Math. Soc. (1985), 21-24.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«304»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/304](https://www.erdosproblems.com/304)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/304.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos304.erdos_304.variants.upper_1985",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:da5e9787db2d22504c215afe1139ad5c7112a723b7eb8370f982521242f15e92",
+  "type_pretty": "(fun b => ↑(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => √(Real.log ↑b)"
+}

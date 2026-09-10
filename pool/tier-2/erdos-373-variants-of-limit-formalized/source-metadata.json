@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Show that if `P(n(n+1)) / log n → ∞` where `P(m)` denotes the largest prime factor of `m`, then\nthe equation `n!=a_1!a_2!···a_k!`, with `n−1 > a_1 ≥ a_2 ≥ ··· ≥ a_k`, has only\nfinitely many solutions.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«373»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/373](https://www.erdosproblems.com/373)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/373.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos373.erdos_373.variants.of_limit",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:df076327115dee4f16e27dd8e68b810edc5b1c6324dd246b02192d05c4d3e2a3",
+  "type_pretty": "Filter.Tendsto (fun n => ↑(n * (n + 1)).maxPrimeFac / Real.log ↑n) Filter.atTop Filter.atTop → Erdos373.S.Finite"
+}

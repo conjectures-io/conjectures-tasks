@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Green85.green_85_loose"
+  ],
+  "generated_target_type_hash": "sha256:9e235c5b719b30645a6f5c5629c0cf51a6088b363382c2925eca7ebef57e8381",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Green85.green_85_loose",
+    "url": "https://www.dpmms.cam.ac.uk/~bjg23/open-problems.html"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.GreensOpenProblems.«85»",
+  "source_path": "FormalConjectures/GreensOpenProblems/85.lean",
+  "source_theorem": "Green85.green_85_loose",
+  "source_type_hash": "sha256:9e235c5b719b30645a6f5c5629c0cf51a6088b363382c2925eca7ebef57e8381",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-green85-green-85-loose-205d989b76-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:1e9686fb2ee88c12f61d66b14a56ae6d873c39b4d39f7568d9fca90b082e1a69",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:42865cba802c637b0554fcda8079d1affe4fcaf138120ca49495174bfeb02918",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5e97943447861632f1fc966ef24a67d0bcc988aa198b33a859dfca382245305b"
+  }
+}

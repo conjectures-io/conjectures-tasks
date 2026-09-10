@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Lattanzio [La02] proved there exist $k$-critical graphs without critical edges for all $k$ such that\n$k - 1$ is not prime.\n\n[La02] Lattanzio, John J., A note on a conjecture of {D}irac. Discrete Math. (2002), 323--330\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«944»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/944](https://www.erdosproblems.com/944)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/944.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos944.erdos_944.variants.dirac_conjecture.k_sub_one_not_prime",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e99f3ebd20656118a320d570ad6e1dd1248b93034b60ffdff6c0288be1e978ea",
+  "type_pretty": "∀ (k : ℕ), 4 ≤ k → ¬Nat.Prime (k - 1) → ∃ V G, Erdos944.SimpleGraph.IsErdos944 G k 1"
+}

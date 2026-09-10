@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The current best upper bound is $|A| \\leqslant (C_2 + o(1))^n$ where\n$C_2 = \\frac{7 \\cos(\\pi/7)}{1 + \\cos(\\pi/7)} \\approx 3.3177$ [La79, Corollary 5]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«38»",
+  "pointer_target": null,
+  "references": [
+    "[100 open problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.38)",
+    "[La79] Lovász, László. \"On the Shannon capacity of a graph.\" IEEE Transactions on Information theory 25.1 (1979): 1-7.",
+    "[Po20] Polak, Sven. \"New methods in coding theory: Error-correcting codes and the Shannon capacity.\" arXiv preprint arXiv:2005.02945 (2020)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/38.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green38.green_38.variants.best_upper",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:777d0418773ab32459302126ff67cfcbb71d374eb381ebf3d189e7c284d5b4cf",
+  "type_pretty": "∀ ε > 0, ∀ᶠ (n : ℕ) in Filter.atTop, Green38.LargestAdmissibleCardinality n ≤ (Green38.C₂ + ε) ^ n"
+}

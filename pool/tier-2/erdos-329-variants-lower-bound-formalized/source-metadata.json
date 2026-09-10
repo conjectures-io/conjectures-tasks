@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős proved that upper density `1 / 2` can be attained; in particular,\nthere exists a Sidon set whose upper density is *at least* `1 / 2`.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«329»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/329](https://www.erdosproblems.com/329)",
+    "[AlMi25] B. Alexeev and D. G. Mixon, Forbidden Sidon subsets of perfect difference sets, featuring a human-assisted proof. [arXiv:2510.19804](https://arxiv.org/abs/2510.19804) (2025).",
+    "[Ha47] Hall, Jr., Marshall, Cyclic projective planes. Duke Math. J. (1947), 1079--1090."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/329.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos329.erdos_329.variants.lower_bound",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e47534ca139c68e46b674a3474a7d2b54ddd8bcc9ac2d940ff09f14667251a7f",
+  "type_pretty": "∃ A, IsSidon A ∧ Erdos329.sidonUpperDensity A ≥ 1 / 2"
+}

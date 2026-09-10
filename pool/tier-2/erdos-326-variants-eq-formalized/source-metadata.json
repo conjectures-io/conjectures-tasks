@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős originally asked whether this was true with `A = B`, but this was disproved by Cassels.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«326»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/326](https://www.erdosproblems.com/326)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/326.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos326.erdos_326.variants.eq",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:25965a0caf7aa1ac46e7d0a9ebe98ca820ddb88f4f55eb33a4429c5e68cfe5da",
+  "type_pretty": "∃ a,\n  ∃ (_ : StrictMono a) (_ : (Set.range a).IsAddBasisOfOrder 2),\n    ∃ x, ∃ (_ : 0 < x), Filter.Tendsto (fun n => ↑(a n) / ↑n ^ 2) Filter.atTop (nhds x)"
+}

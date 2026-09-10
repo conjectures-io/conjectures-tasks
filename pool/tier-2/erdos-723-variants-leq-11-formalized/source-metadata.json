@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "This conjecture has been proved for $n \\leq 11$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«723»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/723](https://www.erdosproblems.com/723)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/723.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos723.erdos_723.variants.leq_11",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:24ee825c7ccbcbf1d3f205119ca28366dc48dd669f4df4d2f0ac30a9e59c375c",
+  "type_pretty": "∀ {P L : Type} [inst : Membership P L] [Fintype P] [Fintype L] (pp : Configuration.ProjectivePlane P L),\n  Configuration.ProjectivePlane.order P L ≤ 11 → IsPrimePow (Configuration.ProjectivePlane.order P L)"
+}

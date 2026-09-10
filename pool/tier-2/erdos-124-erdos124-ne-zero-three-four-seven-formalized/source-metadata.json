@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "All sufficiently large integers can be written as $a + b + c$, where $a$, $b$, and $c$ are\ndivisible by $3$, $4$, and $7$ respectively, and after division by that base have only the\ndigits $0, 1$ in that base.\n\nProved by Burr, Erdős, Graham, and Li [BEGL96]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«124»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/124](https://www.erdosproblems.com/124)",
+    "[BEGL96] Burr, S. A. and Erdős, P. and Graham, R. L. and Li, W. Wen-Ching, Complete sequences of sets of integer powers. Acta Arith. (1996), 133-138."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/124.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos124.erdos124.ne_zero_three_four_seven",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4ddd05b4d1eb99c6d0f184b9690331c9d8de7ba7622312c90f41651ec60cc0de",
+  "type_pretty": "∀ᶠ (n : ℕ) in Filter.atTop,\n  n ∈ Erdos124.sumsOfDistinctPowers 3 1 + Erdos124.sumsOfDistinctPowers 4 1 + Erdos124.sumsOfDistinctPowers 7 1"
+}

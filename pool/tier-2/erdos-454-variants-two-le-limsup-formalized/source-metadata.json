@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "`limsup (fun n => (f n - 2 * n.nth Prime : ℕ∞)) atTop ≥ 2`, and this is proved in [Po79]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«454»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/454](https://www.erdosproblems.com/454)",
+    "[Po79] Pomerance, Carl, The prime number graph. Math. Comp. (1979), 399-408."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/454.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos454.erdos_454.variants.two_le_limsup",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3130db001207d099639bc72e5f79da6809987cf8dfd9b703ffd1f44978fddbf9",
+  "type_pretty": "2 ≤ Filter.limsup (fun n => ↑(Erdos454.f n) - 2 * ↑(Nat.nth Prime n)) Filter.atTop"
+}

@@ -1,0 +1,9 @@
+import FormalConjectures.ErdosProblems.«507»
+import TaskSupport
+
+namespace Bounty
+
+theorem target : fcTypeOfName% "Erdos507.erdos_507.variants.lower_kps82" := by
+  sorry
+
+end Bounty

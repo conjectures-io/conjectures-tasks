@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Schinzel deduced from Pólya's theorem [Po18] (that the sequence of $k$-smooth integers has unbounded\ngaps) that this is true with $p_1\\cdots p_k$ replaced by $p_1\\cdots p_{k-1}p_{k+1}$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«891»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/891](https://www.erdosproblems.com/891)",
+    "[Po18] Pólya, Georg, Zur arithmetischen {U}ntersuchung der {P}olynome. Math. Z. (1918), 143--148.",
+    "[Wikipedia] https://en.wikipedia.org/wiki/Dickson%27s_conjecture"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/891.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos891.erdos_891.variants.schinzel",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7a617c8d5d5190115aa9eead310dceecc66f0d12631d22d4ce5e79b8ee981734",
+  "type_pretty": "∀ k ≥ 2,\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∃ m ∈ Finset.Ico n (n + (∏ i ∈ Finset.range (k - 1), Nat.nth Nat.Prime i) * Nat.nth Nat.Prime k),\n      k < ArithmeticFunction.cardDistinctFactors m"
+}

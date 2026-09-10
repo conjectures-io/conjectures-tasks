@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Old and new problems and results in combinatorial number theory by Erdős & Graham (Page 14, 15):\n\nIt has been shown that there is a large $M$ so that it is possible to partition $\\mathbb{E}^2$ into\ntwo sets $A$ and $B$ so that $A$ contains no pair of points with distance 1 and $B$ contains no A.P.\nof length $M$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«188»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/188](https://www.erdosproblems.com/188)",
+    "[EGMRSS75] Erdős, P. and Graham, R. L. and Montgomery, P. and Rothschild, B. L. and Spencer, J. and Straus, E. G., Euclidean {R}amsey theorems. {II}. (1975), 529--557.",
+    "[Ts17] Tsaturian, Sergei, A {E}uclidean {R}amsey result in the plane. Electron. J. Combin. (2017), Paper No. 4.35, 9."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/188.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos188.erdos_188.variants.nonempty",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:385e72181b9ed44d1c281c3e516363c3a7668dbd5040b3985335ef077e8482f4",
+  "type_pretty": "Erdos188.s.Nonempty"
+}

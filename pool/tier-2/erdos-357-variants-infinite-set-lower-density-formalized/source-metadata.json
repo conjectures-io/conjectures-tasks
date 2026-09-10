@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Suppose $A$ is an infinite set such that all finite sums of consecutive terms of $A$ are distinct.\nThen $A$ has lower density 0. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«357»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/357](https://www.erdosproblems.com/357)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/357.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos357.erdos_357.variants.infinite_set_lower_density",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:03b9419377d27789b5708d165ac9c38f74ff1208bc5c120d3aacfc57b9e20076",
+  "type_pretty": "∀ (A : ℕ → ℕ), StrictMono A → Erdos357.HasDistinctSums A → (Set.range A).lowerDensity = 0"
+}

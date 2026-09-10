@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős proved that the barrier set for `expProd` is infinite and even has positive density.\n\n`HasPosDensity` is the right reading rather than positive lower density. In [Er79d] this is\nTheorem 1, \"the density of integers satisfying (2) is positive\", where `d₀(n) = ∏ αᵢ` is\n`expProd`. The averaging argument there bounds the density below, but Erdős states the existence\nseparately on the last page: \"With a little more trouble, I can prove that the density of\nintegers `n` for which `n` is a barrier for `d₀(n)` exists.\" He goes further, that if `αᵢ` is the\ndensity of `n` with `max_{m<n} (m + d₀(m)) = n + i`, then every `αᵢ` exists and they sum to `1`.\n\n[Er79d] Erdős, P., *Some unconventional problems in number theory*.\nActa Math. Acad. Sci. Hungar. (1979), 71-80. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«413»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/413](https://www.erdosproblems.com/413)",
+    "[A5236](https://oeis.org/A5236)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/413.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos413.erdos_413.variants.hasPosDensity_barrier_expProd",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:18213aebd64f629f96e6c3df32bcdcca4e7ae3c1d6292b7543b8dac6a09a5883",
+  "type_pretty": "{n | Erdos413.IsBarrier (fun m => ↑(Erdos413.expProd m)) n}.HasPosDensity"
+}

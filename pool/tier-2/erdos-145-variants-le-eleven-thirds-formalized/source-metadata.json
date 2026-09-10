@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Greaves, Harman, and Huxley [GHH97] showed that this is true for $0 \\leq \\alpha\\leq 11/3$.\n\n[GHH97] Greaves, G. R. H. and Harman, G. and Huxley, M. N., Sieve Methods, Exponential Sums, and\ntheir Applications in Number Theory. (1997).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«145»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/145](https://www.erdosproblems.com/145)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/145.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos145.erdos_145.variants.le_eleven_thirds",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3479a83941d25a53b3eead9acdd3e56d5b5d81d5c924517f0213e27697e36de4",
+  "type_pretty": "∀ {α : ℝ},\n  α ∈ Set.Icc 0 (11 / 3) →\n    ∃ β,\n      Filter.Tendsto (fun x => 1 / x * ∑ n ∈ Erdos145.A x, (↑(Erdos145.s (n + 1)) - ↑(Erdos145.s n)) ^ α) Filter.atTop\n        (nhds β)"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Kovač and Tao [KoTa24] generally proved that any strictly increasing sequence of positive integers\n$a_n$ such that $\\sum \\frac{1}{a_n}$ converges and\n$$\n  \\liminf_{n \\to \\infty} (a_n^2 \\sum_{k > n} \\frac{1}{a_k^2}) > 0\n$$\nis not an irrationality sequence.\n\n[KoTa24] Kovač, V. and Tao T., On several irrationality problems for Ahmes series. arXiv:2406.17593 (2024).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«264»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/264](https://www.erdosproblems.com/264)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/264.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos264.erdos_264.variants.ko_tao_neg",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:49a842bf96a489b7c3ce42dcfacd6e26013ee6b14831ae35774e818a823bca83",
+  "type_pretty": "∀ {a : ℕ → ℕ},\n  StrictMono a →\n    0 ∉ Set.range a →\n      (Summable fun x => 1 / ↑(a x)) →\n        0 < Filter.liminf (fun n => ↑(a n) ^ 2 * ∑' (k : ↑(Set.Ioi n)), 1 / ↑(a ↑k) ^ 2) Filter.atTop →\n          ¬Erdos264.IsIrrationalitySequence a"
+}

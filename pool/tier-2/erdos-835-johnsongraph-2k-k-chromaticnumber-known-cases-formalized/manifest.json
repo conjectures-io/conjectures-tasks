@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos835.johnsonGraph_2k_k_chromaticNumber_known_cases"
+  ],
+  "generated_target_type_hash": "sha256:06b53982eaa58923c93c8a97fcaf1964af52c195b17e33c402564dfde8646a41",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Erdos835.johnsonGraph_2k_k_chromaticNumber_known_cases",
+    "url": "https://www.erdosproblems.com/835"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«835»",
+  "source_path": "FormalConjectures/ErdosProblems/835.lean",
+  "source_theorem": "Erdos835.johnsonGraph_2k_k_chromaticNumber_known_cases",
+  "source_type_hash": "sha256:06b53982eaa58923c93c8a97fcaf1964af52c195b17e33c402564dfde8646a41",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-erdos835-johnsongraph-2k-k-chromaticnumber-known-cases-c76911780c-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:4444b58254b5455621a1b21f653b1713f32409e13c86a190cda517fc3d924259",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:dcba9ccb685c30e0575091e5e7c9331123e135eed55b3d925c13a642dc3548a0",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:dd26ae2d95e8983d99fe42fba761a3f4603db1b56611a59ac2afcbed0dce286e"
+  }
+}

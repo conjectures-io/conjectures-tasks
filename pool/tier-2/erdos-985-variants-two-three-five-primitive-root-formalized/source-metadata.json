@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Heath-Brown proved that at least one of 2, 3, or 5 is a primitive root for infinitely many primes $p$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«985»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/985](https://www.erdosproblems.com/985)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/985.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos985.erdos_985.variants.two_three_five_primitive_root",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:bc371a1ea076211a08ec342825c41dcca9f60057f07a026f7cf8fe2eb6771c18",
+  "type_pretty": "{p | Nat.Prime p ∧ (orderOf 2 = p - 1 ∨ orderOf 3 = p - 1 ∨ orderOf 5 = p - 1)}.Infinite"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The smallest possible value of `lim sup n → ∞ |A ∩ {1, …, N}| / N^(1/2)`\nis at most `2φ^(5/2) ≈ 6.66`, with `φ` equal to the golden ratio. Proven by\nWouter van Doorn.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«33»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/33](https://www.erdosproblems.com/33)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/33.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos33.erdos_33.variants.vanDoorn",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d8bf4891e80e0cb1b4d473eab9873e910ee375cd8d4bde0e3d3bb604e672df42",
+  "type_pretty": "⨅ A, Filter.limsup (fun N => ↑(↑A ∩ Set.Icc 1 N).ncard / ↑√↑N) Filter.atTop ≤ ↑(2 * Real.goldenRatio ^ (5 / 2))"
+}

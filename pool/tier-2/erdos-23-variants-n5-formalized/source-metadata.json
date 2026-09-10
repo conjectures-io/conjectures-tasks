@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every triangle-free graph on $25$ vertices can be made bipartite by removing at most $25$\nedges.\n\nThis is the $n = 5$ case of Erdős Problem 23.  It follows from the high-density range of\nBalogh-Clemen-Lidicky together with McKay's complete catalogue of the 23-vertex extremal\ngraphs for bipartization of triangle-free graphs.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«23»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/23](https://www.erdosproblems.com/23)",
+    "[OEIS A389646](https://oeis.org/A389646)",
+    "[Balogh-Clemen-Lidicky, Max Cuts in Triangle-free Graphs](https://arxiv.org/abs/2103.14179)",
+    "[McKay, Extremal graphs for bipartization of triangle-free graphs](https://users.cecs.anu.edu.au/~bdm/data/graphs.html)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/23.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos23.erdos_23.variants.n5",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e65724e11c085e2743299d6210be20cb23f9c414b6716b0d248fe110249a1942",
+  "type_pretty": "∀ (G : SimpleGraph (Fin 25)), G.CliqueFree 3 → ∃ H ≤ G, H.IsBipartite ∧ (G.edgeFinset \\ H.edgeFinset).card ≤ 25"
+}

@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "An upper bound of $\\frac 2 5$.\nSee [Minimal overlapping under translation.](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-62/issue-6)\nby *T. S. Motzkin*, *K. E. Ralston* and *J. L. Selfridge*,\nin \"The summer meeting in Seattle\" by *V. L. Klee Jr.*, Bull. Amer. Math. Soc.62, p. 558, 1956\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«36»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/36](https://www.erdosproblems.com/36)",
+    "[Wikipedial: Minimum overlap problem](https://en.wikipedia.org/wiki/Minimum_overlap_problem)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/36.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos36.minimum_overlap.variants.upper.MRS_1956",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:a89bc60186ab2948a4bf667d8f46175a8921397bbf7966261c39bcfa1b955068",
+  "type_pretty": "Filter.limsup Erdos36.MinOverlapQuotient Filter.atTop ≤ 2 / 5"
+}

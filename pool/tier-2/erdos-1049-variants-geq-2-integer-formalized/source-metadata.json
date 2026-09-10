@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős [Er48] proved that this is true if $t\\geq 2$ is an integer.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1049»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1049](https://www.erdosproblems.com/1049)",
+    "[Er48] Erdős, P., On arithmetical properties of Lambert series. J. Indian Math. Soc. (N.S.) (1948), 63-66."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1049.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1049.erdos_1049.variants.geq_2_integer",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:500ae0431d59091474d92b911088a0f4c1497ae838a1e65caf0a02f4b83f7c5c",
+  "type_pretty": "∀ t ≥ 2, Irrational (∑' (n : ℕ+), 1 / (↑t ^ ↑n - 1))"
+}

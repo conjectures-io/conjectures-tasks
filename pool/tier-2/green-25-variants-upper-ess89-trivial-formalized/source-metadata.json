@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For $k \\gg N / \\log N$, it need not be true [Gr24].\n\nIn this version, cases like $k(N) = N$ or $N-1$ can produce trivial counter examples.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«25»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.25)",
+    "[ESS89] Erdős, Pál, András Sárközy, and V. T. Sós. \"On a conjecture of Roth and some related problems I.\" Irregularities of partitions. Berlin, Heidelberg: Springer Berlin Heidelberg, 1989. 47-59.",
+    "[Ru04] Ruzsa, Imre Z. \"A problem on restricted sumsets.\" CONTEMPORARY MATHEMATICS 342 (2004): 245-248."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/25.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green25.green_25.variants.upper_ess89_trivial",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:58e2c8c31acbac226a93e62bfb249035af8b701445087563b27cbebde82a1ad0",
+  "type_pretty": "∃ k,\n  (∀ᶠ (N : ℕ) in Filter.atTop, 1 ≤ k N ∧ k N ≤ N) ∧\n    (Green25.bestUpper =O[Filter.atTop] fun N => ↑(k N)) ∧ ¬∀ᶠ (N : ℕ) in Filter.atTop, Green25.Property25 (k N) N"
+}

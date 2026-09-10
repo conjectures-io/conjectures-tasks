@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős showed that, for $d \\ge 4$, $f_d(n) \\le \\left(\\frac{p - 1}{2p} + o(1)\\right) n^2$ where\n$p = \\lfloor\\frac d2\\rfloor$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1085»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1085](https://www.erdosproblems.com/1085)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1085.erdos_1085.variants.upper_d4_erdos",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c7cb62f80a857f7984c9ba847ccebc96cfc3031e4077784e74a19887123b0e38",
+  "type_pretty": "∀ {d : ℕ},\n  4 ≤ d →\n    ∃ g,\n      Filter.Tendsto g Filter.atTop (nhds 0) ∧\n        ∀ (n : ℕ), ↑(Erdos1085.f d n) ≤ (↑(d / 2 - 1) / (2 * ↑(d / 2)) + g n) * ↑n ^ 2"
+}

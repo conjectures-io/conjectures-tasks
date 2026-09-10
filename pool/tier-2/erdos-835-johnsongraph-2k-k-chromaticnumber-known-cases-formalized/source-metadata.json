@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is known that for $3 \\leq k \\leq 8$, the chromatic number of $J(2k, k)$ is greater than $k+1$,\nsee [Johnson graphs](https://aeb.win.tue.nl/graphs/Johnson.html).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«835»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/835](https://www.erdosproblems.com/835)",
+    "[MT25](https://github.com/QuanyuTang/erdos-problem-835/blob/main/On_Problem_835.pdf)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/835.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos835.johnsonGraph_2k_k_chromaticNumber_known_cases",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:06b53982eaa58923c93c8a97fcaf1964af52c195b17e33c402564dfde8646a41",
+  "type_pretty": "∀ (k : ℕ), 3 ≤ k → k ≤ 8 → (SimpleGraph.johnson (2 * k) k).chromaticNumber > ↑k + 1"
+}

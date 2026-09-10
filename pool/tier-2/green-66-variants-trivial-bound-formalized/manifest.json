@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Green66.green_66.variants.trivial_bound"
+  ],
+  "generated_target_type_hash": "sha256:d2fde364b1e153f7b254316770f024c0911d380081771d880ed756ea63408898",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Green66.green_66.variants.trivial_bound",
+    "url": "https://www.dpmms.cam.ac.uk/~bjg23/open-problems.html"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.GreensOpenProblems.«66»",
+  "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
+  "source_theorem": "Green66.green_66.variants.trivial_bound",
+  "source_type_hash": "sha256:d2fde364b1e153f7b254316770f024c0911d380081771d880ed756ea63408898",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-trivial-bound-62a1f31243-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:18b72280ee1b1f9b44b6a34f64b846c19e4c267588f6e83363801da046cf2ebe",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:fc1babbe5dda137605271edfc9f3612315204925346c13f3ef430781430ccf56",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:c79931168a532b733bda4552035fb94383dd763947f42beade9c32a5395d6e17"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Aubrey de Grey improved the lower bound for the chromatic number of the plane\nto 5 in 2018 using a graph that has >1000 nodes.\n\n\"The chromatic number of the plane is at least 5\" Aubrey D. N. J. de Grey, 2018\n(https://doi.org/10.48550/arXiv.1804.02385)\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«508»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/508](https://www.erdosproblems.com/508)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/508.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos508.HadwigerNelsonAtLeastFive",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:abf60eb9f49c91f31559c14b81439761c29de2c824d5512745d2ea1e33b2767b",
+  "type_pretty": "5 ≤ (SimpleGraph.UnitDistancePlaneGraph Set.univ).chromaticNumber"
+}

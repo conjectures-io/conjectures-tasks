@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The smallest case not on this page is $k=9$:\nBut that one can be solved as well:\nThe chromatic number of $J(18, 9)$ is at least $11$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«835»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/835](https://www.erdosproblems.com/835)",
+    "[MT25](https://github.com/QuanyuTang/erdos-problem-835/blob/main/On_Problem_835.pdf)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/835.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos835.johnsonGraph_18_9_chromaticNumber",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:70e6adff96a35566010831af8ca9203716f9e8b9f0cfe9385c9f88499d8cb434",
+  "type_pretty": "(SimpleGraph.johnson 18 9).chromaticNumber > 9 + 1"
+}

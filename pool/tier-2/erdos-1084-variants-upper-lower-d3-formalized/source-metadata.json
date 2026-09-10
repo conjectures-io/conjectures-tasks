@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős claims the existence of two constants $c_1, c_2 > 0$\nsuch that $6n - c_1 n^{2/3} ≤ f_3(n) \\le 6n - c_2 n^{2/3}$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1084»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1084](https://www.erdosproblems.com/1084)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1084.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1084.erdos_1084.variants.upper_lower_d3",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:17f4cf5d4bc975b15d042150e551f34b3acbac28143734b8396ceee4cd0d1d48",
+  "type_pretty": "∃ c₁,\n  ∃ c₂ > 0,\n    ∀ᶠ (n : ℕ) in Filter.atTop,\n      6 * ↑n - c₁ * ↑n ^ (2 / 3) ≤ ↑(Erdos1084.f 3 n) ∧ ↑(Erdos1084.f 3 n) ≤ 6 * ↑n - c₂ * ↑n ^ (2 / 3)"
+}

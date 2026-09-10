@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The number $4$ cannot be written as\n$$4=\\frac{\\prod_{1\\leq i\\leq 3}(m+i)}{\\prod_{1\\leq i\\leq 3}(n+i)}$$\nfor $m≥n+3$!\n\nSee [comment section on erdosproblems.com](https://www.erdosproblems.com/forum/thread/686#post-4599)\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«686»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/686](https://www.erdosproblems.com/686)",
+    "[Er79d] Erdős, P., *Some unconventional problems in number theory*. Acta Math. Acad. Sci. Hungar. (1979), 71-80."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/686.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos686.erdos_686.variants.four_three",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5de3d30e45786ce13cf5b33ce0183bdd4a93084cc9f744cea2a2683c0f36770a",
+  "type_pretty": "¬∃ n, ∃ m ≥ n + 3, 4 = ↑(∏ i ∈ Finset.Icc 1 3, (m + i)) / ↑(∏ i ∈ Finset.Icc 1 3, (n + i))"
+}

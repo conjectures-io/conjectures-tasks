@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdos, Graham, Ruzsa, and Straus proved that if\n$$\n  f(n) = \\sum_{p \\leq n} 1_{p\\nmid {2n \\choose n}}\\frac{1}{p}\n$$\nthen there is some constant $c < 1$ such that for all large $n$\n$$\n  f(n) \\leq c \\log\\log n.\n$$\n\n[EGRS75] Erdős, P. and Graham, R. L. and Ruzsa, I. Z. and Straus, E. G., _On the prime factors of $\\binom{2n}{n}$_. Math. Comp. (1975), 83-92.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«377»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/377](https://www.erdosproblems.com/377)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/377.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos377.erdos_377.variants.ub",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d71217c3277686760684149483dc5f379a7558fbe5d4ea292241d8c2adc8da5d",
+  "type_pretty": "∃ c < 1, ∀ᶠ (n : ℕ) in Filter.atTop, Erdos377.sumInvPrimesNotDvdCentralBinom n ≤ c * Real.log (Real.log ↑n)"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "$v_0(n) > 1$ for all $n$ except $n$ = 0, 1, 2, 3, 4, 7, 8, 16\n\n[ErSe67] Erdős, P. and Selfridge, J. L., Some problems on the prime factors of consecutive integers. Illinois J. Math. (1967), 428--430.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«889»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/889](https://www.erdosproblems.com/889)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/889.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos889.erdos_889.variants.v0_gt_1",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:bb8b6a1e052f81d581e6b7dc5116fa16e1588316fcd00b45714e71d0153d8ce4",
+  "type_pretty": "∀ n ∉ {0, 1, 2, 3, 4, 7, 8, 16}, 1 < Erdos889.v₀ n"
+}

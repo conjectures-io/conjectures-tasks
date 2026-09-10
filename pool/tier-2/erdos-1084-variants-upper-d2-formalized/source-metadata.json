@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős showed that there is some constant $c > 0$ such that $f_2(n) < 3n - c n^{1/2}$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1084»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1084](https://www.erdosproblems.com/1084)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1084.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1084.erdos_1084.variants.upper_d2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7e62d0a447d32ab8bc5a9dfc9960f3688547798ca5a87ffd5e460b3ea4059e31",
+  "type_pretty": "∃ c > 0, ∀ n > 0, ↑(Erdos1084.f 2 n) < 3 * ↑n - c * √↑n"
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "What is $C$, the infimum of all exponents $c$ for which the following is true, uniformly for\n$0 < \\alpha < 1$? Suppose that $A \\subset \\mathbb{F}_2^n \\times \\mathbb{F}_2^n$ is a set of density\n$\\alpha$. Write $N := 2^n$. Then there is some $d \\neq 0$ such that $A$ contains $\\gg \\alpha^c N^2$\ncorners $(x,y), (x,y+d), (x+d,y)$.\n\nThis question has been resolved by [FSS20], showing that $C = 4$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«19»",
+  "pointer_target": null,
+  "references": [
+    "[Gr26] [Ben Green's Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.19)",
+    "[FSS20] Fox, Jacob, et al. \"Triforce and corners.\" Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 169. No. 1. Cambridge University Press, 2020.",
+    "[Ma21] Mandache, Matei. \"A variant of the Corners theorem.\" Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 171. No. 3. Cambridge University Press, 2021.",
+    "[Ch11] Chu, Qing. \"Multiple recurrence for two commuting transformations.\" Ergodic Theory and Dynamical Systems 31.3 (2011): 771-792."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/19.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green19.green_19",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5e136c230d63fe53628925ecc42be0aa407731837ed92e896438c6f028d49376",
+  "type_pretty": "Green19.C = 4"
+}

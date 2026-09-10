@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A folklore result states that any $a_n$ satisfying $\\lim_{n \\to \\infty} a_n^{\\frac{1}{2^n}} = \\infty$\nhas $\\sum \\frac{1}{a_n}$ converging to an irrational number.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«263»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/263](https://www.erdosproblems.com/263)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/263.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos263.erdos_263.variants.folklore",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ecf37d061802e33ded1ebe76cac071872d0aa5a69d5295d7a2285c575be95c4d",
+  "type_pretty": "∀ (a : ℕ → ℕ),\n  Filter.Tendsto (fun n => ↑(a n) ^ (1 / 2 ^ n)) Filter.atTop Filter.atTop → Irrational (∑' (n : ℕ), 1 / ↑(a n))"
+}

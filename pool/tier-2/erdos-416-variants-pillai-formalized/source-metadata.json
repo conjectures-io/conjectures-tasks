@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let `V(x)` count the number of `n≤x` such that `ϕ(m)=n` is solvable.\nPillai proved `V(x)=o(x)`.\nRef: S. Sivasankaranarayana Pillai, _On some functions connected with $\\phi(n)$_\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«416»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/416](https://www.erdosproblems.com/416)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/416.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos416.erdos_416.variants.Pillai",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e210b3602109de85fc8ba97054f71201299dcbde3ece7a8960f53cc3dabc073f",
+  "type_pretty": "Erdos416.V =o[Filter.atTop] id"
+}

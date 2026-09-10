@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The current best lower bound is $(C_1 - o(1))^n \\leqslant |A|$ where\n$C_1 = 367^{1/5} \\approx 3.2578$ [Po20, Section 9.1]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«38»",
+  "pointer_target": null,
+  "references": [
+    "[100 open problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.38)",
+    "[La79] Lovász, László. \"On the Shannon capacity of a graph.\" IEEE Transactions on Information theory 25.1 (1979): 1-7.",
+    "[Po20] Polak, Sven. \"New methods in coding theory: Error-correcting codes and the Shannon capacity.\" arXiv preprint arXiv:2005.02945 (2020)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/38.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green38.green_38.variants.best_lower",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0963101c197ebb045c4790d058f93fa7fdaaf9da6c34effca9eb45aee4212c7a",
+  "type_pretty": "∀ ε > 0, ∀ᶠ (n : ℕ) in Filter.atTop, (Green38.C₁ - ε) ^ n ≤ Green38.LargestAdmissibleCardinality n"
+}

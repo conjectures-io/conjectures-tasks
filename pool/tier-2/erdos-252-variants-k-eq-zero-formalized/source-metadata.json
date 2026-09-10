@@ -1,0 +1,46 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "`∑ σ 0 n / n!` is irrational. This is proved in [ErSt71]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«252»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/252](https://www.erdosproblems.com/252)",
+    "[ErSt71] Erdös, P., and E. G. Straus. \"Some number theoretic results.\" Pacific J. Math 36 (1971): 635-646.",
+    "[ErSt74] Erdős, Paul, and Ernst Straus. \"On the irrationality of certain series.\" Pacific journal of mathematics 55.1 (1974): 85-92.",
+    "[ErKa54] P. Erdős, M. Kac, Amer. Math. Monthly 61 (1954), Problem 4518.",
+    "[ScPu06] Schlage-Puchta, J. C., The irrationality of a number theoretical series. Ramanujan J. (2006), 455-460.",
+    "[FLC07] Friedlander, J. B. and Luca, F. and Stoiciu, M., On the irrationality of a divisor function series. Integers (2007).",
+    "[Pr22] Pratt, K., The irrationality of a divisor function series of Erdős and Kac. arXiv:2209.11124 (2022)."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/252.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos252.erdos_252.variants.k_eq_zero",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3733405625685809616e1fe508f426d36ea782955fdfdd7d998d820996ad5d6c",
+  "type_pretty": "Irrational (Erdos252.erdos_252_sum 0)"
+}

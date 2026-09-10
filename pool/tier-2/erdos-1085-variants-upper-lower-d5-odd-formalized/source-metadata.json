@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Pach showed that, for $d \\ge 5$ odd, there exist constants $c_1(d), c_2(d) > 0$\nsuch that $\\frac{p - 1}{2p} n^2 - c_1 n^{4/3} ≤ f_d(n) \\le \\frac{p - 1}{2p} n^2 + c_2 n^{4/3}$ where\n$p = \\lfloor\\frac d2\\rfloor$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1085»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1085](https://www.erdosproblems.com/1085)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1085.erdos_1085.variants.upper_lower_d5_odd",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:70c28af70d5e2d135ce1cc21ca471f53f8b84be595e72a6d99c37b0db965ce3b",
+  "type_pretty": "∀ {d : ℕ},\n  5 ≤ d →\n    Odd d →\n      ∃ c₁ > 0,\n        ∃ c₂,\n          ∀ᶠ (n : ℕ) in Filter.atTop,\n            ↑(d / 2 - 1) / (2 * ↑(d / 2)) * ↑n ^ 2 + c₁ * ↑n ^ (4 / 3) ≤ ↑(Erdos1085.f d n) ∧\n              ↑(Erdos1085.f d n) ≤ ↑(d / 2 - 1) / ↑(d / 2) * ↑n ^ 2 + c₂ * ↑n ^ (4 / 3)"
+}

@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos124.erdos124.melfi_construction"
+  ],
+  "generated_target_type_hash": "sha256:79396f73de3a99c6ee69806b849acba0a03261c10c5bc2eb18dbbaeb958db0f9",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Erdos124.erdos124.melfi_construction",
+    "url": "https://www.erdosproblems.com/124"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«124»",
+  "source_path": "FormalConjectures/ErdosProblems/124.lean",
+  "source_theorem": "Erdos124.erdos124.melfi_construction",
+  "source_type_hash": "sha256:79396f73de3a99c6ee69806b849acba0a03261c10c5bc2eb18dbbaeb958db0f9",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-erdos124-melfi-construction-2d76289414-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:48329f334ac130585839da0805c1fcff24a4dcbd8b4db4c51f12a50cd0e638bc",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:aeb5631c79a7c8c060a791ca5c179cb2a0e4bf90d86a7054195a93229b6eb185",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0690d78a1c10a712f2c24eded59ec8317358e9385b438cf090f178b42eea4bc2"
+  }
+}

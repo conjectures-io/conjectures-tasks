@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $\\epsilon > 0$ be given. Then, for a sufficiently large prime `p`, take the sequence of\nconsecutive primes $p_1 < \\cdots < p_k$ such that\n$$\n\\sum_{i=1}^k \\frac{1}{p_i} < 1 < \\sum_{i=1}^{k + 1} \\frac{1}{p_i},\n$$\nand let $A$ be the set of all naturals divisible by exactly one of $p_1, ..., p_k$ (with\nmultiplicity $1$). Then $A$ has density $\\frac{1}{e} - \\epsilon$ and has the property\nthat $a_1\\cdots a_r = b_1\\cdots b_s$ with $a_i, b_j\\in A$ can only hold when $r = s$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«786»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/786](https://www.erdosproblems.com/786)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/786.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos786.erdos_786.parts.i.selfridge",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:31c9afed5cfb659b7684afa5cad4dcd67bbe8ab6c149ab9c0f910ca21a31fb89",
+  "type_pretty": "∀ (ε : ℝ),\n  0 < ε ∧ ε < 1 / Real.exp 1 →\n    ∀ᶠ (p : ℕ) in Filter.atTop,\n      Nat.Prime p →\n        ∃ k,\n          ∑ q ∈ Erdos786.consecutivePrimesFrom p k, 1 / ↑q < 1 ∧\n            1 < ∑ q ∈ Erdos786.consecutivePrimesFrom p (k + 1), 1 / ↑q ∧\n              {n | ∑ q ∈ Erdos786.consecutivePrimesFrom p k, n.factorization q = 1}.HasDensity (1 / Real.exp 1 - ε) ∧\n                Erdos786.Set.IsMulCardSet {n | ∑ q ∈ Erdos786.consecutivePrimesFrom p k, n.factorization q = 1}"
+}

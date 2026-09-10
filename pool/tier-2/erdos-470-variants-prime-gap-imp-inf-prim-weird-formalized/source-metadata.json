@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Melfi [Me15](https://mathscinet.ams.org/mathscinet/relay-station?mr=3276337) has proved that there\nare infinitely many primitive weird numbers, conditional on the fact that\n$p_{n+1} - p_n < \\frac{1}{10} \\sqrt{p_n}$ for all large $n$, which in turn would follow from\nwell-known conjectures concerning prime gaps.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«470»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/470](https://www.erdosproblems.com/470)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/470.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos470.erdos_470.variants.prime_gap_imp_inf_prim_weird",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f34ebdcbd519c95c5c9444202f4f13096775e30d4789bb97d2a1d815664886e8",
+  "type_pretty": "(∀ᶠ (n : ℕ) in Filter.atTop, ↑(primeGap n) < √↑(Nat.nth Nat.Prime n) / 10) → Set.Infinite Erdos470.PrimitiveWeird"
+}

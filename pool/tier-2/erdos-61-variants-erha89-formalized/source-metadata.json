@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Hajnal [ErHa89] proved that we can take $f(n) = \\exp(c_H \\sqrt{\\log n})$\nfor some constant $c_H > 0$ depending on $H$.\n\n[ErHa89] Erdős, P. and Hajnal, A., Ramsey-type theorems. Discrete Appl. Math. (1989), 37-52.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«61»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/61](https://www.erdosproblems.com/61)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/61.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos61.erdos_61.variants.erha89",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:2e05a7de32002712f6cdcddbfc7e38d652c11ba22c788864254362ca2c2c8003",
+  "type_pretty": "∀ {α : Type u_1} [inst : Fintype α] [inst_1 : DecidableEq α] (H : SimpleGraph α),\n  ∃ c > 0, Erdos61.IsErdosHajnalLowerBound H fun n => Real.exp (c * √(Real.log ↑n))"
+}

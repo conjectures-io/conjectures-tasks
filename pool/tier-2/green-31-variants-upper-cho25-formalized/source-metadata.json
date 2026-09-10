@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The upper bound was further improved to $N^{1/2} + 0.98183 N^{1/4} + O(1)$ [CHO25]. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«31»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Ben Green's Open Problem 31](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.7 Problem 31)",
+    "[Gr01] Green, Ben. \"The number of squares and $ B_h [g] $ sets.\" Acta Arithmetica 100.4 (2001): 365-390.",
+    "[BFR23] Balogh, József, Zoltán Füredi, and Souktik Roy. \"An upper bound on the size of Sidon sets.\" The American Mathematical Monthly 130.5 (2023): 437-445.",
+    "[CHO25] Carter, Daniel, Zach Hunter, and Kevin O’Bryant. \"On the diameter of finite Sidon sets.\" Acta Mathematica Hungarica 175.1 (2025): 108-126.",
+    "[ET41] Erdos, Paul, and Pál Turán. \"On a problem of Sidon in additive number theory, and on some related problems.\" J. London Math. Soc 16.4 (1941): 212-215.",
+    "[Li69] Lindström, Bernt. “A remark on B4-Sequences.” Journal of Combinatorial Theory, Series A 7 (1969): 276-277.",
+    "[CLZ01] Cohen, G.D., Litsyn, S., & Zémor, G. (2001). Binary B2-Sequences : A New Upper Bound. J. Comb. Theory A, 94, 152-155."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/31.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green31.green_31.variants.upper_cho25",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:76ee4ca3052fdd306768f3384927e6feeae86bfc38ad58012f926ce30eb5872a",
+  "type_pretty": "∃ C, ∀ᶠ (N : ℕ) in Filter.atTop, Green31.F N ≤ √↑N + 0.98183 * ↑N ^ 4⁻¹ + C"
+}

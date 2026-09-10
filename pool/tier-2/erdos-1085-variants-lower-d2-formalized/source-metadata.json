@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research solved",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős showed $f_2(n) > n^{1+c/\\log\\log n}$ for some $c > 0$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1085»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1085](https://www.erdosproblems.com/1085)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/1085.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1085.erdos_1085.variants.lower_d2",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:151f18c063c6d35dc9c2453fdce777993291e6f86b37ae056a619b5529e11332",
+  "type_pretty": "∃ c > 0, ∀ᶠ (n : ℕ) in Filter.atTop, ↑n ^ (1 + c / Real.log (Real.log ↑n)) < ↑(Erdos1085.f 2 n)"
+}
