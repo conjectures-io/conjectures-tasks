@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.Firoozbakht
-import TaskSupport
-
-namespace Bounty

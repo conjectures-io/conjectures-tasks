@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos1062.erdos_1062.variants.lebensold_bounds"
+  ],
+  "generated_target_type_hash": "sha256:6fe1de62bccdc899b80a63ee33f8a19212e85639da2c96db908527c8fda672d0",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Erdos1062.erdos_1062.variants.lebensold_bounds",
+    "url": "https://www.erdosproblems.com/1062"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«1062»",
+  "source_path": "FormalConjectures/ErdosProblems/1062.lean",
+  "source_theorem": "Erdos1062.erdos_1062.variants.lebensold_bounds",
+  "source_type_hash": "sha256:6fe1de62bccdc899b80a63ee33f8a19212e85639da2c96db908527c8fda672d0",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-lebensold-bounds-5dc3a833eb-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:5641ed72369654b5344f318852cb214334ca212a75b40ef8f8918706752ed36c",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:144a9007209406dc100236a30116b1869cf528050dcd02f0b7a34b3da1d98563",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0a090d8816c52784acf4c8d267683119dbb50b192f45754752cb30e96e8cc3a5"
+  }
+}

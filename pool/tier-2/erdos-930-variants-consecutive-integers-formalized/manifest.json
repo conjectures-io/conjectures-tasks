@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos930.erdos_930.variants.consecutive_integers"
+  ],
+  "generated_target_type_hash": "sha256:cb3412eb8a59bdbf5b2a3fe10eb0142ba91cb4380a3e0524e2bb845c8992e701",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Erdos930.erdos_930.variants.consecutive_integers",
+    "url": "https://www.erdosproblems.com/930"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«930»",
+  "source_path": "FormalConjectures/ErdosProblems/930.lean",
+  "source_theorem": "Erdos930.erdos_930.variants.consecutive_integers",
+  "source_type_hash": "sha256:cb3412eb8a59bdbf5b2a3fe10eb0142ba91cb4380a3e0524e2bb845c8992e701",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-consecutive-integers-2c78c8d270-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:85470dcb44d6e0a499012159ec78dc2a9dfbf906e7bc80ad6a01d6c2159e9b26",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:bdb8f70296b5033fc262c11c547b34ed30eb3a216bbc12696aec1d784ca79a87",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:60c3018b2ca6b8a015736b5c311f653966a1ff7dc21196d2f3ce80382e5adfb9"
+  }
+}

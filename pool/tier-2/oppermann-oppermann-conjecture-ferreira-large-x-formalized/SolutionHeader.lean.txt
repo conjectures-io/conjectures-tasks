@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.Oppermann
-import TaskSupport
-
-namespace Bounty

@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos968.erdos_968.variants.sum_abs_diff_isTheta_log_sq"
+  ],
+  "generated_target_type_hash": "sha256:e60feba6f40a78567d5d389f23b40baad02fb8bbf0bd05a5820dc03fc1398a49",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Erdos968.erdos_968.variants.sum_abs_diff_isTheta_log_sq",
+    "url": "https://www.erdosproblems.com/968"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«968»",
+  "source_path": "FormalConjectures/ErdosProblems/968.lean",
+  "source_theorem": "Erdos968.erdos_968.variants.sum_abs_diff_isTheta_log_sq",
+  "source_type_hash": "sha256:e60feba6f40a78567d5d389f23b40baad02fb8bbf0bd05a5820dc03fc1398a49",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-sum-abs-diff-istheta-log-sq-8ba13e2008-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:58119e4a91f82ff4e6fbceab62edf89eb389e9211b1d2ab5fd963100d208d9e9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:21b488de8506b53929f25fa87a3ba7070f3643c12ff0ef65dcff70592bbbfecf",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:c801f8560702d076faf42f1ca6e71c5daad660be497369f923153aec56565c03"
+  }
+}

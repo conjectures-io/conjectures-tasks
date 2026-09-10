@@ -1,4 +1,0 @@
-import FormalConjectures.Paper.Gourevitch
-import TaskSupport
-
-namespace Bounty

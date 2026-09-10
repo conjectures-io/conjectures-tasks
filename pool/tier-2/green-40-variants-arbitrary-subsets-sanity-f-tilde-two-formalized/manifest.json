@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Green40.green_40.variants.arbitrary_subsets_sanity_f_tilde_two"
+  ],
+  "generated_target_type_hash": "sha256:22ff43a6e9903a1f9027a4fd529ccf4a942bae4fb7a0898da1fca060c703fe0e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Green40.green_40.variants.arbitrary_subsets_sanity_f_tilde_two",
+    "url": "https://www.dpmms.cam.ac.uk/~bjg23/open-problems.html"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.GreensOpenProblems.«40»",
+  "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+  "source_theorem": "Green40.green_40.variants.arbitrary_subsets_sanity_f_tilde_two",
+  "source_type_hash": "sha256:22ff43a6e9903a1f9027a4fd529ccf4a942bae4fb7a0898da1fca060c703fe0e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-arbitrary-subsets-sanity-f-tilde-two-df8a4987fd-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:533ab69e3dc2cc2c7ad2de0c2e86c4a88932e2ee2b494d27323751a62c24cdd9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:10486437945c80ba360ed4e2b8526a061ef9259761681ddfbbe928369781267a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:0c7bf11137c5c889530a048add9d18cd6fd4443b3473478c932020ca2be271d9"
+  }
+}

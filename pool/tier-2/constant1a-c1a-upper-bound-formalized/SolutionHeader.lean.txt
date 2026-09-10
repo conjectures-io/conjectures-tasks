@@ -1,4 +1,0 @@
-import FormalConjectures.OptimizationConstants.«1a»
-import TaskSupport
-
-namespace Bounty

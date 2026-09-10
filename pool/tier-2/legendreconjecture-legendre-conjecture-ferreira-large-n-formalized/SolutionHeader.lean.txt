@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.LegendreConjecture
-import TaskSupport
-
-namespace Bounty

@@ -1,4 +1,0 @@
-import FormalConjectures.HilbertProblems.«17»
-import TaskSupport
-
-namespace Bounty

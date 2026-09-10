@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.Catalan
-import TaskSupport
-
-namespace Bounty

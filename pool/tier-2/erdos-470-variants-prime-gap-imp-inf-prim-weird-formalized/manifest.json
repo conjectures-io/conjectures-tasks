@@ -1,0 +1,47 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Erdos470.erdos_470.variants.prime_gap_imp_inf_prim_weird"
+  ],
+  "generated_target_type_hash": "sha256:f34ebdcbd519c95c5c9444202f4f13096775e30d4789bb97d2a1d815664886e8",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "policy_version": 1,
+  "production_eligible": true,
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "resolution_reference": {
+    "location": "Erdos470.erdos_470.variants.prime_gap_imp_inf_prim_weird",
+    "url": "https://www.erdosproblems.com/470"
+  },
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«470»",
+  "source_path": "FormalConjectures/ErdosProblems/470.lean",
+  "source_theorem": "Erdos470.erdos_470.variants.prime_gap_imp_inf_prim_weird",
+  "source_type_hash": "sha256:f34ebdcbd519c95c5c9444202f4f13096775e30d4789bb97d2a1d815664886e8",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-8432eac9-variants-prime-gap-imp-inf-prim-weird-f93e7d4527-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "track": "formalization",
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:be444e101cac77dbf6e9e3d8502a20f198eaddb75ea77fcba410042bdc19e982",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7d5f58ada1af62394e3fee3a6b0c1ba97fcf7b52d2fb3b96cb598f9e31c1413f",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:666e9b40f641f782fae005cd2ae5e157ac9712af5a336162b8b4049f7e1fc647"
+  }
+}

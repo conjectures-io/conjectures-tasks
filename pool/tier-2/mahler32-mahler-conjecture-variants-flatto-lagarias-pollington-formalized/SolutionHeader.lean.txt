@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.Mahler32
-import TaskSupport
-
-namespace Bounty

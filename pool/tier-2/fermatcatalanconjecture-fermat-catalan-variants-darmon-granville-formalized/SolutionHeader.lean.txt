@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.FermatCatalanConjecture
-import TaskSupport
-
-namespace Bounty

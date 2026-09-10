@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.PierceBirkhoff
-import TaskSupport
-
-namespace Bounty

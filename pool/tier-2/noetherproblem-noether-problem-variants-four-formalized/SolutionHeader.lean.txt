@@ -1,4 +1,0 @@
-import FormalConjectures.Wikipedia.NoetherProblem
-import TaskSupport
-
-namespace Bounty
