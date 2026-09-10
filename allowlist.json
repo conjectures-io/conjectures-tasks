@@ -1576,6 +1576,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 2347,
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "source_type_sha256": "sha256:4f0d18cb094f2f8abff1478bf1dfbcdc2c1372dc6a46e485897c9edba23664db",
+      "theorem": "Erdos96.erdos_96",
+      "tier": "tier-1"
+    },
+    {
       "index": 2354,
       "source_path": "FormalConjectures/ErdosProblems/962.lean",
       "source_type_sha256": "sha256:e1de89760714ea69d71079f402bd4bd936bb473f2221859a12b82aeef2b9331a",
@@ -10368,6 +10375,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-8432eac9-erdos96-erdos-96-de846ec4dbab20f9413fa9c6812fa959-problem",
+      "reward_target_id": "fc-target:Erdos96.erdos_96",
+      "source_indices": [
+        2347
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "target_type_sha256s": [
+        "sha256:4f0d18cb094f2f8abff1478bf1dfbcdc2c1372dc6a46e485897c9edba23664db"
+      ],
+      "task_bundle_sha256": "sha256:12398aedc47c212c6c874c9f8d36d117a72d732542a6bc79b0d44231d8010543",
+      "task_id": "fc-8432eac9-erdos96-erdos-96-7849c466eb-formalized-v1",
+      "theorems": [
+        "Erdos96.erdos_96"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-8432eac9-erdos96-erdos-96-de846ec4dbab20f9413fa9c6812fa959-problem",
+      "reward_target_id": "fc-target:Erdos96.erdos_96",
+      "source_indices": [
+        2347
+      ],
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "target_type_sha256s": [
+        "sha256:ab55b2e33091395bc36ea27888a1523c77ac08c82e074a10305f07d69b1a133e"
+      ],
+      "task_bundle_sha256": "sha256:1b64a17280cf8d5bb669a8a4bcef39b857c52b033a4f0a4d4355e409fbff4a6b",
+      "task_id": "fc-8432eac9-erdos96-erdos-96-9f43077a0f-counterexample-v1",
+      "theorems": [
+        "Erdos96.erdos_96"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-8432eac9-erdos962-erdos-962-67ab3a4d43ebfdf173093afd2d8aedfb-problem",
       "reward_target_id": "fc-target:Erdos962.erdos_962",
       "source_indices": [
@@ -11658,7 +11703,7 @@
       "tier": "tier-1"
     }
   ],
-  "audit_date_utc": "2026-09-08",
+  "audit_date_utc": "2026-09-10",
   "default": "DENY",
   "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
   "schema_version": 8,
@@ -11671,7 +11716,7 @@
       "compiled_target_validation": true,
       "excluded_source_prefixes": [],
       "grouping": "none-single-target-v1",
-      "minimum_erdos_tasks": 235,
+      "minimum_erdos_tasks": 236,
       "modes": [
         "formalized",
         "counterexample"
@@ -11680,26 +11725,26 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 518,
-      "retired_conjectures_sha256": "sha256:ef16034804ec8ed221f25e75a2615fc9f9ea02151e20d94796f34a9b5f20e2b0",
-      "retired_source_theorems_sha256": "sha256:1c41dced12c7a67ca9caee3fbae5dd06b644c16ad0bad6d219a41de393efc982",
-      "reward_target_count": 259,
+      "pool_size": 520,
+      "retired_conjectures_sha256": "sha256:256c09d47faf496def07a3b0fecb094fad5d43370ef54702f126a1121d2f9734",
+      "retired_source_theorems_sha256": "sha256:a1ef6fde4234d7a8ee9491df209e9b63408fb17cd023da921780b4395bbccf6a",
+      "reward_target_count": 260,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:1be9ab25d58bbbce4bc59d444c820b144968f091db2728a7c9b9da6d3963752a",
+      "selection_audit_sha256": "sha256:31a9fc20867664c25c8dc8b8b4dd7a8a379cfb21a5469ea7a847c4bedb7636f2",
       "source_category": "research open",
       "source_families": [
         "erdos",
         "greens-open-problems"
       ],
-      "source_theorem_count": 259,
+      "source_theorem_count": 260,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:612220b560f92d59c13cfdf6afe6bcf2fef639c8f975fabc2cf40da58ecf5b3e"
+      "task_targets_sha256": "sha256:4fb8192ec80fe7e30dea796ecd058794626ee577ba096334067a1e424d5a1fc3"
     }
   }
 }
