@@ -4136,6 +4136,24 @@
       ],
       "open_prs_touching_source": [
         3422,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "source_problem_number": 96,
+      "source_status": "open",
+      "theorem": "Erdos96.erdos_96",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        3422,
         4003,
         4198,
         4688
