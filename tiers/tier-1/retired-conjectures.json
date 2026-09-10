@@ -1235,6 +1235,75 @@
     },
     {
       "decision_url": null,
+      "reason": "PRIOR_EXTERNAL_FORMALIZATION (Green 44, also Erdos 1202, was resolved negatively by Price and GPT-5.4 Pro. The public plby/lean-proofs Erdos1202 counterexample predates pool admission; its unchanged source and an exact-target bridge were independently kernel-checked on September 9. See EXTERNAL-SOLUTIONS-2026-09-10.md for public sources.)",
+      "reason_code": "PRIOR_EXTERNAL_FORMALIZATION",
+      "recovered_from_commit": "7d9b9eb40e8f8edf84480ca51b8079e3d68236e0",
+      "retired_on": "2026-09-10",
+      "reward_target_id": "fc-target:Green44.green_44",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Sieve $[N]$ by removing half the residue classes mod $p_i$, for primes\n$2 \\leqslant p_1 < p_2 < \\dots < p_{1000} < N^{9/10}$. Does the remaining set have size at most\n$\\frac{1}{10} N$?\n\nWe interpret \"half the residue classes\" as $\\lfloor p_i / 2 \\rfloor$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«44»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Ben Green's 100 Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.44)",
+          "[Er80] Erdős, Paul. \"A survey of problems in combinatorial number theory.\" Annals of Discrete Mathematics 6 (1980): 89-115."
+        ],
+        "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+        "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green44.green_44",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
+        "type_pretty": "True ↔\n  ∀ (N : ℕ) (p : Fin 1000 → ℕ) (A : (i : Fin 1000) → Finset (ZMod (p i))),\n    have remaining := {x ∈ Finset.Icc 1 N | ∀ (i : Fin 1000), ↑x ∉ A i};\n    (∀ (i : Fin 1000), Nat.Prime (p i)) →\n      StrictMono p → p 999 ^ 10 < N ^ 9 → (∀ (i : Fin 1000), (A i).card = p i / 2) → 10 * remaining.card ≤ N"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«44»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green44.green_44\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-8432eac9-green44-green-44-98bd51eee2baa4578fa8ba12d4664553-problem",
+          "target_type_sha256": "sha256:e2d78b046dfbab2bb11d581e55f8698e92092df40b24498a92aa8a3e65a70d30",
+          "task_bundle_sha256": "sha256:8d2a5a76a8940c3c0060ae018d631fe39b5a212fee1e5a3ce993dd0da081a3b9",
+          "task_id": "fc-8432eac9-green44-green-44-f21be00c87-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«44»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green44.green_44\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-8432eac9-green44-green-44-98bd51eee2baa4578fa8ba12d4664553-problem",
+          "target_type_sha256": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
+          "task_bundle_sha256": "sha256:904ef8967f03c77ef2a49b0bcf6a62516b7b6451a208d74e3ebdfc2431f9042b",
+          "task_id": "fc-8432eac9-green44-green-44-2629003ac1-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green44.green_44",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
       "reason": "SOURCE_MISMATCH (Green #54 is per-n on ℝ^n; formalization is a single statement on ℕ → ℝ with Measure.infinitePi gaussian — nonequivalent setting)",
       "reason_code": "SOURCE_MISMATCH",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
