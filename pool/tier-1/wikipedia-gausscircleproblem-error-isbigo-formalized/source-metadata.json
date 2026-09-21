@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is conjectured that the correct bound is\n$$\n  |E(r)| = O\\left(r^{1/2 + o(1)}\\right)\n$$\n\n[Ha59]  Hardy, G. H. (1959). _Ramanujan: Twelve Lectures on Subjects Suggested by His Life and Work_(3rd ed.). New York: Chelsea Publishing Company. p. 67\n\nSee also https://arxiv.org/abs/2305.03549\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.GaussCircleProblem",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Gauss_circle_problem)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/GaussCircleProblem.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "GaussCircleProblem.error_isBigO",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1f76ab56a02baee83c2a82c5e205a500d35921f2db22f2c05378eacef44bb4ea",
+  "type_pretty": "∃ o, ∃ (_ : Filter.Tendsto o Filter.atTop (nhds 0)), GaussCircleProblem.E =O[Filter.atTop] fun r => r ^ (1 / 2 + o r)"
+}

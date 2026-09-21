@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Bunyakovsky.bunyakovsky_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:5a09f86e1c47c1d467c5ec2cf9e5350401d457f0111971ac678315cf5d84e1e2",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Bunyakovsky",
+  "source_path": "FormalConjectures/Wikipedia/Bunyakovsky.lean",
+  "source_theorem": "Bunyakovsky.bunyakovsky_conjecture",
+  "source_type_hash": "sha256:332800985438044d5c3eb15cc6253397de11282d21b2b0e14467f78280de13b5",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-bunyakovsky-bunyakovsky-conjecture-fc61674d42-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:c8428b0fe549174d4fa69456a1fd3314310824575e6a93e2f04f0f98a66d98fb",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:191a8058538e66220effd963b8e14b6bc9669ce9178ff7e6d13cde3de2da431a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:f84f245a5f8dfe84ef672f7a67f266ebb60a5693e37457d4d137c3d1b0c0b9f7"
+  }
+}

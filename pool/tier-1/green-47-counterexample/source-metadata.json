@@ -26,7 +26,7 @@
     "[Wa12] Walsh, Miguel N. \"The inverse sieve problem in high dimensions.\" (2012): 2001-2022.",
     "[Wa14] Walsh, Miguel N. \"The algebraicity of ill-distributed sets.\" Geometric and Functional Analysis 24.3 (2014): 959-967."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/GreensOpenProblems/47.lean",
   "supported_modes": [
     "formalized",

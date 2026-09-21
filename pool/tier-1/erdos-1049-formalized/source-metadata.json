@@ -23,7 +23,7 @@
     "[erdosproblems.com/1049](https://www.erdosproblems.com/1049)",
     "[Er48] Erdős, P., On arithmetical properties of Lambert series. J. Indian Math. Soc. (N.S.) (1948), 63-66."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/1049.lean",
   "supported_modes": [
     "formalized",

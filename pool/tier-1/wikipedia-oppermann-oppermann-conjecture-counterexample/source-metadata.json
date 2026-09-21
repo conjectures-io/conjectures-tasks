@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Oppermann's Conjecture**:\nFor every integer $x \\ge 2$, the following hold:\n- There exists a prime between $x(x-1)$ and $x^2$.\n- There exists a prime between $x^2$ and $x(x+1)$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Oppermann",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Oppermann%27s_conjecture)",
+    "[Luan Alberto Ferreira, *Real exponential sums over primes and prime gaps*](https://arxiv.org/abs/2307.08725)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/Oppermann.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Oppermann.oppermann_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:864a02f7437a53e81f57013b58235b27a8a8ae8ba75fec97557d078320706238",
+  "type_pretty": "∀ (x : ℕ),\n  2 ≤ x → (∃ p ∈ Finset.Ioo (x * (x - 1)) (x ^ 2), Nat.Prime p) ∧ ∃ p ∈ Finset.Ioo (x ^ 2) (x * (x + 1)), Nat.Prime p"
+}

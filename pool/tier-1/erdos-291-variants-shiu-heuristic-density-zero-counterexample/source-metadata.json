@@ -25,7 +25,7 @@
     "[Sh16] P. Shiu, The denominators of harmonic numbers. arXiv:1607.02863 (2016).",
     "[WuYa22] Wu, Bing-Ling and Yan, Xiao-Hui, On the denominators of harmonic numbers. {IV}. C. R. Math. Acad. Sci. Paris (2022), 53--57."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/291.lean",
   "supported_modes": [
     "formalized",

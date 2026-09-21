@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For all odd integers $n ≥ 7$ there are prime numbers $p,q$ such that $n = p+2q$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Lemoine",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/%C3%89mile_Lemoine#Lemoine's_conjecture_and_extensions)",
+    "[Ki85] Kiltinen, J. and Young P. (1985). Goldbach, Lemoine, and a Know/Don't Know Problem."
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/Lemoine.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Lemoine.lemoine_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:eb97e9f0c2b94a2c6e20cded62eb731dc781854be20d0de3253076e6c17cc36e",
+  "type_pretty": "∀ (n : ℕ), 6 < n → Odd n → ∃ p q, Nat.Prime p ∧ Nat.Prime q ∧ p + 2 * q = n"
+}

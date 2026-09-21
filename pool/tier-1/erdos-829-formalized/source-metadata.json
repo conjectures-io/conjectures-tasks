@@ -23,7 +23,7 @@
     "[erdosproblems.com/829](https://www.erdosproblems.com/829)",
     "[Er83] Erdős, P. and Dudley, U., _Some remarks and problems in number theory related to the work of Euler_. Math. Mag. (1983), 292-298."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/829.lean",
   "supported_modes": [
     "formalized",

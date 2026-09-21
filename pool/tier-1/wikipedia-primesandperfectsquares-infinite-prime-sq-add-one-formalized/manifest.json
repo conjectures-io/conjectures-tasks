@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "PrimesAndPerfectSquares.infinite_prime_sq_add_one"
+  ],
+  "generated_target_type_hash": "sha256:f3f7f778f1e8fc9cfe24bf8fec302eb7ff24a23f4ad10f328b3d3c2bf521d08e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.PrimesAndPerfectSquares",
+  "source_path": "FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean",
+  "source_theorem": "PrimesAndPerfectSquares.infinite_prime_sq_add_one",
+  "source_type_hash": "sha256:f3f7f778f1e8fc9cfe24bf8fec302eb7ff24a23f4ad10f328b3d3c2bf521d08e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-primesandperfectsquares-infinite-prime-sq-add-one-706c22939d-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:abffd9a76459f59dba6c5357984d64f60d849cf97b6f2c2cbe4d055787b7ec86",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:c006718f895f14ecb071a96a9add2f96eaee24eccfdd09bb505c4d60f2d14bc2",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:d4ec700315a70d313a443375cf9d870458f2434bb2c4ef7d00642d1494a6e104"
+  }
+}

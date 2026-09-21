@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.GreensOpenProblems.«36»",
@@ -25,7 +25,7 @@
   "source_theorem": "Green36.green_36.variants.cks05",
   "source_type_hash": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-cks05-00511ed23a-formalized-v1",
+  "task_id": "fc-6a786f99-variants-cks05-8e5db9253f-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:f38dd45f5530388cb5b978aa5c14432e5f23d49f9739202e23fd875b7d0fe59b",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:e277d31c7c950e77b995b3f5be2ea9831e86878b869e6d996eb7d01bcd5765bf"
+    "source-metadata.json": "sha256:5d826f46d86e83c5e3de9c42ef9bc6dfce44151089236e4f2f2311a28ccf009a"
   }
 }

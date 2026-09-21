@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Idoneal numbers completeness conjecture.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.IdonealCompleteness",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia: Idoneal number](https://en.wikipedia.org/wiki/Idoneal_number)",
+    "[OEIS A000926](https://oeis.org/A000926)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Idoneal.idoneal_numbers_completeness",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f711719e1887b6bef588874bb6e5cd826f250fb9c2f0922b27912a2a3cce288a",
+  "type_pretty": "True ↔ ∀ (n : ℕ), Idoneal.IsIdoneal n → n ∈ Idoneal.knownIdonealNumbers"
+}

@@ -1,0 +1,45 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Dickson's conjecture**\nIf a finite set of linear integer forms $f_i(n) = a_i n+b_i$ satisfies Schinzel condition,\nthere exist infinitely many natural numbers $m$ such that $f_i(m)$ are primes for all $i$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Dickson",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Dickson%27s_conjecture)",
+    "[PrimePages glossary](https://t5k.org/glossary/xpage/DicksonsConjecture.html)",
+    "[OEIS Wiki](https://oeis.org/wiki/Dickson%27s_conjecture)",
+    "[MathWorld](https://mathworld.wolfram.com/DicksonsConjecture.html)",
+    "[Leonard Eugene Dickson, *History of the Theory of Numbers, Vol. I: Divisibility and Primality*](https://archive.org/details/historyoftheoryo01dickuoft)",
+    "[Arxiv](https://arxiv.org/pdf/0906.3850)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/Dickson.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Dickson.dickson_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1ebd92800eb4ec222607e75a5faffe877b94086637852630bf25b120af28eeff",
+  "type_pretty": "∀ (fs : Finset (Polynomial ℤ)),\n  (∀ f ∈ fs, f.degree = 1 ∧ BunyakovskyCondition f) →\n    SchinzelCondition fs → Infinite ↑{n | ∀ f ∈ fs, Nat.Prime (Polynomial.eval (↑n) f).natAbs}"
+}

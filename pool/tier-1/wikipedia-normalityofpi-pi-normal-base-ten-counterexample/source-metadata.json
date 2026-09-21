@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "$\\pi$ is normal in base 10.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.NormalityOfPi",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia (Normal number)](https://en.wikipedia.org/wiki/Normal_number)",
+    "[Wikipedia (Pi)](https://en.wikipedia.org/wiki/Pi)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/NormalityOfPi.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "NormalNumber.pi_normal_base_ten",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f1a11a16c2132d94f832ffbf2d4ae3d646c04bb91b8248491c82cf55defa19ea",
+  "type_pretty": "NormalNumber.IsNormalInBase 10 Real.pi"
+}

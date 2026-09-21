@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«138»",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos138.erdos_138",
   "source_type_hash": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-erdos138-erdos-138-7e5b8fb929-counterexample-v1",
+  "task_id": "fc-6a786f99-erdos138-erdos-138-0f57cb3ce1-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:2ff4245ffe7ca8a879dc16ab1eafcf47d9d7ef4ea4c4e4929c2e523946fbe58b",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:8ae2e0d8ff2188515a8b33267afd2fe798e86ca8e49cde9c1da25c280f49e434"
+    "source-metadata.json": "sha256:f1a719fbda29371e320bf3fb051d33050d8f2b4e2ddc54d041d6ca2fcbb38b65"
   }
 }

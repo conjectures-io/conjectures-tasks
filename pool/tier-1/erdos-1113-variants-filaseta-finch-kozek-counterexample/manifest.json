@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«1113»",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos1113.erdos_1113.variants.filaseta_finch_kozek",
   "source_type_hash": "sha256:be47c529de84a4d1a48c3834d4522a99e658a19e737f1f79b0f1e66bcff35bea",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-filaseta-finch-kozek-98f7855cfc-counterexample-v1",
+  "task_id": "fc-6a786f99-variants-filaseta-finch-kozek-b9c45175e0-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:fe122ffe396231b892c59d72f266f5783fd25527191c7f27d21f22fae5df1c83",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:aa9898d9c48c404de150ae4c4c09e41550875dfeb913b45e517b6500c48c5487"
+    "source-metadata.json": "sha256:3b736f30bbceb374bea94371d878e7210b162d9737ad55c5c73d167d26b8214c"
   }
 }

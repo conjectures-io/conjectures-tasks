@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Artin's Conjecture on Primitive Roots**, first half.\nLet $a$ be an integer that is not a square number and not $−1$. Then the set $S(a)$\nof primes $p$ such that $a$ is a primitive root modulo $p$ has a positive asymptotic\ndensity inside the set of primes. In particular, $S(a)$ is infinite.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.ArtinPrimitiveRootsConjecture",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Artin%27s_conjecture_on_primitive_roots)",
+    "[A85397](https://oeis.org/A85397)",
+    "[LMS14](https://arxiv.org/pdf/1112.4816) Lenstra, H.W. et al. \"Character sums for primitive root densities\" _arXiv:1112.4816_ [math.NT] (2014).",
+    "[Ho67] Hooley, C. \"On Artin's conjecture.\" _Journal für die reine und angewandte Mathematik_ 225 (1967): 209-220."
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4132f953e67a7f0de1ba99a104fece5768ddbba1b27cbb37024a6817dfae8d6a",
+  "type_pretty": "∀ (a : ℤ), ¬IsSquare a → a ≠ -1 → ∃ x > 0, (ArtinPrimitiveRootsConjecture.S a).HasDensity x {p | Nat.Prime p}"
+}

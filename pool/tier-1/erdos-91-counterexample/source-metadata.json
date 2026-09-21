@@ -24,7 +24,7 @@
     "[Ko24c] Z. Kovács, A note on Erdős's mysterious remark. arXiv:2412.05190 (2024).",
     "[erdosproblems.com/91](https://www.erdosproblems.com/91)"
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/91.lean",
   "supported_modes": [
     "formalized",

@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 259 audited targets in `tier-1`: 236 Erdős targets and 23 Green's
+The current release places all 295 audited targets in `tier-1`: 238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 24 Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -38,7 +38,7 @@ and multi-target bundles remain excluded.
 
 The shared selection has a solver-oriented audit. Every source:
 
-- belongs to an explicitly approved source family with a canonical numbered source path;
+- belongs to an explicitly approved source family with a canonical numbered source path or an explicitly registered named path;
 - is still marked `research open` on the reviewed upstream `main`;
 - has its source-family open status recorded against the pinned Erdős Problems database or
   Ben Green's Open Problems document;
@@ -50,8 +50,12 @@ The shared selection has a solver-oriented audit. Every source:
   standard Mathlib surface.
 
 The machine-checked source identity includes `source_family`, `source_problem_number`, the
-canonical source path, and the theorem namespace. The status source is pinned per family, so an
-Erdős tracker status cannot be used to admit a Green target (or vice versa).
+canonical source path, and the theorem namespace. For Wikipedia and Millennium sources,
+`source_problem_number` carries the exact named file stem (a string), not an invented number.
+These paths and their actual theorem namespaces are explicitly registered in the validator. The status source is pinned per family. Named classical sources additionally require
+`classical-status-audit.json` to match the SHA-256 recorded in the selection audit, with a retained
+review for each exact theorem and source path. A tracker entry for a different family cannot
+substitute for that evidence.
 
 No Formal Conjectures source family is excluded at the pool level. In particular,
 Written on the Wall II conjectures may be included in a future release after the same open-status,
@@ -80,9 +84,9 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 518 task bundles covering 259 audited targets: 236 Erdős targets and 23
-Green's Open Problems targets. Every bundle has exactly one theorem target and every theorem target
-has its own stable reward identity. Those targets occupy 223 distinct canonical source paths.
+`tier-1` contains all 590 task bundles covering 295 audited targets: 238 Erdős, 24 Green, 32 Wikipedia,
+and one Millennium target. Every bundle has exactly one theorem target and every theorem target
+has its own stable reward identity. Those targets occupy 257 distinct canonical source paths.
 
 The GitHub review covered all 359 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
@@ -183,3 +187,27 @@ Unresolved full-scope claims are withheld. A dated negative search does not cert
 solution exists; the validator release carries the individual evidence and decisions.
 Every active task permits 10 MiB of proof text. The enlarged limit receives a new task ID and
 bundle digest while the stable reward identity and retained trusted payloads remain unchanged.
+
+## September 21 classical additions
+
+This release adds 36 targets from the dated classical-conjecture audit. Köthe is excluded as
+resolved. Perfect cuboid, Catalan constant irrationality, and Scholz remain on hold for recent
+full-proof claims. The exact decisions and sources are in `tiers/tier-1/classical-status-audit.json`.
+The classical additions have a manageable formal surface; this does not rate their mathematical
+difficulty or predict that a solver can resolve them.
+
+Normality of π uses all finite digit blocks; Hardy–Littlewood I uses asymptotic equivalence and
+distinct offsets. Green 72 is explicitly re-admitted with its corrected eventual-nonattainment
+statement. The Brocard–Ramanujan displayed question now matches its completeness proposition.
+Three historically denylisted classical targets also receive explicit new admission decisions;
+see `REINSTATEMENTS.md`. The prior Green 44 retirement is preserved.
+
+Upstream PR 6435 was reviewed individually. It starts from the obsolete big-O Hardy–Littlewood
+formulation and assumes conditional convergence that does not apply to the corrected distinct
+linear offsets (the local factors have a 1+O(q^-2) tail). It is recorded as a rejected proposed
+correction, not silently omitted from the PR screen. Other touching PRs concern references or
+finite Hadamard orders. This review decision does not change the meaning of the selected target.
+
+The source revision changes, so all 590 bundles receive fresh commitments. Existing reward
+identities are preserved. This is a reviewed source repin and admission release, not a surgical
+retirement. Deployment must account for any submissions queued against the previous task pin.

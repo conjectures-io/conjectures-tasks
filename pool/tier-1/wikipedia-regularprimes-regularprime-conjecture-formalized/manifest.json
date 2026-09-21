@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "RegularPrimes.regularprime_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:7c6adcd3b9ba27a8970b596734bb96848d635f80c1041394f071d63390511892",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.RegularPrimes",
+  "source_path": "FormalConjectures/Wikipedia/RegularPrimes.lean",
+  "source_theorem": "RegularPrimes.regularprime_conjecture",
+  "source_type_hash": "sha256:7c6adcd3b9ba27a8970b596734bb96848d635f80c1041394f071d63390511892",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-regularprimes-regularprime-conjecture-06e72f0aed-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:b9e8bf4bb315d5426052af35c1ebd5ab713637ee7d9400c92f3c7045df59d92b",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:a5df95e16d34de891aa75de731068b6b5ff33ad4a1c3508e83572747e6996aaa",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:12e0c66eac5adb2c45fbd2f5c9975294e65e51e03c1a4c8ea3e782524ec539fc"
+  }
+}

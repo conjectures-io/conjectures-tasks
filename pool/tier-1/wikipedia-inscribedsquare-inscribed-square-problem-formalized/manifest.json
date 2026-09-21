@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "InscribedSquare.inscribed_square_problem"
+  ],
+  "generated_target_type_hash": "sha256:820357c1dbb276e0163f439f8acdb0f0803c025c7c85adc722171bc84b0b3154",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.InscribedSquare",
+  "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
+  "source_theorem": "InscribedSquare.inscribed_square_problem",
+  "source_type_hash": "sha256:820357c1dbb276e0163f439f8acdb0f0803c025c7c85adc722171bc84b0b3154",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-inscribedsquare-inscribed-square-problem-81fbad7e85-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:384df37be6433c5d27ee5ca48b4dad5978377c6e3757056b9791edb0f88c9af1",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:390b4a41a828d90a3faeaa39bd3220672e957363872e6497b1bbbc266731faea",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:7fdf14883d511dc6548af3cb0bb7867ae72f89a08afffdbbc61c582b645b1bd1"
+  }
+}

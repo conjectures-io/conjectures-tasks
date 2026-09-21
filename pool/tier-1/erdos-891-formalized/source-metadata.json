@@ -24,7 +24,7 @@
     "[Po18] Pólya, Georg, Zur arithmetischen {U}ntersuchung der {P}olynome. Math. Z. (1918), 143--148.",
     "[Wikipedia] https://en.wikipedia.org/wiki/Dickson%27s_conjecture"
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/891.lean",
   "supported_modes": [
     "formalized",

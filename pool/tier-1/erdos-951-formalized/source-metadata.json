@@ -23,7 +23,7 @@
     "[erdosproblems.com/951](https://www.erdosproblems.com/951)",
     "[Er77c] Erdős, Paul, Problems and results on combinatorial number theory. III. Number theory day (Proc. Conf., Rockefeller Univ., New York, 1976) (1977), 43-72."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/951.lean",
   "supported_modes": [
     "formalized",

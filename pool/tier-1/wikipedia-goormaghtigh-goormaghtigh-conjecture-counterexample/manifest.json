@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Goormaghtigh.goormaghtigh_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:f528853414c6fec2a6526620d5983629496dddfff2917d21b18a00c101c687d6",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Goormaghtigh",
+  "source_path": "FormalConjectures/Wikipedia/Goormaghtigh.lean",
+  "source_theorem": "Goormaghtigh.goormaghtigh_conjecture",
+  "source_type_hash": "sha256:7d0f18fc0cb112fabecbb9975a7b2d2f1640d8846f398a1deda1b41f507d1659",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-goormaghtigh-goormaghtigh-conjecture-aa947dcad7-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:ee3f04653b83f51c09d213ce42e55b339fb03979a32e84fb51e3ecddf6af760e",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:947209eb4a2eaec458eda8bb63f1df1d53b2a9ac9e4d271f163f16da78d1757c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:b7b3876fef6ad43aded5dec3fd7b2fc2f78fd8f131ee3b805f8bf10266982e92"
+  }
+}

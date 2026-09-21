@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "*Carmichael's totient function conjecture*: For every positive natural number $n$,\nthere exists a natural number $m$ with $m ≠ n$, such that $φ(n) = φ(m)$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.CarmichaelTotient",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Carmichael%27s_totient_function_conjecture)",
+    "[F1998] Kevin Ford. The distribution of totients. https://arxiv.org/abs/1104.3264"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "CarmichaelTotient.charmichaelTotient",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ea2e8a7448a07ca86b340af8c6e786afbf5ee1413004b9e1c7106104c461c49e",
+  "type_pretty": "∀ ⦃n : ℕ⦄, 0 < n → CarmichaelTotient.CarmichaelTotientFor n"
+}

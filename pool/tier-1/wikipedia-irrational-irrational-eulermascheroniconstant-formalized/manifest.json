@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Irrational.irrational_eulerMascheroniConstant"
+  ],
+  "generated_target_type_hash": "sha256:d633a7581e12cb1013051253996bc24253403f3c4a558ab4031143015a1f182c",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Irrational",
+  "source_path": "FormalConjectures/Wikipedia/Irrational.lean",
+  "source_theorem": "Irrational.irrational_eulerMascheroniConstant",
+  "source_type_hash": "sha256:d633a7581e12cb1013051253996bc24253403f3c4a558ab4031143015a1f182c",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-irrational-irrational-eulermascheroniconstant-62a88ef716-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:05d7a7c2ab3996ba80898a2af846bcb6e8283586276cb795bd5d9cd3377049da",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:72964338ec556357017b64b6f4b6217fa7caa39f4d091f787a9cc0c58010f1fa",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:7920b21d334a3143a8baa46463efcc40caa1c6c0770471b4fb19fb5291335ecd"
+  }
+}

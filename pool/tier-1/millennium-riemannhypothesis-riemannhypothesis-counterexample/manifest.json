@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "RiemannHypothesis.riemannHypothesis"
+  ],
+  "generated_target_type_hash": "sha256:9a43c102663928d991bb3f4d96683c14d4df11c05e3199adbfc6fd8fcf499942",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Millennium.RiemannHypothesis",
+  "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+  "source_theorem": "RiemannHypothesis.riemannHypothesis",
+  "source_type_hash": "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-riemannhypothesis-riemannhypothesis-c7180081bd-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:81adfb95cc08e5e125669b82298b0d67e85e32cb21a909ef1d2123a0b9fa9173",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:2816872c118596cf1835bae74bdd9f87680701c6749c1d067465e84036ed2c2c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:e0d3162078f9d7362c296c5562e1f97f40fbf7605116bed2251780cf1ba0bf8e"
+  }
+}

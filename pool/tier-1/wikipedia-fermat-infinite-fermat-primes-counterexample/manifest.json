@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Fermat.infinite_fermat_primes"
+  ],
+  "generated_target_type_hash": "sha256:3a533100d49e5879ec731fd0cb7c4dafbd4f7a49004e6364a67ac43425e54303",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Fermat",
+  "source_path": "FormalConjectures/Wikipedia/Fermat.lean",
+  "source_theorem": "Fermat.infinite_fermat_primes",
+  "source_type_hash": "sha256:5557cad54127c9061fbc0cdf3755121ffc851d568c18369857c30b439c0560ba",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-fermat-infinite-fermat-primes-9c21db2915-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:27f90f2173495715c49a4933255c8974222875202ff0dc1e7cea1e6b86386519",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:00490d8af6d712431017618c5c9c1484b76a4e7859a31233af8d952adf357ae0",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4a9f6633aea1f97a876879a416bb2f0166fd9ff667ec80c6ff434cf10f8d0983"
+  }
+}
