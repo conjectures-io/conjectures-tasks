@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Brocard's Problem**\nAre $n = 4, 5, 7$ the only natural numbers for which $n! + 1 = m^2$ has a natural-number solution?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«398»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/398](https://www.erdosproblems.com/398)",
+    "[Wikipedia: Brocard's problem](https://en.wikipedia.org/wiki/Brocard%27s_problem)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/ErdosProblems/398.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos398.erdos_398",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:b3820f17127e75aa44208433926aeaaca6601491620e00bc1aaa6f494b5dbd3d",
+  "type_pretty": "True ↔ {n | ∃ m, n.factorial + 1 = m ^ 2} = {4, 5, 7}"
+}

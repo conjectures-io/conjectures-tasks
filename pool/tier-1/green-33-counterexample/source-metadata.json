@@ -25,7 +25,7 @@
     "[CaHa20] Caprace, Pierre-Emmanuel, and Pierre de la Harpe. \"Groups with irreducibly unfaithful subsets for unitary representations.\" Confluentes Mathematici 12.1 (2020): 31-68.",
     "[CrLe07] Croot, Ernie, and Vsevolod F. Lev. \"Open problems in additive combinatorics.\" Additive combinatorics 43.207-233 (2007): 1."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
   "supported_modes": [
     "formalized",

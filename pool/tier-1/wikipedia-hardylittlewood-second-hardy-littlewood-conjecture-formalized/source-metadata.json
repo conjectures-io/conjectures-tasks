@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For integers $x, y \\geq 2$,\n$$\n  \\pi(x + y) \\leq \\pi(x) + \\pi(y),\n$$\nwhere $\\pi(z)$ denotes the prime-counting function, giving the number of primes up to\nand including $z$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.HardyLittlewood",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/First_Hardy%E2%80%93Littlewood_conjecture)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HardyLittlewood.second_hardy_littlewood_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:64ccb71d66f5a16470c1263aef7a1106ebc57e8a6f790722af3edd085a09947c",
+  "type_pretty": "∀ {x y : ℕ}, 2 ≤ x → 2 ≤ y → HardyLittlewood.SecondHardyLittlewoodConjectureFor x y"
+}

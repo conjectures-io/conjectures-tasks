@@ -1,0 +1,43 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Green's Open Problem 72 / No-three-in-line problem**:\nFor $N$ sufficiently large, is it impossible to have $2N$ points in $[N]^2$ with no three in a\nline? Green suspects the answer is yes, and that $(3/2 + o(1))N$ is optimal. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«72»",
+  "pointer_target": null,
+  "references": [
+    "[Ben Green's Open Problem 72](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.72)",
+    "[Wikipedia](https://en.wikipedia.org/wiki/No-three-in-line_problem)",
+    "[GK2025] Grebennikov, A. Kwan, M. No $(k + 1)$-in-line problem for large constant $k$. https://arxiv.org/abs/2510.17743"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green72.green_72",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb",
+  "type_pretty": "True ↔ ∀ᶠ (N : ℕ) in Filter.atTop, ¬Green72.NoKInLineFor 3 N"
+}

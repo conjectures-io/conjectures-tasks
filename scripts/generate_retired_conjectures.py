@@ -157,6 +157,10 @@ def allowlist_before(commit: str) -> dict[str, object]:
 
 def build() -> dict[str, object]:
     log = retirement_log()
+    active = json.loads((TASKS_ROOT / "allowlist.json").read_text(encoding="utf-8"))
+    active_theorems = {row["theorem"] for row in active["allowed_source_theorems"]}
+    if active_theorems & log.keys():
+        raise GeneratorError("an active source theorem is still in RETIREMENTS.md")
     bundles = deleted_bundles()
 
     # theorem -> {"tasks": [...], "source": {...}, "commit": ...}
@@ -165,6 +169,10 @@ def build() -> dict[str, object]:
         recovered = bundle_before(commit, directory)
         manifest = recovered["manifest"]
         theorem = manifest["source_theorem"]
+        # A reinstatement leaves its earlier deletion in git history. Only an explicit
+        # current admission permits omitting that historical deletion from this index.
+        if theorem in active_theorems:
+            continue
         if theorem not in log:
             raise GeneratorError(
                 f"{directory} was deleted at {commit[:8]} but {theorem} is not in RETIREMENTS.md"
@@ -218,7 +226,6 @@ def build() -> dict[str, object]:
     # Historical statements keep their original source revision. A retirement after a
     # source repin must not relabel old statements or make regeneration impossible.
     # The envelope identifies the active release this display index accompanies.
-    active = json.loads((TASKS_ROOT / "allowlist.json").read_text(encoding="utf-8"))
     return {
         "schema_version": SCHEMA_VERSION,
         "repository_commit": active["repository_commit"],

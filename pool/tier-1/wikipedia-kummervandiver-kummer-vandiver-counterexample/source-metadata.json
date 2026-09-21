@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Kummer–Vandiver conjecture states that for every prime $p$, the class number of the maximal\nreal subfield of $\\mathbb{Q}(\\zeta_p)$ is not divisible by $p$.\n-",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.KummerVandiver",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Kummer%E2%80%93Vandiver_conjecture)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/KummerVandiver.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "KummerVandiver.kummer_vandiver",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:13bcac24c6fd3d1336941e9c2a481611c8e9b0b496229b8b3950e0129ada484c",
+  "type_pretty": "∀ (p : ℕ+), p.Prime → ¬↑p ∣ NumberField.classNumber ↥(NumberField.maximalRealSubfield (CyclotomicField ↑p ℚ))"
+}

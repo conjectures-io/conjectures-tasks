@@ -1,8 +1,57 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "schema_version": 3,
   "targets": [
+    {
+      "reward_target_id": "fc-target:ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean",
+      "source_problem_number": "ArtinPrimitiveRootsConjecture",
+      "theorem": "ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i"
+    },
+    {
+      "reward_target_id": "fc-target:Borsuk.borsuk_conjecture.four",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/BorsukConjecture.lean",
+      "source_problem_number": "BorsukConjecture",
+      "theorem": "Borsuk.borsuk_conjecture.four"
+    },
+    {
+      "reward_target_id": "fc-target:Brocard.brocard_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/BrocardConjecture.lean",
+      "source_problem_number": "BrocardConjecture",
+      "theorem": "Brocard.brocard_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:Bunyakovsky.bunyakovsky_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Bunyakovsky.lean",
+      "source_problem_number": "Bunyakovsky",
+      "theorem": "Bunyakovsky.bunyakovsky_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:CarmichaelTotient.charmichaelTotient",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+      "source_problem_number": "CarmichaelTotient",
+      "theorem": "CarmichaelTotient.charmichaelTotient"
+    },
+    {
+      "reward_target_id": "fc-target:ClassNumberProblem.class_number_problem",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/ClassNumberProblem.lean",
+      "source_problem_number": "ClassNumberProblem",
+      "theorem": "ClassNumberProblem.class_number_problem"
+    },
+    {
+      "reward_target_id": "fc-target:Dickson.dickson_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Dickson.lean",
+      "source_problem_number": "Dickson",
+      "theorem": "Dickson.dickson_conjecture"
+    },
     {
       "reward_target_id": "fc-target:Erdos10.erdos_10",
       "source_family": "erdos",
@@ -72,6 +121,13 @@
       "source_path": "FormalConjectures/ErdosProblems/1068.lean",
       "source_problem_number": 1068,
       "theorem": "Erdos1068.erdos_1068"
+    },
+    {
+      "reward_target_id": "fc-target:Erdos107.erdos_107",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/107.lean",
+      "source_problem_number": 107,
+      "theorem": "Erdos107.erdos_107"
     },
     {
       "reward_target_id": "fc-target:Erdos1072.erdos_1072.parts.i",
@@ -865,6 +921,13 @@
       "theorem": "Erdos396.erdos_396"
     },
     {
+      "reward_target_id": "fc-target:Erdos398.erdos_398",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/398.lean",
+      "source_problem_number": 398,
+      "theorem": "Erdos398.erdos_398"
+    },
+    {
       "reward_target_id": "fc-target:Erdos400.erdos_400.parts.i",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/400.lean",
@@ -1579,6 +1642,13 @@
       "theorem": "Erdos952.erdos_952"
     },
     {
+      "reward_target_id": "fc-target:Erdos96.erdos_96",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "source_problem_number": 96,
+      "theorem": "Erdos96.erdos_96"
+    },
+    {
       "reward_target_id": "fc-target:Erdos962.erdos_962",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/962.lean",
@@ -1647,6 +1717,34 @@
       "source_path": "FormalConjectures/ErdosProblems/99.lean",
       "source_problem_number": 99,
       "theorem": "Erdos99.erdos_99"
+    },
+    {
+      "reward_target_id": "fc-target:Fermat.infinite_fermat_primes",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Fermat.lean",
+      "source_problem_number": "Fermat",
+      "theorem": "Fermat.infinite_fermat_primes"
+    },
+    {
+      "reward_target_id": "fc-target:GaussCircleProblem.error_isBigO",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/GaussCircleProblem.lean",
+      "source_problem_number": "GaussCircleProblem",
+      "theorem": "GaussCircleProblem.error_isBigO"
+    },
+    {
+      "reward_target_id": "fc-target:GoldbachConjecture.goldbach",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+      "source_problem_number": "GoldbachConjecture",
+      "theorem": "GoldbachConjecture.goldbach"
+    },
+    {
+      "reward_target_id": "fc-target:Goormaghtigh.goormaghtigh_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Goormaghtigh.lean",
+      "source_problem_number": "Goormaghtigh",
+      "theorem": "Goormaghtigh.goormaghtigh_conjecture"
     },
     {
       "reward_target_id": "fc-target:Green12.green_12",
@@ -1740,13 +1838,6 @@
       "theorem": "Green41.green_41.variants.polynomial_bound"
     },
     {
-      "reward_target_id": "fc-target:Green44.green_44",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-      "source_problem_number": 44,
-      "theorem": "Green44.green_44"
-    },
-    {
       "reward_target_id": "fc-target:Green47.green_47",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/47.lean",
@@ -1803,6 +1894,13 @@
       "theorem": "Green7.green_7.variants.positive_density"
     },
     {
+      "reward_target_id": "fc-target:Green72.green_72",
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
+      "source_problem_number": 72,
+      "theorem": "Green72.green_72"
+    },
+    {
       "reward_target_id": "fc-target:Green9.green_9_ii",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
@@ -1815,6 +1913,160 @@
       "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
       "source_problem_number": 9,
       "theorem": "Green9.green_9_iii"
+    },
+    {
+      "reward_target_id": "fc-target:Hadamard.HadamardConjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Hadamard.lean",
+      "source_problem_number": "Hadamard",
+      "theorem": "Hadamard.HadamardConjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HardyLittlewood.first_hardy_littlewood_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+      "source_problem_number": "HardyLittlewood",
+      "theorem": "HardyLittlewood.first_hardy_littlewood_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HardyLittlewood.second_hardy_littlewood_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+      "source_problem_number": "HardyLittlewood",
+      "theorem": "HardyLittlewood.second_hardy_littlewood_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
+      "source_problem_number": "IdonealCompleteness",
+      "theorem": "Idoneal.idoneal_numbers_completeness"
+    },
+    {
+      "reward_target_id": "fc-target:InscribedSquare.inscribed_square_problem",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
+      "source_problem_number": "InscribedSquare",
+      "theorem": "InscribedSquare.inscribed_square_problem"
+    },
+    {
+      "reward_target_id": "fc-target:InverseGalois.inverse_galois_problem",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/InverseGalois.lean",
+      "source_problem_number": "InverseGalois",
+      "theorem": "InverseGalois.inverse_galois_problem"
+    },
+    {
+      "reward_target_id": "fc-target:Irrational.irrational_eulerMascheroniConstant",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Irrational.lean",
+      "source_problem_number": "Irrational",
+      "theorem": "Irrational.irrational_eulerMascheroniConstant"
+    },
+    {
+      "reward_target_id": "fc-target:KummerVandiver.kummer_vandiver",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/KummerVandiver.lean",
+      "source_problem_number": "KummerVandiver",
+      "theorem": "KummerVandiver.kummer_vandiver"
+    },
+    {
+      "reward_target_id": "fc-target:LegendreConjecture.legendre_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/LegendreConjecture.lean",
+      "source_problem_number": "LegendreConjecture",
+      "theorem": "LegendreConjecture.legendre_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:LehmerMahlerMeasureProblem.lehmer_mahler_measure_problem",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean",
+      "source_problem_number": "LehmerMahlerMeasureProblem",
+      "theorem": "LehmerMahlerMeasureProblem.lehmer_mahler_measure_problem"
+    },
+    {
+      "reward_target_id": "fc-target:LehmerTotient.lehmer_totient",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/LehmerTotient.lean",
+      "source_problem_number": "LehmerTotient",
+      "theorem": "LehmerTotient.lehmer_totient"
+    },
+    {
+      "reward_target_id": "fc-target:Lemoine.lemoine_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Lemoine.lean",
+      "source_problem_number": "Lemoine",
+      "theorem": "Lemoine.lemoine_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:Mersenne.catalans_mersenne_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
+      "source_problem_number": "Mersenne",
+      "theorem": "Mersenne.catalans_mersenne_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:Mersenne.infinitely_many_mersenne_primes",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
+      "source_problem_number": "Mersenne",
+      "theorem": "Mersenne.infinitely_many_mersenne_primes"
+    },
+    {
+      "reward_target_id": "fc-target:NormalNumber.pi_normal_base_ten",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/NormalityOfPi.lean",
+      "source_problem_number": "NormalityOfPi",
+      "theorem": "NormalNumber.pi_normal_base_ten"
+    },
+    {
+      "reward_target_id": "fc-target:Oppermann.oppermann_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Oppermann.lean",
+      "source_problem_number": "Oppermann",
+      "theorem": "Oppermann.oppermann_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:PerfectNumbers.odd_perfect_number_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/PerfectNumbers.lean",
+      "source_problem_number": "PerfectNumbers",
+      "theorem": "PerfectNumbers.odd_perfect_number_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:PollocksConjecture.pollock_tetrahedral",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/PollocksConjecture.lean",
+      "source_problem_number": "PollocksConjecture",
+      "theorem": "PollocksConjecture.pollock_tetrahedral"
+    },
+    {
+      "reward_target_id": "fc-target:PrimesAndPerfectSquares.infinite_prime_sq_add_one",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean",
+      "source_problem_number": "PrimesAndPerfectSquares",
+      "theorem": "PrimesAndPerfectSquares.infinite_prime_sq_add_one"
+    },
+    {
+      "reward_target_id": "fc-target:RegularPrimes.regularprime_conjecture",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/RegularPrimes.lean",
+      "source_problem_number": "RegularPrimes",
+      "theorem": "RegularPrimes.regularprime_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
+      "source_family": "millennium",
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "source_problem_number": "RiemannHypothesis",
+      "theorem": "RiemannHypothesis.riemannHypothesis"
+    },
+    {
+      "reward_target_id": "fc-target:TwinPrimes.twin_primes",
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/TwinPrimes.lean",
+      "source_problem_number": "TwinPrimes",
+      "theorem": "TwinPrimes.twin_primes"
     }
   ],
   "task_scope": "direct_proposition"

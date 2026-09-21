@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "PerfectNumbers.odd_perfect_number_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:3c49d393ff8d846ae0d4cdcebb45b4f45069c926729876f82b34b018c6ecaf8c",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.PerfectNumbers",
+  "source_path": "FormalConjectures/Wikipedia/PerfectNumbers.lean",
+  "source_theorem": "PerfectNumbers.odd_perfect_number_conjecture",
+  "source_type_hash": "sha256:3c49d393ff8d846ae0d4cdcebb45b4f45069c926729876f82b34b018c6ecaf8c",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-perfectnumbers-odd-perfect-number-conjecture-4ada7c7c28-formalized-v1",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:dc34bf4f9b6378e87d845c1e7ff0ebde262f95332f85c742c180401b6591160f",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:d9c405a0f2bcaef190ca3571506d372eb68091a549c9adeeaca90ed8a358a4a8",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:37789fb35804ab239028b5220688f5f776f089ca0583a927209d349eeb6afdc4"
+  }
+}

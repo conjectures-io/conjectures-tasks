@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.ErdosProblems.«291»",
@@ -25,7 +25,7 @@
   "source_theorem": "Erdos291.erdos_291.variants.shiu_heuristic_density_zero",
   "source_type_hash": "sha256:e2829c437fcad6fe1da19ab961ad301299f96cf725e6af3bfd671ecaeefcdf20",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-8432eac9-variants-shiu-heuristic-density-zero-5e1bc27250-formalized-v1",
+  "task_id": "fc-6a786f99-variants-shiu-heuristic-density-zero-6bbc04d896-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:974db9dda891a3031ec88f4c007a2fc53506cee192d8412f1dbed43f98cc25fe",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:874a545bde75c1ef9c2c0fba2160c9fa9d99f42e98da04f3bd663f2571a34507"
+    "source-metadata.json": "sha256:b2342e8ecbd89c60bc1239d1abdddae73aca5f15bc786096d494e768fb0ae2b6"
   }
 }

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "enable_nanoda": false,
+  "forbidden_dependencies": [
+    "Borsuk.borsuk_conjecture.four"
+  ],
+  "generated_target_type_hash": "sha256:b28c94da16bebe9837367faf472ac2a78eda228d556ccf5f4facccbeb1d2b150",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 10485760,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "schema_version": 1,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.BorsukConjecture",
+  "source_path": "FormalConjectures/Wikipedia/BorsukConjecture.lean",
+  "source_theorem": "Borsuk.borsuk_conjecture.four",
+  "source_type_hash": "sha256:3558aafae07a382562db9bac4925f374da941567000294ce420fe959e009b993",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-6a786f99-borsuk-conjecture-four-0c937b8234-counterexample-v1",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:47b00e8d1010d487701491bc31428ee4dda3058a6047986902aa35745c2e24d4",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:ce484ef807ce96d3887836c1c6afb4834d9ef8c155e825ce71801fedf154d4ff",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:ceddf4a303a335ac940ac3f1ff8e8e3241978755f47c2c3ffbbe92a988f163ed"
+  }
+}

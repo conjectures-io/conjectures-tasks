@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $P = (m_1, \\dots, m_k)$ be a tuple of distinct positive even integers. Let\n$\\pi_P(n)$ denote the number of primes $p\\leq n$ such that $(p, p + m_1, \\dots, p + m_k)$\nforms an admissible prime constellation. Let $w(q; m_1, \\dots, m_k)$ denote the\nnumber of distinct residues of $0, m_1, \\dots, m_k$ modulo $q$, and let\n$$\n  C_P = 2 ^ k\\prod_{\\substack{q\\ \\text{prime} \\\\ q\\geq 3}}\n    \\frac{1 - \\frac{w(q; m_1, \\dots, m_k)}{q}}{\\left(1 - \\frac{1}{q}\\right)^{k+1}}.\n$$\nThen\n$$\n  \\pi_P(n)\\sim C_P\\int_2^n\\frac{dt}{\\log^{k+1}t}.\n$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.HardyLittlewood",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/First_Hardy%E2%80%93Littlewood_conjecture)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HardyLittlewood.first_hardy_littlewood_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:115d3ca4efee8567e3fd85b1b525c3a55dfc0282397397bf3b4872ff2d4d1f25",
+  "type_pretty": "∀ {k : ℕ} (m : Fin k.succ → ℕ), HardyLittlewood.FirstHardyLittlewoodConjectureFor m"
+}

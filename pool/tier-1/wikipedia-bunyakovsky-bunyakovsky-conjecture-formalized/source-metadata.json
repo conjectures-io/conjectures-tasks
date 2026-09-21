@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Bunyakovsky conjecture**\nIf a polynomial $f$ over integers satisfies both Schinzel and Bunyakovsky conditions,\nthere exist infinitely many natural numbers $m$ such that $f(m)$ is prime.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.Bunyakovsky",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Bunyakovsky_conjecture)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/Bunyakovsky.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Bunyakovsky.bunyakovsky_conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:332800985438044d5c3eb15cc6253397de11282d21b2b0e14467f78280de13b5",
+  "type_pretty": "∀ (f : Polynomial ℤ),\n  BunyakovskyCondition f ∧ SchinzelCondition {f} → Infinite ↑{n | Nat.Prime (Polynomial.eval (↑n) f).natAbs}"
+}

@@ -1,0 +1,52 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Borsuk's conjecture** in dimension $4$, the smallest open case. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.Wikipedia.BorsukConjecture",
+  "pointer_target": null,
+  "references": [
+    "[Wikipedia](https://en.wikipedia.org/wiki/Borsuk%27s_conjecture)",
+    "[Bo33] Borsuk, K. (1933). *Drei Sätze über die n-dimensionale euklidische Sphäre*. Fundamenta Mathematicae 20, 177–190. https://doi.org/10.4064/fm-20-1-177-190",
+    "[Pe47] Perkal, J. (1947). *Sur la subdivision des ensembles en parties de diamètre inférieur*. Colloquium Mathematicum 2, 45.",
+    "[Eg55] Eggleston, H. G. (1955). *Covering a three-dimensional set with sets of smaller diameter*. Journal of the London Mathematical Society 30, 11–24. https://doi.org/10.1112/jlms/s1-30.1.11",
+    "[La82] Lassak, M. (1982). *An estimate concerning Borsuk partition problem*. Bulletin of the Polish Academy of Sciences, Mathematics 30(9–10), 449–451.",
+    "[KK93] Kahn, J., Kalai, G. (1993). *A counterexample to Borsuk's conjecture*. Bulletin of the American Mathematical Society 29(1), 60–62. https://arxiv.org/abs/math/9307229",
+    "[Bo14] Bondarenko, A. (2014). *On Borsuk's conjecture for two-distance sets*. Discrete & Computational Geometry 51(3), 509–515. https://doi.org/10.1007/s00454-014-9579-4",
+    "[JB14] Jenrich, T., Brouwer, A. E. (2014). *A 64-dimensional counterexample to Borsuk's conjecture*. Electronic Journal of Combinatorics 21(4), P4.29. https://doi.org/10.37236/4069",
+    "[Gr26] Grinsztajn, M. (2026). *A 63-dimensional counterexample to Borsuk's conjecture*. Proof note and verification script, https://github.com/maaxgrin/borsuk-63-counterexample",
+    "[Ji26] Ji, Y. (2026). *An AI generated counterexample to Borsuk problem in dimension 63*. https://arxiv.org/abs/2608.12561 (withdrawn as a duplicate of [Gr26])",
+    "[TV26] Tolmachev, A., Voronov, V. (2026). *Reducing the upper bound for the Borsuk number in $\\mathbb{R}^4$ to 8*. https://arxiv.org/abs/2605.19068",
+    "[OP28a] Tao, T. et al., *Optimization problems*, constant 28a (smallest Borsuk counterexample dimension). https://teorth.github.io/optimizationproblems/constants/28a.html",
+    "[Ka15] Kalai, G. (2015). *Some old and new problems in combinatorial geometry I: Around Borsuk's problem*. https://arxiv.org/abs/1505.04952"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/Wikipedia/BorsukConjecture.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Borsuk.borsuk_conjecture.four",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3558aafae07a382562db9bac4925f374da941567000294ce420fe959e009b993",
+  "type_pretty": "Borsuk.BorsukConjecture 4"
+}

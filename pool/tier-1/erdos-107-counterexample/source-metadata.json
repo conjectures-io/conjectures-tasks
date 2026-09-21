@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $f(n)$ be minimal such that any $f(n)$ points in $ℝ^2$, no three on a line,\ncontain $n$ points which form the vertices of a convex $n$-gon.\nProve that $f(n) = 2^{n-2} + 1$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«107»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/107](https://www.erdosproblems.com/107)",
+    "[Wikipedia](https://en.wikipedia.org/wiki/Happy_ending_problem)"
+  ],
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "source_path": "FormalConjectures/ErdosProblems/107.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos107.erdos_107",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ba8757d5f6040523637ef00a6f7f106d17fa3b92059619951bf69d51b6bef883",
+  "type_pretty": "True ↔ ∀ n ≥ 3, Erdos107.f n = 2 ^ (n - 2) + 1"
+}

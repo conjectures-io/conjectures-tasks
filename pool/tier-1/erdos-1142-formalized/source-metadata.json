@@ -25,7 +25,7 @@
     "[Va99] Various, Some of Paul's favorite problems. Booklet produced for the conference \"Paul Erdős and his mathematics\", Budapest, July 1999 (1999).",
     "[MiWe69] Mientka, W. E. and Weitzenkamp, R. C., On f-plentiful numbers, Journal of Combinatorial Theory, Volume 7, Issue 4, December 1969, pages 374-377."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/1142.lean",
   "supported_modes": [
     "formalized",

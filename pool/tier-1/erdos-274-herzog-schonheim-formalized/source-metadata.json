@@ -27,7 +27,7 @@
     "[PMC7247885](https://pmc.ncbi.nlm.nih.gov/articles/PMC7247885/)",
     "[arXiv:1804.11103](https://arxiv.org/abs/1804.11103)"
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/274.lean",
   "supported_modes": [
     "formalized",

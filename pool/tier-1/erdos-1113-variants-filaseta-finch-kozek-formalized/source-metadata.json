@@ -25,7 +25,7 @@
     "[Si60] Sierpiński, W., Elementary Theory of Numbers. Państwowe Wydawnictwo Naukowe, Warsaw (1960).",
     "[FFK08] Filaseta, M., Finch, C., and Kozek, M., On powers associated with Sierpiński numbers, Riesel numbers and Polignac's conjecture. Journal of Number Theory 128 (2008), 1916–1940."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/1113.lean",
   "supported_modes": [
     "formalized",

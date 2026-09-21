@@ -1,10 +1,101 @@
 {
   "audit_date_utc": "2026-09-08",
   "github_open_pr_count": 359,
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "schema_version": 2,
   "screening_statement": "Plausibly attackable solver target; this is a comparative screen, not a claim that the conjecture is easy or guaranteed solvable.",
   "selected": [
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean",
+      "source_problem_number": "ArtinPrimitiveRootsConjecture",
+      "source_status": "open",
+      "theorem": "ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/BorsukConjecture.lean",
+      "source_problem_number": "BorsukConjecture",
+      "source_status": "open",
+      "theorem": "Borsuk.borsuk_conjecture.four",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/BrocardConjecture.lean",
+      "source_problem_number": "BrocardConjecture",
+      "source_status": "open",
+      "theorem": "Brocard.brocard_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Bunyakovsky.lean",
+      "source_problem_number": "Bunyakovsky",
+      "source_status": "open",
+      "theorem": "Bunyakovsky.bunyakovsky_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+      "source_problem_number": "CarmichaelTotient",
+      "source_status": "open",
+      "theorem": "CarmichaelTotient.charmichaelTotient",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/ClassNumberProblem.lean",
+      "source_problem_number": "ClassNumberProblem",
+      "source_status": "open",
+      "theorem": "ClassNumberProblem.class_number_problem",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Dickson.lean",
+      "source_problem_number": "Dickson",
+      "source_status": "open",
+      "theorem": "Dickson.dickson_conjecture",
+      "upstream_status": "research open"
+    },
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
@@ -185,6 +276,21 @@
       "source_problem_number": 1068,
       "source_status": "open",
       "theorem": "Erdos1068.erdos_1068",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        4198
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/107.lean",
+      "source_problem_number": 107,
+      "source_status": "open",
+      "theorem": "Erdos107.erdos_107",
       "upstream_status": "research open"
     },
     {
@@ -2275,6 +2381,19 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/398.lean",
+      "source_problem_number": 398,
+      "source_status": "open",
+      "theorem": "Erdos398.erdos_398",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -4136,6 +4255,24 @@
       ],
       "open_prs_touching_source": [
         3422,
+        4198,
+        4688
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/96.lean",
+      "source_problem_number": 96,
+      "source_status": "open",
+      "theorem": "Erdos96.erdos_96",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        3422,
         4003,
         4198,
         4688
@@ -4309,6 +4446,58 @@
       "source_problem_number": 99,
       "source_status": "open",
       "theorem": "Erdos99.erdos_99",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Fermat.lean",
+      "source_problem_number": "Fermat",
+      "source_status": "open",
+      "theorem": "Fermat.infinite_fermat_primes",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/GaussCircleProblem.lean",
+      "source_problem_number": "GaussCircleProblem",
+      "source_status": "open",
+      "theorem": "GaussCircleProblem.error_isBigO",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+      "source_problem_number": "GoldbachConjecture",
+      "source_status": "open",
+      "theorem": "GoldbachConjecture.goldbach",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Goormaghtigh.lean",
+      "source_problem_number": "Goormaghtigh",
+      "source_status": "open",
+      "theorem": "Goormaghtigh.goormaghtigh_conjecture",
       "upstream_status": "research open"
     },
     {
@@ -4549,23 +4738,6 @@
         4688
       ],
       "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
-      "source_problem_number": 44,
-      "source_status": "open",
-      "theorem": "Green44.green_44",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/47.lean",
       "source_problem_number": 47,
       "source_status": "open",
@@ -4702,6 +4874,19 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "greens-open-problems",
+      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
+      "source_problem_number": 72,
+      "source_status": "open",
+      "theorem": "Green72.green_72",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -4733,6 +4918,304 @@
       "source_status": "open",
       "theorem": "Green9.green_9_iii",
       "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        4002,
+        4833,
+        4900
+      ],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Hadamard.lean",
+      "source_problem_number": "Hadamard",
+      "source_status": "open",
+      "theorem": "Hadamard.HadamardConjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        6435
+      ],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+      "source_problem_number": "HardyLittlewood",
+      "source_status": "open",
+      "theorem": "HardyLittlewood.first_hardy_littlewood_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        6435
+      ],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
+      "source_problem_number": "HardyLittlewood",
+      "source_status": "open",
+      "theorem": "HardyLittlewood.second_hardy_littlewood_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
+      "source_problem_number": "IdonealCompleteness",
+      "source_status": "open",
+      "theorem": "Idoneal.idoneal_numbers_completeness",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        4002
+      ],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
+      "source_problem_number": "InscribedSquare",
+      "source_status": "open",
+      "theorem": "InscribedSquare.inscribed_square_problem",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/InverseGalois.lean",
+      "source_problem_number": "InverseGalois",
+      "source_status": "open",
+      "theorem": "InverseGalois.inverse_galois_problem",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Irrational.lean",
+      "source_problem_number": "Irrational",
+      "source_status": "open",
+      "theorem": "Irrational.irrational_eulerMascheroniConstant",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/KummerVandiver.lean",
+      "source_problem_number": "KummerVandiver",
+      "source_status": "open",
+      "theorem": "KummerVandiver.kummer_vandiver",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/LegendreConjecture.lean",
+      "source_problem_number": "LegendreConjecture",
+      "source_status": "open",
+      "theorem": "LegendreConjecture.legendre_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean",
+      "source_problem_number": "LehmerMahlerMeasureProblem",
+      "source_status": "open",
+      "theorem": "LehmerMahlerMeasureProblem.lehmer_mahler_measure_problem",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/LehmerTotient.lean",
+      "source_problem_number": "LehmerTotient",
+      "source_status": "open",
+      "theorem": "LehmerTotient.lehmer_totient",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Lemoine.lean",
+      "source_problem_number": "Lemoine",
+      "source_status": "open",
+      "theorem": "Lemoine.lemoine_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
+      "source_problem_number": "Mersenne",
+      "source_status": "open",
+      "theorem": "Mersenne.catalans_mersenne_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
+      "source_problem_number": "Mersenne",
+      "source_status": "open",
+      "theorem": "Mersenne.infinitely_many_mersenne_primes",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [
+        4002
+      ],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/NormalityOfPi.lean",
+      "source_problem_number": "NormalityOfPi",
+      "source_status": "open",
+      "theorem": "NormalNumber.pi_normal_base_ten",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/Oppermann.lean",
+      "source_problem_number": "Oppermann",
+      "source_status": "open",
+      "theorem": "Oppermann.oppermann_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/PerfectNumbers.lean",
+      "source_problem_number": "PerfectNumbers",
+      "source_status": "open",
+      "theorem": "PerfectNumbers.odd_perfect_number_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/PollocksConjecture.lean",
+      "source_problem_number": "PollocksConjecture",
+      "source_status": "open",
+      "theorem": "PollocksConjecture.pollock_tetrahedral",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean",
+      "source_problem_number": "PrimesAndPerfectSquares",
+      "source_status": "open",
+      "theorem": "PrimesAndPerfectSquares.infinite_prime_sq_add_one",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/RegularPrimes.lean",
+      "source_problem_number": "RegularPrimes",
+      "source_status": "open",
+      "theorem": "RegularPrimes.regularprime_conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "millennium",
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "source_problem_number": "RiemannHypothesis",
+      "source_status": "open",
+      "theorem": "RiemannHypothesis.riemannHypothesis",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "wikipedia",
+      "source_path": "FormalConjectures/Wikipedia/TwinPrimes.lean",
+      "source_problem_number": "TwinPrimes",
+      "source_status": "open",
+      "theorem": "TwinPrimes.twin_primes",
+      "upstream_status": "research open"
     }
   ],
   "source_main_commit": "2c817e975be7a95478b72a8429155ca568e1a3de",
@@ -4747,6 +5230,16 @@
       "family": "greens-open-problems",
       "locator": "https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf",
       "revision": "2026-01"
+    },
+    {
+      "family": "wikipedia",
+      "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/classical-status-audit.json",
+      "revision": "d7f480071236d1688547a9c9e3201ccd6b8bc1962735f6f6358024d0908489ec"
+    },
+    {
+      "family": "millennium",
+      "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/classical-status-audit.json",
+      "revision": "d7f480071236d1688547a9c9e3201ccd6b8bc1962735f6f6358024d0908489ec"
     }
   ]
 }

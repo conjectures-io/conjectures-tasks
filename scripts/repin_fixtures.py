@@ -42,17 +42,19 @@ def main() -> int:
         manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
         source_path = task_dir / "source-metadata.json"
         source = json.loads(source_path.read_text(encoding="utf-8"))
-        if manifest["repository_commit"] == commit:
-            print(f"  up to date  {task_dir.relative_to(TASKS_ROOT)}")
-            continue
-
-        manifest["repository_commit"] = commit
-        manifest["task_id"] = task_id(
+        identifier = task_id(
             commit,
             manifest["source_theorem"],
             manifest["task_mode"],
             manifest["adapter_version"],
+            max_submission_bytes=manifest["max_submission_bytes"],
         )
+        if manifest["repository_commit"] == commit and manifest["task_id"] == identifier:
+            print(f"  up to date  {task_dir.relative_to(TASKS_ROOT)}")
+            continue
+
+        manifest["repository_commit"] = commit
+        manifest["task_id"] = identifier
         source["repository_commit"] = commit
         source_path.write_text(pretty_json(source), encoding="utf-8")
 

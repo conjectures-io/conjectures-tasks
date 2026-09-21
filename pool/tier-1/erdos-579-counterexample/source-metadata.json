@@ -23,7 +23,7 @@
     "[erdosproblems.com/579](https://www.erdosproblems.com/579)",
     "[EHSS83] P. Erdős, A. Hajnal, V. T. Sós and E. Szemerédi, *More results on Ramsey–Turán type problems*, Combinatorica **3** (1983), 69–81."
   ],
-  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
   "source_path": "FormalConjectures/ErdosProblems/579.lean",
   "supported_modes": [
     "formalized",
