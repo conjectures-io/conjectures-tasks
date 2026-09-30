@@ -1747,32 +1747,11 @@
       "theorem": "Goormaghtigh.goormaghtigh_conjecture"
     },
     {
-      "reward_target_id": "fc-target:Green12.green_12",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
-      "source_problem_number": 12,
-      "theorem": "Green12.green_12"
-    },
-    {
       "reward_target_id": "fc-target:Green15.green_15",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/15.lean",
       "source_problem_number": 15,
       "theorem": "Green15.green_15"
-    },
-    {
-      "reward_target_id": "fc-target:Green18.green_18",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
-      "source_problem_number": 18,
-      "theorem": "Green18.green_18"
-    },
-    {
-      "reward_target_id": "fc-target:Green2.green_2",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
-      "source_problem_number": 2,
-      "theorem": "Green2.green_2"
     },
     {
       "reward_target_id": "fc-target:Green24.variants.conjecture",
@@ -1782,39 +1761,11 @@
       "theorem": "Green24.variants.conjecture"
     },
     {
-      "reward_target_id": "fc-target:Green32.green_32",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
-      "source_problem_number": 32,
-      "theorem": "Green32.green_32"
-    },
-    {
-      "reward_target_id": "fc-target:Green33.green_33",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
-      "source_problem_number": 33,
-      "theorem": "Green33.green_33"
-    },
-    {
-      "reward_target_id": "fc-target:Green36.green_36.variants.cks05",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
-      "source_problem_number": 36,
-      "theorem": "Green36.green_36.variants.cks05"
-    },
-    {
       "reward_target_id": "fc-target:Green39.green_39",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/39.lean",
       "source_problem_number": 39,
       "theorem": "Green39.green_39"
-    },
-    {
-      "reward_target_id": "fc-target:Green40.green_40",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "source_problem_number": 40,
-      "theorem": "Green40.green_40"
     },
     {
       "reward_target_id": "fc-target:Green40.green_40.f_two_eq_one",
@@ -1824,20 +1775,6 @@
       "theorem": "Green40.green_40.f_two_eq_one"
     },
     {
-      "reward_target_id": "fc-target:Green40.green_40.variants.arbitrary_subsets",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "source_problem_number": 40,
-      "theorem": "Green40.green_40.variants.arbitrary_subsets"
-    },
-    {
-      "reward_target_id": "fc-target:Green41.green_41.variants.polynomial_bound",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
-      "source_problem_number": 41,
-      "theorem": "Green41.green_41.variants.polynomial_bound"
-    },
-    {
       "reward_target_id": "fc-target:Green47.green_47",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/47.lean",
@@ -1845,74 +1782,11 @@
       "theorem": "Green47.green_47"
     },
     {
-      "reward_target_id": "fc-target:Green50.green_50",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
-      "source_problem_number": 50,
-      "theorem": "Green50.green_50"
-    },
-    {
       "reward_target_id": "fc-target:Green51.green_51.one_half",
       "source_family": "greens-open-problems",
       "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
       "source_problem_number": 51,
       "theorem": "Green51.green_51.one_half"
-    },
-    {
-      "reward_target_id": "fc-target:Green58.green_58",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
-      "source_problem_number": 58,
-      "theorem": "Green58.green_58"
-    },
-    {
-      "reward_target_id": "fc-target:Green60.green_60",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
-      "source_problem_number": 60,
-      "theorem": "Green60.green_60"
-    },
-    {
-      "reward_target_id": "fc-target:Green62.green_62",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
-      "source_problem_number": 62,
-      "theorem": "Green62.green_62"
-    },
-    {
-      "reward_target_id": "fc-target:Green66.green_66",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
-      "source_problem_number": 66,
-      "theorem": "Green66.green_66"
-    },
-    {
-      "reward_target_id": "fc-target:Green7.green_7.variants.positive_density",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
-      "source_problem_number": 7,
-      "theorem": "Green7.green_7.variants.positive_density"
-    },
-    {
-      "reward_target_id": "fc-target:Green72.green_72",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
-      "source_problem_number": 72,
-      "theorem": "Green72.green_72"
-    },
-    {
-      "reward_target_id": "fc-target:Green9.green_9_ii",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "source_problem_number": 9,
-      "theorem": "Green9.green_9_ii"
-    },
-    {
-      "reward_target_id": "fc-target:Green9.green_9_iii",
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "source_problem_number": 9,
-      "theorem": "Green9.green_9_iii"
     },
     {
       "reward_target_id": "fc-target:Hadamard.HadamardConjecture",

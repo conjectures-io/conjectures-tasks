@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 295 audited targets in `tier-1`: 238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 24 Green's
+The current release places all 277 audited targets in `tier-1`: 238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -84,9 +84,9 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 590 task bundles covering 295 audited targets: 238 Erdős, 24 Green, 32 Wikipedia,
+`tier-1` contains all 554 task bundles covering 277 audited targets: 238 Erdős, 6 previously solved Green, 32 Wikipedia,
 and one Millennium target. Every bundle has exactly one theorem target and every theorem target
-has its own stable reward identity. Those targets occupy 257 distinct canonical source paths.
+has its own stable reward identity. Those targets occupy 242 distinct canonical source paths.
 
 The GitHub review covered all 359 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
@@ -208,6 +208,8 @@ linear offsets (the local factors have a 1+O(q^-2) tail). It is recorded as a re
 correction, not silently omitted from the PR screen. Other touching PRs concern references or
 finite Hadamard orders. This review decision does not change the meaning of the selected target.
 
-The source revision changes, so all 590 bundles receive fresh commitments. Existing reward
+The source revision changes, so all 554 bundles receive fresh commitments. Existing reward
 identities are preserved. This is a reviewed source repin and admission release, not a surgical
 retirement. Deployment must account for any submissions queued against the previous task pin.
+
+On September 30, 2026, the 18 remaining open Green targets (36 bundles) were withdrawn at Ben Green’s request. The six previously solved Green entries and all earlier archived results remain available. Withdrawn targets cannot accept new submissions or be selected again.

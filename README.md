@@ -11,8 +11,8 @@ bundle contains its challenge, manifest, comparator
 configuration, trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 590 bundles: proof/refutation pairs for 295 audited
-direct propositions (238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 24 Green's Open Problems targets). The tier label is
+The current snapshot contains one tier with 554 bundles: proof/refutation pairs for 277 audited
+direct propositions (238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
@@ -113,3 +113,5 @@ both audited modes. Reinstatements are recorded in `tiers/tier-1/REINSTATEMENTS.
 
 Each recovered `Challenge.lean` is checked against the digest its own manifest published, so what the
 website renders is provably the audited bytes even though the bundle itself is gone.
+
+On September 30, 2026, the 18 remaining open Green targets (36 bundles) were withdrawn at Ben Green’s request. The six previously solved Green entries and all earlier archived results remain available. Withdrawn targets cannot accept new submissions or be selected again.

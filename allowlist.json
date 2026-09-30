@@ -1744,31 +1744,10 @@
       "tier": "tier-1"
     },
     {
-      "index": 2509,
-      "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
-      "source_type_sha256": "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c",
-      "theorem": "Green12.green_12",
-      "tier": "tier-1"
-    },
-    {
       "index": 2557,
       "source_path": "FormalConjectures/GreensOpenProblems/15.lean",
       "source_type_sha256": "sha256:7d02791b5c15a06bc3dae5073fe68500bb01c8d3b260db707c3bda85c7fb872c",
       "theorem": "Green15.green_15",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2564,
-      "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
-      "source_type_sha256": "sha256:c96cb1bd2a6af555e3e44fae689286dea4f4ce9ebbc89c13ec1caa598cea8095",
-      "theorem": "Green18.green_18",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2569,
-      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
-      "source_type_sha256": "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219",
-      "theorem": "Green2.green_2",
       "tier": "tier-1"
     },
     {
@@ -1779,38 +1758,10 @@
       "tier": "tier-1"
     },
     {
-      "index": 2625,
-      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
-      "source_type_sha256": "sha256:34a15fafb12e479ed77eb1f1d3d4de1aa95356f84654036449004d377aabe8be",
-      "theorem": "Green32.green_32",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2637,
-      "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
-      "source_type_sha256": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
-      "theorem": "Green33.green_33",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2646,
-      "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
-      "source_type_sha256": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
-      "theorem": "Green36.green_36.variants.cks05",
-      "tier": "tier-1"
-    },
-    {
       "index": 2659,
       "source_path": "FormalConjectures/GreensOpenProblems/39.lean",
       "source_type_sha256": "sha256:d8c0cb751eaf5d2498d0c7acc2225a74b6751efaf4828398f274e41553ce6f1b",
       "theorem": "Green39.green_39",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2672,
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "source_type_sha256": "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1",
-      "theorem": "Green40.green_40",
       "tier": "tier-1"
     },
     {
@@ -1821,20 +1772,6 @@
       "tier": "tier-1"
     },
     {
-      "index": 2680,
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "source_type_sha256": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
-      "theorem": "Green40.green_40.variants.arbitrary_subsets",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2685,
-      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
-      "source_type_sha256": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
-      "theorem": "Green41.green_41.variants.polynomial_bound",
-      "tier": "tier-1"
-    },
-    {
       "index": 2698,
       "source_path": "FormalConjectures/GreensOpenProblems/47.lean",
       "source_type_sha256": "sha256:478085e193f4b867ece2a9d656977157d85b9b785d1b0819fec86f218a23d78c",
@@ -1842,73 +1779,10 @@
       "tier": "tier-1"
     },
     {
-      "index": 2704,
-      "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
-      "source_type_sha256": "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26",
-      "theorem": "Green50.green_50",
-      "tier": "tier-1"
-    },
-    {
       "index": 2708,
       "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
       "source_type_sha256": "sha256:1ee955eab2652fc3b13aa3a43d36344759718a27f818afde66c86c13befbb67d",
       "theorem": "Green51.green_51.one_half",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2719,
-      "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
-      "source_type_sha256": "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435",
-      "theorem": "Green58.green_58",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2720,
-      "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
-      "source_type_sha256": "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc",
-      "theorem": "Green60.green_60",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2722,
-      "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
-      "source_type_sha256": "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a",
-      "theorem": "Green62.green_62",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2728,
-      "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
-      "source_type_sha256": "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3",
-      "theorem": "Green66.green_66",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2730,
-      "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
-      "source_type_sha256": "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2",
-      "theorem": "Green7.green_7.variants.positive_density",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2733,
-      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
-      "source_type_sha256": "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb",
-      "theorem": "Green72.green_72",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2741,
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "source_type_sha256": "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5",
-      "theorem": "Green9.green_9_ii",
-      "tier": "tier-1"
-    },
-    {
-      "index": 2742,
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "source_type_sha256": "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab",
-      "theorem": "Green9.green_9_iii",
       "tier": "tier-1"
     },
     {
@@ -11532,44 +11406,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-6a786f99-green12-green-12-1d64f95c57ca55806d8c8fbb63657b21-problem",
-      "reward_target_id": "fc-target:Green12.green_12",
-      "source_indices": [
-        2509
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
-      "target_type_sha256s": [
-        "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c"
-      ],
-      "task_bundle_sha256": "sha256:743727b8be0aa1acf180fb01d7208c253a6fbf3f2dcb66891386c615c64f873f",
-      "task_id": "fc-6a786f99-green12-green-12-9578681282-formalized-v1",
-      "theorems": [
-        "Green12.green_12"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green12-green-12-1d64f95c57ca55806d8c8fbb63657b21-problem",
-      "reward_target_id": "fc-target:Green12.green_12",
-      "source_indices": [
-        2509
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
-      "target_type_sha256s": [
-        "sha256:ecfb079f3cb21baf57883714a687174094664e82c0b37b332829b5ea3c1697ae"
-      ],
-      "task_bundle_sha256": "sha256:f989f4d1d9f4d8b6ae8ae78c0af968e175e1c8deb3d40c36ea93e48e9e2cf4d2",
-      "task_id": "fc-6a786f99-green12-green-12-208f5cb187-counterexample-v1",
-      "theorems": [
-        "Green12.green_12"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-6a786f99-green15-green-15-107a21c4725824943fd204da80995cb0-problem",
       "reward_target_id": "fc-target:Green15.green_15",
       "source_indices": [
@@ -11602,82 +11438,6 @@
       "task_id": "fc-6a786f99-green15-green-15-a4a2df6c46-counterexample-v1",
       "theorems": [
         "Green15.green_15"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green18-green-18-48b56ac9a748688bc80d48d0e28dc6b3-problem",
-      "reward_target_id": "fc-target:Green18.green_18",
-      "source_indices": [
-        2564
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
-      "target_type_sha256s": [
-        "sha256:c96cb1bd2a6af555e3e44fae689286dea4f4ce9ebbc89c13ec1caa598cea8095"
-      ],
-      "task_bundle_sha256": "sha256:4a45e59bbd9ac66c67725d33467ce9f159e360405900297ba79f393297e02128",
-      "task_id": "fc-6a786f99-green18-green-18-0bd94a920d-formalized-v1",
-      "theorems": [
-        "Green18.green_18"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green18-green-18-48b56ac9a748688bc80d48d0e28dc6b3-problem",
-      "reward_target_id": "fc-target:Green18.green_18",
-      "source_indices": [
-        2564
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
-      "target_type_sha256s": [
-        "sha256:25f9874bcb8a50a79b0478bfde5c74f6d0000b9f3e7c41d721b5a971d10fdd3e"
-      ],
-      "task_bundle_sha256": "sha256:e5e0433ac320a38ee4723ac627cd0d5e0f2ea98409fe821a3c874a2fac6262a1",
-      "task_id": "fc-6a786f99-green18-green-18-5b771db5b9-counterexample-v1",
-      "theorems": [
-        "Green18.green_18"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green2-green-2-6eb6bfe69fd88b45da113fce83504aad-problem",
-      "reward_target_id": "fc-target:Green2.green_2",
-      "source_indices": [
-        2569
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
-      "target_type_sha256s": [
-        "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219"
-      ],
-      "task_bundle_sha256": "sha256:bcdd4623b0a627b01479de5e7150466a1b2f46f464532cf60d1ab8c43d1e2ffb",
-      "task_id": "fc-6a786f99-green2-green-2-8eb34f0fec-formalized-v1",
-      "theorems": [
-        "Green2.green_2"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green2-green-2-6eb6bfe69fd88b45da113fce83504aad-problem",
-      "reward_target_id": "fc-target:Green2.green_2",
-      "source_indices": [
-        2569
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
-      "target_type_sha256s": [
-        "sha256:756238b806f41b248eed18cf73644f85890f300e3e96fdc119706c16335a41aa"
-      ],
-      "task_bundle_sha256": "sha256:a0697f3022d6c4f82b5a2f2d4255a340845e8feaf4f8aa9ee764c85d813e6c03",
-      "task_id": "fc-6a786f99-green2-green-2-f7ce35859f-counterexample-v1",
-      "theorems": [
-        "Green2.green_2"
       ],
       "tier": "tier-1"
     },
@@ -11722,120 +11482,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-6a786f99-green32-green-32-6174848634c86a4439e65cc8ef8865ee-problem",
-      "reward_target_id": "fc-target:Green32.green_32",
-      "source_indices": [
-        2625
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
-      "target_type_sha256s": [
-        "sha256:34a15fafb12e479ed77eb1f1d3d4de1aa95356f84654036449004d377aabe8be"
-      ],
-      "task_bundle_sha256": "sha256:9f18e02ff9e991d47bcbb5e6744549305a36f6b0001a82fdda30e2d757eed902",
-      "task_id": "fc-6a786f99-green32-green-32-69cdfd618b-formalized-v1",
-      "theorems": [
-        "Green32.green_32"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green32-green-32-6174848634c86a4439e65cc8ef8865ee-problem",
-      "reward_target_id": "fc-target:Green32.green_32",
-      "source_indices": [
-        2625
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
-      "target_type_sha256s": [
-        "sha256:ab38567e59eda2a9d5fa7655e269dfc9eae9ef7e0bb44b41dabcc67e30eed964"
-      ],
-      "task_bundle_sha256": "sha256:dee499c27fffb423eaae8803d0159e615f9d0e37df077b9f389f34acab5b73a3",
-      "task_id": "fc-6a786f99-green32-green-32-1138afb605-counterexample-v1",
-      "theorems": [
-        "Green32.green_32"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green33-green-33-6a456ee783277633d7ba1e9d525e50fd-problem",
-      "reward_target_id": "fc-target:Green33.green_33",
-      "source_indices": [
-        2637
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
-      "target_type_sha256s": [
-        "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e"
-      ],
-      "task_bundle_sha256": "sha256:277efbd960d46f741152286b4adb0fec006657ed88db49bb1cb8d21cd965f93d",
-      "task_id": "fc-6a786f99-green33-green-33-d7eecdf635-formalized-v1",
-      "theorems": [
-        "Green33.green_33"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green33-green-33-6a456ee783277633d7ba1e9d525e50fd-problem",
-      "reward_target_id": "fc-target:Green33.green_33",
-      "source_indices": [
-        2637
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
-      "target_type_sha256s": [
-        "sha256:8f7d115d7821e4b1f7d26ce331531964d26ae6e04e42152ee11ee8026d97bd33"
-      ],
-      "task_bundle_sha256": "sha256:812b0b38851292b7a7b4468c84a14584c72980b1326d58ba10432a767ad06935",
-      "task_id": "fc-6a786f99-green33-green-33-79fe1abea4-counterexample-v1",
-      "theorems": [
-        "Green33.green_33"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-variants-cks05-53c9c31da973065dc94bf40ff95f6b49-problem",
-      "reward_target_id": "fc-target:Green36.green_36.variants.cks05",
-      "source_indices": [
-        2646
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
-      "target_type_sha256s": [
-        "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69"
-      ],
-      "task_bundle_sha256": "sha256:86c39ff6b3bb309dba26ee4485688ea7bd1b8d7a9ca932fa6c105a6d015ce9c0",
-      "task_id": "fc-6a786f99-variants-cks05-8e5db9253f-formalized-v1",
-      "theorems": [
-        "Green36.green_36.variants.cks05"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-variants-cks05-53c9c31da973065dc94bf40ff95f6b49-problem",
-      "reward_target_id": "fc-target:Green36.green_36.variants.cks05",
-      "source_indices": [
-        2646
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
-      "target_type_sha256s": [
-        "sha256:0f4d175e962422223ef4d9e1a4f88122b479b1cb3f5b190ca1b01d31dd856b8a"
-      ],
-      "task_bundle_sha256": "sha256:9b02af735a76f88472b00d3076697581fedb8639cfec62dc56642ed8beb3cb44",
-      "task_id": "fc-6a786f99-variants-cks05-50cc19eebe-counterexample-v1",
-      "theorems": [
-        "Green36.green_36.variants.cks05"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-6a786f99-green39-green-39-d4a03c783e87e7702d1dab399de1e007-problem",
       "reward_target_id": "fc-target:Green39.green_39",
       "source_indices": [
@@ -11868,44 +11514,6 @@
       "task_id": "fc-6a786f99-green39-green-39-c4c3b31db9-counterexample-v1",
       "theorems": [
         "Green39.green_39"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green40-green-40-7038d03f722fc7d65e2d22f469dd81c8-problem",
-      "reward_target_id": "fc-target:Green40.green_40",
-      "source_indices": [
-        2672
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "target_type_sha256s": [
-        "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1"
-      ],
-      "task_bundle_sha256": "sha256:be1182aed0a96413436f1f6697311ffac957ac58acc4c893666904288a6dad84",
-      "task_id": "fc-6a786f99-green40-green-40-164dd95e9b-formalized-v1",
-      "theorems": [
-        "Green40.green_40"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green40-green-40-7038d03f722fc7d65e2d22f469dd81c8-problem",
-      "reward_target_id": "fc-target:Green40.green_40",
-      "source_indices": [
-        2672
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "target_type_sha256s": [
-        "sha256:2341ad4f20cc81efa99a197e2536c6e9acfcea0802d04c7c77a61a240b9b88df"
-      ],
-      "task_bundle_sha256": "sha256:07308d6d533e247533f0a381b8d7f9e4bc6e2872b68c8985c5f31fed579fffb4",
-      "task_id": "fc-6a786f99-green40-green-40-df934d4bd9-counterexample-v1",
-      "theorems": [
-        "Green40.green_40"
       ],
       "tier": "tier-1"
     },
@@ -11950,82 +11558,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-6a786f99-variants-arbitrary-subsets-9f56642baf60ed427cf7c70f93baf4f0-problem",
-      "reward_target_id": "fc-target:Green40.green_40.variants.arbitrary_subsets",
-      "source_indices": [
-        2680
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "target_type_sha256s": [
-        "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759"
-      ],
-      "task_bundle_sha256": "sha256:be22f9d772465bba912e70faf7638295d6e2a1f71bc298eb5743a2dc7b91679b",
-      "task_id": "fc-6a786f99-variants-arbitrary-subsets-a2a8d07dea-formalized-v1",
-      "theorems": [
-        "Green40.green_40.variants.arbitrary_subsets"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-variants-arbitrary-subsets-9f56642baf60ed427cf7c70f93baf4f0-problem",
-      "reward_target_id": "fc-target:Green40.green_40.variants.arbitrary_subsets",
-      "source_indices": [
-        2680
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "target_type_sha256s": [
-        "sha256:e3b642b2f2f0b40a994d065afae17323a3beb11f259eb7d2e4adb11fc5bd01dd"
-      ],
-      "task_bundle_sha256": "sha256:7d4cc6d45aa49cbcbfcaa1e4d3a00870b7dd9de58c80d9bb0292a8140e0b4fb2",
-      "task_id": "fc-6a786f99-variants-arbitrary-subsets-424baac62a-counterexample-v1",
-      "theorems": [
-        "Green40.green_40.variants.arbitrary_subsets"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-variants-polynomial-bound-bcad91b2ad294dc20e07a02d55925ef0-problem",
-      "reward_target_id": "fc-target:Green41.green_41.variants.polynomial_bound",
-      "source_indices": [
-        2685
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
-      "target_type_sha256s": [
-        "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00"
-      ],
-      "task_bundle_sha256": "sha256:e343e9e80db45779e04ad0d540730a65c95912710bda69196ddda8aa09dce052",
-      "task_id": "fc-6a786f99-variants-polynomial-bound-018fcf75f0-formalized-v1",
-      "theorems": [
-        "Green41.green_41.variants.polynomial_bound"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-variants-polynomial-bound-bcad91b2ad294dc20e07a02d55925ef0-problem",
-      "reward_target_id": "fc-target:Green41.green_41.variants.polynomial_bound",
-      "source_indices": [
-        2685
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
-      "target_type_sha256s": [
-        "sha256:3a3a3c8d2f0162b9f73fea85aa3c7c689d953aa767de2bcfd837181247858b91"
-      ],
-      "task_bundle_sha256": "sha256:5e23bf4835f3bd8f9ea14f4d6ab57f2f3a2eda862a2b9abfe13278e40ad58336",
-      "task_id": "fc-6a786f99-variants-polynomial-bound-0c8ffef828-counterexample-v1",
-      "theorems": [
-        "Green41.green_41.variants.polynomial_bound"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-6a786f99-green47-green-47-749c7b219b4aef5face17af055f23eb5-problem",
       "reward_target_id": "fc-target:Green47.green_47",
       "source_indices": [
@@ -12064,44 +11596,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-6a786f99-green50-green-50-9386202140705b968974427beb8de2b0-problem",
-      "reward_target_id": "fc-target:Green50.green_50",
-      "source_indices": [
-        2704
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
-      "target_type_sha256s": [
-        "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26"
-      ],
-      "task_bundle_sha256": "sha256:d93463313e9fb9e2502ca6bf57b3b689031fd251ddb3b9afddd57b550632062e",
-      "task_id": "fc-6a786f99-green50-green-50-46f27a75bd-formalized-v1",
-      "theorems": [
-        "Green50.green_50"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green50-green-50-9386202140705b968974427beb8de2b0-problem",
-      "reward_target_id": "fc-target:Green50.green_50",
-      "source_indices": [
-        2704
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
-      "target_type_sha256s": [
-        "sha256:e521966161f32ada6299f93012e491a864f3a707749427c0c74e19885e5c7cab"
-      ],
-      "task_bundle_sha256": "sha256:3ecb768423c393a7a55694d6fa8ceb3741721c20f65ddacbe46f330c6f52d1e7",
-      "task_id": "fc-6a786f99-green50-green-50-7f417c62e7-counterexample-v1",
-      "theorems": [
-        "Green50.green_50"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-6a786f99-green-51-one-half-6a5ec79e70bfab74d3d28e2812b5a705-problem",
       "reward_target_id": "fc-target:Green51.green_51.one_half",
       "source_indices": [
@@ -12134,310 +11628,6 @@
       "task_id": "fc-6a786f99-green-51-one-half-0ea789ade9-counterexample-v1",
       "theorems": [
         "Green51.green_51.one_half"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green58-green-58-27258e2da46818b59ae82742fd5fe531-problem",
-      "reward_target_id": "fc-target:Green58.green_58",
-      "source_indices": [
-        2719
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
-      "target_type_sha256s": [
-        "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435"
-      ],
-      "task_bundle_sha256": "sha256:dc8781ffe5d2452549eee799e4565721aa84eab398411d1c6109bad189eaacb3",
-      "task_id": "fc-6a786f99-green58-green-58-c0813760dd-formalized-v1",
-      "theorems": [
-        "Green58.green_58"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green58-green-58-27258e2da46818b59ae82742fd5fe531-problem",
-      "reward_target_id": "fc-target:Green58.green_58",
-      "source_indices": [
-        2719
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
-      "target_type_sha256s": [
-        "sha256:85efd94d8e090c00408514deb70e2728f282253cf8a908a9dbc7c01b08023965"
-      ],
-      "task_bundle_sha256": "sha256:906b309b94b2baf05ef6555f9f2460910d7af1d2e9d549b671807d5f8b528dc2",
-      "task_id": "fc-6a786f99-green58-green-58-333475444b-counterexample-v1",
-      "theorems": [
-        "Green58.green_58"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green60-green-60-d7763f362ce6fc83c81e7007a651df90-problem",
-      "reward_target_id": "fc-target:Green60.green_60",
-      "source_indices": [
-        2720
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
-      "target_type_sha256s": [
-        "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc"
-      ],
-      "task_bundle_sha256": "sha256:102848a02c34177b28a4560c2dc819f1006e4b9e8e64a4e4a6c595f487af956d",
-      "task_id": "fc-6a786f99-green60-green-60-f8c45274fb-formalized-v1",
-      "theorems": [
-        "Green60.green_60"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green60-green-60-d7763f362ce6fc83c81e7007a651df90-problem",
-      "reward_target_id": "fc-target:Green60.green_60",
-      "source_indices": [
-        2720
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
-      "target_type_sha256s": [
-        "sha256:0186148b8f449edef5087f8864dc1ca45f0d5958f87a52260f0083263ad1d261"
-      ],
-      "task_bundle_sha256": "sha256:1d004c9378a3a0801d4790eb27902118727cee4ec00b53a0b3233dd5f81c76ab",
-      "task_id": "fc-6a786f99-green60-green-60-c88f5c8bcc-counterexample-v1",
-      "theorems": [
-        "Green60.green_60"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green62-green-62-6faf237987f79d641935c039f630b8bd-problem",
-      "reward_target_id": "fc-target:Green62.green_62",
-      "source_indices": [
-        2722
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
-      "target_type_sha256s": [
-        "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a"
-      ],
-      "task_bundle_sha256": "sha256:edda0abfb873174af2b524e9dca3666e1301079c832f6c75d134bf2ccdaf9fbd",
-      "task_id": "fc-6a786f99-green62-green-62-5b1a47de47-formalized-v1",
-      "theorems": [
-        "Green62.green_62"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green62-green-62-6faf237987f79d641935c039f630b8bd-problem",
-      "reward_target_id": "fc-target:Green62.green_62",
-      "source_indices": [
-        2722
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
-      "target_type_sha256s": [
-        "sha256:928909c31fbe6eab3d786c08ca65ed12ca1392ed0d2cb00aa35488831f1e737a"
-      ],
-      "task_bundle_sha256": "sha256:a830fb094354da8212a0f481b9078bb39c981b883395b4648315e5d4dcc33e72",
-      "task_id": "fc-6a786f99-green62-green-62-a59f5b5651-counterexample-v1",
-      "theorems": [
-        "Green62.green_62"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green66-green-66-9fa0aae3a469e0af7c04ee492e324273-problem",
-      "reward_target_id": "fc-target:Green66.green_66",
-      "source_indices": [
-        2728
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
-      "target_type_sha256s": [
-        "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3"
-      ],
-      "task_bundle_sha256": "sha256:5bc7175fab0739574435c3808f8659906247baf6f2b238896e3d8cd524d1cd74",
-      "task_id": "fc-6a786f99-green66-green-66-658f94b5d8-formalized-v1",
-      "theorems": [
-        "Green66.green_66"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green66-green-66-9fa0aae3a469e0af7c04ee492e324273-problem",
-      "reward_target_id": "fc-target:Green66.green_66",
-      "source_indices": [
-        2728
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
-      "target_type_sha256s": [
-        "sha256:aafc2b62c05b4a384e5e1288b8ba71f37bc0cdfb5991d76a1c6cb3f1cacbdaf4"
-      ],
-      "task_bundle_sha256": "sha256:621d46f73b48b10726118de1836ae4fa4ac42c6f0d5488c046c76ebf5f3f31f1",
-      "task_id": "fc-6a786f99-green66-green-66-89ddb01933-counterexample-v1",
-      "theorems": [
-        "Green66.green_66"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-variants-positive-density-246d2b86f590a319cea2076b99187a1a-problem",
-      "reward_target_id": "fc-target:Green7.green_7.variants.positive_density",
-      "source_indices": [
-        2730
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
-      "target_type_sha256s": [
-        "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2"
-      ],
-      "task_bundle_sha256": "sha256:481a10b78d345a1b2fdde8e47b42c421e65d96c92b35e24fd6275c9b1b709b79",
-      "task_id": "fc-6a786f99-variants-positive-density-11c2c89023-formalized-v1",
-      "theorems": [
-        "Green7.green_7.variants.positive_density"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-variants-positive-density-246d2b86f590a319cea2076b99187a1a-problem",
-      "reward_target_id": "fc-target:Green7.green_7.variants.positive_density",
-      "source_indices": [
-        2730
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
-      "target_type_sha256s": [
-        "sha256:42f8895e89daf11827d2ea11b7cfb9b3455bf3aa61f47c8f0c9cfa2e2b042c06"
-      ],
-      "task_bundle_sha256": "sha256:fea5d5a618a25e4af908d955e10cfec9cabe6520252adbe8210b96f50c1858bb",
-      "task_id": "fc-6a786f99-variants-positive-density-5d8690b07d-counterexample-v1",
-      "theorems": [
-        "Green7.green_7.variants.positive_density"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green72-green-72-4312544a4960b23f0d0d5b2bc7ad833d-problem",
-      "reward_target_id": "fc-target:Green72.green_72",
-      "source_indices": [
-        2733
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
-      "target_type_sha256s": [
-        "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb"
-      ],
-      "task_bundle_sha256": "sha256:601da6ed279515c1b1ad21b570b9ba8520717f4f0b293c392db0ba1481783f73",
-      "task_id": "fc-6a786f99-green72-green-72-7462213234-formalized-v1",
-      "theorems": [
-        "Green72.green_72"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green72-green-72-4312544a4960b23f0d0d5b2bc7ad833d-problem",
-      "reward_target_id": "fc-target:Green72.green_72",
-      "source_indices": [
-        2733
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
-      "target_type_sha256s": [
-        "sha256:b2f09058fc390ae95b48624695e72d94586963874507bc4863ab79850a483494"
-      ],
-      "task_bundle_sha256": "sha256:7ee6d9297a9e19cc2e0102db02ca8d8f545037478a49af209a57748e36dbf2d4",
-      "task_id": "fc-6a786f99-green72-green-72-9a8b724ddf-counterexample-v1",
-      "theorems": [
-        "Green72.green_72"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green9-green-9-ii-d0f98df12e0fa31ef1d02573b686fc7a-problem",
-      "reward_target_id": "fc-target:Green9.green_9_ii",
-      "source_indices": [
-        2741
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "target_type_sha256s": [
-        "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5"
-      ],
-      "task_bundle_sha256": "sha256:aad2bc170eb310b4668d1049252e8ae6d06c7ad76379cc3cf7cfa30fbb2dd938",
-      "task_id": "fc-6a786f99-green9-green-9-ii-b31c5f3fe1-formalized-v1",
-      "theorems": [
-        "Green9.green_9_ii"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green9-green-9-ii-d0f98df12e0fa31ef1d02573b686fc7a-problem",
-      "reward_target_id": "fc-target:Green9.green_9_ii",
-      "source_indices": [
-        2741
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "target_type_sha256s": [
-        "sha256:0a0289d346a67fa985d3028b86da479987f5b918c25ccbdeedc7a472deca1c1b"
-      ],
-      "task_bundle_sha256": "sha256:e8ad10c203aeb0b1aacdd018ea19912e39c8659a390224a722eb8921c2f3a2bb",
-      "task_id": "fc-6a786f99-green9-green-9-ii-5008bca0bd-counterexample-v1",
-      "theorems": [
-        "Green9.green_9_ii"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6a786f99-green9-green-9-iii-e43a366e17f5f2a7df5ae5e33d814d0e-problem",
-      "reward_target_id": "fc-target:Green9.green_9_iii",
-      "source_indices": [
-        2742
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "target_type_sha256s": [
-        "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab"
-      ],
-      "task_bundle_sha256": "sha256:6cec1ba9173fa61b1e2f64ebf85e5969f3d4617b05006b914409c716129ca14d",
-      "task_id": "fc-6a786f99-green9-green-9-iii-5dfabf0499-formalized-v1",
-      "theorems": [
-        "Green9.green_9_iii"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6a786f99-green9-green-9-iii-e43a366e17f5f2a7df5ae5e33d814d0e-problem",
-      "reward_target_id": "fc-target:Green9.green_9_iii",
-      "source_indices": [
-        2742
-      ],
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "target_type_sha256s": [
-        "sha256:8615839b9d74ca8937c7d4a1760285bdc2b9b79902a8fe9fd8e1f7a4fc11234e"
-      ],
-      "task_bundle_sha256": "sha256:38cab05fb2c0b281b4f297324db754777d17c4d3605dad302b95b6db77b66559",
-      "task_id": "fc-6a786f99-green9-green-9-iii-af0180e633-counterexample-v1",
-      "theorems": [
-        "Green9.green_9_iii"
       ],
       "tier": "tier-1"
     },
@@ -13300,13 +12490,13 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 590,
+      "pool_size": 554,
       "retired_conjectures_sha256": "sha256:2e01cb4ff0df4fdd2354f3eb40e4e0471f575d245fab107eab6b4fa39c2922eb",
-      "retired_source_theorems_sha256": "sha256:e02fed164d0d28d1599bc677a261d2f045177f77610058b0b63891d3a89bd058",
-      "reward_target_count": 295,
+      "retired_source_theorems_sha256": "sha256:9380a91f249c651cb3dd0fd14ffc26f211bf736cca896dbcfc2e77bf742e87d4",
+      "reward_target_count": 277,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:3d8c7420e493f3170c075d7772accb5df8c11ae50ea54faecdcf68d8abaee2f9",
+      "selection_audit_sha256": "sha256:8796d0a557b7fe9eea688eb90f4077b7fcdc127a3cdb7a8944afdec8fcdac4de",
       "source_category": "research open",
       "source_families": [
         "erdos",
@@ -13314,14 +12504,14 @@
         "millennium",
         "wikipedia"
       ],
-      "source_theorem_count": 295,
+      "source_theorem_count": 277,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:754f25634177cfd1eb677ecfe7ba8f66d88dc23cb8b611c7ec8ecc4d190b554b"
+      "task_targets_sha256": "sha256:72c3fc64f83146ab62f896fef7fe62e2be3a8d5c4a1c76c8c3f6079e85eeaf6f"
     }
   }
 }

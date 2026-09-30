@@ -4504,24 +4504,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
-      "source_problem_number": 12,
-      "source_status": "open",
-      "theorem": "Green12.green_12",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [
@@ -4539,43 +4521,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
-      "source_problem_number": 18,
-      "source_status": "open",
-      "theorem": "Green18.green_18",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
-      "source_problem_number": 2,
-      "source_status": "open",
-      "theorem": "Green2.green_2",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [
@@ -4587,58 +4532,6 @@
       "source_problem_number": 24,
       "source_status": "open",
       "theorem": "Green24.variants.conjecture",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
-      "source_problem_number": 32,
-      "source_status": "open",
-      "theorem": "Green32.green_32",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
-      "source_problem_number": 33,
-      "source_status": "open",
-      "theorem": "Green33.green_33",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
-      "source_problem_number": 36,
-      "source_status": "open",
-      "theorem": "Green36.green_36.variants.cks05",
       "upstream_status": "research open"
     },
     {
@@ -4672,59 +4565,7 @@
       "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
       "source_problem_number": 40,
       "source_status": "open",
-      "theorem": "Green40.green_40",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "source_problem_number": 40,
-      "source_status": "open",
       "theorem": "Green40.green_40.f_two_eq_one",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
-      "source_problem_number": 40,
-      "source_status": "open",
-      "theorem": "Green40.green_40.variants.arbitrary_subsets",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
-      "source_problem_number": 41,
-      "source_status": "open",
-      "theorem": "Green41.green_41.variants.polynomial_bound",
       "upstream_status": "research open"
     },
     {
@@ -4752,25 +4593,6 @@
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [
-        4004,
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
-      "source_problem_number": 50,
-      "source_status": "open",
-      "theorem": "Green50.green_50",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
         4198,
         4688
       ],
@@ -4779,144 +4601,6 @@
       "source_problem_number": 51,
       "source_status": "open",
       "theorem": "Green51.green_51.one_half",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
-      "source_problem_number": 58,
-      "source_status": "open",
-      "theorem": "Green58.green_58",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
-      "source_problem_number": 60,
-      "source_status": "open",
-      "theorem": "Green60.green_60",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
-      "source_problem_number": 62,
-      "source_status": "open",
-      "theorem": "Green62.green_62",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
-      "source_problem_number": 66,
-      "source_status": "open",
-      "theorem": "Green66.green_66",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
-      "source_problem_number": 7,
-      "source_status": "open",
-      "theorem": "Green7.green_7.variants.positive_density",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
-      "source_problem_number": 72,
-      "source_status": "open",
-      "theorem": "Green72.green_72",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "source_problem_number": 9,
-      "source_status": "open",
-      "theorem": "Green9.green_9_ii",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "finite-or-finitary-structure",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "greens-open-problems",
-      "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
-      "source_problem_number": 9,
-      "source_status": "open",
-      "theorem": "Green9.green_9_iii",
       "upstream_status": "research open"
     },
     {
