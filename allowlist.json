@@ -12491,7 +12491,7 @@
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
       "pool_size": 554,
-      "retired_conjectures_sha256": "sha256:2e01cb4ff0df4fdd2354f3eb40e4e0471f575d245fab107eab6b4fa39c2922eb",
+      "retired_conjectures_sha256": "sha256:c2848f71e9727f8ccae99f61ba9828f15528130e5b1012d9b7eec8fcbb2fc3eb",
       "retired_source_theorems_sha256": "sha256:9380a91f249c651cb3dd0fd14ffc26f211bf736cca896dbcfc2e77bf742e87d4",
       "reward_target_count": 277,
       "reward_target_policy": "stable-theorem-target-v1",

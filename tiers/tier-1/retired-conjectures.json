@@ -1021,6 +1021,221 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green12.green_12",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $G$ be an abelian group of size $N$, and suppose that $A \\subset G$ has density $\\alpha$.\nAre there at least $\\alpha^{15} N^{10}$ tuples $(x_1, \\dots, x_5, y_1, \\dots, y_5) \\in G^{10}$\nsuch that $x_i + y_j \\in A$ whenever $j \\in \\{i, i+1, i+2\\}$?\n\nNote: We interpret indices modulo 5.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«12»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.12)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/12.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green12.green_12",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c",
+        "type_pretty": "True ↔\n  ∀ {G : Type u_1} [inst : AddCommGroup G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset G),\n    have N := Fintype.card G;\n    have α := ↑A.card / ↑N;\n    have valid_tuples := {t | ∀ (i j : Fin 5), j ∈ {i, i + 1, i + 2} → t.1 i + t.2 j ∈ A};\n    ↑valid_tuples.card ≥ α ^ 15 * ↑N ^ 10"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green12.green_12\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green12-green-12-1d64f95c57ca55806d8c8fbb63657b21-problem",
+          "target_type_sha256": "sha256:ecfb079f3cb21baf57883714a687174094664e82c0b37b332829b5ea3c1697ae",
+          "task_bundle_sha256": "sha256:f989f4d1d9f4d8b6ae8ae78c0af968e175e1c8deb3d40c36ea93e48e9e2cf4d2",
+          "task_id": "fc-6a786f99-green12-green-12-208f5cb187-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green12.green_12\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green12-green-12-1d64f95c57ca55806d8c8fbb63657b21-problem",
+          "target_type_sha256": "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c",
+          "task_bundle_sha256": "sha256:743727b8be0aa1acf180fb01d7208c253a6fbf3f2dcb66891386c615c64f873f",
+          "task_id": "fc-6a786f99-green12-green-12-9578681282-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green12.green_12",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green18.green_18",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11,
+          20
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Suppose that $G$ is a finite group, and let $A \\subset G \\times G$ be a subset of density $\\alpha$.\nIs it true that there are $\\gg_\\alpha |G|^3$ triples $x, y, g$ such that $(x, y), (gx, y), (x, gy)$\nall lie in $A$?\n\nNote: A is taken as $\\alpha$-dense, i.e. $|A| \\ge \\alpha |G|^2$ [Au16, Question 2]\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«18»",
+        "pointer_target": null,
+        "references": [
+          "[Gr26] [Ben Green's Open Problem 18](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.18)",
+          "[Au16] Austin, Tim. \"Ajtai–Szemerédi theorems over quasirandom groups.\" Recent trends in combinatorics. Cham: Springer International Publishing, 2016. 453-484.",
+          "[So13] Solymosi, Jozsef. \"Roth-type theorems in finite groups.\" European Journal of Combinatorics 34.8 (2013): 1454-1458.",
+          "[Go01] Gowers, William T. \"A new proof of Szemerédi's theorem.\" Geometric & Functional Analysis GAFA 11.3 (2001): 465-588."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green18.green_18",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:c96cb1bd2a6af555e3e44fae689286dea4f4ce9ebbc89c13ec1caa598cea8095",
+        "type_pretty": "True ↔\n  ∀ α > 0,\n    ∃ c > 0,\n      ∃ m₀,\n        ∀ (G : Type u_1) [inst : Group G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset (G × G)),\n          Fintype.card G ≥ m₀ →\n            ↑A.card ≥ α * ↑(Fintype.card G) ^ 2 → ↑(Green18.numNaiveCorners A) ≥ c * ↑(Fintype.card G) ^ 3"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«18»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green18.green_18\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green18-green-18-48b56ac9a748688bc80d48d0e28dc6b3-problem",
+          "target_type_sha256": "sha256:25f9874bcb8a50a79b0478bfde5c74f6d0000b9f3e7c41d721b5a971d10fdd3e",
+          "task_bundle_sha256": "sha256:e5e0433ac320a38ee4723ac627cd0d5e0f2ea98409fe821a3c874a2fac6262a1",
+          "task_id": "fc-6a786f99-green18-green-18-5b771db5b9-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«18»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green18.green_18\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green18-green-18-48b56ac9a748688bc80d48d0e28dc6b3-problem",
+          "target_type_sha256": "sha256:c96cb1bd2a6af555e3e44fae689286dea4f4ce9ebbc89c13ec1caa598cea8095",
+          "task_bundle_sha256": "sha256:4a45e59bbd9ac66c67725d33467ce9f159e360405900297ba79f393297e02128",
+          "task_id": "fc-6a786f99-green18-green-18-0bd94a920d-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green18.green_18",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green2.green_2",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $A \\subset \\mathbf{Z}$ be a set of $n$ integers. Is there a set $S \\subset A$ of size\n$(\\log n)^{100}$ such that the restricted sumset$S \\hat{+} S$ is disjoint from $A$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«2»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.2)",
+          "[Er65] P. Erdős. Extremal problems in number theory, In Proc. Sympos. Pure Math., Vol. VIII, pages 181–189. Amer. Math. Soc., Providence, R.I., 1965.",
+          "[Sa21] Sanders, Tom. \"The Erdős–Moser Sum-free Set Problem.\" Canadian Journal of Mathematics 73.1 (2021): 63-107.",
+          "[Ru05] I. Z. Ruzsa, Sum-avoiding subsets. Ramanujan J., 9 (2005) (1-2):77–82.",
+          "[Ch71] S. L. G. Choi. On a combinatorial problem in number theory. Proc. London Math. Soc. (3), 23:629–642, 1971. doi:10.1112/plms/s3-23.4.629.",
+          "[BSS00] A. Baltz, T. Schoen, and A. Srivastav. Probabilistic construction of small strongly sum-free sets via large Sidon sets. Colloq. Math., 86(2):171–176, 2000. doi:10.4064/cm-86-2-171-176."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green2.green_2",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219",
+        "type_pretty": "True ↔\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (A : Finset ℤ), A.card = n → ↑(Green2.maxRestrictedSumAvoidingSubsetSize A) ≥ Real.log ↑n ^ 100"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«2»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green2.green_2\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green2-green-2-6eb6bfe69fd88b45da113fce83504aad-problem",
+          "target_type_sha256": "sha256:756238b806f41b248eed18cf73644f85890f300e3e96fdc119706c16335a41aa",
+          "task_bundle_sha256": "sha256:a0697f3022d6c4f82b5a2f2d4255a340845e8feaf4f8aa9ee764c85d813e6c03",
+          "task_id": "fc-6a786f99-green2-green-2-f7ce35859f-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«2»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green2.green_2\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green2-green-2-6eb6bfe69fd88b45da113fce83504aad-problem",
+          "target_type_sha256": "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219",
+          "task_bundle_sha256": "sha256:bcdd4623b0a627b01479de5e7150466a1b2f46f464532cf60d1ab8c43d1e2ffb",
+          "task_id": "fc-6a786f99-green2-green-2-8eb34f0fec-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green2.green_2",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-29.md",
       "reason": "SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} × H) ∪ ({+1} × H) ∪ {(0,1)} in Multiplicative ℤ × H, whose only element at coordinate 0 is the identity, so every S ⊆ A with S^8 ⊆ A^4 is a singleton; the formalization is faithful and no defect was found)",
       "reason_code": "SOLVED",
@@ -1158,6 +1373,432 @@
         }
       ],
       "theorem": "Green3.green_3",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green32.green_32",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $p$ be a prime and let $A \\subset \\mathbb{Z}/p\\mathbb{Z}$ be a set of size $\\lfloor \\sqrt{p} \\rfloor$.\nIs there a dilate of $A$ containing a gap of length $100\\sqrt{p}$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«32»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.32)",
+          "[Sh20] Shakan, George. \"A Large Gap in a Dilate of a Set.\" SIAM Journal on Discrete Mathematics 34.4 (2020): 2553-2555."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/32.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green32.green_32",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:34a15fafb12e479ed77eb1f1d3d4de1aa95356f84654036449004d377aabe8be",
+        "type_pretty": "True ↔ Green32.HasLargeGapDilate fun p => √↑p"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«32»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green32.green_32\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green32-green-32-6174848634c86a4439e65cc8ef8865ee-problem",
+          "target_type_sha256": "sha256:ab38567e59eda2a9d5fa7655e269dfc9eae9ef7e0bb44b41dabcc67e30eed964",
+          "task_bundle_sha256": "sha256:dee499c27fffb423eaae8803d0159e615f9d0e37df077b9f389f34acab5b73a3",
+          "task_id": "fc-6a786f99-green32-green-32-1138afb605-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«32»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green32.green_32\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green32-green-32-6174848634c86a4439e65cc8ef8865ee-problem",
+          "target_type_sha256": "sha256:34a15fafb12e479ed77eb1f1d3d4de1aa95356f84654036449004d377aabe8be",
+          "task_bundle_sha256": "sha256:9f18e02ff9e991d47bcbb5e6744549305a36f6b0001a82fdda30e2d757eed902",
+          "task_id": "fc-6a786f99-green32-green-32-69cdfd618b-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green32.green_32",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green33.green_33",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Are there infinitely many $q$ for which there is a set $A \\subset \\mathbb{Z}/q\\mathbb{Z}$,\n$|A| = (\\sqrt{2} + o(1))q^{1/2}$, with $A + A = \\mathbb{Z}/q\\mathbb{Z}$? [Gr24]\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«33»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Ben Green's Open Problem 33](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.33)",
+          "[CaHa20] Caprace, Pierre-Emmanuel, and Pierre de la Harpe. \"Groups with irreducibly unfaithful subsets for unitary representations.\" Confluentes Mathematici 12.1 (2020): 31-68.",
+          "[CrLe07] Croot, Ernie, and Vsevolod F. Lev. \"Open problems in additive combinatorics.\" Additive combinatorics 43.207-233 (2007): 1."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/33.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green33.green_33",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
+        "type_pretty": "True ↔ ∀ (ε : ℝ), 0 < ε → ∃ᶠ (q : ℕ+) in Filter.atTop, ∃ A, A + A = Finset.univ ∧ |↑A.card / √↑↑q - √2| < ε"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«33»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green33.green_33\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green33-green-33-6a456ee783277633d7ba1e9d525e50fd-problem",
+          "target_type_sha256": "sha256:8f7d115d7821e4b1f7d26ce331531964d26ae6e04e42152ee11ee8026d97bd33",
+          "task_bundle_sha256": "sha256:812b0b38851292b7a7b4468c84a14584c72980b1326d58ba10432a767ad06935",
+          "task_id": "fc-6a786f99-green33-green-33-79fe1abea4-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«33»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green33.green_33\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green33-green-33-6a456ee783277633d7ba1e9d525e50fd-problem",
+          "target_type_sha256": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
+          "task_bundle_sha256": "sha256:277efbd960d46f741152286b4adb0fec006657ed88db49bb1cb8d21cd965f93d",
+          "task_id": "fc-6a786f99-green33-green-33-d7eecdf635-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green33.green_33",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green36.green_36.variants.cks05",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          20
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Variant using the exact simultaneous double product property from [CKS05, 4.1]. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«36»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green's Open Problems #36](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.36)",
+          "[CKS05] Cohn, H., Kleinberg, R., Szegedy, B., and Umans, C. \"Group-theoretic Algorithms for Matrix Multiplication\" (Problem 4.7)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/36.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green36.green_36.variants.cks05",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
+        "type_pretty": "True ↔\n  ∀ ε > 0,\n    ∃ᶠ (n : ℕ) in Filter.atTop,\n      ∃ H x,\n        ∃ (_ : Finite H),\n          ∃ A B,\n            ↑n ^ (2 - ε) ≤ ↑(Nat.card H) ∧\n              ↑(Nat.card H) ≤ ↑n ^ (2 + ε) ∧\n                (∀ (i : Fin n), ↑n ^ (2 - ε) ≤ ↑(A i).card * ↑(B i).card) ∧ Green36.SimultaneousDoubleProduct A B"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«36»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green36.green_36.variants.cks05\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-cks05-53c9c31da973065dc94bf40ff95f6b49-problem",
+          "target_type_sha256": "sha256:0f4d175e962422223ef4d9e1a4f88122b479b1cb3f5b190ca1b01d31dd856b8a",
+          "task_bundle_sha256": "sha256:9b02af735a76f88472b00d3076697581fedb8639cfec62dc56642ed8beb3cb44",
+          "task_id": "fc-6a786f99-variants-cks05-50cc19eebe-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«36»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green36.green_36.variants.cks05\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-cks05-53c9c31da973065dc94bf40ff95f6b49-problem",
+          "target_type_sha256": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
+          "task_bundle_sha256": "sha256:86c39ff6b3bb309dba26ee4485688ea7bd1b8d7a9ca932fa6c105a6d015ce9c0",
+          "task_id": "fc-6a786f99-variants-cks05-8e5db9253f-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green36.green_36.variants.cks05",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green40.green_40",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          94
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Does $f(r) \\to \\infty$? [Gr24]",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«40»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Ben Green's Open Problem 40](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.40)",
+          "[Da90] Davydov, Alexander Abramovich. \"Construction of linear covering codes.\" Problemy Peredachi Informatsii 26.4 (1990): 38-55.",
+          "[CHL97] Cohen, G., Honkala, I., Litsyn, S., & Lobstein, A. (1997). Covering codes (Vol. 54). Elsevier.",
+          "[St94] R. Struik, Covering codes, PhD Thesis, Eindhoven University of Technology, the Netherlands, 106 pp, 1994."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green40.green_40",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1",
+        "type_pretty": "True ↔ Filter.Tendsto Green40.f Filter.atTop (nhds ⊤)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green40.green_40\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green40-green-40-7038d03f722fc7d65e2d22f469dd81c8-problem",
+          "target_type_sha256": "sha256:2341ad4f20cc81efa99a197e2536c6e9acfcea0802d04c7c77a61a240b9b88df",
+          "task_bundle_sha256": "sha256:07308d6d533e247533f0a381b8d7f9e4bc6e2872b68c8985c5f31fed579fffb4",
+          "task_id": "fc-6a786f99-green40-green-40-df934d4bd9-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green40.green_40\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green40-green-40-7038d03f722fc7d65e2d22f469dd81c8-problem",
+          "target_type_sha256": "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1",
+          "task_bundle_sha256": "sha256:be1182aed0a96413436f1f6697311ffac957ac58acc4c893666904288a6dad84",
+          "task_id": "fc-6a786f99-green40-green-40-164dd95e9b-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green40.green_40",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green40.green_40.variants.arbitrary_subsets",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          94
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Does $\\tilde{f}(r) \\to \\infty$? [Gr24] ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«40»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Ben Green's Open Problem 40](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.40)",
+          "[Da90] Davydov, Alexander Abramovich. \"Construction of linear covering codes.\" Problemy Peredachi Informatsii 26.4 (1990): 38-55.",
+          "[CHL97] Cohen, G., Honkala, I., Litsyn, S., & Lobstein, A. (1997). Covering codes (Vol. 54). Elsevier.",
+          "[St94] R. Struik, Covering codes, PhD Thesis, Eindhoven University of Technology, the Netherlands, 106 pp, 1994."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green40.green_40.variants.arbitrary_subsets",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
+        "type_pretty": "True ↔ Filter.Tendsto Green40.f_tilde Filter.atTop (nhds ⊤)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green40.green_40.variants.arbitrary_subsets\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-arbitrary-subsets-9f56642baf60ed427cf7c70f93baf4f0-problem",
+          "target_type_sha256": "sha256:e3b642b2f2f0b40a994d065afae17323a3beb11f259eb7d2e4adb11fc5bd01dd",
+          "task_bundle_sha256": "sha256:7d4cc6d45aa49cbcbfcaa1e4d3a00870b7dd9de58c80d9bb0292a8140e0b4fb2",
+          "task_id": "fc-6a786f99-variants-arbitrary-subsets-424baac62a-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green40.green_40.variants.arbitrary_subsets\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-arbitrary-subsets-9f56642baf60ed427cf7c70f93baf4f0-problem",
+          "target_type_sha256": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
+          "task_bundle_sha256": "sha256:be22f9d772465bba912e70faf7638295d6e2a1f71bc298eb5743a2dc7b91679b",
+          "task_id": "fc-6a786f99-variants-arbitrary-subsets-a2a8d07dea-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green40.green_40.variants.arbitrary_subsets",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green41.green_41.variants.polynomial_bound",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          51,
+          52
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is $\\varepsilon^{-C}$ rotations enough? ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«41»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Ben Green's Open Problem 41](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.41)",
+          "[Ma15] Manners, Freddie. \"A solution to the pyjama problem.\" Inventiones mathematicae 202.1 (2015): 239-270.",
+          "[KrLe25] Kravitz, Noah, and James Leng. \"Quantitative pyjama.\" arXiv preprint arXiv:2510.17744 (2025)."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/41.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green41.green_41.variants.polynomial_bound",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
+        "type_pretty": "True ↔ ∃ C, ∃ ε₀ > 0, ∀ ε ∈ Set.Ioc 0 ε₀, ↑(Green41.minCopies ε) ≤ ε ^ (-C)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«41»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green41.green_41.variants.polynomial_bound\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-polynomial-bound-bcad91b2ad294dc20e07a02d55925ef0-problem",
+          "target_type_sha256": "sha256:3a3a3c8d2f0162b9f73fea85aa3c7c689d953aa767de2bcfd837181247858b91",
+          "task_bundle_sha256": "sha256:5e23bf4835f3bd8f9ea14f4d6ab57f2f3a2eda862a2b9abfe13278e40ad58336",
+          "task_id": "fc-6a786f99-variants-polynomial-bound-0c8ffef828-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«41»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green41.green_41.variants.polynomial_bound\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-polynomial-bound-bcad91b2ad294dc20e07a02d55925ef0-problem",
+          "target_type_sha256": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
+          "task_bundle_sha256": "sha256:e343e9e80db45779e04ad0d540730a65c95912710bda69196ddda8aa09dce052",
+          "task_id": "fc-6a786f99-variants-polynomial-bound-018fcf75f0-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green41.green_41.variants.polynomial_bound",
       "tier": "tier-1"
     },
     {
@@ -1304,6 +1945,75 @@
     },
     {
       "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green50.green_50",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $A \\subset \\mathbb{F}_2^n$ be a set of density $\\alpha > 0$. Does $10A$ contain a coset\nof some subspace of dimension at least $n - O(\\log(1/\\alpha))$?\n\nMore precisely: does there exist an absolute constant $C > 0$ such that for all $n \\geq 1$ and all\nnonempty $A \\subseteq \\mathbb{F}_2^n$ with density $\\alpha > 0$, the sumset $10A$ contains a coset\nof some subspace of dimension at least $n - C \\log_2(1/\\alpha)$?\n\nThe sumset $10A$ is defined as $\\{a_1 + a_2 + \\cdots + a_{10} : a_i \\in A\\}$, using the pointwise\nscalar multiplication notation `10 • A` where `•` denotes the iterated addition of a set.\n\nNote: We model $\\mathbb{F}_2^n$ as `Fin n → ZMod 2`, which is an $n$-dimensional vector space\nover $\\mathbb{F}_2$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«50»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 50](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.6 Problem 50)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/50.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green50.green_50",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26",
+        "type_pretty": "True ↔\n  ∃ C > 0,\n    ∀ (n : ℕ) (A : Finset (𝔽₂ n)),\n      A.Nonempty →\n        have α := ↑A.dens;\n        ∃ W v, v +ᵥ ↑W ⊆ ↑(10 • A) ∧ ↑n - C * Real.logb 2 (1 / α) ≤ ↑(Module.finrank (ZMod 2) ↥W)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«50»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green50.green_50\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green50-green-50-9386202140705b968974427beb8de2b0-problem",
+          "target_type_sha256": "sha256:e521966161f32ada6299f93012e491a864f3a707749427c0c74e19885e5c7cab",
+          "task_bundle_sha256": "sha256:3ecb768423c393a7a55694d6fa8ceb3741721c20f65ddacbe46f330c6f52d1e7",
+          "task_id": "fc-6a786f99-green50-green-50-7f417c62e7-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«50»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green50.green_50\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green50-green-50-9386202140705b968974427beb8de2b0-problem",
+          "target_type_sha256": "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26",
+          "task_bundle_sha256": "sha256:d93463313e9fb9e2502ca6bf57b3b689031fd251ddb3b9afddd57b550632062e",
+          "task_id": "fc-6a786f99-green50-green-50-46f27a75bd-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green50.green_50",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
       "reason": "SOURCE_MISMATCH (Green #54 is per-n on ℝ^n; formalization is a single statement on ℕ → ℝ with Measure.infinitePi gaussian — nonequivalent setting)",
       "reason_code": "SOURCE_MISMATCH",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -1375,6 +2085,420 @@
     },
     {
       "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green58.green_58",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Suppose $A, B ⊆ \\{1, \\dots, N\\}$ both have size at least $N^{0.49}$. Must the sumset $A + B$\ncontain a composite number?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«58»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 58](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8 Problem 58)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/58.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green58.green_58",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435",
+        "type_pretty": "True ↔\n  ∀ᶠ (N : ℕ) in Filter.atTop,\n    ∀ A ⊆ Finset.Icc 1 N, ∀ B ⊆ Finset.Icc 1 N, ↑N ^ 0.49 ≤ ↑A.card → ↑N ^ 0.49 ≤ ↑B.card → ∃ m ∈ A + B, m.Composite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«58»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green58.green_58\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green58-green-58-27258e2da46818b59ae82742fd5fe531-problem",
+          "target_type_sha256": "sha256:85efd94d8e090c00408514deb70e2728f282253cf8a908a9dbc7c01b08023965",
+          "task_bundle_sha256": "sha256:906b309b94b2baf05ef6555f9f2460910d7af1d2e9d549b671807d5f8b528dc2",
+          "task_id": "fc-6a786f99-green58-green-58-333475444b-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«58»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green58.green_58\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green58-green-58-27258e2da46818b59ae82742fd5fe531-problem",
+          "target_type_sha256": "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435",
+          "task_bundle_sha256": "sha256:dc8781ffe5d2452549eee799e4565721aa84eab398411d1c6109bad189eaacb3",
+          "task_id": "fc-6a786f99-green58-green-58-c0813760dd-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green58.green_58",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green60.green_60",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is there an absolute constant $c > 0$ such that, whenever $A ⊆ \\mathbb{N}$ is a set of squares\nwith $|A| ≥ 2$, the sumset $A + A$ satisfies $|A + A| ≥ |A|^{1 + c}$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«60»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 60](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8 Problem 60)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/60.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green60.green_60",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc",
+        "type_pretty": "True ↔ ∃ c > 0, ∀ (A : Finset ℕ), (∀ a ∈ A, IsSquare a) → 2 ≤ A.card → ↑(A + A).card ≥ ↑A.card ^ (1 + c)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«60»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green60.green_60\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green60-green-60-d7763f362ce6fc83c81e7007a651df90-problem",
+          "target_type_sha256": "sha256:0186148b8f449edef5087f8864dc1ca45f0d5958f87a52260f0083263ad1d261",
+          "task_bundle_sha256": "sha256:1d004c9378a3a0801d4790eb27902118727cee4ec00b53a0b3233dd5f81c76ab",
+          "task_id": "fc-6a786f99-green60-green-60-c88f5c8bcc-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«60»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green60.green_60\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green60-green-60-d7763f362ce6fc83c81e7007a651df90-problem",
+          "target_type_sha256": "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc",
+          "task_bundle_sha256": "sha256:102848a02c34177b28a4560c2dc819f1006e4b9e8e64a4e4a6c595f487af956d",
+          "task_id": "fc-6a786f99-green60-green-60-f8c45274fb-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green60.green_60",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green62.green_62",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $p$ be a large prime, and let $A$ be the set of all primes less than $p$.\nIs every $x \\in \\{1, \\ldots, p-1\\}$ congruent to some product $a_1 a_2$ where $a_1, a_2 \\in A$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«62»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 62](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.62)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/62.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green62.green_62",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a",
+        "type_pretty": "True ↔\n  ∀ᶠ (p : ℕ) in Filter.atTop,\n    Nat.Prime p →\n      have A := Finset.filter Nat.Prime (Finset.range p);\n      ∀ (x : ℕ), 1 ≤ x ∧ x < p → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ↑x = ↑a₁ * ↑a₂"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«62»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green62.green_62\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green62-green-62-6faf237987f79d641935c039f630b8bd-problem",
+          "target_type_sha256": "sha256:928909c31fbe6eab3d786c08ca65ed12ca1392ed0d2cb00aa35488831f1e737a",
+          "task_bundle_sha256": "sha256:a830fb094354da8212a0f481b9078bb39c981b883395b4648315e5d4dcc33e72",
+          "task_id": "fc-6a786f99-green62-green-62-a59f5b5651-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«62»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green62.green_62\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green62-green-62-6faf237987f79d641935c039f630b8bd-problem",
+          "target_type_sha256": "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a",
+          "task_bundle_sha256": "sha256:edda0abfb873174af2b524e9dca3666e1301079c832f6c75d134bf2ccdaf9fbd",
+          "task_id": "fc-6a786f99-green62-green-62-5b1a47de47-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green62.green_62",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green66.green_66",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is there always a sum of two squares between $X - \\frac{1}{10}X^{1/4}$ and $X$?\nWe formalize this as an eventual statement for sufficiently large real $X$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«66»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 66](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/66.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green66.green_66",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3",
+        "type_pretty": "True ↔ ∀ᶠ (X : ℝ) in Filter.atTop, ∃ n, Green66.IsSumOfTwoSquares n ∧ ↑n ∈ Set.Icc (X - 1 / 10 * X ^ (1 / 4)) X"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«66»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green66.green_66\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green66-green-66-9fa0aae3a469e0af7c04ee492e324273-problem",
+          "target_type_sha256": "sha256:aafc2b62c05b4a384e5e1288b8ba71f37bc0cdfb5991d76a1c6cb3f1cacbdaf4",
+          "task_bundle_sha256": "sha256:621d46f73b48b10726118de1836ae4fa4ac42c6f0d5488c046c76ebf5f3f31f1",
+          "task_id": "fc-6a786f99-green66-green-66-89ddb01933-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«66»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green66.green_66\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green66-green-66-9fa0aae3a469e0af7c04ee492e324273-problem",
+          "target_type_sha256": "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3",
+          "task_bundle_sha256": "sha256:5bc7175fab0739574435c3808f8659906247baf6f2b238896e3d8cd524d1cd74",
+          "task_id": "fc-6a786f99-green66-green-66-658f94b5d8-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green66.green_66",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green7.green_7.variants.positive_density",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11,
+          42
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Does Ulam's sequence have positive density?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«7»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 7](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.1)",
+          "[erdosproblems.com/342](https://www.erdosproblems.com/342)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/7.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green7.green_7.variants.positive_density",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2",
+        "type_pretty": "True ↔ ∀ (a : ℕ → ℕ), Erdos342.IsUlamSequence a → (Set.range a).upperDensity > 0"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«7»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green7.green_7.variants.positive_density\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-positive-density-246d2b86f590a319cea2076b99187a1a-problem",
+          "target_type_sha256": "sha256:42f8895e89daf11827d2ea11b7cfb9b3455bf3aa61f47c8f0c9cfa2e2b042c06",
+          "task_bundle_sha256": "sha256:fea5d5a618a25e4af908d955e10cfec9cabe6520252adbe8210b96f50c1858bb",
+          "task_id": "fc-6a786f99-variants-positive-density-5d8690b07d-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«7»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green7.green_7.variants.positive_density\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-positive-density-246d2b86f590a319cea2076b99187a1a-problem",
+          "target_type_sha256": "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2",
+          "task_bundle_sha256": "sha256:481a10b78d345a1b2fdde8e47b42c421e65d96c92b35e24fd6275c9b1b709b79",
+          "task_id": "fc-6a786f99-variants-positive-density-11c2c89023-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green7.green_7.variants.positive_density",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green72.green_72",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5,
+          52
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "**Green's Open Problem 72 / No-three-in-line problem**:\nFor $N$ sufficiently large, is it impossible to have $2N$ points in $[N]^2$ with no three in a\nline? Green suspects the answer is yes, and that $(3/2 + o(1))N$ is optimal. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«72»",
+        "pointer_target": null,
+        "references": [
+          "[Ben Green's Open Problem 72](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.72)",
+          "[Wikipedia](https://en.wikipedia.org/wiki/No-three-in-line_problem)",
+          "[GK2025] Grebennikov, A. Kwan, M. No $(k + 1)$-in-line problem for large constant $k$. https://arxiv.org/abs/2510.17743"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/72.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green72.green_72",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb",
+        "type_pretty": "True ↔ ∀ᶠ (N : ℕ) in Filter.atTop, ¬Green72.NoKInLineFor 3 N"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«72»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green72.green_72\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green72-green-72-4312544a4960b23f0d0d5b2bc7ad833d-problem",
+          "target_type_sha256": "sha256:b2f09058fc390ae95b48624695e72d94586963874507bc4863ab79850a483494",
+          "task_bundle_sha256": "sha256:7ee6d9297a9e19cc2e0102db02ca8d8f545037478a49af209a57748e36dbf2d4",
+          "task_id": "fc-6a786f99-green72-green-72-9a8b724ddf-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«72»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green72.green_72\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green72-green-72-4312544a4960b23f0d0d5b2bc7ad833d-problem",
+          "target_type_sha256": "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb",
+          "task_bundle_sha256": "sha256:601da6ed279515c1b1ad21b570b9ba8520717f4f0b293c392db0ba1481783f73",
+          "task_id": "fc-6a786f99-green72-green-72-7462213234-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green72.green_72",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give α(n) ≳ 1/n, refuting the formalized n^(−2+o(1)) claim by elementary geometry)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -1440,6 +2564,144 @@
         }
       ],
       "theorem": "Green77.green_77",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green9.green_9_ii",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Problem 9 (ii): is $r_5(N) \\ll N(\\log N)^{-c}$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«9»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.9)",
+          "[BlSi20] Bloom, Thomas F., and Olof Sisask. \"Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions.\" arXiv preprint arXiv:2007.03528 (2020)."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green9.green_9_ii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5",
+        "type_pretty": "True ↔ ∃ c > 0, (fun N => ↑(Green9.r 5 N)) =O[Filter.atTop] fun N => ↑N * Real.log ↑N ^ (-c)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green9.green_9_ii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green9-green-9-ii-d0f98df12e0fa31ef1d02573b686fc7a-problem",
+          "target_type_sha256": "sha256:0a0289d346a67fa985d3028b86da479987f5b918c25ccbdeedc7a472deca1c1b",
+          "task_bundle_sha256": "sha256:e8ad10c203aeb0b1aacdd018ea19912e39c8659a390224a722eb8921c2f3a2bb",
+          "task_id": "fc-6a786f99-green9-green-9-ii-5008bca0bd-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green9.green_9_ii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green9-green-9-ii-d0f98df12e0fa31ef1d02573b686fc7a-problem",
+          "target_type_sha256": "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5",
+          "task_bundle_sha256": "sha256:aad2bc170eb310b4668d1049252e8ae6d06c7ad76379cc3cf7cfa30fbb2dd938",
+          "task_id": "fc-6a786f99-green9-green-9-ii-b31c5f3fe1-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green9.green_9_ii",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
+      "retired_on": "2026-09-30",
+      "reward_target_id": "fc-target:Green9.green_9_iii",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Problem 9 (iii): is $r_4(\\mathbf{F}_5^n) \\ll N^{1-c}$, where $N=5^n$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.GreensOpenProblems.«9»",
+        "pointer_target": null,
+        "references": [
+          "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.9)",
+          "[BlSi20] Bloom, Thomas F., and Olof Sisask. \"Breaking the logarithmic barrier in Roth's theorem on arithmetic progressions.\" arXiv preprint arXiv:2007.03528 (2020)."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/GreensOpenProblems/9.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Green9.green_9_iii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab",
+        "type_pretty": "True ↔ ∃ c > 0, (fun n => ↑(Finset.maxAPFreeCard 4 Finset.univ)) =O[Filter.atTop] fun n => (5 ^ n) ^ (1 - c)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green9.green_9_iii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green9-green-9-iii-e43a366e17f5f2a7df5ae5e33d814d0e-problem",
+          "target_type_sha256": "sha256:8615839b9d74ca8937c7d4a1760285bdc2b9b79902a8fe9fd8e1f7a4fc11234e",
+          "task_bundle_sha256": "sha256:38cab05fb2c0b281b4f297324db754777d17c4d3605dad302b95b6db77b66559",
+          "task_id": "fc-6a786f99-green9-green-9-iii-af0180e633-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green9.green_9_iii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-green9-green-9-iii-e43a366e17f5f2a7df5ae5e33d814d0e-problem",
+          "target_type_sha256": "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab",
+          "task_bundle_sha256": "sha256:6cec1ba9173fa61b1e2f64ebf85e5969f3d4617b05006b914409c716129ca14d",
+          "task_id": "fc-6a786f99-green9-green-9-iii-5dfabf0499-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Green9.green_9_iii",
       "tier": "tier-1"
     }
   ],
