@@ -1,0 +1,35 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Incomplete challenge 23: Wilf inequality for proper numerical semigroups with conductor at most four times multiplicity. Source: https://arxiv.org/abs/1703.01761 ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ResearchTargets.Math30",
+  "pointer_target": null,
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Math30Catalog.source23",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:afce0d65814782c384aee6fa7a554af72c93d6e018348c8495ca2ad8a9213b0e",
+  "type_pretty": "Math30.Problem23"
+}

@@ -1,0 +1,35 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Incomplete challenge 21: Uniform cubic ordinary-sensitivity upper bound for block sensitivity. Source: https://eccc.weizmann.ac.il/report/2026/010/ ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ResearchTargets.Math30",
+  "pointer_target": null,
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Math30Catalog.source21",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e4f89431c67bbaf4a2695cfe1434d57a72272336315aa5f5d55c501714f02b76",
+  "type_pretty": "Math30.MatrixBoolean.Statement21"
+}

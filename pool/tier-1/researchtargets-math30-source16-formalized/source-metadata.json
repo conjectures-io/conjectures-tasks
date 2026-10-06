@@ -1,0 +1,35 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Incomplete challenge 16: Complex 4x4 exact bilinear multiplication with at most 47 products. Source: https://epoch.ai/frontiermath/open-problems/matrix-multiplication ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ResearchTargets.Math30",
+  "pointer_target": null,
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Math30Catalog.source16",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6851c92e1359fb8774abc091d914b3666c3a3083a97f03f1bf023df2a74dc36e",
+  "type_pretty": "Math30.MatrixBoolean.Statement16"
+}

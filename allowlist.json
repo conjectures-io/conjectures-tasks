@@ -1737,6 +1737,125 @@
       "tier": "tier-1"
     },
     {
+      "index": 2932,
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:fc9ddfec4d0d1725aa3a0a9d06329d3accbe40fc8bfcfa6480ddf9d8ba13ae22",
+      "theorem": "Math15Catalog.source04",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2933,
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:3055fcc5b70670e196527bd0995238dc36a4ce8a04b13b1ebec519f5c0fc258a",
+      "theorem": "Math15Catalog.source05",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2934,
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:d5eb872f7f6ef50ae586cae91d79b03154b8b99a5e197066cf8d5584abf18fc0",
+      "theorem": "Math15Catalog.source06",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2938,
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:3571b596aa2552889a8cda8aba83f0c59593db6a0dc8553cd7879f523c4467f4",
+      "theorem": "Math15Catalog.source10",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2939,
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:3b166c31578308d2f78ae6c4404be3bd49c64815d1dc066ef9bbf480ebcd917a",
+      "theorem": "Math15Catalog.source11",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2944,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:6851c92e1359fb8774abc091d914b3666c3a3083a97f03f1bf023df2a74dc36e",
+      "theorem": "Math30Catalog.source16",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2946,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:0b2c494c50df3cd3d4ca028724438e3576a0d1a2d0d5a56f76485db66adc011d",
+      "theorem": "Math30Catalog.source18",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2948,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:98848fdf241eb10f5c9ca8576ca2084a32adb5e75a155ebbc1eb0c7bf9b22521",
+      "theorem": "Math30Catalog.source20",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2949,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:e4f89431c67bbaf4a2695cfe1434d57a72272336315aa5f5d55c501714f02b76",
+      "theorem": "Math30Catalog.source21",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2950,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043",
+      "theorem": "Math30Catalog.source22",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2951,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:afce0d65814782c384aee6fa7a554af72c93d6e018348c8495ca2ad8a9213b0e",
+      "theorem": "Math30Catalog.source23",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2953,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:2d762e6cba2e4fd1c52030adb6ef53a371d0437c902c222e160d21c13119fd36",
+      "theorem": "Math30Catalog.source25",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2954,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:76a6988ad5aa908ce2c0ebba5086943a59a333e37a2a7876f62969d05ed8e233",
+      "theorem": "Math30Catalog.source26",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2955,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb",
+      "theorem": "Math30Catalog.source27",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2956,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:f082d84e174b8ecf4cc34a56d92a8654913aa2180b26ed6b6ab3ae86c6635c8a",
+      "theorem": "Math30Catalog.source28",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2957,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:276676286acdf2d9c580ee8489d9c9a1b83507103ce5b580f4478ee5ca1619e8",
+      "theorem": "Math30Catalog.source29",
+      "tier": "tier-1"
+    },
+    {
+      "index": 2958,
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:292e1f8f1b71121db89e53999d3e2f399f850cab68800a23764a43c8e94060aa",
+      "theorem": "Math30Catalog.source30",
+      "tier": "tier-1"
+    },
+    {
       "index": 3027,
       "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
       "source_type_sha256": "sha256:a662844068c742514faec02e1721673403421b3d98fa27f963d7fd888f5f8e04",
@@ -11235,6 +11354,652 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math15catalog-source04-5dbb6753cbdc499f4f92d6f7f6d85128-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source04",
+      "source_indices": [
+        2932
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:fc9ddfec4d0d1725aa3a0a9d06329d3accbe40fc8bfcfa6480ddf9d8ba13ae22"
+      ],
+      "task_bundle_sha256": "sha256:af55058400941f9e2697617d145fb06605a65a46ab7c8c94268d33cc12720520",
+      "task_id": "fc-4b69a7dc-math15catalog-source04-133529f771-formalized-v1",
+      "theorems": [
+        "Math15Catalog.source04"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math15catalog-source04-5dbb6753cbdc499f4f92d6f7f6d85128-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source04",
+      "source_indices": [
+        2932
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:c98e068b34ccfe3be85397ec1eb589794f8262999feb062aeac2bc67070d8388"
+      ],
+      "task_bundle_sha256": "sha256:b1702bff87a6b3484bd9fba38ff8ee2669e34542195ab2062f5d5d99a82d792e",
+      "task_id": "fc-4b69a7dc-math15catalog-source04-7e4f0f4162-counterexample-v1",
+      "theorems": [
+        "Math15Catalog.source04"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math15catalog-source05-f0e6a90455f79af36db1cf46d52e44f2-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source05",
+      "source_indices": [
+        2933
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:3055fcc5b70670e196527bd0995238dc36a4ce8a04b13b1ebec519f5c0fc258a"
+      ],
+      "task_bundle_sha256": "sha256:2c1081ff133add367fb488e4edd105890af82894fa5799254d02052a29be1a67",
+      "task_id": "fc-4b69a7dc-math15catalog-source05-216687d215-formalized-v1",
+      "theorems": [
+        "Math15Catalog.source05"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math15catalog-source05-f0e6a90455f79af36db1cf46d52e44f2-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source05",
+      "source_indices": [
+        2933
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:c7459e7088c3bba0a8e58760e669cd2f2c059c803378574d6f09175c69b116fd"
+      ],
+      "task_bundle_sha256": "sha256:c4acfd821f9fd9fa90a66929e6fdcf724ce7529175fbbfe415432bd891ba0894",
+      "task_id": "fc-4b69a7dc-math15catalog-source05-9f1011852f-counterexample-v1",
+      "theorems": [
+        "Math15Catalog.source05"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math15catalog-source06-3ac614d5f943c9bf9c65ef82e6fea1e3-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source06",
+      "source_indices": [
+        2934
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:d5eb872f7f6ef50ae586cae91d79b03154b8b99a5e197066cf8d5584abf18fc0"
+      ],
+      "task_bundle_sha256": "sha256:474fb35eefe8eb019fa2f3e206249f8a3fc38698bf203dd51d966debfc7d73f3",
+      "task_id": "fc-4b69a7dc-math15catalog-source06-ec94eb48ea-formalized-v1",
+      "theorems": [
+        "Math15Catalog.source06"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math15catalog-source06-3ac614d5f943c9bf9c65ef82e6fea1e3-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source06",
+      "source_indices": [
+        2934
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:327edaa844f770c189771f104d64f5148681ca9474cc5f524f65e84a4fc5cdf9"
+      ],
+      "task_bundle_sha256": "sha256:0a362cd760fe9a1005cf50f8fb76940e89f9b5706c726931c660a038590f3c9b",
+      "task_id": "fc-4b69a7dc-math15catalog-source06-4ed41b9f52-counterexample-v1",
+      "theorems": [
+        "Math15Catalog.source06"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math15catalog-source10-8cbbfecdcc0c43f8ae1b70ad5f2362c5-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source10",
+      "source_indices": [
+        2938
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:3571b596aa2552889a8cda8aba83f0c59593db6a0dc8553cd7879f523c4467f4"
+      ],
+      "task_bundle_sha256": "sha256:7b2c0bcaced38c18f4100dd542987ad841431034d07d615ee08a899624ac7102",
+      "task_id": "fc-4b69a7dc-math15catalog-source10-a324196efa-formalized-v1",
+      "theorems": [
+        "Math15Catalog.source10"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math15catalog-source10-8cbbfecdcc0c43f8ae1b70ad5f2362c5-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source10",
+      "source_indices": [
+        2938
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:62da01727769ea9cc3581aa67eaf3f6d895ee41055ef1834389cb4805fd841ee"
+      ],
+      "task_bundle_sha256": "sha256:0b99c24ff8fa4c1a16c36168472f492f340b032be3b9c459941c9a2987903db0",
+      "task_id": "fc-4b69a7dc-math15catalog-source10-fc3829b347-counterexample-v1",
+      "theorems": [
+        "Math15Catalog.source10"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math15catalog-source11-6fdc210b2cfa0c24cf61af431444d10c-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source11",
+      "source_indices": [
+        2939
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:3b166c31578308d2f78ae6c4404be3bd49c64815d1dc066ef9bbf480ebcd917a"
+      ],
+      "task_bundle_sha256": "sha256:6ef314194da00a14647a139e9cf171803130cfd6a0c01a012de3d21e317f94ce",
+      "task_id": "fc-4b69a7dc-math15catalog-source11-adfb10adce-formalized-v1",
+      "theorems": [
+        "Math15Catalog.source11"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math15catalog-source11-6fdc210b2cfa0c24cf61af431444d10c-problem",
+      "reward_target_id": "fc-target:Math15Catalog.source11",
+      "source_indices": [
+        2939
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "target_type_sha256s": [
+        "sha256:32d51ec0bd85c71f4e5271303570ef41164c1c599ff7040a42e808d032c2b677"
+      ],
+      "task_bundle_sha256": "sha256:be40755d87690d43769afac648160ac6f6f5e99b3b90c7456305225b6061aa4a",
+      "task_id": "fc-4b69a7dc-math15catalog-source11-21e1841d94-counterexample-v1",
+      "theorems": [
+        "Math15Catalog.source11"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source16-30054f68cbf5840485fefbef860bedf4-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source16",
+      "source_indices": [
+        2944
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:6851c92e1359fb8774abc091d914b3666c3a3083a97f03f1bf023df2a74dc36e"
+      ],
+      "task_bundle_sha256": "sha256:36d7f2060a6c506e44dba3d02985884437444685bcdd579b1fef009cf3bd337a",
+      "task_id": "fc-4b69a7dc-math30catalog-source16-ba3d652c95-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source16"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source16-30054f68cbf5840485fefbef860bedf4-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source16",
+      "source_indices": [
+        2944
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:f6aaf2128bee76fbad0aad82272737d31131c3f7a481f3d85bda4364ea6c8da3"
+      ],
+      "task_bundle_sha256": "sha256:4eaa6686d8bdf1cc09751f603bee6a059d178853d34bab8fe007bff9bdc8012b",
+      "task_id": "fc-4b69a7dc-math30catalog-source16-03d710adbe-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source16"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source18-eb6bd21c1ab2f5d1daa259367af5a7be-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source18",
+      "source_indices": [
+        2946
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:0b2c494c50df3cd3d4ca028724438e3576a0d1a2d0d5a56f76485db66adc011d"
+      ],
+      "task_bundle_sha256": "sha256:bf0ba83e61f26d134d620288619e1314c264fe1c7f5df8baeb676a8d8c9f6b07",
+      "task_id": "fc-4b69a7dc-math30catalog-source18-8f3ddd90fb-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source18"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source18-eb6bd21c1ab2f5d1daa259367af5a7be-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source18",
+      "source_indices": [
+        2946
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:3cada9aae4625819874d4502d4e3033f65b31a8da437780a7143d62c06cd39f0"
+      ],
+      "task_bundle_sha256": "sha256:d24710f75ccf97802cfef6788c8539cc79639f5e39a3df86a48e6f3de8a7f95d",
+      "task_id": "fc-4b69a7dc-math30catalog-source18-8ec0653bd4-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source18"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source20-61ed98be15c364c82eae08e9c99a0cb7-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source20",
+      "source_indices": [
+        2948
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:98848fdf241eb10f5c9ca8576ca2084a32adb5e75a155ebbc1eb0c7bf9b22521"
+      ],
+      "task_bundle_sha256": "sha256:e9b6a659c438bbbd0fd882eabbcff9606b107f826fd9d505189f71e107900672",
+      "task_id": "fc-4b69a7dc-math30catalog-source20-176fa3225c-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source20"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source20-61ed98be15c364c82eae08e9c99a0cb7-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source20",
+      "source_indices": [
+        2948
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:3dfdb18f5a1d1ec655f2139b5e5b344e1bdb4aa156a6f7c375a8346c03b36a65"
+      ],
+      "task_bundle_sha256": "sha256:a7e3e9c5339149a01f9fada0b51b7272dbe01575f5665270c9e4e7857b066dea",
+      "task_id": "fc-4b69a7dc-math30catalog-source20-33fc155b78-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source20"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source21-823feb19c133f2727e28d9a9d458027f-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source21",
+      "source_indices": [
+        2949
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:e4f89431c67bbaf4a2695cfe1434d57a72272336315aa5f5d55c501714f02b76"
+      ],
+      "task_bundle_sha256": "sha256:2cccfa98e362ddd69d150baafa8910205a44730200b3e7943cdb80cfe4d48f6c",
+      "task_id": "fc-4b69a7dc-math30catalog-source21-cea85d0d35-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source21"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source21-823feb19c133f2727e28d9a9d458027f-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source21",
+      "source_indices": [
+        2949
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:4fba5dc2270411f31a4ee46c790d120a54619f37eb0b4468103e0ce01f670ae4"
+      ],
+      "task_bundle_sha256": "sha256:202113594cffa7e0f75fe5352ade4a1e3f25d5a59f2119d7d1121dfbce4216a2",
+      "task_id": "fc-4b69a7dc-math30catalog-source21-bb40d6cff1-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source21"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source22",
+      "source_indices": [
+        2950
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043"
+      ],
+      "task_bundle_sha256": "sha256:f164e33326f4af9186ec77f8db19922c7b8f33753d748065993d4ffa1444f0b3",
+      "task_id": "fc-4b69a7dc-math30catalog-source22-6027b62a5f-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source22"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source22",
+      "source_indices": [
+        2950
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:f667b51fc5a491a409be4a11300e3d20861dedcf42f65e7534510e50ec5929b4"
+      ],
+      "task_bundle_sha256": "sha256:cb3d732629e73ecd67bbc659cd03bbf383b0c58a74afe906c6860aab5d01dbd4",
+      "task_id": "fc-4b69a7dc-math30catalog-source22-f603e2af59-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source22"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source23-c1752b4d0e2d4a115c02bc1b1e90082b-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source23",
+      "source_indices": [
+        2951
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:afce0d65814782c384aee6fa7a554af72c93d6e018348c8495ca2ad8a9213b0e"
+      ],
+      "task_bundle_sha256": "sha256:0c5fd572b640fe47d1327c34d2e946a13114ec2eb3730b42d2bd868cd69f3891",
+      "task_id": "fc-4b69a7dc-math30catalog-source23-505d90e5e4-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source23"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source23-c1752b4d0e2d4a115c02bc1b1e90082b-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source23",
+      "source_indices": [
+        2951
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:caa05e61955939019d60afc7516f433034327d16aff2d18d394e88aab8a9fb8d"
+      ],
+      "task_bundle_sha256": "sha256:618c554aaf1175dc48b724c990c53d0fa4629a890859cd44815755707314c730",
+      "task_id": "fc-4b69a7dc-math30catalog-source23-1949bf809e-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source23"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source25-0222f5ae4c89b076badbfa1258645602-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source25",
+      "source_indices": [
+        2953
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:2d762e6cba2e4fd1c52030adb6ef53a371d0437c902c222e160d21c13119fd36"
+      ],
+      "task_bundle_sha256": "sha256:dc743d74d83e303944ffe03dd3cda84cccc3e847c282b710f45046fca8ad4614",
+      "task_id": "fc-4b69a7dc-math30catalog-source25-430ddc8a0e-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source25"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source25-0222f5ae4c89b076badbfa1258645602-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source25",
+      "source_indices": [
+        2953
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:233d830170dba3311551194896fff3d7901a6a3466907f503483e672efe07723"
+      ],
+      "task_bundle_sha256": "sha256:16d8db732a1470fcce7cf90d07317f4126282eeaffcf8783285bd4e8d7469c41",
+      "task_id": "fc-4b69a7dc-math30catalog-source25-5f118233dc-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source25"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source26-8dc06fdf8e42ea0797db16a455100e71-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source26",
+      "source_indices": [
+        2954
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:76a6988ad5aa908ce2c0ebba5086943a59a333e37a2a7876f62969d05ed8e233"
+      ],
+      "task_bundle_sha256": "sha256:89bd479974b6bf0af45fc6ca22ad8968da5da847cdccbc58876bcb57f81d3162",
+      "task_id": "fc-4b69a7dc-math30catalog-source26-28e21ed9a8-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source26"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source26-8dc06fdf8e42ea0797db16a455100e71-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source26",
+      "source_indices": [
+        2954
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:c6c6f9f4fabb5b221b5f5a7eeb37c20e0cd1ab4a830e50500b094911ae25622c"
+      ],
+      "task_bundle_sha256": "sha256:b4aa9564c92286a7ca0e277b2497411d4df887eb705883804fc21625a65e8df0",
+      "task_id": "fc-4b69a7dc-math30catalog-source26-cbb17ae89c-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source26"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source27-b0c7a86940236262ec6481b9b5ee50f1-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source27",
+      "source_indices": [
+        2955
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb"
+      ],
+      "task_bundle_sha256": "sha256:5dfea4dbbb28f9e2894c1f4bd59d27fc830864ee5be31a79df11d17b09df0e40",
+      "task_id": "fc-4b69a7dc-math30catalog-source27-6e8b41b0de-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source27"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source27-b0c7a86940236262ec6481b9b5ee50f1-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source27",
+      "source_indices": [
+        2955
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:47c23246141313c40b2add6e7cb6356faf2402bc30ae2ce90111534ddbef465a"
+      ],
+      "task_bundle_sha256": "sha256:fed24d91348c9c3c62bea50afce083fd73410bfd2228ef54a77ec45f72161c38",
+      "task_id": "fc-4b69a7dc-math30catalog-source27-e62c805b74-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source27"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source28-a08f7ca195d736c7726fbad40af7e445-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source28",
+      "source_indices": [
+        2956
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:f082d84e174b8ecf4cc34a56d92a8654913aa2180b26ed6b6ab3ae86c6635c8a"
+      ],
+      "task_bundle_sha256": "sha256:3aed69deaefd849d082d90473860967b09620491e3ee1d9d57064e4843995db5",
+      "task_id": "fc-4b69a7dc-math30catalog-source28-e70c2d6c9f-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source28"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source28-a08f7ca195d736c7726fbad40af7e445-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source28",
+      "source_indices": [
+        2956
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:c936e17e73c89f11004c95c79e7fb778096abdddfbd3adf198020bc6d97102ad"
+      ],
+      "task_bundle_sha256": "sha256:852e7083d6664d23a5fcef3ae0ab9a6385aab6068c440e12aab22f68df18e5c2",
+      "task_id": "fc-4b69a7dc-math30catalog-source28-9e66daa713-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source28"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source29-f7b5e7032f57eddff6ef4b22b5a5ec79-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source29",
+      "source_indices": [
+        2957
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:276676286acdf2d9c580ee8489d9c9a1b83507103ce5b580f4478ee5ca1619e8"
+      ],
+      "task_bundle_sha256": "sha256:4fc5ec332c23397b35d98acae47fc4570135ac424805e95aa8882979e6faf0f5",
+      "task_id": "fc-4b69a7dc-math30catalog-source29-e776c705d2-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source29"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source29-f7b5e7032f57eddff6ef4b22b5a5ec79-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source29",
+      "source_indices": [
+        2957
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:09ba677ae9777bc60e0204edf5ba67a7f5678f737e78af17746451c8468b9456"
+      ],
+      "task_bundle_sha256": "sha256:be305d0fa59d4ea8c4d1b9882caa6cefe0d3c5ff5ca9973af602b378a36f7c67",
+      "task_id": "fc-4b69a7dc-math30catalog-source29-da64200c5d-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source29"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
+      "problem_id": "fc-4b69a7dc-math30catalog-source30-8c106bb6f5353ed43782654939142b89-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source30",
+      "source_indices": [
+        2958
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:292e1f8f1b71121db89e53999d3e2f399f850cab68800a23764a43c8e94060aa"
+      ],
+      "task_bundle_sha256": "sha256:c3c40da3bb0af94c870d5ae90ebf8c8c03e5454ccbf094a5826fb9977cd451ad",
+      "task_id": "fc-4b69a7dc-math30catalog-source30-f990d393f7-formalized-v1",
+      "theorems": [
+        "Math30Catalog.source30"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-4b69a7dc-math30catalog-source30-8c106bb6f5353ed43782654939142b89-problem",
+      "reward_target_id": "fc-target:Math30Catalog.source30",
+      "source_indices": [
+        2958
+      ],
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "target_type_sha256s": [
+        "sha256:5c477c684f5317422098162db6974449825c19b27b0e25ac554b21c226dd62fb"
+      ],
+      "task_bundle_sha256": "sha256:718c5ddd5ce8a007d4386e4cdf0fd4386d028850d167bdeb72fa47ad97e2835d",
+      "task_id": "fc-4b69a7dc-math30catalog-source30-0888e71ad9-counterexample-v1",
+      "theorems": [
+        "Math30Catalog.source30"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-4b69a7dc-mersenne-catalans-mersenne-conjecture-9786cbc7df03c902d197da5f8a9480de-problem",
       "reward_target_id": "fc-target:Mersenne.catalans_mersenne_conjecture",
       "source_indices": [
@@ -11636,28 +12401,29 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 516,
+      "pool_size": 550,
       "retired_conjectures_sha256": "sha256:a611e72418882fa3ee71ef940ddcb052c974edd181305f988a637c6b8ce7f780",
       "retired_source_theorems_sha256": "sha256:cf69ed257c7ab910fc2a1923ccab7b8823c315723a9dc32cecd17bf9f42552fe",
-      "reward_target_count": 258,
+      "reward_target_count": 275,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:0bac1bd47029123c29e3280eee538d1775cedd1424832b770e556365707523a5",
+      "selection_audit_sha256": "sha256:b08f9ab5b1e9b647aa951a0ba364be699e2654b2261efe951a2375108e2de0df",
       "source_category": "research open",
       "source_families": [
         "erdos",
         "greens-open-problems",
         "millennium",
+        "research-targets",
         "wikipedia"
       ],
-      "source_theorem_count": 258,
+      "source_theorem_count": 275,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:7cb46aadc22f4925e7ffd2a579bf40cac0b556d3be0afdaa8d42ae5609be1e31"
+      "task_targets_sha256": "sha256:83a219de71594940715405cadd9a796884e0776f73d2f89ca9494de04c3ac199"
     }
   }
 }

@@ -1,0 +1,35 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Incomplete challenge 20: Uniform subquadratic sensitivity-versus-exact-real-degree upper bound. Source: https://arxiv.org/abs/2005.00566v2 ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ResearchTargets.Math30",
+  "pointer_target": null,
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Math30Catalog.source20",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:98848fdf241eb10f5c9ca8576ca2084a32adb5e75a155ebbc1eb0c7bf9b22521",
+  "type_pretty": "Math30.MatrixBoolean.Statement20"
+}

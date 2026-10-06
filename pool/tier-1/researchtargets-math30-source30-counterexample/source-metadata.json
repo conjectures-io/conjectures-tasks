@@ -1,0 +1,35 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Incomplete challenge 30: For every dimension n>=8 there is a degree bound uniform over all scalar real polynomial minimal graphs. Source: https://arxiv.org/html/2404.00115v2 ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ResearchTargets.Math30",
+  "pointer_target": null,
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Math30Catalog.source30",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:292e1f8f1b71121db89e53999d3e2f399f850cab68800a23764a43c8e94060aa",
+  "type_pretty": "Math30.Problem30"
+}
