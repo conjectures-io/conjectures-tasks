@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 277 audited targets in `tier-1`: 238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
+The current release places all 258 audited targets in `tier-1`: 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -84,9 +84,9 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 554 task bundles covering 277 audited targets: 238 Erdős, 6 previously solved Green, 32 Wikipedia,
+`tier-1` contains all 516 task bundles covering 258 audited targets: 219 Erdős, 6 previously solved Green, 32 Wikipedia,
 and one Millennium target. Every bundle has exactly one theorem target and every theorem target
-has its own stable reward identity. Those targets occupy 242 distinct canonical source paths.
+has its own stable reward identity. Those targets occupy 224 distinct canonical source paths.
 
 The GitHub review covered all 359 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
@@ -153,7 +153,9 @@ those exact commitments. For the single active tier:
 - `task-targets.json` records the exact target selection and stable per-target reward identity;
 - `task-groups.json` records any grouped tasks (`tier-1` has none);
 - `retired-source-theorems.json` prevents retired sources and canonical types
-  from being selected again.
+  from being selected again;
+- `held-source-theorems.json` withholds targets pending review in the same way.
+  A held target is neither solved nor retired, and the two lists never overlap.
 
 Source citations extracted from pinned Formal Conjectures docstrings are stored
 in each task's metadata for site rendering.
@@ -213,3 +215,35 @@ identities are preserved. This is a reviewed source repin and admission release,
 retirement. Deployment must account for any submissions queued against the previous task pin.
 
 On September 30, 2026, the 18 remaining open Green targets (36 bundles) were withdrawn at Ben Green’s request. The six previously solved Green entries and all earlier archived results remain available. Withdrawn targets cannot accept new submissions or be selected again.
+
+## October 6 release
+
+Nineteen targets leave the pool, each with both of its tasks:
+
+- three are retired as externally solved (`SOLVED_EXTERNALLY`): `Erdos252.erdos_252`,
+  `Erdos701.erdos_701`, and the single variant `Erdos70.erdos_70.variants.omega_times_two_four`;
+  see `tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md`;
+- eleven are closed on the release owner's instruction to accept public resolution claims
+  (`OWNER_ACCEPTED_PUBLICATION_CLOSURE`); no independent proof replay or certification was
+  performed; see `tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md`;
+- five are held pending review (`HOLD_STATEMENT_SOURCE_DISCREPANCY` or
+  `HOLD_UNVERIFIED_RESOLUTION_CLAIM`); they are neither solved nor retired; see
+  `tiers/tier-1/HOLDS-2026-10-06.md`.
+
+Retired names and their previously published canonical types are added to
+`retired-source-theorems.json`; held names and types go to `held-source-theorems.json` instead.
+All 38 earlier bundles stay readable through `retired-conjectures.json`, whose entries carry
+`pool_status` `retired` or `held`. The 21 targets already closed on conjectures.io stay in the pool
+as historical records, with 237 provisionally open targets beside them.
+
+The same release moves the source to Lean 4.35.0-rc2 and Mathlib `065356127b1d`. The source
+revision changes, so all 516 bundles receive fresh commitments; stable reward identities are
+preserved. Canonical types that change only because of the repin are listed and reviewed in the
+release's type-drift record. The new type of every retired or held name is also denied.
+
+The source revision additionally carries the package-authored research libraries `Math15` and
+`Math30` and their catalogs under `FormalConjectures/ResearchTargets/`. Their 30 targets are
+staged in `staged/research-targets/decision-matrix.json` with open gates. No tier names the
+`research-targets` family, and the validator refuses any such source until an explicit, reviewed
+activation. Source-review acceptance of a target is not a proof, a novelty certificate, or reward
+activation.

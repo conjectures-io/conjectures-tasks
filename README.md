@@ -11,8 +11,8 @@ bundle contains its challenge, manifest, comparator
 configuration, trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 554 bundles: proof/refutation pairs for 277 audited
-direct propositions (238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
+The current snapshot contains one tier with 516 bundles: proof/refutation pairs for 258 audited
+direct propositions (219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
@@ -52,6 +52,12 @@ accepted against them. Delete only what is retired and leave every surviving bun
 
 Both modes of a target always retire together — one reward identity, one decision.
 
+A target can instead be **held**: withdrawn from admission pending review of a statement or source
+discrepancy or of an unverified resolution claim. The steps are the same, except that the theorem and
+its types go into `tiers/tier-1/held-source-theorems.json` (never also into
+`retired-source-theorems.json`) and the log line goes into `tiers/tier-1/HOLDS.md`. A held target is
+neither solved nor retired; its old tasks stay readable with pool status `held`.
+
 1. **Delete the bundles.**
    `git rm -r pool/tier-1/<name>-formalized pool/tier-1/<name>-counterexample`
 2. **Edit `allowlist.json`.** Drop the `allowed_source_theorems` entry and both
@@ -76,6 +82,7 @@ Both modes of a target always retire together — one reward identity, one decis
    | --- | --- |
    | `retired_conjectures_sha256` | `tiers/tier-1/retired-conjectures.json` |
    | `retired_source_theorems_sha256` | `tiers/tier-1/retired-source-theorems.json` |
+   | `held_source_theorems_sha256` | `tiers/tier-1/held-source-theorems.json` |
    | `selection_audit_sha256` | `tiers/tier-1/selection-audit.json` |
    | `task_targets_sha256` | `tiers/tier-1/task-targets.json` |
    | `task_groups_sha256` | `tiers/tier-1/task-groups.json` |
@@ -115,3 +122,5 @@ Each recovered `Challenge.lean` is checked against the digest its own manifest p
 website renders is provably the audited bytes even though the bundle itself is gone.
 
 On September 30, 2026, the 18 remaining open Green targets (36 bundles) were withdrawn at Ben Green’s request. The six previously solved Green entries and all earlier archived results remain available. Withdrawn targets cannot accept new submissions or be selected again.
+
+On October 6, 2026, nineteen targets left the pool. Three exact targets are retired as externally solved — Erdős 252, Erdős 701, and the `omega_times_two_four` variant of Erdős 70 only — see [`tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md`](tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md). Eleven are closed on the release owner's instruction to accept public resolution claims, without independent proof replay — see [`tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md`](tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md). Five are held pending review; a held target is neither solved nor retired — see [`tiers/tier-1/HOLDS-2026-10-06.md`](tiers/tier-1/HOLDS-2026-10-06.md). The same release repins the source to Lean 4.35.0-rc2, so every surviving bundle has a new task ID while its reward identity is unchanged. Package-authored research targets 1–30 are staged in [`staged/research-targets/`](staged/research-targets/README.md); they belong to no tier and cannot be admitted by this release.

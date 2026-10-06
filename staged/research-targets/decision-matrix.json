@@ -1,0 +1,637 @@
+{
+  "activation": "none",
+  "default": "DENY",
+  "global_gates": [
+    {
+      "description": "A reviewed validator commit adds the exact theorem names to ACTIVATED_RESEARCH_TARGETS after every other gate is closed. Schema version 1 of this matrix cannot express activation.",
+      "evidence": null,
+      "id": "activation-code-review",
+      "status": "open"
+    },
+    {
+      "description": "The regenerated catalog from the validated derived source commit contains all 30 theorems as DIRECT_PROP, research open, depends_on_sorry true, with canonical type hashes recorded in this matrix.",
+      "evidence": null,
+      "id": "catalog-regenerated",
+      "status": "open"
+    },
+    {
+      "description": "All 60 staged frozen proof/refutation payload inspectors and checker controls rerun on the candidate toolchain; every frozen rejected payload is actually rejected and no passing log is reused from another toolchain.",
+      "evidence": null,
+      "id": "frozen-payload-controls",
+      "status": "open"
+    },
+    {
+      "description": "The candidate verifier image passes the worker's production doctor argv as UID 10001 with the noexec work tmpfs, and the negative controls (executable work mount, root user) report the sandbox unready.",
+      "evidence": null,
+      "id": "production-sandbox-equivalence",
+      "status": "open"
+    },
+    {
+      "description": "A dated release-time status and literature screen for each target, recorded like the existing pool selection audits. Source-review acceptance is not a novelty certificate.",
+      "evidence": null,
+      "id": "release-time-status-and-novelty-screen",
+      "status": "open"
+    },
+    {
+      "description": "Owner approval of the reward policy and amounts for package-authored targets, including the correlated Frankl group and the target 12 exclusion.",
+      "evidence": null,
+      "id": "reward-policy-approval",
+      "status": "open"
+    },
+    {
+      "description": "Maintainer review of the research-targets source family: status source, selection-audit evidence format, and package-authored attribution.",
+      "evidence": null,
+      "id": "source-family-admission-review",
+      "status": "open"
+    },
+    {
+      "description": "Candidate Lean 4.35.0-rc2 / Mathlib 065356127b1d source with the Math15 and Math30 libraries builds with zero errors, and the support libraries pass the sorry and axiom audit.",
+      "evidence": null,
+      "id": "toolchain-migration-validated",
+      "status": "open"
+    }
+  ],
+  "review_archive_sha256": "sha256:cc282c224109d1255d9a7fe5fb3a8edb48c48be3b047e735c10caf291a6b56e2",
+  "reward_groups": [
+    {
+      "id": "frankl-height-five-minimal-counterexample",
+      "members": [
+        7,
+        8,
+        9
+      ],
+      "policy": "hold-until-explicit-decision",
+      "rationale": "Targets 7-9 share a hypothetical minimal-counterexample antecedent; the proper-cover and full-cover branches need not be disjoint, so one sufficiently strong theorem could discharge several targets. This does not show the three statements are equivalent. Hold all three until an explicit correlated-payout decision is recorded."
+    }
+  ],
+  "reward_target_policy": "stable-theorem-target-v1",
+  "schema_version": 1,
+  "source_family": "research-targets",
+  "target_gates": [
+    {
+      "description": "A compliant certificate or proof route is demonstrated at full size and its verifier time and memory are measured within the published task limits. An impractical certificate format or an unmeasured computed certificate does not satisfy this.",
+      "evidence": null,
+      "id": "certificate-feasibility",
+      "status": "open"
+    },
+    {
+      "description": "Cite the published justification for the extra hypothesis in the statement (the known four-speed 1/5 lower bound) in the source docstring.",
+      "evidence": null,
+      "id": "cite-hypothesis-justification",
+      "status": "open"
+    },
+    {
+      "description": "An explicit decision on correlated rewards for the shared-antecedent group.",
+      "evidence": null,
+      "id": "correlated-reward-decision",
+      "status": "open"
+    },
+    {
+      "description": "Document in the source that primitivity repairs a scaling problem in the literal source question.",
+      "evidence": null,
+      "id": "document-primitivity-repair",
+      "status": "open"
+    },
+    {
+      "description": "Review of the public conditional cycle-exclusion claim and its hypotheses against the exact target.",
+      "evidence": null,
+      "id": "external-claim-review",
+      "status": "open"
+    },
+    {
+      "description": "Resource and proof-route benchmark showing a compliant proof is feasible within verifier limits; large known certificate routes justify benchmarks, not impossibility claims.",
+      "evidence": null,
+      "id": "feasibility-benchmark",
+      "status": "open"
+    },
+    {
+      "description": "Correct the catalog literature baseline (the unconditional m <= 3e result) and recheck the target.",
+      "evidence": null,
+      "id": "literature-baseline-correction",
+      "status": "open"
+    },
+    {
+      "description": "Release-time refresh of rapidly changing lower-bound literature.",
+      "evidence": null,
+      "id": "literature-refresh",
+      "status": "open"
+    },
+    {
+      "description": "Independent source novelty check for the exact statement.",
+      "evidence": null,
+      "id": "novelty-review",
+      "status": "open"
+    },
+    {
+      "description": "Label the statement as a package-authored proposed answer for a narrower regime, not the source's verbatim conjecture.",
+      "evidence": null,
+      "id": "relabel-package-authored",
+      "status": "open"
+    },
+    {
+      "description": "Visually verify the exact survey cell (DS1.18 Table IXa, printed page 36) that the statement relies on.",
+      "evidence": null,
+      "id": "source-cell-verification",
+      "status": "open"
+    },
+    {
+      "description": "Representative witness tests under the pinned static policy and verifier limits; submissions cannot raise options.",
+      "evidence": null,
+      "id": "witness-policy-benchmark",
+      "status": "open"
+    }
+  ],
+  "targets": [
+    {
+      "decision": "hold",
+      "definition": "Math15.Ramsey.Target01",
+      "gates": [
+        "source-cell-verification",
+        "witness-policy-benchmark"
+      ],
+      "implied_by": null,
+      "number": 1,
+      "review_disposition": "Ramsey B4/B7: statement accepted; witness-scale/policy benchmark required. The coordinator brief also requires exact source-cell review for targets 1-3.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source01",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:8218e8e1229a02179ed18aaf1b0c6505edf278b7e9fa0d6e86727fe629d4e3d3",
+      "theorem": "Math15Catalog.source01",
+      "title": "Book Ramsey B4/B7 on 22 vertices"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Ramsey.Target02",
+      "gates": [
+        "source-cell-verification",
+        "witness-policy-benchmark"
+      ],
+      "implied_by": null,
+      "number": 2,
+      "review_disposition": "Ramsey B4/B9: statement accepted; exact source-cell and witness review required; no refutation established.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source02",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:839774bcd2a2b92ab1c73794763c7c7987b665d402cff4cf95b8d91b3644f64d",
+      "theorem": "Math15Catalog.source02",
+      "title": "Book Ramsey B4/B9 on 27 vertices"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Ramsey.Target03",
+      "gates": [
+        "source-cell-verification",
+        "witness-policy-benchmark"
+      ],
+      "implied_by": null,
+      "number": 3,
+      "review_disposition": "Ramsey B7/B11: statement accepted; exact source-cell and witness review required; no refutation established.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source03",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:a5ebf2d539ce1857ed6045b9284b79be774d5b126da3f5b924b2100e992d92c0",
+      "theorem": "Math15Catalog.source03",
+      "title": "Book Ramsey B7/B11 on 37 vertices"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.LonelyRunner.Target04",
+      "gates": [
+        "relabel-package-authored"
+      ],
+      "implied_by": null,
+      "number": 4,
+      "review_disposition": "Lonely runner two-swap: statement accepted; it is a package-authored proposed answer for the narrower both-large regime of an open-ended classification question and must be labelled as such.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source04",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:fc9ddfec4d0d1725aa3a0a9d06329d3accbe40fc8bfcfa6480ddf9d8ba13ae22",
+      "theorem": "Math15Catalog.source04",
+      "title": "Two-entry tight lonely-runner classification (package-authored restricted conjecture)"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.LonelyRunner.Target05",
+      "gates": [
+        "cite-hypothesis-justification"
+      ],
+      "implied_by": null,
+      "number": 5,
+      "review_disposition": "Lonely runner residual case: statement accepted; the extra s >= k restriction needs an explicit citation to the known four-speed 1/5 lower bound.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source05",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:3055fcc5b70670e196527bd0995238dc36a4ce8a04b13b1ebec519f5c0fc258a",
+      "theorem": "Math15Catalog.source05",
+      "title": "Four-speed amended lonely-runner spectrum"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.LonelyRunner.Target06",
+      "gates": [
+        "document-primitivity-repair"
+      ],
+      "implied_by": null,
+      "number": 6,
+      "review_disposition": "Lonely runner sextuples: statement accepted; primitivity repairs a scaling problem in the literal source question (scaling preserves maximum loneliness but scales the maximum speed) and must be documented.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source06",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:d5eb872f7f6ef50ae586cae91d79b03154b8b99a5e197066cf8d5584abf18fc0",
+      "theorem": "Math15Catalog.source06",
+      "title": "Six-speed maximum-speed/denominator bound"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Frankl.Target07",
+      "gates": [
+        "correlated-reward-decision"
+      ],
+      "implied_by": null,
+      "number": 7,
+      "review_disposition": "Frankl proper-cover branch: accepted; correlated-payout policy required.",
+      "reward_group": "frankl-height-five-minimal-counterexample",
+      "reward_policy": "correlated-group",
+      "reward_target_id": "fc-target:Math15Catalog.source07",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:5c572acff766cfb45a39ec96b8295a6deb352bba79ae958864f82c6c6748a612",
+      "theorem": "Math15Catalog.source07",
+      "title": "Height-five Frankl rho 4 proper cover"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Frankl.Target08",
+      "gates": [
+        "correlated-reward-decision"
+      ],
+      "implied_by": null,
+      "number": 8,
+      "review_disposition": "Frankl minimal case: accepted; correlated-payout policy required.",
+      "reward_group": "frankl-height-five-minimal-counterexample",
+      "reward_policy": "correlated-group",
+      "reward_target_id": "fc-target:Math15Catalog.source08",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:6f29db7b095c38459fd7fa5ca112cdd4c0bb467d041a3bcdb309caa753053809",
+      "theorem": "Math15Catalog.source08",
+      "title": "Height-five Frankl rho 3 exclusion"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Frankl.Target09",
+      "gates": [
+        "correlated-reward-decision"
+      ],
+      "implied_by": null,
+      "number": 9,
+      "review_disposition": "Frankl full-cover branch: accepted; correlated-payout policy required.",
+      "reward_group": "frankl-height-five-minimal-counterexample",
+      "reward_policy": "correlated-group",
+      "reward_target_id": "fc-target:Math15Catalog.source09",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:ade6f91465c3fae2508fcfec765b70839c72463fa91e9f336af4a4eac7c34e48",
+      "theorem": "Math15Catalog.source09",
+      "title": "Height-five Frankl rho 4 full cover"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Graceful.Target10",
+      "gates": [
+        "novelty-review"
+      ],
+      "implied_by": null,
+      "number": 10,
+      "review_disposition": "Graceful degree 4/3 trees: accepted; source novelty review incomplete.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source10",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:3571b596aa2552889a8cda8aba83f0c59593db6a0dc8553cd7879f523c4467f4",
+      "theorem": "Math15Catalog.source10",
+      "title": "Graceful degree-4-degree-3 trees"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Graceful.Target11",
+      "gates": [
+        "novelty-review"
+      ],
+      "implied_by": null,
+      "number": 11,
+      "review_disposition": "Graceful three-branch trees: accepted; source novelty review incomplete.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source11",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:3b166c31578308d2f78ae6c4404be3bd49c64815d1dc066ef9bbf480ebcd917a",
+      "theorem": "Math15Catalog.source11",
+      "title": "Graceful three-degree-3 trees"
+    },
+    {
+      "decision": "excluded",
+      "definition": "Math15.Graceful.Target12",
+      "gates": [],
+      "implied_by": 10,
+      "number": 12,
+      "review_disposition": "Graceful restricted family: retained as a statement and excluded from independent rewards because the package proves that target 10 implies target 12. The reverse gluing reduction was not independently verified.",
+      "reward_group": null,
+      "reward_policy": "excluded-implied-by",
+      "reward_target_id": "fc-target:Math15Catalog.source12",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:aa1fbb39cec2408a5ab0bb44bb21e5ef898f338c6760e1e598cee300551ac397",
+      "theorem": "Math15Catalog.source12",
+      "title": "Graceful degree-4-degree-3 trees with two length-2 arms"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Collatz.Target13",
+      "gates": [
+        "feasibility-benchmark",
+        "novelty-review"
+      ],
+      "implied_by": null,
+      "number": 13,
+      "review_disposition": "Collatz density exponent 23/25: accepted; resource/proof-route and novelty/feasibility hold.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source13",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:50ed2ccb705adb4f316b1340200cb1d550f65362c869a15f6587be56f0df5146",
+      "theorem": "Math15Catalog.source13",
+      "title": "Collatz density exponent 23/25"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Collatz.Target14",
+      "gates": [
+        "external-claim-review",
+        "feasibility-benchmark",
+        "novelty-review"
+      ],
+      "implied_by": null,
+      "number": 14,
+      "review_disposition": "Collatz cycle bound: accepted; novelty/hypothesis and resource hold. A public unrefereed repository claims to exclude cycles with at most 101 local minima assuming convergence through 2^71 and RhinBound; this is not an unconditional Lean proof of the exact target and was not independently built. Claims that the target is unprovable or already solved are not established.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source14",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:7a4f270a519655e268f9866f8d691e4d8e16972ecaa85fde6b84a86465d88b65",
+      "theorem": "Math15Catalog.source14",
+      "title": "Collatz exclusion of 96-local-minimum cycles"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math15.Collatz.Target15",
+      "gates": [
+        "certificate-feasibility",
+        "novelty-review"
+      ],
+      "implied_by": null,
+      "number": 15,
+      "review_disposition": "Collatz range below 2^72: checker sound; the supplied certificate format has 2^72-2 rows and no feasible full certificate or compliant alternative was demonstrated; hold. Not a proof that every compressed or conceptual proof is impossible.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math15Catalog.source15",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_type_sha256": "sha256:c2759c85c11d48ed0fe6405e647d1a7744585c6722fd84d7aacce14dd4cc3eb0",
+      "theorem": "Math15Catalog.source15",
+      "title": "Collatz convergence below 2^72"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.MatrixBoolean.Statement16",
+      "gates": [],
+      "implied_by": null,
+      "number": 16,
+      "review_disposition": "Complex matrix multiplication rank <= 47: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source16",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:6851c92e1359fb8774abc091d914b3666c3a3083a97f03f1bf023df2a74dc36e",
+      "theorem": "Math30Catalog.source16",
+      "title": "Complex 4x4 exact bilinear multiplication with at most 47 products"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math30.MatrixBoolean.Statement17",
+      "gates": [
+        "literature-refresh"
+      ],
+      "implied_by": null,
+      "number": 17,
+      "review_disposition": "F2 rank exactly 23: accepted; refresh rapidly changing lower-bound literature at release time.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source17",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:a51a323eae9e4aa2ad24d1ac968b50b7f3c513234feb271326f96f05dc41011a",
+      "theorem": "Math30Catalog.source17",
+      "title": "Exact F2 bilinear rank 23 for 3x3 multiplication"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.MatrixBoolean.Statement18",
+      "gates": [],
+      "implied_by": null,
+      "number": 18,
+      "review_disposition": "Border rank lower bound 18: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source18",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:0b2c494c50df3cd3d4ca028724438e3576a0d1a2d0d5a56f76485db66adc011d",
+      "theorem": "Math30Catalog.source18",
+      "title": "Complex 3x3 border rank at least 18"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math30.MatrixBoolean.Statement19",
+      "gates": [
+        "certificate-feasibility"
+      ],
+      "implied_by": null,
+      "number": 19,
+      "review_disposition": "Finite Boolean function candidate: accepted; computed-certificate feasibility and full-size verifier performance are unmeasured.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source19",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:3eb413a7b2bf1f7273034cd7bb49570251316516cf142e7d7775e967e5025d25",
+      "theorem": "Math30Catalog.source19",
+      "title": "Degree at most 5, 14-variable Boolean function fully sensitive at zero"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.MatrixBoolean.Statement20",
+      "gates": [],
+      "implied_by": null,
+      "number": 20,
+      "review_disposition": "Degree/sensitivity exponent: accepted research direction; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source20",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:98848fdf241eb10f5c9ca8576ca2084a32adb5e75a155ebbc1eb0c7bf9b22521",
+      "theorem": "Math30Catalog.source20",
+      "title": "Uniform subquadratic sensitivity-versus-exact-real-degree upper bound"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.MatrixBoolean.Statement21",
+      "gates": [],
+      "implied_by": null,
+      "number": 21,
+      "review_disposition": "Cubic block-sensitivity bound: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source21",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:e4f89431c67bbaf4a2695cfe1434d57a72272336315aa5f5d55c501714f02b76",
+      "theorem": "Math30Catalog.source21",
+      "title": "Uniform cubic ordinary-sensitivity upper bound for block sensitivity"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Problem22",
+      "gates": [],
+      "implied_by": null,
+      "number": 22,
+      "review_disposition": "Wilf embedding dimension 4: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source22",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043",
+      "theorem": "Math30Catalog.source22",
+      "title": "Wilf inequality for proper numerical semigroups with embedding dimension 4"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Problem23",
+      "gates": [],
+      "implied_by": null,
+      "number": 23,
+      "review_disposition": "Wilf conductor <= 4m: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source23",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:afce0d65814782c384aee6fa7a554af72c93d6e018348c8495ca2ad8a9213b0e",
+      "theorem": "Math30Catalog.source23",
+      "title": "Wilf inequality for proper numerical semigroups with conductor at most four times multiplicity"
+    },
+    {
+      "decision": "hold",
+      "definition": "Math30.Problem24",
+      "gates": [
+        "literature-baseline-correction"
+      ],
+      "implied_by": null,
+      "number": 24,
+      "review_disposition": "Wilf m <= 4e: accepted; the catalog literature baseline misses the unconditional m <= 3e result and needs correction and recheck.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source24",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:82c0528bb0ab200f4bd235623a3c0f9ec42b3d19657e5c02437ea7c190ba591c",
+      "theorem": "Math30Catalog.source24",
+      "title": "Wilf inequality for proper numerical semigroups with multiplicity at most four times embedding dimension"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Polya.Target25",
+      "gates": [],
+      "implied_by": null,
+      "number": 25,
+      "review_disposition": "Polya third variational value: accepted canonical formulation and support chain.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source25",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:2d762e6cba2e4fd1c52030adb6ef53a371d0437c902c222e160d21c13119fd36",
+      "theorem": "Math30Catalog.source25",
+      "title": "Third planar Dirichlet Polya inequality, area times lambda3 at least 12pi"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Polya.Target26",
+      "gates": [],
+      "implied_by": null,
+      "number": 26,
+      "review_disposition": "Polya fourth variational value: accepted canonical formulation and support chain.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source26",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:76a6988ad5aa908ce2c0ebba5086943a59a333e37a2a7876f62969d05ed8e233",
+      "theorem": "Math30Catalog.source26",
+      "title": "Fourth planar Dirichlet Polya inequality, area times lambda4 at least 16pi"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Polya.Target27",
+      "gates": [],
+      "implied_by": null,
+      "number": 27,
+      "review_disposition": "Polya convex-domain family: accepted canonical formulation and support chain.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source27",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb",
+      "theorem": "Math30Catalog.source27",
+      "title": "All positive-index Dirichlet Polya inequalities on convex planar domains"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Problem28",
+      "gates": [],
+      "implied_by": null,
+      "number": 28,
+      "review_disposition": "Quartic polynomial minimal graphs: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source28",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:f082d84e174b8ecf4cc34a56d92a8654913aa2180b26ed6b6ab3ae86c6635c8a",
+      "theorem": "Math30Catalog.source28",
+      "title": "Every degree-at-most-four scalar real polynomial minimal graph is affine, in every dimension"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Problem29",
+      "gates": [],
+      "implied_by": null,
+      "number": 29,
+      "review_disposition": "Polynomial minimal graphs in dimension 8: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source29",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:276676286acdf2d9c580ee8489d9c9a1b83507103ce5b580f4478ee5ca1619e8",
+      "theorem": "Math30Catalog.source29",
+      "title": "Every scalar real polynomial minimal graph in dimension eight is affine"
+    },
+    {
+      "decision": "source-review-accepted",
+      "definition": "Math30.Problem30",
+      "gates": [],
+      "implied_by": null,
+      "number": 30,
+      "review_disposition": "Dimension-dependent polynomial degree bound: accepted; no blocking source defect found.",
+      "reward_group": null,
+      "reward_policy": "independent",
+      "reward_target_id": "fc-target:Math30Catalog.source30",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_type_sha256": "sha256:292e1f8f1b71121db89e53999d3e2f399f850cab68800a23764a43c8e94060aa",
+      "theorem": "Math30Catalog.source30",
+      "title": "For every dimension n >= 8, a degree bound uniform over all scalar real polynomial minimal graphs"
+    }
+  ]
+}

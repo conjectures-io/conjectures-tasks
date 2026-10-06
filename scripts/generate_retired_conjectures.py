@@ -13,7 +13,11 @@ retired bundle from the commit that deleted it and writes the display fields to
 `tiers/tier-1/retired-conjectures.json`. Nothing it emits is ever consulted by task admission:
 the API loads it into a separate read-only index, and `allowed_task_bundles` never sees it.
 
-Regenerate after every retirement, then refresh `retired_conjectures_sha256` in the tier policy.
+Held targets are recovered the same way. Each entry carries `pool_status`: `retired` for a line
+in `RETIREMENTS.md`, `held` for a line in `HOLDS.md`. A held target is neither solved nor retired.
+
+Regenerate after every retirement or hold, then refresh `retired_conjectures_sha256` in the tier
+policy.
 The output is deterministic, so a rerun with no new retirement is a no-op diff.
 """
 
@@ -83,27 +87,38 @@ def read_before(commit: str, path: str) -> str:
     return git("show", f"{commit}~1:{path}")
 
 
+# Each log and the pool status its lines publish. `HOLDS.md` is optional; `RETIREMENTS.md` is not.
+POOL_STATUS_LOGS = (("retired", "RETIREMENTS.md"), ("held", "HOLDS.md"))
+
+
 def retirement_log() -> dict[str, dict[str, str]]:
-    """Theorem -> retirement date and reason, from the human-authored log."""
-    path = TASKS_ROOT / "tiers" / TIER_NAME / "RETIREMENTS.md"
+    """Theorem -> pool status, date and reason, from the human-authored logs.
+
+    A theorem may appear in only one log: a target is either retired or held, never both.
+    """
     entries: dict[str, dict[str, str]] = {}
-    for line in path.read_text(encoding="utf-8").splitlines():
-        if not line.startswith("- "):
+    for status, name in POOL_STATUS_LOGS:
+        path = TASKS_ROOT / "tiers" / TIER_NAME / name
+        if status == "held" and not path.exists():
             continue
-        match = RETIREMENT_LINE.match(line)
-        if match is None:
-            raise GeneratorError(f"unparsable retirement entry: {line}")
-        theorem = match.group("theorem")
-        if theorem in entries:
-            raise GeneratorError(f"duplicate retirement entry for {theorem}")
-        reason = match.group("reason")
-        code = REASON_CODE.match(reason)
-        entries[theorem] = {
-            "retired_on": match.group("date"),
-            "reason_code": code.group("code") if code else reason,
-            "reason": reason,
-        }
-    if not entries:
+        for line in path.read_text(encoding="utf-8").splitlines():
+            if not line.startswith("- "):
+                continue
+            match = RETIREMENT_LINE.match(line)
+            if match is None:
+                raise GeneratorError(f"unparsable {name} entry: {line}")
+            theorem = match.group("theorem")
+            if theorem in entries:
+                raise GeneratorError(f"duplicate retirement or hold entry for {theorem}")
+            reason = match.group("reason")
+            code = REASON_CODE.match(reason)
+            entries[theorem] = {
+                "pool_status": status,
+                "retired_on": match.group("date"),
+                "reason_code": code.group("code") if code else reason,
+                "reason": reason,
+            }
+    if not any(entry["pool_status"] == "retired" for entry in entries.values()):
         raise GeneratorError("RETIREMENTS.md lists no retirements")
     return entries
 
@@ -160,7 +175,7 @@ def build() -> dict[str, object]:
     active = json.loads((TASKS_ROOT / "allowlist.json").read_text(encoding="utf-8"))
     active_theorems = {row["theorem"] for row in active["allowed_source_theorems"]}
     if active_theorems & log.keys():
-        raise GeneratorError("an active source theorem is still in RETIREMENTS.md")
+        raise GeneratorError("an active source theorem is still in RETIREMENTS.md or HOLDS.md")
     bundles = deleted_bundles()
 
     # theorem -> {"tasks": [...], "source": {...}, "commit": ...}
@@ -175,7 +190,8 @@ def build() -> dict[str, object]:
             continue
         if theorem not in log:
             raise GeneratorError(
-                f"{directory} was deleted at {commit[:8]} but {theorem} is not in RETIREMENTS.md"
+                f"{directory} was deleted at {commit[:8]} but {theorem} is in neither "
+                "RETIREMENTS.md nor HOLDS.md"
             )
         entry = grouped.setdefault(theorem, {"tasks": [], "source": recovered["source"], "commit": commit})
         if entry["source"] != recovered["source"]:
@@ -213,6 +229,7 @@ def build() -> dict[str, object]:
                 "reward_target_id": REWARD_TARGET_PREFIX + theorem,
                 "theorem": theorem,
                 "tier": entry["tier"],
+                "pool_status": log[theorem]["pool_status"],
                 "retired_on": log[theorem]["retired_on"],
                 "reason_code": log[theorem]["reason_code"],
                 "reason": log[theorem]["reason"],

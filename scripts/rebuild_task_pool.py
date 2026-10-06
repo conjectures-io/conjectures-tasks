@@ -27,6 +27,7 @@ from verifier.task_pool import (
     DEFAULT_TIER_SIZE,
     build_task_allowlist,
     group_task_declarations,
+    load_held_sources,
     load_retired_conjectures,
     load_retired_sources,
     load_selection_audit,
@@ -140,6 +141,7 @@ def main() -> int:
     try:
         metadata = arguments.metadata_root
         retired = load_retired_sources(metadata / "retired-source-theorems.json")
+        held = load_held_sources(metadata / "held-source-theorems.json")
         retired_conjectures = load_retired_conjectures(
             metadata / "retired-conjectures.json"
         )
@@ -148,6 +150,7 @@ def main() -> int:
         selected_declarations = select_task_declarations(
             catalog=catalog,
             retired=retired,
+            held=held,
             selection_audit=selection_audit,
             task_targets=task_targets,
             pool_size=DEFAULT_TIER_SIZE,
@@ -195,6 +198,7 @@ def main() -> int:
         allowlist_content = build_task_allowlist(
             catalog=catalog,
             retired=retired,
+            held=held,
             retired_conjectures=retired_conjectures,
             selection_audit=selection_audit,
             task_targets=task_targets,

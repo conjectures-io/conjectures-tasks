@@ -1,0 +1,2257 @@
+{
+  "schema_version": 1,
+  "owner_decision_at_utc": "2026-10-06T23:17:23Z",
+  "owner_instruction": "Assume the proofs are valid and close them",
+  "source_thread_id": "01a0fe67-7451-7304-8f13-fc9d785ce03f",
+  "scope": "STAGING ONLY; no production modification or deployment",
+  "decision": "owner_accepted_publication_closure",
+  "independent_proof_verification_performed": false,
+  "production_deployment_authorized": false,
+  "catalog_audit_library_id": "libfile_9449d175f0b88191bfbdde4c922a0596",
+  "catalog_audit_version": 1,
+  "catalog_audit_sha256": "ee1e7bd0a60e4b6400ab51673bc1123c17ad99e656eafe1b6d7ecd314d015412",
+  "targets": [
+    {
+      "reward_target_id": "fc-target:Erdos138.erdos_138",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/138.lean",
+      "source_problem_number": 138,
+      "theorem": "Erdos138.erdos_138",
+      "exact_statement_summary": "Two-color van der Waerden numbers W(k) satisfy W(k)^(1/k)\u2192infinity.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 160 contains an exact or stronger resolution claim affecting this target. Van der Waerden-number kth-root growth tends to infinity. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: Fox\u2013Hunter June 2026 proves superexponential growth for three colors, not two. The solved additive-increment bound W(k+1)\u2265W(k)+k also does not establish this selected root-divergence assertion. The retrieved September 14 atlas proof establishes W(k)/2^k\u2192infinity, still weaker than W(k)^(1/k)\u2192infinity; the difference theorem is weaker as well.",
+      "primary_sources": [
+        {
+          "title": "Erd\u0151s Problems 138",
+          "url": "https://www.erdosproblems.com/138",
+          "source_date": "02 June 2026",
+          "accessed_date": "2026-10-06",
+          "retrieval": "Live numbered-page fetch failed HTTP403; indexed primary content inspected"
+        },
+        {
+          "title": "Pinned base formal source plus verified local audit patches",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/138.lean",
+          "source_date": "base snapshot; exact patched local HEAD verified2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector base file and local exact patched commit6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "title": "Current upstream formal source",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/138.lean",
+          "source_date": "2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector complete file"
+        },
+        {
+          "title": "Current official problem tracker",
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "source_date": "2025-08-31",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector current file, not a live-page-status certification"
+        },
+        {
+          "title": "Fox\u2013Hunter three-color theorem",
+          "url": "https://arxiv.org/abs/2606.02541",
+          "source_date": "2026-06-01",
+          "accessed_date": "2026-10-06",
+          "retrieval": "retrieved primary text/source and compared scope"
+        },
+        {
+          "title": "Proof linked by current upstream, scoped variant checked",
+          "url": "https://github.com/mo271/formal-conjectures/blob/6ac8d0cbe1a85e71747c62c1391a84788015ebc1/FormalConjectures/ErdosProblems/138.lean#L844",
+          "source_date": "2026-04-10T09:17:08Z",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector complete linked Lean source; statement interface inspected"
+        },
+        {
+          "title": "Proof linked by current upstream, scoped variant checked",
+          "url": "https://github.com/niketp03/atlas-fc-verified/blob/15e4b3a7584e218cec531aeaf71cce72a8a9ecb1/AtlasFCSolutions/Erdos138.lean#L1033",
+          "source_date": "2026-09-14T02:11:09Z",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector complete linked Lean source; statement interface inspected"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
+      "exact_published_type": "True \u2194 Filter.Tendsto (fun k => \u2191(Erdos138.W k) ^ (1 / \u2191k)) Filter.atTop Filter.atTop",
+      "source_docstring": "In [Er80] Erd\u0151s asks whether\n$$ \\lim_{k \\to \\infty} (W(k))^{1/k} = \\infty $$\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-138-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos138-erdos-138-83240c1dd5ac8082580951ab71386403-problem",
+          "reward_target_id": "fc-target:Erdos138.erdos_138",
+          "source_indices": [
+            853
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/138.lean",
+          "target_type_sha256s": [
+            "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7"
+          ],
+          "task_bundle_sha256": "sha256:caf8d2ff33806dee54aeddd39e78669c95e62d085495d7ff4d9d144dad744df4",
+          "task_id": "fc-6a786f99-erdos138-erdos-138-1ef589ced9-formalized-v1",
+          "theorems": [
+            "Erdos138.erdos_138"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos138-erdos-138-83240c1dd5ac8082580951ab71386403-problem",
+          "reward_target_id": "fc-target:Erdos138.erdos_138",
+          "source_indices": [
+            853
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/138.lean",
+          "target_type_sha256s": [
+            "sha256:b44b7d9ef803af86a998689e5a9f89b95a816a4596be8ffab1353f2fb6e3f93e"
+          ],
+          "task_bundle_sha256": "sha256:6a00a0cd865f4e657c384a61ed7da725ab831f75163b3e908d4ea9038f49812c",
+          "task_id": "fc-6a786f99-erdos138-erdos-138-0f57cb3ce1-counterexample-v1",
+          "theorems": [
+            "Erdos138.erdos_138"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "live_numbered_primary_page_attempted": true,
+        "live_numbered_primary_page_result": "HTTP403",
+        "indexed_primary_content_reviewed": true,
+        "current_official_tracker": {
+          "state": "open",
+          "last_update": "2025-08-31"
+        },
+        "exact_pinned_source_reviewed": true,
+        "latest_formal_source_reviewed": true,
+        "latest_selected_signature_changed": false,
+        "latest_selected_declaration_present": true,
+        "queries": [
+          "site:erdosproblems.com/138 \"#138\"",
+          "\"Erdos\" \"138\" solved proof 2026"
+        ],
+        "solution_record_index": "Complete current plby/ErdosProblems directory examined; matching124b and1095 files read; all assigned numbered targets searched individually",
+        "additional_primary_sources_compared": 1,
+        "limits": [
+          "All direct numbered-page requests returned403; indexed snapshots are mostly from June\u2013July2026 and are not current page bodies.",
+          "Current GitHub tracker accessed2026-10-06; its labels are numbered-parent metadata and can lag exact public or platform solutions.",
+          "Erd\u0151s site stopped displaying statuses/counts on2026-10-06; frozen June30 AI ledger is not a current completeness guarantee.",
+          "No independent rebuild of external or certified proofs in this read-only audit."
+        ],
+        "all_current_upstream_formal_proof_links_attempted": true,
+        "current_upstream_formal_proof_links": [
+          {
+            "url": "https://github.com/XC0R/formal-conjectures/blob/6c7a16e8998d1c597fa2a5c6329bc9301fcc56e2/FormalConjectures/ErdosProblems/138.lean#L79",
+            "retrieval": "unavailable: GitHub404 or web inaccessible",
+            "date": null
+          },
+          {
+            "url": "https://github.com/XC0R/formal-conjectures/blob/6c7a16e8998d1c597fa2a5c6329bc9301fcc56e2/FormalConjectures/ErdosProblems/138.lean#L142",
+            "retrieval": "unavailable: GitHub404 or web inaccessible",
+            "date": null
+          },
+          {
+            "url": "https://github.com/mo271/formal-conjectures/blob/6ac8d0cbe1a85e71747c62c1391a84788015ebc1/FormalConjectures/ErdosProblems/138.lean#L844",
+            "retrieval": "complete source retrieved",
+            "date": "2026-04-10T09:17:08Z"
+          },
+          {
+            "url": "https://github.com/niketp03/atlas-fc-verified/blob/15e4b3a7584e218cec531aeaf71cce72a8a9ecb1/AtlasFCSolutions/Erdos138.lean#L1033",
+            "retrieval": "complete source retrieved",
+            "date": "2026-09-14T02:11:09Z"
+          }
+        ]
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos138.erdos_138",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/138.lean",
+        "source_problem_number": 138,
+        "theorem": "Erdos138.erdos_138",
+        "exact_statement_summary": "Two-color van der Waerden numbers W(k) satisfy W(k)^(1/k)\u2192infinity.",
+        "exact_published_type": "True \u2194 Filter.Tendsto (fun k => \u2191(Erdos138.W k) ^ (1 / \u2191k)) Filter.atTop Filter.atTop",
+        "source_docstring": "In [Er80] Erd\u0151s asks whether\n$$ \\lim_{k \\to \\infty} (W(k))^{1/k} = \\infty $$\n",
+        "source_type_sha256": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
+        "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-138-formalized/source-metadata.json",
+        "prior_status": "partial",
+        "prior_disposition": "retain_provisionally",
+        "corpus_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "160"
+        ],
+        "relationship": "stronger_implication",
+        "exact_scope_explanation": "The release claims a uniform lower bound W(r,k)>k^(k floor(log_2 r)/100000) for all r>=2 and sufficiently large k. Its solution module also states kthRoot_tendsto for every fixed r>=2. Specializing r=2 gives exactly W(k)^(1/k)->infinity after identifying the [0,N) coloring convention with the target [1,N] convention and transporting the definitions.",
+        "stated_verification": "Formalization catalogue lists ComparatorChallenges/QuantitativeVanDerWaerden.json, OAI.QuantitativeVanDerWaerden.uniform_lower_bound, OAI/Combinatorics/ProgressionColoring/Main.lean. The actual solution source also states kthRoot_tendsto. Comparator allows only propext, Quot.sound, Classical.choice and disables nanoda. Source inspected, not rebuilt or axiom-audited transitively; review.status is unchecked.",
+        "recommendation": "hold_pending_exact_validation",
+        "new_release_hold": true,
+        "validation_required": "Validate the release theorem and its assumptions, bridge it to the pinned target definition/type, and replay the exact target before any retirement; preserve existing submission/closure history.",
+        "families": [
+          {
+            "family_id": "160",
+            "family_title": "160. Superexponential van der Waerden numbers.",
+            "catalogue_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+            "manuscripts": [
+              {
+                "title": "Quantitative Superexponential Bounds for van der Waerden Numbers",
+                "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/paper.pdf"
+              }
+            ],
+            "lean_scope_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/160.md",
+            "lean_scope_read": true
+          }
+        ],
+        "all_corpus_retrieval_candidates": [
+          {
+            "family_id": "160",
+            "score": 0.33569
+          },
+          {
+            "family_id": "170",
+            "score": 0.03484
+          },
+          {
+            "family_id": "263",
+            "score": 0.03394
+          },
+          {
+            "family_id": "298",
+            "score": 0.03277
+          },
+          {
+            "family_id": "171",
+            "score": 0.02982
+          },
+          {
+            "family_id": "377",
+            "score": 0.0286
+          }
+        ],
+        "coverage": {
+          "family_summaries_screened": 372,
+          "manuscript_catalogue_screened": true,
+          "exact_type_and_docstring_compared": true,
+          "proof_rebuild_performed": false
+        },
+        "screen_status": "full_claim_validation_hold",
+        "source_scope": "The release claims a uniform lower bound W(r,k)>k^(k floor(log_2 r)/100000) for all r>=2 and sufficiently large k. Its solution module also states kthRoot_tendsto for every fixed r>=2. Specializing r=2 gives exactly W(k)^(1/k)->infinity after identifying the [0,N) coloring convention with the target [1,N] convention and transporting the definitions.",
+        "verification_limitations": "Formalization catalogue lists ComparatorChallenges/QuantitativeVanDerWaerden.json, OAI.QuantitativeVanDerWaerden.uniform_lower_bound, OAI/Combinatorics/ProgressionColoring/Main.lean. The actual solution source also states kthRoot_tendsto. Comparator allows only propext, Quot.sound, Classical.choice and disables nanoda. Source inspected, not rebuilt or axiom-audited transitively; review.status is unchecked.",
+        "recommended_disposition": "hold_pending_exact_validation",
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/README.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quantitative-Superexponential-Bounds-for-van-der-Waerden-Numbers-September-23-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/160.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/QuantitativeVanDerWaerden.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/QuantitativeVanDerWaerden.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/ProgressionColoring/Main.lean"
+        ]
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/142.lean",
+      "source_problem_number": 142,
+      "theorem": "Erdos142.erdos_142.variants.lower",
+      "exact_statement_summary": "For every k>1, the largest k-term-AP-free subset of[1, N] has size o(N/log N).",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 159 contains an exact or stronger resolution claim affecting this target. Quantitative progression-free bound implies the selected o(N/log N) bound. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: Strong fixed-small-k progress does not establish the selected all-k assertion. The parent asymptotic-formula question is stronger still; neither a k=3 result nor a non-improving AI proof is an all-k resolution.",
+      "primary_sources": [
+        {
+          "title": "Erd\u0151s Problems 142",
+          "url": "https://www.erdosproblems.com/142",
+          "source_date": "04 April 2026",
+          "accessed_date": "2026-10-06",
+          "retrieval": "Live numbered-page fetch failed HTTP403; indexed primary content inspected"
+        },
+        {
+          "title": "Pinned base formal source plus verified local audit patches",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/142.lean",
+          "source_date": "base snapshot; exact patched local HEAD verified2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector base file and local exact patched commit6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "title": "Current upstream formal source",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/142.lean",
+          "source_date": "2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector complete file"
+        },
+        {
+          "title": "Current official problem tracker",
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "source_date": "2025-08-31",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector current file, not a live-page-status certification"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c",
+      "exact_published_type": "\u2200 (k : \u2115), 1 < k \u2192 (fun N => \u2191(Erdos142.r k N)) =o[Filter.atTop] fun N => \u2191N / Real.log \u2191N",
+      "source_docstring": "Show that $r_k(N) = o_k(N / \\log N)$, where $r_k(N)$ the largest possible size of a subset\nof $\\{1, \\dots, N\\}$ that does not contain any non-trivial $k$-term arithmetic progression.\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-142-variants-lower-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-variants-lower-a8108e1b448824a88e59c4069b1bc4d9-problem",
+          "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
+          "source_indices": [
+            873
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/142.lean",
+          "target_type_sha256s": [
+            "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c"
+          ],
+          "task_bundle_sha256": "sha256:a544c4519f9ac5fea0abe56ad300c09f4e37f29c444343906bfb3e14c3953df9",
+          "task_id": "fc-6a786f99-variants-lower-a1e26136f9-formalized-v1",
+          "theorems": [
+            "Erdos142.erdos_142.variants.lower"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-variants-lower-a8108e1b448824a88e59c4069b1bc4d9-problem",
+          "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
+          "source_indices": [
+            873
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/142.lean",
+          "target_type_sha256s": [
+            "sha256:770d6750c85da8deb02b6d61007c14d7063663b9ccf9735e05ac941a25ca8838"
+          ],
+          "task_bundle_sha256": "sha256:eab5238c75ba6fa72082ac0461e921f1716191214ac06efcce0568d704acd140",
+          "task_id": "fc-6a786f99-variants-lower-8a06da4606-counterexample-v1",
+          "theorems": [
+            "Erdos142.erdos_142.variants.lower"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "live_numbered_primary_page_attempted": true,
+        "live_numbered_primary_page_result": "HTTP403",
+        "indexed_primary_content_reviewed": true,
+        "current_official_tracker": {
+          "state": "open",
+          "last_update": "2025-08-31"
+        },
+        "exact_pinned_source_reviewed": true,
+        "latest_formal_source_reviewed": true,
+        "latest_selected_signature_changed": false,
+        "latest_selected_declaration_present": true,
+        "queries": [
+          "site:erdosproblems.com/142 \"#142\"",
+          "\"Erdos\" \"142\" solved proof 2026"
+        ],
+        "solution_record_index": "Complete current plby/ErdosProblems directory examined; matching124b and1095 files read; all assigned numbered targets searched individually",
+        "additional_primary_sources_compared": 0,
+        "limits": [
+          "All direct numbered-page requests returned403; indexed snapshots are mostly from June\u2013July2026 and are not current page bodies.",
+          "Current GitHub tracker accessed2026-10-06; its labels are numbered-parent metadata and can lag exact public or platform solutions.",
+          "Erd\u0151s site stopped displaying statuses/counts on2026-10-06; frozen June30 AI ledger is not a current completeness guarantee.",
+          "No independent rebuild of external or certified proofs in this read-only audit."
+        ],
+        "all_current_upstream_formal_proof_links_attempted": true,
+        "current_upstream_formal_proof_links": []
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/142.lean",
+        "source_problem_number": 142,
+        "theorem": "Erdos142.erdos_142.variants.lower",
+        "exact_statement_summary": "For every k>1, the largest k-term-AP-free subset of[1, N] has size o(N/log N).",
+        "exact_published_type": "\u2200 (k : \u2115), 1 < k \u2192 (fun N => \u2191(Erdos142.r k N)) =o[Filter.atTop] fun N => \u2191N / Real.log \u2191N",
+        "source_docstring": "Show that $r_k(N) = o_k(N / \\log N)$, where $r_k(N)$ the largest possible size of a subset\nof $\\{1, \\dots, N\\}$ that does not contain any non-trivial $k$-term arithmetic progression.\n",
+        "source_type_sha256": "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c",
+        "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-142-variants-lower-formalized/source-metadata.json",
+        "prior_status": "partial",
+        "prior_disposition": "retain_provisionally",
+        "corpus_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "159"
+        ],
+        "relationship": "stronger_implication",
+        "exact_scope_explanation": "The manuscript main theorem gives r_k(N)<=C_k N exp(-c_k(log N)^epsilon_k) for every fixed k>=3. Dividing by N/log N gives a bound tending to zero; the remaining k=2 case is elementary since a nonconstant 2-term-AP-free set has at most one element. This implies the exact all-k>1 target. The selected Lean comparator is the divergent-reciprocal-sum consequence, explicitly not this quantitative bound; no exact target replay was performed.",
+        "stated_verification": "lean/docs/159.md explicitly excludes the quantitative AP-free bound from its selected statement. ErdosReciprocal comparator JSON and its solution module are present but no corresponding main_results entry was located in formalization.yaml. The quantitative theorem was read in manuscript source, not independently validated. Any exact-target hold must use the paper-level stronger implication, not claim Lean verification of r_k(N).",
+        "recommendation": "hold_pending_exact_validation",
+        "new_release_hold": true,
+        "validation_required": "Validate the release theorem and its assumptions, bridge it to the pinned target definition/type, and replay the exact target before any retirement; preserve existing submission/closure history.",
+        "families": [
+          {
+            "family_id": "159",
+            "family_title": "159. Erd\u0151s\u2019s reciprocal-sum conjecture and quasipolynomial Szemer\u00e9di bounds.",
+            "catalogue_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+            "manuscripts": [
+              {
+                "title": "Quasipolynomial Bounds for Arithmetic Progressions",
+                "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf"
+              }
+            ],
+            "lean_scope_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/159.md",
+            "lean_scope_read": true
+          }
+        ],
+        "all_corpus_retrieval_candidates": [
+          {
+            "family_id": "159",
+            "score": 0.1593
+          },
+          {
+            "family_id": "012",
+            "score": 0.05517
+          },
+          {
+            "family_id": "138",
+            "score": 0.04903
+          },
+          {
+            "family_id": "075",
+            "score": 0.03982
+          },
+          {
+            "family_id": "034",
+            "score": 0.03925
+          },
+          {
+            "family_id": "130",
+            "score": 0.03846
+          }
+        ],
+        "coverage": {
+          "family_summaries_screened": 372,
+          "manuscript_catalogue_screened": true,
+          "exact_type_and_docstring_compared": true,
+          "proof_rebuild_performed": false
+        },
+        "screen_status": "full_claim_validation_hold",
+        "source_scope": "The manuscript main theorem gives r_k(N)<=C_k N exp(-c_k(log N)^epsilon_k) for every fixed k>=3. Dividing by N/log N gives a bound tending to zero; the remaining k=2 case is elementary since a nonconstant 2-term-AP-free set has at most one element. This implies the exact all-k>1 target. The selected Lean comparator is the divergent-reciprocal-sum consequence, explicitly not this quantitative bound; no exact target replay was performed.",
+        "verification_limitations": "lean/docs/159.md explicitly excludes the quantitative AP-free bound from its selected statement. ErdosReciprocal comparator JSON and its solution module are present but no corresponding main_results entry was located in formalization.yaml. The quantitative theorem was read in manuscript source, not independently validated. Any exact-target hold must use the paper-level stronger implication, not claim Lean verification of r_k(N).",
+        "recommended_disposition": "hold_pending_exact_validation",
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/README.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/159.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/ErdosReciprocal.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/ErdosReciprocal.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/Progressions/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/build/sections/00-introduction.tex"
+        ]
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos172.erdos_172",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/172.lean",
+      "source_problem_number": 172,
+      "theorem": "Erdos172.erdos_172",
+      "exact_statement_summary": "Every finite coloring of naturals has arbitrarily large finite sets whose all nonempty distinct-element subset sums and products share one color.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 164 contains an exact or stronger resolution claim affecting this target. Finite sums-and-products monochromaticity, including the natural-number coloring formulation. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: Separate sums/products theorems and smaller monochromatic configurations do not imply this simultaneous arbitrarily-large finite-set assertion. No exact full resolution located.",
+      "primary_sources": [
+        {
+          "title": "Erd\u0151s Problems 172",
+          "url": "https://www.erdosproblems.com/172",
+          "source_date": "06 April 2026",
+          "accessed_date": "2026-10-06",
+          "retrieval": "Live numbered-page fetch failed HTTP403; indexed primary content inspected"
+        },
+        {
+          "title": "Pinned base formal source plus verified local audit patches",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/172.lean",
+          "source_date": "base snapshot; exact patched local HEAD verified2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector base file and local exact patched commit6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "title": "Current upstream formal source",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/172.lean",
+          "source_date": "2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector complete file"
+        },
+        {
+          "title": "Current official problem tracker",
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "source_date": "2025-08-31",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector current file, not a live-page-status certification"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",
+      "exact_published_type": "True \u2194\n  \u2200 (n : \u2115) (color : \u2115 \u2192 Fin n) (m : \u2115),\n    \u2203 A, A.card \u2265 m \u2227 \u2203 c, \u2200 (S : Finset \u21a5A), S.Nonempty \u2192 color (\u2211 x \u2208 S, \u2191x) = c \u2227 color (\u220f x \u2208 S, \u2191x) = c",
+      "source_docstring": "Is it true that in any finite colouring of $\\mathbb{N}$ there exist arbitrarily large finite $A$ such that all sums\nand products of distinct elements in $A$ are the same colour?\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-172-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos172-erdos-172-f6ca1a59d04849ea59761d94156ec9b1-problem",
+          "reward_target_id": "fc-target:Erdos172.erdos_172",
+          "source_indices": [
+            928
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/172.lean",
+          "target_type_sha256s": [
+            "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892"
+          ],
+          "task_bundle_sha256": "sha256:b430559f73608ea4f0b22476de5b49f53412eff87c624b4e014d20529c681457",
+          "task_id": "fc-6a786f99-erdos172-erdos-172-6b0bfa5619-formalized-v1",
+          "theorems": [
+            "Erdos172.erdos_172"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos172-erdos-172-f6ca1a59d04849ea59761d94156ec9b1-problem",
+          "reward_target_id": "fc-target:Erdos172.erdos_172",
+          "source_indices": [
+            928
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/172.lean",
+          "target_type_sha256s": [
+            "sha256:70f5b981c981610fcfc104a61d91546a4ea94181b829568137dd5b0f58cc27d1"
+          ],
+          "task_bundle_sha256": "sha256:d027f65a02cb2683e68079e5098f9fca6a4a99b3dd50a7a9c359ff02dc545fc7",
+          "task_id": "fc-6a786f99-erdos172-erdos-172-c7edf48af7-counterexample-v1",
+          "theorems": [
+            "Erdos172.erdos_172"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "live_numbered_primary_page_attempted": true,
+        "live_numbered_primary_page_result": "HTTP403",
+        "indexed_primary_content_reviewed": true,
+        "current_official_tracker": {
+          "state": "open",
+          "last_update": "2025-08-31"
+        },
+        "exact_pinned_source_reviewed": true,
+        "latest_formal_source_reviewed": true,
+        "latest_selected_signature_changed": false,
+        "latest_selected_declaration_present": true,
+        "queries": [
+          "site:erdosproblems.com/172 \"#172\"",
+          "\"Erdos\" \"172\" solved proof 2026"
+        ],
+        "solution_record_index": "Complete current plby/ErdosProblems directory examined; matching124b and1095 files read; all assigned numbered targets searched individually",
+        "additional_primary_sources_compared": 0,
+        "limits": [
+          "All direct numbered-page requests returned403; indexed snapshots are mostly from June\u2013July2026 and are not current page bodies.",
+          "Current GitHub tracker accessed2026-10-06; its labels are numbered-parent metadata and can lag exact public or platform solutions.",
+          "Erd\u0151s site stopped displaying statuses/counts on2026-10-06; frozen June30 AI ledger is not a current completeness guarantee.",
+          "No independent rebuild of external or certified proofs in this read-only audit."
+        ],
+        "all_current_upstream_formal_proof_links_attempted": true,
+        "current_upstream_formal_proof_links": []
+      },
+      "pre_openai_corpus_status": "open-unconfirmed",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos172.erdos_172",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/172.lean",
+        "source_problem_number": 172,
+        "theorem": "Erdos172.erdos_172",
+        "exact_statement_summary": "Every finite coloring of naturals has arbitrarily large finite sets whose all nonempty distinct-element subset sums and products share one color.",
+        "exact_published_type": "True \u2194\n  \u2200 (n : \u2115) (color : \u2115 \u2192 Fin n) (m : \u2115),\n    \u2203 A, A.card \u2265 m \u2227 \u2203 c, \u2200 (S : Finset \u21a5A), S.Nonempty \u2192 color (\u2211 x \u2208 S, \u2191x) = c \u2227 color (\u220f x \u2208 S, \u2191x) = c",
+        "source_docstring": "Is it true that in any finite colouring of $\\mathbb{N}$ there exist arbitrarily large finite $A$ such that all sums\nand products of distinct elements in $A$ are the same colour?\n",
+        "source_type_sha256": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",
+        "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-172-formalized/source-metadata.json",
+        "prior_status": "open-unconfirmed",
+        "prior_disposition": "retain_provisionally",
+        "corpus_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "164"
+        ],
+        "relationship": "exact_full_claim",
+        "exact_scope_explanation": "The manuscript main theorem gives an m-element set of distinct positive integers with one common color for every nonempty subset sum and product. Its introduction explicitly transfers the assertion to colorings of N_0 by restriction to positive integers. This matches the target over naturals with cardinality at least m; zero-color and m=0 boundaries are elementary. The additional separation condition is stronger than needed.",
+        "stated_verification": "Manuscript abstract and main theorem source were read. No lean/docs/164.md exists at the pinned commit (404), and no matching source/main_result was located in formalization.yaml. Treat as manuscript claim without located Lean formalization, subject to the repository warning that unformalized results may have issues.",
+        "recommendation": "hold_pending_exact_validation",
+        "new_release_hold": true,
+        "validation_required": "Validate the release theorem and its assumptions, bridge it to the pinned target definition/type, and replay the exact target before any retirement; preserve existing submission/closure history.",
+        "families": [
+          {
+            "family_id": "164",
+            "family_title": "164. Hindman\u2019s finite sums and products conjecture.",
+            "catalogue_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+            "manuscripts": [
+              {
+                "title": "Monochromatic finite sums and products in the positive integers",
+                "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf"
+              }
+            ],
+            "lean_scope_url": null,
+            "lean_scope_read": false
+          }
+        ],
+        "all_corpus_retrieval_candidates": [
+          {
+            "family_id": "164",
+            "score": 0.3585
+          },
+          {
+            "family_id": "177",
+            "score": 0.08063
+          },
+          {
+            "family_id": "157",
+            "score": 0.06448
+          },
+          {
+            "family_id": "206",
+            "score": 0.05424
+          },
+          {
+            "family_id": "166",
+            "score": 0.04948
+          },
+          {
+            "family_id": "172",
+            "score": 0.04752
+          }
+        ],
+        "coverage": {
+          "family_summaries_screened": 372,
+          "manuscript_catalogue_screened": true,
+          "exact_type_and_docstring_compared": true,
+          "proof_rebuild_performed": false
+        },
+        "screen_status": "full_claim_validation_hold",
+        "source_scope": "The manuscript main theorem gives an m-element set of distinct positive integers with one common color for every nonempty subset sum and product. Its introduction explicitly transfers the assertion to colorings of N_0 by restriction to positive integers. This matches the target over naturals with cardinality at least m; zero-color and m=0 boundaries are elementary. The additional separation condition is stronger than needed.",
+        "verification_limitations": "Manuscript abstract and main theorem source were read. No lean/docs/164.md exists at the pinned commit (404), and no matching source/main_result was located in formalization.yaml. Treat as manuscript claim without located Lean formalization, subject to the repository warning that unformalized results may have issues.",
+        "recommended_disposition": "hold_pending_exact_validation",
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/README.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Monochromatic-finite-sums-and-products-in-the-positive-integers-September-23-2026/build/sections/01_introduction.tex"
+        ]
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos184.erdos_184",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/184.lean",
+      "source_problem_number": 184,
+      "theorem": "Erdos184.erdos_184",
+      "exact_statement_summary": "Every n-vertex graph decomposes into O(n) edge-disjoint cycles and single edges.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 181 contains an exact or stronger resolution claim affecting this target. Every finite graph has a linear-sized edge partition into cycles and singleton edges. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: Buci\u0107\u2013Montgomery proves O(n log-star n), not O(n). The September 2026 baobingzhang Lean file proves the K_(3, n\u22123) linear lower-bound variant only; it explicitly disclaims the selected upper bound.",
+      "primary_sources": [
+        {
+          "title": "Erd\u0151s Problems 184",
+          "url": "https://www.erdosproblems.com/184",
+          "source_date": "01 April 2026",
+          "accessed_date": "2026-10-06",
+          "retrieval": "Live numbered-page fetch failed HTTP403; indexed primary content inspected"
+        },
+        {
+          "title": "Pinned base formal source plus verified local audit patches",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/184.lean",
+          "source_date": "base snapshot; exact patched local HEAD verified2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector base file and local exact patched commit6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "title": "Current upstream formal source",
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/9d259649abe0b02d7a25f7589b872db679b35e21/FormalConjectures/ErdosProblems/184.lean",
+          "source_date": "2026-10-06",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector complete file"
+        },
+        {
+          "title": "Current official problem tracker",
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "source_date": "2025-08-31",
+          "accessed_date": "2026-10-06",
+          "retrieval": "GitHub connector current file, not a live-page-status certification"
+        },
+        {
+          "title": "Buci\u0107\u2013Montgomery O(n log-star n)",
+          "url": "https://arxiv.org/abs/2211.07689",
+          "source_date": "2023-11-14 version2",
+          "accessed_date": "2026-10-06",
+          "retrieval": "retrieved primary text/source and compared scope"
+        },
+        {
+          "title": "baobingzhang exact lower-bound Lean variant",
+          "url": "https://github.com/baobingzhang/jsp-000178-erdos184-lean/blob/62c1c6ca1b9c57d7f097c7d5aa0ed2c5fb065ab0/Erdos184.lean",
+          "source_date": "2026-09-17",
+          "accessed_date": "2026-10-06",
+          "retrieval": "retrieved primary text/source and compared scope"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c",
+      "exact_published_type": "\u2203 f,\n  (f =O[Filter.atTop] fun n => \u2191n) \u2227\n    \u2200 {V : Type u_1} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),\n      \u2203 D, (\u2200 H \u2208 D, Erdos184.IsCycleOrEdge H.coe) \u2227 Erdos184.IsDecomposition G D \u2227 \u2191D.card \u2264 f (Fintype.card V)",
+      "source_docstring": "Any graph on $n$ vertices can be decomposed into $O(n)$ many edge-disjoint cycles and edges.\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-184-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos184-erdos-184-5558ad85d899ed10396b53fdb41d29bb-problem",
+          "reward_target_id": "fc-target:Erdos184.erdos_184",
+          "source_indices": [
+            945
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/184.lean",
+          "target_type_sha256s": [
+            "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c"
+          ],
+          "task_bundle_sha256": "sha256:3d2eebe3989376050495b9483ea0ef486a6c42b8d86a15f68e641c6b289d6e5c",
+          "task_id": "fc-6a786f99-erdos184-erdos-184-3e34e17a72-formalized-v1",
+          "theorems": [
+            "Erdos184.erdos_184"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos184-erdos-184-5558ad85d899ed10396b53fdb41d29bb-problem",
+          "reward_target_id": "fc-target:Erdos184.erdos_184",
+          "source_indices": [
+            945
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/184.lean",
+          "target_type_sha256s": [
+            "sha256:8d509d92583b7db5ef21de34904f4600374fcd6f1e418484737148b9a2da80af"
+          ],
+          "task_bundle_sha256": "sha256:4a80dd9d9c898e5c1eb24583bbc83d02da5728c3e87bff28ca32ee987ab1c409",
+          "task_id": "fc-6a786f99-erdos184-erdos-184-47eadac979-counterexample-v1",
+          "theorems": [
+            "Erdos184.erdos_184"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "live_numbered_primary_page_attempted": true,
+        "live_numbered_primary_page_result": "HTTP403",
+        "indexed_primary_content_reviewed": true,
+        "current_official_tracker": {
+          "state": "open",
+          "last_update": "2025-08-31"
+        },
+        "exact_pinned_source_reviewed": true,
+        "latest_formal_source_reviewed": true,
+        "latest_selected_signature_changed": false,
+        "latest_selected_declaration_present": true,
+        "queries": [
+          "site:erdosproblems.com/184 \"#184\"",
+          "\"Erdos\" \"184\" solved proof 2026"
+        ],
+        "solution_record_index": "Complete current plby/ErdosProblems directory examined; matching124b and1095 files read; all assigned numbered targets searched individually",
+        "additional_primary_sources_compared": 2,
+        "limits": [
+          "All direct numbered-page requests returned403; indexed snapshots are mostly from June\u2013July2026 and are not current page bodies.",
+          "Current GitHub tracker accessed2026-10-06; its labels are numbered-parent metadata and can lag exact public or platform solutions.",
+          "Erd\u0151s site stopped displaying statuses/counts on2026-10-06; frozen June30 AI ledger is not a current completeness guarantee.",
+          "No independent rebuild of external or certified proofs in this read-only audit."
+        ],
+        "all_current_upstream_formal_proof_links_attempted": true,
+        "current_upstream_formal_proof_links": []
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos184.erdos_184",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/184.lean",
+        "source_problem_number": 184,
+        "theorem": "Erdos184.erdos_184",
+        "exact_statement_summary": "Every n-vertex graph decomposes into O(n) edge-disjoint cycles and single edges.",
+        "exact_published_type": "\u2203 f,\n  (f =O[Filter.atTop] fun n => \u2191n) \u2227\n    \u2200 {V : Type u_1} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),\n      \u2203 D, (\u2200 H \u2208 D, Erdos184.IsCycleOrEdge H.coe) \u2227 Erdos184.IsDecomposition G D \u2227 \u2191D.card \u2264 f (Fintype.card V)",
+        "source_docstring": "Any graph on $n$ vertices can be decomposed into $O(n)$ many edge-disjoint cycles and edges.\n",
+        "source_type_sha256": "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c",
+        "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-184-formalized/source-metadata.json",
+        "prior_status": "partial",
+        "prior_disposition": "retain_provisionally",
+        "corpus_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "181"
+        ],
+        "relationship": "exact_full_claim",
+        "exact_scope_explanation": "The comparator MainStatement and solution declaration assert one C>0 such that every simple graph on Fin n has an edge partition into <=Cn simple cycles or singleton edges, including n=0. This matches the target after transporting any finite vertex type to Fin n and realizing each walk-cycle or singleton as a subgraph; choose f(n)=Cn. Edge-disjointness, full edge coverage, and all graph sizes are present.",
+        "stated_verification": "Formalization catalogue lists ComparatorChallenges/CycleDecomposition.json, OAI.ErdosGallai.erdos_gallai, OAI/Combinatorics/CycleDecomposition/Main.lean. Comparator and solution source were read. The comparator permits propext, Quot.sound, Classical.choice and disables nanoda. No build, transitive axiom audit, or target transport proof was run; review.status is unchecked.",
+        "recommendation": "hold_pending_exact_validation",
+        "new_release_hold": true,
+        "validation_required": "Validate the release theorem and its assumptions, bridge it to the pinned target definition/type, and replay the exact target before any retirement; preserve existing submission/closure history.",
+        "families": [
+          {
+            "family_id": "181",
+            "family_title": "181. The Erd\u0151s\u2013Gallai cycle-decomposition conjecture.",
+            "catalogue_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+            "manuscripts": [
+              {
+                "title": "A linear cycle-and-edge decomposition of every graph",
+                "url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-linear-cycle-and-edge-decomposition-of-every-graph-September-24-2026/main.pdf"
+              }
+            ],
+            "lean_scope_url": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/181.md",
+            "lean_scope_read": true
+          }
+        ],
+        "all_corpus_retrieval_candidates": [
+          {
+            "family_id": "181",
+            "score": 0.20356
+          },
+          {
+            "family_id": "161",
+            "score": 0.09149
+          },
+          {
+            "family_id": "143",
+            "score": 0.08404
+          },
+          {
+            "family_id": "180",
+            "score": 0.07305
+          },
+          {
+            "family_id": "174",
+            "score": 0.06376
+          },
+          {
+            "family_id": "175",
+            "score": 0.05703
+          }
+        ],
+        "coverage": {
+          "family_summaries_screened": 372,
+          "manuscript_catalogue_screened": true,
+          "exact_type_and_docstring_compared": true,
+          "proof_rebuild_performed": false
+        },
+        "screen_status": "full_claim_validation_hold",
+        "source_scope": "The comparator MainStatement and solution declaration assert one C>0 such that every simple graph on Fin n has an edge partition into <=Cn simple cycles or singleton edges, including n=0. This matches the target after transporting any finite vertex type to Fin n and realizing each walk-cycle or singleton as a subgraph; choose f(n)=Cn. Edge-disjointness, full edge coverage, and all graph sizes are present.",
+        "verification_limitations": "Formalization catalogue lists ComparatorChallenges/CycleDecomposition.json, OAI.ErdosGallai.erdos_gallai, OAI/Combinatorics/CycleDecomposition/Main.lean. Comparator and solution source were read. The comparator permits propext, Quot.sound, Classical.choice and disables nanoda. No build, transitive axiom audit, or target transport proof was run; review.status is unchecked.",
+        "recommended_disposition": "hold_pending_exact_validation",
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/README.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-linear-cycle-and-edge-decomposition-of-every-graph-September-24-2026/main.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/181.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/CycleDecomposition.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/CycleDecomposition.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Combinatorics/CycleDecomposition/Main.lean"
+        ]
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos3.erdos_3",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/3.lean",
+      "source_problem_number": 3,
+      "theorem": "Erdos3.erdos_3",
+      "exact_statement_summary": "If A \\subset \\mathbb{N} has \\sum_{n \\in A}\\frac 1 n = \\infty, then must A contain arbitrarily long arithmetic progressions?",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 159 contains an exact or stronger resolution claim affecting this target. Divergent reciprocal sum implies arithmetic progressions of every length. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: The three-term case is solved, but the selected theorem requires arbitrarily long arithmetic progressions. Current upstream adds known quantitative bounds and a three-term variant; neither the three-term proof nor the current general Szemer\u00e9di bounds establish the selected divergent-reciprocal-sum assertion.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/3",
+          "accessed_utc": "2026-10-06",
+          "source_date": "04 April 2026",
+          "retrieval": "direct request HTTP 403; indexed text inspected"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "accessed_utc": "2026-10-06",
+          "source_date": "2025-08-31",
+          "scope": "current official metadata for parent problem 3, not exact-variant proof evidence"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/3.lean",
+          "accessed_utc": "2026-10-06",
+          "scope": "base source compared with local exact patched checkout HEAD 6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/3.lean",
+          "accessed_utc": "2026-10-06",
+          "scope": "current source and all helper differences inspected"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
+      "exact_published_type": "True \u2194 \u2200 (A : Set \u2115), (\u00acSummable fun a => 1 / \u2191\u2191a) \u2192 \u2203\u1da0 (k : \u2115) in Filter.atTop, \u2203 S \u2286 A, S.IsAPOfLength \u2191k",
+      "source_docstring": "If $A \\subset \\mathbb{N}$ has $\\sum_{n \\in A}\\frac 1 n = \\infty$, then must $A$ contain arbitrarily\nlong arithmetic progressions?\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-3-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos3-erdos-3-9fbac4f5e9db10c751d62e47386b429c-problem",
+          "reward_target_id": "fc-target:Erdos3.erdos_3",
+          "source_indices": [
+            1167
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/3.lean",
+          "target_type_sha256s": [
+            "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b"
+          ],
+          "task_bundle_sha256": "sha256:47b8451dd025f39e2a68629f1c32f4e38f1ea5ea51923938c29a8aa9c2c82cb6",
+          "task_id": "fc-6a786f99-erdos3-erdos-3-3dc5c7ba93-formalized-v1",
+          "theorems": [
+            "Erdos3.erdos_3"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos3-erdos-3-9fbac4f5e9db10c751d62e47386b429c-problem",
+          "reward_target_id": "fc-target:Erdos3.erdos_3",
+          "source_indices": [
+            1167
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/3.lean",
+          "target_type_sha256s": [
+            "sha256:a6f27d88fde7ee43587520b2628eaec5aea85752a9c8bfa5b8ab225359485996"
+          ],
+          "task_bundle_sha256": "sha256:0cf2fc86b94789d3d45f421df6fef98a597044918e7c25024e502874c1f0659c",
+          "task_id": "fc-6a786f99-erdos3-erdos-3-1b23a76e79-counterexample-v1",
+          "theorems": [
+            "Erdos3.erdos_3"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "numbered_primary_page_live_attempted": true,
+        "numbered_primary_page_live_result": "HTTP 403",
+        "indexed_numbered_page_obtained": true,
+        "exact_patched_source_read": true,
+        "current_upstream_source_read": true,
+        "current_official_tracker_read": true,
+        "plby_canonical_record_checked": true,
+        "external_solution_web_search_for_this_number": true,
+        "target_specific_upstream_pr_title_search": true,
+        "upstream_pr_results_count": 100,
+        "current_comment_stream_complete": false,
+        "proofs_independently_rebuilt": false,
+        "limits": "Live page/comment text inaccessible. Search indexes mostly June/July 2026; current GitHub metadata, source, author papers, repositories and platform results were checked independently. AI wiki frozen June 30 per tracker README; not a current completeness oracle."
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos3.erdos_3",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/3.lean",
+        "source_problem_number": 3,
+        "theorem": "Erdos3.erdos_3",
+        "source_type_sha256": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
+        "exact_published_type": "True \u2194 \u2200 (A : Set \u2115), (\u00acSummable fun a => 1 / \u2191\u2191a) \u2192 \u2203\u1da0 (k : \u2115) in Filter.atTop, \u2203 S \u2286 A, S.IsAPOfLength \u2191k",
+        "exact_statement_summary": "If A \\subset \\mathbb{N} has \\sum_{n \\in A}\\frac 1 n = \\infty, then must A contain arbitrarily long arithmetic progressions?",
+        "prior_status": "partial",
+        "prior_disposition": "retain_provisionally",
+        "corpus_family_ids": [
+          "159"
+        ],
+        "relationship": "exact_full_claim",
+        "exact_scope_explanation": "The corpus claims the full divergent-reciprocal-sum arithmetic-progression theorem, not only a fixed progression length or positive-density case. Its Comparator statement quantifies every A\u2286N and every requested length with a positive common difference. This supplies the pinned assertion of arbitrarily large finite AP lengths.",
+        "source_definition_bridge_required": "Translate summability of the indicator-weighted series over N to summability over the subtype A; form the finite progression set and identify its cardinality using the positive difference. The optional element 0 contributes zero and is immaterial.",
+        "source_urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/159.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/ErdosReciprocal.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf"
+        ],
+        "stated_verification": {
+          "repository_caveat": "README says results are at different stages of verification, not all have Lean formalizations, and some unformalized results could have issues.",
+          "formalization_yaml_scope": "Partial progress.",
+          "formalization_yaml_review_status": "unchecked",
+          "fresh_lean_build": false,
+          "comparator_run": false,
+          "independent_mathematical_validation": false,
+          "scope_only_not_proof_validation": true,
+          "comparator_challenges_inspected": [
+            "ErdosReciprocal"
+          ],
+          "actual_solution_sources_inspected": [
+            "lean/OAI/Combinatorics/Progressions/Results/Conclusions.lean"
+          ],
+          "config_permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "config_enable_nanoda": false,
+          "challenge_sorry_interpretation": "Comparator challenge files intentionally contain sorry; actual solution modules are separate. These statement placeholders do not establish that the solution has gaps, and reading a solution entry point does not validate its imported proof graph.",
+          "manifest_main_result_present": false,
+          "manifest_note": "The inspected global manifest lists EgyptianFractions main results, but no JointDickman, TotientAsymptotic or ErdosReciprocal entry was located. Docs, configs and solution sources for all four do exist; manifest absence is not proof of absence of a formalization."
+        },
+        "recommended_disposition": "hold_pending_independent_validation",
+        "recommendation": "Hold this active target for claim and exact-statement validation; do not retire solely from the corpus catalogue.",
+        "new_hold_recommended": true,
+        "coverage": {
+          "family_summaries_screened": 372,
+          "full_manuscript_catalogue_index_searched": true,
+          "semantic_subject_quantifier_and_variant_review": true,
+          "absence_is_not_a_proof_of_no_solution": true
+        },
+        "family_ids": [
+          "159"
+        ],
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/159.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/ErdosReciprocal.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Quasipolynomial-Bounds-for-Arithmetic-Progressions-September-23-2026/paper.pdf"
+        ],
+        "verification": {
+          "repository_caveat": "README says results are at different stages of verification, not all have Lean formalizations, and some unformalized results could have issues.",
+          "formalization_yaml_scope": "Partial progress.",
+          "formalization_yaml_review_status": "unchecked",
+          "fresh_lean_build": false,
+          "comparator_run": false,
+          "independent_mathematical_validation": false,
+          "scope_only_not_proof_validation": true,
+          "comparator_challenges_inspected": [
+            "ErdosReciprocal"
+          ],
+          "actual_solution_sources_inspected": [
+            "lean/OAI/Combinatorics/Progressions/Results/Conclusions.lean"
+          ],
+          "config_permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "config_enable_nanoda": false,
+          "challenge_sorry_interpretation": "Comparator challenge files intentionally contain sorry; actual solution modules are separate. These statement placeholders do not establish that the solution has gaps, and reading a solution entry point does not validate its imported proof graph.",
+          "manifest_main_result_present": false,
+          "manifest_note": "The inspected global manifest lists EgyptianFractions main results, but no JointDickman, TotientAsymptotic or ErdosReciprocal entry was located. Docs, configs and solution sources for all four do exist; manifest absence is not proof of absence of a formalization."
+        },
+        "disposition": "hold_pending_independent_validation"
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos304.upper_bound",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/304.lean",
+      "source_problem_number": 304,
+      "theorem": "Erdos304.upper_bound",
+      "exact_statement_summary": "The worst-case minimum number of distinct unit fractions for a/b, 1<=a<b, is O(log log b).",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 025 contains an exact or stronger resolution claim affecting this target. Distinct Egyptian fractions require at most O(log log b) terms uniformly in the numerator. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: The selected worst-case O(log log b) upper bound is stronger than Vose\u2019s O(sqrt(log b)) upper bound. The current external proof link is for the lower bound, and PR 4870 explicitly calls the van Doorn\u2013Tang result a reduction rather than a solution.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/304",
+          "accessed_utc": "2026-10-06",
+          "source_date": "29 December 2025",
+          "retrieval": "direct request HTTP 403; indexed text inspected"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "accessed_utc": "2026-10-06",
+          "source_date": "2025-08-31",
+          "scope": "current official metadata for parent problem 304, not exact-variant proof evidence"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/304.lean",
+          "accessed_utc": "2026-10-06",
+          "scope": "base source compared with local exact patched checkout HEAD 6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/304.lean",
+          "accessed_utc": "2026-10-06",
+          "scope": "current source and all helper differences inspected"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/pull/4870",
+          "source_date": null,
+          "accessed_utc": "2026-10-06"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
+      "exact_published_type": "True \u2194 (fun b => \u2191(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => Real.log (Real.log \u2191b)",
+      "source_docstring": "Is it true that $$N(b) \\ll \\log \\log b$$?\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-304-upper-bound-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos304-upper-bound-6d696cd529f682bb0a2e5b121f45ce22-problem",
+          "reward_target_id": "fc-target:Erdos304.upper_bound",
+          "source_indices": [
+            1188
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/304.lean",
+          "target_type_sha256s": [
+            "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa"
+          ],
+          "task_bundle_sha256": "sha256:3d28ef441e37d75924772fe12e7732f4fd92457e3dc77fe840b6daeb87cd1041",
+          "task_id": "fc-6a786f99-erdos304-upper-bound-69d8d8c839-formalized-v1",
+          "theorems": [
+            "Erdos304.upper_bound"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos304-upper-bound-6d696cd529f682bb0a2e5b121f45ce22-problem",
+          "reward_target_id": "fc-target:Erdos304.upper_bound",
+          "source_indices": [
+            1188
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/304.lean",
+          "target_type_sha256s": [
+            "sha256:03a9ed980c6b410235178a998bac5de14648d7fe08680419c2ebcca7a910fa93"
+          ],
+          "task_bundle_sha256": "sha256:442c1e3297e79f425c8d2b41f6d6f2dfbf49fe6b9b1ee73984621f5d04aa6a6a",
+          "task_id": "fc-6a786f99-erdos304-upper-bound-8ccf89d842-counterexample-v1",
+          "theorems": [
+            "Erdos304.upper_bound"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "numbered_primary_page_live_attempted": true,
+        "numbered_primary_page_live_result": "HTTP 403",
+        "indexed_numbered_page_obtained": true,
+        "exact_patched_source_read": true,
+        "current_upstream_source_read": true,
+        "current_official_tracker_read": true,
+        "plby_canonical_record_checked": true,
+        "external_solution_web_search_for_this_number": true,
+        "target_specific_upstream_pr_title_search": true,
+        "upstream_pr_results_count": 5,
+        "current_comment_stream_complete": false,
+        "proofs_independently_rebuilt": false,
+        "limits": "Live page/comment text inaccessible. Search indexes mostly June/July 2026; current GitHub metadata, source, author papers, repositories and platform results were checked independently. AI wiki frozen June 30 per tracker README; not a current completeness oracle."
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos304.upper_bound",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/304.lean",
+        "source_problem_number": 304,
+        "theorem": "Erdos304.upper_bound",
+        "source_type_sha256": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
+        "exact_published_type": "True \u2194 (fun b => \u2191(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => Real.log (Real.log \u2191b)",
+        "exact_statement_summary": "The worst-case minimum number of distinct unit fractions for a/b, 1<=a<b, is O(log log b).",
+        "prior_status": "partial",
+        "prior_disposition": "retain_provisionally",
+        "corpus_family_ids": [
+          "025"
+        ],
+        "relationship": "stronger_implication",
+        "exact_scope_explanation": "The corpus claims optimal Theta(log log b) worst-case minimum Egyptian expansion length for every sufficiently large integer b, with strictly increasing natural denominators at least 2. Its upper half is the pinned O(log log b) target; reduced fractions are not required.",
+        "source_definition_bridge_required": "Convert strictly increasing lists or Fin-indexed functions to finite sets, equate minimum lengths with smallestCollection, and equate the finite maximum over 1\u2264a<b with smallestCollectionTo; obtain Big-O from the eventual uniform upper bound.",
+        "source_urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/025.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/EgyptianFractions.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/ShortEgyptianFractions.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Short-Egyptian-fractions-September-25-2026/Short-Egyptian-fractions-September-25-2026.pdf"
+        ],
+        "stated_verification": {
+          "repository_caveat": "README says results are at different stages of verification, not all have Lean formalizations, and some unformalized results could have issues.",
+          "formalization_yaml_scope": "Partial progress.",
+          "formalization_yaml_review_status": "unchecked",
+          "fresh_lean_build": false,
+          "comparator_run": false,
+          "independent_mathematical_validation": false,
+          "scope_only_not_proof_validation": true,
+          "comparator_challenges_inspected": [
+            "EgyptianFractions",
+            "ShortEgyptianFractions"
+          ],
+          "actual_solution_sources_inspected": [
+            "lean/OAI/NumberTheory/EgyptianFractions/Main.lean",
+            "lean/OAI/NumberTheory/ShortEgyptian/Main.lean"
+          ],
+          "config_permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "config_enable_nanoda": false,
+          "challenge_sorry_interpretation": "Comparator challenge files intentionally contain sorry; actual solution modules are separate. These statement placeholders do not establish that the solution has gaps, and reading a solution entry point does not validate its imported proof graph.",
+          "manifest_main_result_present": true,
+          "manifest_note": "The inspected global manifest lists EgyptianFractions main results, but no JointDickman, TotientAsymptotic or ErdosReciprocal entry was located. Docs, configs and solution sources for all four do exist; manifest absence is not proof of absence of a formalization."
+        },
+        "recommended_disposition": "hold_pending_independent_validation",
+        "recommendation": "Hold this active target for claim and exact-statement validation; do not retire solely from the corpus catalogue.",
+        "new_hold_recommended": true,
+        "coverage": {
+          "family_summaries_screened": 372,
+          "full_manuscript_catalogue_index_searched": true,
+          "semantic_subject_quantifier_and_variant_review": true,
+          "absence_is_not_a_proof_of_no_solution": true
+        },
+        "family_ids": [
+          "025"
+        ],
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/025.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/EgyptianFractions.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/ShortEgyptianFractions.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Short-Egyptian-fractions-September-25-2026/Short-Egyptian-fractions-September-25-2026.pdf"
+        ],
+        "verification": {
+          "repository_caveat": "README says results are at different stages of verification, not all have Lean formalizations, and some unformalized results could have issues.",
+          "formalization_yaml_scope": "Partial progress.",
+          "formalization_yaml_review_status": "unchecked",
+          "fresh_lean_build": false,
+          "comparator_run": false,
+          "independent_mathematical_validation": false,
+          "scope_only_not_proof_validation": true,
+          "comparator_challenges_inspected": [
+            "EgyptianFractions",
+            "ShortEgyptianFractions"
+          ],
+          "actual_solution_sources_inspected": [
+            "lean/OAI/NumberTheory/EgyptianFractions/Main.lean",
+            "lean/OAI/NumberTheory/ShortEgyptian/Main.lean"
+          ],
+          "config_permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "config_enable_nanoda": false,
+          "challenge_sorry_interpretation": "Comparator challenge files intentionally contain sorry; actual solution modules are separate. These statement placeholders do not establish that the solution has gaps, and reading a solution entry point does not validate its imported proof graph.",
+          "manifest_main_result_present": true,
+          "manifest_note": "The inspected global manifest lists EgyptianFractions main results, but no JointDickman, TotientAsymptotic or ErdosReciprocal entry was located. Docs, configs and solution sources for all four do exist; manifest absence is not proof of absence of a formalization."
+        },
+        "disposition": "hold_pending_independent_validation"
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos371.erdos_371",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/371.lean",
+      "source_problem_number": 371,
+      "theorem": "Erdos371.erdos_371",
+      "exact_statement_summary": "Let P(n) denote the largest prime factor of n. Show that the set of n with P(n+1) > P(n) has density \\frac{1}{2}.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 012 contains an exact or stronger resolution claim affecting this target. The largest-prime-factor ordering of consecutive integers has ordinary density one half. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: Yang\u2019s July 2026 paper improves an unconditional lower bound from 0.2017 to 0.280. That still falls short of natural density exactly 1/2. Logarithmic density 1/2, almost-all scales, and Elliott\u2013Halberstam-conditional results are not the selected unconditional natural-density theorem.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/371",
+          "accessed_utc": "2026-10-06",
+          "source_date": "23 January 2026",
+          "retrieval": "direct request HTTP 403; indexed text inspected"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "accessed_utc": "2026-10-06",
+          "source_date": "2025-08-31",
+          "scope": "current official metadata for parent problem 371, not exact-variant proof evidence"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/371.lean",
+          "accessed_utc": "2026-10-06",
+          "scope": "base source compared with local exact patched checkout HEAD 6a786f997e18e8f095762a2830d191b7e25e505e"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/371.lean",
+          "accessed_utc": "2026-10-06",
+          "scope": "current source and all helper differences inspected"
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.16032",
+          "source_date": "2026-07-17",
+          "accessed_utc": "2026-10-06"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71",
+      "exact_published_type": "{n | (n + 1).maxPrimeFac > n.maxPrimeFac}.HasDensity (1 / 2)",
+      "source_docstring": "Let $P(n)$ denote the largest prime factor of $n$. Show that the set of $n$\nwith $P(n+1) > P(n)$ has density $\\frac{1}{2}$.\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-371-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos371-erdos-371-3d522f499f831d5a89da60aab2253bc4-problem",
+          "reward_target_id": "fc-target:Erdos371.erdos_371",
+          "source_indices": [
+            1392
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/371.lean",
+          "target_type_sha256s": [
+            "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71"
+          ],
+          "task_bundle_sha256": "sha256:d5a22bb9b94337725e2100fa3c2da18c1a9469ca4076644cfd1e8bdd37b9c27d",
+          "task_id": "fc-6a786f99-erdos371-erdos-371-6bced2329f-formalized-v1",
+          "theorems": [
+            "Erdos371.erdos_371"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos371-erdos-371-3d522f499f831d5a89da60aab2253bc4-problem",
+          "reward_target_id": "fc-target:Erdos371.erdos_371",
+          "source_indices": [
+            1392
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/371.lean",
+          "target_type_sha256s": [
+            "sha256:1c0da7765d81dd358cfbe884b483fe4a2dca0a8659c52f96fc4223913665338d"
+          ],
+          "task_bundle_sha256": "sha256:966591a131c8b502ce697426de249815eb67d2b178060cc3ed155a95a06a5836",
+          "task_id": "fc-6a786f99-erdos371-erdos-371-9a3982ee28-counterexample-v1",
+          "theorems": [
+            "Erdos371.erdos_371"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "audit_date_utc": "2026-10-06",
+        "numbered_primary_page_live_attempted": true,
+        "numbered_primary_page_live_result": "HTTP 403",
+        "indexed_numbered_page_obtained": true,
+        "exact_patched_source_read": true,
+        "current_upstream_source_read": true,
+        "current_official_tracker_read": true,
+        "plby_canonical_record_checked": true,
+        "external_solution_web_search_for_this_number": true,
+        "target_specific_upstream_pr_title_search": true,
+        "upstream_pr_results_count": 2,
+        "current_comment_stream_complete": false,
+        "proofs_independently_rebuilt": false,
+        "limits": "Live page/comment text inaccessible. Search indexes mostly June/July 2026; current GitHub metadata, source, author papers, repositories and platform results were checked independently. AI wiki frozen June 30 per tracker README; not a current completeness oracle."
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos371.erdos_371",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/371.lean",
+        "source_problem_number": 371,
+        "theorem": "Erdos371.erdos_371",
+        "source_type_sha256": "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71",
+        "exact_published_type": "{n | (n + 1).maxPrimeFac > n.maxPrimeFac}.HasDensity (1 / 2)",
+        "exact_statement_summary": "Let P(n) denote the largest prime factor of n. Show that the set of n with P(n+1) > P(n) has density \\frac{1}{2}.",
+        "prior_status": "partial",
+        "prior_disposition": "retain_provisionally",
+        "corpus_family_ids": [
+          "012"
+        ],
+        "relationship": "exact_full_claim",
+        "exact_scope_explanation": "The corpus explicitly claims natural density 1/2 for the strict ordering maxPrimeFac(n)<maxPrimeFac(n+1). This is the same inequality as the pinned target; the stronger joint Dickman law is accompanied by this exact corollary. It is ordinary natural density, not logarithmic density.",
+        "source_definition_bridge_required": "Transfer the stated real-endpoint count over 2\u2264n\u2264floor(X), divided by X, to the pinned Set.HasDensity normalization; the finite initial values and endpoint convention do not change the limit.",
+        "source_urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/012.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/JointDickman.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-joint-Dickman-law-for-consecutive-integers-September-24-2026/paper.pdf"
+        ],
+        "stated_verification": {
+          "repository_caveat": "README says results are at different stages of verification, not all have Lean formalizations, and some unformalized results could have issues.",
+          "formalization_yaml_scope": "Partial progress.",
+          "formalization_yaml_review_status": "unchecked",
+          "fresh_lean_build": false,
+          "comparator_run": false,
+          "independent_mathematical_validation": false,
+          "scope_only_not_proof_validation": true,
+          "comparator_challenges_inspected": [
+            "JointDickman"
+          ],
+          "actual_solution_sources_inspected": [
+            "lean/OAI/NumberTheory/JointDickman/PaperMain.lean"
+          ],
+          "config_permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "config_enable_nanoda": false,
+          "challenge_sorry_interpretation": "Comparator challenge files intentionally contain sorry; actual solution modules are separate. These statement placeholders do not establish that the solution has gaps, and reading a solution entry point does not validate its imported proof graph.",
+          "manifest_main_result_present": false,
+          "manifest_note": "The inspected global manifest lists EgyptianFractions main results, but no JointDickman, TotientAsymptotic or ErdosReciprocal entry was located. Docs, configs and solution sources for all four do exist; manifest absence is not proof of absence of a formalization."
+        },
+        "recommended_disposition": "hold_pending_independent_validation",
+        "recommendation": "Hold this active target for claim and exact-statement validation; do not retire solely from the corpus catalogue.",
+        "new_hold_recommended": true,
+        "coverage": {
+          "family_summaries_screened": 372,
+          "full_manuscript_catalogue_index_searched": true,
+          "semantic_subject_quantifier_and_variant_review": true,
+          "absence_is_not_a_proof_of_no_solution": true
+        },
+        "family_ids": [
+          "012"
+        ],
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/012.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/JointDickman.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/The-joint-Dickman-law-for-consecutive-integers-September-24-2026/paper.pdf"
+        ],
+        "verification": {
+          "repository_caveat": "README says results are at different stages of verification, not all have Lean formalizations, and some unformalized results could have issues.",
+          "formalization_yaml_scope": "Partial progress.",
+          "formalization_yaml_review_status": "unchecked",
+          "fresh_lean_build": false,
+          "comparator_run": false,
+          "independent_mathematical_validation": false,
+          "scope_only_not_proof_validation": true,
+          "comparator_challenges_inspected": [
+            "JointDickman"
+          ],
+          "actual_solution_sources_inspected": [
+            "lean/OAI/NumberTheory/JointDickman/PaperMain.lean"
+          ],
+          "config_permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "config_enable_nanoda": false,
+          "challenge_sorry_interpretation": "Comparator challenge files intentionally contain sorry; actual solution modules are separate. These statement placeholders do not establish that the solution has gaps, and reading a solution entry point does not validate its imported proof graph.",
+          "manifest_main_result_present": false,
+          "manifest_note": "The inspected global manifest lists EgyptianFractions main results, but no JointDickman, TotientAsymptotic or ErdosReciprocal entry was located. Docs, configs and solution sources for all four do exist; manifest absence is not proof of absence of a formalization."
+        },
+        "disposition": "hold_pending_independent_validation"
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos821.erdos_821",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/821.lean",
+      "source_problem_number": 821,
+      "theorem": "Erdos821.erdos_821",
+      "exact_statement_summary": "For every epsilon>0 infinitely many n have more than n^(1-epsilon) totient preimages.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 011 contains an exact or stronger resolution claim affecting this target. For every epsilon>0, infinitely many totient fibers have size greater than n^(1-epsilon). Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: The selected target asks for every epsilon>0. A fixed exponent such as Lichtman\u2019s 0.71568... and the older unboundedness/power-growth results leave the exponents arbitrarily close to one unproved.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/821",
+          "retrieved_at": "2026-10-06",
+          "retrieval_status": "live HTTP 403; indexed material where available",
+          "indexed_snapshot_dates": [
+            "2026-06-28"
+          ]
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/821.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "base formal statement; exact pinned target additionally checked against synthetic patched git commit",
+          "blob_sha": "d7a527fd6a8b221b585bc9cb7b5a08c8493129c8"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/821.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "current upstream statement and sibling-result scope, not a status oracle",
+          "blob_sha": "f320fa44a2ae12a038c4c8978fc6f3d335a948e3"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "retrieved_at": "2026-10-06",
+          "role": "current official metadata only; may lag solutions",
+          "record_last_update": "2025-08-31"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
+      "exact_published_type": "True \u2194 \u2200 \u03b5 > 0, {n | \u2191(Erdos821.g n) > \u2191n ^ (1 - \u03b5)}.Infinite",
+      "source_docstring": "Is it true that, for every $\\epsilon>0$, there exist infinitely many $n$ such that\n$g(n) > n^{1-\\epsilon}$?\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-821-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos821-erdos-821-6332475b9199a920f04494c9ca90ad23-problem",
+          "reward_target_id": "fc-target:Erdos821.erdos_821",
+          "source_indices": [
+            2090
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/821.lean",
+          "target_type_sha256s": [
+            "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad"
+          ],
+          "task_bundle_sha256": "sha256:b88ecbd93e17c91f00925ba2ebff04859ba13a2e019a2ed5488412d69b00c34f",
+          "task_id": "fc-6a786f99-erdos821-erdos-821-d2899b72e2-formalized-v1",
+          "theorems": [
+            "Erdos821.erdos_821"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos821-erdos-821-6332475b9199a920f04494c9ca90ad23-problem",
+          "reward_target_id": "fc-target:Erdos821.erdos_821",
+          "source_indices": [
+            2090
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/821.lean",
+          "target_type_sha256s": [
+            "sha256:3a767bd22853fb9233bbaf2ef8bee6868d963a3cc87d870c955e11d83b1a090d"
+          ],
+          "task_bundle_sha256": "sha256:3b47a37e9890580d523bf8850b327d88e66b0b9da14ba5f8a683076933c9b293",
+          "task_id": "fc-6a786f99-erdos821-erdos-821-c2f5a259f8-counterexample-v1",
+          "theorems": [
+            "Erdos821.erdos_821"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "exact_selected_variant_read": true,
+        "current_formal_source_read": true,
+        "direct_numbered_page_attempted": true,
+        "direct_numbered_page_result": "HTTP 403",
+        "indexed_primary_page_or_forum_found": true,
+        "indexed_snapshot_dates": [
+          "2026-06-28"
+        ],
+        "numbered_search_query": "site:erdosproblems.com/821 \"821\"",
+        "current_solution_search_query": "\"Erdos\" \"problem 821\" solution 2026",
+        "official_tracker_record_checked": true,
+        "full_current_page_content_verified": false,
+        "limitations": "All 65 assigned numbered live pages returned HTTP 403. Indexed page/forum snapshots generally predate July 2026 and were treated as historical only. All 80 exact variants and all current formal files were checked; claimed matching solutions were compared by quantifiers and definitions. No new Lean/kernel replay was performed. Official metadata is not sufficient to certify openness.",
+        "metadata_caution": "Official GitHub metadata was checked live but is not authoritative evidence of absence of a solution. Parent also verified the official AI contribution wiki is frozen since 2026-06-30 and the problem site changed status-display policy on 2026-10-06."
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos821.erdos_821",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/821.lean",
+        "source_problem_number": 821,
+        "theorem": "Erdos821.erdos_821",
+        "source_type_sha256": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
+        "exact_published_type": "True \u2194 \u2200 \u03b5 > 0, {n | \u2191(Erdos821.g n) > \u2191n ^ (1 - \u03b5)}.Infinite",
+        "exact_statement_summary": "For every epsilon>0 infinitely many n have more than n^(1-epsilon) totient preimages.",
+        "prior_disposition": "retain_provisionally",
+        "prior_status": "partial",
+        "openai_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "011"
+        ],
+        "family_titles": [
+          "Prime-factor statistics of $`p-1`$."
+        ],
+        "relationship": "exact_full_claim",
+        "claim_polarity": "supports_formalized",
+        "exact_scope_explanation": "The manuscript defines g(n)=#{m>=1:phi(m)=n} and its first theorem (thm:totient) asserts exactly: for every real epsilon>0, infinitely many positive n satisfy g(n)>n^(1-epsilon). This matches the pinned target, which counts natural preimages by ncard; for positive n, allowing m=0 adds no preimage because phi(0)=0. The paper explicitly proves finiteness of every positive fiber and unboundedness of the constructed n. No stronger density or uniform-in-epsilon claim is needed.",
+        "urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/build/sections/00-introduction.tex",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/build/sections/07-totient-conclusion.tex"
+        ],
+        "stated_verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "family_011": "No Lean doc or main-result entry located for totient fibers; lean/docs/011.md returned 404. Manuscript theorem and concluding proof read; the analytic proof has not been independently validated."
+        },
+        "recommended_action": "hold_pending_validation",
+        "recommended_release_disposition": "hold_review_openai_pending_validation",
+        "recommended_next_steps": [
+          "Validate the analytic smooth-shifted-prime input and the manuscript proof independently.",
+          "Translate finite positive totient fibers to the pinned natural-number ncard definition."
+        ],
+        "scope_match_confidence": "high",
+        "screen_coverage": {
+          "families_screened": 372,
+          "catalogue_manuscripts": 722,
+          "exact_target_type_read": true,
+          "semantic_summary_and_abstract_screen": true,
+          "full_proof_rebuild": false
+        },
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/build/sections/00-introduction.tex",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Weighted-Dilation-Graphs-Smooth-Shifted-Primes-and-Totient-Fibers-September-24-2026/build/sections/07-totient-conclusion.tex"
+        ],
+        "verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "family_011": "No Lean doc or main-result entry located for totient fibers; lean/docs/011.md returned 404. Manuscript theorem and concluding proof read; the analytic proof has not been independently validated."
+        },
+        "disposition": "hold_review"
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos952.erdos_952",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/952.lean",
+      "source_problem_number": 952,
+      "theorem": "Erdos952.erdos_952",
+      "exact_statement_summary": "An injective infinite sequence of Gaussian primes exists with uniformly bounded successive squared norms.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 028 contains an exact or stronger resolution claim affecting this target. Uniformly finite Gaussian-prime components refute the bounded-step infinite distinct-walk target. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: Finite Gaussian-prime moat computations and probabilistic heuristics do not establish or exclude an injective infinite prime path with uniformly bounded jumps. No matching complete resolution was found.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/952",
+          "retrieved_at": "2026-10-06",
+          "retrieval_status": "live HTTP 403; indexed material where available",
+          "indexed_snapshot_dates": [
+            "2026-06-13"
+          ]
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/952.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "base formal statement; exact pinned target additionally checked against synthetic patched git commit",
+          "blob_sha": "e7b9d79e8c90c2557ad5c13333ce0b88fdaaa02f"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/952.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "current upstream statement and sibling-result scope, not a status oracle",
+          "blob_sha": "573c50eab2d05606068053dc219e1806948cd3d7"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "retrieved_at": "2026-10-06",
+          "role": "current official metadata only; may lag solutions",
+          "record_last_update": "2025-08-31"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
+      "exact_published_type": "True \u2194 \u2203 x C, Function.Injective x \u2227 \u2200 (n : \u2115), Prime (x n) \u2227 Zsqrtd.norm (x (n + 1) - x n) < C",
+      "source_docstring": "Is there an infinite sequence of distinct Gaussian primes $x_1,x_2,\\ldots$\nsuch that $\\lvert x_{n+1}-x_n\\rvert \\ll 1$?\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-952-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-erdos952-erdos-952-b1118bac61d778ff04c59b2244cc07c6-problem",
+          "reward_target_id": "fc-target:Erdos952.erdos_952",
+          "source_indices": [
+            2342
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/952.lean",
+          "target_type_sha256s": [
+            "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8"
+          ],
+          "task_bundle_sha256": "sha256:a64a9ce3c5f7818bc326df2f33617741eab17c3df66c6c4bf17fdcec6947afb8",
+          "task_id": "fc-6a786f99-erdos952-erdos-952-6a92117272-formalized-v1",
+          "theorems": [
+            "Erdos952.erdos_952"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-erdos952-erdos-952-b1118bac61d778ff04c59b2244cc07c6-problem",
+          "reward_target_id": "fc-target:Erdos952.erdos_952",
+          "source_indices": [
+            2342
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/952.lean",
+          "target_type_sha256s": [
+            "sha256:427bd3943c70f14c7cbcabf7ddc73f0e4adf5b050e9841ba69831d6c644e0a82"
+          ],
+          "task_bundle_sha256": "sha256:6d6749851decad74d6fdefefcdaea5deee7dfc2c42f27aa1fd95f9bdcc4ee225",
+          "task_id": "fc-6a786f99-erdos952-erdos-952-e18234649c-counterexample-v1",
+          "theorems": [
+            "Erdos952.erdos_952"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "exact_selected_variant_read": true,
+        "current_formal_source_read": true,
+        "direct_numbered_page_attempted": true,
+        "direct_numbered_page_result": "HTTP 403",
+        "indexed_primary_page_or_forum_found": true,
+        "indexed_snapshot_dates": [
+          "2026-06-13"
+        ],
+        "numbered_search_query": "site:erdosproblems.com/952 \"952\"",
+        "current_solution_search_query": "\"Erdos\" \"problem 952\" solution 2026",
+        "official_tracker_record_checked": true,
+        "full_current_page_content_verified": false,
+        "limitations": "All 65 assigned numbered live pages returned HTTP 403. Indexed page/forum snapshots generally predate July 2026 and were treated as historical only. All 80 exact variants and all current formal files were checked; claimed matching solutions were compared by quantifiers and definitions. No new Lean/kernel replay was performed. Official metadata is not sufficient to certify openness.",
+        "metadata_caution": "Official GitHub metadata was checked live but is not authoritative evidence of absence of a solution. Parent also verified the official AI contribution wiki is frozen since 2026-06-30 and the problem site changed status-display policy on 2026-10-06."
+      },
+      "pre_openai_corpus_status": "open-unconfirmed",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos952.erdos_952",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/952.lean",
+        "source_problem_number": 952,
+        "theorem": "Erdos952.erdos_952",
+        "source_type_sha256": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
+        "exact_published_type": "True \u2194 \u2203 x C, Function.Injective x \u2227 \u2200 (n : \u2115), Prime (x n) \u2227 Zsqrtd.norm (x (n + 1) - x n) < C",
+        "exact_statement_summary": "An injective infinite sequence of Gaussian primes exists with uniformly bounded successive squared norms.",
+        "prior_disposition": "retain_provisionally",
+        "prior_status": "open-unconfirmed",
+        "openai_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "028"
+        ],
+        "family_titles": [
+          "Uniformly bounded components of Gaussian-prime graphs."
+        ],
+        "relationship": "stronger_implication",
+        "claim_polarity": "supports_counterexample",
+        "exact_scope_explanation": "The manuscript uniform component theorem and Lean fullMain exclude every injective infinite Gaussian-prime walk with a real uniform step bound. The pinned target positively asserts existence of such a walk with integer upper bound C on squared norm. In Gaussian integers Prime implies Irreducible, and norm(z-w)=|z-w|^2; an integer squared-norm bound yields a finite real distance bound. Thus MainEndpoint directly negates the target existence claim, while UniformEndpoint is strictly stronger. Axis primes and all associates are included. This is a counterexample-side candidate, not a proof of the published True-equivalence.",
+        "urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/028.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/GaussianMoat/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/GaussianMoat.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/GaussianMoat.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/build/main.tex"
+        ],
+        "stated_verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "listed_lean_endpoints": [
+            {
+              "declaration": "OAI.GaussianMoat.fullMain",
+              "file": "lean/OAI/NumberTheory/GaussianMoat/Main.lean",
+              "comparator": "GaussianMoat"
+            }
+          ],
+          "comparator_policy": "Configurations permit only propext, Quot.sound, Classical.choice; enable_nanoda=false. These are declared checking settings, not a successful verification result.",
+          "challenge_vs_solution": "Comparator challenge files contain sorry placeholders by design; separate solution Main.lean files contain proof bodies. Transitive proof closure and elaboration were not audited."
+        },
+        "recommended_action": "hold_pending_validation",
+        "recommended_release_disposition": "hold_review_openai_pending_validation",
+        "recommended_next_steps": [
+          "Check the GaussianInt Prime/Irreducible bridge and norm-to-complex-distance bound against the pinned environment.",
+          "Run the specific Comparator configuration and audit its transitive axioms/definitions before changing release status."
+        ],
+        "scope_match_confidence": "high",
+        "screen_coverage": {
+          "families_screened": 372,
+          "catalogue_manuscripts": 722,
+          "exact_target_type_read": true,
+          "semantic_summary_and_abstract_screen": true,
+          "full_proof_rebuild": false
+        },
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/028.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/GaussianMoat/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/GaussianMoat.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/GaussianMoat.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/paper.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/build/main.tex"
+        ],
+        "verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "listed_lean_endpoints": [
+            {
+              "declaration": "OAI.GaussianMoat.fullMain",
+              "file": "lean/OAI/NumberTheory/GaussianMoat/Main.lean",
+              "comparator": "GaussianMoat"
+            }
+          ],
+          "comparator_policy": "Configurations permit only propext, Quot.sound, Classical.choice; enable_nanoda=false. These are declared checking settings, not a successful verification result.",
+          "challenge_vs_solution": "Comparator challenge files contain sorry placeholders by design; separate solution Main.lean files contain proof bodies. Transitive proof closure and elaboration were not audited."
+        },
+        "disposition": "hold_review"
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "source_problem_number": 978,
+      "theorem": "Erdos978.erdos_978.parts.ii",
+      "exact_statement_summary": "Every irreducible integer polynomial of degree k>3 not a power of two, positive leading coefficient, and no fixed prime (k-2)-power divisor has infinitely many (k-2)-power-free natural values.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 020 contains an exact or stronger resolution claim affecting this target. Positive-density (degree-2)-power-free polynomial values imply the selected infinitude. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: The pinned part ii includes the local no-fixed-prime-power-divisor hypothesis, positive leading coefficient, degree>3 and degree not a power of two. The known counterexample to an unrestricted formalization omits that local hypothesis. Known degree>=9 results do not cover all remaining degrees. Part iii separately asks squarefree values of n^4+2.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/978",
+          "retrieved_at": "2026-10-06",
+          "retrieval_status": "live HTTP 403; indexed material where available",
+          "indexed_snapshot_dates": [
+            "2026-06-13",
+            "2026-06-24",
+            "2026-06-28"
+          ]
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/978.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "base formal statement; exact pinned target additionally checked against synthetic patched git commit",
+          "blob_sha": "fb751c4ce16c74ec0481a4684bad07d561796363"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/978.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "current upstream statement and sibling-result scope, not a status oracle",
+          "blob_sha": "11e12097b6ac1d55ab9e3430c8724fad95eaf48f"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "retrieved_at": "2026-10-06",
+          "role": "current official metadata only; may lag solutions",
+          "record_last_update": "2025-08-31"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
+      "exact_published_type": "True \u2194\n  \u2200 {f : Polynomial \u2124},\n    Irreducible f \u2192\n      f.natDegree > 3 \u2192\n        (\u00ac\u2203 l, f.natDegree = 2 ^ l) \u2192\n          0 < f.leadingCoeff \u2192\n            (\u2200 (p : \u2115), Nat.Prime p \u2192 \u2203 n, \u00ac\u2191p ^ (f.natDegree - 2) \u2223 Polynomial.eval (\u2191n) f) \u2192\n              {n | Powerfree (f.natDegree - 2) (Polynomial.eval (\u2191n) f)}.Infinite",
+      "source_docstring": "If $k>3$ (and $k \\neq 2^l$), and for all primes $p$ there exists $n$ such that $p^{k-2}\\nmid f(n)$,\nthen are there infinitely many $n$ for which $f(n)$ is $(k-2)$-power-free?\n",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-978-parts-ii-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-parts-ii-aa017081c3d18f27105e1245ead9e6b8-problem",
+          "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+          "source_indices": [
+            2404
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/978.lean",
+          "target_type_sha256s": [
+            "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787"
+          ],
+          "task_bundle_sha256": "sha256:d94f66daebb9504fb9a3a391d21c855ba3e6e07f9f389bead42c394b911ca8f9",
+          "task_id": "fc-6a786f99-parts-ii-0993545a2c-formalized-v1",
+          "theorems": [
+            "Erdos978.erdos_978.parts.ii"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-parts-ii-aa017081c3d18f27105e1245ead9e6b8-problem",
+          "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+          "source_indices": [
+            2404
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/978.lean",
+          "target_type_sha256s": [
+            "sha256:2fae4b2704d90a9537406855522ed62866992621f5e198c951a0120dd5697e7a"
+          ],
+          "task_bundle_sha256": "sha256:49368f0c540674d908124ee94d5deb24b268ae0dc8d1510e4f2cf35027bdc032",
+          "task_id": "fc-6a786f99-parts-ii-8367de682c-counterexample-v1",
+          "theorems": [
+            "Erdos978.erdos_978.parts.ii"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "exact_selected_variant_read": true,
+        "current_formal_source_read": true,
+        "direct_numbered_page_attempted": true,
+        "direct_numbered_page_result": "HTTP 403",
+        "indexed_primary_page_or_forum_found": true,
+        "indexed_snapshot_dates": [
+          "2026-06-13",
+          "2026-06-24",
+          "2026-06-28"
+        ],
+        "numbered_search_query": "site:erdosproblems.com/978 \"978\"",
+        "current_solution_search_query": "\"Erdos\" \"problem 978\" solution 2026",
+        "official_tracker_record_checked": true,
+        "full_current_page_content_verified": false,
+        "limitations": "All 65 assigned numbered live pages returned HTTP 403. Indexed page/forum snapshots generally predate July 2026 and were treated as historical only. All 80 exact variants and all current formal files were checked; claimed matching solutions were compared by quantifiers and definitions. No new Lean/kernel replay was performed. Official metadata is not sufficient to certify openness.",
+        "metadata_caution": "Official GitHub metadata was checked live but is not authoritative evidence of absence of a solution. Parent also verified the official AI contribution wiki is frozen since 2026-06-30 and the problem site changed status-display policy on 2026-10-06."
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/978.lean",
+        "source_problem_number": 978,
+        "theorem": "Erdos978.erdos_978.parts.ii",
+        "source_type_sha256": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
+        "exact_published_type": "True \u2194\n  \u2200 {f : Polynomial \u2124},\n    Irreducible f \u2192\n      f.natDegree > 3 \u2192\n        (\u00ac\u2203 l, f.natDegree = 2 ^ l) \u2192\n          0 < f.leadingCoeff \u2192\n            (\u2200 (p : \u2115), Nat.Prime p \u2192 \u2203 n, \u00ac\u2191p ^ (f.natDegree - 2) \u2223 Polynomial.eval (\u2191n) f) \u2192\n              {n | Powerfree (f.natDegree - 2) (Polynomial.eval (\u2191n) f)}.Infinite",
+        "exact_statement_summary": "Every irreducible integer polynomial of degree k>3 not a power of two, positive leading coefficient, and no fixed prime (k-2)-power divisor has infinitely many (k-2)-power-free natural values.",
+        "prior_disposition": "retain_provisionally",
+        "prior_status": "partial",
+        "openai_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "020"
+        ],
+        "family_titles": [
+          "Squarefree quartics and power-free polynomial values."
+        ],
+        "relationship": "stronger_implication",
+        "claim_polarity": "supports_formalized",
+        "exact_scope_explanation": "The manuscript all-degrees corollary and Lean allDegrees assert positive-density (d-2)-power-free values of each rationally irreducible integer polynomial of every degree d>=4 with no fixed prime (d-2)-power divisor. Positive density implies the target infinitude. The corpus includes powers-of-two degrees and either leading-coefficient sign, hence removes two restrictions of the target. The target Irreducible f over Z with positive degree implies primitive and rationally irreducible by Gauss; its existence-of-a-natural-input local condition is equivalent to a missing root class modulo p^(d-2). This concerns the corrected parts.ii condition, not the known-false allow_fixed_divisors variant.",
+        "urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/020.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PowerFree/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/manuscript.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/build/sections/01-introduction.tex"
+        ],
+        "stated_verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "listed_lean_endpoints": [
+            {
+              "declaration": "OAI.QuarticPowerFree.allDegrees",
+              "file": "lean/OAI/NumberTheory/PowerFree/Main.lean",
+              "comparator": "PowerFreeValues"
+            }
+          ],
+          "comparator_policy": "Configurations permit only propext, Quot.sound, Classical.choice; enable_nanoda=false. These are declared checking settings, not a successful verification result.",
+          "challenge_vs_solution": "Comparator challenge files contain sorry placeholders by design; separate solution Main.lean files contain proof bodies. Transitive proof closure and elaboration were not audited."
+        },
+        "recommended_action": "hold_pending_validation",
+        "recommended_release_disposition": "hold_review_openai_pending_validation",
+        "recommended_next_steps": [
+          "Check Gauss-lemma irreducibility over Z to Q and local-admissibility equivalence.",
+          "Bridge the corpus custom PowerFree predicate to the pinned Mathlib Powerfree predicate and positive density to infinitude.",
+          "Run the specific Comparator and check imported proof dependencies."
+        ],
+        "scope_match_confidence": "high",
+        "screen_coverage": {
+          "families_screened": 372,
+          "catalogue_manuscripts": 722,
+          "exact_target_type_read": true,
+          "semantic_summary_and_abstract_screen": true,
+          "full_proof_rebuild": false
+        },
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/020.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PowerFree/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/manuscript.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/build/sections/01-introduction.tex"
+        ],
+        "verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "listed_lean_endpoints": [
+            {
+              "declaration": "OAI.QuarticPowerFree.allDegrees",
+              "file": "lean/OAI/NumberTheory/PowerFree/Main.lean",
+              "comparator": "PowerFreeValues"
+            }
+          ],
+          "comparator_policy": "Configurations permit only propext, Quot.sound, Classical.choice; enable_nanoda=false. These are declared checking settings, not a successful verification result.",
+          "challenge_vs_solution": "Comparator challenge files contain sorry placeholders by design; separate solution Main.lean files contain proof bodies. Transitive proof closure and elaboration were not audited."
+        },
+        "disposition": "hold_review"
+      }
+    },
+    {
+      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.iii",
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/978.lean",
+      "source_problem_number": 978,
+      "theorem": "Erdos978.erdos_978.parts.iii",
+      "exact_statement_summary": "Infinitely many natural n have n^4+2 squarefree.",
+      "current_status": "full_resolution_claim_pending_validation",
+      "platform_status": "selectable_catalog_snapshot",
+      "disposition": "hold_review_new_corpus",
+      "confidence": "medium",
+      "evidence_explanation": "NEW PUBLIC SOURCE, 2026-10-06: OpenAI math family 020 contains an exact or stronger resolution claim affecting this target. The squarefree-values theorem explicitly covers n^4+2. Exact statement/assumption bridges and independent verification remain required; this screen did not rebuild the proof. Prior-source assessment: The pinned part ii includes the local no-fixed-prime-power-divisor hypothesis, positive leading coefficient, degree>3 and degree not a power of two. The known counterexample to an unrestricted formalization omits that local hypothesis. Known degree>=9 results do not cover all remaining degrees. Part iii separately asks squarefree values of n^4+2.",
+      "primary_sources": [
+        {
+          "url": "https://www.erdosproblems.com/978",
+          "retrieved_at": "2026-10-06",
+          "retrieval_status": "live HTTP 403; indexed material where available",
+          "indexed_snapshot_dates": [
+            "2026-06-13",
+            "2026-06-24",
+            "2026-06-28"
+          ]
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/7d1a8c9912747679d0093f6d1216420c33ee5ffa/FormalConjectures/ErdosProblems/978.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "base formal statement; exact pinned target additionally checked against synthetic patched git commit",
+          "blob_sha": "fb751c4ce16c74ec0481a4684bad07d561796363"
+        },
+        {
+          "url": "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/978.lean",
+          "retrieved_at": "2026-10-06",
+          "role": "current upstream statement and sibling-result scope, not a status oracle",
+          "blob_sha": "11e12097b6ac1d55ab9e3430c8724fad95eaf48f"
+        },
+        {
+          "url": "https://github.com/teorth/erdosproblems/blob/3ba988f70d72888b38972ee9bb2a466ac5319cb1/data/problems.yaml",
+          "retrieved_at": "2026-10-06",
+          "role": "current official metadata only; may lag solutions",
+          "record_last_update": "2025-08-31"
+        }
+      ],
+      "audit_date_utc": "2026-10-06",
+      "source_type_sha256": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
+      "exact_published_type": "True \u2194 {n | Squarefree (n ^ 4 + 2)}.Infinite",
+      "source_docstring": "Does `n ^ 4 + 2` represent infinitely many squarefree numbers? ",
+      "source_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+      "tasks_commit": "7cc9b5235000a107743dcce8fcd5f6069c34c0b6",
+      "source_metadata_url": "https://github.com/conjectures-io/conjectures-tasks/blob/7cc9b5235000a107743dcce8fcd5f6069c34c0b6/pool/tier-1/erdos-978-parts-iii-formalized/source-metadata.json",
+      "task_bundles": [
+        {
+          "completion_policy": "all_of",
+          "mode": "formalized",
+          "problem_id": "fc-6a786f99-parts-iii-8b78166b3b3ed8d42acea28c096186f5-problem",
+          "reward_target_id": "fc-target:Erdos978.erdos_978.parts.iii",
+          "source_indices": [
+            2405
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/978.lean",
+          "target_type_sha256s": [
+            "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa"
+          ],
+          "task_bundle_sha256": "sha256:5f673ffacf4560c9c6739a18090a3c38471ba13d94bcb883d1c5702db6864863",
+          "task_id": "fc-6a786f99-parts-iii-027c8cd53a-formalized-v1",
+          "theorems": [
+            "Erdos978.erdos_978.parts.iii"
+          ],
+          "tier": "tier-1"
+        },
+        {
+          "completion_policy": "all_of",
+          "mode": "counterexample",
+          "problem_id": "fc-6a786f99-parts-iii-8b78166b3b3ed8d42acea28c096186f5-problem",
+          "reward_target_id": "fc-target:Erdos978.erdos_978.parts.iii",
+          "source_indices": [
+            2405
+          ],
+          "source_path": "FormalConjectures/ErdosProblems/978.lean",
+          "target_type_sha256s": [
+            "sha256:f343bd4f330d3d592002a712ff07f130494d31c140400a0314aa321046865920"
+          ],
+          "task_bundle_sha256": "sha256:9ae266618b93bb830db4b6f6e1a8f491b25848bffda87f1c1e0058cfc3e8c0a8",
+          "task_id": "fc-6a786f99-parts-iii-fade2a2a3d-counterexample-v1",
+          "theorems": [
+            "Erdos978.erdos_978.parts.iii"
+          ],
+          "tier": "tier-1"
+        }
+      ],
+      "search_coverage": {
+        "exact_selected_variant_read": true,
+        "current_formal_source_read": true,
+        "direct_numbered_page_attempted": true,
+        "direct_numbered_page_result": "HTTP 403",
+        "indexed_primary_page_or_forum_found": true,
+        "indexed_snapshot_dates": [
+          "2026-06-13",
+          "2026-06-24",
+          "2026-06-28"
+        ],
+        "numbered_search_query": "site:erdosproblems.com/978 \"978\"",
+        "current_solution_search_query": "\"Erdos\" \"problem 978\" solution 2026",
+        "official_tracker_record_checked": true,
+        "full_current_page_content_verified": false,
+        "limitations": "All 65 assigned numbered live pages returned HTTP 403. Indexed page/forum snapshots generally predate July 2026 and were treated as historical only. All 80 exact variants and all current formal files were checked; claimed matching solutions were compared by quantifiers and definitions. No new Lean/kernel replay was performed. Official metadata is not sufficient to certify openness.",
+        "metadata_caution": "Official GitHub metadata was checked live but is not authoritative evidence of absence of a solution. Parent also verified the official AI contribution wiki is frozen since 2026-06-30 and the problem site changed status-display policy on 2026-10-06."
+      },
+      "pre_openai_corpus_status": "partial",
+      "pre_openai_corpus_disposition": "retain_provisionally",
+      "openai_corpus_screen": {
+        "reward_target_id": "fc-target:Erdos978.erdos_978.parts.iii",
+        "source_family": "erdos",
+        "source_path": "FormalConjectures/ErdosProblems/978.lean",
+        "source_problem_number": 978,
+        "theorem": "Erdos978.erdos_978.parts.iii",
+        "source_type_sha256": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
+        "exact_published_type": "True \u2194 {n | Squarefree (n ^ 4 + 2)}.Infinite",
+        "exact_statement_summary": "Infinitely many natural n have n^4+2 squarefree.",
+        "prior_disposition": "retain_provisionally",
+        "prior_status": "partial",
+        "openai_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+        "family_ids": [
+          "020"
+        ],
+        "family_titles": [
+          "Squarefree quartics and power-free polynomial values."
+        ],
+        "relationship": "stronger_implication",
+        "claim_polarity": "supports_formalized",
+        "exact_scope_explanation": "The manuscript explicitly applies its quartic squarefree-density theorem to x^4+2, stronger than the pinned infinitude claim. Irreducibility follows by Eisenstein at 2. The local condition follows from input zero for odd primes (value 2) and input one for p=2 (value 3), with residue representatives usable as positive inputs. The theorem counts positive integer inputs; adding the natural input zero has no effect on infinitude. The corpus Lean allDegrees specializes to degree four and exponent two.",
+        "urls": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/020.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PowerFree/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/manuscript.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/build/sections/01-introduction.tex"
+        ],
+        "stated_verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "listed_lean_endpoints": [
+            {
+              "declaration": "OAI.QuarticPowerFree.allDegrees",
+              "file": "lean/OAI/NumberTheory/PowerFree/Main.lean",
+              "comparator": "PowerFreeValues"
+            }
+          ],
+          "comparator_policy": "Configurations permit only propext, Quot.sound, Classical.choice; enable_nanoda=false. These are declared checking settings, not a successful verification result.",
+          "challenge_vs_solution": "Comparator challenge files contain sorry placeholders by design; separate solution Main.lean files contain proof bodies. Transitive proof closure and elaboration were not audited."
+        },
+        "recommended_action": "hold_pending_validation",
+        "recommended_release_disposition": "hold_review_openai_pending_validation",
+        "recommended_next_steps": [
+          "Instantiate f=X^4+2, proving irreducibility and no fixed prime square divisor.",
+          "Bridge integer PowerFree 2 to natural Squarefree and density to infinitude.",
+          "Run the specific Comparator and check imported proof dependencies."
+        ],
+        "scope_match_confidence": "high",
+        "screen_coverage": {
+          "families_screened": 372,
+          "catalogue_manuscripts": 722,
+          "exact_target_type_read": true,
+          "semantic_summary_and_abstract_screen": true,
+          "full_proof_rebuild": false
+        },
+        "sources": [
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/CONTENTS.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/formalization.yaml",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/020.md",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/NumberTheory/PowerFree/Main.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.lean",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/ComparatorChallenges/PowerFreeValues.json",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/manuscript.pdf",
+          "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/Squarefree-values-of-quartics-and-power-free-values-of-polynomials-September-24-2026/build/sections/01-introduction.tex"
+        ],
+        "verification": {
+          "collection_notice": "README states results have differing stages of verification and some unformalized results could have issues.",
+          "catalogue_scope": "Partial progress.",
+          "catalogue_review_status": "unchecked",
+          "independently_rebuilt": false,
+          "independently_proof_validated": false,
+          "listed_lean_endpoints": [
+            {
+              "declaration": "OAI.QuarticPowerFree.allDegrees",
+              "file": "lean/OAI/NumberTheory/PowerFree/Main.lean",
+              "comparator": "PowerFreeValues"
+            }
+          ],
+          "comparator_policy": "Configurations permit only propext, Quot.sound, Classical.choice; enable_nanoda=false. These are declared checking settings, not a successful verification result.",
+          "challenge_vs_solution": "Comparator challenge files contain sorry placeholders by design; separate solution Main.lean files contain proof bodies. Transitive proof closure and elaboration were not audited."
+        },
+        "disposition": "hold_review"
+      }
+    }
+  ],
+  "preservation": "Preserve all prior paid closures, historical attributions and pending submissions on their immutable original environment; no retroactive public prior-art dates inferred from private manuscript dates."
+}

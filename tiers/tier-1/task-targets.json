@@ -1,6 +1,6 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 3,
   "targets": [
     {
@@ -74,13 +74,6 @@
       "theorem": "Erdos1003.erdos_1003"
     },
     {
-      "reward_target_id": "fc-target:Erdos1004.erdos_1004",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/1004.lean",
-      "source_problem_number": 1004,
-      "theorem": "Erdos1004.erdos_1004"
-    },
-    {
       "reward_target_id": "fc-target:Erdos1049.erdos_1049",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/1049.lean",
@@ -149,13 +142,6 @@
       "source_path": "FormalConjectures/ErdosProblems/1073.lean",
       "source_problem_number": 1073,
       "theorem": "Erdos1073.erdos_1073"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/1074.lean",
-      "source_problem_number": 1074,
-      "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half"
     },
     {
       "reward_target_id": "fc-target:Erdos108.erdos_108",
@@ -326,13 +312,6 @@
       "theorem": "Erdos137.erdos_137.variants.multiple_powerful_factors"
     },
     {
-      "reward_target_id": "fc-target:Erdos138.erdos_138",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/138.lean",
-      "source_problem_number": 138,
-      "theorem": "Erdos138.erdos_138"
-    },
-    {
       "reward_target_id": "fc-target:Erdos14.erdos_14.parts.i",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/14.lean",
@@ -352,13 +331,6 @@
       "source_path": "FormalConjectures/ErdosProblems/141.lean",
       "source_problem_number": 141,
       "theorem": "Erdos141.erdos_141.variants.eleven"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/142.lean",
-      "source_problem_number": 142,
-      "theorem": "Erdos142.erdos_142.variants.lower"
     },
     {
       "reward_target_id": "fc-target:Erdos143.erdos_143.parts.ii",
@@ -417,25 +389,11 @@
       "theorem": "Erdos17.erdos_17"
     },
     {
-      "reward_target_id": "fc-target:Erdos172.erdos_172",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/172.lean",
-      "source_problem_number": 172,
-      "theorem": "Erdos172.erdos_172"
-    },
-    {
       "reward_target_id": "fc-target:Erdos18.erdos_18b",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/18.lean",
       "source_problem_number": 18,
       "theorem": "Erdos18.erdos_18b"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos184.erdos_184",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/184.lean",
-      "source_problem_number": 184,
-      "theorem": "Erdos184.erdos_184"
     },
     {
       "reward_target_id": "fc-target:Erdos196.erdos_196",
@@ -585,13 +543,6 @@
       "theorem": "Erdos251.erdos_251"
     },
     {
-      "reward_target_id": "fc-target:Erdos252.erdos_252",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/252.lean",
-      "source_problem_number": 252,
-      "theorem": "Erdos252.erdos_252"
-    },
-    {
       "reward_target_id": "fc-target:Erdos257.erdos_257",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/257.lean",
@@ -641,13 +592,6 @@
       "theorem": "Erdos28.erdos_28"
     },
     {
-      "reward_target_id": "fc-target:Erdos282.erdos_282",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/282.lean",
-      "source_problem_number": 282,
-      "theorem": "Erdos282.erdos_282"
-    },
-    {
       "reward_target_id": "fc-target:Erdos287.erdos_287",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/287.lean",
@@ -669,25 +613,11 @@
       "theorem": "Erdos291.erdos_291.variants.shiu_heuristic_density_zero"
     },
     {
-      "reward_target_id": "fc-target:Erdos3.erdos_3",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/3.lean",
-      "source_problem_number": 3,
-      "theorem": "Erdos3.erdos_3"
-    },
-    {
       "reward_target_id": "fc-target:Erdos30.erdos_30",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/30.lean",
       "source_problem_number": 30,
       "theorem": "Erdos30.erdos_30"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos304.upper_bound",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/304.lean",
-      "source_problem_number": 304,
-      "theorem": "Erdos304.upper_bound"
     },
     {
       "reward_target_id": "fc-target:Erdos307.erdos_307",
@@ -842,13 +772,6 @@
       "source_path": "FormalConjectures/ErdosProblems/366.lean",
       "source_problem_number": 366,
       "theorem": "Erdos366.erdos_366"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos371.erdos_371",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/371.lean",
-      "source_problem_number": 371,
-      "theorem": "Erdos371.erdos_371"
     },
     {
       "reward_target_id": "fc-target:Erdos373.erdos_373",
@@ -1103,13 +1026,6 @@
       "theorem": "Erdos535.erdos_535.variants.first_open_case"
     },
     {
-      "reward_target_id": "fc-target:Erdos564.erdos_564",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/564.lean",
-      "source_problem_number": 564,
-      "theorem": "Erdos564.erdos_564"
-    },
-    {
       "reward_target_id": "fc-target:Erdos579.erdos_579",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/579.lean",
@@ -1250,20 +1166,6 @@
       "theorem": "Erdos699.erdos_699"
     },
     {
-      "reward_target_id": "fc-target:Erdos70.erdos_70.variants.omega_times_two_four",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/70.lean",
-      "source_problem_number": 70,
-      "theorem": "Erdos70.erdos_70.variants.omega_times_two_four"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos701.erdos_701",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/701.lean",
-      "source_problem_number": 701,
-      "theorem": "Erdos701.erdos_701"
-    },
-    {
       "reward_target_id": "fc-target:Erdos723.erdos_723.variants.eq_12",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/723.lean",
@@ -1332,13 +1234,6 @@
       "source_path": "FormalConjectures/ErdosProblems/82.lean",
       "source_problem_number": 82,
       "theorem": "Erdos82.erdos_82"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos821.erdos_821",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/821.lean",
-      "source_problem_number": 821,
-      "theorem": "Erdos821.erdos_821"
     },
     {
       "reward_target_id": "fc-target:Erdos828.erdos_828",
@@ -1423,13 +1318,6 @@
       "source_path": "FormalConjectures/ErdosProblems/886.lean",
       "source_problem_number": 886,
       "theorem": "Erdos886.erdos_886"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos887.erdos_887.parts.ii",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/887.lean",
-      "source_problem_number": 887,
-      "theorem": "Erdos887.erdos_887.parts.ii"
     },
     {
       "reward_target_id": "fc-target:Erdos889.erdos_889",
@@ -1635,13 +1523,6 @@
       "theorem": "Erdos951.erdos_951"
     },
     {
-      "reward_target_id": "fc-target:Erdos952.erdos_952",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/952.lean",
-      "source_problem_number": 952,
-      "theorem": "Erdos952.erdos_952"
-    },
-    {
       "reward_target_id": "fc-target:Erdos96.erdos_96",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/96.lean",
@@ -1668,20 +1549,6 @@
       "source_path": "FormalConjectures/ErdosProblems/975.lean",
       "source_problem_number": 975,
       "theorem": "Erdos975.erdos_975"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/978.lean",
-      "source_problem_number": 978,
-      "theorem": "Erdos978.erdos_978.parts.ii"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.iii",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/978.lean",
-      "source_problem_number": 978,
-      "theorem": "Erdos978.erdos_978.parts.iii"
     },
     {
       "reward_target_id": "fc-target:Erdos979.erdos_979",

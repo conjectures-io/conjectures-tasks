@@ -1,0 +1,71 @@
+{
+  "holds": [
+    {
+      "audit_reference": "catalog audit version 1 (sha256 c0f2a1de1e99b6e806d26ad40d6dcee3668e8193632be47f77fcaee13fe736b6), record fc-target:Erdos1004.erdos_1004",
+      "finding": "A primary-forum comment claims the full result from logarithmic-saving estimates for all polylogarithmic shifts. The inspected literature supplies that saving for odd shifts only (Li, June 2026, Corollary 1.3), the reviewed c<2 result is partial, and no verified exact solution was located.",
+      "held_on": "2026-10-06",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "required_resolution": "Review of the claimed full result against the exact pinned type, then a new admission audit.",
+      "reward_target_id": "fc-target:Erdos1004.erdos_1004",
+      "source_path": "FormalConjectures/ErdosProblems/1004.lean",
+      "source_type_sha256s": [
+        "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664"
+      ],
+      "theorem": "Erdos1004.erdos_1004"
+    },
+    {
+      "audit_reference": "catalog audit version 1 (sha256 c0f2a1de1e99b6e806d26ad40d6dcee3668e8193632be47f77fcaee13fe736b6), record fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
+      "finding": "The pinned density-1/2 statement is obsolete or mis-sourced: upstream commit 73f8e05 (2026-09-13) replaces EHSNumbers_one_half with EHSNumbers_one, and the source paragraph states the authors' conjecture as density 1, distinguishing an early numerical trend near 0.5.",
+      "held_on": "2026-10-06",
+      "reason_code": "HOLD_STATEMENT_SOURCE_DISCREPANCY",
+      "required_resolution": "A corrected statement through a source repin, then a new admission audit.",
+      "reward_target_id": "fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
+      "source_path": "FormalConjectures/ErdosProblems/1074.lean",
+      "source_type_sha256s": [
+        "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47"
+      ],
+      "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half"
+    },
+    {
+      "audit_reference": "catalog audit version 1 (sha256 c0f2a1de1e99b6e806d26ad40d6dcee3668e8193632be47f77fcaee13fe736b6), record fc-target:Erdos282.erdos_282",
+      "finding": "The pinned greedyUnitFractionRem may reuse odd denominators (2/3 becomes 1/3 + 1/3), while merged upstream PR 5806 removes each chosen denominator. The two formulations differ; neither is shown solved or false.",
+      "held_on": "2026-10-06",
+      "reason_code": "HOLD_STATEMENT_SOURCE_DISCREPANCY",
+      "required_resolution": "Statement-correspondence review choosing the intended formulation, then a new admission audit.",
+      "reward_target_id": "fc-target:Erdos282.erdos_282",
+      "source_path": "FormalConjectures/ErdosProblems/282.lean",
+      "source_type_sha256s": [
+        "sha256:cd135cd026b706b808d2bc82d9a0c68331f01bdd960c495dcf9d7b8c84e5fc3d"
+      ],
+      "theorem": "Erdos282.erdos_282"
+    },
+    {
+      "audit_reference": "catalog audit version 1 (sha256 c0f2a1de1e99b6e806d26ad40d6dcee3668e8193632be47f77fcaee13fe736b6), record fc-target:Erdos564.erdos_564",
+      "finding": "The constant c is untyped in the pinned source and elaborates as Nat (upstream PR 5790), so the exact target is not the intended positive-real-c problem; the baseline canonical type re-exported at UID 10001 binds c : Nat. Upstream now types c as a positive real.",
+      "held_on": "2026-10-06",
+      "reason_code": "HOLD_STATEMENT_SOURCE_DISCREPANCY",
+      "required_resolution": "A decision between retiring the defective statement and admitting a corrected real-c statement after a source repin, then a new admission audit.",
+      "reward_target_id": "fc-target:Erdos564.erdos_564",
+      "source_path": "FormalConjectures/ErdosProblems/564.lean",
+      "source_type_sha256s": [
+        "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092"
+      ],
+      "theorem": "Erdos564.erdos_564"
+    },
+    {
+      "audit_reference": "catalog audit version 1 (sha256 c0f2a1de1e99b6e806d26ad40d6dcee3668e8193632be47f77fcaee13fe736b6), record fc-target:Erdos887.erdos_887.parts.ii",
+      "finding": "Koch's June 2026 repository claims a full four-divisor bound, but its parts.ii endpoint (Formalization.lean at commit 230bf2c, lines 16518-16524) assumes an ExternalReconstructionSource hypothesis that is not instantiated there, and the manuscript could not be retrieved.",
+      "held_on": "2026-10-06",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "required_resolution": "Substantive review of whether the claim is unconditional and matches the exact pinned type, then a new admission audit.",
+      "reward_target_id": "fc-target:Erdos887.erdos_887.parts.ii",
+      "source_path": "FormalConjectures/ErdosProblems/887.lean",
+      "source_type_sha256s": [
+        "sha256:869e68472c87758ed735ec9905e981c1948591269bcdf19fd92574021681991e"
+      ],
+      "theorem": "Erdos887.erdos_887.parts.ii"
+    }
+  ],
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "schema_version": 1
+}
