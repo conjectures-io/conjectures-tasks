@@ -1,8 +1,9 @@
 {
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "retired": [
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-10-grechuk.md",
+      "pool_status": "retired",
       "reason": "SOLVED + NOT_OPEN (approved submission 244ff2d0 proves the published target; the informal claim follows from Crocker's published theorem on sums of a prime and two powers of 2 by the parity reduction the source docstring itself describes, so the target was not open when it was offered)",
       "reason_code": "SOLVED + NOT_OPEN",
       "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
@@ -71,6 +72,76 @@
     },
     {
       "decision_url": null,
+      "pool_status": "held",
+      "reason": "HOLD_UNVERIFIED_RESOLUTION_CLAIM (a primary-forum comment claims the full result, but the inspected literature supplies the needed saving for odd shifts only and no verified exact solution was located. Admission is suspended pending review; the target is not solved and not retired. See HOLDS-2026-10-06.md.)",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos1004.erdos_1004",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "For any fixed c > 0, if x is sufficiently large then there exists n ≤ x such that\nthe values of φ(n+k) are all distinct for 1 ≤ k ≤ (log x)^c.\nThis is an open problem.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«1004»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/1004](https://www.erdosproblems.com/1004)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/1004.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos1004.erdos_1004",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664",
+        "type_pretty": "True ↔ ∀ c > 0, ∀ᶠ (x : ℕ) in Filter.atTop, ∃ n ≤ x, Erdos1004.IsDistinctTotientRun n ⌊Real.log ↑x ^ c⌋₊"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1004»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1004.erdos_1004\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos1004-erdos-1004-b3fd66819b7927e62d15badfae9eb03b-problem",
+          "target_type_sha256": "sha256:4d5d37a6e9594dbd3df1dbe4cc7a8aaf72cc882d47dbd82c53283f7cd554d8da",
+          "task_bundle_sha256": "sha256:8c6d865f171db1901a55c15cc7b2f5aebbad76b22d53e3230dc3376d38131fa4",
+          "task_id": "fc-6a786f99-erdos1004-erdos-1004-f1852255fb-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1004»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1004.erdos_1004\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos1004-erdos-1004-b3fd66819b7927e62d15badfae9eb03b-problem",
+          "target_type_sha256": "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664",
+          "task_bundle_sha256": "sha256:1c1b5373bcd457f86633fd5280f24bc0ae27b24b325f278de9be5af7c6e0a49f",
+          "task_id": "fc-6a786f99-erdos1004-erdos-1004-7a92e7c063-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos1004.erdos_1004",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "TYPE_DEPENDS_ON_SORRY (Erdos1055.p := Nat.find (exists_p r), exists_p is sorried)",
       "reason_code": "TYPE_DEPENDS_ON_SORRY",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -139,6 +210,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "TYPE_DEPENDS_ON_SORRY (Erdos1055.p := Nat.find (exists_p r), exists_p is sorried)",
       "reason_code": "TYPE_DEPENDS_ON_SORRY",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -207,6 +279,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "QUARANTINE_UNVERIFIED_CLAIM (A September 5 manuscript claims the full factorial-avoiding-prime theorem. Its repository displays a matching endpoint and a standard-axiom build report, but also notes that its recorded build was from a dirty/untracked snapshot and lacks independent replication. This is a substantive prior claim, not a confirmed solution in this audit.)",
       "reason_code": "QUARANTINE_UNVERIFIED_CLAIM",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
@@ -273,6 +346,76 @@
     },
     {
       "decision_url": null,
+      "pool_status": "held",
+      "reason": "HOLD_STATEMENT_SOURCE_DISCREPANCY (upstream replaced this density-1/2 statement with a density-1 statement on 2026-09-13; the source states the conjecture as density 1. Admission is suspended pending a corrected statement; the target is not solved and not retired. See HOLDS-2026-10-06.md.)",
+      "reason_code": "HOLD_STATEMENT_SOURCE_DISCREPANCY",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Regarding the first question, Hardy and Subbarao computed all EHS numbers up to $2^{10}$, and\nwrite \"...if this trend conditions we expect [the limit] to be around 0.5, if it exists.\" ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«1074»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/1074](https://www.erdosproblems.com/1074)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/1074.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
+        "type_pretty": "Erdos1074.EHSNumbers.HasDensity (1 / 2)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1074»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1074.erdos_1074.variants.EHSNumbers_one_half\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-ehsnumbers-one-half-2c7369b21c137cff67b97f30610b9f60-problem",
+          "target_type_sha256": "sha256:ad7292e5788c1608d71ed3aa3208e20bbfd5aa24c70b969ba8f95ee170af4fc7",
+          "task_bundle_sha256": "sha256:c38477e6fd5ced63e3bc1c1084574b16088842cb5d8a0f90e441f4563c2aabb3",
+          "task_id": "fc-6a786f99-variants-ehsnumbers-one-half-915ee2d1e0-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«1074»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1074.erdos_1074.variants.EHSNumbers_one_half\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-ehsnumbers-one-half-2c7369b21c137cff67b97f30610b9f60-problem",
+          "target_type_sha256": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
+          "task_bundle_sha256": "sha256:de72a18404d12daed9b3a2d09b2b076543fafee2fd5475da63b8bfc25eba3fad",
+          "task_id": "fc-6a786f99-variants-ehsnumbers-one-half-53ee69f1af-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos1074.erdos_1074.variants.EHSNumbers_one_half",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH (Nat.smoothNumbers k means primes < k; erdosproblems.com/1093 defines k-smooth as primes ≤ k)",
       "reason_code": "SOURCE_MISMATCH",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -341,6 +484,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "QUARANTINE_INCOMPLETE_CLAIM (A public claim advertises reciprocal-sum convergence, exactly part iii, but its discussion identifies an assumed growth_ineq axiom and requests the missing block-growth argument. It does not constitute an unconditional proof. Conservatively withhold the target while the underlying claim is unresolved; do not describe it as solved.)",
       "reason_code": "QUARANTINE_INCOMPLETE_CLAIM",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
@@ -409,6 +553,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "RETIRE_SETTLED (The September 2026 proof gives f(n) ≫ sqrt(n), which implies f(n)/log(n) tends to infinity. The tracker records PROVED (LEAN). This settles the main target only; the separate isLittleO upper bound remains.)",
       "reason_code": "RETIRE_SETTLED",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
@@ -476,7 +621,150 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 160, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos138.erdos_138",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "In [Er80] Erdős asks whether\n$$ \\lim_{k \\to \\infty} (W(k))^{1/k} = \\infty $$\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«138»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/138](https://www.erdosproblems.com/138)",
+          "[Be68] Berlekamp, E. R., A construction for partitions which avoid long arithmetic progressions. Canad. Math. Bull. (1968), 409-414.",
+          "[Er80] Erdős, Paul, A survey of problems in combinatorial number theory. Ann. Discrete Math. (1980), 89-115.",
+          "[Er81] Erdős, P., On the combinatorial problems which I would most like to see solved. Combinatorica (1981), 25-42.",
+          "[Go01] Gowers, W. T., A new proof of Szemerédi's theorem. Geom. Funct. Anal. (2001), 465-588."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/138.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos138.erdos_138",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
+        "type_pretty": "True ↔ Filter.Tendsto (fun k => ↑(Erdos138.W k) ^ (1 / ↑k)) Filter.atTop Filter.atTop"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«138»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos138.erdos_138\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos138-erdos-138-83240c1dd5ac8082580951ab71386403-problem",
+          "target_type_sha256": "sha256:b44b7d9ef803af86a998689e5a9f89b95a816a4596be8ffab1353f2fb6e3f93e",
+          "task_bundle_sha256": "sha256:6a00a0cd865f4e657c384a61ed7da725ab831f75163b3e908d4ea9038f49812c",
+          "task_id": "fc-6a786f99-erdos138-erdos-138-0f57cb3ce1-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«138»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos138.erdos_138\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos138-erdos-138-83240c1dd5ac8082580951ab71386403-problem",
+          "target_type_sha256": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
+          "task_bundle_sha256": "sha256:caf8d2ff33806dee54aeddd39e78669c95e62d085495d7ff4d9d144dad744df4",
+          "task_id": "fc-6a786f99-erdos138-erdos-138-1ef589ced9-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos138.erdos_138",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 159, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos142.erdos_142.variants.lower",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Show that $r_k(N) = o_k(N / \\log N)$, where $r_k(N)$ the largest possible size of a subset\nof $\\{1, \\dots, N\\}$ that does not contain any non-trivial $k$-term arithmetic progression.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«142»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/142](https://www.erdosproblems.com/142)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/142.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos142.erdos_142.variants.lower",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c",
+        "type_pretty": "∀ (k : ℕ), 1 < k → (fun N => ↑(Erdos142.r k N)) =o[Filter.atTop] fun N => ↑N / Real.log ↑N"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«142»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos142.erdos_142.variants.lower\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-lower-a8108e1b448824a88e59c4069b1bc4d9-problem",
+          "target_type_sha256": "sha256:770d6750c85da8deb02b6d61007c14d7063663b9ccf9735e05ac941a25ca8838",
+          "task_bundle_sha256": "sha256:eab5238c75ba6fa72082ac0461e921f1716191214ac06efcce0568d704acd140",
+          "task_id": "fc-6a786f99-variants-lower-8a06da4606-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«142»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos142.erdos_142.variants.lower\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-lower-a8108e1b448824a88e59c4069b1bc4d9-problem",
+          "target_type_sha256": "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c",
+          "task_bundle_sha256": "sha256:a544c4519f9ac5fea0abe56ad300c09f4e37f29c444343906bfb3e14c3953df9",
+          "task_id": "fc-6a786f99-variants-lower-a1e26136f9-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos142.erdos_142.variants.lower",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-05-erdos-15.md",
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over ℚ, so failure of ℚ-summability does not establish real divergence; the counterexample exploited this domain mismatch)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -545,6 +833,149 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 164, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos172.erdos_172",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is it true that in any finite colouring of $\\mathbb{N}$ there exist arbitrarily large finite $A$ such that all sums\nand products of distinct elements in $A$ are the same colour?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«172»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/172](https://www.erdosproblems.com/172)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/172.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos172.erdos_172",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",
+        "type_pretty": "True ↔\n  ∀ (n : ℕ) (color : ℕ → Fin n) (m : ℕ),\n    ∃ A, A.card ≥ m ∧ ∃ c, ∀ (S : Finset ↥A), S.Nonempty → color (∑ x ∈ S, ↑x) = c ∧ color (∏ x ∈ S, ↑x) = c"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«172»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos172.erdos_172\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos172-erdos-172-f6ca1a59d04849ea59761d94156ec9b1-problem",
+          "target_type_sha256": "sha256:70f5b981c981610fcfc104a61d91546a4ea94181b829568137dd5b0f58cc27d1",
+          "task_bundle_sha256": "sha256:d027f65a02cb2683e68079e5098f9fca6a4a99b3dd50a7a9c359ff02dc545fc7",
+          "task_id": "fc-6a786f99-erdos172-erdos-172-c7edf48af7-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«172»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos172.erdos_172\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos172-erdos-172-f6ca1a59d04849ea59761d94156ec9b1-problem",
+          "target_type_sha256": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",
+          "task_bundle_sha256": "sha256:b430559f73608ea4f0b22476de5b49f53412eff87c624b4e014d20529c681457",
+          "task_id": "fc-6a786f99-erdos172-erdos-172-6b0bfa5619-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos172.erdos_172",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 181, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos184.erdos_184",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Any graph on $n$ vertices can be decomposed into $O(n)$ many edge-disjoint cycles and edges.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«184»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/184](https://www.erdosproblems.com/184)",
+          "[BM22](https://arxiv.org/abs/2211.07689) Bucić, M. and Montgomery, R., Towards the Erdős-Gallai Cycle Decomposition Conjecture. arXiv:2211.07689 (2022).",
+          "[CFS14](https://arxiv.org/abs/1310.0632) Conlon, David and Fox, Jacob and Sudakov, Benny, Cycle packing. Random Structures Algorithms (2014), 608-626.",
+          "[EGP66](https://doi.org/10.4153/CJM-1966-014-3) Erdős, Paul and Goodman, A. W. and Pósa, Lajos, The representation of a graph by set intersections. Canadian J. Math. (1966), 106-112.",
+          "[Er71](https://users.renyi.hu/~p_erdos/1971-25.pdf) Erdős, P., Some unsolved problems in graph theory and combinatorial analysis. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford, 1969) (1971), 97-109."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/184.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos184.erdos_184",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c",
+        "type_pretty": "∃ f,\n  (f =O[Filter.atTop] fun n => ↑n) ∧\n    ∀ {V : Type u_1} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),\n      ∃ D, (∀ H ∈ D, Erdos184.IsCycleOrEdge H.coe) ∧ Erdos184.IsDecomposition G D ∧ ↑D.card ≤ f (Fintype.card V)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«184»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos184.erdos_184\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos184-erdos-184-5558ad85d899ed10396b53fdb41d29bb-problem",
+          "target_type_sha256": "sha256:8d509d92583b7db5ef21de34904f4600374fcd6f1e418484737148b9a2da80af",
+          "task_bundle_sha256": "sha256:4a80dd9d9c898e5c1eb24583bbc83d02da5728c3e87bff28ca32ee987ab1c409",
+          "task_id": "fc-6a786f99-erdos184-erdos-184-47eadac979-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«184»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos184.erdos_184\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos184-erdos-184-5558ad85d899ed10396b53fdb41d29bb-problem",
+          "target_type_sha256": "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c",
+          "task_bundle_sha256": "sha256:3d2eebe3989376050495b9483ea0ef486a6c42b8d86a15f68e641c6b289d6e5c",
+          "task_id": "fc-6a786f99-erdos184-erdos-184-3e34e17a72-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos184.erdos_184",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "QUARANTINE_DISPUTED_CLAIM (Bradford arXiv:2602.11774 claims an Erdos-Straus solution; source discussion disputes its credibility. Other advertised Lean solutions only supply finite checks or unsupported periodicity. The pinned target additionally requires distinct ordered denominators, so the exact implication would need checking even if the paper were accepted. No verified solution is asserted here. The all-numerators Schinzel generalization is a separate retained target.)",
       "reason_code": "QUARANTINE_DISPUTED_CLAIM",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
@@ -614,6 +1045,358 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
+      "reason": "SOLVED_EXTERNALLY (the release coordinator confirmed a solution of this exact target: conjectures.io result 71c87792-e08f-413c-9b7a-3b61e577eed6 and the public Lean repository tokengr1nder/Erdos252 at commit dc071aafce41bbae41caf4c015499db6dafafd11. This retirement did not independently rebuild that proof. See EXTERNAL-SOLUTIONS-2026-10-06.md.)",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos252.erdos_252",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Erdős Problem 252: irrationality of the sum for a given $k$. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«252»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/252](https://www.erdosproblems.com/252)",
+          "[ErSt71] Erdös, P., and E. G. Straus. \"Some number theoretic results.\" Pacific J. Math 36 (1971): 635-646.",
+          "[ErSt74] Erdős, Paul, and Ernst Straus. \"On the irrationality of certain series.\" Pacific journal of mathematics 55.1 (1974): 85-92.",
+          "[ErKa54] P. Erdős, M. Kac, Amer. Math. Monthly 61 (1954), Problem 4518.",
+          "[ScPu06] Schlage-Puchta, J. C., The irrationality of a number theoretical series. Ramanujan J. (2006), 455-460.",
+          "[FLC07] Friedlander, J. B. and Luca, F. and Stoiciu, M., On the irrationality of a divisor function series. Integers (2007).",
+          "[Pr22] Pratt, K., The irrationality of a divisor function series of Erdős and Kac. arXiv:2209.11124 (2022)."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/252.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos252.erdos_252",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:ddba7c9c27b5665f6cfd200e37ee4ad2f1fbe6e1312d346bce5a2e5344bdbb11",
+        "type_pretty": "True ↔ ∀ k ≥ 1, Irrational (Erdos252.erdos_252_sum k)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«252»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos252.erdos_252\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos252-erdos-252-518309f59f4c18456e0067b487736cd1-problem",
+          "target_type_sha256": "sha256:68c1a2072a2f7de360d3fe05d83035cae986049ef3e1e7969778ee0346a95464",
+          "task_bundle_sha256": "sha256:4d4d20c868f2e42e176492d34d784018ba3756638181b607ebbf5ab95c6fb723",
+          "task_id": "fc-6a786f99-erdos252-erdos-252-27e45e279f-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«252»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos252.erdos_252\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos252-erdos-252-518309f59f4c18456e0067b487736cd1-problem",
+          "target_type_sha256": "sha256:ddba7c9c27b5665f6cfd200e37ee4ad2f1fbe6e1312d346bce5a2e5344bdbb11",
+          "task_bundle_sha256": "sha256:57985c599321a7affa2a9f81fcefbc7998f66058fd3381bb80b89ef5949520cc",
+          "task_id": "fc-6a786f99-erdos252-erdos-252-f4e9f7503d-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos252.erdos_252",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "held",
+      "reason": "HOLD_STATEMENT_SOURCE_DISCREPANCY (the pinned greedy algorithm may reuse odd denominators, while upstream PR 5806 uses distinct denominators. Admission is suspended pending statement-correspondence review; the target is not solved and not retired. See HOLDS-2026-10-06.md.)",
+      "reason_code": "HOLD_STATEMENT_SOURCE_DISCREPANCY",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos282.erdos_282",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $A\\subseteq \\mathbb{N}$ be an infinite set and consider the following\ngreedy algorithm for a rational $x\\in (0,1)$: choose the minimal $n\\in A$ such\nthat $n\\geq 1/x$ and repeat with $x$ replaced by $x-\\frac{1}{n}$. If this\nterminates after finitely many steps then this produces a representation of\n$x$ as the sum of distinct unit fractions with denominators from $A$.\n\nDoes this process always terminate if $x$ has odd denominator and $A$ is the\nset of odd numbers? ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«282»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/282](https://www.erdosproblems.com/282)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/282.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos282.erdos_282",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:cd135cd026b706b808d2bc82d9a0c68331f01bdd960c495dcf9d7b8c84e5fc3d",
+        "type_pretty": "∀ {x : ℚ}, x ∈ Set.Ioo 0 1 → Odd x.den → Erdos282.greedyUnitFractionRem {n | Odd n} x =ᶠ[Filter.atTop] 0"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«282»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos282.erdos_282\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos282-erdos-282-1bdae61d149a13421deea89398975b5c-problem",
+          "target_type_sha256": "sha256:659efb4ddab5ab8bdc89ffef77e54bf455e97d1efbe43aa223a20563a365776f",
+          "task_bundle_sha256": "sha256:f6a20e3e80aa8f7dfec4f084e000294fc5994bb8b7b098829f2db72c069006e2",
+          "task_id": "fc-6a786f99-erdos282-erdos-282-9abd686ee1-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«282»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos282.erdos_282\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos282-erdos-282-1bdae61d149a13421deea89398975b5c-problem",
+          "target_type_sha256": "sha256:cd135cd026b706b808d2bc82d9a0c68331f01bdd960c495dcf9d7b8c84e5fc3d",
+          "task_bundle_sha256": "sha256:703b3732ee49cf9bb4018ba21b9a869e817f7480af322d38c3b0a83d465c3d4d",
+          "task_id": "fc-6a786f99-erdos282-erdos-282-02f097749a-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos282.erdos_282",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 159, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos3.erdos_3",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "If $A \\subset \\mathbb{N}$ has $\\sum_{n \\in A}\\frac 1 n = \\infty$, then must $A$ contain arbitrarily\nlong arithmetic progressions?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«3»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/3](https://www.erdosproblems.com/3)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/3.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos3.erdos_3",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
+        "type_pretty": "True ↔ ∀ (A : Set ℕ), (¬Summable fun a => 1 / ↑↑a) → ∃ᶠ (k : ℕ) in Filter.atTop, ∃ S ⊆ A, S.IsAPOfLength ↑k"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos3.erdos_3\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos3-erdos-3-9fbac4f5e9db10c751d62e47386b429c-problem",
+          "target_type_sha256": "sha256:a6f27d88fde7ee43587520b2628eaec5aea85752a9c8bfa5b8ab225359485996",
+          "task_bundle_sha256": "sha256:0cf2fc86b94789d3d45f421df6fef98a597044918e7c25024e502874c1f0659c",
+          "task_id": "fc-6a786f99-erdos3-erdos-3-1b23a76e79-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos3.erdos_3\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos3-erdos-3-9fbac4f5e9db10c751d62e47386b429c-problem",
+          "target_type_sha256": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
+          "task_bundle_sha256": "sha256:47b8451dd025f39e2a68629f1c32f4e38f1ea5ea51923938c29a8aa9c2c82cb6",
+          "task_id": "fc-6a786f99-erdos3-erdos-3-3dc5c7ba93-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos3.erdos_3",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 025, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos304.upper_bound",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is it true that $$N(b) \\ll \\log \\log b$$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«304»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/304](https://www.erdosproblems.com/304)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/304.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos304.upper_bound",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
+        "type_pretty": "True ↔ (fun b => ↑(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => Real.log (Real.log ↑b)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«304»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos304.upper_bound\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos304-upper-bound-6d696cd529f682bb0a2e5b121f45ce22-problem",
+          "target_type_sha256": "sha256:03a9ed980c6b410235178a998bac5de14648d7fe08680419c2ebcca7a910fa93",
+          "task_bundle_sha256": "sha256:442c1e3297e79f425c8d2b41f6d6f2dfbf49fe6b9b1ee73984621f5d04aa6a6a",
+          "task_id": "fc-6a786f99-erdos304-upper-bound-8ccf89d842-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«304»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos304.upper_bound\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos304-upper-bound-6d696cd529f682bb0a2e5b121f45ce22-problem",
+          "target_type_sha256": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
+          "task_bundle_sha256": "sha256:3d28ef441e37d75924772fe12e7732f4fd92457e3dc77fe840b6daeb87cd1041",
+          "task_id": "fc-6a786f99-erdos304-upper-bound-69d8d8c839-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos304.upper_bound",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 012, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos371.erdos_371",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $P(n)$ denote the largest prime factor of $n$. Show that the set of $n$\nwith $P(n+1) > P(n)$ has density $\\frac{1}{2}$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«371»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/371](https://www.erdosproblems.com/371)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/371.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos371.erdos_371",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71",
+        "type_pretty": "{n | (n + 1).maxPrimeFac > n.maxPrimeFac}.HasDensity (1 / 2)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«371»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos371.erdos_371\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos371-erdos-371-3d522f499f831d5a89da60aab2253bc4-problem",
+          "target_type_sha256": "sha256:1c0da7765d81dd358cfbe884b483fe4a2dca0a8659c52f96fc4223913665338d",
+          "task_bundle_sha256": "sha256:966591a131c8b502ce697426de249815eb67d2b178060cc3ed155a95a06a5836",
+          "task_id": "fc-6a786f99-erdos371-erdos-371-9a3982ee28-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«371»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos371.erdos_371\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos371-erdos-371-3d522f499f831d5a89da60aab2253bc4-problem",
+          "target_type_sha256": "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71",
+          "task_bundle_sha256": "sha256:d5a22bb9b94337725e2100fa3c2da18c1a9469ca4076644cfd1e8bdd37b9c27d",
+          "task_id": "fc-6a786f99-erdos371-erdos-371-6bced2329f-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos371.erdos_371",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "4faa384c3f8eb007da1a1a28d5178dd9f2a0bb0e",
@@ -683,6 +1466,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "4faa384c3f8eb007da1a1a28d5178dd9f2a0bb0e",
@@ -752,6 +1536,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "4faa384c3f8eb007da1a1a28d5178dd9f2a0bb0e",
@@ -820,6 +1605,76 @@
     },
     {
       "decision_url": null,
+      "pool_status": "held",
+      "reason": "HOLD_STATEMENT_SOURCE_DISCREPANCY (the constant c elaborates as a natural number, not the intended positive real. Admission is suspended pending a decision between retiring the defective statement and admitting a corrected one; the target is not solved and not retired. See HOLDS-2026-10-06.md.)",
+      "reason_code": "HOLD_STATEMENT_SOURCE_DISCREPANCY",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos564.erdos_564",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $R_3(n)$ be the minimal $m$ such that if the edges of the $3$-uniform hypergraph on $m$\nvertices are $2$-coloured then there is a monochromatic copy of the complete $3$-uniform\nhypergraph on $n$ vertices.\n\nIs there some constant $c>0$ such that\n$$ R_3(n) \\geq 2^{2^{cn}}? $$\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«564»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/564](https://www.erdosproblems.com/564)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/564.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos564.erdos_564",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092",
+        "type_pretty": "True ↔ ∃ c > 0, ∀ᶠ (n : ℕ) in Filter.atTop, 2 ^ 2 ^ (c * n) ≤ ↑(Combinatorics.hypergraphRamsey 3 n)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«564»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos564.erdos_564\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos564-erdos-564-32dc5d2fab51c360f797cff51a81ad0d-problem",
+          "target_type_sha256": "sha256:654c69210ff664b296c7f53a80db7bd3790f91f5d4b76501fef2fab9df6cf611",
+          "task_bundle_sha256": "sha256:0336dfd35d54f8838fff455c7804ae40fac0a61a7216c9f77315956c1ecf2bac",
+          "task_id": "fc-6a786f99-erdos564-erdos-564-09d0314cd9-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«564»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos564.erdos_564\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos564-erdos-564-32dc5d2fab51c360f797cff51a81ad0d-problem",
+          "target_type_sha256": "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092",
+          "task_bundle_sha256": "sha256:5ef1d5a6fd6c1eb380584db655cae42658846d5b07116b6a09e2f772dc5b3bf7",
+          "task_id": "fc-6a786f99-erdos564-erdos-564-40c2a6ce1e-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos564.erdos_564",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q₃,H), while the Lean target states SimpleGraph.sizeRamsey Q₃ H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "5f45ca06b4bc70c7a55f259d4b2e58278fd31f83",
@@ -888,6 +1743,145 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
+      "reason": "SOLVED_EXTERNALLY (Milner and Prikry (1991) prove in ZFC the stronger relation omega_1 -> (omega*2+1, 4)^3; restricting to an initial omega_1 segment of the continuum ordinal gives this exact well-ordered variant. Only this variant is retired: the general Erdős 70 question, the real-line order question and the other Erdős 70 statements are unaffected. conjectures.io result 81f38614-217d-4eef-aadf-d3fd9d62a8d0 already recorded NOT_NOVEL for this variant. This retirement did not independently rebuild a proof. See EXTERNAL-SOLUTIONS-2026-10-06.md.)",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos70.erdos_70.variants.omega_times_two_four",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          3
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "**First open case beyond Erdős–Rado**: $\\mathfrak{c} \\to (\\omega \\cdot 2, 4)^3_2$.\n\nErdős and Rado proved $\\mathfrak{c} \\to (\\omega + n, 4)^3_2$ for every finite $n \\ge 2$\n(see `erdos_rado`), which covers all red ordinals below $\\omega \\cdot 2 = \\omega + \\omega$.\nThis variant asks whether the result extends to $\\beta = \\omega \\cdot 2$, the simplest\ncountable ordinal not covered by their theorem.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«70»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/70](https://www.erdosproblems.com/70)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/70.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos70.erdos_70.variants.omega_times_two_four",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
+        "type_pretty": "True ↔ Erdos70.OrdinalCardinalRamsey3 Cardinal.continuum.ord (Ordinal.omega0 * 2) 4"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«70»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos70.erdos_70.variants.omega_times_two_four\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-omega-times-two-four-b9cfc59715f3df872ec48369d609cd0c-problem",
+          "target_type_sha256": "sha256:d090626583f4d8405cfea85318e454da3aa1509287d098c4ed1b5e7c6d066131",
+          "task_bundle_sha256": "sha256:8bbf4cd56b78a6a6cf8b25fc52dfc04abe26f129846399dfda69017cff8a01bf",
+          "task_id": "fc-6a786f99-variants-omega-times-two-four-6d316024db-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«70»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos70.erdos_70.variants.omega_times_two_four\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-variants-omega-times-two-four-b9cfc59715f3df872ec48369d609cd0c-problem",
+          "target_type_sha256": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
+          "task_bundle_sha256": "sha256:89a9664a7e355009a693117c51eaac8223b8d2004bfa49127244df10fa7c6dbb",
+          "task_id": "fc-6a786f99-variants-omega-times-two-four-4eb41de4f8-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos70.erdos_70.variants.omega_times_two_four",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "SOLVED_EXTERNALLY (the release coordinator confirmed that arXiv:2609.19123v1 and arXiv:2609.28404v2, Theorem 1, settle the finite hereditary-family case, which is the pinned target over finite ground types, with a public Lean formalization. This retirement did not independently rebuild that proof. See EXTERNAL-SOLUTIONS-2026-10-06.md.)",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos701.erdos_701",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $\\mathcal{F}$ be a family of sets closed under taking subsets (i.e. if\n$B\\subseteq A\\in\\mathcal{F}$ then $B\\in \\mathcal{F}$). There exists some element $x$ such that\nwhenever $\\mathcal{F}'\\subseteq \\mathcal{F}$ is an intersecting subfamily we have\n$$\\lvert \\mathcal{F}'\\rvert \\leq \\lvert \\{ A\\in \\mathcal{F} : x\\in A\\}\\rvert.$$\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«701»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/701](https://www.erdosproblems.com/701)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/701.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos701.erdos_701",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:ca0ae541b657e550f538d41a62a6ebd5d370b8cbde8971ccc3066b1e8ff687b8",
+        "type_pretty": "True ↔\n  ∀ {X : Type} [Nonempty X] [Fintype X] (F : Set (Set X)),\n    IsLowerSet F → ∃ x, ∀ F' ⊆ F, F'.Intersecting → Cardinal.mk ↑F' ≤ Cardinal.mk ↑{A | A ∈ F ∧ x ∈ A}"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«701»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos701.erdos_701\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos701-erdos-701-c31dfc3744a40030cce7177cab27de90-problem",
+          "target_type_sha256": "sha256:d2df05a83bd934271e66d718777826d2834b941a7931d50a894f9f0ea5daf522",
+          "task_bundle_sha256": "sha256:fbbf02aab3c1ee1103b6401d18de498f7e45d1bb76bd404e23c1d124c0533fa1",
+          "task_id": "fc-6a786f99-erdos701-erdos-701-41f9e00a83-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«701»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos701.erdos_701\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos701-erdos-701-c31dfc3744a40030cce7177cab27de90-problem",
+          "target_type_sha256": "sha256:ca0ae541b657e550f538d41a62a6ebd5d370b8cbde8971ccc3066b1e8ff687b8",
+          "task_bundle_sha256": "sha256:23babed48cd514be93812602fa03c3142c76b04f038faa1f1112a2d0cef3523c",
+          "task_id": "fc-6a786f99-erdos701-erdos-701-5af5e2048d-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos701.erdos_701",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "QUARANTINE_UNVERIFIED_CLAIM (Johan Land publishes an unconditional k=3 construction and a Lean endpoint for k=2, exactly the active target. The general all-k problem being open does not clear this variant. The claimed Lean build has not been independently reproduced in this audit.)",
       "reason_code": "QUARANTINE_UNVERIFIED_CLAIM",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
@@ -953,7 +1947,152 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 011, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos821.erdos_821",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is it true that, for every $\\epsilon>0$, there exist infinitely many $n$ such that\n$g(n) > n^{1-\\epsilon}$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«821»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/821](https://www.erdosproblems.com/821)",
+          "[BaHa98] Baker, R. C. and Harman, G., Shifted primes without large prime factors. Acta Arith. (1998), 331--361.",
+          "[Er35b] Erdős, P., On the normal number of prime factors of $p-1$ and some related problems concerning Euler's $\\varphi$-function. Quart. J. Math. (1935), 205-213.",
+          "[Er74b] Erdős, P., Remarks on some problems in number theory. Math. Balkanica (1974), 197-202.",
+          "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
+          "[LuPo11] Luca, Florian and Pollack, Paul, An arithmetic function arising from {C}armichael's conjecture. J. Théor. Nombres Bordeaux (2011), 697--714."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/821.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos821.erdos_821",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
+        "type_pretty": "True ↔ ∀ ε > 0, {n | ↑(Erdos821.g n) > ↑n ^ (1 - ε)}.Infinite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«821»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos821.erdos_821\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos821-erdos-821-6332475b9199a920f04494c9ca90ad23-problem",
+          "target_type_sha256": "sha256:3a767bd22853fb9233bbaf2ef8bee6868d963a3cc87d870c955e11d83b1a090d",
+          "task_bundle_sha256": "sha256:3b47a37e9890580d523bf8850b327d88e66b0b9da14ba5f8a683076933c9b293",
+          "task_id": "fc-6a786f99-erdos821-erdos-821-c2f5a259f8-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«821»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos821.erdos_821\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos821-erdos-821-6332475b9199a920f04494c9ca90ad23-problem",
+          "target_type_sha256": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
+          "task_bundle_sha256": "sha256:b88ecbd93e17c91f00925ba2ebff04859ba13a2e019a2ed5488412d69b00c34f",
+          "task_id": "fc-6a786f99-erdos821-erdos-821-d2899b72e2-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos821.erdos_821",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "held",
+      "reason": "HOLD_UNVERIFIED_RESOLUTION_CLAIM (a public repository claims the full bound, but its endpoint assumes an external hypothesis that is not instantiated. Admission is suspended pending substantive review; the target is not solved and not retired. See HOLDS-2026-10-06.md.)",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos887.erdos_887.parts.ii",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is there an absolute constant $K$ such that, for every $C > 0$, if $n$ is sufficiently large then\n$n$ has at most $K$ divisors in $(n^{\\frac{1}{2}}, n^{\\frac{1}{2}} + C n^{\\frac{1}{4}})$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«887»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/887](https://www.erdosproblems.com/887)",
+          "[ErRo97] Erdős, Paul and Rosenfeld, Moshe, The factor-difference set of integers. Acta Arith. (1997), 353--359."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/887.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos887.erdos_887.parts.ii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:869e68472c87758ed735ec9905e981c1948591269bcdf19fd92574021681991e",
+        "type_pretty": "∃ K, ∀ C > 0, ∀ᶠ (n : ℕ) in Filter.atTop, {d ∈ Finset.Ioo ⌊√↑n⌋₊ ⌈√↑n + C * ↑n ^ (1 / 4)⌉₊ | d ∣ n}.card ≤ K"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«887»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos887.erdos_887.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-parts-ii-86ce89f0003d2102c7395dfe0a776be7-problem",
+          "target_type_sha256": "sha256:93db3b2a47eef1fe32d9430f2db2c8f4dbf61c13f7f87dd44af2155977d6a338",
+          "task_bundle_sha256": "sha256:20d3dda97a26b1fa3449202171fb758c4d9e48fa8ed7bfbdbdac449fa570584d",
+          "task_id": "fc-6a786f99-parts-ii-9d5d78e02c-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«887»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos887.erdos_887.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-parts-ii-86ce89f0003d2102c7395dfe0a776be7-problem",
+          "target_type_sha256": "sha256:869e68472c87758ed735ec9905e981c1948591269bcdf19fd92574021681991e",
+          "task_bundle_sha256": "sha256:137688c6299522c829934bbe018fd4e560a45ece6c5d76b8a0b8fbbd9835a49a",
+          "task_id": "fc-6a786f99-parts-ii-9a67b795df-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos887.erdos_887.parts.ii",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-939.md",
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
       "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
@@ -1022,6 +2161,217 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public refutation claim in OpenAI math corpus family 028, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos952.erdos_952",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is there an infinite sequence of distinct Gaussian primes $x_1,x_2,\\ldots$\nsuch that $\\lvert x_{n+1}-x_n\\rvert \\ll 1$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«952»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/952](https://www.erdosproblems.com/952)",
+          "[Wikipedia](https://wikipedia.org/wiki/Gaussian_moat)"
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/952.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos952.erdos_952",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx"
+        ],
+        "type_hash": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
+        "type_pretty": "True ↔ ∃ x C, Function.Injective x ∧ ∀ (n : ℕ), Prime (x n) ∧ Zsqrtd.norm (x (n + 1) - x n) < C"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«952»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos952.erdos_952\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos952-erdos-952-b1118bac61d778ff04c59b2244cc07c6-problem",
+          "target_type_sha256": "sha256:427bd3943c70f14c7cbcabf7ddc73f0e4adf5b050e9841ba69831d6c644e0a82",
+          "task_bundle_sha256": "sha256:6d6749851decad74d6fdefefcdaea5deee7dfc2c42f27aa1fd95f9bdcc4ee225",
+          "task_id": "fc-6a786f99-erdos952-erdos-952-e18234649c-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«952»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos952.erdos_952\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-erdos952-erdos-952-b1118bac61d778ff04c59b2244cc07c6-problem",
+          "target_type_sha256": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
+          "task_bundle_sha256": "sha256:a64a9ce3c5f7818bc326df2f33617741eab17c3df66c6c4bf17fdcec6947afb8",
+          "task_id": "fc-6a786f99-erdos952-erdos-952-6a92117272-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos952.erdos_952",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 020, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.ii",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "If $k>3$ (and $k \\neq 2^l$), and for all primes $p$ there exists $n$ such that $p^{k-2}\\nmid f(n)$,\nthen are there infinitely many $n$ for which $f(n)$ is $(k-2)$-power-free?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«978»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/978](https://www.erdosproblems.com/978)",
+          "[Ho67] Hooley, C., On the power free values of polynomials. Mathematika (1967), 21--26.",
+          "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
+          "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/978.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos978.erdos_978.parts.ii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
+        "type_pretty": "True ↔\n  ∀ {f : Polynomial ℤ},\n    Irreducible f →\n      f.natDegree > 3 →\n        (¬∃ l, f.natDegree = 2 ^ l) →\n          0 < f.leadingCoeff →\n            (∀ (p : ℕ), Nat.Prime p → ∃ n, ¬↑p ^ (f.natDegree - 2) ∣ Polynomial.eval (↑n) f) →\n              {n | Powerfree (f.natDegree - 2) (Polynomial.eval (↑n) f)}.Infinite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos978.erdos_978.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-parts-ii-aa017081c3d18f27105e1245ead9e6b8-problem",
+          "target_type_sha256": "sha256:2fae4b2704d90a9537406855522ed62866992621f5e198c951a0120dd5697e7a",
+          "task_bundle_sha256": "sha256:49368f0c540674d908124ee94d5deb24b268ae0dc8d1510e4f2cf35027bdc032",
+          "task_id": "fc-6a786f99-parts-ii-8367de682c-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos978.erdos_978.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-parts-ii-aa017081c3d18f27105e1245ead9e6b8-problem",
+          "target_type_sha256": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
+          "task_bundle_sha256": "sha256:d94f66daebb9504fb9a3a391d21c855ba3e6e07f9f389bead42c394b911ca8f9",
+          "task_id": "fc-6a786f99-parts-ii-0993545a2c-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos978.erdos_978.parts.ii",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 020, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
+      "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
+      "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
+      "retired_on": "2026-10-06",
+      "reward_target_id": "fc-target:Erdos978.erdos_978.parts.iii",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Does `n ^ 4 + 2` represent infinitely many squarefree numbers? ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«978»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/978](https://www.erdosproblems.com/978)",
+          "[Ho67] Hooley, C., On the power free values of polynomials. Mathematika (1967), 21--26.",
+          "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
+          "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
+        ],
+        "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+        "source_path": "FormalConjectures/ErdosProblems/978.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos978.erdos_978.parts.iii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx"
+        ],
+        "type_hash": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
+        "type_pretty": "True ↔ {n | Squarefree (n ^ 4 + 2)}.Infinite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos978.erdos_978.parts.iii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-parts-iii-8b78166b3b3ed8d42acea28c096186f5-problem",
+          "target_type_sha256": "sha256:f343bd4f330d3d592002a712ff07f130494d31c140400a0314aa321046865920",
+          "task_bundle_sha256": "sha256:9ae266618b93bb830db4b6f6e1a8f491b25848bffda87f1c1e0058cfc3e8c0a8",
+          "task_id": "fc-6a786f99-parts-iii-fade2a2a3d-counterexample-v1",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos978.erdos_978.parts.iii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6a786f99-parts-iii-8b78166b3b3ed8d42acea28c096186f5-problem",
+          "target_type_sha256": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
+          "task_bundle_sha256": "sha256:5f673ffacf4560c9c6739a18090a3c38471ba13d94bcb883d1c5702db6864863",
+          "task_id": "fc-6a786f99-parts-iii-027c8cd53a-formalized-v1",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Erdos978.erdos_978.parts.iii",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1091,6 +2441,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1164,6 +2515,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1237,6 +2589,7 @@
     },
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-29.md",
+      "pool_status": "retired",
       "reason": "SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} × H) ∪ ({+1} × H) ∪ {(0,1)} in Multiplicative ℤ × H, whose only element at coordinate 0 is the identity, so every S ⊆ A with S^8 ⊆ A^4 is a singleton; the formalization is faithful and no defect was found)",
       "reason_code": "SOLVED",
       "recovered_from_commit": "697613c323aa6e250fa48a70df7ac7915719d7f5",
@@ -1309,6 +2662,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "SOLVED + NOT_OPEN (Franchi–Gowers–Yip, arXiv:2607.06073v1, published 2026-07-07, proves the exact product-free-subset target; submissions af89c6c1 and df81aea1 were rejected under NOT_NOVEL after substantially implementing that published solution)",
       "reason_code": "SOLVED + NOT_OPEN",
       "recovered_from_commit": "184aac41ce6690ad443e76bbc358e47b671a675c",
@@ -1377,6 +2731,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1447,6 +2802,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1518,6 +2874,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1588,6 +2945,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1660,6 +3018,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1732,6 +3091,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -1803,6 +3163,7 @@
     },
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-42.md",
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (SatisfiesCohnElkiesScheme omits continuity of f, so f 0 may be set at a single null point independently of fHat f 0 and any positive bound is attainable; submission aa57d955 exhibited a Gaussian modified only at the origin)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
       "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
@@ -1876,6 +3237,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "PRIOR_EXTERNAL_FORMALIZATION (Green 44, also Erdos 1202, was resolved negatively by Price and GPT-5.4 Pro. The public plby/lean-proofs Erdos1202 counterexample predates pool admission; its unchanged source and an exact-target bridge were independently kernel-checked on September 9. See EXTERNAL-SOLUTIONS-2026-09-10.md for public sources.)",
       "reason_code": "PRIOR_EXTERNAL_FORMALIZATION",
       "recovered_from_commit": "7d9b9eb40e8f8edf84480ca51b8079e3d68236e0",
@@ -1945,6 +3307,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2014,6 +3377,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH (Green #54 is per-n on ℝ^n; formalization is a single statement on ℕ → ℝ with Measure.infinitePi gaussian — nonequivalent setting)",
       "reason_code": "SOURCE_MISMATCH",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -2085,6 +3449,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2154,6 +3519,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2222,6 +3588,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2290,6 +3657,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2358,6 +3726,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2428,6 +3797,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2499,6 +3869,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give α(n) ≳ 1/n, refuting the formalized n^(−2+o(1)) claim by elementary geometry)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
@@ -2568,6 +3939,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
@@ -2637,6 +4009,7 @@
     },
     {
       "decision_url": null,
+      "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
