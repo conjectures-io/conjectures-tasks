@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.Lemoine",
@@ -25,7 +25,7 @@
   "source_theorem": "Lemoine.lemoine_conjecture",
   "source_type_hash": "sha256:eb97e9f0c2b94a2c6e20cded62eb731dc781854be20d0de3253076e6c17cc36e",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-lemoine-lemoine-conjecture-c48653bc45-counterexample-v1",
+  "task_id": "fc-4b69a7dc-lemoine-lemoine-conjecture-9f4b353704-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:110af785fab3e9cbf321ba273b5988e372c2754c8aef5fa3204bf4ba1946b9d6",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:0bdc327e331e245b594d98e5418dded9f7625c16bf3faa312737d407ef780859"
+    "source-metadata.json": "sha256:e84590806bf84419bbbf1d1312b5c5ad09b30cae18010b8b1a16ed9933db2712"
   }
 }

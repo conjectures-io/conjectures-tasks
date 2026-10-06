@@ -25,7 +25,7 @@
     "[BJP14] T. Brown, V. Jungić and A. Poelstra, \"On double 3-term arithmetic progressions\", Integers 14 (2014), Paper No. A43.",
     "[CCS14] J. Cassaigne, J. D. Currie, L. Schaeffer and J. Shallit, \"Avoidance of additive cubes and related results\", Adv. in Appl. Math. 56 (2014), 25–66."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/GreensOpenProblems/15.lean",
   "supported_modes": [
     "formalized",

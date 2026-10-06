@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/400](https://www.erdosproblems.com/400)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/400.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:71d81fb5ece337687bd6c52418ef242d0b0b2c6004532cea871d437abe64b2a6",
+  "type_hash": "sha256:e4c6fb6ca753582f8289577becdfe30e226cc045915ef98ef84699ae28471d9c",
   "type_pretty": "True ↔\n  ∀ k ≥ 2,\n    ∃ c,\n      Asymptotics.IsEquivalent Filter.atTop (fun x => ∑ n ∈ Finset.Icc 1 x, ↑(Erdos400.g k n)) fun x =>\n        c * ↑x * Real.log ↑x"
 }

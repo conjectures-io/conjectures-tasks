@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.HardyLittlewood",
@@ -25,7 +25,7 @@
   "source_theorem": "HardyLittlewood.first_hardy_littlewood_conjecture",
   "source_type_hash": "sha256:115d3ca4efee8567e3fd85b1b525c3a55dfc0282397397bf3b4872ff2d4d1f25",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-hardylittlewood-first-hardy-littlewood-conjecture-f132a56d08-counterexample-v1",
+  "task_id": "fc-4b69a7dc-hardylittlewood-first-hardy-littlewood-conjecture-ea9eacd668-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:7a8953d70b5ae9be78c7e7145cca4635441b6ea524768cbbfd2ba3fc0658b11a",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:23bafa31fedee4c174f0bfeb707ee60c18039251b06e783b0bab98a5833fb53a"
+    "source-metadata.json": "sha256:addb11286a116d4f112f0ea80e357afa4c165fd6115b8fbec9db2b2638af4554"
   }
 }

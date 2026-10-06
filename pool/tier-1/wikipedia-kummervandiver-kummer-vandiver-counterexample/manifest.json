@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.KummerVandiver",
@@ -25,7 +25,7 @@
   "source_theorem": "KummerVandiver.kummer_vandiver",
   "source_type_hash": "sha256:13bcac24c6fd3d1336941e9c2a481611c8e9b0b496229b8b3950e0129ada484c",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-kummervandiver-kummer-vandiver-4660409a46-counterexample-v1",
+  "task_id": "fc-4b69a7dc-kummervandiver-kummer-vandiver-38480cbc12-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:fbc8fec0613be13edf746ef674d68b51613afcdc0cd627330045922b0d921ca5",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:0e5decfc1cc358ebce3c17c227a13b4599bed829b7563f737905128a99d325e0"
+    "source-metadata.json": "sha256:3afefa0800b1eda257ed04559d7b0301fa6ccd6a7de5cfd72cdc4b7f58a35ec5"
   }
 }

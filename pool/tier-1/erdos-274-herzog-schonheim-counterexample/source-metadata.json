@@ -27,7 +27,7 @@
     "[PMC7247885](https://pmc.ncbi.nlm.nih.gov/articles/PMC7247885/)",
     "[arXiv:1804.11103](https://arxiv.org/abs/1804.11103)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/274.lean",
   "supported_modes": [
     "formalized",
@@ -40,6 +40,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:a334889fc46ffbdf036146f0bc787ce44b71263ebe07971d64823f1e39cbe278",
+  "type_hash": "sha256:6e97913f0a452b5b51b26e192ba3709526e1bf4aa88cca5bf0d69d34d62cd8ca",
   "type_pretty": "∀ {G : Type u_1} [inst : Group G],\n  1 < ENat.card G →\n    ∀ {ι : Type u_2} [inst_1 : Fintype ι],\n      1 < Fintype.card ι →\n        ∀ (P : Erdos274.Group.ExactCovering G ι), ∃ i j, i ≠ j ∧ (P.parts i).index = (P.parts j).index"
 }

@@ -28,7 +28,7 @@
     "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
     "[Po89] Pomerance, Carl, Two methods in elementary analytic number theory. (1989), 135--161."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/1057.lean",
   "supported_modes": [
     "formalized",

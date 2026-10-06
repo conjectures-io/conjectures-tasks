@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/359](https://www.erdosproblems.com/359)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/359.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:866d9c3f216f0535dc483adb5c7dd41f57f0924003dad735fd1c04d6637d5b14",
+  "type_hash": "sha256:e8d3274560c69189522bcba232b7c4eed67b4ba51c1bfeb8843d7ee8293f764f",
   "type_pretty": "∀ (A : ℕ → ℕ),\n  Erdos359.IsGoodFor A 1 →\n    Asymptotics.IsEquivalent Filter.atTop (fun k => ↑(A k)) fun k => ↑k * Real.log ↑k / Real.log (Real.log ↑k)"
 }

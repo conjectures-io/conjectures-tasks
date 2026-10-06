@@ -23,7 +23,7 @@
     "[erdosproblems.com/688](https://www.erdosproblems.com/688)",
     "[Er80] Erdős, Paul, _A survey of problems in combinatorial number theory_. Ann. Discrete Math. (1980), 89-115."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/688.lean",
   "supported_modes": [
     "formalized",

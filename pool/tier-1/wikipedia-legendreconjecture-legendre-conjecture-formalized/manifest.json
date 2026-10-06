@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.LegendreConjecture",
@@ -25,7 +25,7 @@
   "source_theorem": "LegendreConjecture.legendre_conjecture",
   "source_type_hash": "sha256:9b35ae2fb71f2c60f3815a062057b780d848c7e77751753be7afb5ab6f79c15d",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-legendreconjecture-legendre-conjecture-03f8a60b08-formalized-v1",
+  "task_id": "fc-4b69a7dc-legendreconjecture-legendre-conjecture-07c002f3bf-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:47c299fb9c6826e6d9066df1529bff9fe186ca0fd24332ed358c23bff3c1b76d",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:300c2abca7304e562e9f37ad054788d771e39e229323cf0ef5fb30c14b7520d6"
+    "source-metadata.json": "sha256:6dce355ef05676914834227287e886bf992a53d94214b44f32f433561e2f3840"
   }
 }

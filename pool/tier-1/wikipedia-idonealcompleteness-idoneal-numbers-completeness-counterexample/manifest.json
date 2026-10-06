@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.IdonealCompleteness",
@@ -25,7 +25,7 @@
   "source_theorem": "Idoneal.idoneal_numbers_completeness",
   "source_type_hash": "sha256:f711719e1887b6bef588874bb6e5cd826f250fb9c2f0922b27912a2a3cce288a",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-idoneal-idoneal-numbers-completeness-775a3939de-counterexample-v1",
+  "task_id": "fc-4b69a7dc-idoneal-idoneal-numbers-completeness-fde3d61ddd-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:b43d1db95f725a201b76f64810b65aa85e3a6d1b589317add78a13a58aadcc47",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:b7b8b8304acfb8255639f44396047095d44bf4c1a8388c4d7688b1c3be589997"
+    "source-metadata.json": "sha256:ac145bdef300a4098c6b6422a5d975e31c9cbb87f29c8f2b9bca893ca81e32a3"
   }
 }

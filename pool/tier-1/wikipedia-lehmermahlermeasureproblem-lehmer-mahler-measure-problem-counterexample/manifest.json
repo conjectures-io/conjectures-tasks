@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.LehmerMahlerMeasureProblem",
@@ -25,7 +25,7 @@
   "source_theorem": "LehmerMahlerMeasureProblem.lehmer_mahler_measure_problem",
   "source_type_hash": "sha256:ab0bc423aa29d33304fa2763ce2a3f9f1390e9dd3c0aaf99580f19a9b14f52bf",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-lehmermahlermeasureproblem-lehmer-mahler-measure-problem-760babe82e-counterexample-v1",
+  "task_id": "fc-4b69a7dc-lehmermahlermeasureproblem-lehmer-mahler-measure-problem-c38a61c5c4-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:71f2427b426f6f816956c703fb7398bd0a0e1c8c8c2bedef1fcf8955f773f470",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:ff625acdcc2f515603820a27d83287cb4a23240f8f73b30bac808f4b59eab94e"
+    "source-metadata.json": "sha256:265d06de0a5409f20116682dc84a4977201f043d40b76a1a077b2070a2673559"
   }
 }

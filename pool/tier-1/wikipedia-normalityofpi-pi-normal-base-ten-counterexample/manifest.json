@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.NormalityOfPi",
@@ -25,7 +25,7 @@
   "source_theorem": "NormalNumber.pi_normal_base_ten",
   "source_type_hash": "sha256:f1a11a16c2132d94f832ffbf2d4ae3d646c04bb91b8248491c82cf55defa19ea",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-normalnumber-pi-normal-base-ten-a11ff569ac-counterexample-v1",
+  "task_id": "fc-4b69a7dc-normalnumber-pi-normal-base-ten-f81e03f9ad-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:3c4deb90d2bc9e1cf324e18ea89e08f17672c4dab0b5563f73f4fb7c64aa51c8",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:e6925a8120111a6580363580342e98c543ed3ce8c29a667285cc0103c9cc250c"
+    "source-metadata.json": "sha256:a30b483508a39aec44185c7f15056ce1d51ef1dcd79655e82d45dd9030d587ca"
   }
 }

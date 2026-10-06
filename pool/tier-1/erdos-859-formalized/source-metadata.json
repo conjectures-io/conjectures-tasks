@@ -22,7 +22,7 @@
   "references": [
     "[erdosproblems.com/859](https://www.erdosproblems.com/859)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/859.lean",
   "supported_modes": [
     "formalized",
@@ -35,6 +35,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:4f4795e89af6055c399d26699442aeb7bde299f32c6aca425af593391e4cde39",
+  "type_hash": "sha256:94bbed4ba486d56dfc33c352867a9d3fa8b7ef3dfd873ab41eb9486623ead794",
   "type_pretty": "∃ c₁ > 0,\n  ∃ c₂ > 0,\n    ∃ d,\n      (∀ t > 0, (Erdos859.DivisorSumSet t).HasDensity (d t)) ∧\n        Asymptotics.IsEquivalent Filter.atTop (fun t => d t) fun t => c₁ / Real.log ↑t ^ c₂"
 }

@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.PrimesAndPerfectSquares",
@@ -25,7 +25,7 @@
   "source_theorem": "PrimesAndPerfectSquares.infinite_prime_sq_add_one",
   "source_type_hash": "sha256:f3f7f778f1e8fc9cfe24bf8fec302eb7ff24a23f4ad10f328b3d3c2bf521d08e",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-primesandperfectsquares-infinite-prime-sq-add-one-706c22939d-formalized-v1",
+  "task_id": "fc-4b69a7dc-primesandperfectsquares-infinite-prime-sq-add-one-2ee81ddb98-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:c006718f895f14ecb071a96a9add2f96eaee24eccfdd09bb505c4d60f2d14bc2",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:d4ec700315a70d313a443375cf9d870458f2434bb2c4ef7d00642d1494a6e104"
+    "source-metadata.json": "sha256:8110b4131ac9c20309313826a959b40fa2cf11f4a604230188f15b4677bf8fe5"
   }
 }

@@ -23,7 +23,7 @@
     "[erdosproblems.com/579](https://www.erdosproblems.com/579)",
     "[EHSS83] P. Erdős, A. Hajnal, V. T. Sós and E. Szemerédi, *More results on Ramsey–Turán type problems*, Combinatorica **3** (1983), 69–81."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/579.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:f43cff368cfa4be30db0d7ec9e85fa26fd163b361528cb8db47da018f30b0b1b",
+  "type_hash": "sha256:7c135a7b5fc629dddae6e047c88f4be8c4bceca122eaf3ba6a2bcb18eac56f76",
   "type_pretty": "True ↔\n  ∀ (δ : ℝ),\n    0 < δ →\n      ∃ c,\n        0 < c ∧\n          ∀ᶠ (n : ℕ) in Filter.atTop,\n            ∀ (G : SimpleGraph (Fin n)),\n              Erdos579.octahedron.Free G → δ * ↑n ^ 2 ≤ ↑G.edgeFinset.card → c * ↑n ≤ ↑G.indepNum"
 }

@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.GoldbachConjecture",
@@ -25,7 +25,7 @@
   "source_theorem": "GoldbachConjecture.goldbach",
   "source_type_hash": "sha256:7665fdcb77b021dabebe8bf8a742ab93d64f52b8ca3b2aa77edb724a4fc7040e",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-goldbachconjecture-goldbach-e035adfbd5-formalized-v1",
+  "task_id": "fc-4b69a7dc-goldbachconjecture-goldbach-d2bb6cf967-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:924a0f5b7edec7a97152fed72ba5af93f1b98976ca602c99a8fee73c74ed66ed",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:98dd92bd234db340d2bb12f90d925dc6d60d200091836d8e91b5237cf41f9d5d"
+    "source-metadata.json": "sha256:a0365dd5324624010c6ce9846a5b6a928bfe7b0416aaf226ea07329bdfe03a3e"
   }
 }

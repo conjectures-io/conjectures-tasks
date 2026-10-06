@@ -27,7 +27,7 @@
     "J. Neukirch, *Algebraic Number Theory*, Springer (Grundlehren 322), 1999, Chapter VII, §5.",
     "D. A. Marcus, *Number Fields*, Springer (GTM 81), 1977, Chapter VII."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
   "supported_modes": [
     "formalized",

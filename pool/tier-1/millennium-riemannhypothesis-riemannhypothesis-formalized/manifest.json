@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Millennium.RiemannHypothesis",
@@ -25,7 +25,7 @@
   "source_theorem": "RiemannHypothesis.riemannHypothesis",
   "source_type_hash": "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-riemannhypothesis-riemannhypothesis-dd76fea066-formalized-v1",
+  "task_id": "fc-4b69a7dc-riemannhypothesis-riemannhypothesis-4134650f10-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:2816872c118596cf1835bae74bdd9f87680701c6749c1d067465e84036ed2c2c",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:e0d3162078f9d7362c296c5562e1f97f40fbf7605116bed2251780cf1ba0bf8e"
+    "source-metadata.json": "sha256:b573d5f68efb8d94c60d897e91b0eb5b304a5687c4f70b7601b709e1ab86ac14"
   }
 }

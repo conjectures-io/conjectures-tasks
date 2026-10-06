@@ -23,7 +23,7 @@
     "[erdosproblems.com/726](https://www.erdosproblems.com/726)",
     "[EGRS75] Erdős, P., and Graham, R. L. and Ruzsa, I. Z. and Straus, E. G., On the prime factors of $(\\sp{2n}\\sb{n})$. Math. Comp. (1975), 83-92."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/726.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:822328a232d3284a02988561f550c6a7ce3dc660a574c600ae53f8e085fe2be3",
+  "type_hash": "sha256:ce45905671b87d2b8e912323952f79c5f01c9b6842424f53069d9d7cb801dac4",
   "type_pretty": "True ↔\n  Asymptotics.IsEquivalent Filter.atTop\n    (fun n => ∑ p ∈ Finset.range (n + 1) with Nat.Prime p ∧ ↑p / 2 < ↑n % ↑p, 1 / ↑p) fun n =>\n    Real.log (Real.log ↑n) / 2"
 }

@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.CarmichaelTotient",
@@ -25,7 +25,7 @@
   "source_theorem": "CarmichaelTotient.charmichaelTotient",
   "source_type_hash": "sha256:ea2e8a7448a07ca86b340af8c6e786afbf5ee1413004b9e1c7106104c461c49e",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-carmichaeltotient-charmichaeltotient-52de62f1b4-formalized-v1",
+  "task_id": "fc-4b69a7dc-carmichaeltotient-charmichaeltotient-af940d40d6-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:efd850c839f77458b4549e112598f2e295b2192cf9f595f2241d78631cb3cf0b",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:89f297eef451259c004f19b41ce3e29623e3572485f641be0f47b59b96bdb0ef"
+    "source-metadata.json": "sha256:0c38e4ad9b9dd24260daeca4d8b96b7865dd3c536d42ad48089d94fe2395ce56"
   }
 }

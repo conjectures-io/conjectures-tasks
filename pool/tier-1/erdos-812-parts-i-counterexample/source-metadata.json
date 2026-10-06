@@ -23,7 +23,7 @@
     "[erdosproblems.com/812](https://www.erdosproblems.com/812)",
     "[BEFS89] Burr, S. A. and Erd\\H{o}s, P. and Faudree, R. J. and Schelp, R. H., On the difference between consecutive {R}amsey numbers. Utilitas Math. (1989), 115--118."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/812.lean",
   "supported_modes": [
     "formalized",

@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.LehmerTotient",
@@ -25,7 +25,7 @@
   "source_theorem": "LehmerTotient.lehmer_totient",
   "source_type_hash": "sha256:5784c5c1703d408b6beb12e56a186128c52c7f74d3d7d4102502dfd3d38bab7a",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-lehmertotient-lehmer-totient-2938576c2b-counterexample-v1",
+  "task_id": "fc-4b69a7dc-lehmertotient-lehmer-totient-2f297c8e06-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:b790674478d60d5ad03f805883c8158a1dbbad7dd182d8b97f5e51935bba87a0",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:80d9e7d1d6b3db4ded621a6757d1b90bd3f498fc3709f9e55016d125c00fe333"
+    "source-metadata.json": "sha256:28d1de4819ba2dca8bbaea3b27613c0bd129cd64ac1ab29206b1439f72d9c8cd"
   }
 }

@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.ArtinPrimitiveRootsConjecture",
@@ -25,7 +25,7 @@
   "source_theorem": "ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i",
   "source_type_hash": "sha256:4132f953e67a7f0de1ba99a104fece5768ddbba1b27cbb37024a6817dfae8d6a",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-parts-i-cedad9c4e3-counterexample-v1",
+  "task_id": "fc-4b69a7dc-parts-i-0a80c303f8-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:cc7bd9e086fc6a4b605d041de8457c3aa5cbc001ada3fbbf6dd36b1826af8d94",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:d09952d7b2f0d5b55ed1d24dc886cc8f529c80e82e0b7f85565c14d5b9ac1964"
+    "source-metadata.json": "sha256:e92f1abdebdbedb775b2f14d18c834b67886868d14a41d971accdf5cf0dfce0d"
   }
 }

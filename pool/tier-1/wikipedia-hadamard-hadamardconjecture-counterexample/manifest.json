@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.Hadamard",
@@ -25,7 +25,7 @@
   "source_theorem": "Hadamard.HadamardConjecture",
   "source_type_hash": "sha256:1c32417f973076d3ebeb9dce9eb3d46ff05049442198902365c0b826f3c6d1c3",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-hadamard-hadamardconjecture-e43fe81860-counterexample-v1",
+  "task_id": "fc-4b69a7dc-hadamard-hadamardconjecture-0d0e7a9dd3-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:81a3e7b6539adf256ddf485dc4e257e11f854f5f48a9f43a295a4de0ac029230",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:5d9aed48b194f7241f846c475cf671bb9d50383da96d31e29f18800f2d8a1aa5"
+    "source-metadata.json": "sha256:45d079e56705af91aec9dbb1ea047952ee8bd6008e1c501b4f2831e9089d8b0f"
   }
 }

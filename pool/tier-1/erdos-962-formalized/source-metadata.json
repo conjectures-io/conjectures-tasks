@@ -26,7 +26,7 @@
     "[Tang](https://github.com/QuanyuTang/erdos-problem-962/blob/main/On_Erd%C5%91s_Problem_962.pdf)",
     "[Tao](https://www.erdosproblems.com/forum/thread/962)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/962.lean",
   "supported_modes": [
     "formalized",

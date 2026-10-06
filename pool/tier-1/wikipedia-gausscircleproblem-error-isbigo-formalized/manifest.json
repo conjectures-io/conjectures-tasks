@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.GaussCircleProblem",
@@ -25,7 +25,7 @@
   "source_theorem": "GaussCircleProblem.error_isBigO",
   "source_type_hash": "sha256:1f76ab56a02baee83c2a82c5e205a500d35921f2db22f2c05378eacef44bb4ea",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-gausscircleproblem-error-isbigo-9d44cf5a1c-formalized-v1",
+  "task_id": "fc-4b69a7dc-gausscircleproblem-error-isbigo-a2455d0698-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:4a69223927795f649c309e7e56001f2ceeb1045ce7ecc7e629f357d5e3ce104a",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:ee7912214b66be6b779c8adcfd9c78b671d42bee781df091d44e8d7e45c45f6e"
+    "source-metadata.json": "sha256:c26f1dde5490977ae2fc0430be60445afcbd213566c6c5a9705b6243ae595446"
   }
 }

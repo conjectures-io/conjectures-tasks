@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.BrocardConjecture",
@@ -25,7 +25,7 @@
   "source_theorem": "Brocard.brocard_conjecture",
   "source_type_hash": "sha256:d1c9d709307e646e32a3a7dfb2cca841320b4fde6f2ddbf7fa4254523de4716c",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-brocard-brocard-conjecture-6cbfb2440b-formalized-v1",
+  "task_id": "fc-4b69a7dc-brocard-brocard-conjecture-fd904e97f7-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:af85e1af35731249afa84397b8dcd6ac1f126f18b87db02b9824170ffe792e31",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:69dfd8ef708f49a320c71bdb34670e1b2d9569b101d6ab566c530185e5c4a7ab"
+    "source-metadata.json": "sha256:164a78569070e70188b5e9fd293eab431814f1d09157aecefc525ed91cbcb24b"
   }
 }

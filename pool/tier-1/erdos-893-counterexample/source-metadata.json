@@ -23,7 +23,7 @@
     "[erdosproblems.com/893](https://www.erdosproblems.com/893)",
     "[KoLu25] V. Kovač and F. Luca, On the number of divisors of Mersenne numbers. arXiv:2506.04883 (2025)."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/893.lean",
   "supported_modes": [
     "formalized",

@@ -23,7 +23,7 @@
     "[Wikipedia](https://en.wikipedia.org/wiki/Carmichael%27s_totient_function_conjecture)",
     "[F1998] Kevin Ford. The distribution of totients. https://arxiv.org/abs/1104.3264"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
   "supported_modes": [
     "formalized",

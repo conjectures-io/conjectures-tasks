@@ -23,7 +23,7 @@
     "[Wikipedia (Normal number)](https://en.wikipedia.org/wiki/Normal_number)",
     "[Wikipedia (Pi)](https://en.wikipedia.org/wiki/Pi)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/Wikipedia/NormalityOfPi.lean",
   "supported_modes": [
     "formalized",

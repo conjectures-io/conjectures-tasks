@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.Mersenne",
@@ -25,7 +25,7 @@
   "source_theorem": "Mersenne.infinitely_many_mersenne_primes",
   "source_type_hash": "sha256:816379d7b4ed72ee5ae9f8cd05f24ba2a40e148e79aba0c2f7252d378ae1deb9",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-mersenne-infinitely-many-mersenne-primes-f231bb92b9-counterexample-v1",
+  "task_id": "fc-4b69a7dc-mersenne-infinitely-many-mersenne-primes-8bc8067544-counterexample-v1",
   "task_mode": "counterexample",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:bc0b5aae7dc1c44b8a6849b73b32c271a79ec46a7f013093087ef50c1808040f",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:26330c9ab88bad80d6ced94f564a06a6cda9675dc36a5f70e0e808f3383baa72"
+    "source-metadata.json": "sha256:e5130714aa1b4130c2233f72b6a38f02a74a24fd9e4694a1446ef1e5b412a52f"
   }
 }

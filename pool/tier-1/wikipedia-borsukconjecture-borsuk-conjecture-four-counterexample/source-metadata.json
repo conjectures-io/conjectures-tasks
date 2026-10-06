@@ -34,7 +34,7 @@
     "[OP28a] Tao, T. et al., *Optimization problems*, constant 28a (smallest Borsuk counterexample dimension). https://teorth.github.io/optimizationproblems/constants/28a.html",
     "[Ka15] Kalai, G. (2015). *Some old and new problems in combinatorial geometry I: Around Borsuk's problem*. https://arxiv.org/abs/1505.04952"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/Wikipedia/BorsukConjecture.lean",
   "supported_modes": [
     "formalized",

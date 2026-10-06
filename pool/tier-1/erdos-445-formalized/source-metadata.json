@@ -24,7 +24,7 @@
     "[He00] Heath-Brown, D. R., Arithmetic applications of {K}loosterman sums. Nieuw Arch. Wiskd. (5) (2000), 380--384.",
     "[MathOverflow](https://mathoverflow.net/questions/69509/small-residue-classes-with-small-reciprocal)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/445.lean",
   "supported_modes": [
     "formalized",

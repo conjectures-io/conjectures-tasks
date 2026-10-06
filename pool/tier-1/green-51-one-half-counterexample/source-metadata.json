@@ -27,7 +27,7 @@
     "[Gr02] Green, Ben. \"Arithmetic progressions in sumsets.\" Geometric & Functional Analysis GAFA 12.3 (2002): 584-597.",
     "[Ruz91] Ruzsa, Imre Z. \"Arithmetic progressions in sumsets.\" Acta Arithmetica 60.2 (1991): 191-202."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/GreensOpenProblems/51.lean",
   "supported_modes": [
     "formalized",

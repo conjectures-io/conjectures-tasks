@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.ClassNumberProblem",
@@ -25,7 +25,7 @@
   "source_theorem": "ClassNumberProblem.class_number_problem",
   "source_type_hash": "sha256:1cd3261a0ec78dc855cc6a6d7c0038e345aea6641f871ff3edb1ea2f1767794a",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-classnumberproblem-class-number-problem-ada368427f-formalized-v1",
+  "task_id": "fc-4b69a7dc-classnumberproblem-class-number-problem-991ab3c72d-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:fe1c9ea57e44e2176a8364550aca1f46760a68b61075decdd1343b8b3592cefc",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:1e4b029da4be985e48b0df9d3769aeda5ed18b5266c690bbbdbccdc17484082d"
+    "source-metadata.json": "sha256:b01da6d1ab64a3909cd1b2ebfc1254a06ed0f0642145b245ed7ea54421cc3e3e"
   }
 }

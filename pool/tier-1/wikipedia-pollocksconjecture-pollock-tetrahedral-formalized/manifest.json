@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.PollocksConjecture",
@@ -25,7 +25,7 @@
   "source_theorem": "PollocksConjecture.pollock_tetrahedral",
   "source_type_hash": "sha256:c3602b7cd74d5d3e704741c944f4beb4431820199e5c97d60903793f55941637",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-pollocksconjecture-pollock-tetrahedral-1d1f97dfa1-formalized-v1",
+  "task_id": "fc-4b69a7dc-pollocksconjecture-pollock-tetrahedral-d1f76aaada-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:e92fe78676ea7d0950cba766a28e4de626ceef4f3fa06b60a4bbe9baa5b10de8",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:bce7c96b22edc7873f02773a300dee871ea322ace442cc6adcc8524535562e92"
+    "source-metadata.json": "sha256:ad0dba95bacda59bf50d9fc380a211efce94ca30f859da9ca0edb0d4235773fd"
   }
 }

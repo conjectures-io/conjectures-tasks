@@ -27,7 +27,7 @@
     "H. E. Salzer and N. Levine, *Table of integers not exceeding 100000 that are not expressible as the sum of four tetrahedral numbers*, Math. Comp. **12** (1958), 141–144",
     "[MathWorld: Pollock's Conjecture](https://mathworld.wolfram.com/PollocksConjecture.html)"
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/Wikipedia/PollocksConjecture.lean",
   "supported_modes": [
     "formalized",

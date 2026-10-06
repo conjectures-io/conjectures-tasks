@@ -17,7 +17,7 @@
     "Classical.choice"
   ],
   "production_eligible": true,
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 1,
   "solution_module": "Solution",
   "source_module": "FormalConjectures.Wikipedia.Bunyakovsky",
@@ -25,7 +25,7 @@
   "source_theorem": "Bunyakovsky.bunyakovsky_conjecture",
   "source_type_hash": "sha256:332800985438044d5c3eb15cc6253397de11282d21b2b0e14467f78280de13b5",
   "target_theorem": "Bounty.target",
-  "task_id": "fc-6a786f99-bunyakovsky-bunyakovsky-conjecture-1524347c93-formalized-v1",
+  "task_id": "fc-4b69a7dc-bunyakovsky-bunyakovsky-conjecture-dda14585fa-formalized-v1",
   "task_mode": "formalized",
   "theorem_names": [
     "Bounty.target"
@@ -36,6 +36,6 @@
     "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
     "SolutionHeader.lean.txt": "sha256:191a8058538e66220effd963b8e14b6bc9669ce9178ff7e6d13cde3de2da431a",
     "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
-    "source-metadata.json": "sha256:f84f245a5f8dfe84ef672f7a67f266ebb60a5693e37457d4d137c3d1b0c0b9f7"
+    "source-metadata.json": "sha256:786f2238f4adb9c7b7ce6e8b5a43fb2be4d22e09526e77242a2751a2cb54116c"
   }
 }

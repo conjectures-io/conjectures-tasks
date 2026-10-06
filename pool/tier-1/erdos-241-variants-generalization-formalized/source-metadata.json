@@ -26,7 +26,7 @@
     "[Gr01] Green, Ben, The number of squares and {$B_h[g]$} sets. Acta Arith. (2001), 365-390.",
     "[Gu04] Guy, Richard K., Unsolved problems in number theory. (2004), xviii+437."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/241.lean",
   "supported_modes": [
     "formalized",

@@ -23,7 +23,7 @@
     "[erdosproblems.com/912](https://www.erdosproblems.com/912)",
     "[Er82c](https://users.renyi.hu/~p_erdos/1982-08.pdf) Erdős, P., Miscellaneous problems in number theory. Congr. Numer. (1982), 25-45."
   ],
-  "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
+  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "source_path": "FormalConjectures/ErdosProblems/912.lean",
   "supported_modes": [
     "formalized",
@@ -36,6 +36,6 @@
     "Classical.choice",
     "Quot.sound"
   ],
-  "type_hash": "sha256:2acf8b22045f38247564ceeca4e214935c1ecdaa5e36ef414e5c2f163361cefa",
+  "type_hash": "sha256:db634ec622da2c97ef6bccd55eebc0a3bd563529484de2686c2d9fa730bde50d",
   "type_pretty": "∃ c > 0, Asymptotics.IsEquivalent Filter.atTop (fun n => ↑(Erdos912.h n)) fun n => c * (↑n / Real.log ↑n) ^ (1 / 2)"
 }
