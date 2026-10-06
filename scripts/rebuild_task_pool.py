@@ -67,7 +67,7 @@ def task_directory_name(manifest) -> str:
         # Named classical sources have no problem number. Keep both the module
         # and local theorem name so distinct targets in one file cannot collide.
         parts = Path(manifest.source_path).parts
-        if len(parts) == 3 and parts[1] in {"Wikipedia", "Millennium"}:
+        if len(parts) == 3 and parts[1] in {"Wikipedia", "Millennium", "ResearchTargets"}:
             local = manifest.source_theorem.split(".", 1)[-1]
             suffix = re.sub(r"[^A-Za-z0-9]+", "-", local).strip("-").lower()
             return "-".join((parts[1].lower(), Path(parts[2]).stem.lower(), suffix, manifest.task_mode))

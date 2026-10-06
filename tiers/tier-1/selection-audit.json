@@ -4422,6 +4422,242 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "source_status": "open",
+      "theorem": "Math15Catalog.source04",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "source_status": "open",
+      "theorem": "Math15Catalog.source05",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "source_status": "open",
+      "theorem": "Math15Catalog.source06",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "source_status": "open",
+      "theorem": "Math15Catalog.source10",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "source_status": "open",
+      "theorem": "Math15Catalog.source11",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source16",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source18",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source20",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source21",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source22",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source23",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source25",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source26",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source27",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source28",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source29",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "source_status": "open",
+      "theorem": "Math30Catalog.source30",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [],
@@ -4574,6 +4810,11 @@
       "family": "millennium",
       "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/classical-status-audit.json",
       "revision": "d7f480071236d1688547a9c9e3201ccd6b8bc1962735f6f6358024d0908489ec"
+    },
+    {
+      "family": "research-targets",
+      "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/staged/research-targets/decision-matrix.json",
+      "revision": "74cfeb7faafe1fc16b9979a869b396e1f6af4c00593fd329422e74a5dc7a3227"
     }
   ]
 }

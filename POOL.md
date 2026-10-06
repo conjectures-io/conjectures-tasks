@@ -12,7 +12,7 @@ not rank, price, or otherwise distinguish targets.
 - [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
   contains the immutable task bundles in this repository.
 
-The current release places all 258 audited targets in `tier-1`: 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
+The current release places all 275 audited targets in `tier-1`: 17 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 
@@ -84,9 +84,9 @@ machine-readable witness.
 
 ## Scope
 
-`tier-1` contains all 516 task bundles covering 258 audited targets: 219 Erdős, 6 previously solved Green, 32 Wikipedia,
+`tier-1` contains all 550 task bundles covering 275 audited targets: 17 package-authored research targets, 219 Erdős, 6 previously solved Green, 32 Wikipedia,
 and one Millennium target. Every bundle has exactly one theorem target and every theorem target
-has its own stable reward identity. Those targets occupy 224 distinct canonical source paths.
+has its own stable reward identity. Those targets occupy 226 distinct canonical source paths.
 
 The GitHub review covered all 359 open pull requests visible at audit time and
 excluded selected theorems with an active resolution or correction. A separate
@@ -243,7 +243,8 @@ release's type-drift record. The new type of every retired or held name is also 
 
 The source revision additionally carries the package-authored research libraries `Math15` and
 `Math30` and their catalogs under `FormalConjectures/ResearchTargets/`. Their 30 targets are
-staged in `staged/research-targets/decision-matrix.json` with open gates. No tier names the
-`research-targets` family, and the validator refuses any such source until an explicit, reviewed
-activation. Source-review acceptance of a target is not a proof, a novelty certificate, or reward
+staged in `staged/research-targets/decision-matrix.json` with open gates. This release admits 17 of
+them through an explicit activation (activation pending owner approval): the reviewed validator constant
+`ACTIVATED_RESEARCH_TARGETS`, the version-2 decision matrix, and `activation-policy.json`, which the
+matrix commits to by digest. Every other research target stays staged and is refused. Source-review acceptance of a target is not a proof, a novelty certificate, or reward
 activation.

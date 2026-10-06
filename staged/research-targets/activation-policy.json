@@ -1,0 +1,465 @@
+{
+  "claims_not_made": [
+    "Activation admits a statement as a reward target. It is not a proof, a refutation, a novelty certificate, or a claim that the statement is true.",
+    "The dated catalog, corpus and primary-source screens are bounded screens, not proof that no solution exists anywhere.",
+    "The numeric bridge for target 5 proves only that k <= s follows from the known bound ML >= 1/5; it proves no Lonely Runner statement.",
+    "Owner approval of this activation and of reward amounts has not been given; this policy records a proposal.",
+    "The proposed matrix-multiplication target 31 is unfrozen and out of scope for this release."
+  ],
+  "default_profile": "proposed-17",
+  "frankl_group": {
+    "bridge_evidence": "evidence/FranklGroupedRewardBridge.lean (compiled by the coordinator): the conjunction is equivalent to Target08 AND no rho-4 minimal F exists, via rho_four_split. It proves none of the targets.",
+    "finding": "Target07 and Target09 are existential cover-exclusion cases for rho = 4; they can overlap and neither implies the other. Target08 is the rho = 3 case.",
+    "members": [
+      7,
+      8,
+      9
+    ],
+    "safest_future_option": "One grouped reward whose obligation is the conjunction Target07 AND Target08 AND Target09.",
+    "status": "held; not activated in any profile",
+    "this_release": "Source types are unchanged and no grouped target is created. A grouped reward needs a separate source change, review and owner decision."
+  },
+  "global_gates": [
+    {
+      "closure": null,
+      "description": "Maintainer review of the activation validator commit, this policy and the version-2 decision matrix.",
+      "id": "activation-code-review",
+      "kind": "approval"
+    },
+    {
+      "closure": {
+        "check": "candidate-catalog",
+        "evidence": []
+      },
+      "description": "The catalog regenerated at the derived source commit lists all 30 theorems as DIRECT_PROP, research open, depends_on_sorry true, with canonical type hashes recorded in the matrix and equal to the unified frozen inspector's source hashes.",
+      "id": "catalog-regenerated",
+      "kind": "technical"
+    },
+    {
+      "closure": {
+        "check": "frozen-inspector",
+        "evidence": [
+          "evidence/unified-frozen-native-inspector.json",
+          "evidence/frozen-payload-reproduction.json"
+        ]
+      },
+      "description": "All 60 staged frozen payload inspectors rerun on the candidate toolchain with unchanged type hashes.",
+      "id": "frozen-payload-controls",
+      "kind": "technical"
+    },
+    {
+      "closure": null,
+      "description": "The verifier image built from the activation validator passes the production doctor argv as UID 10001 with the noexec work tmpfs, both negative controls report it unready, and every activation bundle control is rejected in it. A release gate: that image is built from the validator commit that pins this tasks release, so this file cannot cite it; ACTIVATION-MANIFEST.json gates activation-image-sandbox and activation-bundle-controls close it. Before the image existed, the 17 full admission controls (3 positive, 14 negative) passed with the candidate binaries in the previous runtime image, which is not the final image.",
+      "id": "production-sandbox-equivalence",
+      "kind": "release"
+    },
+    {
+      "closure": {
+        "check": "screens",
+        "evidence": [
+          "evidence/astra-overlap-audit/SHA256SUMS",
+          "evidence/astra-overlap-audit/coverage-QA.json",
+          "evidence/astra-overlap-audit/overlap-matrix.json",
+          "evidence/astra-overlap-audit/source-pins.json",
+          "evidence/catalog-audit-v1/openai-corpus-addendum.json",
+          "evidence/session3-first-batch-primary-checks.json",
+          "evidence/research-scope-clarifications.json",
+          "evidence/coordinator-readiness-addendum.json"
+        ]
+      },
+      "description": "Dated release-time screens for each activated target: the independent Astra 307-row overlap audit and the version 1 corpus addendum, neither of which matches any of the 30 staged statements; per-target source reviews; fresh primary-source checks for targets 1-6, 10 and 11. These are bounded screens, not a novelty certificate.",
+      "id": "release-time-status-and-novelty-screen",
+      "kind": "technical"
+    },
+    {
+      "closure": null,
+      "description": "Owner approval of activation, of independent rewards and their amounts for the activated targets, and of the target 12 exclusion and the held Frankl group.",
+      "id": "reward-policy-approval",
+      "kind": "approval"
+    },
+    {
+      "closure": null,
+      "description": "Maintainer review of the research-targets source family: status source, selection-audit evidence format, and package-authored attribution on public pages.",
+      "id": "source-family-admission-review",
+      "kind": "approval"
+    },
+    {
+      "closure": {
+        "check": "toolchain",
+        "evidence": [
+          "evidence/candidate/continue-build-catalog.log",
+          "evidence/candidate/support-kernel-axiom-audit.log",
+          "evidence/full-source-build-repaired.log",
+          "evidence/changed-source-strict-build-repaired.json",
+          "evidence/unified-source-precheck-repaired.log"
+        ]
+      },
+      "description": "The derived Lean 4.35.0-rc2 / Mathlib 065356127b1d source with Math15 and Math30 builds with zero errors in the candidate (full source, trusted tools, the --wfail research libraries and the catalog), and every kernel-safe support declaration uses only propext, Classical.choice and Quot.sound.",
+      "id": "toolchain-migration-validated",
+      "kind": "technical"
+    }
+  ],
+  "kind": "research-target-activation-policy",
+  "prepared_by": "claude-opus-5-5 release implementation agent, sessions 3-4 (proposal for owner review)",
+  "prepared_on": "2026-10-07",
+  "profiles": {
+    "core-12": [
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "proposed-14": [
+      4,
+      6,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "proposed-17": [
+      4,
+      5,
+      6,
+      10,
+      11,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  },
+  "release_status": "proposed-pending-owner-approval",
+  "reward_policy": {
+    "activated_targets": "One independent stable-theorem-target-v1 reward identity per activated theorem, covering its proof and refutation tasks. Amounts are not set here and need owner approval.",
+    "excluded": "Target 12 stays excluded: the package proves that target 10 implies target 12, so the two are never independent rewards.",
+    "held": "Every target not in the chosen profile stays staged and cannot be admitted."
+  },
+  "schema_version": 1,
+  "target_gate_closures": [
+    {
+      "evidence": [
+        "evidence/LonelyRunnerSpectrumBoundBridge.lean",
+        "evidence/lonely-runner-spectrum-bound-bridge.log",
+        "evidence/research-scope-clarifications.json"
+      ],
+      "gate": "cite-hypothesis-justification",
+      "note": "Kernel-checked numeric bridge (standard axioms only): for naturals s, k with 1 <= k and 1/5 <= s/(4s + k), k <= s. With the known four-speed bound ML >= 1/5, the extra k <= s adds nothing to the open question.",
+      "targets": [
+        5
+      ]
+    },
+    {
+      "evidence": [
+        "evidence/research-scope-clarifications.json",
+        "evidence/session3-first-batch-primary-checks.json"
+      ],
+      "gate": "document-primitivity-repair",
+      "note": "Primitivity is already in the statement; the public description states the normalization.",
+      "targets": [
+        6
+      ]
+    },
+    {
+      "evidence": [
+        "evidence/coordinator-readiness-addendum.json",
+        "evidence/astra-overlap-audit/overlap-matrix.json"
+      ],
+      "gate": "novelty-review",
+      "note": "Dated bounded primary-source screen for the two five-leaf families Panpa, Imnang and Wasuanankul (2025) leave open, plus arXiv:2605.14295, arXiv:2605.02303 and arXiv:2608.23881, none of which proves either family. Closes only for targets 10 and 11; novelty review stays open for 13-15.",
+      "targets": [
+        10,
+        11
+      ]
+    },
+    {
+      "evidence": [
+        "evidence/research-scope-clarifications.json",
+        "evidence/session3-first-batch-primary-checks.json"
+      ],
+      "gate": "relabel-package-authored",
+      "note": "The source itself proposes this converse; the public description cites that paragraph.",
+      "targets": [
+        4
+      ]
+    },
+    {
+      "evidence": [
+        "evidence/coordinator-readiness-addendum.json"
+      ],
+      "gate": "source-cell-verification",
+      "note": "DS1.18 (April 24, 2026), printed page 36, Table IXa, visually inspected: (4,7) <= 23, (4,9) = 27-28, (7,11) = 37-38. The frozen bounds forbid books B4/B7, B4/B9 and B7/B11, so a witness on 22/27/37 vertices would attain the upper bounds 23/28/38. Targets 1-3 remain held on the full-admission performance gate.",
+      "targets": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "target_gate_descriptions": {
+    "witness-policy-benchmark": "Full-admission performance and confidence policy for witness-scale submissions: representative witness-shaped tests through the full pipeline under the pinned static policy and verifier limits. The relaxed 22/27/37-vertex certificate benchmark passed but is not a sharp witness. This gate does not require a solution of the open statement before listing."
+  },
+  "targets": [
+    {
+      "evaluation": "hold",
+      "number": 1,
+      "reason": "Source cell verified (DS1.18 Table IXa, (4,7) <= 23). Held on the full-admission performance and confidence gate: the UID 10001 decide +kernel benchmark at 22 vertices used relaxed bounds on a parity graph, not a sharp witness or the full pipeline."
+    },
+    {
+      "evaluation": "hold",
+      "number": 2,
+      "reason": "Source cell verified (DS1.18 Table IXa, (4,9) = 27-28). Held on the full-admission performance and confidence gate, as target 1, at 27 vertices."
+    },
+    {
+      "evaluation": "hold",
+      "number": 3,
+      "reason": "Source cell verified (DS1.18 Table IXa, (7,11) = 37-38). Held on the full-admission performance and confidence gate, as target 1, at 37 vertices."
+    },
+    {
+      "evaluation": "activate-first-batch",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 4,
+      "public_description": "Package-authored Lean formalization of the converse that arXiv:2608.13599v2 proposes in section 9 (the paragraph after Question 9.1): for both-large removals, a tight two-swap speed set must satisfy the replacement conditions of Theorem 5.1, with inserted speeds at least n and the gcd interval condition (4). The formalization states it for either matching of the two replacements. It is an open proposal of that paper, not one of its theorems.",
+      "reason": "The relabelling gate closes on the primary check: the source itself proposes this converse, and the staged statement matches either pair assignment."
+    },
+    {
+      "evaluation": "activate-first-batch",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 5,
+      "public_description": "Package-authored Lean formalization of the four-speed case that Fan and Sun leave open (arXiv:2306.10417v2, Conjecture 1.3 and section 6.2(1)): for a primitive set of four speeds whose pairwise gcds are at most 2, the maximum loneliness is at least 1/4 or equals s/(4s + k) for some 1 <= k <= 4 with k <= s. The condition k <= s follows from the known four-speed bound ML >= 1/5 by a kernel-checked numeric argument, so it adds nothing to the open question.",
+      "reason": "The hypothesis-justification gate closes on the kernel-checked numeric bridge (evidence/LonelyRunnerSpectrumBoundBridge.lean, standard axioms only) and the primary pointers."
+    },
+    {
+      "evaluation": "activate-first-batch",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 6,
+      "public_description": "Package-authored Lean formalization of Question 6.6 of arXiv:2609.03444 (v1; the catalog cites v2, section 6.4): on near-tight six-speed sets whose maximum loneliness is p/q < 1/6 in lowest terms, is every speed below 3q? The statement requires the speed set to be primitive (no common factor). Scaling a speed set by c keeps its loneliness and q but multiplies every speed by c, so without primitivity the literal question fails for trivial reasons; primitivity is the standard normalization, not an added restriction on the open content.",
+      "reason": "The primitivity condition is already in the statement; the gate closes with the public description above. A Lean docstring update waits for the next source revision."
+    },
+    {
+      "evaluation": "hold",
+      "number": 7,
+      "reason": "Correlated Frankl group; see frankl_group."
+    },
+    {
+      "evaluation": "hold",
+      "number": 8,
+      "reason": "Correlated Frankl group; see frankl_group."
+    },
+    {
+      "evaluation": "hold",
+      "number": 9,
+      "reason": "Correlated Frankl group; see frankl_group."
+    },
+    {
+      "evaluation": "activate-first-batch",
+      "feasibility_signals": [
+        "discrete-domain",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "number": 10,
+      "public_description": "Package-authored Lean formalization: every finite tree with exactly two branch vertices, of degrees 4 and 3 (so five leaves), is graceful. Panpa, Imnang and Wasuanankul (J. Appl. Math. 2025, doi:10.1155/jama/5826777) classify five-leaf trees by branch degrees (5), (4,3) and (3,3,3), prove the spider case (Theorem 3.4), and leave this family open in section 4 (Figure 10).",
+      "reason": "A dated primary-source screen (the source paper and arXiv:2605.14295, 2605.02303, 2608.23881) and the catalog and 307-row corpus screens found no proof of this family. Bounded screen, not a novelty guarantee."
+    },
+    {
+      "evaluation": "activate-first-batch",
+      "feasibility_signals": [
+        "discrete-domain",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "number": 11,
+      "public_description": "Package-authored Lean formalization: every finite tree with exactly three branch vertices, each of degree 3 (so five leaves), is graceful. Panpa, Imnang and Wasuanankul (J. Appl. Math. 2025, doi:10.1155/jama/5826777) prove the five-leaf spider case (Theorem 3.4) and leave this family open in section 4 (Figure 10).",
+      "reason": "As target 10, for branch degrees (3,3,3)."
+    },
+    {
+      "evaluation": "excluded",
+      "number": 12,
+      "reason": "Implied by target 10 per the package proof; never an independent reward, whether or not 10 is activated."
+    },
+    {
+      "evaluation": "hold",
+      "number": 13,
+      "reason": "Novelty and resource or proof-route feasibility are still open."
+    },
+    {
+      "evaluation": "hold",
+      "number": 14,
+      "reason": "External conditional claim review, feasibility and novelty are still open."
+    },
+    {
+      "evaluation": "hold",
+      "number": 15,
+      "reason": "No feasible compliant certificate has been demonstrated; novelty review is still open."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "compact-formal-target",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "number": 16,
+      "public_description": "Package-authored Lean formalization: an exact bilinear algorithm multiplying 4x4 complex matrices with at most 47 products, from the open problem posed at https://epoch.ai/frontiermath/open-problems/matrix-multiplication.",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "hold",
+      "number": 17,
+      "reason": "Rapidly changing lower-bound literature needs a release-time refresh."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "compact-formal-target",
+        "finite-or-finitary-structure",
+        "partial-results-in-source"
+      ],
+      "number": 18,
+      "public_description": "Package-authored Lean formalization: the border rank of 3x3 complex matrix multiplication is at least 18 (source: arXiv:1911.07981).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "hold",
+      "number": 19,
+      "reason": "Computed-certificate feasibility and full-size verifier performance are unmeasured."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 20,
+      "public_description": "Package-authored Lean formalization: a uniform subquadratic upper bound of sensitivity in terms of exact real degree for Boolean functions (source: arXiv:2005.00566v2).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 21,
+      "public_description": "Package-authored Lean formalization: a uniform cubic upper bound of block sensitivity in terms of ordinary sensitivity (source: ECCC TR26-010).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 22,
+      "public_description": "Package-authored Lean formalization: Wilf's inequality for proper numerical semigroups of embedding dimension 4 (source: arXiv:1703.01761).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "discrete-domain",
+        "partial-results-in-source"
+      ],
+      "number": 23,
+      "public_description": "Package-authored Lean formalization: Wilf's inequality for proper numerical semigroups whose conductor is at most four times the multiplicity (source: arXiv:1703.01761).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "hold",
+      "number": 24,
+      "reason": "The catalog literature baseline misses the unconditional m <= 3e result and needs correction and a recheck."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "number": 25,
+      "public_description": "Package-authored Lean formalization: the third planar Dirichlet Polya inequality, area times lambda_3 at least 12 pi, in the reviewed variational formulation (source: arXiv:2507.04307v3).",
+      "reason": "Source review accepted the canonical formulation and support chain; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "number": 26,
+      "public_description": "Package-authored Lean formalization: the fourth planar Dirichlet Polya inequality, area times lambda_4 at least 16 pi, in the reviewed variational formulation (source: arXiv:2507.04307v3).",
+      "reason": "Source review accepted the canonical formulation and support chain; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "number": 27,
+      "public_description": "Package-authored Lean formalization: every positive-index Dirichlet Polya inequality on convex planar domains (source: arXiv:2410.04769v2).",
+      "reason": "Source review accepted the canonical formulation and support chain; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "number": 28,
+      "public_description": "Package-authored Lean formalization: every scalar real polynomial minimal graph of degree at most four is affine, in every dimension (source: arXiv:2404.00115v2).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "number": 29,
+      "public_description": "Package-authored Lean formalization: every scalar real polynomial minimal graph in dimension eight is affine (source: arXiv:2404.00115v2).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    },
+    {
+      "evaluation": "activate",
+      "feasibility_signals": [
+        "partial-results-in-source"
+      ],
+      "number": 30,
+      "public_description": "Package-authored Lean formalization: for every dimension n >= 8, a degree bound holds uniformly over all scalar real polynomial minimal graphs (source: arXiv:2404.00115v2).",
+      "reason": "Source review left no target-specific gate; no corpus match."
+    }
+  ],
+  "unfrozen_future_target": {
+    "id": "proposed-31-matrix-multiplication",
+    "status": "Unfrozen; not part of this policy or release, and not a reason to delay it."
+  }
+}

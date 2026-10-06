@@ -1,54 +1,85 @@
 {
-  "activation": "none",
+  "activation": {
+    "activated": [
+      4,
+      5,
+      6,
+      10,
+      11,
+      16,
+      18,
+      20,
+      21,
+      22,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "approval_record_sha256": null,
+    "policy_sha256": "sha256:6e07a30218715529185fce62c17bc0b75552dc2424c9ae502420b26cbf94932d",
+    "release_status": "proposed-pending-owner-approval"
+  },
   "default": "DENY",
   "global_gates": [
     {
-      "description": "A reviewed validator commit adds the exact theorem names to ACTIVATED_RESEARCH_TARGETS after every other gate is closed. Schema version 1 of this matrix cannot express activation.",
+      "description": "Maintainer review of the activation validator commit, this policy and the version-2 decision matrix.",
       "evidence": null,
       "id": "activation-code-review",
-      "status": "open"
+      "kind": "approval",
+      "status": "pending-owner-approval"
     },
     {
-      "description": "The regenerated catalog from the validated derived source commit contains all 30 theorems as DIRECT_PROP, research open, depends_on_sorry true, with canonical type hashes recorded in this matrix.",
-      "evidence": null,
+      "description": "The catalog regenerated at the derived source commit lists all 30 theorems as DIRECT_PROP, research open, depends_on_sorry true, with canonical type hashes recorded in the matrix and equal to the unified frozen inspector's source hashes.",
+      "evidence": "conjectures-validator data/catalog.json at bd5553238c131bcc07df40fd8336733514063796 sha256:4ae4603b9114b1d6bef7f57ac200ff8eb194c6587bf85650313b2b7bc783c278; evidence/unified-frozen-native-inspector.json sha256:dab05886bf0cb4bacbf51a5fd25fa71dac4a7832bd1cdaac95f373f06d3a67ee",
       "id": "catalog-regenerated",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
-      "description": "All 60 staged frozen proof/refutation payload inspectors and checker controls rerun on the candidate toolchain; every frozen rejected payload is actually rejected and no passing log is reused from another toolchain.",
-      "evidence": null,
+      "description": "All 60 staged frozen payload inspectors rerun on the candidate toolchain with unchanged type hashes.",
+      "evidence": "evidence/unified-frozen-native-inspector.json sha256:dab05886bf0cb4bacbf51a5fd25fa71dac4a7832bd1cdaac95f373f06d3a67ee; evidence/frozen-payload-reproduction.json sha256:a9028067e0ed5701f63ad8f969b6cd41446dcf00c0a0b288009e40aab6e2901b",
       "id": "frozen-payload-controls",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
-      "description": "The candidate verifier image passes the worker's production doctor argv as UID 10001 with the noexec work tmpfs, and the negative controls (executable work mount, root user) report the sandbox unready.",
+      "description": "The verifier image built from the activation validator passes the production doctor argv as UID 10001 with the noexec work tmpfs, both negative controls report it unready, and every activation bundle control is rejected in it. A release gate: that image is built from the validator commit that pins this tasks release, so this file cannot cite it; ACTIVATION-MANIFEST.json gates activation-image-sandbox and activation-bundle-controls close it. Before the image existed, the 17 full admission controls (3 positive, 14 negative) passed with the candidate binaries in the previous runtime image, which is not the final image.",
       "evidence": null,
       "id": "production-sandbox-equivalence",
-      "status": "open"
+      "kind": "release",
+      "status": "pending-release-gate"
     },
     {
-      "description": "A dated release-time status and literature screen for each target, recorded like the existing pool selection audits. Source-review acceptance is not a novelty certificate.",
-      "evidence": null,
+      "description": "Dated release-time screens for each activated target: the independent Astra 307-row overlap audit and the version 1 corpus addendum, neither of which matches any of the 30 staged statements; per-target source reviews; fresh primary-source checks for targets 1-6, 10 and 11. These are bounded screens, not a novelty certificate.",
+      "evidence": "evidence/astra-overlap-audit/SHA256SUMS sha256:4c1f3431b835026c570af5fe723142b55dfbdf86cdda96b02895ef24dba1d31b; evidence/astra-overlap-audit/coverage-QA.json sha256:427ed65468e73f8a6d605888ab76a54f6ba08ab2b4b0555f754a5cd812f7add2; evidence/astra-overlap-audit/overlap-matrix.json sha256:f503266cf1d0d0c2281dd0f5de86e4249db83ebe7b7d4f1ed2a557ac25b9aff2; evidence/astra-overlap-audit/source-pins.json sha256:fc2490ba3ece4cb4c9f5d812d2c94a2d57c2ebcdf22e99cb22cf3e2554b11870; evidence/catalog-audit-v1/openai-corpus-addendum.json sha256:baccb258603676d571c12b94631f65d61817bfa49de6b29d94929186f96fdd17; evidence/session3-first-batch-primary-checks.json sha256:dbced8984a7f1a3c27e8dda06d4efa8cea045a94e206b0a6b7e35e3f4a2f46ab; evidence/research-scope-clarifications.json sha256:15b41c72844f1b0491dc30c5ca4280028f2f4bb561e527886d8e40705057e22c; evidence/coordinator-readiness-addendum.json sha256:6ca47e74c73edbdcb454e41ae98775feb7b61f648ff510212a7cfce9a64745d2",
       "id": "release-time-status-and-novelty-screen",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
-      "description": "Owner approval of the reward policy and amounts for package-authored targets, including the correlated Frankl group and the target 12 exclusion.",
+      "description": "Owner approval of activation, of independent rewards and their amounts for the activated targets, and of the target 12 exclusion and the held Frankl group.",
       "evidence": null,
       "id": "reward-policy-approval",
-      "status": "open"
+      "kind": "approval",
+      "status": "pending-owner-approval"
     },
     {
-      "description": "Maintainer review of the research-targets source family: status source, selection-audit evidence format, and package-authored attribution.",
+      "description": "Maintainer review of the research-targets source family: status source, selection-audit evidence format, and package-authored attribution on public pages.",
       "evidence": null,
       "id": "source-family-admission-review",
-      "status": "open"
+      "kind": "approval",
+      "status": "pending-owner-approval"
     },
     {
-      "description": "Candidate Lean 4.35.0-rc2 / Mathlib 065356127b1d source with the Math15 and Math30 libraries builds with zero errors, and the support libraries pass the sorry and axiom audit.",
-      "evidence": null,
+      "description": "The derived Lean 4.35.0-rc2 / Mathlib 065356127b1d source with Math15 and Math30 builds with zero errors in the candidate (full source, trusted tools, the --wfail research libraries and the catalog), and every kernel-safe support declaration uses only propext, Classical.choice and Quot.sound.",
+      "evidence": "evidence/candidate/continue-build-catalog.log sha256:5301d64357b6c945d5ba9d516229595575b13baaa279e73236c497e6743ba282; evidence/candidate/support-kernel-axiom-audit.log sha256:853fe9f1ece389c22d36f773e62a57340477f56bc7e80ac4c84775af85cf259d; evidence/full-source-build-repaired.log sha256:9188b2a1530c09e600d4d55760d982c6e2e0b130461bf8857e2c45220b9c5024; evidence/changed-source-strict-build-repaired.json sha256:c66dfe2e2b7fd7f0ba3639b9844dbc16e179bc646410a5b1a04de33b41c6bf3e; evidence/unified-source-precheck-repaired.log sha256:44ffc9ed09293f531db9959c997af74544ffc2630605bba56d8647451ad3a04a",
       "id": "toolchain-migration-validated",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     }
   ],
   "review_archive_sha256": "sha256:cc282c224109d1255d9a7fe5fb3a8edb48c48be3b047e735c10caf291a6b56e2",
@@ -65,79 +96,98 @@
     }
   ],
   "reward_target_policy": "stable-theorem-target-v1",
-  "schema_version": 1,
+  "schema_version": 2,
   "source_family": "research-targets",
   "target_gates": [
     {
       "description": "A compliant certificate or proof route is demonstrated at full size and its verifier time and memory are measured within the published task limits. An impractical certificate format or an unmeasured computed certificate does not satisfy this.",
       "evidence": null,
       "id": "certificate-feasibility",
+      "kind": "technical",
       "status": "open"
     },
     {
       "description": "Cite the published justification for the extra hypothesis in the statement (the known four-speed 1/5 lower bound) in the source docstring.",
-      "evidence": null,
+      "evidence": "evidence/LonelyRunnerSpectrumBoundBridge.lean sha256:ec6479e691a919fc44ddb40b785cd00f168ee2b9e146dfa8b931f15d5601fb03; evidence/lonely-runner-spectrum-bound-bridge.log sha256:5917181eeb1fb0bb5c5b91f6029b111083c5475bfe30b254befaab19c0140f7d; evidence/research-scope-clarifications.json sha256:15b41c72844f1b0491dc30c5ca4280028f2f4bb561e527886d8e40705057e22c; see target_gate_closures in staged/research-targets/activation-policy.json",
       "id": "cite-hypothesis-justification",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
       "description": "An explicit decision on correlated rewards for the shared-antecedent group.",
       "evidence": null,
       "id": "correlated-reward-decision",
+      "kind": "technical",
       "status": "open"
     },
     {
       "description": "Document in the source that primitivity repairs a scaling problem in the literal source question.",
-      "evidence": null,
+      "evidence": "evidence/research-scope-clarifications.json sha256:15b41c72844f1b0491dc30c5ca4280028f2f4bb561e527886d8e40705057e22c; evidence/session3-first-batch-primary-checks.json sha256:dbced8984a7f1a3c27e8dda06d4efa8cea045a94e206b0a6b7e35e3f4a2f46ab; see target_gate_closures in staged/research-targets/activation-policy.json",
       "id": "document-primitivity-repair",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
       "description": "Review of the public conditional cycle-exclusion claim and its hypotheses against the exact target.",
       "evidence": null,
       "id": "external-claim-review",
+      "kind": "technical",
       "status": "open"
     },
     {
       "description": "Resource and proof-route benchmark showing a compliant proof is feasible within verifier limits; large known certificate routes justify benchmarks, not impossibility claims.",
       "evidence": null,
       "id": "feasibility-benchmark",
+      "kind": "technical",
       "status": "open"
     },
     {
       "description": "Correct the catalog literature baseline (the unconditional m <= 3e result) and recheck the target.",
       "evidence": null,
       "id": "literature-baseline-correction",
+      "kind": "technical",
       "status": "open"
     },
     {
       "description": "Release-time refresh of rapidly changing lower-bound literature.",
       "evidence": null,
       "id": "literature-refresh",
+      "kind": "technical",
       "status": "open"
     },
     {
       "description": "Independent source novelty check for the exact statement.",
       "evidence": null,
       "id": "novelty-review",
+      "kind": "technical",
       "status": "open"
+    },
+    {
+      "description": "Independent source novelty check for the exact statement. (targets 10, 11)",
+      "evidence": "evidence/coordinator-readiness-addendum.json sha256:6ca47e74c73edbdcb454e41ae98775feb7b61f648ff510212a7cfce9a64745d2; evidence/astra-overlap-audit/overlap-matrix.json sha256:f503266cf1d0d0c2281dd0f5de86e4249db83ebe7b7d4f1ed2a557ac25b9aff2; see target_gate_closures in staged/research-targets/activation-policy.json",
+      "id": "novelty-review-10-11",
+      "kind": "technical",
+      "status": "closed"
     },
     {
       "description": "Label the statement as a package-authored proposed answer for a narrower regime, not the source's verbatim conjecture.",
-      "evidence": null,
+      "evidence": "evidence/research-scope-clarifications.json sha256:15b41c72844f1b0491dc30c5ca4280028f2f4bb561e527886d8e40705057e22c; evidence/session3-first-batch-primary-checks.json sha256:dbced8984a7f1a3c27e8dda06d4efa8cea045a94e206b0a6b7e35e3f4a2f46ab; see target_gate_closures in staged/research-targets/activation-policy.json",
       "id": "relabel-package-authored",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
       "description": "Visually verify the exact survey cell (DS1.18 Table IXa, printed page 36) that the statement relies on.",
-      "evidence": null,
+      "evidence": "evidence/coordinator-readiness-addendum.json sha256:6ca47e74c73edbdcb454e41ae98775feb7b61f648ff510212a7cfce9a64745d2; see target_gate_closures in staged/research-targets/activation-policy.json",
       "id": "source-cell-verification",
-      "status": "open"
+      "kind": "technical",
+      "status": "closed"
     },
     {
-      "description": "Representative witness tests under the pinned static policy and verifier limits; submissions cannot raise options.",
+      "description": "Full-admission performance and confidence policy for witness-scale submissions: representative witness-shaped tests through the full pipeline under the pinned static policy and verifier limits. The relaxed 22/27/37-vertex certificate benchmark passed but is not a sharp witness. This gate does not require a solution of the open statement before listing.",
       "evidence": null,
       "id": "witness-policy-benchmark",
+      "kind": "technical",
       "status": "open"
     }
   ],
@@ -151,7 +201,7 @@
       ],
       "implied_by": null,
       "number": 1,
-      "review_disposition": "Ramsey B4/B7: statement accepted; witness-scale/policy benchmark required. The coordinator brief also requires exact source-cell review for targets 1-3.",
+      "review_disposition": "Ramsey B4/B7: statement accepted; witness-scale/policy benchmark required. The coordinator brief also requires exact source-cell review for targets 1-3. Release-time update: source-cell-verification closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source01",
@@ -169,7 +219,7 @@
       ],
       "implied_by": null,
       "number": 2,
-      "review_disposition": "Ramsey B4/B9: statement accepted; exact source-cell and witness review required; no refutation established.",
+      "review_disposition": "Ramsey B4/B9: statement accepted; exact source-cell and witness review required; no refutation established. Release-time update: source-cell-verification closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source02",
@@ -187,7 +237,7 @@
       ],
       "implied_by": null,
       "number": 3,
-      "review_disposition": "Ramsey B7/B11: statement accepted; exact source-cell and witness review required; no refutation established.",
+      "review_disposition": "Ramsey B7/B11: statement accepted; exact source-cell and witness review required; no refutation established. Release-time update: source-cell-verification closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source03",
@@ -197,14 +247,14 @@
       "title": "Book Ramsey B7/B11 on 37 vertices"
     },
     {
-      "decision": "hold",
+      "decision": "activated",
       "definition": "Math15.LonelyRunner.Target04",
       "gates": [
         "relabel-package-authored"
       ],
       "implied_by": null,
       "number": 4,
-      "review_disposition": "Lonely runner two-swap: statement accepted; it is a package-authored proposed answer for the narrower both-large regime of an open-ended classification question and must be labelled as such.",
+      "review_disposition": "Lonely runner two-swap: statement accepted; it is a package-authored proposed answer for the narrower both-large regime of an open-ended classification question and must be labelled as such. Release-time update: relabel-package-authored closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source04",
@@ -214,14 +264,14 @@
       "title": "Two-entry tight lonely-runner classification (package-authored restricted conjecture)"
     },
     {
-      "decision": "hold",
+      "decision": "activated",
       "definition": "Math15.LonelyRunner.Target05",
       "gates": [
         "cite-hypothesis-justification"
       ],
       "implied_by": null,
       "number": 5,
-      "review_disposition": "Lonely runner residual case: statement accepted; the extra s >= k restriction needs an explicit citation to the known four-speed 1/5 lower bound.",
+      "review_disposition": "Lonely runner residual case: statement accepted; the extra s >= k restriction needs an explicit citation to the known four-speed 1/5 lower bound. Release-time update: cite-hypothesis-justification closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source05",
@@ -231,14 +281,14 @@
       "title": "Four-speed amended lonely-runner spectrum"
     },
     {
-      "decision": "hold",
+      "decision": "activated",
       "definition": "Math15.LonelyRunner.Target06",
       "gates": [
         "document-primitivity-repair"
       ],
       "implied_by": null,
       "number": 6,
-      "review_disposition": "Lonely runner sextuples: statement accepted; primitivity repairs a scaling problem in the literal source question (scaling preserves maximum loneliness but scales the maximum speed) and must be documented.",
+      "review_disposition": "Lonely runner sextuples: statement accepted; primitivity repairs a scaling problem in the literal source question (scaling preserves maximum loneliness but scales the maximum speed) and must be documented. Release-time update: document-primitivity-repair closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source06",
@@ -299,14 +349,14 @@
       "title": "Height-five Frankl rho 4 full cover"
     },
     {
-      "decision": "hold",
+      "decision": "activated",
       "definition": "Math15.Graceful.Target10",
       "gates": [
-        "novelty-review"
+        "novelty-review-10-11"
       ],
       "implied_by": null,
       "number": 10,
-      "review_disposition": "Graceful degree 4/3 trees: accepted; source novelty review incomplete.",
+      "review_disposition": "Graceful degree 4/3 trees: accepted; source novelty review incomplete. Release-time update: novelty-review-10-11 closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source10",
@@ -316,14 +366,14 @@
       "title": "Graceful degree-4-degree-3 trees"
     },
     {
-      "decision": "hold",
+      "decision": "activated",
       "definition": "Math15.Graceful.Target11",
       "gates": [
-        "novelty-review"
+        "novelty-review-10-11"
       ],
       "implied_by": null,
       "number": 11,
-      "review_disposition": "Graceful three-branch trees: accepted; source novelty review incomplete.",
+      "review_disposition": "Graceful three-branch trees: accepted; source novelty review incomplete. Release-time update: novelty-review-10-11 closed; see activation-policy.json and the gate evidence.",
       "reward_group": null,
       "reward_policy": "independent",
       "reward_target_id": "fc-target:Math15Catalog.source11",
@@ -403,7 +453,7 @@
       "title": "Collatz convergence below 2^72"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.MatrixBoolean.Statement16",
       "gates": [],
       "implied_by": null,
@@ -435,7 +485,7 @@
       "title": "Exact F2 bilinear rank 23 for 3x3 multiplication"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.MatrixBoolean.Statement18",
       "gates": [],
       "implied_by": null,
@@ -467,7 +517,7 @@
       "title": "Degree at most 5, 14-variable Boolean function fully sensitive at zero"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.MatrixBoolean.Statement20",
       "gates": [],
       "implied_by": null,
@@ -482,7 +532,7 @@
       "title": "Uniform subquadratic sensitivity-versus-exact-real-degree upper bound"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.MatrixBoolean.Statement21",
       "gates": [],
       "implied_by": null,
@@ -497,7 +547,7 @@
       "title": "Uniform cubic ordinary-sensitivity upper bound for block sensitivity"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Problem22",
       "gates": [],
       "implied_by": null,
@@ -512,7 +562,7 @@
       "title": "Wilf inequality for proper numerical semigroups with embedding dimension 4"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Problem23",
       "gates": [],
       "implied_by": null,
@@ -544,7 +594,7 @@
       "title": "Wilf inequality for proper numerical semigroups with multiplicity at most four times embedding dimension"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Polya.Target25",
       "gates": [],
       "implied_by": null,
@@ -559,7 +609,7 @@
       "title": "Third planar Dirichlet Polya inequality, area times lambda3 at least 12pi"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Polya.Target26",
       "gates": [],
       "implied_by": null,
@@ -574,7 +624,7 @@
       "title": "Fourth planar Dirichlet Polya inequality, area times lambda4 at least 16pi"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Polya.Target27",
       "gates": [],
       "implied_by": null,
@@ -589,7 +639,7 @@
       "title": "All positive-index Dirichlet Polya inequalities on convex planar domains"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Problem28",
       "gates": [],
       "implied_by": null,
@@ -604,7 +654,7 @@
       "title": "Every degree-at-most-four scalar real polynomial minimal graph is affine, in every dimension"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Problem29",
       "gates": [],
       "implied_by": null,
@@ -619,7 +669,7 @@
       "title": "Every scalar real polynomial minimal graph in dimension eight is affine"
     },
     {
-      "decision": "source-review-accepted",
+      "decision": "activated",
       "definition": "Math30.Problem30",
       "gates": [],
       "implied_by": null,

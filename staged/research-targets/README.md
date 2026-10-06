@@ -1,20 +1,23 @@
 # Staged research targets 1–30
 
 This directory records the package-authored research targets from the `Math15` (targets 1–15) and
-`Math30` (targets 16–30) libraries. They are open research statements. None is proved, and none is
-part of any task tier.
+`Math30` (targets 16–30) libraries. They are open research statements. None is proved. The targets listed in
+`ACTIVATION.md` are admitted to `tier-1`; the others are part of no tier.
 
 `decision-matrix.json` is the reviewed decision record. The validator loads it with
-`verifier.research_targets.load_research_target_decisions`, which fails closed on any malformed or
-activating edit. It is not an admission input. Admitting a `research-targets` source requires all
-three of these, and this release has none:
+`verifier.research_targets.load_research_target_decisions`, which fails closed on any malformed edit
+and on any mismatch with the validator constant. It never admits a target on its own. Admitting a
+`research-targets` source requires all three of these; this release records them for the targets in
+`ACTIVATION.md`:
 
 1. every global and target gate closed with cited evidence;
 2. the exact theorem names in `ACTIVATED_RESEARCH_TARGETS`, through a reviewed validator commit;
 3. a tier policy that names the `research-targets` family, in a reviewed tasks release.
 
 Schema version 1 cannot express activation, so a version-1 matrix is consistent only while that
-validator constant is empty.
+validator constant is empty. Schema version 2 adds the activation record: it commits to
+`activation-policy.json` by digest, keeps every technical gate closed with cited evidence, and marks
+owner approvals `pending-owner-approval` until the owner's record closes them.
 
 ## Decisions
 

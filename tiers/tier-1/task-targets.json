@@ -1740,6 +1740,125 @@
       "theorem": "Lemoine.lemoine_conjecture"
     },
     {
+      "reward_target_id": "fc-target:Math15Catalog.source04",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "theorem": "Math15Catalog.source04"
+    },
+    {
+      "reward_target_id": "fc-target:Math15Catalog.source05",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "theorem": "Math15Catalog.source05"
+    },
+    {
+      "reward_target_id": "fc-target:Math15Catalog.source06",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "theorem": "Math15Catalog.source06"
+    },
+    {
+      "reward_target_id": "fc-target:Math15Catalog.source10",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "theorem": "Math15Catalog.source10"
+    },
+    {
+      "reward_target_id": "fc-target:Math15Catalog.source11",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+      "source_problem_number": "Math15",
+      "theorem": "Math15Catalog.source11"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source16",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source16"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source18",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source18"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source20",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source20"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source21",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source21"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source22",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source22"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source23",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source23"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source25",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source25"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source26",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source26"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source27",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source27"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source28",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source28"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source29",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source29"
+    },
+    {
+      "reward_target_id": "fc-target:Math30Catalog.source30",
+      "source_family": "research-targets",
+      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+      "source_problem_number": "Math30",
+      "theorem": "Math30Catalog.source30"
+    },
+    {
       "reward_target_id": "fc-target:Mersenne.catalans_mersenne_conjecture",
       "source_family": "wikipedia",
       "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
