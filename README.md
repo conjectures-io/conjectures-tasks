@@ -33,6 +33,31 @@ Task selection, bundle generation, pool rebuilding, and fixture generation are o
 | `check_task.py` | Fails closed unless a task directory matches the published allowlist. Use it on anything hand-edited. |
 | `build_test_pool.py` | Development only: a one-problem pool whose counterexample task is actually provable, so the pipeline can be shown reaching `accepted=true`. The audited pool cannot do that by design. |
 | `generate_example_tasks.sh` | Regenerates the documentation examples. |
+| `seed_version_registry.py` | Once, at migration: creates `task-versions.json` from the current allowlist and the preserved history under `history/`. Changes no bundle byte. Refuses to overwrite an existing registry. |
+
+## Task versions and history
+
+`task-versions.json` is the version registry. It records:
+
+- the verification instances (source commit plus environment identity);
+- the ordered publications, each naming the exact `allowlist.json` digest it opened;
+- every task version ever published, with its state and the instances where it was admitted.
+
+The registry is append-only. Version-2 bundles (`fc-v2-…` task IDs, which commit to the target's
+dependency identity and the environment identity rather than to the source commit) live in
+`versions/<task_id>/`. They are published with `verifier task publish` from the validator, through
+a locked, journaled commit. See the validator's `docs/INCREMENTAL_TASKS.md`.
+
+`history/legacy/` keeps legacy bundles byte-for-byte, together with the allowlist that opened
+them, for paid work that still belongs to an older source commit. `HISTORY.json` lists them, and
+each is registered at the instance that originally accepted it, with intake closed. The one entry
+today is `fc-8432eac9-variants-conjecture-d8e9eeeb54-formalized-v1`. Its bundle and
+`8432eac9…/allowlist.json` are identical to `pool/tier-1/green-24-variants-conjecture-formalized/`
+and `allowlist.json` at this repository's commit `275ef482`.
+
+Registering a version keeps it addressable for verification. It does not make any particular
+submission claimable: the attempt cap and the submission's own state still apply.
+`history/environments/` records the environment identities that publications name.
 
 All JSON in this repository is written as `json.dumps(value, indent=2, sort_keys=True)` plus a
 trailing newline. Hand-edits must round-trip through that exactly, because the tier policy publishes
