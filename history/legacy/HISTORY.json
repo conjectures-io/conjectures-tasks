@@ -1,0 +1,15 @@
+{
+  "instances": [
+    {
+      "allowlist": "history/legacy/8432eac998110a563e03df65a28c117e97c8c142/allowlist.json",
+      "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+      "versions": [
+        {
+          "location": "history/legacy/fc-8432eac9-variants-conjecture-d8e9eeeb54-formalized-v1",
+          "state": "retired",
+          "task_id": "fc-8432eac9-variants-conjecture-d8e9eeeb54-formalized-v1"
+        }
+      ]
+    }
+  ]
+}
