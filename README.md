@@ -6,12 +6,12 @@ Versioned, immutable Lean task bundles for
 The validator pins an exact commit of this repository and consumes it as a separate checkout.
 For local development, clone `conjectures-validator` and `conjectures-tasks` as sibling
 directories, or set `CONJECTURES_TASKS_ROOT` in the validator to this checkout. All active bundles
-are organized under readable names below `pool/tier-1/`; each
-bundle contains its challenge, manifest, comparator
-configuration, trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
+live under `versions/<task_id>/`; the older bundles under `pool/tier-1/` remain immutable
+history. Each bundle contains its challenge, manifest, comparator configuration,
+trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 550 bundles: proof/refutation pairs for 275 audited
+The current snapshot contains one tier with 550 active bundles: proof/refutation pairs for 275 audited
 direct propositions (17 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 
@@ -43,6 +43,13 @@ Task selection, bundle generation, pool rebuilding, and fixture generation are o
 - the ordered publications, each naming the exact `allowlist.json` digest it opened;
 - every task version ever published, with its state and the instances where it was admitted.
 
+The October 9, 2026 limit release admits 550 new version-2 bundles with a 30 MiB
+(31,457,280-byte) proof cap, verified under the 5,000,000 lexical-token policy. The
+previous active legacy versions are superseded for intake; their bundle bytes, locations,
+admissions, and reward identities remain in the registry. No target selection or source
+statement changes in this release. The [release audit](history/releases/2026-10-09-proof-limits.json)
+maps each previous commitment to its replacement.
+
 The registry is append-only. Version-2 bundles (`fc-v2-…` task IDs, which commit to the target's
 dependency identity and the environment identity rather than to the source commit) live in
 `versions/<task_id>/`. They are published with `verifier task publish` from the validator, through
@@ -64,6 +71,10 @@ trailing newline. Hand-edits must round-trip through that exactly, because the t
 a SHA-256 over the file bytes.
 
 ## Retiring a target
+
+The manual steps below describe the legacy `pool/` layout. For active version-2 tasks,
+record the retirement or hold in the tier metadata and publish through the validator’s
+`verifier task publish` workflow. Preserve sealed `versions/` bundles and registry history.
 
 A target is retired when it must stop accepting submissions: a formalization that does not
 faithfully capture its informal conjecture, a type that depends on an admitted result, or a target a

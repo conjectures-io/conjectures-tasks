@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Can every triangle-free graph on $5n$ vertices be made bipartite by deleting at most $n^2$ edges?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«23»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/23](https://www.erdosproblems.com/23)",
+    "[OEIS A389646](https://oeis.org/A389646)",
+    "[Balogh-Clemen-Lidicky, Max Cuts in Triangle-free Graphs](https://arxiv.org/abs/2103.14179)",
+    "[McKay, Extremal graphs for bipartization of triangle-free graphs](https://users.cecs.anu.edu.au/~bdm/data/graphs.html)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/23.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos23.erdos_23",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b3d2e205c8b7c42d036d291e8a578b4eb0f4fa690708adbe221925626af13948",
+  "type_pretty": "True ↔\n  ∀ (n : ℕ) (V : Type) [inst : Fintype V],\n    Fintype.card V = 5 * n →\n      ∀ (G : SimpleGraph V), G.CliqueFree 3 → ∃ H ≤ G, H.IsBipartite ∧ (G.edgeFinset \\ H.edgeFinset).card ≤ n ^ 2"
+}

@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Part (ii) of Erdős Problem 1060: bound on the number of $k \\le n$ with $k \\sigma_1(k) = n$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1060»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1060](https://www.erdosproblems.com/1060)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/1060.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1060.erdos_1060.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7ff417c0c5796d1d731ccfd2ac2ba6582670e385b8d06766ea300a27ba543f60",
+  "type_pretty": "∃ C,\n  (fun n => ↑{k ∈ Finset.Iic n | k * (ArithmeticFunction.sigma 1) k = n}.card) =O[Filter.atTop] fun n => Real.log ↑n ^ C"
+}

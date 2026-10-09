@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:f1ec0a01f9c08b27f9ecdee8065d0bd6d6afa159d4ea60d74b65914e57507cc7",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Mersenne.infinitely_many_mersenne_primes"
+  ],
+  "generated_target_type_hash": "sha256:a967684da826b94dddc96d1cd047c8fd925d1a49ecc4c3280c246c47d1765d17",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Mersenne",
+  "source_path": "FormalConjectures/Wikipedia/Mersenne.lean",
+  "source_theorem": "Mersenne.infinitely_many_mersenne_primes",
+  "source_type_hash": "sha256:816379d7b4ed72ee5ae9f8cd05f24ba2a40e148e79aba0c2f7252d378ae1deb9",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-mersenne-infinitely-many-mersenne-primes-4cc2e7078899ab159d61c2ea-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:ca5b6e1b4f26be178f12dcf60d447cc9e9c597bcd40ff20e6143a5bfd1326404",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:bc0b5aae7dc1c44b8a6849b73b32c271a79ec46a7f013093087ef50c1808040f",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:a717c59276da5c5e7f9de2e9440bf7cbcd37e0928af7cb71df77c9d062b3dfbc",
+    "task-version.json": "sha256:e61577304d34499489950df8a886fc0faa1e34ef4af64045766b2093c89eb448"
+  }
+}

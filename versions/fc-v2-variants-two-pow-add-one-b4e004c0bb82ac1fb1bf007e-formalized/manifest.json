@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:414f244a6aa1b400f8f71623abae9f422415e440cff91b8c7c421adc731049b8",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos936.erdos_936.variants.two_pow_add_one"
+  ],
+  "generated_target_type_hash": "sha256:fbf101fb64e033ea107e06e5c642457f1a78837c8973ca4344e2c8b04727f3a5",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«936»",
+  "source_path": "FormalConjectures/ErdosProblems/936.lean",
+  "source_theorem": "Erdos936.erdos_936.variants.two_pow_add_one",
+  "source_type_hash": "sha256:fbf101fb64e033ea107e06e5c642457f1a78837c8973ca4344e2c8b04727f3a5",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-two-pow-add-one-b4e004c0bb82ac1fb1bf007e-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:c64fbc0a89405830cd140dc56c3407f6cdc50c6aa38cbd141e5f37f1cf70fbc7",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:fe7eef2e00ce84e912ec7428c6b4cffd23d2f59004b3a2c1167dfb51f48ef35c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:2cdbc2fecb9f330fc84fef1ed6a4cc0f982cd5af0d113bc79049bf92da4f95c5",
+    "task-version.json": "sha256:56c8418e4c60af3620335d0ccfd87fe7af53ca867555a5ce09b69a7ab4c49cc0"
+  }
+}

@@ -36,6 +36,10 @@ def main() -> None:
     from verifier.task_registry import TaskPoolRegistry
     from verifier.task_loader import load_task_bundle
     from verifier.task_policy import COUNTEREXAMPLE_TASK_MODE, EXACT_TASK_MODE
+    from verifier.models import V2_PROVENANCE
+    from verifier.version_registry import (
+        VersionRegistry, assert_matches_allowlist, assert_record_matches_bundle,
+    )
 
     try:
         policy = json.loads(ALLOWLIST.read_text(encoding="utf-8"))
@@ -59,7 +63,17 @@ def main() -> None:
         admitted = registry.assert_bundle(bundle)
     except Exception as error:
         fail(str(error))
-    if bundle.manifest.repository_commit != policy["repository_commit"]:
+    if bundle.manifest.provenance == V2_PROVENANCE:
+        try:
+            versions = VersionRegistry.load(TASKS_ROOT / "task-versions.json")
+            assert_matches_allowlist(versions, ALLOWLIST)
+            record = versions.versions[bundle.manifest.task_id]
+            assert_record_matches_bundle(record, bundle)
+            if record.state != "active" or record.admission_at(versions.current.instance) is None:
+                fail("task version is not active in the published instance")
+        except Exception as error:
+            fail(f"task version failed registry validation: {error}")
+    elif bundle.manifest.repository_commit != policy["repository_commit"]:
         fail("repository commit does not match the audited commit")
     if bundle.sha256 != row["task_bundle_sha256"]:
         fail("task-bundle digest does not match the audited digest")

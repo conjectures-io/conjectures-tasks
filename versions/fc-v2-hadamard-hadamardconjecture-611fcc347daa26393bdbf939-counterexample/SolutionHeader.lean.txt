@@ -1,0 +1,4 @@
+import FormalConjectures.Wikipedia.Hadamard
+import TaskSupport
+
+namespace Bounty

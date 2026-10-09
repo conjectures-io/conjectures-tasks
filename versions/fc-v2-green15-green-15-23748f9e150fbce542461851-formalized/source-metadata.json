@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does there exist a Lipschitz function $f : \\mathbb{N} \\to \\mathbb{Z}$ whose graph\n$\\Gamma = \\{(n, f(n)) : n \\in \\mathbb{N}\\} \\subseteq \\mathbb{Z}^2$ is free of 3-term progressions?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«15»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.15)",
+    "[BJP14] T. Brown, V. Jungić and A. Poelstra, \"On double 3-term arithmetic progressions\", Integers 14 (2014), Paper No. A43.",
+    "[CCS14] J. Cassaigne, J. D. Currie, L. Schaeffer and J. Shallit, \"Avoidance of additive cubes and related results\", Adv. in Appl. Math. 56 (2014), 25–66."
+  ],
+  "source_path": "FormalConjectures/GreensOpenProblems/15.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green15.green_15",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7d02791b5c15a06bc3dae5073fe68500bb01c8d3b260db707c3bda85c7fb872c",
+  "type_pretty": "True ↔ ∃ K f, LipschitzWith K f ∧ {x | ∃ n, (↑n, f n) = x}.IsAPOfLengthFree 3"
+}

@@ -34,7 +34,7 @@ class ReinstatementTests(unittest.TestCase):
         self.assertEqual(self.build(['Erdos96.erdos_96'], {})['retired'], [])
 
     def test_unexplained_deletion_still_fails(self):
-        with self.assertRaisesRegex(generator.GeneratorError, 'not in RETIREMENTS'):
+        with self.assertRaisesRegex(generator.GeneratorError, 'in neither RETIREMENTS.md nor HOLDS.md'):
             self.build([], {})
 
     def test_simultaneously_active_and_retired_fails(self):

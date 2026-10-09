@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:c05a51c8ca88e5b4271540302c30ba5fa11720050c7cc226a01abad48eef6dce",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "RiemannHypothesis.riemannHypothesis"
+  ],
+  "generated_target_type_hash": "sha256:9a43c102663928d991bb3f4d96683c14d4df11c05e3199adbfc6fd8fcf499942",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Millennium.RiemannHypothesis",
+  "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+  "source_theorem": "RiemannHypothesis.riemannHypothesis",
+  "source_type_hash": "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-9face1e4b82cc4c6ea4154d7-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:81adfb95cc08e5e125669b82298b0d67e85e32cb21a909ef1d2123a0b9fa9173",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:2816872c118596cf1835bae74bdd9f87680701c6749c1d067465e84036ed2c2c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:86096374e2402f6774a50f1eaaf0593000752871645c06836baaa18e143b6333",
+    "task-version.json": "sha256:3f049d3018a36b5f78b57161c1630d94174066050bfb59eef3833cc8f8682939"
+  }
+}

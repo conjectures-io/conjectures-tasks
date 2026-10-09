@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is conjectured that the set of primary pseudoperfect numbers is infinite.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«313»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/313](https://www.erdosproblems.com/313)",
+    "[A54377](https://oeis.org/A54377) (Primary pseudoperfect numbers)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/313.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos313.erdos_313.variants.primary_pseudoperfect_are_infinite",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:a835383c19e713416735605fbae85bd1d73bad5b08a991491b2f2f2117e8d8a4",
+  "type_pretty": "{n | Erdos313.IsPrimaryPseudoperfect n}.Infinite"
+}

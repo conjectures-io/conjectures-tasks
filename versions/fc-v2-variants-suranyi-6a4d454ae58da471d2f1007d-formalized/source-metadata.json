@@ -1,0 +1,36 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Surányi was the first to conjecture that the only non-trivial solution to `a!b!=n!`\nis `6!7!=10!`.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«373»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/373](https://www.erdosproblems.com/373)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/373.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos373.erdos_373.variants.suranyi",
+  "transitive_axioms": [
+    "sorryAx"
+  ],
+  "type_hash": "sha256:31fba37157604a1d8487f10d10fe3e245653c73bf851f47dc2beffde91804a6e",
+  "type_pretty": "{(n, a, b) | n.factorial = a.factorial * b.factorial ∧ 1 < n ∧ 1 < a ∧ 1 < b ∧ b ≤ a ∧ a + 1 ≠ n} = {(10, 7, 6)}"
+}

@@ -9,8 +9,8 @@ not rank, price, or otherwise distinguish targets.
 
 - `allowlist.json` is the pool-wide, machine-readable admission set.
 - `tiers/<tier>/` contains that tier's selection audit, policy inputs, and pinned source corrections.
-- [`pool/<tier>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/pool)
-  contains the immutable task bundles in this repository.
+- [`versions/<task_id>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/versions)
+  contains the active immutable task versions. `pool/<tier>/` retains the historical legacy bundles.
 
 The current release places all 275 audited targets in `tier-1`: 17 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
@@ -187,7 +187,10 @@ active.
 The September 8 release also reviews the separate Erdős proof-claim tabs and comments.
 Unresolved full-scope claims are withheld. A dated negative search does not certify that no prior
 solution exists; the validator release carries the individual evidence and decisions.
-Every active task permits 10 MiB of proof text. The enlarged limit receives a new task ID and
+The September release permitted 10 MiB of proof text. The October 9, 2026 release
+publishes 550 replacement version-2 bundles permitting 30 MiB (31,457,280 bytes),
+under a 5,000,000 lexical-token policy; all legacy bundles remain immutable and
+addressable through the version registry. The enlarged limit receives a new task ID and
 bundle digest while the stable reward identity and retained trusted payloads remain unchanged.
 
 ## September 21 classical additions

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:2cf9a7c97bb5accdf96bec66c58a1deb99fb028532b8c21e59bf9e78f5d6597c",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos936.erdos_936.variants.factorial_sub_one"
+  ],
+  "generated_target_type_hash": "sha256:faddddba25e5af58c28f4acaf4f1861c509c505c49850c3faf783d1173d23502",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«936»",
+  "source_path": "FormalConjectures/ErdosProblems/936.lean",
+  "source_theorem": "Erdos936.erdos_936.variants.factorial_sub_one",
+  "source_type_hash": "sha256:6fc34885088fd2deb03299374b081210dcb2e3c255fce69761ca4ecaebe52159",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-factorial-sub-one-b4edea19ab696b54063bda7c-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:8c128ed137e08d2b2d6476355739466a1ae4b798cbe0dd29c6431de09ed7b72f",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:fe7eef2e00ce84e912ec7428c6b4cffd23d2f59004b3a2c1167dfb51f48ef35c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:f124c547de476110cad8bc3a4a2c75dbf9c783e383e6da1d5517f7799d1e87bc",
+    "task-version.json": "sha256:7248a1009f7ba6291a5c9a24c2bb4823af472b1df62d7e5401f5e32fa17d1b29"
+  }
+}

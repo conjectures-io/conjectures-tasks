@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for every integer $t\\geq1$, there is some integer $a$ such that ${n \\choose k} = a$\nwith $1\\leq k \\le \\frac{n}{2}$ has exactly $t$ solutions?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«849»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/849](https://www.erdosproblems.com/849)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/849.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos849.erdos_849",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8c85bb0d73e0374d83f0808a3914ff030ecc9a24473e6471b8c861d3c4235a71",
+  "type_pretty": "True ↔ ∀ t ≥ 1, ∃ a, {n | ∃ k ≥ 1, 2 * k ≤ n ∧ n.choose k = a}.ncard = t"
+}

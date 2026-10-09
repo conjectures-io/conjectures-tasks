@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:8ea75699a08be0cc11b2e73566bb84506ca18bb95e9c69da53c8aaa16e3faefa",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos208.erdos_208.variants.log_bound"
+  ],
+  "generated_target_type_hash": "sha256:33123eeac4780253e16437dfb4d350755d38e67d44ea5d5a88f0b9bfe761f5f1",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«208»",
+  "source_path": "FormalConjectures/ErdosProblems/208.lean",
+  "source_theorem": "Erdos208.erdos_208.variants.log_bound",
+  "source_type_hash": "sha256:f934595c12d4ec6e259b6f51b8f416436bdd092e9e2ce1d85daaa0c54f295023",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-log-bound-40a082d2fc2dcd86d21364c3-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:cd764cd09962fd1bf99ef8698c922104992015b22afecdf2a385d4d35477fb2a",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:beaa3eadb5d917e0ee1d46ee617802fca5b25d17dc5090a1a25e2763086d4413",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:3aca0f1acbddb82fe35babf653e36bf7a95ce97086ee57f647aaa7a9be674d92",
+    "task-version.json": "sha256:e8097b89cb705bbf882d514500791ac60bef2c46a8ad502248f01908bd0eb88a"
+  }
+}

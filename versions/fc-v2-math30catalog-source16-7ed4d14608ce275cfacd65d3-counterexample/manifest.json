@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:776c4517879ea15cf6c8d306fe595547de74dc186ae41b988034f0c730407dbb",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Math30Catalog.source16"
+  ],
+  "generated_target_type_hash": "sha256:f6aaf2128bee76fbad0aad82272737d31131c3f7a481f3d85bda4364ea6c8da3",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ResearchTargets.Math30",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "source_theorem": "Math30Catalog.source16",
+  "source_type_hash": "sha256:6851c92e1359fb8774abc091d914b3666c3a3083a97f03f1bf023df2a74dc36e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-math30catalog-source16-7ed4d14608ce275cfacd65d3-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:8c1d2f7b1320c82d4b0e1334f621b8621ed8f82cd1f037a3f412da2f2853e7a2",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:3cb766f3040d0cb0885a0529c5606f71beb64423a3fe1497fb428b64cd7fcb95",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:890886e5014156fd0c5788da4cc306d854a2ce6529de569df2b5c64ac7ad44e7",
+    "task-version.json": "sha256:434c672b8cc191eec0da17edb361c32b37b904f71f11803ddb390d0886ff24b5"
+  }
+}

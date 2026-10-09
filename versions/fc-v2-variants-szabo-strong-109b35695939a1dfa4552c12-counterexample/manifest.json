@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:847509da643428a4127ba6541d4ce31ceb9f0413311d98941bb4cceeff43aa83",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos272.erdos_272.variants.szabo_strong"
+  ],
+  "generated_target_type_hash": "sha256:e013695a078609753c3a653820bf3b256f6806f24690687bdfadb382ff748420",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«272»",
+  "source_path": "FormalConjectures/ErdosProblems/272.lean",
+  "source_theorem": "Erdos272.erdos_272.variants.szabo_strong",
+  "source_type_hash": "sha256:372a052300899d71f5b27d23e5505351f9a1400793e425b51628356a0739daf6",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-szabo-strong-109b35695939a1dfa4552c12-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:8b996c6986f5a5f4065da707108e2e27612dc7ae53fe00a70c175d626bccaa2d",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:220d1afc707a0f9289bfdff3e786abca166d5c7a10aeaf83e67bddcd11d5890b",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:fde6473c18c9f15421d731cc7022ca5cd36f6ca785682a6a8ea0277dc4d5625d",
+    "task-version.json": "sha256:bcc23cddb2a071f4c5c3ab9fc34836e280a31590f29ad9f0365e495b06e5796c"
+  }
+}
