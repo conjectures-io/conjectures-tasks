@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:b9af7f717c642b2a9a17fc5752df98ff2cdfb70ff511b2dae6b949a71d67706f",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Math30Catalog.source20"
+  ],
+  "generated_target_type_hash": "sha256:98848fdf241eb10f5c9ca8576ca2084a32adb5e75a155ebbc1eb0c7bf9b22521",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ResearchTargets.Math30",
+  "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+  "source_theorem": "Math30Catalog.source20",
+  "source_type_hash": "sha256:98848fdf241eb10f5c9ca8576ca2084a32adb5e75a155ebbc1eb0c7bf9b22521",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-math30catalog-source20-6067acbb3638e84428ff8e70-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:14b7a1ef882e4a81a75ac0b86d938cccf5f1d0def15a31cb96cdbec2ca85eaa5",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:3cb766f3040d0cb0885a0529c5606f71beb64423a3fe1497fb428b64cd7fcb95",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:eb2e53edcdb5f6130d9eecb6f00c2caa6c8a2f4aa46a966493238286839e7c43",
+    "task-version.json": "sha256:e4fdbe4e98f3882f9b83dc62d4388509933ff1d9c266fe1bae61b0d350fe655f"
+  }
+}

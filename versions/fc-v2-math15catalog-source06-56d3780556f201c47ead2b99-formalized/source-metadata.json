@@ -1,0 +1,34 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Incomplete challenge 06: Six-speed maximum-speed/denominator bound. Source: https://arxiv.org/html/2609.03444v2#S6.SS4 ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ResearchTargets.Math15",
+  "pointer_target": null,
+  "source_path": "FormalConjectures/ResearchTargets/Math15.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Math15Catalog.source06",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d5eb872f7f6ef50ae586cae91d79b03154b8b99a5e197066cf8d5584abf18fc0",
+  "type_pretty": "Math15.LonelyRunner.Target06"
+}

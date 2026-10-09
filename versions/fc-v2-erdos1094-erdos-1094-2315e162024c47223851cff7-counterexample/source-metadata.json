@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For all $n\\ge 2k$ the least prime factor of $\\binom{n}{k}$ is $\\le\\max(n/k,k)$, with only\nfinitely many exceptions.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«1094»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/1094](https://www.erdosproblems.com/1094)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/1094.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos1094.erdos_1094",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:537939d5fd9382e79289b75944590dff6ba8cc186e3adfe787e98cb0917ef70c",
+  "type_pretty": "{(n, k) | 0 < k ∧ 2 * k ≤ n ∧ (n.choose k).minFac > max (n / k) k}.Finite"
+}

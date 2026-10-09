@@ -1,0 +1,39 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $A\\subseteq\\mathbb{N}$ be an infinite set. Is\n$$\n\\sum_{n\\in A} \\frac{1}{2^n - 1}\n$$\nirrational?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«257»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/257](https://www.erdosproblems.com/257)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/257.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos257.erdos_257",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ea2cb191d3c90c243e3dc61ea1fd34cc9d2ba1d315deb67a1984d363c3834fda",
+  "type_pretty": "True ↔ ∀ (A : Set ℕ), A.Infinite → Irrational (∑' (n : ↑A), 1 / (2 ^ ↑n - 1))"
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:7f08a1b7f9b4c6ccbeaf4e279e5bfb688cd4af63bbd482bb0cae19bc436e2c9f",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos695.erdos_695.variants.upperBound"
+  ],
+  "generated_target_type_hash": "sha256:3a0517f42374e6321ab3785ac9bf1f3d83b5e6e408bddb43e7f361dcd73c2d16",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«695»",
+  "source_path": "FormalConjectures/ErdosProblems/695.lean",
+  "source_theorem": "Erdos695.erdos_695.variants.upperBound",
+  "source_type_hash": "sha256:5d3b0dcca310b5be635b9260e38a0b7930d25a971b364e4543feb1a67468077a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-upperbound-65c14af9889c1bbf4c597d09-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:d909f952e8514bfcdc886d71dfe7614b7c7f433c08c3d727078d94e11c5e9e37",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:f9570482aec2515c826b42613528e1ce72dbf449b33f17280cb584faf7ea9fcd",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5d7731190ceea2736d423f6e4f23ec754bf820a1c4463033cc3b4b5bd3428d09",
+    "task-version.json": "sha256:aeff876ff6c3a3bc3126507f52b4150792461ccbe0c316b1f4ae8548903c86a9"
+  }
+}

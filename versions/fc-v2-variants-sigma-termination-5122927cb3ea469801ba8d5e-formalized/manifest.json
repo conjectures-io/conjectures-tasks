@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:1a7b222b33ae6b1ce5c05a1ff5894882401cda4984c89a42afac7b108daf2a2a",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos409.erdos_409.variants.sigma_termination"
+  ],
+  "generated_target_type_hash": "sha256:0da24d0288f63e0441d5ba4817f97745a5905d3ac84e18f32cfcb62b3abf9686",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«409»",
+  "source_path": "FormalConjectures/ErdosProblems/409.lean",
+  "source_theorem": "Erdos409.erdos_409.variants.sigma_termination",
+  "source_type_hash": "sha256:0da24d0288f63e0441d5ba4817f97745a5905d3ac84e18f32cfcb62b3abf9686",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-sigma-termination-5122927cb3ea469801ba8d5e-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:7c68a2ba42d90741f757a692906df5626a14f2b8ad584a5a8b16ec42017dab8e",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:698cfc12159bfd1d5d7da9fa3bb43637e743c93c6a040ccd904038131541fb7d",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:fe0e0df326a54a811d950234c4c5e3d05554e105382d3c6df679fb845d81b794",
+    "task-version.json": "sha256:0cfb01b5553cbe277e4a380fe4ec0552a056d98219a7d0aa29a06227a4d2f606"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:eebaf998b4e7fb388893912de6ee3a6439d18207527c8882355d64da397066ec",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Lemoine.lemoine_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:eb97e9f0c2b94a2c6e20cded62eb731dc781854be20d0de3253076e6c17cc36e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Lemoine",
+  "source_path": "FormalConjectures/Wikipedia/Lemoine.lean",
+  "source_theorem": "Lemoine.lemoine_conjecture",
+  "source_type_hash": "sha256:eb97e9f0c2b94a2c6e20cded62eb731dc781854be20d0de3253076e6c17cc36e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-lemoine-lemoine-conjecture-b17cdb9bc0719ac5ee318761-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:9e28bd1ddb696d250af68d54202598a39f500fbbc1b82cea5659203360dfc401",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:110af785fab3e9cbf321ba273b5988e372c2754c8aef5fa3204bf4ba1946b9d6",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:e02fe62752ddcaaa86eaf63bb5322cd783f82a7bf4898920c88e4ed32cbff605",
+    "task-version.json": "sha256:f59a610ee3d03a7acb1801b68e7debd9eb15d1b3227831354a398c262f83cf93"
+  }
+}

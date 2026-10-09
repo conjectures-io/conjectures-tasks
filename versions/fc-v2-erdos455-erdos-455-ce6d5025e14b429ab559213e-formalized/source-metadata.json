@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let `q : ℕ → ℕ` be a strictly increasing sequence of primes such that\n`q (n + 2) - q (n + 1) ≥ q (n + 1) - q n`. Must `lim q n / (n ^ 2) = ∞`? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«455»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/455](https://www.erdosproblems.com/455)",
+    "[Ri76] Richter, Bernd, Über die Monotonie von Differenzenfolgen. Acta Arith. (1976), 225-227."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/455.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos455.erdos_455",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:a07ec2deb4e3ccf81a055e2cea8b3e2cbf67bb97e062b2e47e4c052fa21cdd32",
+  "type_pretty": "True ↔\n  ∀ (q : ℕ → ℕ),\n    StrictMono q →\n      (∀ (n : ℕ), Nat.Prime (q n) ∧ q (n + 2) - q (n + 1) ≥ q (n + 1) - q n) →\n        Filter.Tendsto (fun n => ↑(q n) / ↑n ^ 2) Filter.atTop Filter.atTop"
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:0dce64dc80a8397b5235ac11b21c333fa47fdb7cd243da36c0b212e541186ed3",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos406.erdos_406.variants.one_two"
+  ],
+  "generated_target_type_hash": "sha256:a7c9af2e9272cbf7d8112dab79e16ab5c1813107e6a1e2624c932ae63815d471",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«406»",
+  "source_path": "FormalConjectures/ErdosProblems/406.lean",
+  "source_theorem": "Erdos406.erdos_406.variants.one_two",
+  "source_type_hash": "sha256:450efb0b9baef627a7cec4dab22d8ed38fa7131f0216ef80f28f46f867522371",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-one-two-39b70d77b0b267054cb8bc16-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:4d84ba1ae4b0fcdf831072508eba777ee0bb80b39c8efc9d2487e09e522b5009",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:c278223f414012808d95b0be2f09df28160ae1da9a5ea7c15f5de286decede67",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4e231d23c6b26ce2c3a25780a36085dbc8f4a27764e5ceb9e3fa955eec821b42",
+    "task-version.json": "sha256:ae4dcb35458452a06e2e9269bbaae54ffa7b26afdeabc878189b00e58c39a34f"
+  }
+}

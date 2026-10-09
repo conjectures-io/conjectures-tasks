@@ -1,0 +1,37 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that, for every integer $k\\neq 1$, there are infinitely many $n$ such that\n$2^n\\equiv k\\pmod{n}$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«479»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/479](https://www.erdosproblems.com/479)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/479.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos479.erdos_479",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:42b69be220a84dd48e29df5445b5c6f6bf8263ed4371a22066b5df6be6202c39",
+  "type_pretty": "True ↔ ∀ (k k : ℤ), k ≠ 1 → {n | 2 ^ n ≡ k [ZMOD ↑n]}.Infinite"
+}

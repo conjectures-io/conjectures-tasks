@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:148687b519c29630426a4e8407b4b99312f8914137cba5267ef55ffcf4d2afd6",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos242.erdos_242.variants.schinzel_generalization"
+  ],
+  "generated_target_type_hash": "sha256:4cbebddd902a0fbf2a7cad7d1e24b36bd58d2ec649aaa8432b3a1ed448c715c0",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«242»",
+  "source_path": "FormalConjectures/ErdosProblems/242.lean",
+  "source_theorem": "Erdos242.erdos_242.variants.schinzel_generalization",
+  "source_type_hash": "sha256:b141d6fbf1dbb8c97357e6826fd853a1f6d34d12832fa021225f8b1a4afcb6b5",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-schinzel-generalization-19bfc52bef1b8574c331df75-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:85504774d4a85a39c3cf7b93454699a937d5352c60dfaa28fdd021b0d0b76193",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:9eb6848157d5de6d38a114963cad28af006affac9407f1a8955c36b12b8465ee",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5a33b73c3cf252c3f0006071c4cd79b43d99634fc158bee1632f9d08f8e77e20",
+    "task-version.json": "sha256:a34c85d7bb7510de989318a17445ac5a54522cbcef450798b3231d2c72beb3b0"
+  }
+}

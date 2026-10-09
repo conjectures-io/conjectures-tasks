@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:74eecb3dd20c2adf5c72d5cd6413979dd2c681a6f029299ab5fb4abb538bd50f",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos373.erdos_373.variants.suranyi"
+  ],
+  "generated_target_type_hash": "sha256:52349bfb17ec1d98ce84a69700e3a818b3bcaae6e9e077d4d6953b363664c81f",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«373»",
+  "source_path": "FormalConjectures/ErdosProblems/373.lean",
+  "source_theorem": "Erdos373.erdos_373.variants.suranyi",
+  "source_type_hash": "sha256:31fba37157604a1d8487f10d10fe3e245653c73bf851f47dc2beffde91804a6e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-suranyi-eb0f1d2f7562d61996dba395-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:542b68afcd5a6413da8667e6c9039a443556dcac5cd581ac1e26d7b5ba474e5a",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:ae6ca4f6134333ad241047a695a56913f50ed8b6842fcc901821d470b80ba59e",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:91621b2b5c1d8255f57bbd58338c08d43b0541b047b1decba148f9fc97914e7a",
+    "task-version.json": "sha256:f0136f350de2012adebc981fc583aea23cc0fb9c07308314414d153c80909748"
+  }
+}

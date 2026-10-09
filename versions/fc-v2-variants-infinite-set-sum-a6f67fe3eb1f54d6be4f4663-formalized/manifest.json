@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:59b61325cf47a4cef305c38c812302919e8fe36158667159926cd29ca8381c6f",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos357.erdos_357.variants.infinite_set_sum"
+  ],
+  "generated_target_type_hash": "sha256:873d61e456eb854ca539c5c628143c137e5fca4a744f800836ee63bdd7f3d19d",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«357»",
+  "source_path": "FormalConjectures/ErdosProblems/357.lean",
+  "source_theorem": "Erdos357.erdos_357.variants.infinite_set_sum",
+  "source_type_hash": "sha256:873d61e456eb854ca539c5c628143c137e5fca4a744f800836ee63bdd7f3d19d",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-infinite-set-sum-a6f67fe3eb1f54d6be4f4663-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:ca740a994f002f50f43c16fddbb7569fa8a1ea9c3a1006c837bb3fd4ff00e6e3",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:e8994427ea9ff6dd4631afcef7f9c3550930b461296ea87aeee3f4db1e0bfec9",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:8717618f41a125a3c339d5c56e5fba38cf2cf3b45121acce4a5d61618a0accdf",
+    "task-version.json": "sha256:c576e89ad0a4ac87fef228b84ba5ce09e4c73d00ea9479d5b9b232aedd8b59a7"
+  }
+}

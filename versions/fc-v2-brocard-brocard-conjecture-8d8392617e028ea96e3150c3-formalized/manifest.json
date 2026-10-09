@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:162bfb64181d92805b404fa207062f52331939f43144f740575d7365403262c2",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Brocard.brocard_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:d1c9d709307e646e32a3a7dfb2cca841320b4fde6f2ddbf7fa4254523de4716c",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.BrocardConjecture",
+  "source_path": "FormalConjectures/Wikipedia/BrocardConjecture.lean",
+  "source_theorem": "Brocard.brocard_conjecture",
+  "source_type_hash": "sha256:d1c9d709307e646e32a3a7dfb2cca841320b4fde6f2ddbf7fa4254523de4716c",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-brocard-brocard-conjecture-8d8392617e028ea96e3150c3-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:e5faed86e444f9b1ba5ff8174d6095039298edeccef5e9ccd354c18ed0bfbd23",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:af85e1af35731249afa84397b8dcd6ac1f126f18b87db02b9824170ffe792e31",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:3dc8be7938dbd0e81f63ccf158de4e8bb65ff5335abad13270d4048d6b39d45f",
+    "task-version.json": "sha256:450a263b1a924b5244178885474f952a211fde1089f2b40f925ea76bc650a349"
+  }
+}

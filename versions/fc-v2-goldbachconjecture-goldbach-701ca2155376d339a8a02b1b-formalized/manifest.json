@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:a60a80080dcb85c282dcef6cd9ed40583e28da1f4b2a5f642528b995141a6768",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "GoldbachConjecture.goldbach"
+  ],
+  "generated_target_type_hash": "sha256:7665fdcb77b021dabebe8bf8a742ab93d64f52b8ca3b2aa77edb724a4fc7040e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.GoldbachConjecture",
+  "source_path": "FormalConjectures/Wikipedia/GoldbachConjecture.lean",
+  "source_theorem": "GoldbachConjecture.goldbach",
+  "source_type_hash": "sha256:7665fdcb77b021dabebe8bf8a742ab93d64f52b8ca3b2aa77edb724a4fc7040e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-goldbachconjecture-goldbach-701ca2155376d339a8a02b1b-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:8660d9234ee12abe07addd9b842d8db643b5eb29c425212b79f1b5e877a2a80f",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:924a0f5b7edec7a97152fed72ba5af93f1b98976ca602c99a8fee73c74ed66ed",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:8aa7190c2f0123ac84e77d76d524b57d2652e9e566ae0940c42b5d449a7937b6",
+    "task-version.json": "sha256:a5e3fb65a2ceba48e2ef99dc0dd7653fa777807adcf46eb04b25df462a4b03ed"
+  }
+}

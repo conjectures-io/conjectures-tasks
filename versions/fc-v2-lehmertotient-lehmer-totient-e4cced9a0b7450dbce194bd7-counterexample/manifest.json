@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:f921f59942fe84b0a61ca408b5e9d2347b36a0dc2eeaba1bcbae51cc38696c8c",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "LehmerTotient.lehmer_totient"
+  ],
+  "generated_target_type_hash": "sha256:c9ebbe4e0d62fd00365702966a307ec20026641cfa242ed9c53ff5eaada6df1a",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.LehmerTotient",
+  "source_path": "FormalConjectures/Wikipedia/LehmerTotient.lean",
+  "source_theorem": "LehmerTotient.lehmer_totient",
+  "source_type_hash": "sha256:5784c5c1703d408b6beb12e56a186128c52c7f74d3d7d4102502dfd3d38bab7a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-lehmertotient-lehmer-totient-e4cced9a0b7450dbce194bd7-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:a46298ccd09d46197199a2cdbd5b972341c905b709f172114d58352b3ed2666a",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:b790674478d60d5ad03f805883c8158a1dbbad7dd182d8b97f5e51935bba87a0",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:c58ef8d504501c730671573d6a12ab0494737451d5843c553e441788901e5f09",
+    "task-version.json": "sha256:312c3fb00c21bcd03c3115ee5b65f93a414a06dfe2536f50c254b64af4110d65"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A conjecture by Heath-Brown:\nThe sum of squares of the first $N$ gaps between consecutive primes behaves like $N * (log N)^2$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«233»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/233](https://www.erdosproblems.com/233)",
+    "[A74741](https://oeis.org/A74741)",
+    "[Wikipedia](https://en.wikipedia.org/wiki/Cram%C3%A9r%27s_conjecture)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/233.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos233.erdos_233",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ece6ebb4b51264e6088d1acae85dabff6313bd2b5767c635d7d592dfafbea249",
+  "type_pretty": "(fun N => ∑ n ∈ Finset.range N, ↑(primeGap n) ^ 2) =O[Filter.atTop] fun N => ↑N * Real.log ↑N ^ 2"
+}

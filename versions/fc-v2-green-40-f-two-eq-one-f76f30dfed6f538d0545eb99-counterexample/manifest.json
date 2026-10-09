@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:830c73d7c933396e03b514c3b6563b2ee83451665582efb441bb801b3986ae4d",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Green40.green_40.f_two_eq_one"
+  ],
+  "generated_target_type_hash": "sha256:0ea691496d0d3b6e151eadd99a21faeb69ff8db27703ee08db27b433308f6291",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.GreensOpenProblems.«40»",
+  "source_path": "FormalConjectures/GreensOpenProblems/40.lean",
+  "source_theorem": "Green40.green_40.f_two_eq_one",
+  "source_type_hash": "sha256:af660ea10315b3b644d0b3f001886cda5921cd09ec1966726b858f91ae264255",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-green-40-f-two-eq-one-f76f30dfed6f538d0545eb99-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:b2ccbff044b9357e9cbe1b825e67dc30979281e23491d6cdaada09f57d3ec0ac",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:10486437945c80ba360ed4e2b8526a061ef9259761681ddfbbe928369781267a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4b3329d27640bd9f218bed41481bbc7267a5a26ebe3551d2a70091ed8e636d61",
+    "task-version.json": "sha256:b1f7c26b246bd739dca1d6a69ad48025d70e2144f6b2823a8ad7ebbc4bdd1bb5"
+  }
+}

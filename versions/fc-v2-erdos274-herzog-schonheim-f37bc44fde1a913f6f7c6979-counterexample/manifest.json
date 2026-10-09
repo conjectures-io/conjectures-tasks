@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:b74b0d39001506f568b9bbdae6c1f0fd922b009be24fe3fed828f8e678e64e04",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos274.herzog_schonheim"
+  ],
+  "generated_target_type_hash": "sha256:bcd2662505a030ddb6d8b5c35ccc00d34d80edcf41c1361f9ee57d9fdc9be43e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«274»",
+  "source_path": "FormalConjectures/ErdosProblems/274.lean",
+  "source_theorem": "Erdos274.herzog_schonheim",
+  "source_type_hash": "sha256:6e97913f0a452b5b51b26e192ba3709526e1bf4aa88cca5bf0d69d34d62cd8ca",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-erdos274-herzog-schonheim-f37bc44fde1a913f6f7c6979-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:c001da4e4f1d84a7b88ad8a20cf32b4dac863270348c06edcb89ea7287eb62ab",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:0135d55a978e4d8ab51e9d653fd3ca1dc3a5540c68b1c9caa5426ab223ad3f47",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:983ebfb5daa7614a4869c6cad45f3da1746ed5345b72ad9726cb4084e6b1fc02",
+    "task-version.json": "sha256:586bed9a5e08cc1241f4036bb57799012f7740bb5a97356f8242a3b7d3712477"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:131ee8ef28a3ba8deb2434dd2ec480cadd65ca9a9e9150d660fbd8ba0b119f98",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Bunyakovsky.bunyakovsky_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:332800985438044d5c3eb15cc6253397de11282d21b2b0e14467f78280de13b5",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Bunyakovsky",
+  "source_path": "FormalConjectures/Wikipedia/Bunyakovsky.lean",
+  "source_theorem": "Bunyakovsky.bunyakovsky_conjecture",
+  "source_type_hash": "sha256:332800985438044d5c3eb15cc6253397de11282d21b2b0e14467f78280de13b5",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-bunyakovsky-bunyakovsky-conjecture-e7c2d74b3f10094b8253faa5-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:3e0ee75e9fe9fa6c91f5f1c2fdaf1d818698ee341aa6de3556137c4a477f2b70",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:191a8058538e66220effd963b8e14b6bc9669ce9178ff7e6d13cde3de2da431a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:6b98e371084ab0f4cf52b2ae64fb8a6203f05592fc9403cb9e6f536b6b42fe1b",
+    "task-version.json": "sha256:0a1e614593100b5928f74dc7d6d9d286a0f769d380e902d19612da1584861639"
+  }
+}

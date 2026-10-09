@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:c848b783e14017c3782a12da0ba5b23d556cfcc4642c99f0511099bbe77fd261",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos340.erdos_340"
+  ],
+  "generated_target_type_hash": "sha256:a87d200edb0737672762aff1035efebc5869c205a690336fb84eef1273771977",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«340»",
+  "source_path": "FormalConjectures/ErdosProblems/340.lean",
+  "source_theorem": "Erdos340.erdos_340",
+  "source_type_hash": "sha256:d0bd6bbca81683d2f19d089c381cf1f17435eaeb8abaa9b27356681c76c08090",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-erdos340-erdos-340-c04aabe23e0544740d42b460-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f79a473b7dd3f0d0779b2281ee1f75a302849e66d7776ea7b750a69a3ef52244",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:d4b3058dc3f2373053cf6015e6f973465a1749256aafa3d438262a7112fb6b2c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:6c11d6c60bde9ff1398543ed1bad44b4bdfe16e760b2cb41ae6f9d5b5b889339",
+    "task-version.json": "sha256:e9cb47623a43f12fd93094294c28731dac7db6bbd87d9b0946253d4aadd7a3bd"
+  }
+}

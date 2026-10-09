@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:efe31fdebe3d618562f7dff4772209c24f83364d495b198785649876c38c9689",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "InscribedSquare.inscribed_square_problem"
+  ],
+  "generated_target_type_hash": "sha256:820357c1dbb276e0163f439f8acdb0f0803c025c7c85adc722171bc84b0b3154",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.InscribedSquare",
+  "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
+  "source_theorem": "InscribedSquare.inscribed_square_problem",
+  "source_type_hash": "sha256:820357c1dbb276e0163f439f8acdb0f0803c025c7c85adc722171bc84b0b3154",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-inscribedsquare-inscribed-square-problem-ede5162375aad96b32d92ea6-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:384df37be6433c5d27ee5ca48b4dad5978377c6e3757056b9791edb0f88c9af1",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:390b4a41a828d90a3faeaa39bd3220672e957363872e6497b1bbbc266731faea",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:8d32c76330fc67698abda90c080e9170f53232a5bd58782ce8bfef04ab3cf821",
+    "task-version.json": "sha256:2fd96e49b2cf6f57afd536f3851a9f9fa9b336577340dbba937ec7a114199026"
+  }
+}

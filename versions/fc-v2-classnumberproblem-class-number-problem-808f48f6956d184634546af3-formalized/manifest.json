@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:895da78057a347a85ed1f48883a77ca48fcab67e757c57d98b94cd732a7fdee9",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "ClassNumberProblem.class_number_problem"
+  ],
+  "generated_target_type_hash": "sha256:1cd3261a0ec78dc855cc6a6d7c0038e345aea6641f871ff3edb1ea2f1767794a",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.ClassNumberProblem",
+  "source_path": "FormalConjectures/Wikipedia/ClassNumberProblem.lean",
+  "source_theorem": "ClassNumberProblem.class_number_problem",
+  "source_type_hash": "sha256:1cd3261a0ec78dc855cc6a6d7c0038e345aea6641f871ff3edb1ea2f1767794a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-classnumberproblem-class-number-problem-808f48f6956d184634546af3-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:6ffa8b9fea08efa803ada87362b726369b1aaf7f8381aba5ea76193a1672f9d0",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:fe1c9ea57e44e2176a8364550aca1f46760a68b61075decdd1343b8b3592cefc",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:f1b7eb286cb26d424e7b1115c0a65138fb91c7d0c943d2cdcee83f6a35abffca",
+    "task-version.json": "sha256:4cc0067307dfc01fb2deb1e404d3ed679722fd8fbac076780eadeea752088575"
+  }
+}

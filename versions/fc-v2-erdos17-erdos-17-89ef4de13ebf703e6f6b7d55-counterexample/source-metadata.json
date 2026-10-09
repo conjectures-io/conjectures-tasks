@@ -1,0 +1,37 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Erdős Problem 17.** Are there infinitely many cluster primes? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«17»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/17](https://www.erdosproblems.com/17)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/17.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos17.erdos_17",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:08ca374d900f4d7372fa34c4eb24c106689679d4957f3feb99e2333d0cc6847e",
+  "type_pretty": "True ↔ {p | Erdos17.IsClusterPrime p}.Infinite"
+}

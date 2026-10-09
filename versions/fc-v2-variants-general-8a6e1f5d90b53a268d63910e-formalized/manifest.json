@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:c2913b813a6fd732a7587a249edc5c33c2126acce39e8e35b2479c00f4244c68",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos889.erdos_889.variants.general"
+  ],
+  "generated_target_type_hash": "sha256:8f1335548b059a3f328c51f1324ae1cdd86ed8a37058a035475e7ea98008add0",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«889»",
+  "source_path": "FormalConjectures/ErdosProblems/889.lean",
+  "source_theorem": "Erdos889.erdos_889.variants.general",
+  "source_type_hash": "sha256:8f1335548b059a3f328c51f1324ae1cdd86ed8a37058a035475e7ea98008add0",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-general-8a6e1f5d90b53a268d63910e-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:69e109c0d5bba26b2949388bcf6a65e3cd7d1221d71a8c2235215660f09905c8",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:1d61115ea196f647c5d5537b5430f129d08e97fa005925d06f98f9f4dcbab632",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:118c2603158ca9e6e05a40c24b290e8c71eb38396e6bee8a9cb25e697ee32563",
+    "task-version.json": "sha256:ec012e4c0379fa6482586d7cdeb2b3ac32a9f2abc289d61cbb0212a381190997"
+  }
+}

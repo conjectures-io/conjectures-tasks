@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:dbc4d44e678e3e7aa9d2ef9625cfb7882fc017289cebef96dc971c76af8d27e3",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "LehmerMahlerMeasureProblem.lehmer_mahler_measure_problem"
+  ],
+  "generated_target_type_hash": "sha256:040a9b61c4d7269cb285ec243790a207a35c81293d1f375fef06c7466d640b96",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.LehmerMahlerMeasureProblem",
+  "source_path": "FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean",
+  "source_theorem": "LehmerMahlerMeasureProblem.lehmer_mahler_measure_problem",
+  "source_type_hash": "sha256:ab0bc423aa29d33304fa2763ce2a3f9f1390e9dd3c0aaf99580f19a9b14f52bf",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-lehmermahlermeasureproblem-lehmer-mahler-measure-problem-237adcf5203a278cc3e17327-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:85afb54acf5a77043c8240afaff6e43c19fa0a7821f732fb96be7e0cbe54d086",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:71f2427b426f6f816956c703fb7398bd0a0e1c8c8c2bedef1fcf8955f773f470",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:6a4ff6dad18c4733511ed6c031f7376a90355489e9257e567fba18c9e3600d48",
+    "task-version.json": "sha256:69073ec84a4d830f07cde744a151625281302546cab6926a42234d7f0465cf3b"
+  }
+}

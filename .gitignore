@@ -2,3 +2,8 @@ development/
 scratch/
 __pycache__/
 *.pyc
+
+# Runtime publication locks and unpublished staging artifacts.
+.publication.lock
+versions/.lock
+versions/.staging/

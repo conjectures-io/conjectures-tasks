@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:5d30335b771ad740f6e3a1196d1e54e3989fb5b09c80a6a6e697de0e4e1e37a3",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "NormalNumber.pi_normal_base_ten"
+  ],
+  "generated_target_type_hash": "sha256:f1a11a16c2132d94f832ffbf2d4ae3d646c04bb91b8248491c82cf55defa19ea",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.NormalityOfPi",
+  "source_path": "FormalConjectures/Wikipedia/NormalityOfPi.lean",
+  "source_theorem": "NormalNumber.pi_normal_base_ten",
+  "source_type_hash": "sha256:f1a11a16c2132d94f832ffbf2d4ae3d646c04bb91b8248491c82cf55defa19ea",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-normalnumber-pi-normal-base-ten-60bb6beb6a5420203cf293f4-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:6f5eebbd1227fef59f14a9729c7dc0db7779c3e8cb7e23525e116ab1e07d3fb5",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:3c4deb90d2bc9e1cf324e18ea89e08f17672c4dab0b5563f73f4fb7c64aa51c8",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:9b3b11e340a4b65c487e0e9c5976256ec6f32aa1c81dbe53c476b9d26dbecfef",
+    "task-version.json": "sha256:cf9792343f77e2f8a77df13073a4ecdef6e6fe2fc04a571795740533b4801823"
+  }
+}

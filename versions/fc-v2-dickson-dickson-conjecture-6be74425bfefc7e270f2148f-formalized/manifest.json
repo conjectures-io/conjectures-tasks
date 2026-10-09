@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:4c862f51f8ac59bbb9c394b5072bf45fc7fffc081e843f01178e59a65ca07f9c",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Dickson.dickson_conjecture"
+  ],
+  "generated_target_type_hash": "sha256:1ebd92800eb4ec222607e75a5faffe877b94086637852630bf25b120af28eeff",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.Dickson",
+  "source_path": "FormalConjectures/Wikipedia/Dickson.lean",
+  "source_theorem": "Dickson.dickson_conjecture",
+  "source_type_hash": "sha256:1ebd92800eb4ec222607e75a5faffe877b94086637852630bf25b120af28eeff",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-dickson-dickson-conjecture-6be74425bfefc7e270f2148f-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:3a19eb0d19c90a1279950bc674baf5bb2df7ebff686a58ec9680e6c76d76f985",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:d22be2d5699ba9b7c61f4112c4ed2758ab40cb5688bc40a2d7f3aa4a3b1948a5",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:23ef5e1867166ed880af712000dfc17edcf278ef9e5e83e7a8609c255dbdbdff",
+    "task-version.json": "sha256:35a5efff670cdb8ae7d35f001e2a59636d698bb9958888e2c453b2569f94eb09"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 1,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:ed38c2b272c4e91212cc98c680b9f64266f878b1b8fead779cd8106193930051",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes"
+  ],
+  "generated_target_type_hash": "sha256:e4bc962b5f32460ab1472b3a7f84e6939c258753b2a8230fd318ce9b2f1be2ea",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«913»",
+  "source_path": "FormalConjectures/ErdosProblems/913.lean",
+  "source_theorem": "Erdos913.erdos_913.variants.infinite_many_8p_sq_sub_one_primes",
+  "source_type_hash": "sha256:5f22b392fd5dc0ec7b2718ad9408ad3b1a056e53f379bc7d43c21e0b206a6232",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-infinite-many-8p-sq-sub-one-primes-e714bef4f7188f3ed80060d0-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 3600,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:325cbd816765a6f50997567734a829ae7f0e1eea02db24ea7dcb279f50de5af1",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:b4aeafb1f51800362a9fc510818ba7df2ce2e5582570733ac8ceb490b4c92150",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:5bf62336d70d3f3e0d65ea55ed0b10ab4f7cd31a8880c1999ba767902a50f3a6",
+    "task-version.json": "sha256:37832846cffc30bfa3ea2f25289fd28322c985ca0b8be8a53fe43bfb9c9d916d"
+  }
+}
