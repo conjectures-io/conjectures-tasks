@@ -4076,6 +4076,69 @@
       ],
       "theorem": "Green9.green_9_iii",
       "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://conjectures.io/results/487cb5cc-804d-4a17-963a-c938408637a5",
+      "pool_status": "held",
+      "reason": "Prior public proof of Wilf’s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
+      "reason_code": "PRIOR_PUBLIC_PROOF",
+      "recovered_from_commit": "3502c2adac4771586be197f692295cef09153eed",
+      "retired_on": "2026-10-12",
+      "reward_target_id": "fc-target:Math30Catalog.source22",
+      "source": {
+        "adapter_version": 1,
+        "ams_subjects": [],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Incomplete challenge 22: Wilf inequality for proper numerical semigroups with embedding dimension 4. Source: https://arxiv.org/abs/1703.01761 ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ResearchTargets.Math30",
+        "pointer_target": null,
+        "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Math30Catalog.source22",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043",
+        "type_pretty": "Math30.Problem22"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import FormalConjectures.ResearchTargets.Math30\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Math30Catalog.source22\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
+          "target_type_sha256": "sha256:f667b51fc5a491a409be4a11300e3d20861dedcf42f65e7534510e50ec5929b4",
+          "task_bundle_sha256": "sha256:7a2d461bba7cb1cfdf06cb842810c1764152bfb168e9b511db9b27f19ffbf65f",
+          "task_id": "fc-v2-math30catalog-source22-ae56509a3717c4a4a637e4e6-counterexample",
+          "task_mode": "counterexample"
+        },
+        {
+          "challenge_lean": "import FormalConjectures.ResearchTargets.Math30\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Math30Catalog.source22\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
+          "target_type_sha256": "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043",
+          "task_bundle_sha256": "sha256:c7dc180e31c6b80bced3d0b79ba74c1d8975e8f136fcb042986523e2bcb5a049",
+          "task_id": "fc-v2-math30catalog-source22-31d5bd009149aed971f7649e-formalized",
+          "task_mode": "formalized"
+        }
+      ],
+      "theorem": "Math30Catalog.source22",
+      "tier": "tier-1"
     }
   ],
   "schema_version": 1

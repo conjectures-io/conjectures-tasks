@@ -1800,13 +1800,6 @@
       "tier": "tier-1"
     },
     {
-      "index": 2950,
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "source_type_sha256": "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043",
-      "theorem": "Math30Catalog.source22",
-      "tier": "tier-1"
-    },
-    {
       "index": 2951,
       "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
       "source_type_sha256": "sha256:afce0d65814782c384aee6fa7a554af72c93d6e018348c8495ca2ad8a9213b0e",
@@ -11696,44 +11689,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
-      "reward_target_id": "fc-target:Math30Catalog.source22",
-      "source_indices": [
-        2950
-      ],
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "target_type_sha256s": [
-        "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043"
-      ],
-      "task_bundle_sha256": "sha256:c7dc180e31c6b80bced3d0b79ba74c1d8975e8f136fcb042986523e2bcb5a049",
-      "task_id": "fc-v2-math30catalog-source22-31d5bd009149aed971f7649e-formalized",
-      "theorems": [
-        "Math30Catalog.source22"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
-      "reward_target_id": "fc-target:Math30Catalog.source22",
-      "source_indices": [
-        2950
-      ],
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "target_type_sha256s": [
-        "sha256:f667b51fc5a491a409be4a11300e3d20861dedcf42f65e7534510e50ec5929b4"
-      ],
-      "task_bundle_sha256": "sha256:7a2d461bba7cb1cfdf06cb842810c1764152bfb168e9b511db9b27f19ffbf65f",
-      "task_id": "fc-v2-math30catalog-source22-ae56509a3717c4a4a637e4e6-counterexample",
-      "theorems": [
-        "Math30Catalog.source22"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-4b69a7dc-math30catalog-source23-c1752b4d0e2d4a115c02bc1b1e90082b-problem",
       "reward_target_id": "fc-target:Math30Catalog.source23",
       "source_indices": [
@@ -12378,7 +12333,7 @@
       "tier": "tier-1"
     }
   ],
-  "audit_date_utc": "2026-10-06",
+  "audit_date_utc": "2026-10-12",
   "default": "DENY",
   "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
   "schema_version": 9,
@@ -12391,7 +12346,7 @@
       "compiled_target_validation": true,
       "excluded_source_prefixes": [],
       "grouping": "none-single-target-v1",
-      "held_source_theorems_sha256": "sha256:01c13cf0588154391a14f798b0b9509f63272be2ef6d932ba1ecd6f87044e9bb",
+      "held_source_theorems_sha256": "sha256:1c3909dae5c76fa3f52b62abc148fee340b64abba9e091c34007ac3f7ae6eeb8",
       "minimum_erdos_tasks": 219,
       "modes": [
         "formalized",
@@ -12401,13 +12356,13 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 550,
-      "retired_conjectures_sha256": "sha256:a611e72418882fa3ee71ef940ddcb052c974edd181305f988a637c6b8ce7f780",
+      "pool_size": 548,
+      "retired_conjectures_sha256": "sha256:0be4afdf7486d30d3776807178913a458a883ce1ac0ee8d45b6a371ee69319c4",
       "retired_source_theorems_sha256": "sha256:cf69ed257c7ab910fc2a1923ccab7b8823c315723a9dc32cecd17bf9f42552fe",
-      "reward_target_count": 275,
+      "reward_target_count": 274,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:b08f9ab5b1e9b647aa951a0ba364be699e2654b2261efe951a2375108e2de0df",
+      "selection_audit_sha256": "sha256:3feab2204867cdc3907b083cf86dec8a7a5d8dc6eca74f452fe5872475c3a09a",
       "source_category": "research open",
       "source_families": [
         "erdos",
@@ -12416,14 +12371,14 @@
         "research-targets",
         "wikipedia"
       ],
-      "source_theorem_count": 275,
+      "source_theorem_count": 274,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:83a219de71594940715405cadd9a796884e0776f73d2f89ca9494de04c3ac199"
+      "task_targets_sha256": "sha256:bafe013415251159e5f30dc3158fe4b282ab6b0082dbbbc6075fad644bce20b4"
     }
   }
 }

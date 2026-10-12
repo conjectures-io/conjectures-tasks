@@ -1803,13 +1803,6 @@
       "theorem": "Math30Catalog.source21"
     },
     {
-      "reward_target_id": "fc-target:Math30Catalog.source22",
-      "source_family": "research-targets",
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "source_problem_number": "Math30",
-      "theorem": "Math30Catalog.source22"
-    },
-    {
       "reward_target_id": "fc-target:Math30Catalog.source23",
       "source_family": "research-targets",
       "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
