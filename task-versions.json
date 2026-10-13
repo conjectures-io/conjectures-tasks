@@ -156,6 +156,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
       "sequence": 3
+    },
+    {
+      "allowlist_sha256": "sha256:a2198efaf3589fcab2a7e4cbcfeddf99d846afa689a7c1cab8a0ad1b3287c5ac",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+      "sequence": 4
     }
   ],
   "schema_version": 1,
@@ -21560,7 +21566,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Math30Catalog.source22",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:c7dc180e31c6b80bced3d0b79ba74c1d8975e8f136fcb042986523e2bcb5a049",
       "task_id": "fc-v2-math30catalog-source22-31d5bd009149aed971f7649e-formalized",
       "theorems": [
@@ -21584,7 +21590,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Math30Catalog.source22",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:7a2d461bba7cb1cfdf06cb842810c1764152bfb168e9b511db9b27f19ffbf65f",
       "task_id": "fc-v2-math30catalog-source22-ae56509a3717c4a4a637e4e6-counterexample",
       "theorems": [
