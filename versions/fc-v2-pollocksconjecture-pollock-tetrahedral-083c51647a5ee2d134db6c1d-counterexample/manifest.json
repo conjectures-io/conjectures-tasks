@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:8c437c19c35f2ef7738dbfae8e42ebf4daacaaa14dcf4843f83726981675f58c",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "PollocksConjecture.pollock_tetrahedral"
+  ],
+  "generated_target_type_hash": "sha256:db5b4fcd6ba1b95636ddafd3b566b0e5f77007ff8c770a02af7cea289c06de91",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.PollocksConjecture",
+  "source_path": "FormalConjectures/Wikipedia/PollocksConjecture.lean",
+  "source_theorem": "PollocksConjecture.pollock_tetrahedral",
+  "source_type_hash": "sha256:c3602b7cd74d5d3e704741c944f4beb4431820199e5c97d60903793f55941637",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-pollocksconjecture-pollock-tetrahedral-083c51647a5ee2d134db6c1d-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:23422abf79d6b5a9ef85dbd75a8f175c17e3961143a38b9a0059cc8297d03ceb",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:a62d4824c04be8a86e37def6096ed61985de06f7afd2a095b58985a9ac6b566e",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:381f98475658154491c9c26159a83202ccd887c424e444f43cbe78aa4dcafe88",
+    "task-version.json": "sha256:ddb6b85d2a82fdb502f4a0e3922cee24cfd71e896e9a958af550e9c299026e0e"
+  }
+}

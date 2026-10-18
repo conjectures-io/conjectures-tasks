@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:5198aa103293385dbeb018fe57165a31248f2563f9be38a043b1f0880a53b00e",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "CarmichaelTotient.charmichaelTotient"
+  ],
+  "generated_target_type_hash": "sha256:ea2e8a7448a07ca86b340af8c6e786afbf5ee1413004b9e1c7106104c461c49e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.CarmichaelTotient",
+  "source_path": "FormalConjectures/Wikipedia/CarmichaelTotient.lean",
+  "source_theorem": "CarmichaelTotient.charmichaelTotient",
+  "source_type_hash": "sha256:ea2e8a7448a07ca86b340af8c6e786afbf5ee1413004b9e1c7106104c461c49e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-carmichaeltotient-charmichaeltotient-93901d40fcb20ca67fc857e8-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:2ebcae6059764899e859ceb99c69b3fd538f4197152310906ffa2668ec9b09e9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:568d5b887b77aefbea3a4be012a50bc9eb83ed2cf000ba5a731dd0c856859c8c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4d766fc2f9ec084787d7186d3fbd5fe74a5aff3ef2dfde264684a490ab7c8587",
+    "task-version.json": "sha256:9ef0c7f7cf61723db43af6ae702bd050f196ff5ea6a18e333faa7677cdce11b2"
+  }
+}

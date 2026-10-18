@@ -1,0 +1,8 @@
+{
+  "Challenge.lean": "sha256:20aaffbcf86d21c0892e3b2c6544ed43b2b0781d600affc87de13f6dffa69afa",
+  "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+  "SolutionHeader.lean.txt": "sha256:5d2dae882dec75997696eac68bff21ae6dbc69d1b6a5a6a0205c32c65a7db1cd",
+  "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+  "source-metadata.json": "sha256:9eba5364e263e09517be7cc7d573e12000973415d2f41c7c72be2a8ab2d61fc8",
+  "task-version.json": "sha256:4e8b7b329bae8865c9f410fc3d25cb067536d5a1f07513a22e2ddd24182b7401"
+}

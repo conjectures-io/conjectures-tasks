@@ -11,8 +11,8 @@ history. Each bundle contains its challenge, manifest, comparator configuration,
 trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 550 active bundles: proof/refutation pairs for 275 audited
-direct propositions (17 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
+The current snapshot contains one tier with 548 active bundles: proof/refutation pairs for 274 audited
+direct propositions (16 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
@@ -49,6 +49,15 @@ previous active legacy versions are superseded for intake; their bundle bytes, l
 admissions, and reward identities remain in the registry. No target selection or source
 statement changes in this release. The [release audit](history/releases/2026-10-09-proof-limits.json)
 maps each previous commitment to its replacement.
+
+The October 18, 2026 header release replaces all 548 active bundles with adapter-version-2
+bundles whose trusted challenge and solution headers explicitly include `import Mathlib`.
+The source statements, dependency and environment identities, target selection, reward
+identities, and proof size limit are unchanged. New manifests record the four-hour timeout
+already enforced by the production verifier. Submitted proofs still cannot add imports.
+All 1,101 previously published versions retain their exact bytes and admissions; the
+548 replaced versions are superseded for new intake. See the commitment mapping and
+validation results in [the release audit](history/releases/2026-10-18-mathlib-headers.json).
 
 The registry is append-only. Version-2 bundles (`fc-v2-…` task IDs, which commit to the target's
 dependency identity and the environment identity rather than to the source commit) live in

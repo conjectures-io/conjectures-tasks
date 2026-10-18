@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:9bc8e743e46cbef7aa89f6963fde900c427e7a175dbd05d611286dff756bc8bd",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i"
+  ],
+  "generated_target_type_hash": "sha256:68acb50195138b568727ea2dd52d475f63ce1ac32810b87081ec5fa0bd6af22e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.ArtinPrimitiveRootsConjecture",
+  "source_path": "FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean",
+  "source_theorem": "ArtinPrimitiveRootsConjecture.artin_primitive_roots.parts.i",
+  "source_type_hash": "sha256:4132f953e67a7f0de1ba99a104fece5768ddbba1b27cbb37024a6817dfae8d6a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-parts-i-51ffda6a813a658d860b5b6f-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:7933f19253ad89aebfec3fc2838fb948b79c555d1774f224233b8d3968c898e1",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:e8e6e0b75a036315053548a645f066b5d57b6f1aef564383de08ad18aa0c49a5",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:f52debbc364d91dfbc4d05fc9dd62280d7d9402b80da57cb192a2fd5960e7c62",
+    "task-version.json": "sha256:00e70199e6c5a394f8799b0e5c16a8c64700f8393e8ccd72f7b3d06004386a8c"
+  }
+}

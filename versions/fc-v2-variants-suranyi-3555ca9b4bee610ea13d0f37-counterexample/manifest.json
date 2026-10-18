@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:74eecb3dd20c2adf5c72d5cd6413979dd2c681a6f029299ab5fb4abb538bd50f",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos373.erdos_373.variants.suranyi"
+  ],
+  "generated_target_type_hash": "sha256:52349bfb17ec1d98ce84a69700e3a818b3bcaae6e9e077d4d6953b363664c81f",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«373»",
+  "source_path": "FormalConjectures/ErdosProblems/373.lean",
+  "source_theorem": "Erdos373.erdos_373.variants.suranyi",
+  "source_type_hash": "sha256:31fba37157604a1d8487f10d10fe3e245653c73bf851f47dc2beffde91804a6e",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-suranyi-3555ca9b4bee610ea13d0f37-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:41bf8148a9172b7c6f38e718bc055e39933206cbe56e8c4e9d4eaaabd03affd8",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:000e186b76ea9fcd71a96806190352f5557a9d60b61b014999c412aadd749087",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:6db1696b534f30f1d4de24819cc2ece6635c3fb2623fad879c92f5ac44d960d8",
+    "task-version.json": "sha256:f0136f350de2012adebc981fc583aea23cc0fb9c07308314414d153c80909748"
+  }
+}
