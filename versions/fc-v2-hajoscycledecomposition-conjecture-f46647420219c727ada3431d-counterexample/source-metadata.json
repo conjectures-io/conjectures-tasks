@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "All finite nonempty simple even graphs; exact floor((n-1)/2) bound. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.HajosCycleDecomposition",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/abs/1706.04334)",
+    "[Source 2](https://arxiv.org/abs/2610.07840v2)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/HajosCycleDecomposition.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.HajosCycleDecomposition.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:626c3135aaa0a4dd062d58e28a10cbba9d253e086e05aa81ac4fca62d032d41a",
+  "type_pretty": "FullOldProblems.HajosCycleDecomposition"
+}

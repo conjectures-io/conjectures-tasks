@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:8ea0f9f8860925b2a488ca457c800fc4e6badcdf69c11ffefb3548089a23be3b",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.SidonSubsetAsymptotic.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:a0cbb45de8328de9680e6211c6252c99ccd33a8c2a6f6e25ddb098c598fea022",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.SidonSubsetAsymptotic",
+  "source_path": "FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean",
+  "source_theorem": "FullOldProblemsCatalog.SidonSubsetAsymptotic.conjecture",
+  "source_type_hash": "sha256:0372deb2fa32ecb2d5fbd3125ef9a7be27a436b4edd1b6042af3f8e03d661e1a",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-sidonsubsetasymptotic-conjecture-c3263236cb1bcbde26318a68-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:ccade2a9ce43c4f969cf79bb280e77fb3f8df4c37ce95f2735e8f7a8185dfb2d",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:0679fb89ba97a74af00031ef03219d46ce5e6d090be956cd6013fd7983fcd2ef",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:ab331851ee1c3d5b586d8774cde83b754886d279eac1cfa245f093736cc1e31b",
+    "task-version.json": "sha256:e467530dda8e98f082398ef6a6ae05ca872dc5e642eeaf28229da29e225d9a8a"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    15
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For all complex normal matrices A,B of every positive order, det(A+B) lies in the real convex hull of products of pairwise sums over all permutations of their complete eigenvalue lists. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.MarcusDeOliveira",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://doi.org/10.3390/math13050711)",
+    "[Source 2](https://www.mat.uc.pt/preprints/ps/p2611.pdf)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.MarcusDeOliveira.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5682f29a37c0bb726c768c3734016229faa54c1f07b28834ca1f084b134804d3",
+  "type_pretty": "FullOldProblems.MarcusDeOliveira"
+}

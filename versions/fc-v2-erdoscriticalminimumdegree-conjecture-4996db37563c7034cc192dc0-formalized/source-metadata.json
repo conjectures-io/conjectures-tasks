@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "There is epsilon > 0 and arbitrarily large n with an n-vertex edge-critical four-chromatic simple graph of minimum degree at least epsilon*n. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.ErdosCriticalMinimumDegree",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://doi.org/10.1080/16073606.1993.9631741)",
+    "[Source 2](https://www.erdosproblems.com/1032)",
+    "[Source 3](https://www.erdosproblems.com/forum/thread/1032)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.ErdosCriticalMinimumDegree.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:19ff1ee8b703c8efc3dff563936254774e8117f48f95e1209e1d593c9b040685",
+  "type_pretty": "FullOldProblems.ErdosCriticalMinimumDegree"
+}

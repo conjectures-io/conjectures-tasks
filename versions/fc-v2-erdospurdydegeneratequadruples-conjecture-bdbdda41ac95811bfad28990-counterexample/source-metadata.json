@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For every epsilon > 0, all sufficiently large finite planar sets A have at most |A|^(3+epsilon) four-point subsets with fewer than six distinct pair distances. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.ErdosPurdyDegenerateQuadruples",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://users.renyi.hu/~p_erdos/1971-20.pdf)",
+    "[Source 2](https://www.erdosproblems.com/1087)",
+    "[Source 3](https://www.erdosproblems.com/forum/thread/1087)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/ErdosPurdyDegenerateQuadruples.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.ErdosPurdyDegenerateQuadruples.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4c1995d161a3dd11565f99b7cb730a85933491292a185fcf09f1452dcb78e481",
+  "type_pretty": "FullOldProblems.ErdosPurdyDegenerateQuadruples"
+}

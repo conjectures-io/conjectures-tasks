@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    15
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For every complex Hermitian PSD block matrix A, permanent(A) >= permanent([permanent(A_ij)]); with block size >= 2 and positive definite diagonal blocks, equality iff every off-diagonal block is zero. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.MarcusBlockPermanent",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/html/2202.01867v1)",
+    "[Source 2](https://yair-lavi.com/mincs-list/conjecture-9/index.html)",
+    "[Source 3](https://doi.org/10.1080/00029890.1965.11970575)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/MarcusBlockPermanent.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.MarcusBlockPermanent.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:3cea3965a3dca3c5e49d76698817b492adca7ada5c3ea79c99b796b2ccc972b4",
+  "type_pretty": "FullOldProblems.MarcusBlockPermanent"
+}

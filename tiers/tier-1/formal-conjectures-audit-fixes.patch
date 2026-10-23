@@ -1,5 +1,5 @@
 diff --git a/FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean b/FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean
-index 308121d078205d6d5c117f00a4c716300ab98086..7c042db4f5fc46f90eb10a9854d619f423f4a9dd 100644
+index 308121d..7c042db 100644
 --- a/FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean
 +++ b/FormalConjectures/Arxiv/1102.4662/AtiyahSutcliffe.lean
 @@ -80,10 +80,10 @@ theorem linearFactor_directionLift_ne_zero (v : Point) :
@@ -16,7 +16,7 @@ index 308121d078205d6d5c117f00a4c716300ab98086..7c042db4f5fc46f90eb10a9854d619f4
  
  @[category test, AMS 51 70]
 diff --git a/FormalConjectures/Arxiv/2303.01089/FurstenbergTimesPTimesQ.lean b/FormalConjectures/Arxiv/2303.01089/FurstenbergTimesPTimesQ.lean
-index c0d32d5b53ece0b6c656f6e3f0dd4d1c3d5f8cf7..5a9c0f08b552a0287c239bc554fd9f1811f3560d 100644
+index c0d32d5..5a9c0f0 100644
 --- a/FormalConjectures/Arxiv/2303.01089/FurstenbergTimesPTimesQ.lean
 +++ b/FormalConjectures/Arxiv/2303.01089/FurstenbergTimesPTimesQ.lean
 @@ -92,7 +92,7 @@ theorem conjecture_1_4 :
@@ -29,7 +29,7 @@ index c0d32d5b53ece0b6c656f6e3f0dd4d1c3d5f8cf7..5a9c0f08b552a0287c239bc554fd9f18
    sorry
  
 diff --git a/FormalConjectures/ErdosProblems/1057.lean b/FormalConjectures/ErdosProblems/1057.lean
-index ad2169c24f55c5b5cb1987875cd6af7fa83ea019..15f45ea4ea4f9b00dd2552d59ebef96747439887 100644
+index ad2169c..15f45ea 100644
 --- a/FormalConjectures/ErdosProblems/1057.lean
 +++ b/FormalConjectures/ErdosProblems/1057.lean
 @@ -43,7 +43,7 @@ namespace Erdos1057
@@ -42,7 +42,7 @@ index ad2169c24f55c5b5cb1987875cd6af7fa83ea019..15f45ea4ea4f9b00dd2552d59ebef967
  /--
  Is it true that $C(x)=x^{1-o(1)}$?
 diff --git a/FormalConjectures/ErdosProblems/107.lean b/FormalConjectures/ErdosProblems/107.lean
-index 92f455213f52731a77b24e90a872d43a6a23cf82..d9c5299bf79dfe703f17f41c238421f0a11b0abf 100644
+index 92f4552..d9c5299 100644
 --- a/FormalConjectures/ErdosProblems/107.lean
 +++ b/FormalConjectures/ErdosProblems/107.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -66,7 +66,7 @@ index 92f455213f52731a77b24e90a872d43a6a23cf82..d9c5299bf79dfe703f17f41c238421f0
  open EuclideanGeometry
  
 diff --git a/FormalConjectures/ErdosProblems/1095.lean b/FormalConjectures/ErdosProblems/1095.lean
-index cf2e26b57db7dcf699c67e61dfb0c1e32f651da2..58d819c31292093c865cdf7214a591980c2dc287 100644
+index cf2e26b..58d819c 100644
 --- a/FormalConjectures/ErdosProblems/1095.lean
 +++ b/FormalConjectures/ErdosProblems/1095.lean
 @@ -52,10 +52,8 @@ theorem erdos_1095.variants.lower_solved :
@@ -93,7 +93,7 @@ index cf2e26b57db7dcf699c67e61dfb0c1e32f651da2..58d819c31292093c865cdf7214a59198
  
  end Erdos1095
 diff --git a/FormalConjectures/ErdosProblems/1101.lean b/FormalConjectures/ErdosProblems/1101.lean
-index 54bcf3cc0ba91b47db897f6c2be9d8502c3375c9..ba63af8c2ff4375efd64136be17fbb151e155b68 100644
+index 54bcf3c..ba63af8 100644
 --- a/FormalConjectures/ErdosProblems/1101.lean
 +++ b/FormalConjectures/ErdosProblems/1101.lean
 @@ -53,15 +53,15 @@ def IsGood (u : ℕ → ℕ) : Prop :=
@@ -118,7 +118,7 @@ index 54bcf3cc0ba91b47db897f6c2be9d8502c3375c9..ba63af8c2ff4375efd64136be17fbb15
    sorry
  
 diff --git a/FormalConjectures/ErdosProblems/137.lean b/FormalConjectures/ErdosProblems/137.lean
-index 6d61b9af9c7b2d1de13820211b282b915d051d7e..2549d48af386895d6601d760e398f516f912f157 100644
+index 6d61b9a..2549d48 100644
 --- a/FormalConjectures/ErdosProblems/137.lean
 +++ b/FormalConjectures/ErdosProblems/137.lean
 @@ -55,7 +55,7 @@ $p\mid m(m+1)\cdots (m+n)$ and yet $p^2$ does not divide the right hand side.
@@ -131,7 +131,7 @@ index 6d61b9af9c7b2d1de13820211b282b915d051d7e..2549d48af386895d6601d760e398f516
      p ∣ N ∧ ¬ p ^ 2 ∣ N := by
    sorry
 diff --git a/FormalConjectures/ErdosProblems/329.lean b/FormalConjectures/ErdosProblems/329.lean
-index b03c4b6b71c50b3c30354f6f8ff29e5f1b52fad1..2082f0f90196443fa6cfbbc90daa48c3e892654d 100644
+index b03c4b6..2082f0f 100644
 --- a/FormalConjectures/ErdosProblems/329.lean
 +++ b/FormalConjectures/ErdosProblems/329.lean
 @@ -80,21 +80,14 @@ Erdős and Turán [ErTu41] proved the upper bound of 1.
@@ -163,7 +163,7 @@ index b03c4b6b71c50b3c30354f6f8ff29e5f1b52fad1..2082f0f90196443fa6cfbbc90daa48c3
  
  /-  ## Related results and examples -/
 diff --git a/FormalConjectures/ErdosProblems/357.lean b/FormalConjectures/ErdosProblems/357.lean
-index dd195174158df474e19c7ab3378c0073ce137e7f..c5f1b3d7f0236ea20cc7f2ff8b66852a2ef96d64 100644
+index dd19517..c5f1b3d 100644
 --- a/FormalConjectures/ErdosProblems/357.lean
 +++ b/FormalConjectures/ErdosProblems/357.lean
 @@ -133,7 +133,7 @@ noncomputable def g (n : ℕ) : ℕ :=
@@ -176,7 +176,7 @@ index dd195174158df474e19c7ab3378c0073ce137e7f..c5f1b3d7f0236ea20cc7f2ff8b66852a
      o' =o[atTop] (1 : ℕ → ℝ) ∧
        ∀ᶠ n in atTop, (g n : ℝ) ∈ Set.Icc ((1 / 3 + o n) * n) ((2 / 3 + o' n)*n) := by
 diff --git a/FormalConjectures/ErdosProblems/398.lean b/FormalConjectures/ErdosProblems/398.lean
-index 0b73cb179ae2f4fd0995345f506840e2f2963739..784320b0f7f4cbe5a43675c3219cd6745f2b1878 100644
+index 0b73cb1..784320b 100644
 --- a/FormalConjectures/ErdosProblems/398.lean
 +++ b/FormalConjectures/ErdosProblems/398.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -208,7 +208,7 @@ index 0b73cb179ae2f4fd0995345f506840e2f2963739..784320b0f7f4cbe5a43675c3219cd674
  @[category research open, AMS 11]
  theorem erdos_398 : answer(sorry) ↔ {n | ∃ m, n ! + 1 = m ^ 2} = {4, 5, 7} := by
 diff --git a/FormalConjectures/ErdosProblems/649.lean b/FormalConjectures/ErdosProblems/649.lean
-index 5da66567a340e9684b9db68ebe2e768b10a03781..1383ce66e6e5009d1c37224c9a31b6f7a027a484 100644
+index 5da6656..1383ce6 100644
 --- a/FormalConjectures/ErdosProblems/649.lean
 +++ b/FormalConjectures/ErdosProblems/649.lean
 @@ -54,7 +54,7 @@ theorem erdos_649.variants.no_solution_two_seven :
@@ -221,7 +221,7 @@ index 5da66567a340e9684b9db68ebe2e768b10a03781..1383ce66e6e5009d1c37224c9a31b6f7
    -- Since `2` is the greatest prime factor of `n`, it is the only one, so `n` is a power of `2`.
    obtain ⟨k, hpow⟩ : ∃ k, n = 2 ^ k :=
 diff --git a/FormalConjectures/ErdosProblems/891.lean b/FormalConjectures/ErdosProblems/891.lean
-index ea7d136439476bf041d127c0364ee393b9981ad2..d5fdb283f9b642cd2dcaa3de86a655d9bcceb00d 100644
+index ea7d136..d5fdb28 100644
 --- a/FormalConjectures/ErdosProblems/891.lean
 +++ b/FormalConjectures/ErdosProblems/891.lean
 @@ -26,10 +26,18 @@ import FormalConjecturesUtil
@@ -255,7 +255,7 @@ index ea7d136439476bf041d127c0364ee393b9981ad2..d5fdb283f9b642cd2dcaa3de86a655d9
        ∀ m ∈ Ico n (n + (∏ i ∈ range k, i.nth Nat.Prime) - 1),
        ω m ≤ k := by
 diff --git a/FormalConjectures/ErdosProblems/913.lean b/FormalConjectures/ErdosProblems/913.lean
-index 4aa6e081237eec6f6e1efaa8a1a52f4493ca3ca0..5d5bba670e1b265f980dd0533e0179574f432392 100644
+index 4aa6e08..5d5bba6 100644
 --- a/FormalConjectures/ErdosProblems/913.lean
 +++ b/FormalConjectures/ErdosProblems/913.lean
 @@ -42,7 +42,7 @@ theorem erdos_913 : answer(sorry) ↔
@@ -268,7 +268,7 @@ index 4aa6e081237eec6f6e1efaa8a1a52f4493ca3ca0..5d5bba670e1b265f980dd0533e017957
    sorry
  
 diff --git a/FormalConjectures/ErdosProblems/931.lean b/FormalConjectures/ErdosProblems/931.lean
-index b90e2e2595df52da5dbbb6c74afce4a17e81bbef..601e5c325fdf44b90e5fbbc02c96d2a2b18a5f10 100644
+index b90e2e2..601e5c3 100644
 --- a/FormalConjectures/ErdosProblems/931.lean
 +++ b/FormalConjectures/ErdosProblems/931.lean
 @@ -61,8 +61,7 @@ theorem erdos_931.variants.additional_condition_nonempty : ∃ (k₁ k₂ : ℕ)
@@ -282,7 +282,7 @@ index b90e2e2595df52da5dbbb6c74afce4a17e81bbef..601e5c325fdf44b90e5fbbc02c96d2a2
  /--
  Erdős was unable to prove that if the two products have the same factors
 diff --git a/FormalConjectures/GreensOpenProblems/51.lean b/FormalConjectures/GreensOpenProblems/51.lean
-index d124e2a6e12e442f701ba2ef72108ee4800adc3d..b95a9df57e520f775d002fe5c686d79037c335c3 100644
+index d124e2a..b95a9df 100644
 --- a/FormalConjectures/GreensOpenProblems/51.lean
 +++ b/FormalConjectures/GreensOpenProblems/51.lean
 @@ -36,6 +36,7 @@ open scoped Pointwise
@@ -294,7 +294,7 @@ index d124e2a6e12e442f701ba2ef72108ee4800adc3d..b95a9df57e520f775d002fe5c686d790
  noncomputable def guaranteedMaxCosetDim (n : ℕ) (α : ℝ) : ℕ :=
    sInf { maxCosetDim (ZMod 2) (𝔽₂ n) ↑(A + A) | (A : Finset (𝔽₂ n)) (_h : A.dens ≥ α) }
 diff --git a/FormalConjectures/GreensOpenProblems/52.lean b/FormalConjectures/GreensOpenProblems/52.lean
-index d783eaccdb09513bf56c27edf323be703800b322..8508268d9cb4b9949b945cd690f8512c330290f6 100644
+index d783eac..8508268 100644
 --- a/FormalConjectures/GreensOpenProblems/52.lean
 +++ b/FormalConjectures/GreensOpenProblems/52.lean
 @@ -28,6 +28,7 @@ open scoped Pointwise
@@ -314,7 +314,7 @@ index d783eaccdb09513bf56c27edf323be703800b322..8508268d9cb4b9949b945cd690f8512c
  Could $2A$ even contain a coset of codimension $O(\log K)$?
  
 diff --git a/FormalConjectures/GreensOpenProblems/53.lean b/FormalConjectures/GreensOpenProblems/53.lean
-index 84c82e83e2dfc520120614691a05d711aa8494fc..d20c30783ab921e24ec0a5ec28bfc57630ebd5ac 100644
+index 84c82e8..d20c307 100644
 --- a/FormalConjectures/GreensOpenProblems/53.lean
 +++ b/FormalConjectures/GreensOpenProblems/53.lean
 @@ -29,6 +29,7 @@ open scoped Pointwise
@@ -326,7 +326,7 @@ index 84c82e83e2dfc520120614691a05d711aa8494fc..d20c30783ab921e24ec0a5ec28bfc576
  Suppose that $\mathbb{F}_2^n$ is partitioned in to sets $A_1, ..., A_K$.
  Does $2A_i$ contain a coset of codimension $O_K(1)$ for some $i$?
 diff --git a/FormalConjectures/GreensOpenProblems/72.lean b/FormalConjectures/GreensOpenProblems/72.lean
-index 3e86962c8b1bec48d355ca8fecfe901f903a175c..c6540b69861e9988c0c02ef184f142f09ce3cc71 100644
+index 3e86962..c6540b6 100644
 --- a/FormalConjectures/GreensOpenProblems/72.lean
 +++ b/FormalConjectures/GreensOpenProblems/72.lean
 @@ -13,15 +13,25 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -416,8 +416,658 @@ index 3e86962c8b1bec48d355ca8fecfe901f903a175c..c6540b69861e9988c0c02ef184f142f0
  @[category research solved, AMS 5 52]
  theorem no_k_in_line_big {k : ℕ} (N : ℕ) (h : 10 ^ 37 < k) (hN : k ≤ N) :
      NoKInLineFor k N := by
+diff --git a/FormalConjectures/HistoricalOpen/BergeFulkerson.lean b/FormalConjectures/HistoricalOpen/BergeFulkerson.lean
+new file mode 100644
+index 0000000..06e41af
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/BergeFulkerson.lean
+@@ -0,0 +1,31 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Berge–Fulkerson
++
++*References:*
++- [Source 1](https://arxiv.org/abs/2607.29511)
++-/
++
++namespace FullOldProblemsCatalog.BergeFulkerson
++
++/-- All finite bridgeless cubic multigraphs; six perfect matchings; each edge exactly twice. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.BergeFulkerson := by
++  sorry
++
++end FullOldProblemsCatalog.BergeFulkerson
+diff --git a/FormalConjectures/HistoricalOpen/Cantoni.lean b/FormalConjectures/HistoricalOpen/Cantoni.lean
+new file mode 100644
+index 0000000..537737d
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/Cantoni.lean
+@@ -0,0 +1,33 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Cantoni's three-Hamilton-cycle conjecture
++
++*References:*
++- [Source 1](https://arxiv.org/abs/1812.05650)
++- [Source 2](https://www.facom.ufu.br/~nunes/teoria%20dos%20grafos/graph-theory.pdf)
++- [Source 3](https://www.sciencedirect.com/science/article/pii/S0012365X25003103)
++-/
++
++namespace FullOldProblemsCatalog.Cantoni
++
++/-- Every planar cubic finite simple graph with exactly three undirected Hamilton cycles contains a triangle. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.Cantoni := by
++  sorry
++
++end FullOldProblemsCatalog.Cantoni
+diff --git a/FormalConjectures/HistoricalOpen/ChvatalToughness.lean b/FormalConjectures/HistoricalOpen/ChvatalToughness.lean
+new file mode 100644
+index 0000000..392b346
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/ChvatalToughness.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Chvátal toughness
++
++*References:*
++- [Source 1](https://arxiv.org/abs/2506.12684)
++- [Source 2](https://doi.org/10.1016/j.disc.2026.115364)
++-/
++
++namespace FullOldProblemsCatalog.ChvatalToughness
++
++/-- A universal positive real threshold for Hamiltonicity of all tough simple graphs of order at least three. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.ChvatalToughness := by
++  sorry
++
++end FullOldProblemsCatalog.ChvatalToughness
+diff --git a/FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean b/FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean
+new file mode 100644
+index 0000000..0493e94
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean
+@@ -0,0 +1,33 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Erdős linear minimum degree in 4-critical graphs
++
++*References:*
++- [Source 1](https://doi.org/10.1080/16073606.1993.9631741)
++- [Source 2](https://www.erdosproblems.com/1032)
++- [Source 3](https://www.erdosproblems.com/forum/thread/1032)
++-/
++
++namespace FullOldProblemsCatalog.ErdosCriticalMinimumDegree
++
++/-- There is epsilon > 0 and arbitrarily large n with an n-vertex edge-critical four-chromatic simple graph of minimum degree at least epsilon*n. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.ErdosCriticalMinimumDegree := by
++  sorry
++
++end FullOldProblemsCatalog.ErdosCriticalMinimumDegree
+diff --git a/FormalConjectures/HistoricalOpen/ErdosPurdyDegenerateQuadruples.lean b/FormalConjectures/HistoricalOpen/ErdosPurdyDegenerateQuadruples.lean
+new file mode 100644
+index 0000000..d557bcb
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/ErdosPurdyDegenerateQuadruples.lean
+@@ -0,0 +1,33 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Erdős–Purdy degenerate quadruples
++
++*References:*
++- [Source 1](https://users.renyi.hu/~p_erdos/1971-20.pdf)
++- [Source 2](https://www.erdosproblems.com/1087)
++- [Source 3](https://www.erdosproblems.com/forum/thread/1087)
++-/
++
++namespace FullOldProblemsCatalog.ErdosPurdyDegenerateQuadruples
++
++/-- For every epsilon > 0, all sufficiently large finite planar sets A have at most |A|^(3+epsilon) four-point subsets with fewer than six distinct pair distances. See the sources in the module documentation. -/
++@[category research open, AMS 52]
++theorem conjecture : FullOldProblems.ErdosPurdyDegenerateQuadruples := by
++  sorry
++
++end FullOldProblemsCatalog.ErdosPurdyDegenerateQuadruples
+diff --git a/FormalConjectures/HistoricalOpen/HajosCycleDecomposition.lean b/FormalConjectures/HistoricalOpen/HajosCycleDecomposition.lean
+new file mode 100644
+index 0000000..d333a12
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/HajosCycleDecomposition.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Hajós cycle decomposition
++
++*References:*
++- [Source 1](https://arxiv.org/abs/1706.04334)
++- [Source 2](https://arxiv.org/abs/2610.07840v2)
++-/
++
++namespace FullOldProblemsCatalog.HajosCycleDecomposition
++
++/-- All finite nonempty simple even graphs; exact floor((n-1)/2) bound. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.HajosCycleDecomposition := by
++  sorry
++
++end FullOldProblemsCatalog.HajosCycleDecomposition
+diff --git a/FormalConjectures/HistoricalOpen/KotzigPerfectFactorization.lean b/FormalConjectures/HistoricalOpen/KotzigPerfectFactorization.lean
+new file mode 100644
+index 0000000..256497b
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/KotzigPerfectFactorization.lean
+@@ -0,0 +1,31 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Kotzig perfect 1-factorization
++
++*References:*
++- [Source 1](https://arxiv.org/html/2607.09459)
++-/
++
++namespace FullOldProblemsCatalog.KotzigPerfectFactorization
++
++/-- Every even n >= 4; K_n partitions into n-1 perfect matchings with every pair Hamiltonian. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.KotzigPerfectFactorization := by
++  sorry
++
++end FullOldProblemsCatalog.KotzigPerfectFactorization
+diff --git a/FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean b/FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean
+new file mode 100644
+index 0000000..34b179e
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean
+@@ -0,0 +1,31 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Lovász Hamiltonian path
++
++*References:*
++- [Source 1](https://arxiv.org/abs/2609.38135v2)
++-/
++
++namespace FullOldProblemsCatalog.LovaszHamiltonPath
++
++/-- Every connected finite vertex-transitive graph has a Hamilton path. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.LovaszHamiltonPath := by
++  sorry
++
++end FullOldProblemsCatalog.LovaszHamiltonPath
+diff --git a/FormalConjectures/HistoricalOpen/MarcusBlockPermanent.lean b/FormalConjectures/HistoricalOpen/MarcusBlockPermanent.lean
+new file mode 100644
+index 0000000..3fde9c5
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/MarcusBlockPermanent.lean
+@@ -0,0 +1,33 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Marcus block-permanent conjecture
++
++*References:*
++- [Source 1](https://arxiv.org/html/2202.01867v1)
++- [Source 2](https://yair-lavi.com/mincs-list/conjecture-9/index.html)
++- [Source 3](https://doi.org/10.1080/00029890.1965.11970575)
++-/
++
++namespace FullOldProblemsCatalog.MarcusBlockPermanent
++
++/-- For every complex Hermitian PSD block matrix A, permanent(A) >= permanent([permanent(A_ij)]); with block size >= 2 and positive definite diagonal blocks, equality iff every off-diagonal block is zero. See the sources in the module documentation. -/
++@[category research open, AMS 15]
++theorem conjecture : FullOldProblems.MarcusBlockPermanent := by
++  sorry
++
++end FullOldProblemsCatalog.MarcusBlockPermanent
+diff --git a/FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean b/FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean
+new file mode 100644
+index 0000000..3a2c46e
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Marcus–de Oliveira determinantal conjecture
++
++*References:*
++- [Source 1](https://doi.org/10.3390/math13050711)
++- [Source 2](https://www.mat.uc.pt/preprints/ps/p2611.pdf)
++-/
++
++namespace FullOldProblemsCatalog.MarcusDeOliveira
++
++/-- For all complex normal matrices A,B of every positive order, det(A+B) lies in the real convex hull of products of pairwise sums over all permutations of their complete eigenvalue lists. See the sources in the module documentation. -/
++@[category research open, AMS 15]
++theorem conjecture : FullOldProblems.MarcusDeOliveira := by
++  sorry
++
++end FullOldProblemsCatalog.MarcusDeOliveira
+diff --git a/FormalConjectures/HistoricalOpen/MinkowskiInhomogeneousProduct.lean b/FormalConjectures/HistoricalOpen/MinkowskiInhomogeneousProduct.lean
+new file mode 100644
+index 0000000..30852a3
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/MinkowskiInhomogeneousProduct.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Minkowski inhomogeneous product conjecture
++
++*References:*
++- [Source 1](https://doi.org/10.1112/S0025579300000863)
++- [Source 2](https://insa.nic.in/writereaddata/UpLoadedFiles/IJPAM/Vol46_2015_3_ART05.pdf)
++-/
++
++namespace FullOldProblemsCatalog.MinkowskiInhomogeneousProduct
++
++/-- Every nonsingular real n-by-n matrix A and real shift b admit an integer z with product_i |(Az-b)_i| <= |det A|/2^n, in every positive dimension. See the sources in the module documentation. -/
++@[category research open, AMS 11]
++theorem conjecture : FullOldProblems.MinkowskiInhomogeneousProduct := by
++  sorry
++
++end FullOldProblemsCatalog.MinkowskiInhomogeneousProduct
+diff --git a/FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean b/FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean
+new file mode 100644
+index 0000000..843d16f
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Riddell–Erdős progression-free subset ratio
++
++*References:*
++- [Source 1](https://www.numdam.org/article/AST_1975__24-25__295_0.pdf#page=14)
++- [Source 2](https://www.erdosproblems.com/201)
++-/
++
++namespace FullOldProblemsCatalog.RiddellErdosProgressionRatio
++
++/-- For every fixed k >= 3, R_k(N)/G_k(N) tends to 1, where R_k is the maximum progression-free subset size in [1,N] and G_k is the minimum such maximum across all N-element integer sets. See the sources in the module documentation. -/
++@[category research open, AMS 11]
++theorem conjecture : FullOldProblems.RiddellErdosProgressionRatio := by
++  sorry
++
++end FullOldProblemsCatalog.RiddellErdosProgressionRatio
+diff --git a/FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean b/FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean
+new file mode 100644
+index 0000000..f662342
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean
+@@ -0,0 +1,33 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Riddell–Erdős Sidon subsets / Erdős 530
++
++*References:*
++- [Source 1](https://www.renyi.hu/~p_erdos/1973-21.pdf#page=4)
++- [Source 2](https://arxiv.org/abs/2605.03181)
++- [Source 3](https://www.erdosproblems.com/530)
++-/
++
++namespace FullOldProblemsCatalog.SidonSubsetAsymptotic
++
++/-- Sharp universal asymptotic l(N) ~ sqrt(N) for arbitrary finite real sets; both bounds encoded. See the sources in the module documentation. -/
++@[category research open, AMS 11]
++theorem conjecture : FullOldProblems.SidonSubsetAsymptotic := by
++  sorry
++
++end FullOldProblemsCatalog.SidonSubsetAsymptotic
+diff --git a/FormalConjectures/HistoricalOpen/TutteFiveFlow.lean b/FormalConjectures/HistoricalOpen/TutteFiveFlow.lean
+new file mode 100644
+index 0000000..d146def
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/TutteFiveFlow.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Tutte 5-flow
++
++*References:*
++- [Source 1](https://dwest.web.illinois.edu/openp/tut5flow.html)
++- [Source 2](https://arxiv.org/abs/2601.12036)
++-/
++
++namespace FullOldProblemsCatalog.TutteFiveFlow
++
++/-- Every finite bridgeless multigraph has a nowhere-zero integer 5-flow. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.TutteFiveFlow := by
++  sorry
++
++end FullOldProblemsCatalog.TutteFiveFlow
+diff --git a/FormalConjectures/HistoricalOpen/TutteThreeFlow.lean b/FormalConjectures/HistoricalOpen/TutteThreeFlow.lean
+new file mode 100644
+index 0000000..1a7222b
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/TutteThreeFlow.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Tutte 3-flow
++
++*References:*
++- [Source 1](https://arxiv.org/abs/2011.02140)
++- [Source 2](https://arxiv.org/abs/2609.08377)
++-/
++
++namespace FullOldProblemsCatalog.TutteThreeFlow
++
++/-- Every finite 4-edge-connected multigraph has a nowhere-zero integer 3-flow. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.TutteThreeFlow := by
++  sorry
++
++end FullOldProblemsCatalog.TutteThreeFlow
+diff --git a/FormalConjectures/HistoricalOpen/VizingIndependence.lean b/FormalConjectures/HistoricalOpen/VizingIndependence.lean
+new file mode 100644
+index 0000000..dc0c3f6
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/VizingIndependence.lean
+@@ -0,0 +1,32 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Vizing independence number
++
++*References:*
++- [Source 1](https://www.ort.shu.edu.cn/CN/10.15960/j.cnki.issn.1007-6093.2025.01.019)
++- [Source 2](https://arxiv.org/abs/1805.05996)
++-/
++
++namespace FullOldProblemsCatalog.VizingIndependence
++
++/-- Every connected Delta-critical finite simple graph; independence number at most n/2. See the sources in the module documentation. -/
++@[category research open, AMS 05]
++theorem conjecture : FullOldProblems.VizingIndependence := by
++  sorry
++
++end FullOldProblemsCatalog.VizingIndependence
+diff --git a/FormalConjectures/HistoricalOpen/WangHadamardPermanentNonvanishing.lean b/FormalConjectures/HistoricalOpen/WangHadamardPermanentNonvanishing.lean
+new file mode 100644
+index 0000000..a682b7e
+--- /dev/null
++++ b/FormalConjectures/HistoricalOpen/WangHadamardPermanentNonvanishing.lean
+@@ -0,0 +1,34 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import FormalConjecturesUtil.Attributes.Basic
++
++/-!
++# Wang's Hadamard permanent question
++
++*References:*
++- [Source 1](https://doi.org/10.1007/BF02760844)
++- [Source 2](https://users.monash.edu.au/~iwanless/papers/wangconjLAMA.pdf)
++- [Source 3](https://yair-lavi.com/mincs-list/problem-5/index.html)
++- [Source 4](https://arxiv.org/abs/1802.08001)
++-/
++
++namespace FullOldProblemsCatalog.WangHadamardPermanentNonvanishing
++
++/-- Every real sign Hadamard matrix of order > 2 has nonzero permanent; encoded over integers, without a Sylvester or circulant restriction. See the sources in the module documentation. -/
++@[category research open, AMS 15]
++theorem conjecture : FullOldProblems.WangHadamardPermanentNonvanishing := by
++  sorry
++
++end FullOldProblemsCatalog.WangHadamardPermanentNonvanishing
 diff --git a/FormalConjectures/LittProblems/1.lean b/FormalConjectures/LittProblems/1.lean
-index bbaf9ce88e484d74ad122221b82230b5d95d477a..da9243a26f08d0f44fbc30fd95f35a62b73b3d8a 100644
+index bbaf9ce..da9243a 100644
 --- a/FormalConjectures/LittProblems/1.lean
 +++ b/FormalConjectures/LittProblems/1.lean
 @@ -58,12 +58,12 @@ The variable indexed by `0 : Fin (n + 1)` corresponds to $z$, and the variable i
@@ -445,7 +1095,7 @@ index bbaf9ce88e484d74ad122221b82230b5d95d477a..da9243a26f08d0f44fbc30fd95f35a62
  
  /--
 diff --git a/FormalConjectures/Millenium/RiemannHypothesis.lean b/FormalConjectures/Millenium/RiemannHypothesis.lean
-index c8d38bef385eb15661c3daf7449625b66b019b2a..cbca02563ce672c3616ec5bd9c166e3d52acba5d 100644
+index c8d38be..cbca025 100644
 --- a/FormalConjectures/Millenium/RiemannHypothesis.lean
 +++ b/FormalConjectures/Millenium/RiemannHypothesis.lean
 @@ -13,95 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -550,7 +1200,7 @@ index c8d38bef385eb15661c3daf7449625b66b019b2a..cbca02563ce672c3616ec5bd9c166e3d
 +/-! Compatibility import for the corrected Millennium source path. -/
 diff --git a/FormalConjectures/Millennium/RiemannHypothesis.lean b/FormalConjectures/Millennium/RiemannHypothesis.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..5b1dcd5c46ab4a5f449d7d4a5c5ddce7c89c3542
+index 0000000..5b1dcd5
 --- /dev/null
 +++ b/FormalConjectures/Millennium/RiemannHypothesis.lean
 @@ -0,0 +1,110 @@
@@ -665,7 +1315,7 @@ index 0000000000000000000000000000000000000000..5b1dcd5c46ab4a5f449d7d4a5c5ddce7
 +this, the ERH should be added back here.
 +-/
 diff --git a/FormalConjectures/OEIS/237271.lean b/FormalConjectures/OEIS/237271.lean
-index 8fd3f547aef50cdc33ab3c8565f4b1aa972f4604..488f3ebd6acc11f0a782813c39f7aaff750311ad 100644
+index 8fd3f54..488f3eb 100644
 --- a/FormalConjectures/OEIS/237271.lean
 +++ b/FormalConjectures/OEIS/237271.lean
 @@ -187,7 +187,7 @@ $b^{k-1} \equiv 1 \pmod k$ for every $b$ coprime to $k$. This is `IsCarmichael`,
@@ -678,7 +1328,7 @@ index 8fd3f547aef50cdc33ab3c8565f4b1aa972f4604..488f3ebd6acc11f0a782813c39f7aaff
    sorry
  
 diff --git a/FormalConjectures/OEIS/2897.lean b/FormalConjectures/OEIS/2897.lean
-index dc3693df3d093c7808598cfdb48e6f2035e7e22e..bd5c287b8cac1d818ec6df2a856427f35319a329 100644
+index dc3693d..bd5c287 100644
 --- a/FormalConjectures/OEIS/2897.lean
 +++ b/FormalConjectures/OEIS/2897.lean
 @@ -88,7 +88,7 @@ A formal proof has been found with the methods described in
@@ -691,7 +1341,7 @@ index dc3693df3d093c7808598cfdb48e6f2035e7e22e..bd5c287b8cac1d818ec6df2a856427f3
  
  end OeisA2897
 diff --git a/FormalConjectures/OEIS/358684.lean b/FormalConjectures/OEIS/358684.lean
-index 29f97456e730ea1e2cbc3c30d9c73fab5ed1ac65..79d67be387098caee80d1da722c9f1acc0819f92 100644
+index 29f9745..79d67be 100644
 --- a/FormalConjectures/OEIS/358684.lean
 +++ b/FormalConjectures/OEIS/358684.lean
 @@ -99,13 +99,13 @@ theorem a_equiv_a' (n : ℕ) : a n = a' n := by
@@ -724,7 +1374,7 @@ index 29f97456e730ea1e2cbc3c30d9c73fab5ed1ac65..79d67be387098caee80d1da722c9f1ac
        simp [pow_add, mul_two]
 diff --git a/FormalConjectures/ResearchTargets/Math15.lean b/FormalConjectures/ResearchTargets/Math15.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..12aa3728406020bb3350e8d96fb40d437bea5445
+index 0000000..12aa372
 --- /dev/null
 +++ b/FormalConjectures/ResearchTargets/Math15.lean
 @@ -0,0 +1,91 @@
@@ -821,7 +1471,7 @@ index 0000000000000000000000000000000000000000..12aa3728406020bb3350e8d96fb40d43
 +end Math15Catalog
 diff --git a/FormalConjectures/ResearchTargets/Math30.lean b/FormalConjectures/ResearchTargets/Math30.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..6bfb0a3a857e68c85f5ebe1df2d4c9a6b6a691fe
+index 0000000..6bfb0a3
 --- /dev/null
 +++ b/FormalConjectures/ResearchTargets/Math30.lean
 @@ -0,0 +1,88 @@
@@ -914,7 +1564,7 @@ index 0000000000000000000000000000000000000000..6bfb0a3a857e68c85f5ebe1df2d4c9a6
 +
 +end Math30Catalog
 diff --git a/FormalConjectures/Subsets/FC100OpenSet1.lean b/FormalConjectures/Subsets/FC100OpenSet1.lean
-index 4149ee533521d4183696b52afc2e1f653b498771..9be181453b9c257ef6f6e1ccbee41d257ebbed3a 100644
+index 4149ee5..9be1814 100644
 --- a/FormalConjectures/Subsets/FC100OpenSet1.lean
 +++ b/FormalConjectures/Subsets/FC100OpenSet1.lean
 @@ -223,6 +223,6 @@ end Subsets.FC100OpenSet1
@@ -927,7 +1577,7 @@ index 4149ee533521d4183696b52afc2e1f653b498771..9be181453b9c257ef6f6e1ccbee41d25
 +  ("research solved", 10)
  ]
 diff --git a/FormalConjectures/Wikipedia/AgohGiuga.lean b/FormalConjectures/Wikipedia/AgohGiuga.lean
-index 710ff0e6a706cbac7b3a79d7902a706c7bd68802..5fecfe54b786cc237929b44308b2b7a6740e5a07 100644
+index 710ff0e..5fecfe5 100644
 --- a/FormalConjectures/Wikipedia/AgohGiuga.lean
 +++ b/FormalConjectures/Wikipedia/AgohGiuga.lean
 @@ -118,6 +118,7 @@ theorem squarefree_of_isCarmichael {a : ℕ} (ha₁ : a.Composite) (ha₂ : IsCa
@@ -939,7 +1589,7 @@ index 710ff0e6a706cbac7b3a79d7902a706c7bd68802..5fecfe54b786cc237929b44308b2b7a6
    rw [mul_assoc, ← geom_sum_mul_of_one_le ((1).le_add_left (p * N)), p.coprime_mul_iff_left]
    simpa using (mul_dvd_mul_iff_right fun _ ↦ by simp_all only [mul_zero, not_lt_zero]).not.mpr
 diff --git a/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean b/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean
-index 8088dd5616cf3dc8c48dc276a1e4ea988fcca8af..15ed8644f1e11b356e8ffaaf750459e06ce49802 100644
+index 8088dd5..15ed864 100644
 --- a/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean
 +++ b/FormalConjectures/Wikipedia/ArtinPrimitiveRootsConjecture.lean
 @@ -13,16 +13,17 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1085,7 +1735,7 @@ index 8088dd5616cf3dc8c48dc276a1e4ea988fcca8af..15ed8644f1e11b356e8ffaaf750459e0
        {p | p.Prime} := by
 diff --git a/FormalConjectures/Wikipedia/BorsukConjecture.lean b/FormalConjectures/Wikipedia/BorsukConjecture.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..cec2f56996d6357b0d7a67c6d252b79259a2ae09
+index 0000000..cec2f56
 --- /dev/null
 +++ b/FormalConjectures/Wikipedia/BorsukConjecture.lean
 @@ -0,0 +1,204 @@
@@ -1294,7 +1944,7 @@ index 0000000000000000000000000000000000000000..cec2f56996d6357b0d7a67c6d252b792
 +
 +end Borsuk
 diff --git a/FormalConjectures/Wikipedia/BrocardConjecture.lean b/FormalConjectures/Wikipedia/BrocardConjecture.lean
-index e83f06c2bae383235910b42838f6142a22f323ee..4d698d99b193a952c3d3a0ebd802dbc3d7263180 100644
+index e83f06c..4d698d9 100644
 --- a/FormalConjectures/Wikipedia/BrocardConjecture.lean
 +++ b/FormalConjectures/Wikipedia/BrocardConjecture.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1318,7 +1968,7 @@ index e83f06c2bae383235910b42838f6142a22f323ee..4d698d99b193a952c3d3a0ebd802dbc3
  
  namespace Brocard
 diff --git a/FormalConjectures/Wikipedia/Bunyakovsky.lean b/FormalConjectures/Wikipedia/Bunyakovsky.lean
-index 7692947227b146c291c657501b85cf90986040c2..909ee397e54a1693e61744a5efa6537752a911ea 100644
+index 7692947..909ee39 100644
 --- a/FormalConjectures/Wikipedia/Bunyakovsky.lean
 +++ b/FormalConjectures/Wikipedia/Bunyakovsky.lean
 @@ -13,14 +13,18 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1342,7 +1992,7 @@ index 7692947227b146c291c657501b85cf90986040c2..909ee397e54a1693e61744a5efa65377
  namespace Bunyakovsky
  
 diff --git a/FormalConjectures/Wikipedia/CarmichaelTotient.lean b/FormalConjectures/Wikipedia/CarmichaelTotient.lean
-index 2598d9a818667390fef6e6058aeadf7f61809112..54512ecae7572cad5cc5a42014a86e65657090b4 100644
+index 2598d9a..54512ec 100644
 --- a/FormalConjectures/Wikipedia/CarmichaelTotient.lean
 +++ b/FormalConjectures/Wikipedia/CarmichaelTotient.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1366,7 +2016,7 @@ index 2598d9a818667390fef6e6058aeadf7f61809112..54512ecae7572cad5cc5a42014a86e65
  
  open Nat
 diff --git a/FormalConjectures/Wikipedia/ClassNumberProblem.lean b/FormalConjectures/Wikipedia/ClassNumberProblem.lean
-index 34c5a43133ba45cf788a780bd189ad51f1f91da1..2d5c7d209a22be59c67910af57b115537b6dcd09 100644
+index 34c5a43..2d5c7d2 100644
 --- a/FormalConjectures/Wikipedia/ClassNumberProblem.lean
 +++ b/FormalConjectures/Wikipedia/ClassNumberProblem.lean
 @@ -13,14 +13,18 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1390,7 +2040,7 @@ index 34c5a43133ba45cf788a780bd189ad51f1f91da1..2d5c7d209a22be59c67910af57b11553
  namespace ClassNumberProblem
  
 diff --git a/FormalConjectures/Wikipedia/Dickson.lean b/FormalConjectures/Wikipedia/Dickson.lean
-index dd9a2663e529cd197546f9b5053a7426dc8d1291..c77c4d9dd2e58194bcc8fe0ad7be5150562aacf9 100644
+index dd9a266..c77c4d9 100644
 --- a/FormalConjectures/Wikipedia/Dickson.lean
 +++ b/FormalConjectures/Wikipedia/Dickson.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1415,7 +2065,7 @@ index dd9a2663e529cd197546f9b5053a7426dc8d1291..c77c4d9dd2e58194bcc8fe0ad7be5150
  namespace Dickson
  
 diff --git a/FormalConjectures/Wikipedia/Fermat.lean b/FormalConjectures/Wikipedia/Fermat.lean
-index 3ca015d4f6583219a771a09161e3a256b2f6880d..0726cda5da7ade41970f432212034651af002273 100644
+index 3ca015d..0726cda 100644
 --- a/FormalConjectures/Wikipedia/Fermat.lean
 +++ b/FormalConjectures/Wikipedia/Fermat.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1452,7 +2102,7 @@ index 3ca015d4f6583219a771a09161e3a256b2f6880d..0726cda5da7ade41970f432212034651
  
  end Fermat
 diff --git a/FormalConjectures/Wikipedia/GaussCircleProblem.lean b/FormalConjectures/Wikipedia/GaussCircleProblem.lean
-index 544850589d84509fedcfada501bfedab966f0c2f..005da83f26798bd953f4dee73e050adb8a278b97 100644
+index 5448505..005da83 100644
 --- a/FormalConjectures/Wikipedia/GaussCircleProblem.lean
 +++ b/FormalConjectures/Wikipedia/GaussCircleProblem.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1476,7 +2126,7 @@ index 544850589d84509fedcfada501bfedab966f0c2f..005da83f26798bd953f4dee73e050adb
  
  open scoped EuclideanGeometry Real Topology
 diff --git a/FormalConjectures/Wikipedia/GoldbachConjecture.lean b/FormalConjectures/Wikipedia/GoldbachConjecture.lean
-index 08feda554254d8c1a83a83aeab5b2ed2fccb427a..4001d504bbf70f1cd5cf08a6d920aa1749f941c9 100644
+index 08feda5..4001d50 100644
 --- a/FormalConjectures/Wikipedia/GoldbachConjecture.lean
 +++ b/FormalConjectures/Wikipedia/GoldbachConjecture.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1500,7 +2150,7 @@ index 08feda554254d8c1a83a83aeab5b2ed2fccb427a..4001d504bbf70f1cd5cf08a6d920aa17
  
  /--
 diff --git a/FormalConjectures/Wikipedia/Goormaghtigh.lean b/FormalConjectures/Wikipedia/Goormaghtigh.lean
-index 807537c74b7af1cdd31938aa05c863c3f6c098aa..3eabf7fdca8e2f4f157e66ac3324044ed171c2c9 100644
+index 807537c..3eabf7f 100644
 --- a/FormalConjectures/Wikipedia/Goormaghtigh.lean
 +++ b/FormalConjectures/Wikipedia/Goormaghtigh.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1524,7 +2174,7 @@ index 807537c74b7af1cdd31938aa05c863c3f6c098aa..3eabf7fdca8e2f4f157e66ac3324044e
  
  /-- The repunit with `digits` digits in the given base, expressed without division. -/
 diff --git a/FormalConjectures/Wikipedia/Hadamard.lean b/FormalConjectures/Wikipedia/Hadamard.lean
-index 180b7a22d9aeaf8be9b08735cd8247c0f9f38b28..6665a82af16d957459e8936b9020f3db24c92f27 100644
+index 180b7a2..6665a82 100644
 --- a/FormalConjectures/Wikipedia/Hadamard.lean
 +++ b/FormalConjectures/Wikipedia/Hadamard.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1564,7 +2214,7 @@ index 180b7a22d9aeaf8be9b08735cd8247c0f9f38b28..6665a82af16d957459e8936b9020f3db
  /--
  For all $k ≤ 166$, it is known there that there is a Hadamard matrix of size $4 * k$.
 diff --git a/FormalConjectures/Wikipedia/HardyLittlewood.lean b/FormalConjectures/Wikipedia/HardyLittlewood.lean
-index 1f4439a7354156c1791ef859c70fda44df1f0d33..84a6fbfa6fb11c90751fa0f126235f52b0f63e6d 100644
+index 1f4439a..84a6fbf 100644
 --- a/FormalConjectures/Wikipedia/HardyLittlewood.lean
 +++ b/FormalConjectures/Wikipedia/HardyLittlewood.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1617,7 +2267,7 @@ index 1f4439a7354156c1791ef859c70fda44df1f0d33..84a6fbfa6fb11c90751fa0f126235f52
  forms an admissible prime constellation. Let $w(q; m_1, \dots, m_k)$ denote the
  number of distinct residues of $0, m_1, \dots, m_k$ modulo $q$, and let
 diff --git a/FormalConjectures/Wikipedia/IdonealCompleteness.lean b/FormalConjectures/Wikipedia/IdonealCompleteness.lean
-index bed775bd6882bbf238bd4260bd9dadd9d3e392c7..3df6119fd44621fdc9cce5aba6b2183bfd9b3fea 100644
+index bed775b..3df6119 100644
 --- a/FormalConjectures/Wikipedia/IdonealCompleteness.lean
 +++ b/FormalConjectures/Wikipedia/IdonealCompleteness.lean
 @@ -13,9 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1642,7 +2292,7 @@ index bed775bd6882bbf238bd4260bd9dadd9d3e392c7..3df6119fd44621fdc9cce5aba6b2183b
  
  /--
 diff --git a/FormalConjectures/Wikipedia/InscribedSquare.lean b/FormalConjectures/Wikipedia/InscribedSquare.lean
-index d928c7eb85ec1ca1c378517ee0f876b57e5e2d14..19cd56de01921b1670a87430112d305cbc4d85f2 100644
+index d928c7e..19cd56d 100644
 --- a/FormalConjectures/Wikipedia/InscribedSquare.lean
 +++ b/FormalConjectures/Wikipedia/InscribedSquare.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1692,7 +2342,7 @@ index d928c7eb85ec1ca1c378517ee0f876b57e5e2d14..19cd56de01921b1670a87430112d305c
    sorry
  
 diff --git a/FormalConjectures/Wikipedia/InverseGalois.lean b/FormalConjectures/Wikipedia/InverseGalois.lean
-index 0d1b26ed29839f7aa9673f5d2112e2d28fadc19b..27f7d2d627ba8d96841e58aec1b0852891a45752 100644
+index 0d1b26e..27f7d2d 100644
 --- a/FormalConjectures/Wikipedia/InverseGalois.lean
 +++ b/FormalConjectures/Wikipedia/InverseGalois.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1730,7 +2380,7 @@ index 0d1b26ed29839f7aa9673f5d2112e2d28fadc19b..27f7d2d627ba8d96841e58aec1b08528
    sorry
  
 diff --git a/FormalConjectures/Wikipedia/Irrational.lean b/FormalConjectures/Wikipedia/Irrational.lean
-index afd6f7a8d7a2b92d27b2968f06d0862e8f3f795c..7a3d95d733ec71be7692c865270e68911f0f15df 100644
+index afd6f7a..7a3d95d 100644
 --- a/FormalConjectures/Wikipedia/Irrational.lean
 +++ b/FormalConjectures/Wikipedia/Irrational.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1754,7 +2404,7 @@ index afd6f7a8d7a2b92d27b2968f06d0862e8f3f795c..7a3d95d733ec71be7692c865270e6891
  
  local notation "e" => exp 1
 diff --git a/FormalConjectures/Wikipedia/KummerVandiver.lean b/FormalConjectures/Wikipedia/KummerVandiver.lean
-index efde8b36bd179f77639751af0ad3a9aaf0eb8241..d3dcbfc93b55ebf032b3077b3e0c2462e88213ad 100644
+index efde8b3..d3dcbfc 100644
 --- a/FormalConjectures/Wikipedia/KummerVandiver.lean
 +++ b/FormalConjectures/Wikipedia/KummerVandiver.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1778,7 +2428,7 @@ index efde8b36bd179f77639751af0ad3a9aaf0eb8241..d3dcbfc93b55ebf032b3077b3e0c2462
  
  namespace KummerVandiver
 diff --git a/FormalConjectures/Wikipedia/LegendreConjecture.lean b/FormalConjectures/Wikipedia/LegendreConjecture.lean
-index 9295ed4ece2a47f754f3ac260ae890ded9ca5812..d9777341aa8a2b410cd430197307487c4ca23693 100644
+index 9295ed4..d977734 100644
 --- a/FormalConjectures/Wikipedia/LegendreConjecture.lean
 +++ b/FormalConjectures/Wikipedia/LegendreConjecture.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1803,7 +2453,7 @@ index 9295ed4ece2a47f754f3ac260ae890ded9ca5812..d9777341aa8a2b410cd430197307487c
  namespace LegendreConjecture
  
 diff --git a/FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean b/FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean
-index 3dbb26ea352c222a9d3b6e0089468057ca8177bf..aefe872ad0a0624c7f669699cb738682465aaee9 100644
+index 3dbb26e..aefe872 100644
 --- a/FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean
 +++ b/FormalConjectures/Wikipedia/LehmerMahlerMeasureProblem.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1855,7 +2505,7 @@ index 3dbb26ea352c222a9d3b6e0089468057ca8177bf..aefe872ad0a0624c7f669699cb738682
    sorry
  
 diff --git a/FormalConjectures/Wikipedia/LehmerTotient.lean b/FormalConjectures/Wikipedia/LehmerTotient.lean
-index c149ba84ba9ca439edddbc296603570f9be25c2e..72e3ff7d3e36865acd8b0d5ea22fdac52e080f3d 100644
+index c149ba8..72e3ff7 100644
 --- a/FormalConjectures/Wikipedia/LehmerTotient.lean
 +++ b/FormalConjectures/Wikipedia/LehmerTotient.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1879,7 +2529,7 @@ index c149ba84ba9ca439edddbc296603570f9be25c2e..72e3ff7d3e36865acd8b0d5ea22fdac5
  
  /--
 diff --git a/FormalConjectures/Wikipedia/Lemoine.lean b/FormalConjectures/Wikipedia/Lemoine.lean
-index e7346fd764542504ef7b9e8fd9d4c93f81acc510..4350b465492eb020794a7fd8f240c36c1c74446f 100644
+index e7346fd..4350b46 100644
 --- a/FormalConjectures/Wikipedia/Lemoine.lean
 +++ b/FormalConjectures/Wikipedia/Lemoine.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1903,7 +2553,7 @@ index e7346fd764542504ef7b9e8fd9d4c93f81acc510..4350b465492eb020794a7fd8f240c36c
  
  def OddPrime (n : ℕ) : Prop :=
 diff --git a/FormalConjectures/Wikipedia/Mersenne.lean b/FormalConjectures/Wikipedia/Mersenne.lean
-index bb27507d49f9ca3cbbefab5afe3a17b3ac7dc51c..354079b35c14b5bcb4d816934acf99355223a5ec 100644
+index bb27507..354079b 100644
 --- a/FormalConjectures/Wikipedia/Mersenne.lean
 +++ b/FormalConjectures/Wikipedia/Mersenne.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1946,7 +2596,7 @@ index bb27507d49f9ca3cbbefab5afe3a17b3ac7dc51c..354079b35c14b5bcb4d816934acf9935
      have hF1 : ¬(mersenne p).Prime := fun h => hp_prime h.of_mersenne
      refine ⟨?_, ?_, ?_⟩ <;> grind
 diff --git a/FormalConjectures/Wikipedia/MovingSofa.lean b/FormalConjectures/Wikipedia/MovingSofa.lean
-index 365ec77531639cb5862349771b0fb56edf50e376..6ea61bed3b043e8979f475275f77566782585a4e 100644
+index 365ec77..6ea61be 100644
 --- a/FormalConjectures/Wikipedia/MovingSofa.lean
 +++ b/FormalConjectures/Wikipedia/MovingSofa.lean
 @@ -203,7 +203,9 @@ def sofaConstant : ℝ≥0∞ := ⨆ (s : Set ℝ²) (_ : ∃ m, IsMovingSofa s
@@ -1961,7 +2611,7 @@ index 365ec77531639cb5862349771b0fb56edf50e376..6ea61bed3b043e8979f475275f775667
  /-- What is the sofa constant? -/
  @[category research solved, AMS 49]
 diff --git a/FormalConjectures/Wikipedia/NormalityOfPi.lean b/FormalConjectures/Wikipedia/NormalityOfPi.lean
-index 53eb74dec027163dd05ef3412a51b1654f739e63..598f6d5d0064af845ad1ddced77999237de3bd11 100644
+index 53eb74d..598f6d5 100644
 --- a/FormalConjectures/Wikipedia/NormalityOfPi.lean
 +++ b/FormalConjectures/Wikipedia/NormalityOfPi.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -1985,7 +2635,7 @@ index 53eb74dec027163dd05ef3412a51b1654f739e63..598f6d5d0064af845ad1ddced7799923
  
  namespace NormalNumber
 diff --git a/FormalConjectures/Wikipedia/Oppermann.lean b/FormalConjectures/Wikipedia/Oppermann.lean
-index 31ec8b4a2856445256d32cc5334cc59d72649bce..87da32f40d0bc73869d945f519dad8294a26aa47 100644
+index 31ec8b4..87da32f 100644
 --- a/FormalConjectures/Wikipedia/Oppermann.lean
 +++ b/FormalConjectures/Wikipedia/Oppermann.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -2009,7 +2659,7 @@ index 31ec8b4a2856445256d32cc5334cc59d72649bce..87da32f40d0bc73869d945f519dad829
  
  namespace Oppermann
 diff --git a/FormalConjectures/Wikipedia/PerfectNumbers.lean b/FormalConjectures/Wikipedia/PerfectNumbers.lean
-index 43775be6bfeb0ff5dd11279f2d7b621fec974b3d..288efc051c141fbfa072fccdafbd636889cd5604 100644
+index 43775be..288efc0 100644
 --- a/FormalConjectures/Wikipedia/PerfectNumbers.lean
 +++ b/FormalConjectures/Wikipedia/PerfectNumbers.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -2033,7 +2683,7 @@ index 43775be6bfeb0ff5dd11279f2d7b621fec974b3d..288efc051c141fbfa072fccdafbd6368
  
  open Nat
 diff --git a/FormalConjectures/Wikipedia/PollocksConjecture.lean b/FormalConjectures/Wikipedia/PollocksConjecture.lean
-index 59648f368a6879f9c44f07390e7a079f11e6a392..dfc658e2b356ca42c2c204d1f683e46946756cc6 100644
+index 59648f3..dfc658e 100644
 --- a/FormalConjectures/Wikipedia/PollocksConjecture.lean
 +++ b/FormalConjectures/Wikipedia/PollocksConjecture.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -2057,7 +2707,7 @@ index 59648f368a6879f9c44f07390e7a079f11e6a392..dfc658e2b356ca42c2c204d1f683e469
  
  open scoped BigOperators
 diff --git a/FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean b/FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean
-index bfebf00373c95021c7ac7068996d881987eace65..6d06662a5f0ce3846c558b21f9d5d31c0d216820 100644
+index bfebf00..6d06662 100644
 --- a/FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean
 +++ b/FormalConjectures/Wikipedia/PrimesAndPerfectSquares.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -2081,7 +2731,7 @@ index bfebf00373c95021c7ac7068996d881987eace65..6d06662a5f0ce3846c558b21f9d5d31c
  namespace PrimesAndPerfectSquares
  
 diff --git a/FormalConjectures/Wikipedia/RegularPrimes.lean b/FormalConjectures/Wikipedia/RegularPrimes.lean
-index 1aac7564772296d5608d70374bebb1046cd47a6a..9008aa7ea3db18cf4cef15883a32ec85e4c3d3d4 100644
+index 1aac756..9008aa7 100644
 --- a/FormalConjectures/Wikipedia/RegularPrimes.lean
 +++ b/FormalConjectures/Wikipedia/RegularPrimes.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -2135,7 +2785,7 @@ index 1aac7564772296d5608d70374bebb1046cd47a6a..9008aa7ea3db18cf4cef15883a32ec85
  
  /-- The set of irregular primes is infinite. -/
 diff --git a/FormalConjectures/Wikipedia/TwinPrimes.lean b/FormalConjectures/Wikipedia/TwinPrimes.lean
-index 48b05dfefa47b97eed628fbf7f4c4e919955ff40..ebe01d94bbce15cf7aea41ab9728f13e61e9253c 100644
+index 48b05df..ebe01d9 100644
 --- a/FormalConjectures/Wikipedia/TwinPrimes.lean
 +++ b/FormalConjectures/Wikipedia/TwinPrimes.lean
 @@ -13,8 +13,9 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -2159,7 +2809,7 @@ index 48b05dfefa47b97eed628fbf7f4c4e919955ff40..ebe01d94bbce15cf7aea41ab9728f13e
  namespace TwinPrimes
  
 diff --git a/FormalConjectures/Wikipedia/WallSunSun.lean b/FormalConjectures/Wikipedia/WallSunSun.lean
-index 568d8ae45657b8868db9eef2bf369968baac742b..7230dda41351d80455cfa9f4e3da33f6031ba15c 100644
+index 568d8ae..7230dda 100644
 --- a/FormalConjectures/Wikipedia/WallSunSun.lean
 +++ b/FormalConjectures/Wikipedia/WallSunSun.lean
 @@ -29,13 +29,13 @@ variable {d : ℤ} [Fact <| Squarefree d] [Fact <| d ≠ 1]
@@ -2188,7 +2838,7 @@ index 568d8ae45657b8868db9eef2bf369968baac742b..7230dda41351d80455cfa9f4e3da33f6
      rintro (⟨⟨d, rfl⟩, hD₄, hD⟩ | ⟨hD₁, hD₄, hD⟩)
      · simp only [ne_eq, OfNat.ofNat_ne_zero, not_false_eq_true, mul_div_cancel_left₀] at hD hD₄
 diff --git a/FormalConjecturesForMathlib/Algebra/Group/GrowthFunction.lean b/FormalConjecturesForMathlib/Algebra/Group/GrowthFunction.lean
-index 12efd20b1f8ebcefa31c95fcc86bdd88f398d7c1..8b8b29ac6f822f498ad8991d8e5e689574835522 100644
+index 12efd20..8b8b29a 100644
 --- a/FormalConjecturesForMathlib/Algebra/Group/GrowthFunction.lean
 +++ b/FormalConjecturesForMathlib/Algebra/Group/GrowthFunction.lean
 @@ -17,7 +17,7 @@ module
@@ -2201,7 +2851,7 @@ index 12efd20b1f8ebcefa31c95fcc86bdd88f398d7c1..8b8b29ac6f822f498ad8991d8e5e6895
  public import Mathlib.GroupTheory.Finiteness
  public import Mathlib.Tactic.SetNotationForOrder
 diff --git a/FormalConjecturesForMathlib/Algebra/MvPolynomial/PoissonBracket.lean b/FormalConjecturesForMathlib/Algebra/MvPolynomial/PoissonBracket.lean
-index 336cc90ad8bcfc29fb6258838d707278f3ef133d..375ff7f7adbdf2f919e5a16c50a87a97e1ef80e8 100644
+index 336cc90..375ff7f 100644
 --- a/FormalConjecturesForMathlib/Algebra/MvPolynomial/PoissonBracket.lean
 +++ b/FormalConjecturesForMathlib/Algebra/MvPolynomial/PoissonBracket.lean
 @@ -85,7 +85,7 @@ theorem poissonBracket_X_inl_inr [DecidableEq σ] (i j : σ) :
@@ -2214,7 +2864,7 @@ index 336cc90ad8bcfc29fb6258838d707278f3ef133d..375ff7f7adbdf2f919e5a16c50a87a97
      rw [pderiv_X_of_ne (show (Sum.inl i : σ ⊕ σ) ≠ Sum.inl k from by simpa using Ne.symm hk),
        pderiv_X_of_ne (show (Sum.inl i : σ ⊕ σ) ≠ Sum.inr k from by simp)]
 diff --git a/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean b/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean
-index e5ff4b780c8423ba4847eb7d6a61379da24a8a63..5a4cd3c5e705f385d0b059f2e530b48a71afa8b0 100644
+index e5ff4b7..5a4cd3c 100644
 --- a/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean
 +++ b/FormalConjecturesForMathlib/Algebra/Polynomial/HasseDeriv.lean
 @@ -17,10 +17,3 @@ module
@@ -2229,7 +2879,7 @@ index e5ff4b780c8423ba4847eb7d6a61379da24a8a63..5a4cd3c5e705f385d0b059f2e530b48a
 -    {f : R →+* S} {k : ℕ} {p : R[X]} : (p.map f).hasseDeriv k = (p.hasseDeriv k).map f := by
 -  ext; simp [hasseDeriv_coeff]
 diff --git a/FormalConjecturesForMathlib/Analysis/SpecialFunctions/NthRoot.lean b/FormalConjecturesForMathlib/Analysis/SpecialFunctions/NthRoot.lean
-index f9f7b227b23706c75ad8020d459cd92af27d2907..fdc0d9e70db4f55ec40306726424a32a48755a8d 100644
+index f9f7b22..fdc0d9e 100644
 --- a/FormalConjecturesForMathlib/Analysis/SpecialFunctions/NthRoot.lean
 +++ b/FormalConjecturesForMathlib/Analysis/SpecialFunctions/NthRoot.lean
 @@ -36,11 +36,11 @@ noncomputable def nthRoot (n : ℕ) (r : ℝ) : ℝ :=
@@ -2247,7 +2897,7 @@ index f9f7b227b23706c75ad8020d459cd92af27d2907..fdc0d9e70db4f55ec40306726424a32a
  theorem nthRoot_of_odd_of_nonpos {n : ℕ} (hn : Odd n) {r : ℝ} (hr : r ≤ 0) :
      nthRoot n r = (-1) ^ n * (-r) ^ (n⁻¹ : ℝ) := by
 diff --git a/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean b/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean
-index 1945f2a5a9d42f3fbfa7c62b667508e3fe23673a..bbd3452470b0e8c631c747198a1c58baf2d4f254 100644
+index 1945f2a..bbd3452 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/Additive/VCDim.lean
 @@ -113,7 +113,7 @@ protected lemma HasMulVCNDimAtMost.univ : HasMulVCNDimAtMost (.univ : Set G) n d
@@ -2261,7 +2911,7 @@ index 1945f2a5a9d42f3fbfa7c62b667508e3fe23673a..bbd3452470b0e8c631c747198a1c58ba
 +    (Equiv.setCongr <| Equiv.funUnique ..).symm.forall_congr fun s ↦ ?_
    simp [Set.image_image, funext_iff]
 diff --git a/FormalConjecturesForMathlib/Combinatorics/Digraph/Tournament.lean b/FormalConjecturesForMathlib/Combinatorics/Digraph/Tournament.lean
-index 3b87886e680eb7e664e1438163370a833a1c2e6b..b092b9348375ba18f40a0f0fa5c600e965deb69e 100644
+index 3b87886..b092b93 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/Digraph/Tournament.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/Digraph/Tournament.lean
 @@ -20,7 +20,7 @@ public import Mathlib.Combinatorics.Digraph.Orientation
@@ -2274,7 +2924,7 @@ index 3b87886e680eb7e664e1438163370a833a1c2e6b..b092b9348375ba18f40a0f0fa5c600e9
  @[expose] public section
  
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Balanced.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Balanced.lean
-index 422ba22c8abe03525559b147f70a2fcbc0b09953..1f5c9144d497c57c20b1eaf465c166d0c020c242 100644
+index 422ba22..1f5c914 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Balanced.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Balanced.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2287,7 +2937,7 @@ index 422ba22c8abe03525559b147f70a2fcbc0b09953..1f5c9144d497c57c20b1eaf465c166d0
  @[expose] public section
  
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Cvetkovic.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Cvetkovic.lean
-index e40a3121359d027eeabbba11eb8bfe949e026d66..7dd42d6c3fe9046247f147c938d1da4a4905fcd9 100644
+index e40a312..7dd42d6 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Cvetkovic.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Cvetkovic.lean
 @@ -17,7 +17,7 @@ module
@@ -2300,7 +2950,7 @@ index e40a3121359d027eeabbba11eb8bfe949e026d66..7dd42d6c3fe9046247f147c938d1da4a
  
  @[expose] public section
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Degrees.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Degrees.lean
-index d3bf5108643190062ed4b9ec2331058e0feba930..562a3c06e9f42b6e8058cf49ae5cfa26c969d8a9 100644
+index d3bf510..562a3c0 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Degrees.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Degrees.lean
 @@ -20,7 +20,7 @@ public import Mathlib.Combinatorics.SimpleGraph.Clique
@@ -2313,7 +2963,7 @@ index d3bf5108643190062ed4b9ec2331058e0feba930..562a3c06e9f42b6e8058cf49ae5cfa26
  public import Mathlib.Order.CompletePartialOrder
  
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Eccentricity.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Eccentricity.lean
-index 343973abcddff9bfe8990a37c96b1c22a4f5c56a..2e56ff6826330ed6a16cd4a0be304884d3d5d5f8 100644
+index 343973a..2e56ff6 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Eccentricity.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Eccentricity.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2326,7 +2976,7 @@ index 343973abcddff9bfe8990a37c96b1c22a4f5c56a..2e56ff6826330ed6a16cd4a0be304884
  
  @[expose] public section
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Independence.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Independence.lean
-index 9f7e72c15e419d4db91357ef722be64a9cf8234f..85f0434bb782fcfafbd8e13913478a1fff79e44d 100644
+index 9f7e72c..85f0434 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Independence.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Independence.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2339,7 +2989,7 @@ index 9f7e72c15e419d4db91357ef722be64a9cf8234f..85f0434bb782fcfafbd8e13913478a1f
  @[expose] public section
  
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Induced.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Induced.lean
-index 25bc70efc6476cbc19529ea591cc986aa7713288..26fffacd966e29d73c79c9679976542edc71b6b7 100644
+index 25bc70e..26fffac 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Induced.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Induced.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2361,7 +3011,7 @@ index 25bc70efc6476cbc19529ea591cc986aa7713288..26fffacd966e29d73c79c9679976542e
    · rintro ⟨c, hc⟩
      exact ⟨Coloring.mk (fun v => c v) fun {u v} huv => hc u u.prop v v.prop huv⟩
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/PathCover.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/PathCover.lean
-index 3d284848997a53b2da1cf6d37614b7eb87e670a2..bea1098bbe2df344b7739eac9c2dd4baaacc9710 100644
+index 3d28484..bea1098 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/PathCover.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/PathCover.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2374,7 +3024,7 @@ index 3d284848997a53b2da1cf6d37614b7eb87e670a2..bea1098bbe2df344b7739eac9c2dd4ba
  
  @[expose] public section
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean
-index 34785a81d5f02b6238a65f47ba4ff355bfcf1621..72f8d9850bda383c20d64fe9d705ae70d3efcf81 100644
+index 34785a8..72f8d98 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Residue.lean
 @@ -73,7 +73,6 @@ termination_by l => l.length
@@ -2386,7 +3036,7 @@ index 34785a81d5f02b6238a65f47ba4ff355bfcf1621..72f8d9850bda383c20d64fe9d705ae70
  /--
  Computes the residue of a graph `G`, i.e. the number of zeros remaining after iteratively
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/SizeRamsey.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/SizeRamsey.lean
-index 26a86a355346f12bb61a7d750b6130301383afb0..c8d50951b6770642ed6a4ebc928062f3665671cf 100644
+index 26a86a3..c8d5095 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/SizeRamsey.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/SizeRamsey.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2399,7 +3049,7 @@ index 26a86a355346f12bb61a7d750b6130301383afb0..c8d50951b6770642ed6a4ebc928062f3
  public import Mathlib.Order.Lattice.Nat
  
 diff --git a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Temperature.lean b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Temperature.lean
-index 17a4a54e56e1c83f558455ee7e2af11119aaf83b..6f30cc841e8a8e059556d38e2f1dcd8a838ef5a9 100644
+index 17a4a54..6f30cc8 100644
 --- a/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Temperature.lean
 +++ b/FormalConjecturesForMathlib/Combinatorics/SimpleGraph/Temperature.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2412,7 +3062,7 @@ index 17a4a54e56e1c83f558455ee7e2af11119aaf83b..6f30cc841e8a8e059556d38e2f1dcd8a
  @[expose] public section
  
 diff --git a/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean b/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean
-index fd77881afb7eef84cab772fa74ac1955e22648cf..4b0f1eb1b6cd72889083222d29898c13c113db1f 100644
+index fd77881..4b0f1eb 100644
 --- a/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean
 +++ b/FormalConjecturesForMathlib/Computability/TuringMachine/BusyBeavers.lean
 @@ -220,11 +220,16 @@ noncomputable def haltingNumber : ENat :=
@@ -2438,7 +3088,7 @@ index fd77881afb7eef84cab772fa74ac1955e22648cf..4b0f1eb1b6cd72889083222d29898c13
  end Machine
  
 diff --git a/FormalConjecturesForMathlib/Data/Finset/Powerset.lean b/FormalConjecturesForMathlib/Data/Finset/Powerset.lean
-index 31de78d5f36778f424529eccecc69b73b387bd35..c1461c70e82456980502cac67cb8041edca4aa62 100644
+index 31de78d..c1461c7 100644
 --- a/FormalConjecturesForMathlib/Data/Finset/Powerset.lean
 +++ b/FormalConjecturesForMathlib/Data/Finset/Powerset.lean
 @@ -24,11 +24,4 @@ variable {α : Type*} [DecidableEq α] {s t : Finset α} {n : ℕ}
@@ -2454,7 +3104,7 @@ index 31de78d5f36778f424529eccecc69b73b387bd35..c1461c70e82456980502cac67cb8041e
 -
  end Finset
 diff --git a/FormalConjecturesForMathlib/Data/Finset/ReciprocalSum.lean b/FormalConjecturesForMathlib/Data/Finset/ReciprocalSum.lean
-index 2d37d200b85358562fcd9e0efc0cd50870cc5f37..2b3a797b57115e81a3eaf18b54bf9dc6bb107737 100644
+index 2d37d20..2b3a797 100644
 --- a/FormalConjecturesForMathlib/Data/Finset/ReciprocalSum.lean
 +++ b/FormalConjecturesForMathlib/Data/Finset/ReciprocalSum.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2467,7 +3117,7 @@ index 2d37d200b85358562fcd9e0efc0cd50870cc5f37..2b3a797b57115e81a3eaf18b54bf9dc6
  @[expose] public section
  
 diff --git a/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean b/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean
-index e1f06e7ed167c0fc4adf0a9624340d370402c2be..d6ac017cc16eab6e0c8cd9812713b29ebac9aa42 100644
+index e1f06e7..d6ac017 100644
 --- a/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean
 +++ b/FormalConjecturesForMathlib/Data/Nat/MaxPrimeFac.lean
 @@ -15,171 +15,25 @@ limitations under the License.
@@ -2658,7 +3308,7 @@ index e1f06e7ed167c0fc4adf0a9624340d370402c2be..d6ac017cc16eab6e0c8cd9812713b29e
  
  end Nat
 diff --git a/FormalConjecturesForMathlib/Data/Nat/PerfectPower.lean b/FormalConjecturesForMathlib/Data/Nat/PerfectPower.lean
-index 40df5e47315bbc474ba3e9ed8a6a6ab34a815bf0..d4eb7fdd189bc563007710b4193711eefd4f42ca 100644
+index 40df5e4..d4eb7fd 100644
 --- a/FormalConjecturesForMathlib/Data/Nat/PerfectPower.lean
 +++ b/FormalConjecturesForMathlib/Data/Nat/PerfectPower.lean
 @@ -97,7 +97,7 @@ theorem isPerfectPower_iff_factorization_gcd (n : ℕ) :
@@ -2671,7 +3321,7 @@ index 40df5e47315bbc474ba3e9ed8a6a6ab34a815bf0..d4eb7fdd189bc563007710b4193711ee
        have h_ge_2 : f p ≥ 2 := by
          show p ^ (n.factorization p / g) ≥ 2
 diff --git a/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean b/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean
-index 59d7a2737f49ce0807d3d11c0dc7040b5f36dc70..80ddb0e832549e7ff54317e90ea9ce9bfb0e4511 100644
+index 59d7a27..80ddb0e 100644
 --- a/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean
 +++ b/FormalConjecturesForMathlib/Data/Nat/Prime/Finset.lean
 @@ -15,7 +15,7 @@ limitations under the License.
@@ -2684,7 +3334,7 @@ index 59d7a2737f49ce0807d3d11c0dc7040b5f36dc70..80ddb0e832549e7ff54317e90ea9ce9b
  public import Mathlib.Algebra.GCDMonoid.Nat
  
 diff --git a/FormalConjecturesForMathlib/Data/Sym/Sym2.lean b/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
-index c72bf9df218f57e79430626be664828eac45cfee..e71653f4162679e21b907c288912f8ca22c750cf 100644
+index c72bf9d..e71653f 100644
 --- a/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
 +++ b/FormalConjecturesForMathlib/Data/Sym/Sym2.lean
 @@ -16,13 +16,3 @@ limitations under the License.
@@ -2702,7 +3352,7 @@ index c72bf9df218f57e79430626be664828eac45cfee..e71653f4162679e21b907c288912f8ca
 -
 -end Sym2
 diff --git a/FormalConjecturesForMathlib/NumberTheory/BeurlingPrimes.lean b/FormalConjecturesForMathlib/NumberTheory/BeurlingPrimes.lean
-index 5c65f6bda0b3dc8f473be157036a5d04a24b3393..0f63def6a04673a8035783acabd02528c4d36cf6 100644
+index 5c65f6b..0f63def 100644
 --- a/FormalConjecturesForMathlib/NumberTheory/BeurlingPrimes.lean
 +++ b/FormalConjecturesForMathlib/NumberTheory/BeurlingPrimes.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2715,7 +3365,7 @@ index 5c65f6bda0b3dc8f473be157036a5d04a24b3393..0f63def6a04673a8035783acabd02528
  
  @[expose] public section
 diff --git a/FormalConjecturesForMathlib/NumberTheory/NormalNumber.lean b/FormalConjecturesForMathlib/NumberTheory/NormalNumber.lean
-index faaae8365ea64aa2d829221fdb669de510b83eed..b46c27e03b84b15971344016ce4ae986dd27b6d3 100644
+index faaae83..b46c27e 100644
 --- a/FormalConjecturesForMathlib/NumberTheory/NormalNumber.lean
 +++ b/FormalConjecturesForMathlib/NumberTheory/NormalNumber.lean
 @@ -21,9 +21,10 @@ public import Mathlib.Topology.MetricSpace.Pseudo.Defs
@@ -2778,7 +3428,7 @@ index faaae8365ea64aa2d829221fdb669de510b83eed..b46c27e03b84b15971344016ce4ae986
  if it is normal in every integer base `b ≥ 2`. -/
  noncomputable def IsAbsolutelyNormal (x : ℝ) : Prop :=
 diff --git a/FormalConjecturesForMathlib/NumberTheory/NumberField/Quadratic.lean b/FormalConjecturesForMathlib/NumberTheory/NumberField/Quadratic.lean
-index 71aed3069364b0c31b6a7a498526352d94454600..a17783a917b49b30c87ec1edb8db265d3f830b92 100644
+index 71aed30..a17783a 100644
 --- a/FormalConjecturesForMathlib/NumberTheory/NumberField/Quadratic.lean
 +++ b/FormalConjecturesForMathlib/NumberTheory/NumberField/Quadratic.lean
 @@ -16,6 +16,7 @@ limitations under the License.
@@ -2804,7 +3454,7 @@ index 71aed3069364b0c31b6a7a498526352d94454600..a17783a917b49b30c87ec1edb8db265d
  and is finite-dimensional over `ℚ`. -/
  instance Algebra.IsQuadraticExtension.to_numberField (K : Type*) [Field K] [CharZero K]
 diff --git a/FormalConjecturesForMathlib/Order/Unimodular.lean b/FormalConjecturesForMathlib/Order/Unimodular.lean
-index a6fff209049aad18e348a0d28bae053e5aebd22a..026744f5674dbef0fcc0ab6c4ce6dcb4a3d3f7db 100644
+index a6fff20..026744f 100644
 --- a/FormalConjecturesForMathlib/Order/Unimodular.lean
 +++ b/FormalConjecturesForMathlib/Order/Unimodular.lean
 @@ -16,7 +16,7 @@ limitations under the License.
@@ -2817,7 +3467,7 @@ index a6fff209049aad18e348a0d28bae053e5aebd22a..026744f5674dbef0fcc0ab6c4ce6dcb4
  public import Mathlib.Order.Monotone.Basic
  
 diff --git a/FormalConjecturesForMathlib/Probability/FiniteMethod.lean b/FormalConjecturesForMathlib/Probability/FiniteMethod.lean
-index 78539d8d4f3b3dcea5cde30ff72a46278a5d616e..be81a2841751624f2fdc0fb8b40d04589d85dead 100644
+index 78539d8..be81a28 100644
 --- a/FormalConjecturesForMathlib/Probability/FiniteMethod.lean
 +++ b/FormalConjecturesForMathlib/Probability/FiniteMethod.lean
 @@ -17,7 +17,7 @@ module
@@ -2830,7 +3480,7 @@ index 78539d8d4f3b3dcea5cde30ff72a46278a5d616e..be81a2841751624f2fdc0fb8b40d0458
  @[expose] public section
  
 diff --git a/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean b/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean
-index c04cc77aad3daeb0c707660f33c501fe8f375527..c87a40afd1f0d43576e138919fdd99dba43077a6 100644
+index c04cc77..c87a40a 100644
 --- a/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean
 +++ b/FormalConjecturesForMathlib/SetTheory/Cardinal/Arithmetic.lean
 @@ -16,31 +16,3 @@ limitations under the License.
@@ -2866,7 +3516,7 @@ index c04cc77aad3daeb0c707660f33c501fe8f375527..c87a40afd1f0d43576e138919fdd99db
 -
 -end Cardinal
 diff --git a/FormalConjecturesForMathlib/Tactic/Linter/Term.lean b/FormalConjecturesForMathlib/Tactic/Linter/Term.lean
-index ffce3f5a414c70222fc943b3499332c0694a3a43..38a356884651fbe097134d34aeab9833025a295b 100644
+index ffce3f5..38a3568 100644
 --- a/FormalConjecturesForMathlib/Tactic/Linter/Term.lean
 +++ b/FormalConjecturesForMathlib/Tactic/Linter/Term.lean
 @@ -20,7 +20,7 @@ public import FormalConjecturesForMathlib.Lean.Elab.InfoTree.Util
@@ -2879,7 +3529,7 @@ index ffce3f5a414c70222fc943b3499332c0694a3a43..38a356884651fbe097134d34aeab9833
  open Lean Meta Elab Command
  
 diff --git a/FormalConjecturesUtil/Linters/ImportLinter.lean b/FormalConjecturesUtil/Linters/ImportLinter.lean
-index 9cb0355aba3a3a3b0a2c9e66fc2b7a2b5085834e..60e2b35d35be4bb6e36d58cad01055b5ba1793c7 100644
+index 9cb0355..60e2b35 100644
 --- a/FormalConjecturesUtil/Linters/ImportLinter.lean
 +++ b/FormalConjecturesUtil/Linters/ImportLinter.lean
 @@ -41,6 +41,15 @@ register_option linter.style.imports : Bool := {
@@ -2916,16 +3566,551 @@ index 9cb0355aba3a3a3b0a2c9e66fc2b7a2b5085834e..60e2b35d35be4bb6e36d58cad01055b5
    checkImports importIds (isFormalConjecturesModule := true) headerStr
  
  end ImportLinter
+diff --git a/FullOldProblems.lean b/FullOldProblems.lean
+new file mode 100644
+index 0000000..6dc94b9
+--- /dev/null
++++ b/FullOldProblems.lean
+@@ -0,0 +1,341 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import Mathlib
++
++/-!
++# Seventeen longstanding problems — statements only
++
++Closed definitions of the seventeen propositions used by the HistoricalOpen
++problem files. Finite labels lose no generality. Sources are cited in those files.
++-/
++
++open Finset
++open scoped BigOperators
++
++noncomputable section
++local instance (p : Prop) : Decidable p := Classical.propDecidable p
++
++namespace FullOldProblems
++
++/-! Shared encodings for finite simple graphs. -/
++
++def maximumDegree {n : ℕ} (G : SimpleGraph (Fin n)) : ℕ :=
++  univ.sup fun v => (G.neighborSet v).ncard
++
++/-- The palette bound applies to actual edges only, including when k = 0. -/
++def ProperEdgeColoring {n : ℕ} (G : SimpleGraph (Fin n)) (k : ℕ)
++    (c : Sym2 (Fin n) → ℕ) : Prop :=
++  (∀ e ∈ G.edgeSet, c e < k) ∧
++  ∀ u v w : Fin n, G.Adj u v → G.Adj u w → v ≠ w →
++    c s(u, v) ≠ c s(u, w)
++
++def EdgeColorable {n : ℕ} (G : SimpleGraph (Fin n)) (k : ℕ) : Prop :=
++  ∃ c, ProperEdgeColoring G k c
++
++def HasHamiltonPath {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
++  ∃ a b : Fin n, ∃ w : G.Walk a b, w.IsPath ∧ ∀ v, v ∈ w.support
++
++def HasHamiltonCycle {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
++  ∃ a : Fin n, ∃ w : G.Walk a a, w.IsCycle ∧ ∀ v, v ∈ w.support
++
++/-- Edge disjointness, with full coverage. Vertices may be shared. -/
++def PartitionsEdges {n r : ℕ} (G : SimpleGraph (Fin n))
++    (E : Fin r → Set (Sym2 (Fin n))) : Prop :=
++  (∀ i j : Fin r, i ≠ j → Disjoint (E i) (E j)) ∧
++  ∀ e : Sym2 (Fin n), e ∈ G.edgeSet ↔ ∃ i : Fin r, e ∈ E i
++
++/-! 1. Hajós (1968): the exact cycle count for every finite even simple graph. -/
++
++def HajosCycleDecomposition : Prop :=
++  ∀ n : ℕ, 1 ≤ n → ∀ G : SimpleGraph (Fin n),
++    (∀ v : Fin n, Even (G.neighborSet v).ncard) →
++    ∃ r : ℕ, r ≤ (n - 1) / 2 ∧ ∃ a : Fin r → Fin n,
++      ∃ w : (i : Fin r) → G.Walk (a i) (a i),
++        (∀ i : Fin r, (w i).IsCycle) ∧
++        PartitionsEdges G (fun i => (w i).edgeSet)
++
++/-! Multigraphs retain parallel edges as distinct labels. Loops are allowed;
++they count twice in degrees, never cross a cut, and cancel in flow conservation.
++The chosen endpoint order is a reference orientation, not a restriction. -/
++
++structure MultiGraph (n m : ℕ) where
++  tail : Fin m → Fin n
++  head : Fin m → Fin n
++
++namespace MultiGraph
++
++def degreeIn {n m : ℕ} (G : MultiGraph n m) (E : Finset (Fin m)) (v : Fin n) : ℕ :=
++  (E.filter (fun e => G.tail e = v)).card + (E.filter (fun e => G.head e = v)).card
++
++def cutSize {n m : ℕ} (G : MultiGraph n m) (S : Finset (Fin n)) : ℕ :=
++  (univ.filter (fun e => ¬ (G.tail e ∈ S ↔ G.head e ∈ S))).card
++
++/-- An edge is a bridge iff some vertex cut consists of that single edge. -/
++def Bridgeless {n m : ℕ} (G : MultiGraph n m) : Prop :=
++  ∀ S : Finset (Fin n), G.cutSize S ≠ 1
++
++def Cubic {n m : ℕ} (G : MultiGraph n m) : Prop :=
++  ∀ v : Fin n, G.degreeIn univ v = 3
++
++def PerfectMatching {n m : ℕ} (G : MultiGraph n m) (M : Finset (Fin m)) : Prop :=
++  ∀ v : Fin n, G.degreeIn M v = 1
++
++/-- Signed integer flows are equivalent to orienting edges and using positive
++values 1,...,k-1: reverse an edge whenever its signed value is negative. -/
++def IsNowhereZeroFlow {n m : ℕ} (G : MultiGraph n m) (k : ℕ)
++    (f : Fin m → ℤ) : Prop :=
++  (∀ e, f e ≠ 0 ∧ |f e| < (k : ℤ)) ∧
++  ∀ v : Fin n,
++    (∑ e ∈ univ.filter (fun e => G.tail e = v), f e) =
++    ∑ e ∈ univ.filter (fun e => G.head e = v), f e
++
++def HasNowhereZeroFlow {n m : ℕ} (G : MultiGraph n m) (k : ℕ) : Prop :=
++  ∃ f, G.IsNowhereZeroFlow k f
++
++def FourEdgeConnected {n m : ℕ} (G : MultiGraph n m) : Prop :=
++  ∀ S : Finset (Fin n), S.Nonempty → S ≠ univ → 4 ≤ G.cutSize S
++
++end MultiGraph
++
++/-! 2. Berge–Fulkerson (1971): six matchings, with multiplicity exactly two. -/
++
++def BergeFulkerson : Prop :=
++  ∀ n m : ℕ, ∀ G : MultiGraph n m, G.Bridgeless → G.Cubic →
++    ∃ M : Fin 6 → Finset (Fin m),
++      (∀ i, G.PerfectMatching (M i)) ∧
++      ∀ e : Fin m, (univ.filter (fun i => e ∈ M i)).card = 2
++
++/-! 3. Vizing (1968): independence number of edge-chromatic critical graphs. -/
++
++/-- For finite simple graphs Vizing's theorem makes this equivalent to:
++connected, chromatic index Δ+1, and deleting any edge lowers the index to Δ. -/
++def DeltaCritical {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
++  G.Connected ∧ ¬ EdgeColorable G (maximumDegree G) ∧
++    ∀ e ∈ G.edgeSet, EdgeColorable (G.deleteEdges {e}) (maximumDegree G)
++
++def VizingIndependence : Prop :=
++  ∀ n : ℕ, ∀ G : SimpleGraph (Fin n), DeltaCritical G →
++    ∀ S : Finset (Fin n), (∀ u ∈ S, ∀ v ∈ S, ¬ G.Adj u v) → 2 * S.card ≤ n
++
++/-! 4. Chvátal (1973): existence of a universal toughness threshold. -/
++
++def componentsAfterDeletion {n : ℕ} (G : SimpleGraph (Fin n))
++    (S : Finset (Fin n)) : ℕ :=
++  Nat.card (G.induce {v | v ∉ S}).ConnectedComponent
++
++def IsTough {n : ℕ} (G : SimpleGraph (Fin n)) (t : ℝ) : Prop :=
++  ∀ S : Finset (Fin n), 1 < componentsAfterDeletion G S →
++    t * (componentsAfterDeletion G S : ℝ) ≤ (S.card : ℝ)
++
++def ChvatalToughness : Prop :=
++  ∃ t : ℝ, 0 < t ∧ ∀ n : ℕ, 3 ≤ n →
++    ∀ G : SimpleGraph (Fin n), IsTough G t → HasHamiltonCycle G
++
++/-! 5. Lovász (1969): spanning paths in all connected vertex-transitive graphs. -/
++
++def VertexTransitive {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
++  ∀ u v : Fin n, ∃ φ : G ≃g G, φ u = v
++
++def LovaszHamiltonPath : Prop :=
++  ∀ n : ℕ, ∀ G : SimpleGraph (Fin n),
++    G.Connected → VertexTransitive G → HasHamiltonPath G
++
++/-! 6. Kotzig (1963/1964): a perfect 1-factorization for every even order. -/
++
++def SimplePerfectMatching {n : ℕ} (G : SimpleGraph (Fin n))
++    (M : Finset (Sym2 (Fin n))) : Prop :=
++  (∀ e ∈ M, e ∈ G.edgeSet) ∧
++  ∀ v : Fin n, (M.filter (fun e => v ∈ e)).card = 1
++
++def KotzigPerfectFactorization : Prop :=
++  ∀ n : ℕ, 4 ≤ n → Even n →
++    ∃ M : Fin (n - 1) → Finset (Sym2 (Fin n)),
++      (∀ i, SimplePerfectMatching (⊤ : SimpleGraph (Fin n)) (M i)) ∧
++      PartitionsEdges (⊤ : SimpleGraph (Fin n)) (fun i => (M i : Set _)) ∧
++      ∀ i j, i ≠ j → ∃ a : Fin n,
++        ∃ w : (⊤ : SimpleGraph (Fin n)).Walk a a,
++          w.IsCycle ∧ (∀ v, v ∈ w.support) ∧
++          w.edgeSet = ((M i : Set _) ∪ (M j : Set _))
++
++/-! 7. Riddell–Erdős / Erdős 530 (1969/1973): exact Sidon-subset asymptotic. -/
++
++def IsSidon (S : Finset ℝ) : Prop :=
++  ∀ a ∈ S, ∀ b ∈ S, ∀ c ∈ S, ∀ d ∈ S,
++    a + b = c + d → (a = c ∧ b = d) ∨ (a = d ∧ b = c)
++
++/-- Both bounds for ℓ(N) / √N → 1 are stated explicitly: a uniform guarantee
++for every real N-element set, and an N-element set witnessing the upper bound.
++Repeated summands are permitted in the definition of Sidon. -/
++def SidonSubsetAsymptotic : Prop :=
++  ∀ ε : ℝ, 0 < ε → ∃ N₀ : ℕ, ∀ N : ℕ, N₀ ≤ N →
++    (∀ A : Finset ℝ, A.card = N → ∃ S : Finset ℝ,
++      S ⊆ A ∧ IsSidon S ∧ (1 - ε) * Real.sqrt N ≤ (S.card : ℝ)) ∧
++    (∃ A : Finset ℝ, A.card = N ∧ ∀ S : Finset ℝ, S ⊆ A → IsSidon S →
++      (S.card : ℝ) ≤ (1 + ε) * Real.sqrt N)
++
++/-! 8. Tutte (1954): a nowhere-zero 5-flow on every bridgeless multigraph. -/
++
++def TutteFiveFlow : Prop :=
++  ∀ n m : ℕ, ∀ G : MultiGraph n m, G.Bridgeless → G.HasNowhereZeroFlow 5
++
++/-! 9. Tutte (1972): a nowhere-zero 3-flow on every 4-edge-connected multigraph.
++This is the separate classical 3-flow conjecture, at its original threshold. -/
++
++def TutteThreeFlow : Prop :=
++  ∀ n m : ℕ, ∀ G : MultiGraph n m, G.FourEdgeConnected → G.HasNowhereZeroFlow 3
++
++/-! 10. Riddell–Erdős (1969/1975): the full progression-length family
++asked in Erdős 1975, pp. 306–307. The current Erdős 201 page highlights k=3;
++we retain every fixed k >= 3 from the original source. -/
++
++def ProgressionFree (k : ℕ) (A : Finset ℤ) : Prop :=
++  ∀ a d : ℤ, d ≠ 0 → ¬ ∀ i : Fin k, a + (i.val : ℤ) * d ∈ A
++
++def maxProgressionFreeSubset (k : ℕ) (A : Finset ℤ) : ℕ :=
++  (A.powerset.filter (ProgressionFree k)).sup Finset.card
++
++def intervalProgressionNumber (k N : ℕ) : ℕ :=
++  maxProgressionFreeSubset k (Icc 1 (N : ℤ))
++
++/-- The minimum is over all N-element integer sets, not only intervals. -/
++def universalProgressionNumber (k N : ℕ) : ℕ :=
++  sInf {r : ℕ | ∃ A : Finset ℤ, A.card = N ∧ maxProgressionFreeSubset k A = r}
++
++/-- We use the largest progression-free subset convention for R_k, as on
++the modern problem page. The original uses the forcing threshold R_k+1;
++for each fixed k >= 3, R_k tends to infinity, so the limits are equivalent. -/
++def RiddellErdosProgressionRatio : Prop :=
++  ∀ k : ℕ, 3 ≤ k → Filter.Tendsto (fun N : ℕ =>
++    (intervalProgressionNumber k N : ℝ) / (universalProgressionNumber k N : ℝ))
++    Filter.atTop (nhds 1)
++
++/-! 11. Erdős (asked before 1973): linear minimum degree in arbitrarily
++large edge-critical four-chromatic graphs. This is the positive answer to
++the original yes/no question, not an assertion that the answer is positive. -/
++
++def FourChromaticCritical {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
++  G.chromaticNumber = 4 ∧ ∀ e ∈ G.edgeSet, (G.deleteEdges {e}).chromaticNumber = 3
++
++def ErdosCriticalMinimumDegree : Prop :=
++  ∃ ε : ℝ, 0 < ε ∧ ∀ N : ℕ, ∃ n : ℕ, N ≤ n ∧
++    ∃ G : SimpleGraph (Fin n), FourChromaticCritical G ∧
++      ∀ v : Fin n, ε * (n : ℝ) ≤ ((G.neighborSet v).ncard : ℝ)
++
++/-! 12. Erdős–Purdy (1971): all four-point subsets with fewer than six
++distinct distances, including equal distances on pairs sharing a vertex. -/
++
++abbrev Plane := EuclideanSpace ℝ (Fin 2)
++
++def DegenerateQuadruple (Q : Finset Plane) : Prop :=
++  Q.card = 4 ∧ ∃ a ∈ Q, ∃ b ∈ Q, ∃ c ∈ Q, ∃ d ∈ Q,
++    a ≠ b ∧ c ≠ d ∧ s(a, b) ≠ s(c, d) ∧ dist a b = dist c d
++
++def degenerateQuadrupleCount (A : Finset Plane) : ℕ :=
++  (A.powerset.filter DegenerateQuadruple).card
++
++def ErdosPurdyDegenerateQuadruples : Prop :=
++  ∀ ε : ℝ, 0 < ε → ∃ N : ℕ, ∀ A : Finset Plane, N ≤ A.card →
++    (degenerateQuadrupleCount A : ℝ) ≤ (A.card : ℝ) ^ (3 + ε)
++
++/-! 13. Marcus (1973), independently de Oliveira (1982): determinant of
++the sum of arbitrary complex normal matrices. Characteristic polynomials
++specify the complete eigenvalue lists with algebraic multiplicities. -/
++
++def HasEigenvalueList {n : ℕ} (A : Matrix (Fin n) (Fin n) ℂ)
++    (a : Fin n → ℂ) : Prop :=
++  A.charpoly = ∏ i, (Polynomial.X - Polynomial.C (a i))
++
++def MarcusDeOliveira : Prop :=
++  ∀ n : ℕ, 1 ≤ n → ∀ A B : Matrix (Fin n) (Fin n) ℂ,
++    A * A.conjTranspose = A.conjTranspose * A →
++    B * B.conjTranspose = B.conjTranspose * B →
++    ∀ a b : Fin n → ℂ, HasEigenvalueList A a → HasEigenvalueList B b →
++      (A + B).det ∈ convexHull ℝ
++        (Set.range (fun σ : Equiv.Perm (Fin n) => ∏ i, (a i + b (σ i))))
++
++/-! 14. Minkowski (documented by 1956): the full inhomogeneous product
++bound in every dimension, for every nonsingular real matrix and shift. -/
++
++def MinkowskiInhomogeneousProduct : Prop :=
++  ∀ n : ℕ, 1 ≤ n → ∀ A : Matrix (Fin n) (Fin n) ℝ, A.det ≠ 0 →
++    ∀ b : Fin n → ℝ, ∃ z : Fin n → ℤ,
++      (∏ i, |(∑ j, A i j * (z j : ℝ)) - b i|) ≤ |A.det| / (2 : ℝ) ^ n
++
++/-! 15. Cantoni (1950): planar cubic graphs with exactly three Hamilton
++cycles contain a triangle. Cycles are counted by undirected edge sets.
++Fáry's theorem makes this straight-line definition of planarity equivalent
++to ordinary planarity for finite simple graphs; no convex-position assumption. -/
++
++def StraightLinePlanar {n : ℕ} (G : SimpleGraph (Fin n)) : Prop :=
++  ∃ p : Fin n → Plane, Function.Injective p ∧
++    (∀ u v, G.Adj u v → ∀ w, p w ∈ segment ℝ (p u) (p v) → w = u ∨ w = v) ∧
++    ∀ u v x y, G.Adj u v → G.Adj x y → s(u, v) ≠ s(x, y) →
++      ∀ z ∈ segment ℝ (p u) (p v), z ∈ segment ℝ (p x) (p y) →
++        (z = p u ∨ z = p v) ∧ (z = p x ∨ z = p y)
++
++def hamiltonCycleEdgeSets {n : ℕ} (G : SimpleGraph (Fin n)) :
++    Set (Finset (Sym2 (Fin n))) :=
++  {E | ∃ a : Fin n, ∃ w : G.Walk a a,
++    w.IsCycle ∧ (∀ v, v ∈ w.support) ∧ w.edges.toFinset = E}
++
++def Cantoni : Prop :=
++  ∀ n : ℕ, ∀ G : SimpleGraph (Fin n), StraightLinePlanar G →
++    (∀ v, (G.neighborSet v).ncard = 3) → (hamiltonCycleEdgeSets G).ncard = 3 →
++      ∃ a b c : Fin n, G.Adj a b ∧ G.Adj b c ∧ G.Adj c a
++
++/-! 16. Marcus (1965): permanent of a matrix versus the permanent of its
++block permanents, including the original equality characterization. The whole
++matrix is complex Hermitian positive semidefinite; off-diagonal blocks need
++not themselves be positive semidefinite. -/
++
++open scoped ComplexOrder
++
++def matrixBlock {m k : ℕ}
++    (A : Matrix (Fin m × Fin k) (Fin m × Fin k) ℂ) (i j : Fin m) :
++    Matrix (Fin k) (Fin k) ℂ := fun a b => A (i, a) (j, b)
++
++def blockPermanentMatrix {m k : ℕ}
++    (A : Matrix (Fin m × Fin k) (Fin m × Fin k) ℂ) : Matrix (Fin m) (Fin m) ℂ :=
++  fun i j => (matrixBlock A i j).permanent
++
++def MarcusBlockPermanent : Prop :=
++  ∀ m k : ℕ, 1 ≤ m → 1 ≤ k →
++    ∀ A : Matrix (Fin m × Fin k) (Fin m × Fin k) ℂ, A.PosSemidef →
++      (blockPermanentMatrix A).permanent ≤ A.permanent ∧
++      (2 ≤ k → (∀ i, (matrixBlock A i i).PosDef) →
++        (A.permanent = (blockPermanentMatrix A).permanent ↔
++          ∀ i j : Fin m, i ≠ j → ∀ a b : Fin k, A (i, a) (j, b) = 0))
++
++/-! 17. Wang (1974): can a real Hadamard matrix of order greater than two
++have zero permanent? We encode the negative answer, in every order, without
++restricting to Sylvester or circulant matrices. Proving or disproving this
++proposition answers the original yes/no question. -/
++
++def IsSignHadamard {n : ℕ} (H : Matrix (Fin n) (Fin n) ℤ) : Prop :=
++  (∀ i j, H i j = 1 ∨ H i j = -1) ∧ H * H.transpose = (n : ℤ) • 1
++
++def WangHadamardPermanentNonvanishing : Prop :=
++  ∀ n : ℕ, 2 < n → ∀ H : Matrix (Fin n) (Fin n) ℤ,
++    IsSignHadamard H → H.permanent ≠ 0
++
++def statements : Fin 17 → Prop := ![
++  HajosCycleDecomposition, BergeFulkerson, VizingIndependence,
++  ChvatalToughness, LovaszHamiltonPath, KotzigPerfectFactorization,
++  SidonSubsetAsymptotic, TutteFiveFlow, TutteThreeFlow,
++  RiddellErdosProgressionRatio, ErdosCriticalMinimumDegree,
++  ErdosPurdyDegenerateQuadruples, MarcusDeOliveira,
++  MinkowskiInhomogeneousProduct, Cantoni, MarcusBlockPermanent,
++  WangHadamardPermanentNonvanishing]
++
++end FullOldProblems
+diff --git a/FullOldProblems/Audit.lean b/FullOldProblems/Audit.lean
+new file mode 100644
+index 0000000..0adf7ff
+--- /dev/null
++++ b/FullOldProblems/Audit.lean
+@@ -0,0 +1,182 @@
++/-
++Copyright 2026 The Formal Conjectures Authors.
++Licensed under the Apache License, Version 2.0 (the "License");
++you may not use this file except in compliance with the License.
++You may obtain a copy of the License at
++    https://www.apache.org/licenses/LICENSE-2.0
++Unless required by applicable law or agreed to in writing, software
++distributed under the License is distributed on an "AS IS" BASIS,
++WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++See the License for the specific language governing permissions and
++limitations under the License.
++-/
++
++import FullOldProblems
++import Lean.Util.CollectAxioms
++
++open FullOldProblems Finset
++open scoped BigOperators
++
++/- Boundary checks target possible encoding errors, not the open conjectures. -/
++
++example (n : ℕ) : EdgeColorable (⊥ : SimpleGraph (Fin n)) 0 := by
++  refine ⟨fun _ => 0, ?_, ?_⟩ <;> simp
++
++example : ¬ EdgeColorable (⊤ : SimpleGraph (Fin 2)) 0 := by
++  rintro ⟨c, h, _⟩
++  have h01 : s((0 : Fin 2), 1) ∈ (⊤ : SimpleGraph (Fin 2)).edgeSet := by simp
++  have := h _ h01
++  omega
++
++example {n : ℕ} (G : SimpleGraph (Fin n)) [DecidableRel G.Adj] (v : Fin n) :
++    (G.neighborSet v).ncard = G.degree v := by
++  classical
++  calc
++    _ = (G.neighborFinset v : Set (Fin n)).ncard :=
++      congrArg Set.ncard (G.coe_neighborFinset v).symm
++    _ = (G.neighborFinset v).card := Set.ncard_coe_finset _
++    _ = G.degree v := rfl
++
++example : HasHamiltonPath (⊥ : SimpleGraph (Fin 1)) := by
++  refine ⟨0, 0, SimpleGraph.Walk.nil, ?_, ?_⟩
++  · simp
++  · intro v
++    have : v = 0 := Subsingleton.elim _ _
++    simp [this]
++
++example (n : ℕ) :
++    PartitionsEdges (⊥ : SimpleGraph (Fin n)) (Fin.elim0 : Fin 0 → Set (Sym2 (Fin n))) := by
++  constructor
++  · intro i
++    exact Fin.elim0 i
++  · intro e
++    simp
++
++/- A two-vertex cubic multigraph with three distinct parallel edges. -/
++private def parallelThree : MultiGraph 2 3 := ⟨fun _ => 0, fun _ => 1⟩
++
++example : parallelThree.Cubic := by
++  intro v
++  fin_cases v <;> norm_num [MultiGraph.degreeIn, parallelThree]
++
++example : parallelThree.cutSize {0} = 3 := by
++  norm_num [MultiGraph.cutSize, parallelThree]
++
++example : parallelThree.PerfectMatching {0} := by
++  intro v
++  fin_cases v <;> norm_num [MultiGraph.degreeIn, parallelThree]
++
++/- Three reference-oriented parallel edges need signed values, e.g. 1, 1, -2. -/
++example : parallelThree.IsNowhereZeroFlow 3 ![1, 1, -2] := by
++  constructor
++  · intro e
++    fin_cases e <;> norm_num
++  · intro v
++    fin_cases v <;>
++      norm_num [parallelThree, Fin.sum_univ_succ]
++
++/- A loop contributes two to degree and zero to every cut. -/
++private def oneLoop : MultiGraph 1 1 := ⟨fun _ => 0, fun _ => 0⟩
++
++example : oneLoop.degreeIn univ 0 = 2 := by
++  norm_num [MultiGraph.degreeIn, oneLoop]
++
++example (S : Finset (Fin 1)) : oneLoop.cutSize S = 0 := by
++  simp [MultiGraph.cutSize, oneLoop]
++
++example : oneLoop.IsNowhereZeroFlow 5 (fun _ => 4) := by
++  constructor
++  · norm_num
++  · intro v
++    rfl
++
++example : ¬ oneLoop.IsNowhereZeroFlow 5 (fun _ => 5) := by
++  intro h
++  have := (h.1 0).2
++  norm_num at this
++
++/- Repeated summands matter: 0+2=1+1 excludes this set from Sidon sets. -/
++example : ¬ IsSidon ({0, 1, 2} : Finset ℝ) := by
++  intro h
++  have := h 0 (by simp) 2 (by simp) 1 (by simp) 1 (by simp) (by norm_num)
++  norm_num at this
++
++/- Nonzero common difference excludes 0,1,2 but allows a singleton. -/
++example : ¬ ProgressionFree 3 ({0, 1, 2} : Finset ℤ) := by
++  intro h
++  apply h 0 1 (by norm_num)
++  intro i
++  fin_cases i <;> norm_num
++
++example : ProgressionFree 3 ({7} : Finset ℤ) := by
++  intro a d hd h
++  have h0 := h 0
++  have h1 := h 1
++  simp at h0 h1
++  omega
++
++/- A diagonal matrix retains repeated eigenvalues with their multiplicity. -/
++example : HasEigenvalueList (Matrix.diagonal (![2, 2] : Fin 2 → ℂ)) ![2, 2] := by
++  exact Matrix.charpoly_diagonal _
++
++example : ¬ HasEigenvalueList (Matrix.diagonal (![2, 2] : Fin 2 → ℂ)) ![2, 3] := by
++  intro h
++  have he := congrArg (Polynomial.eval (3 : ℂ)) h
++  norm_num [HasEigenvalueList, Matrix.charpoly_diagonal, Fin.prod_univ_succ] at he
++
++/- The sharp scalar Minkowski constant is 1/2, not 1 or 1/4. -/
++example : (∏ i : Fin 1, |(∑ j : Fin 1,
++    (1 : Matrix (Fin 1) (Fin 1) ℝ) i j * ((0 : Fin 1 → ℤ) j : ℝ)) - 1/2|) =
++    |(1 : Matrix (Fin 1) (Fin 1) ℝ).det| / (2 : ℝ) ^ 1 := by
++  norm_num
++
++/- Counting edge sets identifies the two orientations of a Hamilton cycle. -/
++example {n : ℕ} (G : SimpleGraph (Fin n)) (a : Fin n) (w : G.Walk a a) :
++    w.reverse.edges.toFinset = w.edges.toFinset := by
++  simp
++
++/- Blocks of size one recover the original matrix, so the nontrivial
++Marcus equality clause must not apply to block size one. -/
++example {m : ℕ} (B : Matrix (Fin m) (Fin m) ℂ) :
++    blockPermanentMatrix (fun (i a : Fin m × Fin 1) => B i.1 a.1) = B := by
++  ext i j
++  simp [blockPermanentMatrix, matrixBlock, Matrix.permanent]
++
++/- The order-two exception in Wang's question is essential. -/
++example : IsSignHadamard (!![1, 1; 1, -1] : Matrix (Fin 2) (Fin 2) ℤ) := by
++  constructor
++  · intro i j
++    fin_cases i <;> fin_cases j <;> norm_num
++  · ext i j
++    fin_cases i <;> fin_cases j <;>
++      norm_num [Matrix.mul_apply, Fin.sum_univ_succ, Matrix.one_apply]
++
++example : (!![1, 1; 1, -1] : Matrix (Fin 2) (Fin 2) ℤ).permanent = 0 := by
++  decide
++
++/- Audit the bodies transitively, not merely the type `Prop`. -/
++open Lean Elab Command in
++run_elab do
++  let names : Array Name := #[
++    ``HajosCycleDecomposition, ``BergeFulkerson,
++    ``VizingIndependence, ``ChvatalToughness, ``LovaszHamiltonPath,
++    ``KotzigPerfectFactorization, ``SidonSubsetAsymptotic,
++    ``TutteFiveFlow, ``TutteThreeFlow,
++    ``RiddellErdosProgressionRatio, ``ErdosCriticalMinimumDegree,
++    ``ErdosPurdyDegenerateQuadruples, ``MarcusDeOliveira,
++    ``MinkowskiInhomogeneousProduct, ``Cantoni, ``MarcusBlockPermanent,
++    ``WangHadamardPermanentNonvanishing]
++  for name in names do
++    let info ← getConstInfo name
++    unless info.type == .sort .zero do
++      throwError "{name} is not a closed proposition definition"
++    let .defnInfo _ := info | throwError "{name} must be a definition"
++    let axs ← collectAxioms name
++    let bad := axs.filter (fun a => a != ``propext && a != ``Classical.choice && a != ``Quot.sound)
++    unless bad.isEmpty do
++      throwError "{name} has unexpected axioms: {bad}"
++    logInfo m!"AUDITED {name}: {axs}"
++  let axs ← collectAxioms ``statements
++  unless axs.all (fun a => a == ``propext || a == ``Classical.choice || a == ``Quot.sound) do
++    throwError "Registry has unexpected axioms: {axs}"
++  logInfo "PASS: seventeen closed proposition definitions; no conjecture axioms or admitted dependencies."
 diff --git a/Math15.lean b/Math15.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..addf730b13aabe46dcc086c0a55236b257be44eb
+index 0000000..addf730
 --- /dev/null
 +++ b/Math15.lean
 @@ -0,0 +1 @@
 +import Math15.Interfaces
 diff --git a/Math15/Collatz.lean b/Math15/Collatz.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..0a33c01f6b78cc5fdfd6c048719d43d849f63c8c
+index 0000000..0a33c01
 --- /dev/null
 +++ b/Math15/Collatz.lean
 @@ -0,0 +1,58 @@
@@ -2989,7 +4174,7 @@ index 0000000000000000000000000000000000000000..0a33c01f6b78cc5fdfd6c048719d43d8
 +end Math15.Collatz
 diff --git a/Math15/CollatzCertificates.lean b/Math15/CollatzCertificates.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..2c9e1215b3ce50d380b733f62cc162af312b56b1
+index 0000000..2c9e121
 --- /dev/null
 +++ b/Math15/CollatzCertificates.lean
 @@ -0,0 +1,170 @@
@@ -3165,7 +4350,7 @@ index 0000000000000000000000000000000000000000..2c9e1215b3ce50d380b733f62cc162af
 +end Math15.CollatzCertificates
 diff --git a/Math15/Frankl.lean b/Math15/Frankl.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..7e7bc3f93218f855cc4260677002f4ea3aac88d6
+index 0000000..7e7bc3f
 --- /dev/null
 +++ b/Math15/Frankl.lean
 @@ -0,0 +1,45 @@
@@ -3216,7 +4401,7 @@ index 0000000000000000000000000000000000000000..7e7bc3f93218f855cc4260677002f4ea
 +end Math15.Frankl
 diff --git a/Math15/Graceful.lean b/Math15/Graceful.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..f055fcb62e318fdf2af361543385e9c2870da74c
+index 0000000..f055fcb
 --- /dev/null
 +++ b/Math15/Graceful.lean
 @@ -0,0 +1,53 @@
@@ -3275,7 +4460,7 @@ index 0000000000000000000000000000000000000000..f055fcb62e318fdf2af361543385e9c2
 +end Math15.Graceful
 diff --git a/Math15/Interfaces.lean b/Math15/Interfaces.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..da1585f0f9ddcba95fce20644d84a36081d4f743
+index 0000000..da1585f
 --- /dev/null
 +++ b/Math15/Interfaces.lean
 @@ -0,0 +1,37 @@
@@ -3318,7 +4503,7 @@ index 0000000000000000000000000000000000000000..da1585f0f9ddcba95fce20644d84a360
 +end Math15
 diff --git a/Math15/LonelyRunner.lean b/Math15/LonelyRunner.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..13f945b45bf519f946566d8ad7552599075b6d3c
+index 0000000..13f945b
 --- /dev/null
 +++ b/Math15/LonelyRunner.lean
 @@ -0,0 +1,72 @@
@@ -3396,7 +4581,7 @@ index 0000000000000000000000000000000000000000..13f945b45bf519f946566d8ad7552599
 +end Math15.LonelyRunner
 diff --git a/Math15/Ramsey.lean b/Math15/Ramsey.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..e2c92452c4a6a9d48ebf004b9d8bcff483cf4e80
+index 0000000..e2c9245
 --- /dev/null
 +++ b/Math15/Ramsey.lean
 @@ -0,0 +1,60 @@
@@ -3462,7 +4647,7 @@ index 0000000000000000000000000000000000000000..e2c92452c4a6a9d48ebf004b9d8bcff4
 +end Math15.Ramsey
 diff --git a/Math30.lean b/Math30.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..30637509d935c04b5525f225a8d5ef35e81a8381
+index 0000000..3063750
 --- /dev/null
 +++ b/Math30.lean
 @@ -0,0 +1,17 @@
@@ -3485,7 +4670,7 @@ index 0000000000000000000000000000000000000000..30637509d935c04b5525f225a8d5ef35
 +-/
 diff --git a/Math30/Interfaces.lean b/Math30/Interfaces.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..696419f49ed3f3edb021ec794115c50ee2199356
+index 0000000..696419f
 --- /dev/null
 +++ b/Math30/Interfaces.lean
 @@ -0,0 +1,38 @@
@@ -3529,7 +4714,7 @@ index 0000000000000000000000000000000000000000..696419f49ed3f3edb021ec794115c50e
 +end Math30.Competition
 diff --git a/Math30/MatrixBoolean.lean b/Math30/MatrixBoolean.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..40ac725adbb3f8840c6713b46fc00a37b1a16e07
+index 0000000..40ac725
 --- /dev/null
 +++ b/Math30/MatrixBoolean.lean
 @@ -0,0 +1,371 @@
@@ -3906,7 +5091,7 @@ index 0000000000000000000000000000000000000000..40ac725adbb3f8840c6713b46fc00a37
 +end Math30
 diff --git a/Math30/MatrixBooleanFixtures.lean b/Math30/MatrixBooleanFixtures.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..a64d957ccfd1fbe522c79ca7ce337219fc176d4b
+index 0000000..a64d957
 --- /dev/null
 +++ b/Math30/MatrixBooleanFixtures.lean
 @@ -0,0 +1,215 @@
@@ -4127,7 +5312,7 @@ index 0000000000000000000000000000000000000000..a64d957ccfd1fbe522c79ca7ce337219
 +end Math30.MatrixBoolean
 diff --git a/Math30/Polya.lean b/Math30/Polya.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..cdc123b95657d25fa42260b204c0c2365867cea0
+index 0000000..cdc123b
 --- /dev/null
 +++ b/Math30/Polya.lean
 @@ -0,0 +1,230 @@
@@ -4363,7 +5548,7 @@ index 0000000000000000000000000000000000000000..cdc123b95657d25fa42260b204c0c236
 +end Math30.Polya
 diff --git a/Math30/PolyaClosability.lean b/Math30/PolyaClosability.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..360d2ec17d8376e410ff1ed93f9d630ae0d84627
+index 0000000..360d2ec
 --- /dev/null
 +++ b/Math30/PolyaClosability.lean
 @@ -0,0 +1,148 @@
@@ -4517,7 +5702,7 @@ index 0000000000000000000000000000000000000000..360d2ec17d8376e410ff1ed93f9d630a
 +end Math30.Polya
 diff --git a/Math30/PolyaDomainFixture.lean b/Math30/PolyaDomainFixture.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..d01880d6654381c002963b048a61787636223fd0
+index 0000000..d01880d
 --- /dev/null
 +++ b/Math30/PolyaDomainFixture.lean
 @@ -0,0 +1,159 @@
@@ -4682,7 +5867,7 @@ index 0000000000000000000000000000000000000000..d01880d6654381c002963b048a617876
 +end Math30.Polya.DomainFixture
 diff --git a/Math30/PolyaFiniteness.lean b/Math30/PolyaFiniteness.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..b5979fde146c0f3a9524a67a1b91916ff93b121c
+index 0000000..b5979fd
 --- /dev/null
 +++ b/Math30/PolyaFiniteness.lean
 @@ -0,0 +1,142 @@
@@ -4830,7 +6015,7 @@ index 0000000000000000000000000000000000000000..b5979fde146c0f3a9524a67a1b91916f
 +end Math30.Polya
 diff --git a/Math30/PolyaFixtures.lean b/Math30/PolyaFixtures.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..30bd569cff281b36f0817b2cdc28773bcb649aa0
+index 0000000..30bd569
 --- /dev/null
 +++ b/Math30/PolyaFixtures.lean
 @@ -0,0 +1,114 @@
@@ -4950,7 +6135,7 @@ index 0000000000000000000000000000000000000000..30bd569cff281b36f0817b2cdc28773b
 +end Math30.Polya.Fixtures
 diff --git a/Math30/PolyaMinmax.lean b/Math30/PolyaMinmax.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..92e4bd2738d9f2f9016cbcb85868d4f74fd8f198
+index 0000000..92e4bd2
 --- /dev/null
 +++ b/Math30/PolyaMinmax.lean
 @@ -0,0 +1,85 @@
@@ -5041,7 +6226,7 @@ index 0000000000000000000000000000000000000000..92e4bd2738d9f2f9016cbcb85868d4f7
 +end Math30.Polya
 diff --git a/Math30/PolyaPoincare.lean b/Math30/PolyaPoincare.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..a2286dd00259373b9c39be898bbdb46b4478f7c2
+index 0000000..a2286dd
 --- /dev/null
 +++ b/Math30/PolyaPoincare.lean
 @@ -0,0 +1,144 @@
@@ -5191,7 +6376,7 @@ index 0000000000000000000000000000000000000000..a2286dd00259373b9c39be898bbdb46b
 +end Math30.Polya
 diff --git a/Math30/PolyaReadiness.lean b/Math30/PolyaReadiness.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..406d7ed169c70526668abf81de928b6450c1257e
+index 0000000..406d7ed
 --- /dev/null
 +++ b/Math30/PolyaReadiness.lean
 @@ -0,0 +1,104 @@
@@ -5301,7 +6486,7 @@ index 0000000000000000000000000000000000000000..406d7ed169c70526668abf81de928b64
 +end Math30.Polya
 diff --git a/Math30/PolyaSobolev.lean b/Math30/PolyaSobolev.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..bddb8fe79d9c539efb2b9f40c7b4802b837b6991
+index 0000000..bddb8fe
 --- /dev/null
 +++ b/Math30/PolyaSobolev.lean
 @@ -0,0 +1,95 @@
@@ -5402,7 +6587,7 @@ index 0000000000000000000000000000000000000000..bddb8fe79d9c539efb2b9f40c7b4802b
 +end Math30.Polya
 diff --git a/Math30/PolyaTrialSpaces.lean b/Math30/PolyaTrialSpaces.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..ee426a98cee3d3857aed56c0e7913eb9694f0d0b
+index 0000000..ee426a9
 --- /dev/null
 +++ b/Math30/PolyaTrialSpaces.lean
 @@ -0,0 +1,170 @@
@@ -5578,7 +6763,7 @@ index 0000000000000000000000000000000000000000..ee426a98cee3d3857aed56c0e7913eb9
 +end Math30.Polya
 diff --git a/Math30/WilfMinimal.lean b/Math30/WilfMinimal.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..f43f9ae6b41f88e1bfdaa2a8ec6f0b884c03e6a2
+index 0000000..f43f9ae
 --- /dev/null
 +++ b/Math30/WilfMinimal.lean
 @@ -0,0 +1,261 @@
@@ -5845,7 +7030,7 @@ index 0000000000000000000000000000000000000000..f43f9ae6b41f88e1bfdaa2a8ec6f0b88
 +end Math30
 diff --git a/Math30/WilfMinimalFixtures.lean b/Math30/WilfMinimalFixtures.lean
 new file mode 100644
-index 0000000000000000000000000000000000000000..4a425e878fe4efbcd3e8da947405a43acdf44d54
+index 0000000..4a425e8
 --- /dev/null
 +++ b/Math30/WilfMinimalFixtures.lean
 @@ -0,0 +1,280 @@
@@ -6130,7 +7315,7 @@ index 0000000000000000000000000000000000000000..4a425e878fe4efbcd3e8da947405a43a
 +end Fixtures
 +end Math30.MinimalGraphs
 diff --git a/lake-manifest.json b/lake-manifest.json
-index fae5d498d3f9dc3f6d1efd7c2adc03dd5bb6c8d6..56673c212e0b1480e5b7106123ca0813f99ca706 100644
+index fae5d49..56673c2 100644
 --- a/lake-manifest.json
 +++ b/lake-manifest.json
 @@ -1,96 +1,117 @@
@@ -6348,7 +7533,7 @@ index fae5d498d3f9dc3f6d1efd7c2adc03dd5bb6c8d6..56673c212e0b1480e5b7106123ca0813
 +  "fixedToolchain": false
 +}
 diff --git a/lakefile.toml b/lakefile.toml
-index 8cc37c76ba0894c4a172cb39d20da5eabe5bc81d..395d0bcf70fed33b262b391a9acfd46633462b15 100644
+index 8cc37c7..e141ad6 100644
 --- a/lakefile.toml
 +++ b/lakefile.toml
 @@ -30,7 +30,7 @@ weak.linter.style.openClassical = true
@@ -6360,7 +7545,7 @@ index 8cc37c76ba0894c4a172cb39d20da5eabe5bc81d..395d0bcf70fed33b262b391a9acfd466
  
  # We make this a separate library so that we can apply different lean options.
  [[lean_lib]]
-@@ -61,25 +61,15 @@ weak.linter.style.moduleDocstring = true
+@@ -61,25 +61,19 @@ weak.linter.style.moduleDocstring = true
  weak.linter.style.latex_docstring = true
  weak.linter.style.imports = true
  
@@ -6392,8 +7577,12 @@ index 8cc37c76ba0894c4a172cb39d20da5eabe5bc81d..395d0bcf70fed33b262b391a9acfd466
 +
 +[[lean_lib]]
 +name = "Math30"
++
++[[lean_lib]]
++name = "FullOldProblems"
++globs = ["FullOldProblems", "FullOldProblems.*"]
 diff --git a/lean-toolchain b/lean-toolchain
-index a8afa7d1b02d96f0671eba854a8dc4b416beb473..acc704ffe6eefbbe8ec09452a276202748aac923 100644
+index a8afa7d..acc704f 100644
 --- a/lean-toolchain
 +++ b/lean-toolchain
 @@ -1 +1 @@

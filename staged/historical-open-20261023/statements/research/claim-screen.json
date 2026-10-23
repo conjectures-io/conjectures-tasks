@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-21",
+  "policy": "Exclude any identified full proof or disproof claim for the exact statement, irrespective of acceptance. Retain full problems with only partial or special-case results.",
+  "method": "Dated web searches using problem names and proof/claimed proof/settle/complete proof phrases; primary-source scope checks; previous source review in the same session.",
+  "limitation": "Bounded search, not proof that no claim exists anywhere. No assessment of claimed-proof correctness is required for exclusion.",
+  "discarded": [
+    {
+      "declaration": "FullOldProblems.TotalColoring",
+      "claim": "T Srinivasa Murthy, A proof of the Total Coloring Conjecture",
+      "first_posted": "2020-03-21",
+      "latest_version_checked": "v3, 2021-06-17",
+      "url": "https://arxiv.org/abs/2003.09658v3",
+      "scope": "Explicitly claims chi''(G) <= Delta(G)+2 for general graphs.",
+      "action": "Removed from active Lean statements, registry and manifest; active count reduced from 10 to 9."
+    }
+  ],
+  "retained": [
+    {
+      "declaration": "FullOldProblems.HajosCycleDecomposition",
+      "finding": "No full sharp-bound proof/disproof claim found. Kim's October 2026 paper proves only O(n) cycles.",
+      "source_urls": [
+        "https://arxiv.org/abs/2610.07840v2"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.BergeFulkerson",
+      "finding": "No full six-perfect-matching proof/disproof claim found. Research on selected snark families and infinite equivalents does not resolve the general finite question.",
+      "source_urls": [
+        "https://arxiv.org/abs/2607.29511",
+        "https://doi.org/10.1016/j.amc.2021.126441"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.VizingIndependence",
+      "finding": "No full n/2-bound proof/disproof claim found. The approximation paper is a reduction/equivalence, not a proof of the full conjecture.",
+      "source_urls": [
+        "https://arxiv.org/abs/1609.00808",
+        "https://www.ort.shu.edu.cn/CN/10.15960/j.cnki.issn.1007-6093.2025.01.019"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.ChvatalToughness",
+      "finding": "No proof/disproof claim for existence of a universal toughness threshold found. Brouwer's toughness theorem and results for special graph classes are different statements.",
+      "source_urls": [
+        "https://arxiv.org/abs/2506.12684",
+        "https://epubs.siam.org/doi/abs/10.1137/20M1372652"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.LovaszHamiltonPath",
+      "finding": "No all-orders full proof/disproof claim found. Nakanishi's claimed proof concerns only odd order; Li–Methuku give a nearly linear rather than spanning bound.",
+      "source_urls": [
+        "https://arxiv.org/abs/2407.00646",
+        "https://arxiv.org/abs/2609.38135v2"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.KotzigPerfectFactorization",
+      "finding": "No full exact-factorization proof/disproof claim found. The July 2026 asymptotic theorem leaves the universal all-pairs assertion open.",
+      "source_urls": [
+        "https://arxiv.org/html/2607.09459"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.SidonSubsetAsymptotic",
+      "finding": "No full sharp-constant proof/disproof claim found. The 2026 lower-bound paper does not reach constant 1; the earlier retrieved Erdős 530 page records zero proof claims.",
+      "source_urls": [
+        "https://arxiv.org/abs/2605.03181",
+        "https://www.erdosproblems.com/530"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.TutteFiveFlow",
+      "finding": "No full universal 5-flow proof/disproof claim found. Seymour's 6-flow theorem and oddness-restricted 5-flow results do not settle the conjecture.",
+      "source_urls": [
+        "https://arxiv.org/abs/1512.06214",
+        "https://arxiv.org/abs/1412.5398",
+        "https://arxiv.org/abs/2601.12036"
+      ]
+    },
+    {
+      "declaration": "FullOldProblems.TutteThreeFlow",
+      "finding": "No full 4-edge-connected proof/disproof claim found. Planar, Cayley, and forbidden-edge-cut results concern restricted classes.",
+      "source_urls": [
+        "https://arxiv.org/abs/2609.08377",
+        "https://arxiv.org/abs/2011.02140"
+      ]
+    }
+  ]
+}

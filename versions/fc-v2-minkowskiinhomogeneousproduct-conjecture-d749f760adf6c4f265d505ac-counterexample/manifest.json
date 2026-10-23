@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:1cd00abc680d7ab53ae55d937193d0db11d1dc8b58e4c082f5724474f34be122",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.MinkowskiInhomogeneousProduct.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:91dec278278dbe6b7f9e660608ae9c3dea2f7f197f7190a183e629bfe963d84e",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.MinkowskiInhomogeneousProduct",
+  "source_path": "FormalConjectures/HistoricalOpen/MinkowskiInhomogeneousProduct.lean",
+  "source_theorem": "FullOldProblemsCatalog.MinkowskiInhomogeneousProduct.conjecture",
+  "source_type_hash": "sha256:c9fca64c2d03a7d20d080b0ab069e8791906aab1537da234333cc400b7318a58",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-minkowskiinhomogeneousproduct-conjecture-d749f760adf6c4f265d505ac-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:af0b99c3a854eb81d1078acdc7c152abcd04352c3a53a6d751d6bb4880cd4162",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:2075b31c58d141ca85b7cbe75561e56ef49ab7cd72f16c0ed898206eaa55ead7",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:e3c770b954bbe07a0ac132468b633c2a0f64ca56854930d6db17ed42e71bffc0",
+    "task-version.json": "sha256:0086e2bb225b3570bb1167026ff143ea265a4fef209a228deedc85ae0572ce1a"
+  }
+}

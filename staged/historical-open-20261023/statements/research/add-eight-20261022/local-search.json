@@ -1,0 +1,127 @@
+{
+  "checked_at": "2026-10-22",
+  "catalog_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "catalog_declarations": 5190,
+  "files": [
+    {
+      "path": "/root/conjectures-validator/data/catalog.json",
+      "sha256": "947c32d5443b8bcaa82c2d8c4e88aaf361d0bc4e110734b7b89e728ea43b7b63"
+    },
+    {
+      "path": "/root/conjectures-tasks/allowlist.json",
+      "sha256": "be372b10869fa7654d5fc229335010c1ceebdf9e682c58c45a31f44b06e10f25"
+    }
+  ],
+  "queries": [
+    {
+      "term": "Erdos IDs",
+      "pattern": "Erdos(?:201|1032|1087)\\b|ErdosProblems/(?:201|1032|1087)\\.lean",
+      "catalog_matches": [],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Riddell",
+      "pattern": "Riddell",
+      "catalog_matches": [],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Critical minimum degree",
+      "pattern": "(?:critical.{0,300}minimum degree|minimum degree.{0,300}critical)",
+      "catalog_matches": [
+        {
+          "theorem": "Erdos751.erdos_751.variants.finite",
+          "source_path": "FormalConjectures/ErdosProblems/751.lean"
+        }
+      ],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Degenerate quadruples",
+      "pattern": "degenerate.{0,80}quadrupl",
+      "catalog_matches": [],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Marcus de Oliveira",
+      "pattern": "Oliveira",
+      "catalog_matches": [],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Minkowski",
+      "pattern": "Minkowski",
+      "catalog_matches": [],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Cantoni",
+      "pattern": "Cantoni",
+      "catalog_matches": [],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Permanent",
+      "pattern": "permanent",
+      "catalog_matches": [
+        {
+          "theorem": "Erdos499.vanDerWaerden",
+          "source_path": "FormalConjectures/ErdosProblems/499.lean"
+        },
+        {
+          "theorem": "OeisA1818.conjecture1",
+          "source_path": "FormalConjectures/OEIS/1818.lean"
+        },
+        {
+          "theorem": "OeisA1818.conjecture2",
+          "source_path": "FormalConjectures/OEIS/1818.lean"
+        },
+        {
+          "theorem": "OeisA2454.conjecture",
+          "source_path": "FormalConjectures/OEIS/2454.lean"
+        }
+      ],
+      "active_allowlist_matches": []
+    },
+    {
+      "term": "Hadamard",
+      "pattern": "Hadamard",
+      "catalog_matches": [
+        {
+          "theorem": "CirculantHadamard.circulant_hadamard_conjecture",
+          "source_path": "FormalConjectures/Arxiv/2402.13202/CirculantHadamard.lean"
+        },
+        {
+          "theorem": "CirculantHadamard.orderFourGenerator_isHadamard",
+          "source_path": "FormalConjectures/Arxiv/2402.13202/CirculantHadamard.lean"
+        },
+        {
+          "theorem": "Hadamard.HadamardConjecture",
+          "source_path": "FormalConjectures/Wikipedia/Hadamard.lean"
+        },
+        {
+          "theorem": "Hadamard.HadamardConjecture.variants.first_cases",
+          "source_path": "FormalConjectures/Wikipedia/Hadamard.lean"
+        },
+        {
+          "theorem": "Hadamard.HadamardConjecture.variants.\u00ab167\u00bb",
+          "source_path": "FormalConjectures/Wikipedia/Hadamard.lean"
+        },
+        {
+          "theorem": "Hadamard.exists_hadamard_zero",
+          "source_path": "FormalConjectures/Wikipedia/Hadamard.lean"
+        },
+        {
+          "theorem": "Hadamard.isHadamard_H12",
+          "source_path": "FormalConjectures/Wikipedia/Hadamard.lean"
+        },
+        {
+          "theorem": "Hadamard.isHadamard_equiv_isHadamard'",
+          "source_path": "FormalConjectures/Wikipedia/Hadamard.lean"
+        }
+      ],
+      "active_allowlist_matches": []
+    }
+  ],
+  "limitation": "Name/subject searches and manual scope comparison; not proof of absence of equivalent encodings."
+}

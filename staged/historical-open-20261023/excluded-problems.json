@@ -1,0 +1,34 @@
+[
+  {
+    "index": 15,
+    "declaration": "FullOldProblems.Cantoni",
+    "name": "Cantoni's three-Hamilton-cycle conjecture",
+    "documented_by_year": 1950,
+    "scope": "Every planar cubic finite simple graph with exactly three undirected Hamilton cycles contains a triangle.",
+    "sources": [
+      "https://arxiv.org/abs/1812.05650",
+      "https://www.facom.ufu.br/~nunes/teoria%20dos%20grafos/graph-theory.pdf",
+      "https://www.sciencedirect.com/science/article/pii/S0012365X25003103"
+    ],
+    "years_since_documented_year": 76,
+    "formalization_kind": "closed proposition definition",
+    "full_original_question": true,
+    "duplicate_status": "no match found in checked catalog/upstream",
+    "theorem": "FullOldProblemsCatalog.Cantoni.conjecture",
+    "source_path": "FormalConjectures/HistoricalOpen/Cantoni.lean",
+    "source_family": "historical-open",
+    "source_problem_number": "Cantoni",
+    "disposition": "exclude_identified_full_counterexample_claim",
+    "full_resolution_claim_found": true,
+    "claim_author": "Ibrahim Cahit",
+    "claim_title": "On unique coloring of planar graphs",
+    "claim_validity": "unverified; construction not inspected; no conclusion that Cantoni is disproved",
+    "decision_basis": "User supplied claim references and explicitly requested exclusion on 2026-10-23.",
+    "claim_sources": [
+      "https://www.researchgate.net/publication/267677069_On_unique_coloring_of_planar_graphs",
+      "https://www.researchgate.net/profile/Ibrahim-Cahit/publication/267677069_On_unique_coloring_of_planar_graphs/links/55dc630c08aec156b9b17432/On-unique-coloring-of-planar-graphs.pdf",
+      "https://www.academia.edu/81928331/On_Unique_Coloring_of_Planar_Graphs"
+    ],
+    "historical_statement_retained_for_provenance_only": true
+  }
+]

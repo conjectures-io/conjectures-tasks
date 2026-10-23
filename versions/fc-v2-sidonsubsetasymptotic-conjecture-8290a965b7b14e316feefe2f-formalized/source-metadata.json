@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Sharp universal asymptotic l(N) ~ sqrt(N) for arbitrary finite real sets; both bounds encoded. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.SidonSubsetAsymptotic",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://www.renyi.hu/~p_erdos/1973-21.pdf#page=4)",
+    "[Source 2](https://arxiv.org/abs/2605.03181)",
+    "[Source 3](https://www.erdosproblems.com/530)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.SidonSubsetAsymptotic.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0372deb2fa32ecb2d5fbd3125ef9a7be27a436b4edd1b6042af3f8e03d661e1a",
+  "type_pretty": "FullOldProblems.SidonSubsetAsymptotic"
+}

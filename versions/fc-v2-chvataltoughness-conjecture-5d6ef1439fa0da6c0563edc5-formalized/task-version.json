@@ -1,0 +1,360 @@
+{
+  "dependency": {
+    "external_modules": [
+      [
+        "Init",
+        "Core"
+      ],
+      [
+        "Init",
+        "Data",
+        "Cast"
+      ],
+      [
+        "Init",
+        "Data",
+        "List",
+        "Basic"
+      ],
+      [
+        "Init",
+        "Data",
+        "Zero"
+      ],
+      [
+        "Init",
+        "Prelude"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Real",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Combinatorics",
+        "SimpleGraph",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Combinatorics",
+        "SimpleGraph",
+        "Connectivity",
+        "Connected"
+      ],
+      [
+        "Mathlib",
+        "Combinatorics",
+        "SimpleGraph",
+        "Maps"
+      ],
+      [
+        "Mathlib",
+        "Combinatorics",
+        "SimpleGraph",
+        "Paths"
+      ],
+      [
+        "Mathlib",
+        "Combinatorics",
+        "SimpleGraph",
+        "Walk",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Card"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "CoeSort"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "SetLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "SetTheory",
+        "Cardinal",
+        "Finite"
+      ]
+    ],
+    "imports": {
+      "external_imports": [
+        [
+          [
+            "Init"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Lean"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Mathlib"
+          ],
+          "package:mathlib"
+        ],
+        [
+          [
+            "Qq",
+            "Typ"
+          ],
+          "package:Qq"
+        ],
+        [
+          [
+            "Qq"
+          ],
+          "package:Qq"
+        ]
+      ],
+      "local_modules": [
+        [
+          [
+            "FormalConjectures",
+            "HistoricalOpen",
+            "ChvatalToughness"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "Basic"
+            ],
+            [
+              "FullOldProblems"
+            ],
+            [
+              "Init"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "AMS"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Lean"
+            ],
+            [
+              "Qq",
+              "Typ"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "Basic"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "AMS"
+            ],
+            [
+              "Init"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FullOldProblems"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Mathlib"
+            ]
+          ]
+        ]
+      ],
+      "module": [
+        "FormalConjectures",
+        "HistoricalOpen",
+        "ChvatalToughness"
+      ]
+    },
+    "local_constants": [
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "ChvatalToughness"
+        ],
+        "sha256": "sha256:dbdbf127d15e949a2c8f09a733cfd81e6d9d604506c9e29ae55709522b3a960c"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "HasHamiltonCycle"
+        ],
+        "sha256": "sha256:c6afc52ed656b0113eced7477a04399ab5a9306281b19d8991d76783e72deab8"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "IsTough"
+        ],
+        "sha256": "sha256:09c20585108fb52adb6cbbd224ba2b9668e2398be411d4d295b622a8289d2913"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "componentsAfterDeletion"
+        ],
+        "sha256": "sha256:71f28a2eccd614dd44cb9003ac2bf3e8fff8aeca206a52f6229f7b28aa69e42a"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "FormalConjectures",
+          "HistoricalOpen",
+          "ChvatalToughness"
+        ],
+        "name": [
+          "FullOldProblemsCatalog",
+          "ChvatalToughness",
+          "conjecture"
+        ],
+        "sha256": "sha256:edffe395b5996c25541f344185e7294194acdb3f72caf59b5eadcae6125f5e57"
+      }
+    ],
+    "module": [
+      "FormalConjectures",
+      "HistoricalOpen",
+      "ChvatalToughness"
+    ],
+    "schema_version": 1,
+    "statement_type_sha256": "sha256:5fc61d67d09a65f7a6d08321da0a16195972d71ebc61f6ccaca2a36817772da0",
+    "theorem": [
+      "FullOldProblemsCatalog",
+      "ChvatalToughness",
+      "conjecture"
+    ]
+  },
+  "dependency_identity_sha256": "sha256:ae566910c4ee55913e1d31b90ec0cacf9b8e14eb65ddef7920d230bdd17e1a39",
+  "environment": {
+    "comparator_commit": "32bd61da1d68fbaa310234964e9b820b03a0f82f",
+    "generator_version": "fc-task-generator-v2.0",
+    "lake_packages": [
+      [
+        "Cli",
+        "2842b9871b04862f944c032e34052cb9448ccb71"
+      ],
+      [
+        "LeanSearchClient",
+        "95e037bfdc31d3916ac615446847fb01960e2719"
+      ],
+      [
+        "Qq",
+        "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+      ],
+      [
+        "aesop",
+        "75d936c7af167cc93fac0d31237682fc2204591d"
+      ],
+      [
+        "batteries",
+        "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+      ],
+      [
+        "importGraph",
+        "10930f8138f0462dbd744a91fc03a16fae0e046f"
+      ],
+      [
+        "mathlib",
+        "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+      ],
+      [
+        "plausible",
+        "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+      ],
+      [
+        "proofwidgets",
+        "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+      ]
+    ],
+    "lean4export_commit": "6cea97789dc088ea47fcea15692db85685aedac5",
+    "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "schema_version": 1,
+    "task_support_sha256": "sha256:58a80a223dbd7383d92eb2a57b1ec207c0991131a1a1bf24585a4452777c257e",
+    "verification_policy": {
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "static_policy_sha256": "sha256:881edec4c5d015eba055312e94554c8e6db2c5f23336374f483f6500d6e8be13",
+      "version": "fc-verification-policy-v1"
+    },
+    "workspace_template_sha256": "sha256:e67396023f995786c5b89ac5720ae8581c07b4d6a912892386b9437723e1f539"
+  },
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "nanoda_commit": null,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 1
+}

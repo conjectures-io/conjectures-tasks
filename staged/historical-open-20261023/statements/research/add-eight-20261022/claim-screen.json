@@ -1,0 +1,172 @@
+{
+  "checked_at": "2026-10-22",
+  "rule": "Exclude any identified full proof or disproof claim for the exact question, regardless of acceptance. A result only for a special class, fixed dimension or asymptotic weakening is not a full resolution.",
+  "limitation": "Bounded literature, problem-page, forum and web searches; no claim of exhaustive absence. Some broad queries returned irrelevant matches, so source pages and exact-scope follow-ups were checked.",
+  "retained": [
+    {
+      "declaration": "FullOldProblems.RiddellErdosProgressionRatio",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://www.numdam.org/article/AST_1975__24-25__295_0.pdf#page=14",
+        "https://www.erdosproblems.com/201"
+      ],
+      "scope_note": "The problem page highlights k=3. The formalization retains the entire original progression-length family. Constant-factor comparison is partial."
+    },
+    {
+      "declaration": "FullOldProblems.ErdosCriticalMinimumDegree",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://doi.org/10.1080/16073606.1993.9631741",
+        "https://www.erdosproblems.com/1032",
+        "https://www.erdosproblems.com/forum/thread/1032"
+      ],
+      "scope_note": "Formalizes the positive answer to the original question. The 2026 linear upper bound with coefficient 3/10 is partial, not a resolution."
+    },
+    {
+      "declaration": "FullOldProblems.ErdosPurdyDegenerateQuadruples",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://users.renyi.hu/~p_erdos/1971-20.pdf",
+        "https://www.erdosproblems.com/1087",
+        "https://www.erdosproblems.com/forum/thread/1087"
+      ],
+      "scope_note": "Original question on printed p.251. Equal-distance pairs may share an endpoint; restricting to four distinct endpoints would weaken it."
+    },
+    {
+      "declaration": "FullOldProblems.MarcusDeOliveira",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://doi.org/10.3390/math13050711",
+        "https://www.mat.uc.pt/preprints/ps/p2611.pdf"
+      ],
+      "scope_note": "The 2026 paper proposes a stronger conjecture, not a proof. Structured matrix and small-order results do not settle arbitrary normal pairs."
+    },
+    {
+      "declaration": "FullOldProblems.MinkowskiInhomogeneousProduct",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://doi.org/10.1112/S0025579300000863",
+        "https://insa.nic.in/writereaddata/UpLoadedFiles/IJPAM/Vol46_2015_3_ART05.pdf"
+      ],
+      "scope_note": "Known low-dimensional results do not resolve all dimensions. Distinct from Brunn–Minkowski and Minkowski lattice-tiling conjectures."
+    },
+    {
+      "declaration": "FullOldProblems.Cantoni",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://arxiv.org/abs/1812.05650",
+        "https://www.facom.ufu.br/~nunes/teoria%20dos%20grafos/graph-theory.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0012365X25003103"
+      ],
+      "scope_note": "All graph orders retained. Verification through order 48 and later restrictions are partial."
+    },
+    {
+      "declaration": "FullOldProblems.MarcusBlockPermanent",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://arxiv.org/html/2202.01867v1",
+        "https://yair-lavi.com/mincs-list/conjecture-9/index.html",
+        "https://doi.org/10.1080/00029890.1965.11970575"
+      ],
+      "scope_note": "Both the inequality and its original equality clause are retained. Two-block and low-rank results are partial. Different from the Marcus–Minc transform conjecture, now claimed proved."
+    },
+    {
+      "declaration": "FullOldProblems.WangHadamardPermanentNonvanishing",
+      "result": "No full proof/disproof claim found",
+      "sources": [
+        "https://doi.org/10.1007/BF02760844",
+        "https://users.monash.edu.au/~iwanless/papers/wangconjLAMA.pdf",
+        "https://yair-lavi.com/mincs-list/problem-5/index.html",
+        "https://arxiv.org/abs/1802.08001"
+      ],
+      "scope_note": "Formalizes the negative answer to the original zero-permanent existence question. Finite-order checks and the all-order Sylvester result are partial. Other solved Wang questions about resemblance classes or maximum permanents are different."
+    }
+  ],
+  "search_queries": [
+    "\"Riddell\" \"progression\" conjecture proof",
+    "\"Erdos\" \"1032\" proof solution",
+    "\"Erdos\" \"1087\" proof solution",
+    "\"Marcus de Oliveira conjecture\" proof 2026",
+    "\"Minkowski\" \"inhomogeneous\" \"conjecture\" proof 2026",
+    "\"Cantoni conjecture\" proof 2026",
+    "\"Cantoni conjecture\" \"Hamiltonian\"",
+    "\"inhomogeneous product\" \"Minkowski\" conjecture proof",
+    "\"degenerate quadruples\" \"Purdy\"",
+    "\"Marcus\" \"block\" \"permanent\" \"conjecture\" proof 2026",
+    "\"Marcus\" \"permanent of permanents\" proof conjecture",
+    "\"Hadamard\" \"permanent\" \"vanish\" proof",
+    "\"Hadamard\" \"permanent\" \"Wang\" solved conjecture",
+    "\"Hadamard\" \"nonvanishing\" \"permanent\" 2026",
+    "\"Hadamard\" \"zero permanent\" proof 2026"
+  ],
+  "apparent_claims_reviewed": [
+    {
+      "source": "https://vixra.org/pdf/1805.0355v1.pdf",
+      "finding": "Boundary-matrix theorems and conditional reductions. Section 7 still states two unproved conjectures; not a full Marcus–de Oliveira proof claim."
+    },
+    {
+      "source": "https://www.researchgate.net/publication/398680414_Lifting_Classical_Open_Problems_in_Matrix_Theory_into_Matrix_Convolutional_Theory_via_Layered_Determinants",
+      "finding": "Sections 6.1–6.3 explicitly restrict the claimed resolution to circulant convolution operators, which commute. Does not claim all normal pairs."
+    },
+    {
+      "source": "https://huggingface.co/datasets/PureOne/QX-NEPHRIEL-Seventh-String/blob/main/PROOF.md",
+      "finding": "Explicitly restricted order-seven rank-three Chollet inequality; not either selected permanent question."
+    },
+    {
+      "source": "https://arxiv.org/abs/1802.08001",
+      "finding": "All Sylvester Hadamard matrices, not all real Hadamard matrices."
+    },
+    {
+      "source": "https://users.monash.edu.au/~iwanless/papers/wangconjLAMA.pdf",
+      "finding": "Solved Wang/Perfect question about resemblance classes with equal permanent differs from nonvanishing; finite-order nonvanishing is partial."
+    },
+    {
+      "source": "https://www.mathnet.ru/php/seminars.phtml?option_lang=rus&presentid=30312",
+      "finding": "Wang–Kräuter maximum-permanent-at-fixed-rank question; not Hadamard nonvanishing."
+    }
+  ],
+  "discarded_candidates": [
+    {
+      "name": "Erdős 963, dissociated subsets",
+      "reason": "A full proof claim was posted even though later rejected.",
+      "source": "https://www.erdosproblems.com/forum/thread/963"
+    },
+    {
+      "name": "Erdős 983, prime coverings",
+      "reason": "A full disproof claim for the first question was posted; later correction does not override the user's exclusion rule.",
+      "source": "https://www.erdosproblems.com/forum/thread/983"
+    },
+    {
+      "name": "Dittert",
+      "reason": "Full proof preprint found; also first posed in 1983, too young.",
+      "source": "https://arxiv.org/abs/2610.10545"
+    },
+    {
+      "name": "Erdős 929, Jacobsthal inverse",
+      "reason": "Semantic duplicate of upstream Erdős 687 part iii and Green 46.",
+      "source": "https://github.com/google-deepmind/formal-conjectures/blob/3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8/FormalConjectures/ErdosProblems/687.lean"
+    },
+    {
+      "name": "Sheehan",
+      "reason": "Already formalized upstream, under a filename referring to Lovász–Plummer.",
+      "source": "https://github.com/google-deepmind/formal-conjectures/blob/3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8/FormalConjectures/Wikipedia/LovaszPlummerConjecture.lean"
+    }
+  ],
+  "provisional_choices_not_retained": [
+    {
+      "name": "Erdős 529, self-avoiding walks",
+      "reason": "The full original package includes an expected-false higher-dimensional bound; poorer fit to the user's desired target selection.",
+      "source": "https://www.erdosproblems.com/529"
+    },
+    {
+      "name": "Erdős 1168, negative partition relation",
+      "reason": "Possible independence issues make this a poorer fit to the requested target selection.",
+      "source": "https://arxiv.org/html/2502.16625v2"
+    },
+    {
+      "name": "Minc's sixth conjecture",
+      "reason": "The inspected current source reports ambiguity about weak versus strict monotonicity; selected a question with an unambiguous original scope instead.",
+      "source": "https://yair-lavi.com/mincs-list/conjecture-6/index.html"
+    }
+  ]
+}

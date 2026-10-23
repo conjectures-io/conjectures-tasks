@@ -1,0 +1,400 @@
+{
+  "dependency": {
+    "external_modules": [
+      [
+        "Init",
+        "Classical"
+      ],
+      [
+        "Init",
+        "Core"
+      ],
+      [
+        "Init",
+        "Data",
+        "Cast"
+      ],
+      [
+        "Init",
+        "Data",
+        "Zero"
+      ],
+      [
+        "Init",
+        "Prelude"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "InnerProductSpace",
+        "PiL2"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Normed",
+        "Lp",
+        "PiLp"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "SpecialFunctions",
+        "Pow",
+        "Real"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "ENNReal",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Real",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Card"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Filter"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Powerset"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Fintype",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Nat",
+        "Cast",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Nat",
+        "Init"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "SetLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Sym",
+        "Sym2"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "MetricSpace",
+        "Pseudo",
+        "Defs"
+      ]
+    ],
+    "imports": {
+      "external_imports": [
+        [
+          [
+            "Init"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Lean"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Mathlib"
+          ],
+          "package:mathlib"
+        ],
+        [
+          [
+            "Qq",
+            "Typ"
+          ],
+          "package:Qq"
+        ],
+        [
+          [
+            "Qq"
+          ],
+          "package:Qq"
+        ]
+      ],
+      "local_modules": [
+        [
+          [
+            "FormalConjectures",
+            "HistoricalOpen",
+            "ErdosPurdyDegenerateQuadruples"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "Basic"
+            ],
+            [
+              "FullOldProblems"
+            ],
+            [
+              "Init"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "AMS"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Lean"
+            ],
+            [
+              "Qq",
+              "Typ"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "Basic"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "AMS"
+            ],
+            [
+              "Init"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FullOldProblems"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Mathlib"
+            ]
+          ]
+        ]
+      ],
+      "module": [
+        "FormalConjectures",
+        "HistoricalOpen",
+        "ErdosPurdyDegenerateQuadruples"
+      ]
+    },
+    "local_constants": [
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "DegenerateQuadruple"
+        ],
+        "sha256": "sha256:a5961ff863a8b54ebb77c6f761dc69c63260598d32dc81f21ea8f5833abf4933"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "ErdosPurdyDegenerateQuadruples"
+        ],
+        "sha256": "sha256:3bfdd64486ac4e0445fb73d2dfca1a06939ed78b4d52546427b40917e6c49678"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "FourChromaticCritical",
+          "_proof_2"
+        ],
+        "sha256": "sha256:8c3261c9a7164173a00eee620f84b1b1d8ef9e2a9d3aeeb4a035e297498d1a91"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "Plane"
+        ],
+        "sha256": "sha256:7f3f6cd8e6ba0b16dfe38796ae1db23f114d4f97c18611a67d61896dfaa46a58"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "FullOldProblems",
+          "degenerateQuadrupleCount"
+        ],
+        "sha256": "sha256:d0e5ea2d24e5acdf8de167179905a8938e4cfecc3dec0e84d5d2942bb772d356"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "FormalConjectures",
+          "HistoricalOpen",
+          "ErdosPurdyDegenerateQuadruples"
+        ],
+        "name": [
+          "FullOldProblemsCatalog",
+          "ErdosPurdyDegenerateQuadruples",
+          "conjecture"
+        ],
+        "sha256": "sha256:5b45f61396f01e56071967a70848f7046ea8f5ebb187510ee06ef83629f6444f"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "FullOldProblems"
+        ],
+        "name": [
+          "instDecidable_fullOldProblems"
+        ],
+        "sha256": "sha256:a42565aff8b67873599d23b863e228002ac44f8e279c83d336e8ac255559e0d0"
+      }
+    ],
+    "module": [
+      "FormalConjectures",
+      "HistoricalOpen",
+      "ErdosPurdyDegenerateQuadruples"
+    ],
+    "schema_version": 1,
+    "statement_type_sha256": "sha256:4c1995d161a3dd11565f99b7cb730a85933491292a185fcf09f1452dcb78e481",
+    "theorem": [
+      "FullOldProblemsCatalog",
+      "ErdosPurdyDegenerateQuadruples",
+      "conjecture"
+    ]
+  },
+  "dependency_identity_sha256": "sha256:604852dd8b119938b3ee6be892cfe3a4abbc26b2e0ea06844d4a9b0789a790c9",
+  "environment": {
+    "comparator_commit": "32bd61da1d68fbaa310234964e9b820b03a0f82f",
+    "generator_version": "fc-task-generator-v2.0",
+    "lake_packages": [
+      [
+        "Cli",
+        "2842b9871b04862f944c032e34052cb9448ccb71"
+      ],
+      [
+        "LeanSearchClient",
+        "95e037bfdc31d3916ac615446847fb01960e2719"
+      ],
+      [
+        "Qq",
+        "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+      ],
+      [
+        "aesop",
+        "75d936c7af167cc93fac0d31237682fc2204591d"
+      ],
+      [
+        "batteries",
+        "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+      ],
+      [
+        "importGraph",
+        "10930f8138f0462dbd744a91fc03a16fae0e046f"
+      ],
+      [
+        "mathlib",
+        "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+      ],
+      [
+        "plausible",
+        "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+      ],
+      [
+        "proofwidgets",
+        "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+      ]
+    ],
+    "lean4export_commit": "6cea97789dc088ea47fcea15692db85685aedac5",
+    "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "schema_version": 1,
+    "task_support_sha256": "sha256:58a80a223dbd7383d92eb2a57b1ec207c0991131a1a1bf24585a4452777c257e",
+    "verification_policy": {
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "static_policy_sha256": "sha256:881edec4c5d015eba055312e94554c8e6db2c5f23336374f483f6500d6e8be13",
+      "version": "fc-verification-policy-v1"
+    },
+    "workspace_template_sha256": "sha256:e67396023f995786c5b89ac5720ae8581c07b4d6a912892386b9437723e1f539"
+  },
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "nanoda_commit": null,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 1
+}

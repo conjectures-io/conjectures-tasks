@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "All finite bridgeless cubic multigraphs; six perfect matchings; each edge exactly twice. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.BergeFulkerson",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/abs/2607.29511)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/BergeFulkerson.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.BergeFulkerson.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d51935831b42924fdc48380dacee5f1f14c97ea0818e4465a651661750db1fd0",
+  "type_pretty": "FullOldProblems.BergeFulkerson"
+}

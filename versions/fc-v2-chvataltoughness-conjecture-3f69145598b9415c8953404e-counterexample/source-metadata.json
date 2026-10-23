@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A universal positive real threshold for Hamiltonicity of all tough simple graphs of order at least three. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.ChvatalToughness",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/abs/2506.12684)",
+    "[Source 2](https://doi.org/10.1016/j.disc.2026.115364)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/ChvatalToughness.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.ChvatalToughness.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5fc61d67d09a65f7a6d08321da0a16195972d71ebc61f6ccaca2a36817772da0",
+  "type_pretty": "FullOldProblems.ChvatalToughness"
+}

@@ -1,7 +1,7 @@
 {
-  "audit_date_utc": "2026-09-08",
+  "audit_date_utc": "2026-10-23",
   "github_open_pr_count": 359,
-  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
   "schema_version": 2,
   "screening_statement": "Plausibly attackable solver target; this is a comparative screen, not a claim that the conjecture is easy or guaranteed solvable.",
   "selected": [
@@ -4114,6 +4114,230 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/BergeFulkerson.lean",
+      "source_problem_number": "BergeFulkerson",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.BergeFulkerson.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/ChvatalToughness.lean",
+      "source_problem_number": "ChvatalToughness",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.ChvatalToughness.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean",
+      "source_problem_number": "ErdosCriticalMinimumDegree",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.ErdosCriticalMinimumDegree.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/ErdosPurdyDegenerateQuadruples.lean",
+      "source_problem_number": "ErdosPurdyDegenerateQuadruples",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.ErdosPurdyDegenerateQuadruples.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/HajosCycleDecomposition.lean",
+      "source_problem_number": "HajosCycleDecomposition",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.HajosCycleDecomposition.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/KotzigPerfectFactorization.lean",
+      "source_problem_number": "KotzigPerfectFactorization",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.KotzigPerfectFactorization.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean",
+      "source_problem_number": "LovaszHamiltonPath",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.LovaszHamiltonPath.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/MarcusBlockPermanent.lean",
+      "source_problem_number": "MarcusBlockPermanent",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.MarcusBlockPermanent.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean",
+      "source_problem_number": "MarcusDeOliveira",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.MarcusDeOliveira.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/MinkowskiInhomogeneousProduct.lean",
+      "source_problem_number": "MinkowskiInhomogeneousProduct",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.MinkowskiInhomogeneousProduct.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean",
+      "source_problem_number": "RiddellErdosProgressionRatio",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.RiddellErdosProgressionRatio.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean",
+      "source_problem_number": "SidonSubsetAsymptotic",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.SidonSubsetAsymptotic.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/TutteFiveFlow.lean",
+      "source_problem_number": "TutteFiveFlow",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.TutteFiveFlow.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/TutteThreeFlow.lean",
+      "source_problem_number": "TutteThreeFlow",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.TutteThreeFlow.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/VizingIndependence.lean",
+      "source_problem_number": "VizingIndependence",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.VizingIndependence.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target",
+        "partial-results-in-source"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/WangHadamardPermanentNonvanishing.lean",
+      "source_problem_number": "WangHadamardPermanentNonvanishing",
+      "source_status": "open",
+      "theorem": "FullOldProblemsCatalog.WangHadamardPermanentNonvanishing.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [],
@@ -4801,6 +5025,11 @@
       "family": "research-targets",
       "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/staged/research-targets/decision-matrix.json",
       "revision": "74cfeb7faafe1fc16b9979a869b396e1f6af4c00593fd329422e74a5dc7a3227"
+    },
+    {
+      "family": "historical-open",
+      "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/historical-open-status-audit.json",
+      "revision": "f732f6939640c944595346258c918ce929f59af8372a53c80cd3c58202fa180b"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
   "retired": [
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-10-grechuk.md",
@@ -29,7 +29,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«10»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab10\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/10](https://www.erdosproblems.com/10)"
@@ -51,7 +51,7 @@
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«10»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos10.erdos_10.variants.grechuk\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab10\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos10.erdos_10.variants.grechuk\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-grechuk-8fa9b7ec45282eb8d95790b2e244ffbb-problem",
           "target_type_sha256": "sha256:17d1f9158e5ad175dc1ea48b0955d47054edb36d702f9ef5494d18265721e590",
           "task_bundle_sha256": "sha256:98055253b81c32575dd0c7302c95a47e43f33fe3f30a5d5d01aeefce87b17328",
@@ -59,7 +59,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«10»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos10.erdos_10.variants.grechuk\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab10\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos10.erdos_10.variants.grechuk\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-grechuk-8fa9b7ec45282eb8d95790b2e244ffbb-problem",
           "target_type_sha256": "sha256:b92788d3cc0d75ad145bb34985748e1cb9d91b0df6880bf7c63452f123611241",
           "task_bundle_sha256": "sha256:75dae50947998fe526401998132fe589b236a539908bc9166e8f2b05d8a8f28f",
@@ -91,13 +91,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "For any fixed c > 0, if x is sufficiently large then there exists n ≤ x such that\nthe values of φ(n+k) are all distinct for 1 ≤ k ≤ (log x)^c.\nThis is an open problem.\n",
+        "docstring": "For any fixed c > 0, if x is sufficiently large then there exists n \u2264 x such that\nthe values of \u03c6(n+k) are all distinct for 1 \u2264 k \u2264 (log x)^c.\nThis is an open problem.\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«1004»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab1004\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/1004](https://www.erdosproblems.com/1004)"
@@ -116,11 +116,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664",
-        "type_pretty": "True ↔ ∀ c > 0, ∀ᶠ (x : ℕ) in Filter.atTop, ∃ n ≤ x, Erdos1004.IsDistinctTotientRun n ⌊Real.log ↑x ^ c⌋₊"
+        "type_pretty": "True \u2194 \u2200 c > 0, \u2200\u1da0 (x : \u2115) in Filter.atTop, \u2203 n \u2264 x, Erdos1004.IsDistinctTotientRun n \u230aReal.log \u2191x ^ c\u230b\u208a"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1004»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1004.erdos_1004\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1004\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos1004.erdos_1004\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos1004-erdos-1004-b3fd66819b7927e62d15badfae9eb03b-problem",
           "target_type_sha256": "sha256:4d5d37a6e9594dbd3df1dbe4cc7a8aaf72cc882d47dbd82c53283f7cd554d8da",
           "task_bundle_sha256": "sha256:8c6d865f171db1901a55c15cc7b2f5aebbad76b22d53e3230dc3376d38131fa4",
@@ -128,7 +128,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1004»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1004.erdos_1004\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1004\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1004.erdos_1004\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos1004-erdos-1004-b3fd66819b7927e62d15badfae9eb03b-problem",
           "target_type_sha256": "sha256:c5ce7570c520daced747e3045c85bdd574afe40897cce40d5a5f7d7c67d90664",
           "task_bundle_sha256": "sha256:1c1b5373bcd457f86633fd5280f24bc0ae27b24b325f278de9be5af7c6e0a49f",
@@ -166,7 +166,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«1055»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab1055\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/1055](https://www.erdosproblems.com/1055)"
@@ -185,11 +185,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:c6f6e6642963acf686d9afce67c051cac0d607dc841eaaf64b840e0c6dd0bf7f",
-        "type_pretty": "Filter.Tendsto (fun r => ↑(Erdos1055.p r) ^ (1 / ↑↑r)) Filter.atTop Filter.atTop"
+        "type_pretty": "Filter.Tendsto (fun r => \u2191(Erdos1055.p r) ^ (1 / \u2191\u2191r)) Filter.atTop Filter.atTop"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1055.erdos_1055.variants.erdos_limit\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1055\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos1055.erdos_1055.variants.erdos_limit\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-erdos-limit-5f673834efe02fb286a5bea88ac33b55-problem",
           "target_type_sha256": "sha256:7c13f3728bb0b139fb2f797249d1c6bb2833bafc2a6042baff7547cd155c54f6",
           "task_bundle_sha256": "sha256:f6b0dea1eff33357eb449d4f3ff0f1bfb315e628f898b2e5b71f880641a7922a",
@@ -197,7 +197,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1055.erdos_1055.variants.erdos_limit\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1055\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1055.erdos_1055.variants.erdos_limit\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-erdos-limit-5f673834efe02fb286a5bea88ac33b55-problem",
           "target_type_sha256": "sha256:c6f6e6642963acf686d9afce67c051cac0d607dc841eaaf64b840e0c6dd0bf7f",
           "task_bundle_sha256": "sha256:03fc8747f06ef12c246f215f1657406f5bf269a3ade623fdc4a0c21ed68dfe9c",
@@ -235,7 +235,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«1055»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab1055\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/1055](https://www.erdosproblems.com/1055)"
@@ -254,11 +254,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:f7b1d731b04e15c137e6a01d29894372e52cb1ecdc7f8035bde494e9ac638c72",
-        "type_pretty": "∃ M, ∀ (r : ℕ+), ↑(Erdos1055.p r) ^ (1 / ↑↑r) ≤ M"
+        "type_pretty": "\u2203 M, \u2200 (r : \u2115+), \u2191(Erdos1055.p r) ^ (1 / \u2191\u2191r) \u2264 M"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1055.erdos_1055.variants.selfridge_limit\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1055\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos1055.erdos_1055.variants.selfridge_limit\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-selfridge-limit-521fdd9dc31f8d947abc664c8ee41602-problem",
           "target_type_sha256": "sha256:d5acbfcfee2d8509c20c7f4d47e9eece78cec227d12a255aa92cd5fbc4612249",
           "task_bundle_sha256": "sha256:528bd53701808f24e6a7ec8a5754cc89a5ba67c4e173cdeb7ab7eb631f133219",
@@ -266,7 +266,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1055»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1055.erdos_1055.variants.selfridge_limit\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1055\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1055.erdos_1055.variants.selfridge_limit\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-selfridge-limit-521fdd9dc31f8d947abc664c8ee41602-problem",
           "target_type_sha256": "sha256:f7b1d731b04e15c137e6a01d29894372e52cb1ecdc7f8035bde494e9ac638c72",
           "task_bundle_sha256": "sha256:6ef9f19a9a03ab277471b668edd535c6f7755d6f7369aed2758dd3feada1ef6b",
@@ -298,13 +298,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "Are there infinitely many primes $p$ such that $p - k!$ is composite for each $k$ such that $1 ≤ k! < p$? ",
+        "docstring": "Are there infinitely many primes $p$ such that $p - k!$ is composite for each $k$ such that $1 \u2264 k! < p$? ",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«1059»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab1059\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/1059](https://www.erdosproblems.com/1059)"
@@ -321,11 +321,11 @@
           "sorryAx"
         ],
         "type_hash": "sha256:53abaf08e3f7a13ce73c25bb8221ed8680c26ce4903eb2dafeae8134bd3c2881",
-        "type_pretty": "True ↔ {p | Nat.Prime p ∧ Erdos1059.AllFactorialSubtractionsComposite p}.Infinite"
+        "type_pretty": "True \u2194 {p | Nat.Prime p \u2227 Erdos1059.AllFactorialSubtractionsComposite p}.Infinite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1059»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1059.erdos_1059\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1059\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos1059.erdos_1059\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-erdos1059-erdos-1059-fd0ddd986580840cb72cc3202436d5ac-problem",
           "target_type_sha256": "sha256:4df9a949a0c20a143f4518e545c6e3b9d37d27611b81f038421f2dca00fec52c",
           "task_bundle_sha256": "sha256:f3aa1824818d0e61c86f0b16440729264aef131fb01cb342d0b9d61b205031df",
@@ -333,7 +333,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1059»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1059.erdos_1059\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1059\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1059.erdos_1059\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-erdos1059-erdos-1059-fd0ddd986580840cb72cc3202436d5ac-problem",
           "target_type_sha256": "sha256:53abaf08e3f7a13ce73c25bb8221ed8680c26ce4903eb2dafeae8134bd3c2881",
           "task_bundle_sha256": "sha256:84a4ffef60538d3cedb7f77619cce28c487b6ce03ce89d9ae980652d70bd3828",
@@ -371,7 +371,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«1074»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab1074\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/1074](https://www.erdosproblems.com/1074)"
@@ -394,7 +394,7 @@
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1074»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1074.erdos_1074.variants.EHSNumbers_one_half\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1074\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos1074.erdos_1074.variants.EHSNumbers_one_half\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-ehsnumbers-one-half-2c7369b21c137cff67b97f30610b9f60-problem",
           "target_type_sha256": "sha256:ad7292e5788c1608d71ed3aa3208e20bbfd5aa24c70b969ba8f95ee170af4fc7",
           "task_bundle_sha256": "sha256:c38477e6fd5ced63e3bc1c1084574b16088842cb5d8a0f90e441f4563c2aabb3",
@@ -402,7 +402,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1074»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1074.erdos_1074.variants.EHSNumbers_one_half\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1074\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1074.erdos_1074.variants.EHSNumbers_one_half\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-ehsnumbers-one-half-2c7369b21c137cff67b97f30610b9f60-problem",
           "target_type_sha256": "sha256:c0a204ad0ab84a91a8d339a473e94935cedf04eeb35b57e802858d7479fbdb47",
           "task_bundle_sha256": "sha256:de72a18404d12daed9b3a2d09b2b076543fafee2fd5475da63b8bfc25eba3fad",
@@ -416,7 +416,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "SOURCE_MISMATCH (Nat.smoothNumbers k means primes < k; erdosproblems.com/1093 defines k-smooth as primes ≤ k)",
+      "reason": "SOURCE_MISMATCH (Nat.smoothNumbers k means primes < k; erdosproblems.com/1093 defines k-smooth as primes \u2264 k)",
       "reason_code": "SOURCE_MISMATCH",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
       "retired_on": "2026-08-05",
@@ -440,7 +440,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«1093»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab1093\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/1093](https://www.erdosproblems.com/1093)"
@@ -459,11 +459,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:0cdd45a79a7b1b196b24d1461cc697022e80f49b08b39b7a5677df26e6cc41c5",
-        "type_pretty": "{x |\n    have k := x.1;\n    have n := x.2;\n    2 * k ≤ n ∧ Erdos1093.deficiency n k > 1 ∧ ∀ (p : ℕ), Nat.Prime p → p ∣ n.choose k → k < p}.Finite"
+        "type_pretty": "{x |\n    have k := x.1;\n    have n := x.2;\n    2 * k \u2264 n \u2227 Erdos1093.deficiency n k > 1 \u2227 \u2200 (p : \u2115), Nat.Prime p \u2192 p \u2223 n.choose k \u2192 k < p}.Finite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1093»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos1093.erdos_1093.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1093\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos1093.erdos_1093.parts.ii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-parts-ii-84385626b3eea46dc59fc4058f8a3a55-problem",
           "target_type_sha256": "sha256:601cebe25f61a80913ebb9132522b2f47d098492be47de913661981e9c727895",
           "task_bundle_sha256": "sha256:5aa422d98c0b775d4d6c38cdc2cf3729637d36bcbc445b8baa26cfa5ea00938a",
@@ -471,7 +471,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«1093»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1093.erdos_1093.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab1093\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos1093.erdos_1093.parts.ii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-parts-ii-84385626b3eea46dc59fc4058f8a3a55-problem",
           "target_type_sha256": "sha256:0cdd45a79a7b1b196b24d1461cc697022e80f49b08b39b7a5677df26e6cc41c5",
           "task_bundle_sha256": "sha256:7dac230ac9b2ee1669fd270dd47a2ec9b31645f03cdf10e8b196b28a068c03ee",
@@ -503,13 +503,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "Let $A$ be an infinite set such that there are no distinct $a,b,c \\in A$\nsuch that $a \\mid (b+c)$ and $b,c > a$. Is it true that $∑_{n \\in A} \\frac{1}{n} < \\infty$?\n",
+        "docstring": "Let $A$ be an infinite set such that there are no distinct $a,b,c \\in A$\nsuch that $a \\mid (b+c)$ and $b,c > a$. Is it true that $\u2211_{n \\in A} \\frac{1}{n} < \\infty$?\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«12»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab12\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/12](https://www.erdosproblems.com/12)"
@@ -528,11 +528,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:a9d7341770ce875615e7d21b3ea6d8735fcd47a8e32539b1836d33e728d2f746",
-        "type_pretty": "True ↔ ∀ (A : Set ℕ), Erdos12.IsGood A → Summable fun n => 1 / ↑↑n"
+        "type_pretty": "True \u2194 \u2200 (A : Set \u2115), Erdos12.IsGood A \u2192 Summable fun n => 1 / \u2191\u2191n"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos12.erdos_12.parts.iii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab12\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos12.erdos_12.parts.iii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-parts-iii-cc34c2220fa0849e05d608c5387b25b6-problem",
           "target_type_sha256": "sha256:65bf1c09fc477a1f4d09a3c91c99eb15ee7ba4fbd93f51e25fc6f289d64f35b8",
           "task_bundle_sha256": "sha256:3e0fccd0af8807560ebe75124f1aeb5561b18007db4efbce109552ff96ace852",
@@ -540,7 +540,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos12.erdos_12.parts.iii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab12\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos12.erdos_12.parts.iii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-parts-iii-cc34c2220fa0849e05d608c5387b25b6-problem",
           "target_type_sha256": "sha256:a9d7341770ce875615e7d21b3ea6d8735fcd47a8e32539b1836d33e728d2f746",
           "task_bundle_sha256": "sha256:2036fb55e48dcbb35ea108bdec9d8d34ed088b22b5f2d6a54d56242c196e360b",
@@ -554,7 +554,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "RETIRE_SETTLED (The September 2026 proof gives f(n) ≫ sqrt(n), which implies f(n)/log(n) tends to infinity. The tracker records PROVED (LEAN). This settles the main target only; the separate isLittleO upper bound remains.)",
+      "reason": "RETIRE_SETTLED (The September 2026 proof gives f(n) \u226b sqrt(n), which implies f(n)/log(n) tends to infinity. The tracker records PROVED (LEAN). This settles the main target only; the separate isLittleO upper bound remains.)",
       "reason_code": "RETIRE_SETTLED",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
       "retired_on": "2026-09-08",
@@ -578,7 +578,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«126»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab126\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/126](https://www.erdosproblems.com/126)"
@@ -597,11 +597,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:baceba31bace2d3c4aefa7abde6d6d4ad6e742acfe0dfdae6302fcf177f793d0",
-        "type_pretty": "True ↔\n  ∀ (f : ℕ → ℕ),\n    Erdos126.IsMaximalAddFactorsCard f → Filter.Tendsto (fun n => ↑(f n) / Real.log ↑n) Filter.atTop Filter.atTop"
+        "type_pretty": "True \u2194\n  \u2200 (f : \u2115 \u2192 \u2115),\n    Erdos126.IsMaximalAddFactorsCard f \u2192 Filter.Tendsto (fun n => \u2191(f n) / Real.log \u2191n) Filter.atTop Filter.atTop"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«126»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos126.erdos_126\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab126\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos126.erdos_126\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-erdos126-erdos-126-6fe4c742016119da18345edaf51c3fbb-problem",
           "target_type_sha256": "sha256:fecb40c0b29348ae2dfc9bce527577fed3b06c4d1060cf51bb4725d8c939391a",
           "task_bundle_sha256": "sha256:cf677dedc93de22b011aa8708e02ca5db703f836be97689784f5b15aad6b3226",
@@ -609,7 +609,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«126»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos126.erdos_126\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab126\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos126.erdos_126\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-erdos126-erdos-126-6fe4c742016119da18345edaf51c3fbb-problem",
           "target_type_sha256": "sha256:baceba31bace2d3c4aefa7abde6d6d4ad6e742acfe0dfdae6302fcf177f793d0",
           "task_bundle_sha256": "sha256:201690eeec1cae6dc13c65835dfce34a4d898b2f4f155a4c46accf7354c7c431",
@@ -641,20 +641,20 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "In [Er80] Erdős asks whether\n$$ \\lim_{k \\to \\infty} (W(k))^{1/k} = \\infty $$\n",
+        "docstring": "In [Er80] Erd\u0151s asks whether\n$$ \\lim_{k \\to \\infty} (W(k))^{1/k} = \\infty $$\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«138»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab138\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/138](https://www.erdosproblems.com/138)",
           "[Be68] Berlekamp, E. R., A construction for partitions which avoid long arithmetic progressions. Canad. Math. Bull. (1968), 409-414.",
-          "[Er80] Erdős, Paul, A survey of problems in combinatorial number theory. Ann. Discrete Math. (1980), 89-115.",
-          "[Er81] Erdős, P., On the combinatorial problems which I would most like to see solved. Combinatorica (1981), 25-42.",
-          "[Go01] Gowers, W. T., A new proof of Szemerédi's theorem. Geom. Funct. Anal. (2001), 465-588."
+          "[Er80] Erd\u0151s, Paul, A survey of problems in combinatorial number theory. Ann. Discrete Math. (1980), 89-115.",
+          "[Er81] Erd\u0151s, P., On the combinatorial problems which I would most like to see solved. Combinatorica (1981), 25-42.",
+          "[Go01] Gowers, W. T., A new proof of Szemer\u00e9di's theorem. Geom. Funct. Anal. (2001), 465-588."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/138.lean",
@@ -670,11 +670,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
-        "type_pretty": "True ↔ Filter.Tendsto (fun k => ↑(Erdos138.W k) ^ (1 / ↑k)) Filter.atTop Filter.atTop"
+        "type_pretty": "True \u2194 Filter.Tendsto (fun k => \u2191(Erdos138.W k) ^ (1 / \u2191k)) Filter.atTop Filter.atTop"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«138»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos138.erdos_138\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab138\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos138.erdos_138\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos138-erdos-138-83240c1dd5ac8082580951ab71386403-problem",
           "target_type_sha256": "sha256:b44b7d9ef803af86a998689e5a9f89b95a816a4596be8ffab1353f2fb6e3f93e",
           "task_bundle_sha256": "sha256:6a00a0cd865f4e657c384a61ed7da725ab831f75163b3e908d4ea9038f49812c",
@@ -682,7 +682,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«138»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos138.erdos_138\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab138\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos138.erdos_138\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos138-erdos-138-83240c1dd5ac8082580951ab71386403-problem",
           "target_type_sha256": "sha256:371edd26df33585f57ad32c7a16f6caa582021d5c69e89a558e516130ad1a3b7",
           "task_bundle_sha256": "sha256:caf8d2ff33806dee54aeddd39e78669c95e62d085495d7ff4d9d144dad744df4",
@@ -720,7 +720,7 @@
         "formal_proof_link": null,
         "has_parameters": true,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«142»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab142\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/142](https://www.erdosproblems.com/142)"
@@ -739,11 +739,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c",
-        "type_pretty": "∀ (k : ℕ), 1 < k → (fun N => ↑(Erdos142.r k N)) =o[Filter.atTop] fun N => ↑N / Real.log ↑N"
+        "type_pretty": "\u2200 (k : \u2115), 1 < k \u2192 (fun N => \u2191(Erdos142.r k N)) =o[Filter.atTop] fun N => \u2191N / Real.log \u2191N"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«142»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos142.erdos_142.variants.lower\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab142\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos142.erdos_142.variants.lower\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-lower-a8108e1b448824a88e59c4069b1bc4d9-problem",
           "target_type_sha256": "sha256:770d6750c85da8deb02b6d61007c14d7063663b9ccf9735e05ac941a25ca8838",
           "task_bundle_sha256": "sha256:eab5238c75ba6fa72082ac0461e921f1716191214ac06efcce0568d704acd140",
@@ -751,7 +751,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«142»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos142.erdos_142.variants.lower\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab142\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos142.erdos_142.variants.lower\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-lower-a8108e1b448824a88e59c4069b1bc4d9-problem",
           "target_type_sha256": "sha256:a3f73a02f0e943bd284c080928f5a62067c273a79ce4fb3b55dd05a781c9f52c",
           "task_bundle_sha256": "sha256:a544c4519f9ac5fea0abe56ad300c09f4e37f29c444343906bfb3e14c3953df9",
@@ -765,7 +765,7 @@
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-05-erdos-15.md",
       "pool_status": "retired",
-      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over ℚ, so failure of ℚ-summability does not establish real divergence; the counterexample exploited this domain mismatch)",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over \u211a, so failure of \u211a-summability does not establish real divergence; the counterexample exploited this domain mismatch)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
       "retired_on": "2026-08-05",
@@ -789,7 +789,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«15»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab15\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/15](https://www.erdosproblems.com/15)"
@@ -808,11 +808,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:fe6c809775c5e2a2fe8ac769e6b1da07de51b55d65e5aaf3fc8fa41d15a227ef",
-        "type_pretty": "True ↔ Summable fun k => (-1) ^ (k + 1) * (↑k + 1) / ↑(Nat.nth Nat.Prime k)"
+        "type_pretty": "True \u2194 Summable fun k => (-1) ^ (k + 1) * (\u2191k + 1) / \u2191(Nat.nth Nat.Prime k)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«15»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos15.erdos_15\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab15\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos15.erdos_15\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-erdos15-erdos-15-8bba8a81f1906bfad44c92bee5391780-problem",
           "target_type_sha256": "sha256:bc53fe26a8d94053a75116bcba09c1b7f82386d0edd0a9fe966a212e7f161505",
           "task_bundle_sha256": "sha256:dc25fd2c54bc637253031ba75871259f4453164396fcc445646e02ccd230e6ce",
@@ -820,7 +820,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«15»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos15.erdos_15\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab15\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos15.erdos_15\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-erdos15-erdos-15-8bba8a81f1906bfad44c92bee5391780-problem",
           "target_type_sha256": "sha256:fe6c809775c5e2a2fe8ac769e6b1da07de51b55d65e5aaf3fc8fa41d15a227ef",
           "task_bundle_sha256": "sha256:758cf6ab9a3cea3df6f513ac09f61125ddad46ae450f441780fdc1b840ceb636",
@@ -858,7 +858,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«172»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab172\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/172](https://www.erdosproblems.com/172)"
@@ -877,11 +877,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",
-        "type_pretty": "True ↔\n  ∀ (n : ℕ) (color : ℕ → Fin n) (m : ℕ),\n    ∃ A, A.card ≥ m ∧ ∃ c, ∀ (S : Finset ↥A), S.Nonempty → color (∑ x ∈ S, ↑x) = c ∧ color (∏ x ∈ S, ↑x) = c"
+        "type_pretty": "True \u2194\n  \u2200 (n : \u2115) (color : \u2115 \u2192 Fin n) (m : \u2115),\n    \u2203 A, A.card \u2265 m \u2227 \u2203 c, \u2200 (S : Finset \u21a5A), S.Nonempty \u2192 color (\u2211 x \u2208 S, \u2191x) = c \u2227 color (\u220f x \u2208 S, \u2191x) = c"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«172»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos172.erdos_172\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab172\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos172.erdos_172\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos172-erdos-172-f6ca1a59d04849ea59761d94156ec9b1-problem",
           "target_type_sha256": "sha256:70f5b981c981610fcfc104a61d91546a4ea94181b829568137dd5b0f58cc27d1",
           "task_bundle_sha256": "sha256:d027f65a02cb2683e68079e5098f9fca6a4a99b3dd50a7a9c359ff02dc545fc7",
@@ -889,7 +889,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«172»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos172.erdos_172\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab172\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos172.erdos_172\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos172-erdos-172-f6ca1a59d04849ea59761d94156ec9b1-problem",
           "target_type_sha256": "sha256:1ffef2913a9676ad280a9357549d65ab3c218c5b18ca3c03c98bb86674454892",
           "task_bundle_sha256": "sha256:b430559f73608ea4f0b22476de5b49f53412eff87c624b4e014d20529c681457",
@@ -927,14 +927,14 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«184»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab184\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/184](https://www.erdosproblems.com/184)",
-          "[BM22](https://arxiv.org/abs/2211.07689) Bucić, M. and Montgomery, R., Towards the Erdős-Gallai Cycle Decomposition Conjecture. arXiv:2211.07689 (2022).",
+          "[BM22](https://arxiv.org/abs/2211.07689) Buci\u0107, M. and Montgomery, R., Towards the Erd\u0151s-Gallai Cycle Decomposition Conjecture. arXiv:2211.07689 (2022).",
           "[CFS14](https://arxiv.org/abs/1310.0632) Conlon, David and Fox, Jacob and Sudakov, Benny, Cycle packing. Random Structures Algorithms (2014), 608-626.",
-          "[EGP66](https://doi.org/10.4153/CJM-1966-014-3) Erdős, Paul and Goodman, A. W. and Pósa, Lajos, The representation of a graph by set intersections. Canadian J. Math. (1966), 106-112.",
-          "[Er71](https://users.renyi.hu/~p_erdos/1971-25.pdf) Erdős, P., Some unsolved problems in graph theory and combinatorial analysis. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford, 1969) (1971), 97-109."
+          "[EGP66](https://doi.org/10.4153/CJM-1966-014-3) Erd\u0151s, Paul and Goodman, A. W. and P\u00f3sa, Lajos, The representation of a graph by set intersections. Canadian J. Math. (1966), 106-112.",
+          "[Er71](https://users.renyi.hu/~p_erdos/1971-25.pdf) Erd\u0151s, P., Some unsolved problems in graph theory and combinatorial analysis. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford, 1969) (1971), 97-109."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/184.lean",
@@ -950,11 +950,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c",
-        "type_pretty": "∃ f,\n  (f =O[Filter.atTop] fun n => ↑n) ∧\n    ∀ {V : Type u_1} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),\n      ∃ D, (∀ H ∈ D, Erdos184.IsCycleOrEdge H.coe) ∧ Erdos184.IsDecomposition G D ∧ ↑D.card ≤ f (Fintype.card V)"
+        "type_pretty": "\u2203 f,\n  (f =O[Filter.atTop] fun n => \u2191n) \u2227\n    \u2200 {V : Type u_1} [inst : Fintype V] [DecidableEq V] (G : SimpleGraph V),\n      \u2203 D, (\u2200 H \u2208 D, Erdos184.IsCycleOrEdge H.coe) \u2227 Erdos184.IsDecomposition G D \u2227 \u2191D.card \u2264 f (Fintype.card V)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«184»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos184.erdos_184\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab184\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos184.erdos_184\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos184-erdos-184-5558ad85d899ed10396b53fdb41d29bb-problem",
           "target_type_sha256": "sha256:8d509d92583b7db5ef21de34904f4600374fcd6f1e418484737148b9a2da80af",
           "task_bundle_sha256": "sha256:4a80dd9d9c898e5c1eb24583bbc83d02da5728c3e87bff28ca32ee987ab1c409",
@@ -962,7 +962,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«184»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos184.erdos_184\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab184\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos184.erdos_184\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos184-erdos-184-5558ad85d899ed10396b53fdb41d29bb-problem",
           "target_type_sha256": "sha256:d2c466b8ecc3b01fe0ae65247bcd3d44d4c2063c277ee263d75c4ac63ea17c2c",
           "task_bundle_sha256": "sha256:3d2eebe3989376050495b9483ea0ef486a6c42b8d86a15f68e641c6b289d6e5c",
@@ -994,17 +994,17 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "For every $n>2$ there exist distinct integers $1 ≤ x < y < z$\nsuch that $\\frac 4 n = \\frac 1 x + \\frac 1 y + \\frac 1 z$.\n",
+        "docstring": "For every $n>2$ there exist distinct integers $1 \u2264 x < y < z$\nsuch that $\\frac 4 n = \\frac 1 x + \\frac 1 y + \\frac 1 z$.\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": true,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«242»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab242\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/242](https://www.erdosproblems.com/242)",
-          "[Si56](https://zbmath.org/?q=an%3A0075.03302) Sierpiński, W., Sur les décompositions de nombres rationnels en fractions primaires. Mathesis (1956), 16--32."
+          "[Si56](https://zbmath.org/?q=an%3A0075.03302) Sierpi\u0144ski, W., Sur les d\u00e9compositions de nombres rationnels en fractions primaires. Mathesis (1956), 16--32."
         ],
         "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
         "source_path": "FormalConjectures/ErdosProblems/242.lean",
@@ -1020,11 +1020,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:1f082e9c277ceb30a17952f2bd0fbc63c9ad95f17f0d08632975bf2daf926d31",
-        "type_pretty": "∀ (n : ℕ), 2 < n → ∃ x y z, 1 ≤ x ∧ x < y ∧ y < z ∧ 4 / ↑n = 1 / ↑x + 1 / ↑y + 1 / ↑z"
+        "type_pretty": "\u2200 (n : \u2115), 2 < n \u2192 \u2203 x y z, 1 \u2264 x \u2227 x < y \u2227 y < z \u2227 4 / \u2191n = 1 / \u2191x + 1 / \u2191y + 1 / \u2191z"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«242»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos242.erdos_242\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab242\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos242.erdos_242\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-erdos242-erdos-242-4693706d46d4dc0a4de02227a8afb8bd-problem",
           "target_type_sha256": "sha256:26abb982239aa702afcc79707f29b7211566451011687fa6b30a478f83eff266",
           "task_bundle_sha256": "sha256:e592222058ff5a10fd1f609d5f9c8c8173c5dff581d35fb7384a4a014a7877af",
@@ -1032,7 +1032,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«242»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos242.erdos_242\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab242\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos242.erdos_242\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-erdos242-erdos-242-4693706d46d4dc0a4de02227a8afb8bd-problem",
           "target_type_sha256": "sha256:1f082e9c277ceb30a17952f2bd0fbc63c9ad95f17f0d08632975bf2daf926d31",
           "task_bundle_sha256": "sha256:4bd9e35a84118f32d478e7db1520f9ea6f514b72b6ebb6b07a2f75d5a4f89d83",
@@ -1064,22 +1064,22 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "Erdős Problem 252: irrationality of the sum for a given $k$. ",
+        "docstring": "Erd\u0151s Problem 252: irrationality of the sum for a given $k$. ",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«252»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab252\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/252](https://www.erdosproblems.com/252)",
-          "[ErSt71] Erdös, P., and E. G. Straus. \"Some number theoretic results.\" Pacific J. Math 36 (1971): 635-646.",
-          "[ErSt74] Erdős, Paul, and Ernst Straus. \"On the irrationality of certain series.\" Pacific journal of mathematics 55.1 (1974): 85-92.",
-          "[ErKa54] P. Erdős, M. Kac, Amer. Math. Monthly 61 (1954), Problem 4518.",
+          "[ErSt71] Erd\u00f6s, P., and E. G. Straus. \"Some number theoretic results.\" Pacific J. Math 36 (1971): 635-646.",
+          "[ErSt74] Erd\u0151s, Paul, and Ernst Straus. \"On the irrationality of certain series.\" Pacific journal of mathematics 55.1 (1974): 85-92.",
+          "[ErKa54] P. Erd\u0151s, M. Kac, Amer. Math. Monthly 61 (1954), Problem 4518.",
           "[ScPu06] Schlage-Puchta, J. C., The irrationality of a number theoretical series. Ramanujan J. (2006), 455-460.",
           "[FLC07] Friedlander, J. B. and Luca, F. and Stoiciu, M., On the irrationality of a divisor function series. Integers (2007).",
-          "[Pr22] Pratt, K., The irrationality of a divisor function series of Erdős and Kac. arXiv:2209.11124 (2022)."
+          "[Pr22] Pratt, K., The irrationality of a divisor function series of Erd\u0151s and Kac. arXiv:2209.11124 (2022)."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/252.lean",
@@ -1095,11 +1095,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:ddba7c9c27b5665f6cfd200e37ee4ad2f1fbe6e1312d346bce5a2e5344bdbb11",
-        "type_pretty": "True ↔ ∀ k ≥ 1, Irrational (Erdos252.erdos_252_sum k)"
+        "type_pretty": "True \u2194 \u2200 k \u2265 1, Irrational (Erdos252.erdos_252_sum k)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«252»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos252.erdos_252\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab252\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos252.erdos_252\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos252-erdos-252-518309f59f4c18456e0067b487736cd1-problem",
           "target_type_sha256": "sha256:68c1a2072a2f7de360d3fe05d83035cae986049ef3e1e7969778ee0346a95464",
           "task_bundle_sha256": "sha256:4d4d20c868f2e42e176492d34d784018ba3756638181b607ebbf5ab95c6fb723",
@@ -1107,7 +1107,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«252»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos252.erdos_252\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab252\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos252.erdos_252\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos252-erdos-252-518309f59f4c18456e0067b487736cd1-problem",
           "target_type_sha256": "sha256:ddba7c9c27b5665f6cfd200e37ee4ad2f1fbe6e1312d346bce5a2e5344bdbb11",
           "task_bundle_sha256": "sha256:57985c599321a7affa2a9f81fcefbc7998f66058fd3381bb80b89ef5949520cc",
@@ -1145,7 +1145,7 @@
         "formal_proof_link": null,
         "has_parameters": true,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«282»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab282\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/282](https://www.erdosproblems.com/282)"
@@ -1164,11 +1164,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:cd135cd026b706b808d2bc82d9a0c68331f01bdd960c495dcf9d7b8c84e5fc3d",
-        "type_pretty": "∀ {x : ℚ}, x ∈ Set.Ioo 0 1 → Odd x.den → Erdos282.greedyUnitFractionRem {n | Odd n} x =ᶠ[Filter.atTop] 0"
+        "type_pretty": "\u2200 {x : \u211a}, x \u2208 Set.Ioo 0 1 \u2192 Odd x.den \u2192 Erdos282.greedyUnitFractionRem {n | Odd n} x =\u1da0[Filter.atTop] 0"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«282»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos282.erdos_282\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab282\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos282.erdos_282\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos282-erdos-282-1bdae61d149a13421deea89398975b5c-problem",
           "target_type_sha256": "sha256:659efb4ddab5ab8bdc89ffef77e54bf455e97d1efbe43aa223a20563a365776f",
           "task_bundle_sha256": "sha256:f6a20e3e80aa8f7dfec4f084e000294fc5994bb8b7b098829f2db72c069006e2",
@@ -1176,7 +1176,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«282»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos282.erdos_282\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab282\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos282.erdos_282\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos282-erdos-282-1bdae61d149a13421deea89398975b5c-problem",
           "target_type_sha256": "sha256:cd135cd026b706b808d2bc82d9a0c68331f01bdd960c495dcf9d7b8c84e5fc3d",
           "task_bundle_sha256": "sha256:703b3732ee49cf9bb4018ba21b9a869e817f7480af322d38c3b0a83d465c3d4d",
@@ -1214,7 +1214,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«3»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab3\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/3](https://www.erdosproblems.com/3)"
@@ -1233,11 +1233,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
-        "type_pretty": "True ↔ ∀ (A : Set ℕ), (¬Summable fun a => 1 / ↑↑a) → ∃ᶠ (k : ℕ) in Filter.atTop, ∃ S ⊆ A, S.IsAPOfLength ↑k"
+        "type_pretty": "True \u2194 \u2200 (A : Set \u2115), (\u00acSummable fun a => 1 / \u2191\u2191a) \u2192 \u2203\u1da0 (k : \u2115) in Filter.atTop, \u2203 S \u2286 A, S.IsAPOfLength \u2191k"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos3.erdos_3\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab3\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos3.erdos_3\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos3-erdos-3-9fbac4f5e9db10c751d62e47386b429c-problem",
           "target_type_sha256": "sha256:a6f27d88fde7ee43587520b2628eaec5aea85752a9c8bfa5b8ab225359485996",
           "task_bundle_sha256": "sha256:0cf2fc86b94789d3d45f421df6fef98a597044918e7c25024e502874c1f0659c",
@@ -1245,7 +1245,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos3.erdos_3\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab3\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos3.erdos_3\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos3-erdos-3-9fbac4f5e9db10c751d62e47386b429c-problem",
           "target_type_sha256": "sha256:522de161b4ee6af784bc8512ea12aa5fcc0267962999817271d2aed6462a034b",
           "task_bundle_sha256": "sha256:47b8451dd025f39e2a68629f1c32f4e38f1ea5ea51923938c29a8aa9c2c82cb6",
@@ -1283,7 +1283,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«304»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab304\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/304](https://www.erdosproblems.com/304)"
@@ -1302,11 +1302,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
-        "type_pretty": "True ↔ (fun b => ↑(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => Real.log (Real.log ↑b)"
+        "type_pretty": "True \u2194 (fun b => \u2191(Erdos304.smallestCollectionTo b)) =O[Filter.atTop] fun b => Real.log (Real.log \u2191b)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«304»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos304.upper_bound\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab304\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos304.upper_bound\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos304-upper-bound-6d696cd529f682bb0a2e5b121f45ce22-problem",
           "target_type_sha256": "sha256:03a9ed980c6b410235178a998bac5de14648d7fe08680419c2ebcca7a910fa93",
           "task_bundle_sha256": "sha256:442c1e3297e79f425c8d2b41f6d6f2dfbf49fe6b9b1ee73984621f5d04aa6a6a",
@@ -1314,7 +1314,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«304»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos304.upper_bound\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab304\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos304.upper_bound\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos304-upper-bound-6d696cd529f682bb0a2e5b121f45ce22-problem",
           "target_type_sha256": "sha256:1f68abefc6f19036f8af8e734ce9ddf0abe19c554cb3f8d9571d9ab3d0c868fa",
           "task_bundle_sha256": "sha256:3d28ef441e37d75924772fe12e7732f4fd92457e3dc77fe840b6daeb87cd1041",
@@ -1352,7 +1352,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«371»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab371\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/371](https://www.erdosproblems.com/371)"
@@ -1375,7 +1375,7 @@
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«371»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos371.erdos_371\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab371\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos371.erdos_371\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos371-erdos-371-3d522f499f831d5a89da60aab2253bc4-problem",
           "target_type_sha256": "sha256:1c0da7765d81dd358cfbe884b483fe4a2dca0a8659c52f96fc4223913665338d",
           "task_bundle_sha256": "sha256:966591a131c8b502ce697426de249815eb67d2b178060cc3ed155a95a06a5836",
@@ -1383,7 +1383,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«371»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos371.erdos_371\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab371\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos371.erdos_371\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos371-erdos-371-3d522f499f831d5a89da60aab2253bc4-problem",
           "target_type_sha256": "sha256:852d783431a440ea8fc1fc6f6a232d9e5ce0b67037bf3f2393ec2d0563c6af71",
           "task_bundle_sha256": "sha256:d5a22bb9b94337725e2100fa3c2da18c1a9469ca4076644cfd1e8bdd37b9c27d",
@@ -1421,11 +1421,11 @@
         "formal_proof_link": null,
         "has_parameters": true,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«477»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab477\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/477](https://www.erdosproblems.com/477)",
-          "[Sek59](http://dml.cz/dmlcz/100376) Milan Sekanina, Замечания к фактoризации беcкoнечнoй цикличеcкoй группы, Czechoslovak Mathematical Journal, Vol. 9 (1959), No. 4, 485–495"
+          "[Sek59](http://dml.cz/dmlcz/100376) Milan Sekanina, \u0417\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f \u043a \u0444\u0430\u043a\u0442o\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u0431\u0435c\u043ao\u043d\u0435\u0447\u043do\u0439 \u0446\u0438\u043a\u043b\u0438\u0447\u0435c\u043ao\u0439 \u0433\u0440\u0443\u043f\u043f\u044b, Czechoslovak Mathematical Journal, Vol. 9 (1959), No. 4, 485\u2013495"
         ],
         "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
         "source_path": "FormalConjectures/ErdosProblems/477.lean",
@@ -1441,11 +1441,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:6b92749cc0b4a99fc7d402a7918889949b99f7e50709bd13e5546219d03dea46",
-        "type_pretty": "∀ (A : Set ℤ), ∃ z, ¬∃! a, (a ∈ A ×ˢ Set.range fun x => Polynomial.eval x (Polynomial.X ^ 3)) ∧ z = a.1 + a.2"
+        "type_pretty": "\u2200 (A : Set \u2124), \u2203 z, \u00ac\u2203! a, (a \u2208 A \u00d7\u02e2 Set.range fun x => Polynomial.eval x (Polynomial.X ^ 3)) \u2227 z = a.1 + a.2"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos477.erdos_477.variants.X_pow_three\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab477\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos477.erdos_477.variants.X_pow_three\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-x-pow-three-c28a00869c7d465fac0e164a3df8fde2-problem",
           "target_type_sha256": "sha256:fbbceb7d06e5ddf23194e2cd8077934465951bf2627cf6b92d3455507fc03e6a",
           "task_bundle_sha256": "sha256:84981b783bc4835a9439c575b79235fc8f92034f6000fae5b57cda5d2ebab943",
@@ -1453,7 +1453,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos477.erdos_477.variants.X_pow_three\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab477\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos477.erdos_477.variants.X_pow_three\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-x-pow-three-c28a00869c7d465fac0e164a3df8fde2-problem",
           "target_type_sha256": "sha256:6b92749cc0b4a99fc7d402a7918889949b99f7e50709bd13e5546219d03dea46",
           "task_bundle_sha256": "sha256:f278c242bb7374eee87d73a878784a6b1e1e0fac3bdb25131040a70b03828e62",
@@ -1491,11 +1491,11 @@
         "formal_proof_link": null,
         "has_parameters": true,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«477»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab477\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/477](https://www.erdosproblems.com/477)",
-          "[Sek59](http://dml.cz/dmlcz/100376) Milan Sekanina, Замечания к фактoризации беcкoнечнoй цикличеcкoй группы, Czechoslovak Mathematical Journal, Vol. 9 (1959), No. 4, 485–495"
+          "[Sek59](http://dml.cz/dmlcz/100376) Milan Sekanina, \u0417\u0430\u043c\u0435\u0447\u0430\u043d\u0438\u044f \u043a \u0444\u0430\u043a\u0442o\u0440\u0438\u0437\u0430\u0446\u0438\u0438 \u0431\u0435c\u043ao\u043d\u0435\u0447\u043do\u0439 \u0446\u0438\u043a\u043b\u0438\u0447\u0435c\u043ao\u0439 \u0433\u0440\u0443\u043f\u043f\u044b, Czechoslovak Mathematical Journal, Vol. 9 (1959), No. 4, 485\u2013495"
         ],
         "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
         "source_path": "FormalConjectures/ErdosProblems/477.lean",
@@ -1511,11 +1511,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:1e6a688779bfee53b7e5e2c4b678eb8ca0afb780bcfbdf327c2def1986076ff7",
-        "type_pretty": "∀ (k : ℕ),\n  2 ≤ k → ∀ (A : Set ℤ), ∃ z, ¬∃! a, (a ∈ A ×ˢ Set.range fun x => Polynomial.eval x (Polynomial.X ^ k)) ∧ z = a.1 + a.2"
+        "type_pretty": "\u2200 (k : \u2115),\n  2 \u2264 k \u2192 \u2200 (A : Set \u2124), \u2203 z, \u00ac\u2203! a, (a \u2208 A \u00d7\u02e2 Set.range fun x => Polynomial.eval x (Polynomial.X ^ k)) \u2227 z = a.1 + a.2"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos477.erdos_477.variants.monomial\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab477\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos477.erdos_477.variants.monomial\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-monomial-f5c188e04d02588312105b2558c24262-problem",
           "target_type_sha256": "sha256:a728b5e4a9c1c07f6d8a9b67cb591b98a57e9f020dfaad665ea320ae538e5650",
           "task_bundle_sha256": "sha256:d53b5b41d710be5c975f854291911ed001f96147c12635d879a7f1eae0d4d035",
@@ -1523,7 +1523,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«477»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos477.erdos_477.variants.monomial\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab477\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos477.erdos_477.variants.monomial\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-variants-monomial-f5c188e04d02588312105b2558c24262-problem",
           "target_type_sha256": "sha256:1e6a688779bfee53b7e5e2c4b678eb8ca0afb780bcfbdf327c2def1986076ff7",
           "task_bundle_sha256": "sha256:da7f17175958fcb43ded55e18cf94c9eaa1e744151a6c3c719ac530c45090a66",
@@ -1561,7 +1561,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«536»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab536\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/536](https://www.erdosproblems.com/536)"
@@ -1580,11 +1580,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:59e10d319ea486a15475ad7dfcd237f7acaf43deb421bdfab99ae7eed0c707d4",
-        "type_pretty": "True ↔\n  ∀ ε > 0,\n    ∀ᶠ (N : ℕ) in Filter.atTop,\n      ∀ A ⊆ Finset.Icc 1 N,\n        ε * ↑N ≤ ↑A.card → ∃ a ∈ A, ∃ b ∈ A, ∃ c ∈ A, {a, b, c}.card = 3 ∧ a.lcm b = b.lcm c ∧ b.lcm c = a.lcm c"
+        "type_pretty": "True \u2194\n  \u2200 \u03b5 > 0,\n    \u2200\u1da0 (N : \u2115) in Filter.atTop,\n      \u2200 A \u2286 Finset.Icc 1 N,\n        \u03b5 * \u2191N \u2264 \u2191A.card \u2192 \u2203 a \u2208 A, \u2203 b \u2208 A, \u2203 c \u2208 A, {a, b, c}.card = 3 \u2227 a.lcm b = b.lcm c \u2227 b.lcm c = a.lcm c"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«536»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos536.erdos_536\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab536\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos536.erdos_536\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-erdos536-erdos-536-5a5d0ee832acea568227382a73f41790-problem",
           "target_type_sha256": "sha256:2070ee9aee1f6a67bdaa59a3e4934d3454d37178d52d05933cc94d26a6ddcedd",
           "task_bundle_sha256": "sha256:ea3d50f8479cfb1c06ae9c904bc1dec8588f6b2c953dcdc7465e6a92e4758cae",
@@ -1592,7 +1592,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«536»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos536.erdos_536\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab536\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos536.erdos_536\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-erdos536-erdos-536-5a5d0ee832acea568227382a73f41790-problem",
           "target_type_sha256": "sha256:59e10d319ea486a15475ad7dfcd237f7acaf43deb421bdfab99ae7eed0c707d4",
           "task_bundle_sha256": "sha256:b33ae3944c41d5a0b9ee4c717e76703e6b1c3d471dfb10721ab129ba54979abb",
@@ -1630,7 +1630,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«564»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab564\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/564](https://www.erdosproblems.com/564)"
@@ -1649,11 +1649,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092",
-        "type_pretty": "True ↔ ∃ c > 0, ∀ᶠ (n : ℕ) in Filter.atTop, 2 ^ 2 ^ (c * n) ≤ ↑(Combinatorics.hypergraphRamsey 3 n)"
+        "type_pretty": "True \u2194 \u2203 c > 0, \u2200\u1da0 (n : \u2115) in Filter.atTop, 2 ^ 2 ^ (c * n) \u2264 \u2191(Combinatorics.hypergraphRamsey 3 n)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«564»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos564.erdos_564\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab564\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos564.erdos_564\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos564-erdos-564-32dc5d2fab51c360f797cff51a81ad0d-problem",
           "target_type_sha256": "sha256:654c69210ff664b296c7f53a80db7bd3790f91f5d4b76501fef2fab9df6cf611",
           "task_bundle_sha256": "sha256:0336dfd35d54f8838fff455c7804ae40fac0a61a7216c9f77315956c1ecf2bac",
@@ -1661,7 +1661,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«564»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos564.erdos_564\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab564\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos564.erdos_564\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos564-erdos-564-32dc5d2fab51c360f797cff51a81ad0d-problem",
           "target_type_sha256": "sha256:9d83ba030098650ee699b48e716cdf5f446226673c02b02f5b9e6af5c7e5b092",
           "task_bundle_sha256": "sha256:5ef1d5a6fd6c1eb380584db655cae42658846d5b07116b6a09e2f772dc5b3bf7",
@@ -1675,7 +1675,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q₃,H), while the Lean target states SimpleGraph.sizeRamsey Q₃ H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for the ordinary Ramsey number R(Q\u2083,H), while the Lean target states SimpleGraph.sizeRamsey Q\u2083 H; submission 145e01a5 validly refuted the frozen size-Ramsey statement and received a FORMALIZATION_DEFECT_AWARD)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "5f45ca06b4bc70c7a55f259d4b2e58278fd31f83",
       "retired_on": "2026-08-12",
@@ -1693,13 +1693,13 @@
         "contains_sorry_in_value": true,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "**Erdős Problem 567 (Q3)**\n\nIs $Q_3$ (the 3-dimensional hypercube) Ramsey size linear?\n",
+        "docstring": "**Erd\u0151s Problem 567 (Q3)**\n\nIs $Q_3$ (the 3-dimensional hypercube) Ramsey size linear?\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«567»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab567\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/567](https://www.erdosproblems.com/567)"
@@ -1718,11 +1718,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
-        "type_pretty": "True ↔ Erdos567.Q3.IsRamseySizeLinear"
+        "type_pretty": "True \u2194 Erdos567.Q3.IsRamseySizeLinear"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«567»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos567.erdos_567.parts.i\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab567\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos567.erdos_567.parts.i\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
           "target_type_sha256": "sha256:3fc7610ac7c78abb213243f942e2cc5b3d74612c5a6f1677914bb6e50b778ae4",
           "task_bundle_sha256": "sha256:78a2fcdf75db1b5751446fd415d65cd35649c31d1376c57753099d9159d6e670",
@@ -1730,7 +1730,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«567»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos567.erdos_567.parts.i\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab567\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos567.erdos_567.parts.i\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-parts-i-0937591ca23bb66d51a323988e848755-problem",
           "target_type_sha256": "sha256:21cbea4476cfe35d0a111d50501aefe104c0af7cd3c46e89cfb2bff96a340039",
           "task_bundle_sha256": "sha256:96a265aeb2cd934677d0561853ae4d7051df9f6403256e23209f93e0d971020d",
@@ -1744,7 +1744,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "SOLVED_EXTERNALLY (Milner and Prikry (1991) prove in ZFC the stronger relation omega_1 -> (omega*2+1, 4)^3; restricting to an initial omega_1 segment of the continuum ordinal gives this exact well-ordered variant. Only this variant is retired: the general Erdős 70 question, the real-line order question and the other Erdős 70 statements are unaffected. conjectures.io result 81f38614-217d-4eef-aadf-d3fd9d62a8d0 already recorded NOT_NOVEL for this variant. This retirement did not independently rebuild a proof. See EXTERNAL-SOLUTIONS-2026-10-06.md.)",
+      "reason": "SOLVED_EXTERNALLY (Milner and Prikry (1991) prove in ZFC the stronger relation omega_1 -> (omega*2+1, 4)^3; restricting to an initial omega_1 segment of the continuum ordinal gives this exact well-ordered variant. Only this variant is retired: the general Erd\u0151s 70 question, the real-line order question and the other Erd\u0151s 70 statements are unaffected. conjectures.io result 81f38614-217d-4eef-aadf-d3fd9d62a8d0 already recorded NOT_NOVEL for this variant. This retirement did not independently rebuild a proof. See EXTERNAL-SOLUTIONS-2026-10-06.md.)",
       "reason_code": "SOLVED_EXTERNALLY",
       "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
       "retired_on": "2026-10-06",
@@ -1762,13 +1762,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "**First open case beyond Erdős–Rado**: $\\mathfrak{c} \\to (\\omega \\cdot 2, 4)^3_2$.\n\nErdős and Rado proved $\\mathfrak{c} \\to (\\omega + n, 4)^3_2$ for every finite $n \\ge 2$\n(see `erdos_rado`), which covers all red ordinals below $\\omega \\cdot 2 = \\omega + \\omega$.\nThis variant asks whether the result extends to $\\beta = \\omega \\cdot 2$, the simplest\ncountable ordinal not covered by their theorem.\n",
+        "docstring": "**First open case beyond Erd\u0151s\u2013Rado**: $\\mathfrak{c} \\to (\\omega \\cdot 2, 4)^3_2$.\n\nErd\u0151s and Rado proved $\\mathfrak{c} \\to (\\omega + n, 4)^3_2$ for every finite $n \\ge 2$\n(see `erdos_rado`), which covers all red ordinals below $\\omega \\cdot 2 = \\omega + \\omega$.\nThis variant asks whether the result extends to $\\beta = \\omega \\cdot 2$, the simplest\ncountable ordinal not covered by their theorem.\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«70»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab70\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/70](https://www.erdosproblems.com/70)"
@@ -1787,11 +1787,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
-        "type_pretty": "True ↔ Erdos70.OrdinalCardinalRamsey3 Cardinal.continuum.ord (Ordinal.omega0 * 2) 4"
+        "type_pretty": "True \u2194 Erdos70.OrdinalCardinalRamsey3 Cardinal.continuum.ord (Ordinal.omega0 * 2) 4"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«70»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos70.erdos_70.variants.omega_times_two_four\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab70\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos70.erdos_70.variants.omega_times_two_four\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-omega-times-two-four-b9cfc59715f3df872ec48369d609cd0c-problem",
           "target_type_sha256": "sha256:d090626583f4d8405cfea85318e454da3aa1509287d098c4ed1b5e7c6d066131",
           "task_bundle_sha256": "sha256:8bbf4cd56b78a6a6cf8b25fc52dfc04abe26f129846399dfda69017cff8a01bf",
@@ -1799,7 +1799,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«70»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos70.erdos_70.variants.omega_times_two_four\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab70\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos70.erdos_70.variants.omega_times_two_four\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-omega-times-two-four-b9cfc59715f3df872ec48369d609cd0c-problem",
           "target_type_sha256": "sha256:8212d9ec59d89064b56f940bf51a9af36699a95555f245f9a8360c26a3efbd1f",
           "task_bundle_sha256": "sha256:89a9664a7e355009a693117c51eaac8223b8d2004bfa49127244df10fa7c6dbb",
@@ -1837,7 +1837,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«701»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab701\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/701](https://www.erdosproblems.com/701)"
@@ -1856,11 +1856,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:ca0ae541b657e550f538d41a62a6ebd5d370b8cbde8971ccc3066b1e8ff687b8",
-        "type_pretty": "True ↔\n  ∀ {X : Type} [Nonempty X] [Fintype X] (F : Set (Set X)),\n    IsLowerSet F → ∃ x, ∀ F' ⊆ F, F'.Intersecting → Cardinal.mk ↑F' ≤ Cardinal.mk ↑{A | A ∈ F ∧ x ∈ A}"
+        "type_pretty": "True \u2194\n  \u2200 {X : Type} [Nonempty X] [Fintype X] (F : Set (Set X)),\n    IsLowerSet F \u2192 \u2203 x, \u2200 F' \u2286 F, F'.Intersecting \u2192 Cardinal.mk \u2191F' \u2264 Cardinal.mk \u2191{A | A \u2208 F \u2227 x \u2208 A}"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«701»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos701.erdos_701\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab701\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos701.erdos_701\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos701-erdos-701-c31dfc3744a40030cce7177cab27de90-problem",
           "target_type_sha256": "sha256:d2df05a83bd934271e66d718777826d2834b941a7931d50a894f9f0ea5daf522",
           "task_bundle_sha256": "sha256:fbbf02aab3c1ee1103b6401d18de498f7e45d1bb76bd404e23c1d124c0533fa1",
@@ -1868,7 +1868,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«701»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos701.erdos_701\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab701\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos701.erdos_701\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos701-erdos-701-c31dfc3744a40030cce7177cab27de90-problem",
           "target_type_sha256": "sha256:ca0ae541b657e550f538d41a62a6ebd5d370b8cbde8971ccc3066b1e8ff687b8",
           "task_bundle_sha256": "sha256:23babed48cd514be93812602fa03c3142c76b04f038faa1f1112a2d0cef3523c",
@@ -1900,13 +1900,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "It is open even for $k = 2$.\nLet $k = 2$. Does $((n+k)!)^2∣(2n)!$ hold for infinitely many n?\n",
+        "docstring": "It is open even for $k = 2$.\nLet $k = 2$. Does $((n+k)!)^2\u2223(2n)!$ hold for infinitely many n?\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«727»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab727\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/727](https://www.erdosproblems.com/727)"
@@ -1923,11 +1923,11 @@
           "sorryAx"
         ],
         "type_hash": "sha256:5ffa6d1b71dff334913e5494bb611ed2d63edbe4791a1ea6f2f73e960437fea9",
-        "type_pretty": "True ↔ {n | (n + 2).factorial ^ 2 ∣ (2 * n).factorial}.Infinite"
+        "type_pretty": "True \u2194 {n | (n + 2).factorial ^ 2 \u2223 (2 * n).factorial}.Infinite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«727»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos727.erdos_727.variants.k_2\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab727\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos727.erdos_727.variants.k_2\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-variants-k-2-da79a840e295076a4731eff08aed61bc-problem",
           "target_type_sha256": "sha256:fa63e7bca92bff5c8fe677401b42093f71a4f339b470d653638fbc7aadd61ae2",
           "task_bundle_sha256": "sha256:ce4d4471386dd576c88b6eb2e0bb8a58fc7978ffa36e321be4777aca10649eea",
@@ -1935,7 +1935,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«727»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos727.erdos_727.variants.k_2\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab727\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos727.erdos_727.variants.k_2\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-variants-k-2-da79a840e295076a4731eff08aed61bc-problem",
           "target_type_sha256": "sha256:5ffa6d1b71dff334913e5494bb611ed2d63edbe4791a1ea6f2f73e960437fea9",
           "task_bundle_sha256": "sha256:427355ce9ed9ab8ce61d19ded44ad909f0eb110906ce1b676f0e0f8ef9ca8964",
@@ -1973,15 +1973,15 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«821»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab821\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/821](https://www.erdosproblems.com/821)",
           "[BaHa98] Baker, R. C. and Harman, G., Shifted primes without large prime factors. Acta Arith. (1998), 331--361.",
-          "[Er35b] Erdős, P., On the normal number of prime factors of $p-1$ and some related problems concerning Euler's $\\varphi$-function. Quart. J. Math. (1935), 205-213.",
-          "[Er74b] Erdős, P., Remarks on some problems in number theory. Math. Balkanica (1974), 197-202.",
+          "[Er35b] Erd\u0151s, P., On the normal number of prime factors of $p-1$ and some related problems concerning Euler's $\\varphi$-function. Quart. J. Math. (1935), 205-213.",
+          "[Er74b] Erd\u0151s, P., Remarks on some problems in number theory. Math. Balkanica (1974), 197-202.",
           "[Li22] J. D. Lichtman, Primes in arithmetic progressions to large moduli and shifted primes without large prime factors. arXiv:2211.09641 (2022).",
-          "[LuPo11] Luca, Florian and Pollack, Paul, An arithmetic function arising from {C}armichael's conjecture. J. Théor. Nombres Bordeaux (2011), 697--714."
+          "[LuPo11] Luca, Florian and Pollack, Paul, An arithmetic function arising from {C}armichael's conjecture. J. Th\u00e9or. Nombres Bordeaux (2011), 697--714."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/821.lean",
@@ -1997,11 +1997,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
-        "type_pretty": "True ↔ ∀ ε > 0, {n | ↑(Erdos821.g n) > ↑n ^ (1 - ε)}.Infinite"
+        "type_pretty": "True \u2194 \u2200 \u03b5 > 0, {n | \u2191(Erdos821.g n) > \u2191n ^ (1 - \u03b5)}.Infinite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«821»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos821.erdos_821\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab821\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos821.erdos_821\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos821-erdos-821-6332475b9199a920f04494c9ca90ad23-problem",
           "target_type_sha256": "sha256:3a767bd22853fb9233bbaf2ef8bee6868d963a3cc87d870c955e11d83b1a090d",
           "task_bundle_sha256": "sha256:3b47a37e9890580d523bf8850b327d88e66b0b9da14ba5f8a683076933c9b293",
@@ -2009,7 +2009,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«821»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos821.erdos_821\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab821\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos821.erdos_821\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos821-erdos-821-6332475b9199a920f04494c9ca90ad23-problem",
           "target_type_sha256": "sha256:1e884dc69d11c49e29517988c58442de08c49969278cb26ca8185f60ab5d6bad",
           "task_bundle_sha256": "sha256:b88ecbd93e17c91f00925ba2ebff04859ba13a2e019a2ed5488412d69b00c34f",
@@ -2047,11 +2047,11 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«887»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab887\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/887](https://www.erdosproblems.com/887)",
-          "[ErRo97] Erdős, Paul and Rosenfeld, Moshe, The factor-difference set of integers. Acta Arith. (1997), 353--359."
+          "[ErRo97] Erd\u0151s, Paul and Rosenfeld, Moshe, The factor-difference set of integers. Acta Arith. (1997), 353--359."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/887.lean",
@@ -2067,11 +2067,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:869e68472c87758ed735ec9905e981c1948591269bcdf19fd92574021681991e",
-        "type_pretty": "∃ K, ∀ C > 0, ∀ᶠ (n : ℕ) in Filter.atTop, {d ∈ Finset.Ioo ⌊√↑n⌋₊ ⌈√↑n + C * ↑n ^ (1 / 4)⌉₊ | d ∣ n}.card ≤ K"
+        "type_pretty": "\u2203 K, \u2200 C > 0, \u2200\u1da0 (n : \u2115) in Filter.atTop, {d \u2208 Finset.Ioo \u230a\u221a\u2191n\u230b\u208a \u2308\u221a\u2191n + C * \u2191n ^ (1 / 4)\u2309\u208a | d \u2223 n}.card \u2264 K"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«887»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos887.erdos_887.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab887\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos887.erdos_887.parts.ii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-parts-ii-86ce89f0003d2102c7395dfe0a776be7-problem",
           "target_type_sha256": "sha256:93db3b2a47eef1fe32d9430f2db2c8f4dbf61c13f7f87dd44af2155977d6a338",
           "task_bundle_sha256": "sha256:20d3dda97a26b1fa3449202171fb758c4d9e48fa8ed7bfbdbdac449fa570584d",
@@ -2079,7 +2079,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«887»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos887.erdos_887.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab887\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos887.erdos_887.parts.ii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-parts-ii-86ce89f0003d2102c7395dfe0a776be7-problem",
           "target_type_sha256": "sha256:869e68472c87758ed735ec9905e981c1948591269bcdf19fd92574021681991e",
           "task_bundle_sha256": "sha256:137688c6299522c829934bbe018fd4e560a45ece6c5d76b8a0b8fbbd9835a49a",
@@ -2093,7 +2093,7 @@
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-939.md",
       "pool_status": "retired",
-      "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case — the one with no known example — is satisfied by {0, 1}; submission 91915fc3 discharged it that way)",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED (Erdos939Sums omits positivity of the summands and Nat.Full is vacuous at 0 and 1, so the r = 4 case \u2014 the one with no known example \u2014 is satisfied by {0, 1}; submission 91915fc3 discharged it that way)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE + SOLVED",
       "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
       "retired_on": "2026-08-06",
@@ -2111,13 +2111,13 @@
         "contains_sorry_in_value": true,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "If $r≥4$ then can the sum of $r-2$ coprime $r$-powerful numbers ever be itself $r$-powerful?\n",
+        "docstring": "If $r\u22654$ then can the sum of $r-2$ coprime $r$-powerful numbers ever be itself $r$-powerful?\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«939»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab939\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/939](https://www.erdosproblems.com/939)"
@@ -2136,11 +2136,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:14d19e36506522f685b0d221dda9ee6b6b2ca18f630aa7d17cd6d09424c7c4d9",
-        "type_pretty": "True ↔ ∀ r ≥ 4, (Erdos939.Erdos939Sums r).Nonempty"
+        "type_pretty": "True \u2194 \u2200 r \u2265 4, (Erdos939.Erdos939Sums r).Nonempty"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«939»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos939.erdos_939\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab939\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos939.erdos_939\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-erdos939-erdos-939-5546d034c66d177b8304c5f8b4d9b870-problem",
           "target_type_sha256": "sha256:ce02fd4f8c26aff133c9c4a0ba11c500e404de233a4a63acb220d71d6cc7f863",
           "task_bundle_sha256": "sha256:79d853e91051c4f3bf0401386e945ccf6f34f36f11722d8c6a67a537beee04c0",
@@ -2148,7 +2148,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«939»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos939.erdos_939\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab939\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos939.erdos_939\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-erdos939-erdos-939-5546d034c66d177b8304c5f8b4d9b870-problem",
           "target_type_sha256": "sha256:14d19e36506522f685b0d221dda9ee6b6b2ca18f630aa7d17cd6d09424c7c4d9",
           "task_bundle_sha256": "sha256:2c68588e889c3bd7b9d1ba57f88ce2946432555d3748a7f62861661c03547a54",
@@ -2186,7 +2186,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«952»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab952\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/952](https://www.erdosproblems.com/952)",
@@ -2204,11 +2204,11 @@
           "sorryAx"
         ],
         "type_hash": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
-        "type_pretty": "True ↔ ∃ x C, Function.Injective x ∧ ∀ (n : ℕ), Prime (x n) ∧ Zsqrtd.norm (x (n + 1) - x n) < C"
+        "type_pretty": "True \u2194 \u2203 x C, Function.Injective x \u2227 \u2200 (n : \u2115), Prime (x n) \u2227 Zsqrtd.norm (x (n + 1) - x n) < C"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«952»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos952.erdos_952\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab952\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos952.erdos_952\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos952-erdos-952-b1118bac61d778ff04c59b2244cc07c6-problem",
           "target_type_sha256": "sha256:427bd3943c70f14c7cbcabf7ddc73f0e4adf5b050e9841ba69831d6c644e0a82",
           "task_bundle_sha256": "sha256:6d6749851decad74d6fdefefcdaea5deee7dfc2c42f27aa1fd95f9bdcc4ee225",
@@ -2216,7 +2216,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«952»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos952.erdos_952\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab952\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos952.erdos_952\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-erdos952-erdos-952-b1118bac61d778ff04c59b2244cc07c6-problem",
           "target_type_sha256": "sha256:19699b5a3a278bd801a00d0c8695afb7ccde0c07cac479aff1404d60c26564f8",
           "task_bundle_sha256": "sha256:a64a9ce3c5f7818bc326df2f33617741eab17c3df66c6c4bf17fdcec6947afb8",
@@ -2254,13 +2254,13 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«978»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab978\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/978](https://www.erdosproblems.com/978)",
           "[Ho67] Hooley, C., On the power free values of polynomials. Mathematika (1967), 21--26.",
           "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
-          "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
+          "[Er53] Erd\u0151s, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/978.lean",
@@ -2276,11 +2276,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
-        "type_pretty": "True ↔\n  ∀ {f : Polynomial ℤ},\n    Irreducible f →\n      f.natDegree > 3 →\n        (¬∃ l, f.natDegree = 2 ^ l) →\n          0 < f.leadingCoeff →\n            (∀ (p : ℕ), Nat.Prime p → ∃ n, ¬↑p ^ (f.natDegree - 2) ∣ Polynomial.eval (↑n) f) →\n              {n | Powerfree (f.natDegree - 2) (Polynomial.eval (↑n) f)}.Infinite"
+        "type_pretty": "True \u2194\n  \u2200 {f : Polynomial \u2124},\n    Irreducible f \u2192\n      f.natDegree > 3 \u2192\n        (\u00ac\u2203 l, f.natDegree = 2 ^ l) \u2192\n          0 < f.leadingCoeff \u2192\n            (\u2200 (p : \u2115), Nat.Prime p \u2192 \u2203 n, \u00ac\u2191p ^ (f.natDegree - 2) \u2223 Polynomial.eval (\u2191n) f) \u2192\n              {n | Powerfree (f.natDegree - 2) (Polynomial.eval (\u2191n) f)}.Infinite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos978.erdos_978.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab978\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos978.erdos_978.parts.ii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-parts-ii-aa017081c3d18f27105e1245ead9e6b8-problem",
           "target_type_sha256": "sha256:2fae4b2704d90a9537406855522ed62866992621f5e198c951a0120dd5697e7a",
           "task_bundle_sha256": "sha256:49368f0c540674d908124ee94d5deb24b268ae0dc8d1510e4f2cf35027bdc032",
@@ -2288,7 +2288,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos978.erdos_978.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab978\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos978.erdos_978.parts.ii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-parts-ii-aa017081c3d18f27105e1245ead9e6b8-problem",
           "target_type_sha256": "sha256:47372f3c4a860aeb771ecd24ae367c03e80de09cf951d3f94fd6a78370d54787",
           "task_bundle_sha256": "sha256:d94f66daebb9504fb9a3a391d21c855ba3e6e07f9f389bead42c394b911ca8f9",
@@ -2326,13 +2326,13 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«978»",
+        "module": "FormalConjectures.ErdosProblems.\u00ab978\u00bb",
         "pointer_target": null,
         "references": [
           "[erdosproblems.com/978](https://www.erdosproblems.com/978)",
           "[Ho67] Hooley, C., On the power free values of polynomials. Mathematika (1967), 21--26.",
           "[Br11] Browning, T. D., Power-free values of polynomials. Arch. Math. (Basel) (2011), 139--150.",
-          "[Er53] Erdős, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
+          "[Er53] Erd\u0151s, P., Arithmetical properties of polynomials. J. London Math. Soc. (1953), 416--425."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/ErdosProblems/978.lean",
@@ -2346,11 +2346,11 @@
           "sorryAx"
         ],
         "type_hash": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
-        "type_pretty": "True ↔ {n | Squarefree (n ^ 4 + 2)}.Infinite"
+        "type_pretty": "True \u2194 {n | Squarefree (n ^ 4 + 2)}.Infinite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos978.erdos_978.parts.iii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab978\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Erdos978.erdos_978.parts.iii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-parts-iii-8b78166b3b3ed8d42acea28c096186f5-problem",
           "target_type_sha256": "sha256:f343bd4f330d3d592002a712ff07f130494d31c140400a0314aa321046865920",
           "task_bundle_sha256": "sha256:9ae266618b93bb830db4b6f6e1a8f491b25848bffda87f1c1e0058cfc3e8c0a8",
@@ -2358,7 +2358,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«978»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos978.erdos_978.parts.iii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ErdosProblems.\u00ab978\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos978.erdos_978.parts.iii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-parts-iii-8b78166b3b3ed8d42acea28c096186f5-problem",
           "target_type_sha256": "sha256:3e683925ba54f309a76278d99386826c87b151bb5cb1df828d0e3643f0e240fa",
           "task_bundle_sha256": "sha256:5f673ffacf4560c9c6739a18090a3c38471ba13d94bcb883d1c5702db6864863",
@@ -2372,7 +2372,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2397,7 +2397,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«12»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab12\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.12)"
@@ -2416,11 +2416,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c",
-        "type_pretty": "True ↔\n  ∀ {G : Type u_1} [inst : AddCommGroup G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset G),\n    have N := Fintype.card G;\n    have α := ↑A.card / ↑N;\n    have valid_tuples := {t | ∀ (i j : Fin 5), j ∈ {i, i + 1, i + 2} → t.1 i + t.2 j ∈ A};\n    ↑valid_tuples.card ≥ α ^ 15 * ↑N ^ 10"
+        "type_pretty": "True \u2194\n  \u2200 {G : Type u_1} [inst : AddCommGroup G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset G),\n    have N := Fintype.card G;\n    have \u03b1 := \u2191A.card / \u2191N;\n    have valid_tuples := {t | \u2200 (i j : Fin 5), j \u2208 {i, i + 1, i + 2} \u2192 t.1 i + t.2 j \u2208 A};\n    \u2191valid_tuples.card \u2265 \u03b1 ^ 15 * \u2191N ^ 10"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green12.green_12\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab12\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green12.green_12\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green12-green-12-1d64f95c57ca55806d8c8fbb63657b21-problem",
           "target_type_sha256": "sha256:ecfb079f3cb21baf57883714a687174094664e82c0b37b332829b5ea3c1697ae",
           "task_bundle_sha256": "sha256:f989f4d1d9f4d8b6ae8ae78c0af968e175e1c8deb3d40c36ea93e48e9e2cf4d2",
@@ -2428,7 +2428,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green12.green_12\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab12\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green12.green_12\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green12-green-12-1d64f95c57ca55806d8c8fbb63657b21-problem",
           "target_type_sha256": "sha256:9549e707b18a652005dd6d5cc169cf3b09ec20fcfaba5fc4e1d5629dd920cf0c",
           "task_bundle_sha256": "sha256:743727b8be0aa1acf180fb01d7208c253a6fbf3f2dcb66891386c615c64f873f",
@@ -2442,7 +2442,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2468,13 +2468,13 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«18»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab18\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr26] [Ben Green's Open Problem 18](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.18)",
-          "[Au16] Austin, Tim. \"Ajtai–Szemerédi theorems over quasirandom groups.\" Recent trends in combinatorics. Cham: Springer International Publishing, 2016. 453-484.",
+          "[Au16] Austin, Tim. \"Ajtai\u2013Szemer\u00e9di theorems over quasirandom groups.\" Recent trends in combinatorics. Cham: Springer International Publishing, 2016. 453-484.",
           "[So13] Solymosi, Jozsef. \"Roth-type theorems in finite groups.\" European Journal of Combinatorics 34.8 (2013): 1454-1458.",
-          "[Go01] Gowers, William T. \"A new proof of Szemerédi's theorem.\" Geometric & Functional Analysis GAFA 11.3 (2001): 465-588."
+          "[Go01] Gowers, William T. \"A new proof of Szemer\u00e9di's theorem.\" Geometric & Functional Analysis GAFA 11.3 (2001): 465-588."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/GreensOpenProblems/18.lean",
@@ -2490,11 +2490,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:c96cb1bd2a6af555e3e44fae689286dea4f4ce9ebbc89c13ec1caa598cea8095",
-        "type_pretty": "True ↔\n  ∀ α > 0,\n    ∃ c > 0,\n      ∃ m₀,\n        ∀ (G : Type u_1) [inst : Group G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset (G × G)),\n          Fintype.card G ≥ m₀ →\n            ↑A.card ≥ α * ↑(Fintype.card G) ^ 2 → ↑(Green18.numNaiveCorners A) ≥ c * ↑(Fintype.card G) ^ 3"
+        "type_pretty": "True \u2194\n  \u2200 \u03b1 > 0,\n    \u2203 c > 0,\n      \u2203 m\u2080,\n        \u2200 (G : Type u_1) [inst : Group G] [inst_1 : Fintype G] [inst_2 : DecidableEq G] (A : Finset (G \u00d7 G)),\n          Fintype.card G \u2265 m\u2080 \u2192\n            \u2191A.card \u2265 \u03b1 * \u2191(Fintype.card G) ^ 2 \u2192 \u2191(Green18.numNaiveCorners A) \u2265 c * \u2191(Fintype.card G) ^ 3"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«18»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green18.green_18\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab18\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green18.green_18\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green18-green-18-48b56ac9a748688bc80d48d0e28dc6b3-problem",
           "target_type_sha256": "sha256:25f9874bcb8a50a79b0478bfde5c74f6d0000b9f3e7c41d721b5a971d10fdd3e",
           "task_bundle_sha256": "sha256:e5e0433ac320a38ee4723ac627cd0d5e0f2ea98409fe821a3c874a2fac6262a1",
@@ -2502,7 +2502,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«18»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green18.green_18\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab18\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green18.green_18\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green18-green-18-48b56ac9a748688bc80d48d0e28dc6b3-problem",
           "target_type_sha256": "sha256:c96cb1bd2a6af555e3e44fae689286dea4f4ce9ebbc89c13ec1caa598cea8095",
           "task_bundle_sha256": "sha256:4a45e59bbd9ac66c67725d33467ce9f159e360405900297ba79f393297e02128",
@@ -2516,7 +2516,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2540,15 +2540,15 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«2»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab2\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.2)",
-          "[Er65] P. Erdős. Extremal problems in number theory, In Proc. Sympos. Pure Math., Vol. VIII, pages 181–189. Amer. Math. Soc., Providence, R.I., 1965.",
-          "[Sa21] Sanders, Tom. \"The Erdős–Moser Sum-free Set Problem.\" Canadian Journal of Mathematics 73.1 (2021): 63-107.",
-          "[Ru05] I. Z. Ruzsa, Sum-avoiding subsets. Ramanujan J., 9 (2005) (1-2):77–82.",
-          "[Ch71] S. L. G. Choi. On a combinatorial problem in number theory. Proc. London Math. Soc. (3), 23:629–642, 1971. doi:10.1112/plms/s3-23.4.629.",
-          "[BSS00] A. Baltz, T. Schoen, and A. Srivastav. Probabilistic construction of small strongly sum-free sets via large Sidon sets. Colloq. Math., 86(2):171–176, 2000. doi:10.4064/cm-86-2-171-176."
+          "[Er65] P. Erd\u0151s. Extremal problems in number theory, In Proc. Sympos. Pure Math., Vol. VIII, pages 181\u2013189. Amer. Math. Soc., Providence, R.I., 1965.",
+          "[Sa21] Sanders, Tom. \"The Erd\u0151s\u2013Moser Sum-free Set Problem.\" Canadian Journal of Mathematics 73.1 (2021): 63-107.",
+          "[Ru05] I. Z. Ruzsa, Sum-avoiding subsets. Ramanujan J., 9 (2005) (1-2):77\u201382.",
+          "[Ch71] S. L. G. Choi. On a combinatorial problem in number theory. Proc. London Math. Soc. (3), 23:629\u2013642, 1971. doi:10.1112/plms/s3-23.4.629.",
+          "[BSS00] A. Baltz, T. Schoen, and A. Srivastav. Probabilistic construction of small strongly sum-free sets via large Sidon sets. Colloq. Math., 86(2):171\u2013176, 2000. doi:10.4064/cm-86-2-171-176."
         ],
         "repository_commit": "6a786f997e18e8f095762a2830d191b7e25e505e",
         "source_path": "FormalConjectures/GreensOpenProblems/2.lean",
@@ -2564,11 +2564,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219",
-        "type_pretty": "True ↔\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (A : Finset ℤ), A.card = n → ↑(Green2.maxRestrictedSumAvoidingSubsetSize A) ≥ Real.log ↑n ^ 100"
+        "type_pretty": "True \u2194\n  \u2200\u1da0 (n : \u2115) in Filter.atTop,\n    \u2200 (A : Finset \u2124), A.card = n \u2192 \u2191(Green2.maxRestrictedSumAvoidingSubsetSize A) \u2265 Real.log \u2191n ^ 100"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«2»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green2.green_2\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab2\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green2.green_2\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green2-green-2-6eb6bfe69fd88b45da113fce83504aad-problem",
           "target_type_sha256": "sha256:756238b806f41b248eed18cf73644f85890f300e3e96fdc119706c16335a41aa",
           "task_bundle_sha256": "sha256:a0697f3022d6c4f82b5a2f2d4255a340845e8feaf4f8aa9ee764c85d813e6c03",
@@ -2576,7 +2576,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«2»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green2.green_2\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab2\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green2.green_2\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green2-green-2-6eb6bfe69fd88b45da113fce83504aad-problem",
           "target_type_sha256": "sha256:02c9eb5f62e4c6cc6942c9e1c261dd967235473da7575ccb0af25f0c7bd2c219",
           "task_bundle_sha256": "sha256:bcdd4623b0a627b01479de5e7150466a1b2f46f464532cf60d1ab8c43d1e2ffb",
@@ -2590,7 +2590,7 @@
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-green-29.md",
       "pool_status": "retired",
-      "reason": "SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} × H) ∪ ({+1} × H) ∪ {(0,1)} in Multiplicative ℤ × H, whose only element at coordinate 0 is the identity, so every S ⊆ A with S^8 ⊆ A^4 is a singleton; the formalization is faithful and no defect was found)",
+      "reason": "SOLVED (approved submission 82ab85ee refutes the published target with a 3-approximate group A = ({-1} \u00d7 H) \u222a ({+1} \u00d7 H) \u222a {(0,1)} in Multiplicative \u2124 \u00d7 H, whose only element at coordinate 0 is the identity, so every S \u2286 A with S^8 \u2286 A^4 is a singleton; the formalization is faithful and no defect was found)",
       "reason_code": "SOLVED",
       "recovered_from_commit": "697613c323aa6e250fa48a70df7ac7915719d7f5",
       "retired_on": "2026-08-06",
@@ -2614,13 +2614,13 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«29»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab29\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 29](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.29)",
           "[Gr12] Green, Ben. \"What is... an approximate group.\" Notices Amer. Math. Soc 59.5 (2012): 655-656.",
-          "[Br13] Breuillard, Emmanuel, Ben Green, and Terence Tao. \"Small doubling in groups.\" Erdős Centennial. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013. 129-151.",
-          "[Sa10] Sanders, Tom. \"On a nonabelian Balog–Szemerédi-type lemma.\" Journal of the Australian Mathematical Society 89.1 (2010): 127-132.",
+          "[Br13] Breuillard, Emmanuel, Ben Green, and Terence Tao. \"Small doubling in groups.\" Erd\u0151s Centennial. Berlin, Heidelberg: Springer Berlin Heidelberg, 2013. 129-151.",
+          "[Sa10] Sanders, Tom. \"On a nonabelian Balog\u2013Szemer\u00e9di-type lemma.\" Journal of the Australian Mathematical Society 89.1 (2010): 127-132.",
           "[CrSi10] Croot, Ernie, and Olof Sisask. \"A probabilistic technique for finding almost-periods of convolutions.\" Geometric and functional analysis 20.6 (2010): 1367-1396."
         ],
         "repository_commit": "379fc0298dc146df549e7061c3ede0353a5bb51f",
@@ -2637,11 +2637,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:526c3f619eeed50ddb846d932fb177057e03d262db5b4ab020c01404c890f9ae",
-        "type_pretty": "True ↔\n  ∃ C c,\n    0 < C ∧\n      0 < c ∧\n        ∀ {G : Type u_1} [inst : Group G] [inst_1 : DecidableEq G] (K : ℝ) (A : Finset G),\n          1 ≤ K → IsApproximateSubgroup K ↑A → ∃ S ⊆ A, C * K ^ (-c) * ↑A.card ≤ ↑S.card ∧ S ^ 8 ⊆ A ^ 4"
+        "type_pretty": "True \u2194\n  \u2203 C c,\n    0 < C \u2227\n      0 < c \u2227\n        \u2200 {G : Type u_1} [inst : Group G] [inst_1 : DecidableEq G] (K : \u211d) (A : Finset G),\n          1 \u2264 K \u2192 IsApproximateSubgroup K \u2191A \u2192 \u2203 S \u2286 A, C * K ^ (-c) * \u2191A.card \u2264 \u2191S.card \u2227 S ^ 8 \u2286 A ^ 4"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«29»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green29.green_29\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab29\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green29.green_29\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green29-green-29-bddf2e0f00e5e2af5eb32b9644bb5c1d-problem",
           "target_type_sha256": "sha256:1c9a3dd04e32a02b9b3e8f2c285d8d835f206c4eecc8f08ac6d89d4af6fa3f0d",
           "task_bundle_sha256": "sha256:d93f338e0bdc26070d21afb455b3b681858807cc1d51688dc30b40849a8cfed2",
@@ -2649,7 +2649,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«29»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green29.green_29\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab29\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green29.green_29\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green29-green-29-bddf2e0f00e5e2af5eb32b9644bb5c1d-problem",
           "target_type_sha256": "sha256:526c3f619eeed50ddb846d932fb177057e03d262db5b4ab020c01404c890f9ae",
           "task_bundle_sha256": "sha256:394cdfd3f61ec829bad29a0c166617a03bb58e547b60707c7934a0231404490e",
@@ -2663,7 +2663,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "SOLVED + NOT_OPEN (Franchi–Gowers–Yip, arXiv:2607.06073v1, published 2026-07-07, proves the exact product-free-subset target; submissions af89c6c1 and df81aea1 were rejected under NOT_NOVEL after substantially implementing that published solution)",
+      "reason": "SOLVED + NOT_OPEN (Franchi\u2013Gowers\u2013Yip, arXiv:2607.06073v1, published 2026-07-07, proves the exact product-free-subset target; submissions af89c6c1 and df81aea1 were rejected under NOT_NOVEL after substantially implementing that published solution)",
       "reason_code": "SOLVED + NOT_OPEN",
       "recovered_from_commit": "184aac41ce6690ad443e76bbc358e47b671a675c",
       "retired_on": "2026-08-12",
@@ -2687,7 +2687,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«3»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab3\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 3](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.3 Problem 3)"
@@ -2706,11 +2706,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:7e6597ee6b3c6a4c6913d8c03c38f1c3819e8e414eaaebe5f64b28c73fa1587c",
-        "type_pretty": "True ↔\n  ∀ (A : Set ℝ),\n    IsOpen A → A ⊆ Set.Icc 0 1 → MeasureTheory.volume A > 1 / 3 → ∃ x y z, x ∈ A ∧ y ∈ A ∧ z ∈ A ∧ x * y = z"
+        "type_pretty": "True \u2194\n  \u2200 (A : Set \u211d),\n    IsOpen A \u2192 A \u2286 Set.Icc 0 1 \u2192 MeasureTheory.volume A > 1 / 3 \u2192 \u2203 x y z, x \u2208 A \u2227 y \u2208 A \u2227 z \u2208 A \u2227 x * y = z"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green3.green_3\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab3\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green3.green_3\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green3-green-3-913e9572e10291bc4cb6449086f7c26f-problem",
           "target_type_sha256": "sha256:18dff6b90c23cb54b219ab91effbec14471ab962cd6c4810f9e930e5c11300c2",
           "task_bundle_sha256": "sha256:429ad38e194c789d313b279541a0f052d88bf4a91ffee7070cae4764ba0c448e",
@@ -2718,7 +2718,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«3»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green3.green_3\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab3\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green3.green_3\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green3-green-3-913e9572e10291bc4cb6449086f7c26f-problem",
           "target_type_sha256": "sha256:7e6597ee6b3c6a4c6913d8c03c38f1c3819e8e414eaaebe5f64b28c73fa1587c",
           "task_bundle_sha256": "sha256:89483fd4789090a55164cbbe2eea819ab5d540676194ef5207395af9d430caa8",
@@ -2732,7 +2732,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2757,7 +2757,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«32»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab32\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.32)",
@@ -2777,11 +2777,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:34a15fafb12e479ed77eb1f1d3d4de1aa95356f84654036449004d377aabe8be",
-        "type_pretty": "True ↔ Green32.HasLargeGapDilate fun p => √↑p"
+        "type_pretty": "True \u2194 Green32.HasLargeGapDilate fun p => \u221a\u2191p"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«32»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green32.green_32\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab32\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green32.green_32\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green32-green-32-6174848634c86a4439e65cc8ef8865ee-problem",
           "target_type_sha256": "sha256:ab38567e59eda2a9d5fa7655e269dfc9eae9ef7e0bb44b41dabcc67e30eed964",
           "task_bundle_sha256": "sha256:dee499c27fffb423eaae8803d0159e615f9d0e37df077b9f389f34acab5b73a3",
@@ -2789,7 +2789,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«32»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green32.green_32\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab32\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green32.green_32\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green32-green-32-6174848634c86a4439e65cc8ef8865ee-problem",
           "target_type_sha256": "sha256:34a15fafb12e479ed77eb1f1d3d4de1aa95356f84654036449004d377aabe8be",
           "task_bundle_sha256": "sha256:9f18e02ff9e991d47bcbb5e6744549305a36f6b0001a82fdda30e2d757eed902",
@@ -2803,7 +2803,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2828,7 +2828,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«33»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab33\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Ben Green's Open Problem 33](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.33)",
@@ -2849,11 +2849,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
-        "type_pretty": "True ↔ ∀ (ε : ℝ), 0 < ε → ∃ᶠ (q : ℕ+) in Filter.atTop, ∃ A, A + A = Finset.univ ∧ |↑A.card / √↑↑q - √2| < ε"
+        "type_pretty": "True \u2194 \u2200 (\u03b5 : \u211d), 0 < \u03b5 \u2192 \u2203\u1da0 (q : \u2115+) in Filter.atTop, \u2203 A, A + A = Finset.univ \u2227 |\u2191A.card / \u221a\u2191\u2191q - \u221a2| < \u03b5"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«33»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green33.green_33\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab33\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green33.green_33\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green33-green-33-6a456ee783277633d7ba1e9d525e50fd-problem",
           "target_type_sha256": "sha256:8f7d115d7821e4b1f7d26ce331531964d26ae6e04e42152ee11ee8026d97bd33",
           "task_bundle_sha256": "sha256:812b0b38851292b7a7b4468c84a14584c72980b1326d58ba10432a767ad06935",
@@ -2861,7 +2861,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«33»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green33.green_33\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab33\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green33.green_33\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green33-green-33-6a456ee783277633d7ba1e9d525e50fd-problem",
           "target_type_sha256": "sha256:804236e30cc2e09e044a815f777e744029afe22a84c197a0bddb5b68a8d6034e",
           "task_bundle_sha256": "sha256:277efbd960d46f741152286b4adb0fec006657ed88db49bb1cb8d21cd965f93d",
@@ -2875,7 +2875,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2900,7 +2900,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«36»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab36\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green's Open Problems #36](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.36)",
@@ -2920,11 +2920,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
-        "type_pretty": "True ↔\n  ∀ ε > 0,\n    ∃ᶠ (n : ℕ) in Filter.atTop,\n      ∃ H x,\n        ∃ (_ : Finite H),\n          ∃ A B,\n            ↑n ^ (2 - ε) ≤ ↑(Nat.card H) ∧\n              ↑(Nat.card H) ≤ ↑n ^ (2 + ε) ∧\n                (∀ (i : Fin n), ↑n ^ (2 - ε) ≤ ↑(A i).card * ↑(B i).card) ∧ Green36.SimultaneousDoubleProduct A B"
+        "type_pretty": "True \u2194\n  \u2200 \u03b5 > 0,\n    \u2203\u1da0 (n : \u2115) in Filter.atTop,\n      \u2203 H x,\n        \u2203 (_ : Finite H),\n          \u2203 A B,\n            \u2191n ^ (2 - \u03b5) \u2264 \u2191(Nat.card H) \u2227\n              \u2191(Nat.card H) \u2264 \u2191n ^ (2 + \u03b5) \u2227\n                (\u2200 (i : Fin n), \u2191n ^ (2 - \u03b5) \u2264 \u2191(A i).card * \u2191(B i).card) \u2227 Green36.SimultaneousDoubleProduct A B"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«36»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green36.green_36.variants.cks05\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab36\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green36.green_36.variants.cks05\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-cks05-53c9c31da973065dc94bf40ff95f6b49-problem",
           "target_type_sha256": "sha256:0f4d175e962422223ef4d9e1a4f88122b479b1cb3f5b190ca1b01d31dd856b8a",
           "task_bundle_sha256": "sha256:9b02af735a76f88472b00d3076697581fedb8639cfec62dc56642ed8beb3cb44",
@@ -2932,7 +2932,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«36»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green36.green_36.variants.cks05\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab36\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green36.green_36.variants.cks05\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-cks05-53c9c31da973065dc94bf40ff95f6b49-problem",
           "target_type_sha256": "sha256:d63905b0ee88b827b3b329b890ab90f0f278c3d83232637a0b74991a7b8d2e69",
           "task_bundle_sha256": "sha256:86c39ff6b3bb309dba26ee4485688ea7bd1b8d7a9ca932fa6c105a6d015ce9c0",
@@ -2946,7 +2946,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -2971,7 +2971,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«40»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab40\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Ben Green's Open Problem 40](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.40)",
@@ -2993,11 +2993,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1",
-        "type_pretty": "True ↔ Filter.Tendsto Green40.f Filter.atTop (nhds ⊤)"
+        "type_pretty": "True \u2194 Filter.Tendsto Green40.f Filter.atTop (nhds \u22a4)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green40.green_40\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab40\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green40.green_40\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green40-green-40-7038d03f722fc7d65e2d22f469dd81c8-problem",
           "target_type_sha256": "sha256:2341ad4f20cc81efa99a197e2536c6e9acfcea0802d04c7c77a61a240b9b88df",
           "task_bundle_sha256": "sha256:07308d6d533e247533f0a381b8d7f9e4bc6e2872b68c8985c5f31fed579fffb4",
@@ -3005,7 +3005,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green40.green_40\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab40\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green40.green_40\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green40-green-40-7038d03f722fc7d65e2d22f469dd81c8-problem",
           "target_type_sha256": "sha256:0f273cf7b501a32fed46c777e736d4b00878f4c30d1647789687e184d02e6ff1",
           "task_bundle_sha256": "sha256:be1182aed0a96413436f1f6697311ffac957ac58acc4c893666904288a6dad84",
@@ -3019,7 +3019,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3044,7 +3044,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«40»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab40\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Ben Green's Open Problem 40](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.40)",
@@ -3066,11 +3066,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
-        "type_pretty": "True ↔ Filter.Tendsto Green40.f_tilde Filter.atTop (nhds ⊤)"
+        "type_pretty": "True \u2194 Filter.Tendsto Green40.f_tilde Filter.atTop (nhds \u22a4)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green40.green_40.variants.arbitrary_subsets\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab40\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green40.green_40.variants.arbitrary_subsets\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-arbitrary-subsets-9f56642baf60ed427cf7c70f93baf4f0-problem",
           "target_type_sha256": "sha256:e3b642b2f2f0b40a994d065afae17323a3beb11f259eb7d2e4adb11fc5bd01dd",
           "task_bundle_sha256": "sha256:7d4cc6d45aa49cbcbfcaa1e4d3a00870b7dd9de58c80d9bb0292a8140e0b4fb2",
@@ -3078,7 +3078,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«40»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green40.green_40.variants.arbitrary_subsets\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab40\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green40.green_40.variants.arbitrary_subsets\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-arbitrary-subsets-9f56642baf60ed427cf7c70f93baf4f0-problem",
           "target_type_sha256": "sha256:f80a9f6706b1d8a0ff34ced320ecd1d16d4985da7a678f1e76474204f6281759",
           "task_bundle_sha256": "sha256:be22f9d772465bba912e70faf7638295d6e2a1f71bc298eb5743a2dc7b91679b",
@@ -3092,7 +3092,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3117,7 +3117,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«41»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab41\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Ben Green's Open Problem 41](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.41)",
@@ -3138,11 +3138,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
-        "type_pretty": "True ↔ ∃ C, ∃ ε₀ > 0, ∀ ε ∈ Set.Ioc 0 ε₀, ↑(Green41.minCopies ε) ≤ ε ^ (-C)"
+        "type_pretty": "True \u2194 \u2203 C, \u2203 \u03b5\u2080 > 0, \u2200 \u03b5 \u2208 Set.Ioc 0 \u03b5\u2080, \u2191(Green41.minCopies \u03b5) \u2264 \u03b5 ^ (-C)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«41»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green41.green_41.variants.polynomial_bound\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab41\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green41.green_41.variants.polynomial_bound\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-polynomial-bound-bcad91b2ad294dc20e07a02d55925ef0-problem",
           "target_type_sha256": "sha256:3a3a3c8d2f0162b9f73fea85aa3c7c689d953aa767de2bcfd837181247858b91",
           "task_bundle_sha256": "sha256:5e23bf4835f3bd8f9ea14f4d6ab57f2f3a2eda862a2b9abfe13278e40ad58336",
@@ -3150,7 +3150,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«41»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green41.green_41.variants.polynomial_bound\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab41\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green41.green_41.variants.polynomial_bound\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-polynomial-bound-bcad91b2ad294dc20e07a02d55925ef0-problem",
           "target_type_sha256": "sha256:f6ca32f1ba2650373ef5c0ae19a2eb5284e4ff67422cdd54a0fc2d24d4f05d00",
           "task_bundle_sha256": "sha256:e343e9e80db45779e04ad0d540730a65c95912710bda69196ddda8aa09dce052",
@@ -3189,7 +3189,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«42»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab42\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.42)",
@@ -3212,11 +3212,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:90586c657f6905c747525367ba3f1e3b1edaf30fa8995276b0af724a40e43cc0",
-        "type_pretty": "True ↔ Green42.CohnElkiesOptimal 2 (√3 / 6)"
+        "type_pretty": "True \u2194 Green42.CohnElkiesOptimal 2 (\u221a3 / 6)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«42»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green42.green_42\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab42\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green42.green_42\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green42-green-42-67604f9cbebc216c554358c9c0c13e69-problem",
           "target_type_sha256": "sha256:99c0891a82aa814a8ab422c9584057c40c4e9002702eaae64593c023e69d7187",
           "task_bundle_sha256": "sha256:f77aa6fb53ae7a36d920ec4f3cb384f8d1bce6f5fdd10c48115b068fa986a03f",
@@ -3224,7 +3224,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«42»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green42.green_42\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab42\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green42.green_42\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green42-green-42-67604f9cbebc216c554358c9c0c13e69-problem",
           "target_type_sha256": "sha256:90586c657f6905c747525367ba3f1e3b1edaf30fa8995276b0af724a40e43cc0",
           "task_bundle_sha256": "sha256:9789ded62b701c8f77a0d2bd9790f57542694a2b4b59ed718613764fe148dff5",
@@ -3262,11 +3262,11 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«44»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab44\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Ben Green's 100 Open Problems](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.44)",
-          "[Er80] Erdős, Paul. \"A survey of problems in combinatorial number theory.\" Annals of Discrete Mathematics 6 (1980): 89-115."
+          "[Er80] Erd\u0151s, Paul. \"A survey of problems in combinatorial number theory.\" Annals of Discrete Mathematics 6 (1980): 89-115."
         ],
         "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
         "source_path": "FormalConjectures/GreensOpenProblems/44.lean",
@@ -3282,11 +3282,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
-        "type_pretty": "True ↔\n  ∀ (N : ℕ) (p : Fin 1000 → ℕ) (A : (i : Fin 1000) → Finset (ZMod (p i))),\n    have remaining := {x ∈ Finset.Icc 1 N | ∀ (i : Fin 1000), ↑x ∉ A i};\n    (∀ (i : Fin 1000), Nat.Prime (p i)) →\n      StrictMono p → p 999 ^ 10 < N ^ 9 → (∀ (i : Fin 1000), (A i).card = p i / 2) → 10 * remaining.card ≤ N"
+        "type_pretty": "True \u2194\n  \u2200 (N : \u2115) (p : Fin 1000 \u2192 \u2115) (A : (i : Fin 1000) \u2192 Finset (ZMod (p i))),\n    have remaining := {x \u2208 Finset.Icc 1 N | \u2200 (i : Fin 1000), \u2191x \u2209 A i};\n    (\u2200 (i : Fin 1000), Nat.Prime (p i)) \u2192\n      StrictMono p \u2192 p 999 ^ 10 < N ^ 9 \u2192 (\u2200 (i : Fin 1000), (A i).card = p i / 2) \u2192 10 * remaining.card \u2264 N"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«44»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green44.green_44\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab44\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green44.green_44\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-green44-green-44-98bd51eee2baa4578fa8ba12d4664553-problem",
           "target_type_sha256": "sha256:e2d78b046dfbab2bb11d581e55f8698e92092df40b24498a92aa8a3e65a70d30",
           "task_bundle_sha256": "sha256:8d2a5a76a8940c3c0060ae018d631fe39b5a212fee1e5a3ce993dd0da081a3b9",
@@ -3294,7 +3294,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«44»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green44.green_44\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab44\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green44.green_44\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-8432eac9-green44-green-44-98bd51eee2baa4578fa8ba12d4664553-problem",
           "target_type_sha256": "sha256:18c2aca84d4120347510a1d2a32cf3ed074afe602b5d91fe0e9dc9a35d84f926",
           "task_bundle_sha256": "sha256:904ef8967f03c77ef2a49b0bcf6a62516b7b6451a208d74e3ebdfc2431f9042b",
@@ -3308,7 +3308,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3327,13 +3327,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "Let $A \\subset \\mathbb{F}_2^n$ be a set of density $\\alpha > 0$. Does $10A$ contain a coset\nof some subspace of dimension at least $n - O(\\log(1/\\alpha))$?\n\nMore precisely: does there exist an absolute constant $C > 0$ such that for all $n \\geq 1$ and all\nnonempty $A \\subseteq \\mathbb{F}_2^n$ with density $\\alpha > 0$, the sumset $10A$ contains a coset\nof some subspace of dimension at least $n - C \\log_2(1/\\alpha)$?\n\nThe sumset $10A$ is defined as $\\{a_1 + a_2 + \\cdots + a_{10} : a_i \\in A\\}$, using the pointwise\nscalar multiplication notation `10 • A` where `•` denotes the iterated addition of a set.\n\nNote: We model $\\mathbb{F}_2^n$ as `Fin n → ZMod 2`, which is an $n$-dimensional vector space\nover $\\mathbb{F}_2$.\n",
+        "docstring": "Let $A \\subset \\mathbb{F}_2^n$ be a set of density $\\alpha > 0$. Does $10A$ contain a coset\nof some subspace of dimension at least $n - O(\\log(1/\\alpha))$?\n\nMore precisely: does there exist an absolute constant $C > 0$ such that for all $n \\geq 1$ and all\nnonempty $A \\subseteq \\mathbb{F}_2^n$ with density $\\alpha > 0$, the sumset $10A$ contains a coset\nof some subspace of dimension at least $n - C \\log_2(1/\\alpha)$?\n\nThe sumset $10A$ is defined as $\\{a_1 + a_2 + \\cdots + a_{10} : a_i \\in A\\}$, using the pointwise\nscalar multiplication notation `10 \u2022 A` where `\u2022` denotes the iterated addition of a set.\n\nNote: We model $\\mathbb{F}_2^n$ as `Fin n \u2192 ZMod 2`, which is an $n$-dimensional vector space\nover $\\mathbb{F}_2$.\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«50»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab50\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 50](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.6 Problem 50)"
@@ -3352,11 +3352,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26",
-        "type_pretty": "True ↔\n  ∃ C > 0,\n    ∀ (n : ℕ) (A : Finset (𝔽₂ n)),\n      A.Nonempty →\n        have α := ↑A.dens;\n        ∃ W v, v +ᵥ ↑W ⊆ ↑(10 • A) ∧ ↑n - C * Real.logb 2 (1 / α) ≤ ↑(Module.finrank (ZMod 2) ↥W)"
+        "type_pretty": "True \u2194\n  \u2203 C > 0,\n    \u2200 (n : \u2115) (A : Finset (\ud835\udd3d\u2082 n)),\n      A.Nonempty \u2192\n        have \u03b1 := \u2191A.dens;\n        \u2203 W v, v +\u1d65 \u2191W \u2286 \u2191(10 \u2022 A) \u2227 \u2191n - C * Real.logb 2 (1 / \u03b1) \u2264 \u2191(Module.finrank (ZMod 2) \u21a5W)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«50»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green50.green_50\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab50\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green50.green_50\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green50-green-50-9386202140705b968974427beb8de2b0-problem",
           "target_type_sha256": "sha256:e521966161f32ada6299f93012e491a864f3a707749427c0c74e19885e5c7cab",
           "task_bundle_sha256": "sha256:3ecb768423c393a7a55694d6fa8ceb3741721c20f65ddacbe46f330c6f52d1e7",
@@ -3364,7 +3364,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«50»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green50.green_50\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab50\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green50.green_50\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green50-green-50-9386202140705b968974427beb8de2b0-problem",
           "target_type_sha256": "sha256:e2a74d6d383d25702d29fd6118d1e59c311faae285fb810b9ef4cdb689134b26",
           "task_bundle_sha256": "sha256:d93463313e9fb9e2502ca6bf57b3b689031fd251ddb3b9afddd57b550632062e",
@@ -3378,7 +3378,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "SOURCE_MISMATCH (Green #54 is per-n on ℝ^n; formalization is a single statement on ℕ → ℝ with Measure.infinitePi gaussian — nonequivalent setting)",
+      "reason": "SOURCE_MISMATCH (Green #54 is per-n on \u211d^n; formalization is a single statement on \u2115 \u2192 \u211d with Measure.infinitePi gaussian \u2014 nonequivalent setting)",
       "reason_code": "SOURCE_MISMATCH",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
       "retired_on": "2026-08-05",
@@ -3404,7 +3404,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«54»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab54\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 54](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.54)",
@@ -3424,11 +3424,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:a93e3be294669ae52648b4b3d9a2a417711cce4fd61665358e92d804e113d14d",
-        "type_pretty": "True ↔\n  ∀ (K : Set (ℕ → ℝ)),\n    IsCompact K →\n      Balanced ℝ K →\n        0.99 ≤ Green54.gaussianMeasureInf K →\n          ∃ C, IsCompact C ∧ Convex ℝ C ∧ C ⊆ 10 • K ∧ 1e-2 ≤ Green54.gaussianMeasureInf C"
+        "type_pretty": "True \u2194\n  \u2200 (K : Set (\u2115 \u2192 \u211d)),\n    IsCompact K \u2192\n      Balanced \u211d K \u2192\n        0.99 \u2264 Green54.gaussianMeasureInf K \u2192\n          \u2203 C, IsCompact C \u2227 Convex \u211d C \u2227 C \u2286 10 \u2022 K \u2227 1e-2 \u2264 Green54.gaussianMeasureInf C"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«54»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green54.green_54\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab54\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green54.green_54\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green54-green-54-4b999541e6ed76366ee17980148e75c2-problem",
           "target_type_sha256": "sha256:b74d844314cf4e7bad64642eba78a9c4727ba591397629b206fbfc89ec8f847b",
           "task_bundle_sha256": "sha256:09e22ab166d7bc50b5db21029a278678ac7af7246d72dfa8f5aeb8f3e238d3f7",
@@ -3436,7 +3436,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«54»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green54.green_54\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab54\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green54.green_54\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green54-green-54-4b999541e6ed76366ee17980148e75c2-problem",
           "target_type_sha256": "sha256:a93e3be294669ae52648b4b3d9a2a417711cce4fd61665358e92d804e113d14d",
           "task_bundle_sha256": "sha256:5f2f6f4d6960b6b8ac53df6624428065451a5732d2e0d834f40d10038d984c9a",
@@ -3450,7 +3450,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3469,13 +3469,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "Suppose $A, B ⊆ \\{1, \\dots, N\\}$ both have size at least $N^{0.49}$. Must the sumset $A + B$\ncontain a composite number?\n",
+        "docstring": "Suppose $A, B \u2286 \\{1, \\dots, N\\}$ both have size at least $N^{0.49}$. Must the sumset $A + B$\ncontain a composite number?\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«58»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab58\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 58](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8 Problem 58)"
@@ -3494,11 +3494,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435",
-        "type_pretty": "True ↔\n  ∀ᶠ (N : ℕ) in Filter.atTop,\n    ∀ A ⊆ Finset.Icc 1 N, ∀ B ⊆ Finset.Icc 1 N, ↑N ^ 0.49 ≤ ↑A.card → ↑N ^ 0.49 ≤ ↑B.card → ∃ m ∈ A + B, m.Composite"
+        "type_pretty": "True \u2194\n  \u2200\u1da0 (N : \u2115) in Filter.atTop,\n    \u2200 A \u2286 Finset.Icc 1 N, \u2200 B \u2286 Finset.Icc 1 N, \u2191N ^ 0.49 \u2264 \u2191A.card \u2192 \u2191N ^ 0.49 \u2264 \u2191B.card \u2192 \u2203 m \u2208 A + B, m.Composite"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«58»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green58.green_58\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab58\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green58.green_58\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green58-green-58-27258e2da46818b59ae82742fd5fe531-problem",
           "target_type_sha256": "sha256:85efd94d8e090c00408514deb70e2728f282253cf8a908a9dbc7c01b08023965",
           "task_bundle_sha256": "sha256:906b309b94b2baf05ef6555f9f2460910d7af1d2e9d549b671807d5f8b528dc2",
@@ -3506,7 +3506,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«58»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green58.green_58\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab58\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green58.green_58\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green58-green-58-27258e2da46818b59ae82742fd5fe531-problem",
           "target_type_sha256": "sha256:1510a6f6352a020f2c85bcba509776dc23532dc3556c9c95eec0cfab2de79435",
           "task_bundle_sha256": "sha256:dc8781ffe5d2452549eee799e4565721aa84eab398411d1c6109bad189eaacb3",
@@ -3520,7 +3520,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3538,13 +3538,13 @@
         "contains_sorry_in_value": false,
         "declaration_kind": "theorem",
         "depends_on_sorry": true,
-        "docstring": "Is there an absolute constant $c > 0$ such that, whenever $A ⊆ \\mathbb{N}$ is a set of squares\nwith $|A| ≥ 2$, the sumset $A + A$ satisfies $|A + A| ≥ |A|^{1 + c}$?\n",
+        "docstring": "Is there an absolute constant $c > 0$ such that, whenever $A \u2286 \\mathbb{N}$ is a set of squares\nwith $|A| \u2265 2$, the sumset $A + A$ satisfies $|A + A| \u2265 |A|^{1 + c}$?\n",
         "finite_constructors": [],
         "formal_proof_kind": null,
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«60»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab60\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 60](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8 Problem 60)"
@@ -3563,11 +3563,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc",
-        "type_pretty": "True ↔ ∃ c > 0, ∀ (A : Finset ℕ), (∀ a ∈ A, IsSquare a) → 2 ≤ A.card → ↑(A + A).card ≥ ↑A.card ^ (1 + c)"
+        "type_pretty": "True \u2194 \u2203 c > 0, \u2200 (A : Finset \u2115), (\u2200 a \u2208 A, IsSquare a) \u2192 2 \u2264 A.card \u2192 \u2191(A + A).card \u2265 \u2191A.card ^ (1 + c)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«60»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green60.green_60\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab60\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green60.green_60\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green60-green-60-d7763f362ce6fc83c81e7007a651df90-problem",
           "target_type_sha256": "sha256:0186148b8f449edef5087f8864dc1ca45f0d5958f87a52260f0083263ad1d261",
           "task_bundle_sha256": "sha256:1d004c9378a3a0801d4790eb27902118727cee4ec00b53a0b3233dd5f81c76ab",
@@ -3575,7 +3575,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«60»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green60.green_60\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab60\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green60.green_60\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green60-green-60-d7763f362ce6fc83c81e7007a651df90-problem",
           "target_type_sha256": "sha256:a19615869d32e9944e9aa090a0c9a38f68596a5b575187cc7a3ac8f39307dedc",
           "task_bundle_sha256": "sha256:102848a02c34177b28a4560c2dc819f1006e4b9e8e64a4e4a6c595f487af956d",
@@ -3589,7 +3589,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3613,7 +3613,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«62»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab62\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 62](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.62)"
@@ -3632,11 +3632,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a",
-        "type_pretty": "True ↔\n  ∀ᶠ (p : ℕ) in Filter.atTop,\n    Nat.Prime p →\n      have A := Finset.filter Nat.Prime (Finset.range p);\n      ∀ (x : ℕ), 1 ≤ x ∧ x < p → ∃ a₁ ∈ A, ∃ a₂ ∈ A, ↑x = ↑a₁ * ↑a₂"
+        "type_pretty": "True \u2194\n  \u2200\u1da0 (p : \u2115) in Filter.atTop,\n    Nat.Prime p \u2192\n      have A := Finset.filter Nat.Prime (Finset.range p);\n      \u2200 (x : \u2115), 1 \u2264 x \u2227 x < p \u2192 \u2203 a\u2081 \u2208 A, \u2203 a\u2082 \u2208 A, \u2191x = \u2191a\u2081 * \u2191a\u2082"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«62»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green62.green_62\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab62\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green62.green_62\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green62-green-62-6faf237987f79d641935c039f630b8bd-problem",
           "target_type_sha256": "sha256:928909c31fbe6eab3d786c08ca65ed12ca1392ed0d2cb00aa35488831f1e737a",
           "task_bundle_sha256": "sha256:a830fb094354da8212a0f481b9078bb39c981b883395b4648315e5d4dcc33e72",
@@ -3644,7 +3644,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«62»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green62.green_62\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab62\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green62.green_62\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green62-green-62-6faf237987f79d641935c039f630b8bd-problem",
           "target_type_sha256": "sha256:ad61e4606783823a40c8f08d0cc89a51b44ca7e4cd9888387bac998ca396713a",
           "task_bundle_sha256": "sha256:edda0abfb873174af2b524e9dca3666e1301079c832f6c75d134bf2ccdaf9fbd",
@@ -3658,7 +3658,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3682,7 +3682,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«66»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab66\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 66](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.8)"
@@ -3701,11 +3701,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3",
-        "type_pretty": "True ↔ ∀ᶠ (X : ℝ) in Filter.atTop, ∃ n, Green66.IsSumOfTwoSquares n ∧ ↑n ∈ Set.Icc (X - 1 / 10 * X ^ (1 / 4)) X"
+        "type_pretty": "True \u2194 \u2200\u1da0 (X : \u211d) in Filter.atTop, \u2203 n, Green66.IsSumOfTwoSquares n \u2227 \u2191n \u2208 Set.Icc (X - 1 / 10 * X ^ (1 / 4)) X"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«66»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green66.green_66\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab66\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green66.green_66\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green66-green-66-9fa0aae3a469e0af7c04ee492e324273-problem",
           "target_type_sha256": "sha256:aafc2b62c05b4a384e5e1288b8ba71f37bc0cdfb5991d76a1c6cb3f1cacbdaf4",
           "task_bundle_sha256": "sha256:621d46f73b48b10726118de1836ae4fa4ac42c6f0d5488c046c76ebf5f3f31f1",
@@ -3713,7 +3713,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«66»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green66.green_66\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab66\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green66.green_66\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green66-green-66-9fa0aae3a469e0af7c04ee492e324273-problem",
           "target_type_sha256": "sha256:651e367b0edb71dc6da78f7b1b626bf20ccb59eec554ddfd128a0aca095da2a3",
           "task_bundle_sha256": "sha256:5bc7175fab0739574435c3808f8659906247baf6f2b238896e3d8cd524d1cd74",
@@ -3727,7 +3727,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3752,7 +3752,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«7»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab7\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 7](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#section.1)",
@@ -3772,11 +3772,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2",
-        "type_pretty": "True ↔ ∀ (a : ℕ → ℕ), Erdos342.IsUlamSequence a → (Set.range a).upperDensity > 0"
+        "type_pretty": "True \u2194 \u2200 (a : \u2115 \u2192 \u2115), Erdos342.IsUlamSequence a \u2192 (Set.range a).upperDensity > 0"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«7»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green7.green_7.variants.positive_density\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab7\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green7.green_7.variants.positive_density\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-positive-density-246d2b86f590a319cea2076b99187a1a-problem",
           "target_type_sha256": "sha256:42f8895e89daf11827d2ea11b7cfb9b3455bf3aa61f47c8f0c9cfa2e2b042c06",
           "task_bundle_sha256": "sha256:fea5d5a618a25e4af908d955e10cfec9cabe6520252adbe8210b96f50c1858bb",
@@ -3784,7 +3784,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«7»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green7.green_7.variants.positive_density\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab7\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green7.green_7.variants.positive_density\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-variants-positive-density-246d2b86f590a319cea2076b99187a1a-problem",
           "target_type_sha256": "sha256:a0a1bc13b2087fabeec0ee3543e45eeb2cb595a06b2b03a17c16c5739541d8d2",
           "task_bundle_sha256": "sha256:481a10b78d345a1b2fdde8e47b42c421e65d96c92b35e24fd6275c9b1b709b79",
@@ -3798,7 +3798,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3823,7 +3823,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«72»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab72\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 72](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.72)",
@@ -3844,11 +3844,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb",
-        "type_pretty": "True ↔ ∀ᶠ (N : ℕ) in Filter.atTop, ¬Green72.NoKInLineFor 3 N"
+        "type_pretty": "True \u2194 \u2200\u1da0 (N : \u2115) in Filter.atTop, \u00acGreen72.NoKInLineFor 3 N"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«72»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green72.green_72\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab72\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green72.green_72\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green72-green-72-4312544a4960b23f0d0d5b2bc7ad833d-problem",
           "target_type_sha256": "sha256:b2f09058fc390ae95b48624695e72d94586963874507bc4863ab79850a483494",
           "task_bundle_sha256": "sha256:7ee6d9297a9e19cc2e0102db02ca8d8f545037478a49af209a57748e36dbf2d4",
@@ -3856,7 +3856,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«72»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green72.green_72\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab72\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green72.green_72\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green72-green-72-4312544a4960b23f0d0d5b2bc7ad833d-problem",
           "target_type_sha256": "sha256:503f9794910c3d10f95c16081b68a51ea4766b04c9f13c13526eba93ea4f18eb",
           "task_bundle_sha256": "sha256:601da6ed279515c1b1ad21b570b9ba8520717f4f0b293c392db0ba1481783f73",
@@ -3870,7 +3870,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give α(n) ≳ 1/n, refuting the formalized n^(−2+o(1)) claim by elementary geometry)",
+      "reason": "SOURCE_MISMATCH + EXPLOITABLE (Erdos507.minTriangleArea infimum ranges over Affine.Triangle = affinely independent only; collinear-heavy configs give \u03b1(n) \u2273 1/n, refuting the formalized n^(\u22122+o(1)) claim by elementary geometry)",
       "reason_code": "SOURCE_MISMATCH + EXPLOITABLE",
       "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
       "retired_on": "2026-08-05",
@@ -3895,7 +3895,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«77»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab77\u00bb",
         "pointer_target": null,
         "references": [
           "[Ben Green's Open Problem 77](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.77)"
@@ -3914,11 +3914,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:ab6ba97b85e3e5a17231c85dde2623f20be4d66977e4fad39685725e405733eb",
-        "type_pretty": "True ↔ ∃ o, Filter.Tendsto o Filter.atTop (nhds 0) ∧ Erdos507.α =O[Filter.atTop] fun n => ↑n ^ (-2 + o n)"
+        "type_pretty": "True \u2194 \u2203 o, Filter.Tendsto o Filter.atTop (nhds 0) \u2227 Erdos507.\u03b1 =O[Filter.atTop] fun n => \u2191n ^ (-2 + o n)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«77»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green77.green_77\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab77\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green77.green_77\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green77-green-77-4e540815af7081f6f555b780e5c8ba36-problem",
           "target_type_sha256": "sha256:cb953cd6a64d2cc3076141ee1deccebb6caae83dd276e4726f2000e6c9004a03",
           "task_bundle_sha256": "sha256:a39ca7e080dfb45a7d173efef633fdf3e886ee912aa0a4d0c0674f90a9857c27",
@@ -3926,7 +3926,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«77»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green77.green_77\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab77\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green77.green_77\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-379fc029-green77-green-77-4e540815af7081f6f555b780e5c8ba36-problem",
           "target_type_sha256": "sha256:ab6ba97b85e3e5a17231c85dde2623f20be4d66977e4fad39685725e405733eb",
           "task_bundle_sha256": "sha256:da53d055780117287ff21e4ad2dc536ea17e58685942767e0139852942fcfc9f",
@@ -3940,7 +3940,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -3964,7 +3964,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«9»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab9\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.9)",
@@ -3984,11 +3984,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5",
-        "type_pretty": "True ↔ ∃ c > 0, (fun N => ↑(Green9.r 5 N)) =O[Filter.atTop] fun N => ↑N * Real.log ↑N ^ (-c)"
+        "type_pretty": "True \u2194 \u2203 c > 0, (fun N => \u2191(Green9.r 5 N)) =O[Filter.atTop] fun N => \u2191N * Real.log \u2191N ^ (-c)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green9.green_9_ii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab9\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green9.green_9_ii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green9-green-9-ii-d0f98df12e0fa31ef1d02573b686fc7a-problem",
           "target_type_sha256": "sha256:0a0289d346a67fa985d3028b86da479987f5b918c25ccbdeedc7a472deca1c1b",
           "task_bundle_sha256": "sha256:e8ad10c203aeb0b1aacdd018ea19912e39c8659a390224a722eb8921c2f3a2bb",
@@ -3996,7 +3996,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green9.green_9_ii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab9\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green9.green_9_ii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green9-green-9-ii-d0f98df12e0fa31ef1d02573b686fc7a-problem",
           "target_type_sha256": "sha256:829f0d1be13f178ae390df671362b0071ce3bd5b442d5e6a799cfede4f1780b5",
           "task_bundle_sha256": "sha256:aad2bc170eb310b4668d1049252e8ae6d06c7ad76379cc3cf7cfa30fbb2dd938",
@@ -4010,7 +4010,7 @@
     {
       "decision_url": null,
       "pool_status": "retired",
-      "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
+      "reason": "WITHDRAWN (removed from the open catalog at Ben Green\u2019s request; prior solved entries and results remain available)",
       "reason_code": "WITHDRAWN",
       "recovered_from_commit": "f11a1708cf98a30785bf612e45ca7a3625d2e8aa",
       "retired_on": "2026-09-30",
@@ -4034,7 +4034,7 @@
         "formal_proof_link": null,
         "has_parameters": false,
         "is_prop": true,
-        "module": "FormalConjectures.GreensOpenProblems.«9»",
+        "module": "FormalConjectures.GreensOpenProblems.\u00ab9\u00bb",
         "pointer_target": null,
         "references": [
           "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.9)",
@@ -4054,11 +4054,11 @@
           "Quot.sound"
         ],
         "type_hash": "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab",
-        "type_pretty": "True ↔ ∃ c > 0, (fun n => ↑(Finset.maxAPFreeCard 4 Finset.univ)) =O[Filter.atTop] fun n => (5 ^ n) ^ (1 - c)"
+        "type_pretty": "True \u2194 \u2203 c > 0, (fun n => \u2191(Finset.maxAPFreeCard 4 Finset.univ)) =O[Filter.atTop] fun n => (5 ^ n) ^ (1 - c)"
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Green9.green_9_iii\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab9\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Green9.green_9_iii\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green9-green-9-iii-e43a366e17f5f2a7df5ae5e33d814d0e-problem",
           "target_type_sha256": "sha256:8615839b9d74ca8937c7d4a1760285bdc2b9b79902a8fe9fd8e1f7a4fc11234e",
           "task_bundle_sha256": "sha256:38cab05fb2c0b281b4f297324db754777d17c4d3605dad302b95b6db77b66559",
@@ -4066,7 +4066,7 @@
           "task_mode": "counterexample"
         },
         {
-          "challenge_lean": "import FormalConjectures.GreensOpenProblems.«9»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green9.green_9_iii\" := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.GreensOpenProblems.\u00ab9\u00bb\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Green9.green_9_iii\" := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-6a786f99-green9-green-9-iii-e43a366e17f5f2a7df5ae5e33d814d0e-problem",
           "target_type_sha256": "sha256:33ff21d05fcb0d62af5edd05c7d34a4d574eec823fc1166b186dce22de083eab",
           "task_bundle_sha256": "sha256:6cec1ba9173fa61b1e2f64ebf85e5969f3d4617b05006b914409c716129ca14d",
@@ -4080,7 +4080,7 @@
     {
       "decision_url": "https://conjectures.io/results/487cb5cc-804d-4a17-963a-c938408637a5",
       "pool_status": "held",
-      "reason": "Prior public proof of Wilf’s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
+      "reason": "Prior public proof of Wilf\u2019s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
       "reason_code": "PRIOR_PUBLIC_PROOF",
       "recovered_from_commit": "3502c2adac4771586be197f692295cef09153eed",
       "retired_on": "2026-10-12",
@@ -4121,7 +4121,7 @@
       },
       "tasks": [
         {
-          "challenge_lean": "import FormalConjectures.ResearchTargets.Math30\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Math30Catalog.source22\") := by\n  sorry\n\nend Bounty\n",
+          "challenge_lean": "import FormalConjectures.ResearchTargets.Math30\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : \u00ac (fcTypeOfName% \"Math30Catalog.source22\") := by\n  sorry\n\nend Bounty\n",
           "problem_id": "fc-4b69a7dc-math30catalog-source22-5305d8fff29f3fba318517831cfdeeb8-problem",
           "target_type_sha256": "sha256:f667b51fc5a491a409be4a11300e3d20861dedcf42f65e7534510e50ec5929b4",
           "task_bundle_sha256": "sha256:7a2d461bba7cb1cfdf06cb842810c1764152bfb168e9b511db9b27f19ffbf65f",

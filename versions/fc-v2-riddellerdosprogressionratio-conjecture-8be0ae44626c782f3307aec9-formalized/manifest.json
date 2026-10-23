@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:0e9847e14aadc03ead625fd85570e5e6f789d1923ff7a84825cb3a6cd4c86e41",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.RiddellErdosProgressionRatio.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:4c054b8b7241e02eb6f833da213577b4522f5160f27d08e9422aa8255eda6680",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.RiddellErdosProgressionRatio",
+  "source_path": "FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean",
+  "source_theorem": "FullOldProblemsCatalog.RiddellErdosProgressionRatio.conjecture",
+  "source_type_hash": "sha256:4c054b8b7241e02eb6f833da213577b4522f5160f27d08e9422aa8255eda6680",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-riddellerdosprogressionratio-conjecture-8be0ae44626c782f3307aec9-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:e7fc0ab443c033dd3052734a0f7232e5e3c29018db648951725c651a31ed4dd0",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:30638f4c3eaa0c1b05de7bacdacad4259ff7947e3f0a54824daefb4276c06d6d",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:9a49b9a1b05483842d0e7b9acd6d182cb5acb6074eebb8650756557728ee4c62",
+    "task-version.json": "sha256:d6711ff28cf250343f884a192747e5618d87c7accb77180080e276a31641b3ae"
+  }
+}
