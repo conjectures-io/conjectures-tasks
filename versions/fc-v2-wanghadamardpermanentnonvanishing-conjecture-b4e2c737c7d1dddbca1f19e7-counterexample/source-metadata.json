@@ -1,0 +1,42 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    15
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every real sign Hadamard matrix of order > 2 has nonzero permanent; encoded over integers, without a Sylvester or circulant restriction. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.WangHadamardPermanentNonvanishing",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://doi.org/10.1007/BF02760844)",
+    "[Source 2](https://users.monash.edu.au/~iwanless/papers/wangconjLAMA.pdf)",
+    "[Source 3](https://yair-lavi.com/mincs-list/problem-5/index.html)",
+    "[Source 4](https://arxiv.org/abs/1802.08001)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/WangHadamardPermanentNonvanishing.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.WangHadamardPermanentNonvanishing.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:7ffca3ce495f615e44f8bafb96cef55149d1d4214cf5970127676b8fc6cf5b80",
+  "type_pretty": "FullOldProblems.WangHadamardPermanentNonvanishing"
+}

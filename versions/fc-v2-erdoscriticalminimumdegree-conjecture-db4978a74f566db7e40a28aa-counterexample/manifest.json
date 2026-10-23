@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:224e9718cdf86ff39f9bb8b68cebb084f4c8f50659bdd304928c5a1d92a1dde7",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.ErdosCriticalMinimumDegree.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:c74fcab048c256c41c23b3541a161693c4e46175d9708b5b3315530724f76f8b",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.ErdosCriticalMinimumDegree",
+  "source_path": "FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean",
+  "source_theorem": "FullOldProblemsCatalog.ErdosCriticalMinimumDegree.conjecture",
+  "source_type_hash": "sha256:19ff1ee8b703c8efc3dff563936254774e8117f48f95e1209e1d593c9b040685",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-erdoscriticalminimumdegree-conjecture-db4978a74f566db7e40a28aa-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:2b50f0c5f22101241a0a012eed1a18671db627906d5e94c5cb52b176c90299ea",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:1a5fcdac3130b9d097c7f1fff22b40a320b474780455faf3df6586347ac1d0d7",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:e9b589e970434d384e7ac272799e692b1eeacc944790a5ee05ec0ef634d9d352",
+    "task-version.json": "sha256:84b673e0535ec74982c4c47fc7dd252a737eccbae7549f8544f9127574077d21"
+  }
+}

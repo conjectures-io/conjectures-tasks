@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:235fa91ddb862238aad7ad11c14acbd1b06372cdf9f9842f0ab7c76bc171f4d2",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.LovaszHamiltonPath.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:a3baed85f7cf46f0469978b334c004923e7480773e5f05b3d5e64d8c8f7e9516",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.LovaszHamiltonPath",
+  "source_path": "FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean",
+  "source_theorem": "FullOldProblemsCatalog.LovaszHamiltonPath.conjecture",
+  "source_type_hash": "sha256:0b183e26a06f7da156f5cfd6af1fb581e854492816f4deb0143497951ffe7cab",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-lovaszhamiltonpath-conjecture-d8d97eadb263568a401afd71-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:a553b91c5963998feafa34b5042d327332a40c57f773547ddb224d40601edf1a",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:15455086d0d5b4f9567bd432c838400aa71028c42ddb429d0f3c8f4c81727f85",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:36aaf5bbe5ab27404ed3f6336d62cd13c0017745788ada9f98759e4269d13196",
+    "task-version.json": "sha256:67d37e25fb40b54cf1bdf61c58004e3f604b2fd99544524702b3055622597799"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For every fixed k >= 3, R_k(N)/G_k(N) tends to 1, where R_k is the maximum progression-free subset size in [1,N] and G_k is the minimum such maximum across all N-element integer sets. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.RiddellErdosProgressionRatio",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://www.numdam.org/article/AST_1975__24-25__295_0.pdf#page=14)",
+    "[Source 2](https://www.erdosproblems.com/201)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.RiddellErdosProgressionRatio.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4c054b8b7241e02eb6f833da213577b4522f5160f27d08e9422aa8255eda6680",
+  "type_pretty": "FullOldProblems.RiddellErdosProgressionRatio"
+}

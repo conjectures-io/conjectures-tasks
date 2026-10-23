@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:88fb57b5d4b1c9a34d7f9bad521b76561124266184c8e3c9280c6889120db612",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.MarcusDeOliveira.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:57f824f7ec253ab86cc61b1b16865c19234548520fe481441af57faff4ce10d5",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.MarcusDeOliveira",
+  "source_path": "FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean",
+  "source_theorem": "FullOldProblemsCatalog.MarcusDeOliveira.conjecture",
+  "source_type_hash": "sha256:5682f29a37c0bb726c768c3734016229faa54c1f07b28834ca1f084b134804d3",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-marcusdeoliveira-conjecture-1c76a9551ab4f845e8f98598-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:d775d59649d651ebebc3c988cb54dea1bd15d419bea17d78b3e2b86b4beff84b",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:7f13c8817fa6ea406395299d267a05ff03a27cbbe797121967ce9903ea618d7a",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:fe045f048f33536a01f68b5184f873ae12e0fad749c7be282d526a32b971c597",
+    "task-version.json": "sha256:7e103ff79e2eb192cb3c322fb34efc06056266b12b6aa1910907067ba48bbfe2"
+  }
+}

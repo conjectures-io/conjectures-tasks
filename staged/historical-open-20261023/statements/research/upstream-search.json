@@ -1,0 +1,183 @@
+{
+  "checked_at": "2026-10-21",
+  "repository": "google-deepmind/formal-conjectures",
+  "observed_main_commit": "2a315101d438a68c0ebdf22b7485ac731624efed",
+  "search_note": "GitHub search queries run against the default branch; tree inspected at the observed commit. Name and subject searches are evidence of no match, not a proof of semantic uniqueness.",
+  "queries": [
+    {
+      "term": "\"Fulkerson\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"Hajos\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"Hajós\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"toughness\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"vertex-transitive\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"vertexTransitive\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"total coloring\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"total colouring\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"perfect 1-factorization\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"Kotzig\"",
+      "total_count": 4,
+      "paths": [
+        "FormalConjectures/Paper/KotzigConjecture.lean",
+        "FormalConjectures/Wikipedia/GracefulLabeling.lean",
+        "FormalConjectures/Arxiv/2001.02665/RingelConjecture.lean",
+        "FormalConjectures/Subsets/FC100SolvedSet2.lean"
+      ],
+      "error": null
+    },
+    {
+      "term": "\"Vizing\"",
+      "total_count": 1,
+      "paths": [
+        "FormalConjectures/Wikipedia/VizingConjecture.lean"
+      ],
+      "error": null
+    },
+    {
+      "term": "\"Tutte\"",
+      "total_count": 1,
+      "paths": [
+        "FormalConjectures/ErdosProblems/627.lean"
+      ],
+      "error": null
+    },
+    {
+      "term": "\"5-flow\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"3-flow\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"Riddell\"",
+      "total_count": 0,
+      "paths": [],
+      "error": null
+    },
+    {
+      "term": "\"Sidon\"",
+      "total_count": 35,
+      "paths": [
+        "FormalConjectures/ErdosProblems/44.lean",
+        "FormalConjectures/ErdosProblems/39.lean",
+        "FormalConjectures/ErdosProblems/30.lean",
+        "FormalConjectures/ErdosProblems/42.lean",
+        "FormalConjectures/ErdosProblems/43.lean",
+        "FormalConjectures/ErdosProblems/152.lean",
+        "FormalConjectures/ErdosProblems/156.lean",
+        "FormalConjectures/ErdosProblems/757.lean",
+        "FormalConjectures/ErdosProblems/772.lean",
+        "FormalConjectures/ErdosProblems/340.lean",
+        "FormalConjectures/ErdosProblems/157.lean",
+        "FormalConjectures/ErdosProblems/155.lean",
+        "FormalConjectures/ErdosProblems/949.lean",
+        "FormalConjectures/ErdosProblems/707.lean",
+        "FormalConjectures/ErdosProblems/862.lean",
+        "FormalConjectures/ErdosProblems/198.lean",
+        "FormalConjectures/ErdosProblems/329.lean",
+        "FormalConjectures/ErdosProblems/864.lean",
+        "FormalConjectures/ErdosProblems/158.lean",
+        "FormalConjectures/ErdosProblems/840.lean",
+        "FormalConjectures/ErdosProblems/153.lean",
+        "FormalConjectures/ErdosProblems/154.lean",
+        "FormalConjectures/ErdosProblems/773.lean",
+        "FormalConjectures/ErdosProblems/1191.lean",
+        "FormalConjectures/ErdosProblems/1206.lean",
+        "FormalConjectures/GreensOpenProblems/31.lean",
+        "FormalConjectures/OptimizationConstants/1a.lean",
+        "FormalConjectures/ErdosProblems/29.lean",
+        "FormalConjecturesForMathlib/Combinatorics/Basic.lean",
+        "FormalConjectures/GreensOpenProblems/2.lean",
+        "FormalConjectures/GreensOpenProblems/5.lean",
+        "FormalConjectures/ErdosProblems/819.lean",
+        "FormalConjectures/GreensOpenProblems/35.lean",
+        "FormalConjectures/Subsets/FC100SolvedSet1.lean",
+        "FormalConjectures/Wikipedia/IdonealCompleteness.lean"
+      ],
+      "error": null
+    },
+    {
+      "term": "\"Latin\"",
+      "total_count": 17,
+      "paths": [
+        "FormalConjectures/Paper/LatinSquare.lean",
+        "FormalConjectures/Paper/LatinTableau.lean",
+        "FormalConjecturesForMathlib/Combinatorics/LatinSquare.lean",
+        "FormalConjectures/ErdosProblems/725.lean",
+        "FormalConjecturesForMathlib.lean",
+        "FormalConjectures/Mathoverflow/1973.lean",
+        "FormalConjectures/OEIS/2454.lean",
+        "FormalConjectures/ErdosProblems/679.lean",
+        "FormalConjectures/OEIS/80170.lean",
+        "FormalConjectures/ErdosProblems/375.lean",
+        "FormalConjectures/ErdosProblems/337.lean",
+        "FormalConjectures/Wikipedia/MoserWorm.lean",
+        "FormalConjectures/ErdosProblems/709.lean",
+        "FormalConjectures/ErdosProblems/987.lean",
+        "FormalConjecturesForMathlib/Combinatorics/Additive/Coset.lean",
+        "FormalConjecturesForMathlib/NumberTheory/AutomorphicForm/BorelJacquet/CenterAction.lean",
+        "FormalConjecturesForMathlib/NumberTheory/AutomorphicForm/BorelJacquet.lean"
+      ],
+      "error": null
+    },
+    {
+      "term": "\"factorisation\"",
+      "total_count": 3,
+      "paths": [
+        "FormalConjectures/ErdosProblems/393.lean",
+        "FormalConjectures/ErdosProblems/913.lean",
+        "FormalConjectures/ErdosProblems/375.lean"
+      ],
+      "error": null
+    }
+  ]
+}

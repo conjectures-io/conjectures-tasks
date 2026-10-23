@@ -1,0 +1,37 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every connected finite vertex-transitive graph has a Hamilton path. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.LovaszHamiltonPath",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/abs/2609.38135v2)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.LovaszHamiltonPath.conjecture",
+  "transitive_axioms": [
+    "sorryAx",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0b183e26a06f7da156f5cfd6af1fb581e854492816f4deb0143497951ffe7cab",
+  "type_pretty": "FullOldProblems.LovaszHamiltonPath"
+}

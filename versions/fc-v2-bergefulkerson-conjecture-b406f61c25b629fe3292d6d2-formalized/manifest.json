@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:194449d7b0d4087b7431db274cc941bca5946969f69864ad87ccd006a7a14968",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "FullOldProblemsCatalog.BergeFulkerson.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:d51935831b42924fdc48380dacee5f1f14c97ea0818e4465a651661750db1fd0",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.BergeFulkerson",
+  "source_path": "FormalConjectures/HistoricalOpen/BergeFulkerson.lean",
+  "source_theorem": "FullOldProblemsCatalog.BergeFulkerson.conjecture",
+  "source_type_hash": "sha256:d51935831b42924fdc48380dacee5f1f14c97ea0818e4465a651661750db1fd0",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-bergefulkerson-conjecture-b406f61c25b629fe3292d6d2-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:0634ec139755ac533b01dc5b105ba8229b90f922357d74057ed0d0c179cea60b",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:85160a954776f0eee03191c15cc59dc4d793cf8c38609abd6ad97ec7a4f262d3",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:f2a2b920b045d8fa7d57e2b6beed0afa83ec31b86e8553b259ca144ad9927e5d",
+    "task-version.json": "sha256:b89ae1d70b266a817b4fa53926d2a3e2b365fa713afc35c4562f5bc88fc3f364"
+  }
+}

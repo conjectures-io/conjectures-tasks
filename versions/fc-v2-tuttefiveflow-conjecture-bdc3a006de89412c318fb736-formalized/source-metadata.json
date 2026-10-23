@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every finite bridgeless multigraph has a nowhere-zero integer 5-flow. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.TutteFiveFlow",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://dwest.web.illinois.edu/openp/tut5flow.html)",
+    "[Source 2](https://arxiv.org/abs/2601.12036)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/TutteFiveFlow.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.TutteFiveFlow.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:c99864a4fdbf6cb91718c05c718b8d84a36b13ccf4ae9a4dc5b5ac55f7512cc1",
+  "type_pretty": "FullOldProblems.TutteFiveFlow"
+}

@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every even n >= 4; K_n partitions into n-1 perfect matchings with every pair Hamiltonian. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.KotzigPerfectFactorization",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/html/2607.09459)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/KotzigPerfectFactorization.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.KotzigPerfectFactorization.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:23e4321afc12fdcdde699b0af3a54b730ce30eac7f79d0d93aa41d06fb3f7afd",
+  "type_pretty": "FullOldProblems.KotzigPerfectFactorization"
+}

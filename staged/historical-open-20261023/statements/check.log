@@ -1,0 +1,21 @@
+Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)
+0df444a360eaa60ab8c11dca51a86af692955474
+AUDITED FullOldProblems.HajosCycleDecomposition: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.BergeFulkerson: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.VizingIndependence: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.ChvatalToughness: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.LovaszHamiltonPath: [Quot.sound]
+AUDITED FullOldProblems.KotzigPerfectFactorization: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.SidonSubsetAsymptotic: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.TutteFiveFlow: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.TutteThreeFlow: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.RiddellErdosProgressionRatio: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.ErdosCriticalMinimumDegree: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.ErdosPurdyDegenerateQuadruples: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.MarcusDeOliveira: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.MinkowskiInhomogeneousProduct: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.Cantoni: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.MarcusBlockPermanent: [propext, Classical.choice, Quot.sound]
+AUDITED FullOldProblems.WangHadamardPermanentNonvanishing: [propext, Classical.choice, Quot.sound]
+PASS: seventeen closed proposition definitions; no conjecture axioms or admitted dependencies.
+PASS: statement compilation, boundary checks, and dependency audit completed.

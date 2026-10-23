@@ -12,7 +12,8 @@ not rank, price, or otherwise distinguish targets.
 - [`versions/<task_id>/`](https://github.com/conjectures-io/conjectures-tasks/tree/main/versions)
   contains the active immutable task versions. `pool/<tier>/` retains the historical legacy bundles.
 
-The current release places all 275 audited targets in `tier-1`: 17 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
+The current release places all 290 audited targets in `tier-1`: 16 full historical open problems, 16 package-authored
+research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's
 Open Problems targets, including both complete numbered statements and independently meaningful
 parts or variants. Additional tiers may be introduced later, but no tier distinction is active now.
 

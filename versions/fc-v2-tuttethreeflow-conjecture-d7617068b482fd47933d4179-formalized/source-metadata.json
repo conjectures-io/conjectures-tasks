@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every finite 4-edge-connected multigraph has a nowhere-zero integer 3-flow. See the sources in the module documentation. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.TutteThreeFlow",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://arxiv.org/abs/2011.02140)",
+    "[Source 2](https://arxiv.org/abs/2609.08377)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/TutteThreeFlow.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "FullOldProblemsCatalog.TutteThreeFlow.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4381897b3d80fbd2a0e4a169f77542ec6258f90fff88965cbf5f30e3ad5ad753",
+  "type_pretty": "FullOldProblems.TutteThreeFlow"
+}

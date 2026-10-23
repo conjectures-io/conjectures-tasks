@@ -1,0 +1,112 @@
+{
+  "checked_at": "2026-10-22",
+  "repository": "google-deepmind/formal-conjectures",
+  "observed_main": "3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8",
+  "queries": [
+    {
+      "query": "Riddell",
+      "total_count": 0,
+      "paths": []
+    },
+    {
+      "query": "\"minimum degree\" \"critical\"",
+      "total_count": 2,
+      "paths": [
+        "FormalConjectures/ErdosProblems/834.lean",
+        "FormalConjectures/ErdosProblems/751.lean"
+      ]
+    },
+    {
+      "query": "\"degenerate\" \"quadruples\"",
+      "total_count": 0,
+      "paths": []
+    },
+    {
+      "query": "Oliveira",
+      "total_count": 0,
+      "paths": []
+    },
+    {
+      "query": "Minkowski",
+      "total_count": 1,
+      "paths": [
+        "FormalConjectures/ErdosProblems/1207.lean"
+      ]
+    },
+    {
+      "query": "Cantoni",
+      "total_count": 0,
+      "paths": []
+    },
+    {
+      "query": "permanent",
+      "total_count": 3,
+      "paths": [
+        "FormalConjectures/OEIS/1818.lean",
+        "FormalConjectures/OEIS/2454.lean",
+        "FormalConjectures/ErdosProblems/499.lean"
+      ]
+    },
+    {
+      "query": "Hadamard",
+      "total_count": 5,
+      "paths": [
+        "FormalConjectures/Wikipedia/Hadamard.lean",
+        "FormalConjectures/Arxiv/2402.13202/CirculantHadamard.lean",
+        "FormalConjectures/Subsets/FC100SolvedSet1.lean",
+        "FormalConjectures/Subsets/FC100OpenSet2.lean",
+        "FormalConjectures/OpenQuantumProblems/13.lean"
+      ]
+    },
+    {
+      "query": "Marcus",
+      "total_count": 2,
+      "paths": [
+        "FormalConjectures/ErdosProblems/499.lean",
+        "FormalConjectures/Millennium/RiemannHypothesis.lean"
+      ]
+    },
+    {
+      "query": "Wang",
+      "total_count": 20,
+      "paths": [
+        "AUTHORS",
+        "FormalConjectures/Wikipedia/Kakeya.lean",
+        "FormalConjectures/ErdosProblems/260.lean",
+        "FormalConjectures/ErdosProblems/541.lean",
+        "FormalConjectures/ErdosProblems/407.lean",
+        "FormalConjectures/ErdosProblems/486.lean",
+        "FormalConjectures/ErdosProblems/246.lean",
+        "FormalConjectures/ErdosProblems/1026.lean",
+        "FormalConjectures/ErdosProblems/548.lean",
+        "FormalConjectures/ErdosProblems/973.lean",
+        "FormalConjecturesForMathlib/Analysis/HasGaps.lean",
+        "FormalConjectures/ErdosProblems/690.lean",
+        "FormalConjectures/ErdosProblems/123.lean",
+        "FormalConjectures/ErdosProblems/90.lean",
+        "FormalConjectures/Wikipedia/MoserWorm.lean",
+        "FormalConjectures/Arxiv/2605.18081/FisherInformationConvexity.lean",
+        "FormalConjectures/ErdosProblems/435.lean",
+        "FormalConjectures/Millennium/Poincare.lean",
+        "FormalConjectures/ErdosProblems/289.lean",
+        "FormalConjectures/ErdosProblems/1063.lean"
+      ]
+    }
+  ],
+  "exact_erdos_files_absent": [
+    201,
+    1032,
+    1087
+  ],
+  "manual_scope_reviews": {
+    "ErdosProblems/751.lean": "Chromatic-critical cycle lengths, not linear minimum degree in 4-critical graphs.",
+    "ErdosProblems/834.lean": "Critical hypergraphs, not the graph question selected here.",
+    "ErdosProblems/1207.lean": "Isosceles-free planar subsets; Minkowski is a point-set name, not the inhomogeneous linear-forms product bound.",
+    "ErdosProblems/499.lean": "Doubly stochastic matrices, a diagonal-product guarantee, and the proved van der Waerden bound; neither selected permanent question.",
+    "OEIS/1818.lean and OEIS/2454.lean": "Root-of-unity permanent identities, not arbitrary PSD block matrices or sign Hadamard nonvanishing.",
+    "Wikipedia/Hadamard.lean": "Existence at every order divisible by four, not nonvanishing of the permanent.",
+    "Arxiv/2402.13202/CirculantHadamard.lean": "Circulant order restriction; different problem.",
+    "OpenQuantumProblems/13.lean": "Mutually unbiased bases; Hadamard references do not pose Wang's permanent question."
+  },
+  "result": "No matching statement found; bounded name/subject searches and manual review, not a proof of absence."
+}

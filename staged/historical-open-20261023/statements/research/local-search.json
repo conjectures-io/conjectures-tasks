@@ -1,0 +1,521 @@
+{
+  "checked_at": "2026-10-21",
+  "catalog_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "catalog_declarations": 5190,
+  "files": [
+    {
+      "path": "/root/conjectures-validator/data/catalog.json",
+      "sha256": "947c32d5443b8bcaa82c2d8c4e88aaf361d0bc4e110734b7b89e728ea43b7b63"
+    },
+    {
+      "path": "/root/conjectures-tasks/allowlist.json",
+      "sha256": "be372b10869fa7654d5fc229335010c1ceebdf9e682c58c45a31f44b06e10f25"
+    }
+  ],
+  "queries": [
+    {
+      "term": "Hajos",
+      "pattern": "Haj[o\u00f3]s",
+      "matches": []
+    },
+    {
+      "term": "BergeFulkerson",
+      "pattern": "Fulkerson",
+      "matches": []
+    },
+    {
+      "term": "TotalColoring",
+      "pattern": "total.colou?r",
+      "matches": []
+    },
+    {
+      "term": "Vizing",
+      "pattern": "Vizing",
+      "matches": [
+        {
+          "theorem": "VizingConjecture.vizing_conjecture",
+          "source_path": "FormalConjectures/Wikipedia/VizingConjecture.lean"
+        },
+        {
+          "theorem": "VizingConjecture.vizing_conjecture.variants.clark_suen",
+          "source_path": "FormalConjectures/Wikipedia/VizingConjecture.lean"
+        },
+        {
+          "theorem": "VizingConjecture.vizing_conjecture.variants.dominationNumber_eq_one",
+          "source_path": "FormalConjectures/Wikipedia/VizingConjecture.lean"
+        },
+        {
+          "theorem": "VizingConjecture.vizing_conjecture.variants.suen_tarr",
+          "source_path": "FormalConjectures/Wikipedia/VizingConjecture.lean"
+        }
+      ]
+    },
+    {
+      "term": "Toughness",
+      "pattern": "toughness",
+      "matches": []
+    },
+    {
+      "term": "LovaszHamiltonPath",
+      "pattern": "vertex.transitive|vertexTransitive",
+      "matches": []
+    },
+    {
+      "term": "Kotzig",
+      "pattern": "Kotzig",
+      "matches": [
+        {
+          "theorem": "Arxiv.\u00ab2001.02665\u00bb.kotzig_conjecture_large",
+          "source_path": "FormalConjectures/Arxiv/2001.02665/RingelConjecture.lean"
+        },
+        {
+          "theorem": "Arxiv.\u00ab2001.02665\u00bb.ringel_conjecture_large",
+          "source_path": "FormalConjectures/Arxiv/2001.02665/RingelConjecture.lean"
+        },
+        {
+          "theorem": "KotzigConjecture.kotzig_conjecture",
+          "source_path": "FormalConjectures/Paper/KotzigConjecture.lean"
+        }
+      ]
+    },
+    {
+      "term": "Sidon",
+      "pattern": "Sidon",
+      "matches": [
+        {
+          "theorem": "Erdos152.erdos_152",
+          "source_path": "FormalConjectures/ErdosProblems/152.lean"
+        },
+        {
+          "theorem": "Erdos152.erdos_152.variants.square",
+          "source_path": "FormalConjectures/ErdosProblems/152.lean"
+        },
+        {
+          "theorem": "Erdos153.erdos_153",
+          "source_path": "FormalConjectures/ErdosProblems/153.lean"
+        },
+        {
+          "theorem": "Erdos154.erdos_154",
+          "source_path": "FormalConjectures/ErdosProblems/154.lean"
+        },
+        {
+          "theorem": "Erdos154.erdos_154.variants.lindstrom",
+          "source_path": "FormalConjectures/ErdosProblems/154.lean"
+        },
+        {
+          "theorem": "Erdos156.erdos_156",
+          "source_path": "FormalConjectures/ErdosProblems/156.lean"
+        },
+        {
+          "theorem": "Erdos156.erdos_156.variants.greedy_lower_bound",
+          "source_path": "FormalConjectures/ErdosProblems/156.lean"
+        },
+        {
+          "theorem": "Erdos156.erdos_156.variants.ruzsa_upper_bound",
+          "source_path": "FormalConjectures/ErdosProblems/156.lean"
+        },
+        {
+          "theorem": "Erdos156.greedySidonSet_isSidon",
+          "source_path": "FormalConjectures/ErdosProblems/156.lean"
+        },
+        {
+          "theorem": "Erdos158.b2_one",
+          "source_path": "FormalConjectures/ErdosProblems/158.lean"
+        },
+        {
+          "theorem": "Erdos158.erdos_158",
+          "source_path": "FormalConjectures/ErdosProblems/158.lean"
+        },
+        {
+          "theorem": "Erdos158.erdos_158.variants.isSidon",
+          "source_path": "FormalConjectures/ErdosProblems/158.lean"
+        },
+        {
+          "theorem": "Erdos158.erdos_158.variants.isSidon'",
+          "source_path": "FormalConjectures/ErdosProblems/158.lean"
+        },
+        {
+          "theorem": "Erdos198.erdos_198",
+          "source_path": "FormalConjectures/ErdosProblems/198.lean"
+        },
+        {
+          "theorem": "Erdos198.erdos_198.variants.concrete",
+          "source_path": "FormalConjectures/ErdosProblems/198.lean"
+        },
+        {
+          "theorem": "Erdos329.erdos_329",
+          "source_path": "FormalConjectures/ErdosProblems/329.lean"
+        },
+        {
+          "theorem": "Erdos329.erdos_329.variants.converse_implication",
+          "source_path": "FormalConjectures/ErdosProblems/329.lean"
+        },
+        {
+          "theorem": "Erdos329.erdos_329.variants.kruckeberg_1961",
+          "source_path": "FormalConjectures/ErdosProblems/329.lean"
+        },
+        {
+          "theorem": "Erdos329.erdos_329.variants.lower_bound",
+          "source_path": "FormalConjectures/ErdosProblems/329.lean"
+        },
+        {
+          "theorem": "Erdos329.erdos_329.variants.turan_1941",
+          "source_path": "FormalConjectures/ErdosProblems/329.lean"
+        },
+        {
+          "theorem": "Erdos329.exists_sidon_pos_density",
+          "source_path": "FormalConjectures/ErdosProblems/329.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants._22_mem_sub",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants._33_mem_sub",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants.co_density_zero_sub",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants.cofinite_sub",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants.isTheta",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants.sub_hasPosDensity",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.erdos_340.variants.third",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_five",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_four",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_go_pair_three",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_go_singleton_two",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_one",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_ten",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_three",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_two",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos340.greedySidon_zero",
+          "source_path": "FormalConjectures/ErdosProblems/340.lean"
+        },
+        {
+          "theorem": "Erdos39.erdos_39",
+          "source_path": "FormalConjectures/ErdosProblems/39.lean"
+        },
+        {
+          "theorem": "Erdos42.erdos_42",
+          "source_path": "FormalConjectures/ErdosProblems/42.lean"
+        },
+        {
+          "theorem": "Erdos42.erdos_42.variants.constructive",
+          "source_path": "FormalConjectures/ErdosProblems/42.lean"
+        },
+        {
+          "theorem": "Erdos42.example_maximal_sidon",
+          "source_path": "FormalConjectures/ErdosProblems/42.lean"
+        },
+        {
+          "theorem": "Erdos42.maximal_sidon_contains_zero",
+          "source_path": "FormalConjectures/ErdosProblems/42.lean"
+        },
+        {
+          "theorem": "Erdos43.erdos_43.parts.i",
+          "source_path": "FormalConjectures/ErdosProblems/43.lean"
+        },
+        {
+          "theorem": "Erdos43.erdos_43.parts.ii",
+          "source_path": "FormalConjectures/ErdosProblems/43.lean"
+        },
+        {
+          "theorem": "Erdos44.erdos_44",
+          "source_path": "FormalConjectures/ErdosProblems/44.lean"
+        },
+        {
+          "theorem": "Erdos44.erdos_44.variants.empty_start",
+          "source_path": "FormalConjectures/ErdosProblems/44.lean"
+        },
+        {
+          "theorem": "Erdos44.example_sidon_set",
+          "source_path": "FormalConjectures/ErdosProblems/44.lean"
+        },
+        {
+          "theorem": "Erdos44.greedy_sidon_construction",
+          "source_path": "FormalConjectures/ErdosProblems/44.lean"
+        },
+        {
+          "theorem": "Erdos44.maxSidonSubsetCard_icc_bound",
+          "source_path": "FormalConjectures/ErdosProblems/44.lean"
+        },
+        {
+          "theorem": "Erdos44.sidon_set_lower_bound",
+          "source_path": "FormalConjectures/ErdosProblems/44.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.counterexample_hall",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.counterexample_mian_chowla",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.counterexample_prime",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.example_embedding",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.example_sidon_set",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.perfect_difference_set_size_bound",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.prime",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.prime_power",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.singer_construction",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos707.erdos_707.variants.small_sidon_sets",
+          "source_path": "FormalConjectures/ErdosProblems/707.lean"
+        },
+        {
+          "theorem": "Erdos862.erdos_862.parts.i",
+          "source_path": "FormalConjectures/ErdosProblems/862.lean"
+        },
+        {
+          "theorem": "Erdos862.erdos_862.parts.ii",
+          "source_path": "FormalConjectures/ErdosProblems/862.lean"
+        },
+        {
+          "theorem": "Erdos862.erdos_862.variants.lower_bound",
+          "source_path": "FormalConjectures/ErdosProblems/862.lean"
+        },
+        {
+          "theorem": "Erdos949.erdos_949.variants.sidon",
+          "source_path": "FormalConjectures/ErdosProblems/949.lean"
+        },
+        {
+          "theorem": "Green2.green_2",
+          "source_path": "FormalConjectures/GreensOpenProblems/2.lean"
+        },
+        {
+          "theorem": "Green2.green_2_lower_bound_sanders",
+          "source_path": "FormalConjectures/GreensOpenProblems/2.lean"
+        },
+        {
+          "theorem": "Green2.green_2_upper_bound_choi",
+          "source_path": "FormalConjectures/GreensOpenProblems/2.lean"
+        },
+        {
+          "theorem": "Green2.green_2_upper_bound_erdos",
+          "source_path": "FormalConjectures/GreensOpenProblems/2.lean"
+        },
+        {
+          "theorem": "Green2.green_2_upper_bound_ruzsa",
+          "source_path": "FormalConjectures/GreensOpenProblems/2.lean"
+        },
+        {
+          "theorem": "Green31.green_31.lower",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.upper",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.abelian",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.lower_eventually",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.sidon_01n",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.sidon_01n_clz01",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.upper_bfr23",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.upper_cho25",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.upper_eventually",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.upper_li69",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green31.green_31.variants.zmod_p",
+          "source_path": "FormalConjectures/GreensOpenProblems/31.lean"
+        },
+        {
+          "theorem": "Green35.green_35.lower",
+          "source_path": "FormalConjectures/GreensOpenProblems/35.lean"
+        },
+        {
+          "theorem": "Green35.green_35.upper",
+          "source_path": "FormalConjectures/GreensOpenProblems/35.lean"
+        },
+        {
+          "theorem": "Green35.variants.c_2_lower",
+          "source_path": "FormalConjectures/GreensOpenProblems/35.lean"
+        },
+        {
+          "theorem": "Green35.variants.c_inf_lower",
+          "source_path": "FormalConjectures/GreensOpenProblems/35.lean"
+        },
+        {
+          "theorem": "Green35.variants.c_inf_lower_young",
+          "source_path": "FormalConjectures/GreensOpenProblems/35.lean"
+        },
+        {
+          "theorem": "Green35.variants.c_inf_upper",
+          "source_path": "FormalConjectures/GreensOpenProblems/35.lean"
+        },
+        {
+          "theorem": "Green5.green_5",
+          "source_path": "FormalConjectures/GreensOpenProblems/5.lean"
+        },
+        {
+          "theorem": "Green5.green_5.variants.gowers_sl_two",
+          "source_path": "FormalConjectures/GreensOpenProblems/5.lean"
+        },
+        {
+          "theorem": "Green5.green_5.variants.kedlaya",
+          "source_path": "FormalConjectures/GreensOpenProblems/5.lean"
+        },
+        {
+          "theorem": "Green5.green_5.variants.sl_two",
+          "source_path": "FormalConjectures/GreensOpenProblems/5.lean"
+        },
+        {
+          "theorem": "Idoneal.idoneal_numbers_completeness",
+          "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean"
+        },
+        {
+          "theorem": "Idoneal.knownIdonealNumbers_are_idoneal",
+          "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean"
+        }
+      ]
+    },
+    {
+      "term": "TutteFlows",
+      "pattern": "Tutte|[35].flow|five.flow|three.flow",
+      "matches": []
+    },
+    {
+      "term": "RyserLatin",
+      "pattern": "oddOrderLatinSquareTransversal",
+      "matches": [
+        {
+          "theorem": "LatinSquare.oddOrderLatinSquareTransversal",
+          "source_path": "FormalConjectures/Paper/LatinSquare.lean"
+        }
+      ]
+    }
+  ],
+  "active_allowlist_queries": [
+    {
+      "term": "Hajos",
+      "matches": []
+    },
+    {
+      "term": "BergeFulkerson",
+      "matches": []
+    },
+    {
+      "term": "TotalColoring",
+      "matches": []
+    },
+    {
+      "term": "Vizing",
+      "matches": []
+    },
+    {
+      "term": "Toughness",
+      "matches": []
+    },
+    {
+      "term": "LovaszHamiltonPath",
+      "matches": []
+    },
+    {
+      "term": "Kotzig",
+      "matches": []
+    },
+    {
+      "term": "Sidon",
+      "matches": []
+    },
+    {
+      "term": "TutteFlows",
+      "matches": []
+    },
+    {
+      "term": "RyserLatin",
+      "matches": []
+    }
+  ]
+}

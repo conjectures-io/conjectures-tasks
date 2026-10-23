@@ -1,0 +1,161 @@
+{
+  "checked_at": "2026-10-22",
+  "added_count": 8,
+  "resulting_count": 17,
+  "entries": [
+    {
+      "index": 10,
+      "declaration": "FullOldProblems.RiddellErdosProgressionRatio",
+      "name": "Riddell–Erdős progression-free subset ratio",
+      "documented_by_year": 1975,
+      "date_note": "Riddell introduced the extremal functions in 1969. The all-k ratio question is explicit in Erdős 1975, pp. 306–307.",
+      "scope": "For every fixed k >= 3, R_k(N)/G_k(N) tends to 1, where R_k is the maximum progression-free subset size in [1,N] and G_k is the minimum such maximum across all N-element integer sets.",
+      "sources": [
+        "https://www.numdam.org/article/AST_1975__24-25__295_0.pdf#page=14",
+        "https://www.erdosproblems.com/201"
+      ],
+      "status_note": "The problem page highlights k=3. The formalization retains the entire original progression-length family. Constant-factor comparison is partial.",
+      "years_since_documented_year": 51,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 11,
+      "declaration": "FullOldProblems.ErdosCriticalMinimumDegree",
+      "name": "Erdős linear minimum degree in 4-critical graphs",
+      "documented_by_year": 1973,
+      "date_note": "Conservative upper bound on proposal date: in the 1993 source Erdős says he asked this more than 20 years earlier; exact first year not identified.",
+      "scope": "There is epsilon > 0 and arbitrarily large n with an n-vertex edge-critical four-chromatic simple graph of minimum degree at least epsilon*n.",
+      "sources": [
+        "https://doi.org/10.1080/16073606.1993.9631741",
+        "https://www.erdosproblems.com/1032",
+        "https://www.erdosproblems.com/forum/thread/1032"
+      ],
+      "status_note": "Formalizes the positive answer to the original question. The 2026 linear upper bound with coefficient 3/10 is partial, not a resolution.",
+      "years_since_documented_year": 53,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 12,
+      "declaration": "FullOldProblems.ErdosPurdyDegenerateQuadruples",
+      "name": "Erdős–Purdy degenerate quadruples",
+      "documented_by_year": 1971,
+      "scope": "For every epsilon > 0, all sufficiently large finite planar sets A have at most |A|^(3+epsilon) four-point subsets with fewer than six distinct pair distances.",
+      "sources": [
+        "https://users.renyi.hu/~p_erdos/1971-20.pdf",
+        "https://www.erdosproblems.com/1087",
+        "https://www.erdosproblems.com/forum/thread/1087"
+      ],
+      "status_note": "Original question on printed p.251. Equal-distance pairs may share an endpoint; restricting to four distinct endpoints would weaken it.",
+      "years_since_documented_year": 55,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 13,
+      "declaration": "FullOldProblems.MarcusDeOliveira",
+      "name": "Marcus–de Oliveira determinantal conjecture",
+      "documented_by_year": 1973,
+      "date_note": "Marcus 1973; independently de Oliveira 1982.",
+      "scope": "For all complex normal matrices A,B of every positive order, det(A+B) lies in the real convex hull of products of pairwise sums over all permutations of their complete eigenvalue lists.",
+      "sources": [
+        "https://doi.org/10.3390/math13050711",
+        "https://www.mat.uc.pt/preprints/ps/p2611.pdf"
+      ],
+      "status_note": "The 2026 paper proposes a stronger conjecture, not a proof. Structured matrix and small-order results do not settle arbitrary normal pairs.",
+      "years_since_documented_year": 53,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 14,
+      "declaration": "FullOldProblems.MinkowskiInhomogeneousProduct",
+      "name": "Minkowski inhomogeneous product conjecture",
+      "documented_by_year": 1956,
+      "date_note": "Conservative documented-by date; the conjecture is older.",
+      "scope": "Every nonsingular real n-by-n matrix A and real shift b admit an integer z with product_i |(Az-b)_i| <= |det A|/2^n, in every positive dimension.",
+      "sources": [
+        "https://doi.org/10.1112/S0025579300000863",
+        "https://insa.nic.in/writereaddata/UpLoadedFiles/IJPAM/Vol46_2015_3_ART05.pdf"
+      ],
+      "status_note": "Known low-dimensional results do not resolve all dimensions. Distinct from Brunn–Minkowski and Minkowski lattice-tiling conjectures.",
+      "years_since_documented_year": 70,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 15,
+      "declaration": "FullOldProblems.Cantoni",
+      "name": "Cantoni's three-Hamilton-cycle conjecture",
+      "documented_by_year": 1950,
+      "scope": "Every planar cubic finite simple graph with exactly three undirected Hamilton cycles contains a triangle.",
+      "sources": [
+        "https://arxiv.org/abs/1812.05650",
+        "https://www.facom.ufu.br/~nunes/teoria%20dos%20grafos/graph-theory.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0012365X25003103"
+      ],
+      "status_note": "All graph orders retained. Verification through order 48 and later restrictions are partial.",
+      "years_since_documented_year": 76,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 16,
+      "declaration": "FullOldProblems.MarcusBlockPermanent",
+      "name": "Marcus block-permanent conjecture",
+      "documented_by_year": 1965,
+      "scope": "For every complex Hermitian PSD block matrix A, permanent(A) >= permanent([permanent(A_ij)]); with block size >= 2 and positive definite diagonal blocks, equality iff every off-diagonal block is zero.",
+      "sources": [
+        "https://arxiv.org/html/2202.01867v1",
+        "https://yair-lavi.com/mincs-list/conjecture-9/index.html",
+        "https://doi.org/10.1080/00029890.1965.11970575"
+      ],
+      "status_note": "Both the inequality and its original equality clause are retained. Two-block and low-rank results are partial. Different from the Marcus–Minc transform conjecture, now claimed proved.",
+      "years_since_documented_year": 61,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 17,
+      "declaration": "FullOldProblems.WangHadamardPermanentNonvanishing",
+      "name": "Wang's Hadamard permanent question",
+      "documented_by_year": 1974,
+      "scope": "Every real sign Hadamard matrix of order > 2 has nonzero permanent; encoded over integers, without a Sylvester or circulant restriction.",
+      "sources": [
+        "https://doi.org/10.1007/BF02760844",
+        "https://users.monash.edu.au/~iwanless/papers/wangconjLAMA.pdf",
+        "https://yair-lavi.com/mincs-list/problem-5/index.html",
+        "https://arxiv.org/abs/1802.08001"
+      ],
+      "status_note": "Formalizes the negative answer to the original zero-permanent existence question. Finite-order checks and the all-order Sylvester result are partial. Other solved Wang questions about resemblance classes or maximum permanents are different.",
+      "years_since_documented_year": 52,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    }
+  ]
+}

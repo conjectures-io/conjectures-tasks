@@ -1,6 +1,6 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
   "schema_version": 3,
   "targets": [
     {
@@ -1591,6 +1591,118 @@
       "source_path": "FormalConjectures/Wikipedia/Fermat.lean",
       "source_problem_number": "Fermat",
       "theorem": "Fermat.infinite_fermat_primes"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.BergeFulkerson.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/BergeFulkerson.lean",
+      "source_problem_number": "BergeFulkerson",
+      "theorem": "FullOldProblemsCatalog.BergeFulkerson.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.ChvatalToughness.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/ChvatalToughness.lean",
+      "source_problem_number": "ChvatalToughness",
+      "theorem": "FullOldProblemsCatalog.ChvatalToughness.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.ErdosCriticalMinimumDegree.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/ErdosCriticalMinimumDegree.lean",
+      "source_problem_number": "ErdosCriticalMinimumDegree",
+      "theorem": "FullOldProblemsCatalog.ErdosCriticalMinimumDegree.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.ErdosPurdyDegenerateQuadruples.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/ErdosPurdyDegenerateQuadruples.lean",
+      "source_problem_number": "ErdosPurdyDegenerateQuadruples",
+      "theorem": "FullOldProblemsCatalog.ErdosPurdyDegenerateQuadruples.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.HajosCycleDecomposition.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/HajosCycleDecomposition.lean",
+      "source_problem_number": "HajosCycleDecomposition",
+      "theorem": "FullOldProblemsCatalog.HajosCycleDecomposition.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.KotzigPerfectFactorization.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/KotzigPerfectFactorization.lean",
+      "source_problem_number": "KotzigPerfectFactorization",
+      "theorem": "FullOldProblemsCatalog.KotzigPerfectFactorization.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.LovaszHamiltonPath.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/LovaszHamiltonPath.lean",
+      "source_problem_number": "LovaszHamiltonPath",
+      "theorem": "FullOldProblemsCatalog.LovaszHamiltonPath.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.MarcusBlockPermanent.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/MarcusBlockPermanent.lean",
+      "source_problem_number": "MarcusBlockPermanent",
+      "theorem": "FullOldProblemsCatalog.MarcusBlockPermanent.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.MarcusDeOliveira.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/MarcusDeOliveira.lean",
+      "source_problem_number": "MarcusDeOliveira",
+      "theorem": "FullOldProblemsCatalog.MarcusDeOliveira.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.MinkowskiInhomogeneousProduct.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/MinkowskiInhomogeneousProduct.lean",
+      "source_problem_number": "MinkowskiInhomogeneousProduct",
+      "theorem": "FullOldProblemsCatalog.MinkowskiInhomogeneousProduct.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.RiddellErdosProgressionRatio.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/RiddellErdosProgressionRatio.lean",
+      "source_problem_number": "RiddellErdosProgressionRatio",
+      "theorem": "FullOldProblemsCatalog.RiddellErdosProgressionRatio.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.SidonSubsetAsymptotic.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/SidonSubsetAsymptotic.lean",
+      "source_problem_number": "SidonSubsetAsymptotic",
+      "theorem": "FullOldProblemsCatalog.SidonSubsetAsymptotic.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.TutteFiveFlow.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/TutteFiveFlow.lean",
+      "source_problem_number": "TutteFiveFlow",
+      "theorem": "FullOldProblemsCatalog.TutteFiveFlow.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.TutteThreeFlow.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/TutteThreeFlow.lean",
+      "source_problem_number": "TutteThreeFlow",
+      "theorem": "FullOldProblemsCatalog.TutteThreeFlow.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.VizingIndependence.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/VizingIndependence.lean",
+      "source_problem_number": "VizingIndependence",
+      "theorem": "FullOldProblemsCatalog.VizingIndependence.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:FullOldProblemsCatalog.WangHadamardPermanentNonvanishing.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/WangHadamardPermanentNonvanishing.lean",
+      "source_problem_number": "WangHadamardPermanentNonvanishing",
+      "theorem": "FullOldProblemsCatalog.WangHadamardPermanentNonvanishing.conjecture"
     },
     {
       "reward_target_id": "fc-target:GaussCircleProblem.error_isBigO",

@@ -11,8 +11,10 @@ history. Each bundle contains its challenge, manifest, comparator configuration,
 trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 548 active bundles: proof/refutation pairs for 274 audited
-direct propositions (16 package-authored research targets, 219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved Green's Open Problems targets). The tier label is
+The current snapshot contains one tier with 580 active bundles: proof/refutation pairs for 290 audited
+direct propositions (16 full historical open problems, 16 package-authored research targets,
+219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved
+Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
@@ -34,6 +36,12 @@ Task selection, bundle generation, pool rebuilding, and fixture generation are o
 | `build_test_pool.py` | Development only: a one-problem pool whose counterexample task is actually provable, so the pipeline can be shown reaching `accepted=true`. The audited pool cannot do that by design. |
 | `generate_example_tasks.sh` | Regenerates the documentation examples. |
 | `seed_version_registry.py` | Once, at migration: creates `task-versions.json` from the current allowlist and the preserved history under `history/`. Changes no bundle byte. Refuses to overwrite an existing registry. |
+
+The October 23, 2026 historical-problems release adds 32 bundles and preserves all 548
+previously active bundle IDs and bytes. Old admissions remain routed to their original
+verification instances. Sources and bounded claim/duplicate screens are recorded in
+[`staged/historical-open-20261023/`](staged/historical-open-20261023/) and
+[`historical-open-status-audit.json`](tiers/tier-1/historical-open-status-audit.json).
 
 ## Task versions and history
 
@@ -169,3 +177,6 @@ website renders is provably the audited bytes even though the bundle itself is g
 On September 30, 2026, the 18 remaining open Green targets (36 bundles) were withdrawn at Ben Green’s request. The six previously solved Green entries and all earlier archived results remain available. Withdrawn targets cannot accept new submissions or be selected again.
 
 On October 6, 2026, nineteen targets left the pool. Three exact targets are retired as externally solved — Erdős 252, Erdős 701, and the `omega_times_two_four` variant of Erdős 70 only — see [`tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md`](tiers/tier-1/EXTERNAL-SOLUTIONS-2026-10-06.md). Eleven are closed on the release owner's instruction to accept public resolution claims, without independent proof replay — see [`tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md`](tiers/tier-1/OWNER-ACCEPTED-CLOSURES-2026-10-06.md). Five are held pending review; a held target is neither solved nor retired — see [`tiers/tier-1/HOLDS-2026-10-06.md`](tiers/tier-1/HOLDS-2026-10-06.md). The same release repins the source to Lean 4.35.0-rc2, so every surviving bundle has a new task ID while its reward identity is unchanged. Package-authored research targets 1–30 are staged in [`staged/research-targets/`](staged/research-targets/README.md). 17 of them are admitted to `tier-1` by this release (activation pending owner approval); see [`staged/research-targets/ACTIVATION.md`](staged/research-targets/ACTIVATION.md). The others belong to no tier and cannot be admitted.
+
+Original problem 15 (Cantoni) is excluded because a full counterexample claim was identified;
+the construction has not been checked. See the staged exclusion record for the sources.

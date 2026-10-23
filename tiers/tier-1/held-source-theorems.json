@@ -67,7 +67,7 @@
     },
     {
       "audit_reference": "https://conjectures.io/results/487cb5cc-804d-4a17-963a-c938408637a5",
-      "finding": "Prior public proof of Wilf’s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
+      "finding": "Prior public proof of Wilf\u2019s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
       "held_on": "2026-10-12",
       "reason_code": "PRIOR_PUBLIC_PROOF",
       "required_resolution": "Reinstatement requires an explicit new admission review; prior proof and decision history remain preserved.",
@@ -79,6 +79,6 @@
       "theorem": "Math30Catalog.source22"
     }
   ],
-  "repository_commit": "4b69a7dca3e731dd1f28cb523b9ebd2ea32527f4",
+  "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
   "schema_version": 1
 }

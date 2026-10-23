@@ -1,0 +1,389 @@
+{
+  "schema_version": 1,
+  "prepared_at": "2026-10-21",
+  "purpose": "Complete original open problems, statement formalization only",
+  "supersedes": "../old-open-ten-20261021",
+  "namespace": "FullOldProblems",
+  "statement_file": "Statements.lean",
+  "count": 17,
+  "added_to_catalog": false,
+  "added_to_active_pool": false,
+  "duplicate_check": {
+    "outcome": "No matching statement found",
+    "local_catalog_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+    "upstream_observed_main": "2a315101d438a68c0ebdf22b7485ac731624efed",
+    "evidence": [
+      "research/local-search.json",
+      "research/upstream-search.json",
+      "research/add-eight-20261022/local-search.json",
+      "research/add-eight-20261022/upstream-search.json"
+    ],
+    "limitation": "Subject/name searches and manual semantic review, not a proof of absence of every equivalent encoding.",
+    "additional_eight_upstream_observed_main": "3b7c94ecc72b6d42af9ed7028ad8184cbce1aaa8"
+  },
+  "validation": {
+    "status": "passed",
+    "lean": "4.33.1",
+    "mathlib_commit": "0df444a360eaa60ab8c11dca51a86af692955474",
+    "docker_image": "formal-conjectures-verifier:classical-6314587",
+    "closed_prop_definitions": 17,
+    "boundary_examples": 23,
+    "admitted_dependencies": false,
+    "allowed_standard_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "log": "check.log",
+    "command": "bash check.sh",
+    "checked_at": "2026-10-22"
+  },
+  "entries": [
+    {
+      "index": 1,
+      "declaration": "FullOldProblems.HajosCycleDecomposition",
+      "name": "Hajós cycle decomposition",
+      "documented_by_year": 1968,
+      "years_since_documented_year": 58,
+      "scope": "All finite nonempty simple even graphs; exact floor((n-1)/2) bound.",
+      "sources": [
+        "https://arxiv.org/abs/1706.04334",
+        "https://arxiv.org/abs/2610.07840v2"
+      ],
+      "status": "open in checked literature",
+      "status_note": "October 2026 linear-order result leaves the sharp bound unresolved.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 2,
+      "declaration": "FullOldProblems.BergeFulkerson",
+      "name": "Berge–Fulkerson",
+      "documented_by_year": 1971,
+      "years_since_documented_year": 55,
+      "scope": "All finite bridgeless cubic multigraphs; six perfect matchings; each edge exactly twice.",
+      "sources": [
+        "https://arxiv.org/abs/2607.29511"
+      ],
+      "status": "open in checked literature",
+      "status_note": "July 2026 research explicitly treats the finite conjecture as open since 1971.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 3,
+      "declaration": "FullOldProblems.VizingIndependence",
+      "name": "Vizing independence number",
+      "documented_by_year": 1968,
+      "years_since_documented_year": 58,
+      "scope": "Every connected Delta-critical finite simple graph; independence number at most n/2.",
+      "sources": [
+        "https://www.ort.shu.edu.cn/CN/10.15960/j.cnki.issn.1007-6093.2025.01.019",
+        "https://arxiv.org/abs/1805.05996"
+      ],
+      "status": "open in checked literature",
+      "status_note": "2025 research explicitly states the 1968 conjecture remains open.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 4,
+      "declaration": "FullOldProblems.ChvatalToughness",
+      "name": "Chvátal toughness",
+      "documented_by_year": 1973,
+      "years_since_documented_year": 53,
+      "scope": "A universal positive real threshold for Hamiltonicity of all tough simple graphs of order at least three.",
+      "sources": [
+        "https://arxiv.org/abs/2506.12684",
+        "https://doi.org/10.1016/j.disc.2026.115364"
+      ],
+      "status": "open in checked literature",
+      "status_note": "Full existential conjecture remains open; no fixed-threshold or forbidden-subgraph restriction imposed.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 5,
+      "declaration": "FullOldProblems.LovaszHamiltonPath",
+      "name": "Lovász Hamiltonian path",
+      "documented_by_year": 1969,
+      "years_since_documented_year": 57,
+      "scope": "Every connected finite vertex-transitive graph has a Hamilton path.",
+      "sources": [
+        "https://arxiv.org/abs/2609.38135v2"
+      ],
+      "status": "open in checked literature",
+      "status_note": "October 2026 nearly linear path bound does not establish a spanning path.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 6,
+      "declaration": "FullOldProblems.KotzigPerfectFactorization",
+      "name": "Kotzig perfect 1-factorization",
+      "documented_by_year": 1963,
+      "years_since_documented_year": 63,
+      "scope": "Every even n >= 4; K_n partitions into n-1 perfect matchings with every pair Hamiltonian.",
+      "sources": [
+        "https://arxiv.org/html/2607.09459"
+      ],
+      "status": "open in checked literature",
+      "status_note": "Proposed at Smolenice 1963; Kotzig paper published 1964. July 2026 approximate result leaves the exact conjecture open.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 7,
+      "declaration": "FullOldProblems.SidonSubsetAsymptotic",
+      "name": "Riddell–Erdős Sidon subsets / Erdős 530",
+      "documented_by_year": 1973,
+      "years_since_documented_year": 53,
+      "scope": "Sharp universal asymptotic l(N) ~ sqrt(N) for arbitrary finite real sets; both bounds encoded.",
+      "sources": [
+        "https://www.renyi.hu/~p_erdos/1973-21.pdf#page=4",
+        "https://arxiv.org/abs/2605.03181",
+        "https://www.erdosproblems.com/530"
+      ],
+      "status": "open in checked literature",
+      "status_note": "Underlying problem attributed to Riddell 1969; sharp conjecture verified directly on Erdős 1973 p.120. May 2026 lower constant remains below 1.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 8,
+      "declaration": "FullOldProblems.TutteFiveFlow",
+      "name": "Tutte 5-flow",
+      "documented_by_year": 1954,
+      "years_since_documented_year": 72,
+      "scope": "Every finite bridgeless multigraph has a nowhere-zero integer 5-flow.",
+      "sources": [
+        "https://dwest.web.illinois.edu/openp/tut5flow.html",
+        "https://arxiv.org/abs/2601.12036"
+      ],
+      "status": "open in checked literature",
+      "status_note": "January 2026 research reports partial supporting results, not a solution of the conjecture.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 9,
+      "declaration": "FullOldProblems.TutteThreeFlow",
+      "name": "Tutte 3-flow",
+      "documented_by_year": 1972,
+      "years_since_documented_year": 54,
+      "scope": "Every finite 4-edge-connected multigraph has a nowhere-zero integer 3-flow.",
+      "sources": [
+        "https://arxiv.org/abs/2011.02140",
+        "https://arxiv.org/abs/2609.08377"
+      ],
+      "status": "open in checked literature",
+      "status_note": "September 2026 research proves restricted cases of the full 4-edge-connected statement.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-21 bounded screen."
+    },
+    {
+      "index": 10,
+      "declaration": "FullOldProblems.RiddellErdosProgressionRatio",
+      "name": "Riddell–Erdős progression-free subset ratio",
+      "documented_by_year": 1975,
+      "date_note": "Riddell introduced the extremal functions in 1969. The all-k ratio question is explicit in Erdős 1975, pp. 306–307.",
+      "scope": "For every fixed k >= 3, R_k(N)/G_k(N) tends to 1, where R_k is the maximum progression-free subset size in [1,N] and G_k is the minimum such maximum across all N-element integer sets.",
+      "sources": [
+        "https://www.numdam.org/article/AST_1975__24-25__295_0.pdf#page=14",
+        "https://www.erdosproblems.com/201"
+      ],
+      "status_note": "The problem page highlights k=3. The formalization retains the entire original progression-length family. Constant-factor comparison is partial.",
+      "years_since_documented_year": 51,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 11,
+      "declaration": "FullOldProblems.ErdosCriticalMinimumDegree",
+      "name": "Erdős linear minimum degree in 4-critical graphs",
+      "documented_by_year": 1973,
+      "date_note": "Conservative upper bound on proposal date: in the 1993 source Erdős says he asked this more than 20 years earlier; exact first year not identified.",
+      "scope": "There is epsilon > 0 and arbitrarily large n with an n-vertex edge-critical four-chromatic simple graph of minimum degree at least epsilon*n.",
+      "sources": [
+        "https://doi.org/10.1080/16073606.1993.9631741",
+        "https://www.erdosproblems.com/1032",
+        "https://www.erdosproblems.com/forum/thread/1032"
+      ],
+      "status_note": "Formalizes the positive answer to the original question. The 2026 linear upper bound with coefficient 3/10 is partial, not a resolution.",
+      "years_since_documented_year": 53,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 12,
+      "declaration": "FullOldProblems.ErdosPurdyDegenerateQuadruples",
+      "name": "Erdős–Purdy degenerate quadruples",
+      "documented_by_year": 1971,
+      "scope": "For every epsilon > 0, all sufficiently large finite planar sets A have at most |A|^(3+epsilon) four-point subsets with fewer than six distinct pair distances.",
+      "sources": [
+        "https://users.renyi.hu/~p_erdos/1971-20.pdf",
+        "https://www.erdosproblems.com/1087",
+        "https://www.erdosproblems.com/forum/thread/1087"
+      ],
+      "status_note": "Original question on printed p.251. Equal-distance pairs may share an endpoint; restricting to four distinct endpoints would weaken it.",
+      "years_since_documented_year": 55,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 13,
+      "declaration": "FullOldProblems.MarcusDeOliveira",
+      "name": "Marcus–de Oliveira determinantal conjecture",
+      "documented_by_year": 1973,
+      "date_note": "Marcus 1973; independently de Oliveira 1982.",
+      "scope": "For all complex normal matrices A,B of every positive order, det(A+B) lies in the real convex hull of products of pairwise sums over all permutations of their complete eigenvalue lists.",
+      "sources": [
+        "https://doi.org/10.3390/math13050711",
+        "https://www.mat.uc.pt/preprints/ps/p2611.pdf"
+      ],
+      "status_note": "The 2026 paper proposes a stronger conjecture, not a proof. Structured matrix and small-order results do not settle arbitrary normal pairs.",
+      "years_since_documented_year": 53,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 14,
+      "declaration": "FullOldProblems.MinkowskiInhomogeneousProduct",
+      "name": "Minkowski inhomogeneous product conjecture",
+      "documented_by_year": 1956,
+      "date_note": "Conservative documented-by date; the conjecture is older.",
+      "scope": "Every nonsingular real n-by-n matrix A and real shift b admit an integer z with product_i |(Az-b)_i| <= |det A|/2^n, in every positive dimension.",
+      "sources": [
+        "https://doi.org/10.1112/S0025579300000863",
+        "https://insa.nic.in/writereaddata/UpLoadedFiles/IJPAM/Vol46_2015_3_ART05.pdf"
+      ],
+      "status_note": "Known low-dimensional results do not resolve all dimensions. Distinct from Brunn–Minkowski and Minkowski lattice-tiling conjectures.",
+      "years_since_documented_year": 70,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 15,
+      "declaration": "FullOldProblems.Cantoni",
+      "name": "Cantoni's three-Hamilton-cycle conjecture",
+      "documented_by_year": 1950,
+      "scope": "Every planar cubic finite simple graph with exactly three undirected Hamilton cycles contains a triangle.",
+      "sources": [
+        "https://arxiv.org/abs/1812.05650",
+        "https://www.facom.ufu.br/~nunes/teoria%20dos%20grafos/graph-theory.pdf",
+        "https://www.sciencedirect.com/science/article/pii/S0012365X25003103"
+      ],
+      "status_note": "All graph orders retained. Verification through order 48 and later restrictions are partial.",
+      "years_since_documented_year": 76,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 16,
+      "declaration": "FullOldProblems.MarcusBlockPermanent",
+      "name": "Marcus block-permanent conjecture",
+      "documented_by_year": 1965,
+      "scope": "For every complex Hermitian PSD block matrix A, permanent(A) >= permanent([permanent(A_ij)]); with block size >= 2 and positive definite diagonal blocks, equality iff every off-diagonal block is zero.",
+      "sources": [
+        "https://arxiv.org/html/2202.01867v1",
+        "https://yair-lavi.com/mincs-list/conjecture-9/index.html",
+        "https://doi.org/10.1080/00029890.1965.11970575"
+      ],
+      "status_note": "Both the inequality and its original equality clause are retained. Two-block and low-rank results are partial. Different from the Marcus–Minc transform conjecture, now claimed proved.",
+      "years_since_documented_year": 61,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    },
+    {
+      "index": 17,
+      "declaration": "FullOldProblems.WangHadamardPermanentNonvanishing",
+      "name": "Wang's Hadamard permanent question",
+      "documented_by_year": 1974,
+      "scope": "Every real sign Hadamard matrix of order > 2 has nonzero permanent; encoded over integers, without a Sylvester or circulant restriction.",
+      "sources": [
+        "https://doi.org/10.1007/BF02760844",
+        "https://users.monash.edu.au/~iwanless/papers/wangconjLAMA.pdf",
+        "https://yair-lavi.com/mincs-list/problem-5/index.html",
+        "https://arxiv.org/abs/1802.08001"
+      ],
+      "status_note": "Formalizes the negative answer to the original zero-permanent existence question. Finite-order checks and the all-order Sylvester result are partial. Other solved Wang questions about resemblance classes or maximum permanents are different.",
+      "years_since_documented_year": 52,
+      "status": "open in checked literature",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "claim_screen": "No full-resolution claim found in the 2026-10-22 bounded screen."
+    }
+  ],
+  "requested_initial_count": 10,
+  "selection_rule": "Discard any identified full proof or disproof claim for the exact problem, even if unaccepted. Partial results do not by themselves trigger exclusion.",
+  "claim_screen": "research/claim-screen.json",
+  "difficulty_comparison": "research/difficulty-comparison.md",
+  "discarded_entries": [
+    {
+      "declaration": "FullOldProblems.TotalColoring",
+      "name": "Behzad–Vizing total coloring",
+      "documented_by_year": 1965,
+      "years_since_documented_year": 61,
+      "scope": "Every finite simple graph; total chromatic number at most maximum degree plus two.",
+      "sources": [
+        "https://arxiv.org/abs/2609.19503",
+        "https://arxiv.org/abs/2003.09658"
+      ],
+      "status": "discarded",
+      "status_note": "A 2020 full-proof claim exists; September 2026 literature still calls the full conjecture unsolved. Claim not independently adjudicated.",
+      "formalization_kind": "closed proposition definition",
+      "full_original_question": true,
+      "duplicate_status": "no match found in checked catalog/upstream",
+      "original_index": 3,
+      "reason": "User explicitly excludes problems with claimed full proofs, independently of acceptance.",
+      "claim_source": "https://arxiv.org/abs/2003.09658v3"
+    }
+  ],
+  "updated_at": "2026-10-22",
+  "last_addition": {
+    "requested_count": 8,
+    "added_count": 8,
+    "evidence_directory": "research/add-eight-20261022"
+  },
+  "additional_claim_screen": "research/add-eight-20261022/claim-screen.json"
+}
