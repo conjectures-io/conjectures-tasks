@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "bundles": [
+    {
+      "submission_id": "4c981fff-af7e-4fc8-bb2e-9fe13fd7f632",
+      "task_id": "fc-8432eac9-green39-green-39-5fcd9b62ed-counterexample-v1",
+      "task_bundle_sha256": "sha256:01de128c91e344ce91142198179baa36547176a0dd7c139439ff6853a334cac8",
+      "location": "history/legacy/fc-8432eac9-green39-green-39-5fcd9b62ed-counterexample-v1",
+      "recovered_from_commit": "275ef4824c41d41f97ac4e9fff95ca471de9341d",
+      "recovered_from_path": "pool/tier-1/green-39-counterexample"
+    },
+    {
+      "submission_id": "e4934265-aa96-4bf5-a3c0-d01153dfcfaa",
+      "task_id": "fc-6a786f99-erdos579-erdos-579-78be4d4192-counterexample-v1",
+      "task_bundle_sha256": "sha256:82dd7f020861a65aea4022ac054bab4c1f67a8b56ecc7b8ca42c4ed006d413e3",
+      "location": "history/legacy/fc-6a786f99-erdos579-erdos-579-78be4d4192-counterexample-v1",
+      "recovered_from_commit": "2a58149e6edb0f1dc15b32391f8c29fdd85e9db3",
+      "recovered_from_path": "pool/tier-1/erdos-579-counterexample"
+    }
+  ]
+}
