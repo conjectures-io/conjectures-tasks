@@ -79,10 +79,10 @@ that originally accepted it, with intake closed. Its entry is
 `8432eac9…/allowlist.json` are identical to `pool/tier-1/green-24-variants-conjecture-formalized/`
 and `allowlist.json` at this repository's commit `275ef482`.
 
-The original Green 39 and Erdős 579 counterexample bundles are also archived here for
-retrospective chat-log bonus classification. Their recovery commits and exact submission
-commitments are recorded in [the archive inventory](history/legacy/chat-bonus-archives.json).
-They are not added to the verification registry or the active allowlist.
+The 28 original legacy bundles needed by eligible historical chat-log bonus submissions are
+also archived here. Their recovery commits and exact submission commitments are recorded in
+[the archive inventory](history/legacy/chat-bonus-archives.json). These bundles, including
+Green 39 and Erdős 579, are not added to the verification registry or the active allowlist.
 
 Registering a version keeps it addressable for verification. It does not make any particular
 submission claimable: the attempt cap and the submission's own state still apply.

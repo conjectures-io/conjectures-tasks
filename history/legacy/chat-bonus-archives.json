@@ -2,12 +2,68 @@
   "schema_version": 1,
   "bundles": [
     {
-      "submission_id": "4c981fff-af7e-4fc8-bb2e-9fe13fd7f632",
-      "task_id": "fc-8432eac9-green39-green-39-5fcd9b62ed-counterexample-v1",
-      "task_bundle_sha256": "sha256:01de128c91e344ce91142198179baa36547176a0dd7c139439ff6853a334cac8",
-      "location": "history/legacy/fc-8432eac9-green39-green-39-5fcd9b62ed-counterexample-v1",
-      "recovered_from_commit": "275ef4824c41d41f97ac4e9fff95ca471de9341d",
-      "recovered_from_path": "pool/tier-1/green-39-counterexample"
+      "submission_id": "82ab85ee-5dfc-4775-b3e1-8abc16e213b9",
+      "task_id": "fc-379fc029-green29-green-29-3d9963bfe5-counterexample-v1",
+      "task_bundle_sha256": "sha256:d93f338e0bdc26070d21afb455b3b681858807cc1d51688dc30b40849a8cfed2",
+      "location": "history/legacy/fc-379fc029-green29-green-29-3d9963bfe5-counterexample-v1",
+      "recovered_from_commit": "1f1fa7b4b7c80105be3a5edb231078055e4fd297",
+      "recovered_from_path": "pool/tier-1/green-29-counterexample"
+    },
+    {
+      "submission_id": "244ff2d0-399d-4e37-a307-4ff6f3cb3493",
+      "task_id": "fc-379fc029-variants-grechuk-e26c885566-formalized-v1",
+      "task_bundle_sha256": "sha256:75dae50947998fe526401998132fe589b236a539908bc9166e8f2b05d8a8f28f",
+      "location": "history/legacy/fc-379fc029-variants-grechuk-e26c885566-formalized-v1",
+      "recovered_from_commit": "ea48b93d409454d47d4d6b3320d05eaa29adb089",
+      "recovered_from_path": "pool/tier-1/erdos-10-variants-grechuk-formalized"
+    },
+    {
+      "submission_id": "4c651db1-3b53-48da-ac31-0b0020a8d87c",
+      "task_id": "fc-4b69a7dc-math15catalog-source04-133529f771-formalized-v1",
+      "task_bundle_sha256": "sha256:af55058400941f9e2697617d145fb06605a65a46ab7c8c94268d33cc12720520",
+      "location": "history/legacy/fc-4b69a7dc-math15catalog-source04-133529f771-formalized-v1",
+      "recovered_from_commit": "5c795848b41d1f6eb2e9c2049ad8bde0436e681a",
+      "recovered_from_path": "pool/tier-1/researchtargets-math15-source04-formalized"
+    },
+    {
+      "submission_id": "31ab8532-c253-4e14-95c7-be44878a02fa",
+      "task_id": "fc-4b69a7dc-math15catalog-source05-216687d215-formalized-v1",
+      "task_bundle_sha256": "sha256:2c1081ff133add367fb488e4edd105890af82894fa5799254d02052a29be1a67",
+      "location": "history/legacy/fc-4b69a7dc-math15catalog-source05-216687d215-formalized-v1",
+      "recovered_from_commit": "5c795848b41d1f6eb2e9c2049ad8bde0436e681a",
+      "recovered_from_path": "pool/tier-1/researchtargets-math15-source05-formalized"
+    },
+    {
+      "submission_id": "16b0de31-98a9-4867-8e45-b2f65d4b1712",
+      "task_id": "fc-4b69a7dc-math15catalog-source10-a324196efa-formalized-v1",
+      "task_bundle_sha256": "sha256:7b2c0bcaced38c18f4100dd542987ad841431034d07d615ee08a899624ac7102",
+      "location": "history/legacy/fc-4b69a7dc-math15catalog-source10-a324196efa-formalized-v1",
+      "recovered_from_commit": "5c795848b41d1f6eb2e9c2049ad8bde0436e681a",
+      "recovered_from_path": "pool/tier-1/researchtargets-math15-source10-formalized"
+    },
+    {
+      "submission_id": "c875252a-a6d8-4720-95e1-f773f3c87717",
+      "task_id": "fc-4b69a7dc-math15catalog-source11-adfb10adce-formalized-v1",
+      "task_bundle_sha256": "sha256:6ef314194da00a14647a139e9cf171803130cfd6a0c01a012de3d21e317f94ce",
+      "location": "history/legacy/fc-4b69a7dc-math15catalog-source11-adfb10adce-formalized-v1",
+      "recovered_from_commit": "5c795848b41d1f6eb2e9c2049ad8bde0436e681a",
+      "recovered_from_path": "pool/tier-1/researchtargets-math15-source11-formalized"
+    },
+    {
+      "submission_id": "1243db65-857f-4486-93ef-7300150c1ed8",
+      "task_id": "fc-4b69a7dc-math30catalog-source28-e70c2d6c9f-formalized-v1",
+      "task_bundle_sha256": "sha256:3aed69deaefd849d082d90473860967b09620491e3ee1d9d57064e4843995db5",
+      "location": "history/legacy/fc-4b69a7dc-math30catalog-source28-e70c2d6c9f-formalized-v1",
+      "recovered_from_commit": "5c795848b41d1f6eb2e9c2049ad8bde0436e681a",
+      "recovered_from_path": "pool/tier-1/researchtargets-math30-source28-formalized"
+    },
+    {
+      "submission_id": "a4b153d1-f913-43bb-bb93-11b4be4d28b2",
+      "task_id": "fc-4b69a7dc-math30catalog-source29-e776c705d2-formalized-v1",
+      "task_bundle_sha256": "sha256:4fc5ec332c23397b35d98acae47fc4570135ac424805e95aa8882979e6faf0f5",
+      "location": "history/legacy/fc-4b69a7dc-math30catalog-source29-e776c705d2-formalized-v1",
+      "recovered_from_commit": "5c795848b41d1f6eb2e9c2049ad8bde0436e681a",
+      "recovered_from_path": "pool/tier-1/researchtargets-math30-source29-formalized"
     },
     {
       "submission_id": "e4934265-aa96-4bf5-a3c0-d01153dfcfaa",
@@ -16,6 +72,158 @@
       "location": "history/legacy/fc-6a786f99-erdos579-erdos-579-78be4d4192-counterexample-v1",
       "recovered_from_commit": "2a58149e6edb0f1dc15b32391f8c29fdd85e9db3",
       "recovered_from_path": "pool/tier-1/erdos-579-counterexample"
+    },
+    {
+      "submission_id": "4b04c9b9-323d-446c-84e1-65f9dd09231d",
+      "task_id": "fc-6a786f99-variants-conjecture-e5b1714611-formalized-v1",
+      "task_bundle_sha256": "sha256:42f60c97f2bf3d1199499b620bee54b53d594348b450ad2e92af4ed2e9d376af",
+      "location": "history/legacy/fc-6a786f99-variants-conjecture-e5b1714611-formalized-v1",
+      "recovered_from_commit": "a4ef25d5514ad6614329e2efe94f45c68ec91fdc",
+      "recovered_from_path": "pool/tier-1/green-24-variants-conjecture-formalized"
+    },
+    {
+      "submission_id": "8c083793-9c3c-4960-8a23-869e54fcb584",
+      "task_id": "fc-8432eac9-erdos108-erdos-108-1c556adba6-counterexample-v1",
+      "task_bundle_sha256": "sha256:3289c8b9f2470132bcf359fca1eed59fa2b2b2358b2b2e33a6c0beb08f36a912",
+      "location": "history/legacy/fc-8432eac9-erdos108-erdos-108-1c556adba6-counterexample-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-108-counterexample"
+    },
+    {
+      "submission_id": "e93a2766-4c70-4564-b565-d0c556f35929",
+      "task_id": "fc-8432eac9-erdos18-erdos-18b-9bd94d8707-formalized-v1",
+      "task_bundle_sha256": "sha256:c55c2411ac8668369f247a111b77950bfa3ad123b00a243172a3d6eb9b72debd",
+      "location": "history/legacy/fc-8432eac9-erdos18-erdos-18b-9bd94d8707-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-18-b-formalized"
+    },
+    {
+      "submission_id": "e73b95f7-1d1b-42b5-a442-c07077741d73",
+      "task_id": "fc-8432eac9-erdos196-erdos-196-b7454f0edd-counterexample-v1",
+      "task_bundle_sha256": "sha256:db4b31179fca49ad899184caa87b901b2c11143b8769bfebae5120e6a155523d",
+      "location": "history/legacy/fc-8432eac9-erdos196-erdos-196-b7454f0edd-counterexample-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-196-counterexample"
+    },
+    {
+      "submission_id": "257ce6dd-e3e5-4169-9d7e-2811092977ca",
+      "task_id": "fc-8432eac9-erdos653-erdos-653-15000f4d45-formalized-v1",
+      "task_bundle_sha256": "sha256:ad574de4c242c230bdc722ad74f5b03e3b1c23c398e5a67ebafff504708aff6d",
+      "location": "history/legacy/fc-8432eac9-erdos653-erdos-653-15000f4d45-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-653-formalized"
+    },
+    {
+      "submission_id": "e060355f-a728-4b06-af11-6302b5780d19",
+      "task_id": "fc-8432eac9-erdos859-erdos-859-0087a1d40d-counterexample-v1",
+      "task_bundle_sha256": "sha256:69d9ae977520595af2be762b7b751f47a87053eec25c4f0f2ac144b8f1d1fa9a",
+      "location": "history/legacy/fc-8432eac9-erdos859-erdos-859-0087a1d40d-counterexample-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-859-counterexample"
+    },
+    {
+      "submission_id": "e7afff2c-bb07-4fa8-92b6-67a530aaad70",
+      "task_id": "fc-8432eac9-erdos944-erdos-944-874ac96a8b-formalized-v1",
+      "task_bundle_sha256": "sha256:100dfffdef416440fec246e3b38f6c6e062dea0e6af5c06529b236887f177531",
+      "location": "history/legacy/fc-8432eac9-erdos944-erdos-944-874ac96a8b-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-944-formalized"
+    },
+    {
+      "submission_id": "7ffd1c09-2912-4c4c-a7ff-a4faa263f517",
+      "task_id": "fc-8432eac9-erdos96-erdos-96-9f43077a0f-counterexample-v1",
+      "task_bundle_sha256": "sha256:1b64a17280cf8d5bb669a8a4bcef39b857c52b033a4f0a4d4355e409fbff4a6b",
+      "location": "history/legacy/fc-8432eac9-erdos96-erdos-96-9f43077a0f-counterexample-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-96-counterexample"
+    },
+    {
+      "submission_id": "8186c13b-077f-45bb-8702-870f1dab27e3",
+      "task_id": "fc-8432eac9-green-40-f-two-eq-one-ce69be0661-formalized-v1",
+      "task_bundle_sha256": "sha256:979abda716baba300e7d3d09476ff301401d93abb906d64be384c33765fe94ca",
+      "location": "history/legacy/fc-8432eac9-green-40-f-two-eq-one-ce69be0661-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/green-40-f-two-eq-one-formalized"
+    },
+    {
+      "submission_id": "217138ff-13fa-4110-9e7c-2e8533563988",
+      "task_id": "fc-8432eac9-green-51-one-half-c1068fe73b-formalized-v1",
+      "task_bundle_sha256": "sha256:9e80ef6216da982ff582d20419ed0b0393952ef9fa1c197726f891246db4d327",
+      "location": "history/legacy/fc-8432eac9-green-51-one-half-c1068fe73b-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/green-51-one-half-formalized"
+    },
+    {
+      "submission_id": "66df312f-30b4-4331-b1fa-04be52f7f8ca",
+      "task_id": "fc-8432eac9-green15-green-15-5a26c2afe7-formalized-v1",
+      "task_bundle_sha256": "sha256:9c2aff6bec4b3c41944f5d8c4705b7e064c846e82dc79aa4217ad9da1187ba90",
+      "location": "history/legacy/fc-8432eac9-green15-green-15-5a26c2afe7-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/green-15-formalized"
+    },
+    {
+      "submission_id": "4c981fff-af7e-4fc8-bb2e-9fe13fd7f632",
+      "task_id": "fc-8432eac9-green39-green-39-5fcd9b62ed-counterexample-v1",
+      "task_bundle_sha256": "sha256:01de128c91e344ce91142198179baa36547176a0dd7c139439ff6853a334cac8",
+      "location": "history/legacy/fc-8432eac9-green39-green-39-5fcd9b62ed-counterexample-v1",
+      "recovered_from_commit": "275ef4824c41d41f97ac4e9fff95ca471de9341d",
+      "recovered_from_path": "pool/tier-1/green-39-counterexample"
+    },
+    {
+      "submission_id": "3f7ea330-0480-4e1a-b2fa-143440bf03b7",
+      "task_id": "fc-8432eac9-green47-green-47-d81343b4b6-counterexample-v1",
+      "task_bundle_sha256": "sha256:9c88d0a4f162d779dffbe588848d4c98a7327de0c760bde697b825afe6e92989",
+      "location": "history/legacy/fc-8432eac9-green47-green-47-d81343b4b6-counterexample-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/green-47-counterexample"
+    },
+    {
+      "submission_id": "51923647-3c0d-418e-b330-aa595f5cad42",
+      "task_id": "fc-8432eac9-parts-i-2feb1b9bb5-formalized-v1",
+      "task_bundle_sha256": "sha256:1692eea2372cf03789fd16f38b649534b16e05df87ea13f63055b0238065a8ba",
+      "location": "history/legacy/fc-8432eac9-parts-i-2feb1b9bb5-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-416-parts-i-formalized"
+    },
+    {
+      "submission_id": "815c1d5f-3afb-4430-8e2c-260d9038f5b0",
+      "task_id": "fc-8432eac9-parts-i-5c027f4194-formalized-v1",
+      "task_bundle_sha256": "sha256:93d5b0b109d795329076a68880a1a71499b8a5d4bf14352adc9011fe4167408e",
+      "location": "history/legacy/fc-8432eac9-parts-i-5c027f4194-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-354-parts-i-formalized"
+    },
+    {
+      "submission_id": "dce3d778-6f52-4c27-8da0-c82d2f391b64",
+      "task_id": "fc-8432eac9-parts-i-8313191e7a-formalized-v1",
+      "task_bundle_sha256": "sha256:26c6d0a7d0c1c8a2b87ac3d13fac9188bb7b1f3e71cdcf2cb800dda6ee51f980",
+      "location": "history/legacy/fc-8432eac9-parts-i-8313191e7a-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-14-parts-i-formalized"
+    },
+    {
+      "submission_id": "8d59a0af-6762-4606-93c9-72dd356a57bc",
+      "task_id": "fc-8432eac9-parts-ii-71df995464-formalized-v1",
+      "task_bundle_sha256": "sha256:6b356044dec949f17fc3f2a45f35f4dbef3a1858ded048b8aec7d51fa666902e",
+      "location": "history/legacy/fc-8432eac9-parts-ii-71df995464-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-1062-parts-ii-formalized"
+    },
+    {
+      "submission_id": "adb53fba-0b01-4398-abab-cb9b2176eebc",
+      "task_id": "fc-8432eac9-parts-ii-837c84619c-counterexample-v1",
+      "task_bundle_sha256": "sha256:754b237392c5ba4b07a083da6d062edf9a1c93f0cd4d6a4397d39135e81133b2",
+      "location": "history/legacy/fc-8432eac9-parts-ii-837c84619c-counterexample-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-14-parts-ii-counterexample"
+    },
+    {
+      "submission_id": "c3277f4a-d573-42a9-bfca-e45fb2cb39ff",
+      "task_id": "fc-8432eac9-variants-szabo-strong-454001886c-formalized-v1",
+      "task_bundle_sha256": "sha256:7c2177a05046a45b27584822c3713851b60409238fb82d858ab20e099a9a0a7a",
+      "location": "history/legacy/fc-8432eac9-variants-szabo-strong-454001886c-formalized-v1",
+      "recovered_from_commit": "0a60fecdc7d11f1a69ef959f49ec5d5de54c7bc3",
+      "recovered_from_path": "pool/tier-1/erdos-272-variants-szabo-strong-formalized"
     }
   ]
 }
