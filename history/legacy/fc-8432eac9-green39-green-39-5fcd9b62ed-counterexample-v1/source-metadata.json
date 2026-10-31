@@ -1,0 +1,42 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    5,
+    60
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If $A \\subset \\mathbb{Z}/p\\mathbb{Z}$ is random, $|A| = \\sqrt{p}$, can we almost surely cover\n$\\mathbb{Z}/p\\mathbb{Z}$ with $100\\sqrt{p}$ translates of $A$? [Gr24]\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.GreensOpenProblems.«39»",
+  "pointer_target": null,
+  "references": [
+    "[Gr24] [Green, Ben. \"100 open problems.\" (2024).](https://people.maths.ox.ac.uk/greenbj/papers/open-problems.pdf#problem.39)",
+    "[BJR11] Bollobás, Béla, Svante Janson, and Oliver Riordan. \"On covering by translates of a set.\" Random Structures & Algorithms 38.1‐2 (2011): 33-67."
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/GreensOpenProblems/39.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Green39.green_39",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:d8c0cb751eaf5d2498d0c7acc2225a74b6751efaf4828398f274e41553ce6f1b",
+  "type_pretty": "True ↔\n  Filter.Tendsto\n    (fun p =>\n      have k := (↑p).sqrt;\n      have c := 100 * k;\n      ↑(Green39.proportionCoverable (↑p) k c))\n    Filter.atTop (nhds 1)"
+}

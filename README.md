@@ -72,12 +72,17 @@ dependency identity and the environment identity rather than to the source commi
 `versions/<task_id>/`. They are published with `verifier task publish` from the validator, through
 a locked, journaled commit. See the validator's `docs/INCREMENTAL_TASKS.md`.
 
-`history/legacy/` keeps legacy bundles byte-for-byte, together with the allowlist that opened
-them, for paid work that still belongs to an older source commit. `HISTORY.json` lists them, and
-each is registered at the instance that originally accepted it, with intake closed. The one entry
-today is `fc-8432eac9-variants-conjecture-d8e9eeeb54-formalized-v1`. Its bundle and
+`history/legacy/` keeps legacy bundles byte-for-byte. `HISTORY.json` lists bundles retained for
+verification, together with the allowlist that opened them; each is registered at the instance
+that originally accepted it, with intake closed. Its entry is
+`fc-8432eac9-variants-conjecture-d8e9eeeb54-formalized-v1`. Its bundle and
 `8432eac9…/allowlist.json` are identical to `pool/tier-1/green-24-variants-conjecture-formalized/`
 and `allowlist.json` at this repository's commit `275ef482`.
+
+The original Green 39 and Erdős 579 counterexample bundles are also archived here for
+retrospective chat-log bonus classification. Their recovery commits and exact submission
+commitments are recorded in [the archive inventory](history/legacy/chat-bonus-archives.json).
+They are not added to the verification registry or the active allowlist.
 
 Registering a version keeps it addressable for verification. It does not make any particular
 submission claimable: the attempt cap and the submission's own state still apply.
