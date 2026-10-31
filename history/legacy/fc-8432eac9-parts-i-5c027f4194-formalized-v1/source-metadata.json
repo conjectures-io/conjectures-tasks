@@ -1,0 +1,40 @@
+{
+  "adapter_version": 1,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $\\alpha,\\beta\\in \\mathbb{R}_{>0}$ such that $\\alpha/\\beta$ is irrational. Is the multiset\n$$\\{ \\lfloor \\alpha\\rfloor,\\lfloor 2\\alpha\\rfloor,\\lfloor 4\\alpha\\rfloor,\\ldots\\}\\cup\n\\{ \\lfloor \\beta\\rfloor,\\lfloor 2\\beta\\rfloor,\\lfloor 4\\beta\\rfloor,\\ldots\\}$$ complete? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«354»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/354](https://www.erdosproblems.com/354)"
+  ],
+  "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
+  "source_path": "FormalConjectures/ErdosProblems/354.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos354.erdos_354.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:de4262d428cc1a0deb7df106c6951e4db5d808b9a6d6a4e21c29f05775c50488",
+  "type_pretty": "True ↔ ∀ α > 0, ∀ β > 0, Irrational (α / β) → IsAddCompleteNatSeq' (Erdos354.FloorMultiples.interleave α β 2)"
+}
