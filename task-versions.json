@@ -178,6 +178,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
       "sequence": 6
+    },
+    {
+      "allowlist_sha256": "sha256:e0c5409b1fd560e01829b8b2845595b98ca374b23f5776d710036f21ed52f130",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
+      "sequence": 7
     }
   ],
   "schema_version": 1,
@@ -38260,7 +38266,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos456.erdos_456.parts.iii",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:2c40ada3855c283c986aa13d9530674170b7730f93eb0b660e5a3a74323c9307",
       "task_id": "fc-v2-parts-iii-7bff3829c24a012c7d0a85a2-formalized",
       "theorems": [
@@ -38291,7 +38297,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos456.erdos_456.parts.iii",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:6ad30319f04b778a10054284655190b37f41ee2932dafb6dd374072aca5abadc",
       "task_id": "fc-v2-parts-iii-a16bb310c2ae711c96d94fd2-counterexample",
       "theorems": [

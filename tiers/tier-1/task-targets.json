@@ -949,13 +949,6 @@
       "theorem": "Erdos455.erdos_455"
     },
     {
-      "reward_target_id": "fc-target:Erdos456.erdos_456.parts.iii",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/456.lean",
-      "source_problem_number": 456,
-      "theorem": "Erdos456.erdos_456.parts.iii"
-    },
-    {
       "reward_target_id": "fc-target:Erdos458.erdos_458",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/458.lean",
