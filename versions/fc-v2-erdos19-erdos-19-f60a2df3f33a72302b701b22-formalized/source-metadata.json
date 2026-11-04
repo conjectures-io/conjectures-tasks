@@ -1,0 +1,42 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "If $G$ is an edge-disjoint union of $n$ copies of $K_n$, then is $\\chi(G) = n$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«19»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/19](https://www.erdosproblems.com/19)",
+    "[Hi81] Hindman, N., *On a conjecture of Erdős, Faber, and Lovász about $n$-colorings*. Canad. J. Math. (1981).",
+    "[Ka92] Kahn, J., *Coloring nearly-disjoint hypergraphs with $n + o(n)$ colors*. J. Combin. Theory Ser. A (1992).",
+    "[KKKMO21] Kang, D. Y., Kelly, T., Kühn, D., Methuku, A. and Osthus, D., *A proof of the Erdős–Faber–Lovász conjecture*. Ann. of Math. (2023). [arXiv:2101.04698](https://arxiv.org/abs/2101.04698)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/19.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos19.erdos_19",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:4a449a6315ce1e5d6d611dbeab77103d73cfdf32486221e1062a9a396e81be78",
+  "type_pretty": "∀ (V : Type) (n : ℕ) (C : Erdos19.EFLConfig V n), C.graph.chromaticNumber = ↑n"
+}

@@ -1,0 +1,45 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Erdős Problem 111** (Erdős, Hajnal, Szemerédi [EHS82]):\n\nIf $G$ is a graph with chromatic number $\\aleph_1$, is it true that $h_G(n)/n \\to \\infty$?\n\nFormally: for every graph $G$ (on a type $V$) with chromatic cardinal $\\aleph_1$, the ratio\n$h_G(n)/n$ tends to infinity: for every constant $C$, all sufficiently large $n$ satisfy\n$h_G(n) > C \\cdot n$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«111»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/111](https://www.erdosproblems.com/111)",
+    "[Er81] Erdős, P., On the combinatorial problems which I would most like to see solved. (1981)",
+    "[EHS82] Erdős, P., Hajnal, A., and Szemerédi, E., On almost bipartite large chromatic graphs. Theory and practice of combinatorics (1982), 117–123.",
+    "[Er87] Erdős, P., Some problems on finite and infinite graphs. (1987)",
+    "[Er90] Erdős, P., Some of my favourite unsolved problems. (1990)",
+    "[Er97d] Erdős, P., Some recent problems and results in graph theory. (1997)",
+    "[Er97f] Erdős, P., Some unsolved problems. (1997)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/111.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos111.erdos_111",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:5c32b51c218ebe6b95623e5131e8c27b5dcbc626bc2bf7dce29f371ed3a113f5",
+  "type_pretty": "∀ (V : Type) (G : SimpleGraph V),\n  G.chromaticCardinal = Cardinal.aleph 1 → Filter.Tendsto (fun n => ↑(Erdos111.hG G n) / ↑n) Filter.atTop Filter.atTop"
+}

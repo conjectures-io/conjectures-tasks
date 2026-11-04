@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:73b842d0925156cdbae5dcf54ff33e9b6b1b72dd8ed3232a9df14e0d9c659770",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "Erdos49.erdos_49.variants.primes_maximal"
+  ],
+  "generated_target_type_hash": "sha256:1cd711ac7e80ce6d0cb4a09075bd614e63813dd03bddd1dc332ddfa76a871d23",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.ErdosProblems.«49»",
+  "source_path": "FormalConjectures/ErdosProblems/49.lean",
+  "source_theorem": "Erdos49.erdos_49.variants.primes_maximal",
+  "source_type_hash": "sha256:1cd711ac7e80ce6d0cb4a09075bd614e63813dd03bddd1dc332ddfa76a871d23",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-variants-primes-maximal-34155cb22f9205957c6deb8a-formalized",
+  "task_mode": "formalized",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:fa02c199ebd97c3a896fa3faa14627d1e9029d1f50d5ca43d162c597b36e1cc9",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:08585fadfa5ffd80322e9a8e8b636d36e957974eae0e5f9704e435758a8371e5",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:7fdddfb49a85f5a10caa79490381ec77240aaa17ef525ca5b60733a666d56bce",
+    "task-version.json": "sha256:d0bdf22649b3c053c05eb6647934de370a479f1adef28e86b2cd1a5ccf845578"
+  }
+}

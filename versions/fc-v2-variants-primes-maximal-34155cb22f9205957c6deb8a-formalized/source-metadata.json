@@ -1,0 +1,42 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Are the primes the largest possible example, i.e. is $f(N) = \\pi(N)$ for all $N \\geq 2$? ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«49»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/49](https://www.erdosproblems.com/49)",
+    "[Er95] Erdős, Paul, *Some of my favourite problems in number theory, combinatorics, and geometry*. Resenhas (1995), 165-186.",
+    "[Er95c] Erdős, Paul, *Some problems in number theory*. Octogon Math. Mag. (1995), 3-5.",
+    "[Ta24d] Tao, Terence, *Monotone nondecreasing sequences of the Euler totient function*. Matematica (2024), 793-820."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/49.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos49.erdos_49.variants.primes_maximal",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:1cd711ac7e80ce6d0cb4a09075bd614e63813dd03bddd1dc332ddfa76a871d23",
+  "type_pretty": "∀ (N : ℕ), 2 ≤ N → Erdos49.f N = N.primeCounting"
+}

@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    3
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "**Erdős Problem 70**: Let $\\mathfrak{c}$ be the order type of the real numbers,\nlet $\\beta$ be a countable ordinal, and let $2 \\le n < \\omega$.\nIs it true that $\\mathfrak{c} \\to (\\beta, n)^3_2$?\n\nNote: The cases $n \\le 3$ are trivially true (compare `omega_three`), so the\ngenuine content of the conjecture begins at $n = 4$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«70»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/70](https://www.erdosproblems.com/70)",
+    "[ErRa56] Erdős, P. and Rado, R., *A partition calculus in set theory*, Bull. Amer. Math. Soc. **62** (1956), 427–489, Theorem 31.",
+    "[Er87] Erdős, P., *Some problems on finite and infinite graphs*, Logic and combinatorics (Arcata, Calif., 1985), Contemp. Math. **65** (1987), 223–228."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/70.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos70.erdos_70",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:53899d90ff42ae9c872fb045beaa22838d344ed2562f785dafda2ac81938367c",
+  "type_pretty": "∀ (β : Ordinal.{0}) (n : ℕ), β.card ≤ Cardinal.aleph0 → 2 ≤ n → Erdos70.RealCardinalRamsey3 β ↑n"
+}

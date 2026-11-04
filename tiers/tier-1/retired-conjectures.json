@@ -1,5 +1,5 @@
 {
-  "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
+  "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
   "retired": [
     {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-06-erdos-10-grechuk.md",
@@ -480,75 +480,6 @@
         }
       ],
       "theorem": "Erdos1093.erdos_1093.parts.ii",
-      "tier": "tier-1"
-    },
-    {
-      "decision_url": null,
-      "pool_status": "retired",
-      "reason": "QUARANTINE_INCOMPLETE_CLAIM (A public claim advertises reciprocal-sum convergence, exactly part iii, but its discussion identifies an assumed growth_ineq axiom and requests the missing block-growth argument. It does not constitute an unconditional proof. Conservatively withhold the target while the underlying claim is unresolved; do not describe it as solved.)",
-      "reason_code": "QUARANTINE_INCOMPLETE_CLAIM",
-      "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
-      "retired_on": "2026-09-08",
-      "reward_target_id": "fc-target:Erdos12.erdos_12.parts.iii",
-      "source": {
-        "adapter_version": 1,
-        "ams_subjects": [
-          11
-        ],
-        "answer_occurrences": [],
-        "category": "research open",
-        "classification": "DIRECT_PROP",
-        "contains_answer_annotation": false,
-        "contains_sorry_in_type": false,
-        "contains_sorry_in_value": false,
-        "declaration_kind": "theorem",
-        "depends_on_sorry": true,
-        "docstring": "Let $A$ be an infinite set such that there are no distinct $a,b,c \\in A$\nsuch that $a \\mid (b+c)$ and $b,c > a$. Is it true that $∑_{n \\in A} \\frac{1}{n} < \\infty$?\n",
-        "finite_constructors": [],
-        "formal_proof_kind": null,
-        "formal_proof_link": null,
-        "has_parameters": false,
-        "is_prop": true,
-        "module": "FormalConjectures.ErdosProblems.«12»",
-        "pointer_target": null,
-        "references": [
-          "[erdosproblems.com/12](https://www.erdosproblems.com/12)"
-        ],
-        "repository_commit": "8432eac998110a563e03df65a28c117e97c8c142",
-        "source_path": "FormalConjectures/ErdosProblems/12.lean",
-        "supported_modes": [
-          "formalized",
-          "counterexample"
-        ],
-        "theorem": "Erdos12.erdos_12.parts.iii",
-        "transitive_axioms": [
-          "propext",
-          "sorryAx",
-          "Classical.choice",
-          "Quot.sound"
-        ],
-        "type_hash": "sha256:a9d7341770ce875615e7d21b3ea6d8735fcd47a8e32539b1836d33e728d2f746",
-        "type_pretty": "True ↔ ∀ (A : Set ℕ), Erdos12.IsGood A → Summable fun n => 1 / ↑↑n"
-      },
-      "tasks": [
-        {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos12.erdos_12.parts.iii\") := by\n  sorry\n\nend Bounty\n",
-          "problem_id": "fc-8432eac9-parts-iii-cc34c2220fa0849e05d608c5387b25b6-problem",
-          "target_type_sha256": "sha256:65bf1c09fc477a1f4d09a3c91c99eb15ee7ba4fbd93f51e25fc6f289d64f35b8",
-          "task_bundle_sha256": "sha256:3e0fccd0af8807560ebe75124f1aeb5561b18007db4efbce109552ff96ace852",
-          "task_id": "fc-8432eac9-parts-iii-154db0c811-counterexample-v1",
-          "task_mode": "counterexample"
-        },
-        {
-          "challenge_lean": "import FormalConjectures.ErdosProblems.«12»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos12.erdos_12.parts.iii\" := by\n  sorry\n\nend Bounty\n",
-          "problem_id": "fc-8432eac9-parts-iii-cc34c2220fa0849e05d608c5387b25b6-problem",
-          "target_type_sha256": "sha256:a9d7341770ce875615e7d21b3ea6d8735fcd47a8e32539b1836d33e728d2f746",
-          "task_bundle_sha256": "sha256:2036fb55e48dcbb35ea108bdec9d8d34ed088b22b5f2d6a54d56242c196e360b",
-          "task_id": "fc-8432eac9-parts-iii-441e921d1c-formalized-v1",
-          "task_mode": "formalized"
-        }
-      ],
-      "theorem": "Erdos12.erdos_12.parts.iii",
       "tier": "tier-1"
     },
     {

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:cd5c34a512ad6741891647f752472d023d38b1c155b5150fd1d51324bd2e3d1b",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "InscribedSquare.inscribed_square_problem"
+  ],
+  "generated_target_type_hash": "sha256:d0931056e7be683cc995eb22e142435fe14aaefaf262fc44776bb1e2ba70b7e7",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.Wikipedia.InscribedSquare",
+  "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
+  "source_theorem": "InscribedSquare.inscribed_square_problem",
+  "source_type_hash": "sha256:820357c1dbb276e0163f439f8acdb0f0803c025c7c85adc722171bc84b0b3154",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-inscribedsquare-inscribed-square-problem-48f39615e852fd25a510e361-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f6ef26fe88ab6120162747544950e555ea35cbc8930ec8c8f852195a3914dad8",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:60e1da4499fc13f09a63c3004d997c2d78f8964e7040256d712027d41dbcba2c",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:d7b5899c4fc952fb52a92138d3c8f0f42b7aca48217e5c7614db22f6e69e3d1d",
+    "task-version.json": "sha256:ee958191b10f809795608d4734fbb4f03ed413648b70d0ab8311c8d1952049c2"
+  }
+}

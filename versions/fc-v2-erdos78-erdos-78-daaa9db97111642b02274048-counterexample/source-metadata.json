@@ -1,0 +1,49 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5,
+    68
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $R(k)$ be the Ramsey number for $K_k$. Give a constructive proof that $R(k) > C^k$ for some\nconstant $C > 1$.\n\nEquivalently, give an explicit construction of graphs on $n$ vertices which contain no clique\nand no independent set of size $\\geq c \\log n$, for some constant $c > 0$.\n\nWe formalise \"explicit\" as: the adjacency relation of the graph on $n$ vertices is decided by a\nsingle algorithm that runs in time polynomial in $n$ (see `explicitGraph`). This is the weakest\nreasonable notion (\"weakly explicit\"); even this is open. The strongly explicit version, with time\npolynomial in $\\log n$, is `erdos_78.variants.strongly_explicit`.\n\nThis problem is #4 in Ramsey Theory in the graphs problem collection.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«78»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/78](https://www.erdosproblems.com/78)",
+    "[Co15] Cohen, Gil, *Two-source dispersers for polylogarithmic entropy and improved Ramsey graphs*. arXiv:1506.04428 (2015).",
+    "[Er47] Erdős, P., *Some remarks on the theory of graphs*. Bull. Amer. Math. Soc. (1947), 292-294.",
+    "[Er71](https://users.renyi.hu/~p_erdos/1971-25.pdf) Erdős, P., *Some unsolved problems in graph theory and combinatorial analysis*. Combinatorial Mathematics and its Applications (Proc. Conf., Oxford, 1969) (1971), 97-109.",
+    "[Er88] Erdős, P, Problems and results in combinatorial analysis and graph theory. Discrete Math. (1988), 81-92.",
+    "[Er93] Erdős, Paul, Some of my favorite solved and unsolved problems in graph theory. Quaestiones Math. (1993), 333-350.",
+    "[Er95] Erdős, Paul, *Some of my favourite problems in number theory, combinatorics, and geometry*. Resenhas (1995), 165-186.",
+    "[Er97c] Erdős, Paul, *Some of my favorite problems and results*. The mathematics of Paul Erdős, I (1997), 47-67.",
+    "[Li23b] Li, Xin, *Two source extractors for asymptotically optimal entropy, and (many) more*. arXiv:2303.06802 (2023).",
+    "[Va99] Various, *Some of Paul's favorite problems*. Booklet produced for the conference \"Paul Erdős and his mathematics\", Budapest, July 1999 (1999)."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/78.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos78.erdos_78",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:210da728798ca3809a9d18496ccc4a054375c16ce7ee677e3d01d57a97a5ad0e",
+  "type_pretty": "∃ c > 0,\n  ∃ adj,\n    ComplexityTheory.IsPolyTime adj ∧\n      ∀ᶠ (n : ℕ) in Filter.atTop, Erdos78.NoHomogeneousSet (Erdos78.explicitGraph adj n) ⌈c * Real.log ↑n⌉₊"
+}

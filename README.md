@@ -11,9 +11,9 @@ history. Each bundle contains its challenge, manifest, comparator configuration,
 trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 580 active bundles: proof/refutation pairs for 290 audited
+The current snapshot contains one tier with 618 active bundles: proof/refutation pairs for 309 audited
 direct propositions (16 full historical open problems, 16 package-authored research targets,
-219 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved
+238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved
 Green's Open Problems targets). The tier label is
 retained for compatibility and does not rank or classify the targets.
 

@@ -1,0 +1,42 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is the sum $\\sum\\frac{1}{a_i}$ minimised when $G$ is a complete bipartite graph?\n\nThis problem is #65 in Extremal Graph Theory in the graphs problem collection.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«65»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/65](https://www.erdosproblems.com/65)",
+    "[GKS84] Gyárfás, A., Komlós, J. and Szemerédi, E., On the distribution of cycle lengths in graphs. J. Graph Theory (1984), 441-462.",
+    "[GPSV85] Gyárfás, A., Prömel, H. J., Szemerédi, E. and Voigt, B., On the sum of the reciprocals of cycle lengths in sparse graphs. Combinatorica (1985), 41-52.",
+    "[LiMo20] Liu, H. and Montgomery, R., A solution to Erdős and Hajnal's odd cycle problem. arXiv:2010.15802 (2020)."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/65.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos65.erdos_65.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:fc453ffa060cb914f7109b59f6354da3842cbad2e6ac352c3861b16155b70546",
+  "type_pretty": "∀ (k : ℝ),\n  0 < k →\n    ∀ (n : ℕ) (V : Type) [inst : Fintype V] (G : SimpleGraph V),\n      0 < n →\n        Fintype.card V = n →\n          ↑G.edgeSet.ncard = k * ↑n →\n            ∀ (A B : Type) [inst : Fintype A] [inst_1 : Fintype B],\n              Fintype.card (A ⊕ B) = n →\n                ↑(completeBipartiteGraph A B).edgeSet.ncard = k * ↑n →\n                  ∑ᶠ (a : ℕ) (_ : a ∈ (completeBipartiteGraph A B).cycleLengths), 1 / ↑a ≤\n                    ∑ᶠ (a : ℕ) (_ : a ∈ G.cycleLengths), 1 / ↑a"
+}

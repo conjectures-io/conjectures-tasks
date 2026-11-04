@@ -1,0 +1,43 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5,
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős and Fishburn also make the stronger conjecture that $\\sum f(u_i)^2$ is maximal for the\nregular $n$-gon (for large enough $n$).\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«94»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/94](https://www.erdosproblems.com/94)",
+    "[Er92e] Erdős, Pál, *Some Unsolved problems in Geometry, Number Theory and Combinatorics*. Eureka (1992), 44-48.",
+    "[Er97c] Erdős, Paul, *Some of my favorite problems and results*. The mathematics of Paul Erdős, I (1997), 47-67.",
+    "[LeTh95] Lefmann, Hanno and Thiele, Torsten, *Point sets with distinct distances*. Combinatorica (1995), 379-408."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/94.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos94.erdos_94.variants.regular_ngon",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:34addfb85c6d11514abbb657422db02276d5f6714e31453faab1e2340979a1a6",
+  "type_pretty": "∀ᶠ (n : ℕ) in Filter.atTop,\n  ∀ (P : Finset (EuclideanSpace ℝ (Fin 2))),\n    P.card = n →\n      EuclideanGeometry.ConvexIndep ↑P →\n        ∑ u ∈ distanceSet P, ↑(distanceMultiplicity P u) ^ 2 ≤\n          ∑ u ∈ distanceSet (Erdos94.regularNGon n), ↑(distanceMultiplicity (Erdos94.regularNGon n) u) ^ 2"
+}

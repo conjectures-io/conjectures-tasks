@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Does every graph on $n$ vertices with $>\\mathrm{ex}(n;C_4)$ edges contain $\\gg n^{1/2}$ many\ncopies of $C_4$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«60»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/60](https://www.erdosproblems.com/60)",
+    "[HeMaYa21] He, J. and Ma, J. and Yang, T., *Some extremal results on 4-cycles*. Journal of Combinatorial Theory B (2021)."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/60.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos60.erdos_60",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ded82056dd6f01a0d5c30db65bd9ad87877ec9c2523187a02ec1cc2447d93748",
+  "type_pretty": "∃ c > 0,\n  ∀ᶠ (n : ℕ) in Filter.atTop,\n    ∀ (G : SimpleGraph (Fin n)) [inst : DecidableRel G.Adj],\n      SimpleGraph.extremalNumber n (SimpleGraph.cycleGraph 4) < G.edgeFinset.card →\n        c * √↑n ≤ ↑{H' | Nonempty (H'.coe ≃g SimpleGraph.cycleGraph 4)}.ncard"
+}

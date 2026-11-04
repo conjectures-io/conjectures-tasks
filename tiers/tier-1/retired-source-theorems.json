@@ -1,5 +1,5 @@
 {
-  "repository_commit": "1ccfff4d629fe099ad8102f1ce0a97566f342edc",
+  "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
   "schema_version": 2,
   "source_theorems": [
     "ABC.abc",
@@ -72,7 +72,6 @@
     "Erdos1113.erdos_1113",
     "Erdos1146.erdos_1146",
     "Erdos1199.erdos_1199",
-    "Erdos12.erdos_12.parts.iii",
     "Erdos1209.erdos_1209.parts.iii.b",
     "Erdos1209.erdos_1209.parts.iii.c",
     "Erdos1210.erdos_1210",

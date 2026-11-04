@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $c > 0$ and let $h_c(n)$ be such that for any $n$ points in $\\mathbb{R}^2$ with at least\n$cn^2$ lines that each contain more than three of the points, some line contains $h_c(n)$ of\nthe points. Is it true that, for fixed $c > 0$, $h_c(n) \\to \\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«102»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/102](https://www.erdosproblems.com/102)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/102.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos102.erdos_102",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:b2a5e49ffbd9ca22ad101b8d27a9c237cbc46cffedc1cbed66e2de954a4a1308",
+  "type_pretty": "∀ c > 0, ∀ (M : ℕ), ∀ᶠ (n : ℕ) in Filter.atTop, ↑M ≤ Erdos102.h c n"
+}

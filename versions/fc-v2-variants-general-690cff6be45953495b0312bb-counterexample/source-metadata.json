@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "A general version asks, for a fixed $r \\in \\mathbb{N}$, if a set\n$A \\subseteq \\{1, ..., N\\}$ has no $a \\in A$ and $b_1, ..., b_r \\in A$ such that\n$a | (b_1 + ... + b_r)$ and $a < \\min(b_1, ..., b_r)$, then is it true that\n$|A| \\le N/(r+1) + O(1)$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«13»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/13](https://www.erdosproblems.com/13)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/13.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos13.erdos_13.variants.general",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:19fef883ead0ea7706b9c91b24373b3c84e6a2919042e2631dfe6c4d9b51b620",
+  "type_pretty": "∀ (r : ℕ),\n  ∃ C,\n    ∀ (N : ℕ),\n      ∀ A ⊆ Finset.Icc 1 N,\n        (∀ a ∈ A, ∀ (b : Fin r → ℕ), (∀ (i : Fin r), b i ∈ A) → (∀ (i : Fin r), a < b i) → ¬a ∣ ∑ i, b i) →\n          ↑A.card ≤ ↑N / (↑r + 1) + C"
+}
