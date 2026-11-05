@@ -1,0 +1,42 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "It is still possible (and conjectured by Morris and Saxton) that the weaker bound of\n$$2^{O(\\mathrm{ex}(n;G))}$$\nholds for all $G$ containing a cycle.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«59»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/59](https://www.erdosproblems.com/59)",
+    "[EFR86] Erdős, P., Frankl, P. and Rödl, V., *The asymptotic number of graphs not containing a fixed subgraph and a problem for hypergraphs having no exponent*. Graphs Combin. (1986), 113-121.",
+    "[MoSa16] Morris, R. and Saxton, D., *The number of $C_{2\\ell}$-free graphs*. Adv. Math. (2016), 534-580. [arXiv:1309.2927](https://arxiv.org/abs/1309.2927)",
+    "[Va99] Various, *Some of Paul's favorite problems*. Booklet produced for the conference \"Paul Erdős and his mathematics\", Budapest, July 1999 (1999)."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/59.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos59.erdos_59.variants.big_o",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:510c8d570c15b156c643d44d8cc07347244c0b8426d45266a0e4cd46c8129547",
+  "type_pretty": "∀ (k : ℕ) (H : SimpleGraph (Fin k)),\n  ¬H.IsAcyclic →\n    ∃ C, 0 < C ∧ ∀ᶠ (n : ℕ) in Filter.atTop, ↑(Erdos59.numFree H n) ≤ 2 ^ (C * ↑(SimpleGraph.extremalNumber n H))"
+}

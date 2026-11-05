@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The weaker question from the same problem: is $f_c(n) \\gg \\log n$?\n\nSame feasibility bound on `c` as above.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«80»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/80](https://www.erdosproblems.com/80)",
+    "[erdosproblems.com/600](https://www.erdosproblems.com/600), stated in `FormalConjectures/ErdosProblems/600.lean`",
+    "[FoLo12] Fox, Jacob and Loh, Po-Shen, On a problem of Erdős and Rothschild on edges in triangles. Combinatorica (2012), 619--628."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/80.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos80.erdos_80.parts.ii",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6ed6b53a89982c9a5ea9cc91ae915b35e2b2e579814a973d8bffa28b2b2bc599",
+  "type_pretty": "∀ (c : ℝ), 0 < c → c < 1 / 2 → (fun n => Real.log ↑n) =O[Filter.atTop] fun n => ↑(Erdos80.f c n)"
+}

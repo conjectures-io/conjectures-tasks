@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $0 < \\epsilon < 1$. Is it true that, if $k$ is sufficiently large, then\n$$R(G) > (1-\\epsilon)^k R(k)$$\nfor every graph $G$ with chromatic number $\\chi(G)=k$?\n\nThe restriction $\\epsilon < 1$ excludes negative bases in $(1-\\epsilon)^k$.\n\nThis problem is #12 in Ramsey Theory in the graphs problem collection.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«87»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/87](https://www.erdosproblems.com/87)",
+    "[Er95] Erdős, Paul, Some of my favourite problems in number theory, combinatorics, and geometry. Resenhas (1995), 165-186."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/87.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos87.erdos_87.parts.i",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0a9788b154f62827e3f385654a28a0da4a198e3578551b2c7cd83fd13d5024d0",
+  "type_pretty": "∀ ε > 0,\n  ε < 1 →\n    ∀ᶠ (k : ℕ) in Filter.atTop,\n      ∀ (V : Type) [inst : Fintype V] (G : SimpleGraph V),\n        G.chromaticNumber = ↑k → ↑G.diagonalGraphRamsey > (1 - ε) ^ k * ↑(SimpleGraph.diagonalRamsey k)"
+}

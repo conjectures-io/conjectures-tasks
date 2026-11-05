@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is there a covering system all of whose moduli are odd (and greater than 1)?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«7»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/7](https://www.erdosproblems.com/7)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/7.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos7.erdos_7",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:06deb4d7b6e0d917a9ce82dff18809190e8ce8aa06ecdbbe3dab87dfca5211dd",
+  "type_pretty": "∃ C, ∀ (i : C.ι), ¬C.moduli i ≤ Ideal.span {2} ∧ C.moduli i ≠ ⊤"
+}

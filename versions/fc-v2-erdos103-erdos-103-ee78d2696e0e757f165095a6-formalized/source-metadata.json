@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    52
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $h(n)$ count the number of incongruent sets of $n$ points in $\\mathbb{R}^2$ which minimise\nthe diameter subject to the constraint that $d(x,y)\\geq 1$ for all points $x\\neq y$. Is it true\nthat $h(n)\\to \\infty$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«103»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/103](https://www.erdosproblems.com/103)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/103.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos103.erdos_103",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:ff5080c6fe2b22abfd7d25719ee3e18128780fdb0e55b2dc54e8d0607ff964b4",
+  "type_pretty": "Filter.Tendsto Erdos103.h Filter.atTop (nhds ⊤)"
+}
