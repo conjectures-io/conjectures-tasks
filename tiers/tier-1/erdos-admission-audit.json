@@ -5073,7 +5073,7 @@
       "upstream_type_sha256": "4a449a6315ce1e5d6d611dbeab77103d73cfdf32486221e1062a9a396e81be78"
     },
     {
-      "decision": "eligible",
+      "decision": "withdrawn",
       "number": 21,
       "original_blockers": [],
       "parent_problem_status": "proved (Lean)",
@@ -5083,7 +5083,7 @@
         "https://www.erdosproblems.com/21",
         "https://www.erdosproblems.com/forum/thread/21"
       ],
-      "review_note": "Compiled proposition/docstring reviewed for quantifiers, domains, positivity, asymptotic regime, and stated part/variant. No full-resolution conflict identified in the bounded source/PR screen.",
+      "review_note": "Compiled proposition/docstring reviewed for quantifiers, domains, positivity, asymptotic regime, and stated part/variant. No full-resolution conflict identified in the bounded source/PR screen. Withdrawn by the pool owner on 2026-11-05 after a report of solved status; no independent exact-target proof certification is asserted.",
       "source_path": "FormalConjectures/ErdosProblems/21.lean",
       "target_source_status": "open",
       "theorem": "Erdos21.erdos_21.variants.three_n",
@@ -5326,7 +5326,7 @@
       "upstream_type_sha256": "f23f20b65d71f9dd275956d4de7224b81ba83913eac95981d827c12cfb86601b"
     },
     {
-      "decision": "eligible",
+      "decision": "withdrawn",
       "number": 111,
       "original_blockers": [],
       "parent_problem_status": "open",
@@ -5336,7 +5336,7 @@
         "https://www.erdosproblems.com/111",
         "https://www.erdosproblems.com/forum/thread/111"
       ],
-      "review_note": "Compiled proposition/docstring reviewed for quantifiers, domains, positivity, asymptotic regime, and stated part/variant. No full-resolution conflict identified in the bounded source/PR screen.",
+      "review_note": "Compiled proposition/docstring reviewed for quantifiers, domains, positivity, asymptotic regime, and stated part/variant. No full-resolution conflict identified in the bounded source/PR screen. Withdrawn by the pool owner on 2026-11-05 after a report of solved status; no independent exact-target proof certification is asserted.",
       "source_path": "FormalConjectures/ErdosProblems/111.lean",
       "target_source_status": "open",
       "theorem": "Erdos111.erdos_111",
