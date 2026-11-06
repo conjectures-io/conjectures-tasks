@@ -575,21 +575,6 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
-        "compact-formal-target"
-      ],
-      "open_prs_touching_source": [
-        6635
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/111.lean",
-      "source_problem_number": 111,
-      "source_status": "open",
-      "theorem": "Erdos111.erdos_111",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -1136,21 +1121,6 @@
       "source_problem_number": 208,
       "source_status": "open",
       "theorem": "Erdos208.erdos_208.variants.log_bound",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target"
-      ],
-      "open_prs_touching_source": [
-        7631
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/21.lean",
-      "source_problem_number": 21,
-      "source_status": "open",
-      "theorem": "Erdos21.erdos_21.variants.three_n",
       "upstream_status": "research open"
     },
     {

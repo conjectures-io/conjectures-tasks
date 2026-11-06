@@ -485,6 +485,79 @@
     {
       "decision_url": null,
       "pool_status": "retired",
+      "reason": "Withdrawn at the pool owner’s request after a report that Erdős 21 and 111 are solved. This withdrawal does not independently certify a proof of the exact selected target.",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "4460a52f12ec11fdc0bab05915779ed94669fa5b",
+      "retired_on": "2026-11-05",
+      "reward_target_id": "fc-target:Erdos111.erdos_111",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "**Erdős Problem 111** (Erdős, Hajnal, Szemerédi [EHS82]):\n\nIf $G$ is a graph with chromatic number $\\aleph_1$, is it true that $h_G(n)/n \\to \\infty$?\n\nFormally: for every graph $G$ (on a type $V$) with chromatic cardinal $\\aleph_1$, the ratio\n$h_G(n)/n$ tends to infinity: for every constant $C$, all sufficiently large $n$ satisfy\n$h_G(n) > C \\cdot n$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«111»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/111](https://www.erdosproblems.com/111)",
+          "[Er81] Erdős, P., On the combinatorial problems which I would most like to see solved. (1981)",
+          "[EHS82] Erdős, P., Hajnal, A., and Szemerédi, E., On almost bipartite large chromatic graphs. Theory and practice of combinatorics (1982), 117–123.",
+          "[Er87] Erdős, P., Some problems on finite and infinite graphs. (1987)",
+          "[Er90] Erdős, P., Some of my favourite unsolved problems. (1990)",
+          "[Er97d] Erdős, P., Some recent problems and results in graph theory. (1997)",
+          "[Er97f] Erdős, P., Some unsolved problems. (1997)"
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/111.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos111.erdos_111",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:5c32b51c218ebe6b95623e5131e8c27b5dcbc626bc2bf7dce29f371ed3a113f5",
+        "type_pretty": "∀ (V : Type) (G : SimpleGraph V),\n  G.chromaticCardinal = Cardinal.aleph 1 → Filter.Tendsto (fun n => ↑(Erdos111.hG G n) / ↑n) Filter.atTop Filter.atTop"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«111»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos111.erdos_111\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-17acb876-erdos111-erdos-111-45ca911a131a3437ce20e66e427dab1a-problem",
+          "target_type_sha256": "sha256:5c32b51c218ebe6b95623e5131e8c27b5dcbc626bc2bf7dce29f371ed3a113f5",
+          "task_bundle_sha256": "sha256:a7a03fc15511c81cd4e76be3e02d57d443143c760e953d435f3d94577accc268",
+          "task_id": "fc-v2-erdos111-erdos-111-89bf0a1f21464a8bb5556a05-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«111»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos111.erdos_111\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-17acb876-erdos111-erdos-111-45ca911a131a3437ce20e66e427dab1a-problem",
+          "target_type_sha256": "sha256:261ebdbc0a0006b8cd4baeb1e68c3cee90ac5117ed4d1fcbe3258511113453e4",
+          "task_bundle_sha256": "sha256:b2a85f65c37910c1e20a3c01a9a60eef6d98d8b2dba269abaa81cb98a1cb3e65",
+          "task_id": "fc-v2-erdos111-erdos-111-92c9d87bbfef63fd8c6dc59a-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos111.erdos_111"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "RETIRE_SETTLED (The September 2026 proof gives f(n) ≫ sqrt(n), which implies f(n)/log(n) tends to infinity. The tracker records PROVED (LEAN). This settles the main target only; the separate isLittleO upper bound remains.)",
       "reason_code": "RETIRE_SETTLED",
       "recovered_from_commit": "2c58372287d78fe8f526991df7f6f30441ebd94d",
@@ -903,6 +976,82 @@
       ],
       "theorem": "Erdos184.erdos_184",
       "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
+      "reason": "Withdrawn at the pool owner’s request after a report that Erdős 21 and 111 are solved. This withdrawal does not independently certify a proof of the exact selected target.",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "4460a52f12ec11fdc0bab05915779ed94669fa5b",
+      "retired_on": "2026-11-05",
+      "reward_target_id": "fc-target:Erdos21.erdos_21.variants.three_n",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          5
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "It has been speculated (see e.g. [Ka94]) that the correct answer is $3n+O(1)$. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«21»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/21](https://www.erdosproblems.com/21)",
+          "[Er81] Erdős, P., *On the combinatorial problems which I would most like to see solved*. Combinatorica (1981), 25-42.",
+          "[Er90] Erdős, Paul, *Some of my favourite unsolved problems*. A tribute to Paul Erdős (1990), 467-478.",
+          "[Er92b] Erdős, Paul, *Some of my favourite problems in various branches of combinatorics*. Matematiche (Catania) (1992), 231-240.",
+          "[Er97f] Erdős, Paul, *Some unsolved problems*. Combinatorics, geometry and probability (Cambridge, 1993) (1997), 1-10.",
+          "[ErLo75] Erdős, P. and Lovász, L., *Problems and results on $3$-chromatic hypergraphs and some related questions*. (1975), 609--627.",
+          "[Ka92b] Kahn, Jeff, *On a problem of Erdős and Lovász: random lines in a projective plane*. Combinatorica (1992), 417-423.",
+          "[Ka94] Kahn, Jeff, *On a problem of Erdős and Lovász. II. $n(r)=O(r)$*. J. Amer. Math. Soc. (1994), 125-143.",
+          "[Tr14] A. Tripathi, *A result on intersecting families with maximum transversal size*. arXiv:1409.4610 (2014).",
+          "[BaWa21] J. Barát and I. M. Wanless, *Intersecting and 2-intersecting hypergraphs with maximal covering number: the Erdős-Lovász theme revisited*. J. Combin. Des. (2021), 260-286."
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/21.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos21.erdos_21.variants.three_n",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:4ab16646ce5507a494e1e08152192dd2a518b1c2d092e001104d2fa9fd1630e6",
+        "type_pretty": "∃ C, ∀ᶠ (n : ℕ) in Filter.atTop, Erdos21.f n ≤ 3 * n + C ∧ 3 * n ≤ Erdos21.f n + C"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«21»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos21.erdos_21.variants.three_n\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-17acb876-variants-three-n-d18f501c3563d4a67b26303719e2e399-problem",
+          "target_type_sha256": "sha256:4ab16646ce5507a494e1e08152192dd2a518b1c2d092e001104d2fa9fd1630e6",
+          "task_bundle_sha256": "sha256:ee27c1703190e0a41d38b5b9100087278895bd78c9b1782c8ca8bdc00da26780",
+          "task_id": "fc-v2-variants-three-n-1317e92b5821461f3bfe294f-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«21»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos21.erdos_21.variants.three_n\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-17acb876-variants-three-n-d18f501c3563d4a67b26303719e2e399-problem",
+          "target_type_sha256": "sha256:44836987074fcfb1ac3b16feef71259a05ee84806fa05228c97966cdba088895",
+          "task_bundle_sha256": "sha256:b2794a616ce72d9e67ab9a05598aa232d0e699785d924549eeb0de0ece52726f",
+          "task_id": "fc-v2-variants-three-n-a1b5f6dcd8943a81cc4ea174-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos21.erdos_21.variants.three_n"
     },
     {
       "decision_url": null,

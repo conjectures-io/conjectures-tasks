@@ -204,6 +204,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
       "sequence": 9
+    },
+    {
+      "allowlist_sha256": "sha256:d2aa297c8061c4dc9b3da39e15f41e8d6d70b65e54e65723105c395a7764cc97",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
+      "sequence": 10
     }
   ],
   "schema_version": 1,
@@ -17061,7 +17067,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos111.erdos_111",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:a7a03fc15511c81cd4e76be3e02d57d443143c760e953d435f3d94577accc268",
       "task_id": "fc-v2-erdos111-erdos-111-89bf0a1f21464a8bb5556a05-formalized",
       "theorems": [
@@ -17092,7 +17098,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos111.erdos_111",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:b2a85f65c37910c1e20a3c01a9a60eef6d98d8b2dba269abaa81cb98a1cb3e65",
       "task_id": "fc-v2-erdos111-erdos-111-92c9d87bbfef63fd8c6dc59a-counterexample",
       "theorems": [
@@ -61235,7 +61241,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos21.erdos_21.variants.three_n",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:ee27c1703190e0a41d38b5b9100087278895bd78c9b1782c8ca8bdc00da26780",
       "task_id": "fc-v2-variants-three-n-1317e92b5821461f3bfe294f-formalized",
       "theorems": [
@@ -61266,7 +61272,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos21.erdos_21.variants.three_n",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:b2794a616ce72d9e67ab9a05598aa232d0e699785d924549eeb0de0ece52726f",
       "task_id": "fc-v2-variants-three-n-a1b5f6dcd8943a81cc4ea174-counterexample",
       "theorems": [

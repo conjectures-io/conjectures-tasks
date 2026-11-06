@@ -242,13 +242,6 @@
       "theorem": "Erdos1108.erdos_1108.parts.i"
     },
     {
-      "reward_target_id": "fc-target:Erdos111.erdos_111",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/111.lean",
-      "source_problem_number": 111,
-      "theorem": "Erdos111.erdos_111"
-    },
-    {
       "reward_target_id": "fc-target:Erdos1113.erdos_1113.variants.filaseta_finch_kozek",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/1113.lean",
@@ -464,13 +457,6 @@
       "source_path": "FormalConjectures/ErdosProblems/208.lean",
       "source_problem_number": 208,
       "theorem": "Erdos208.erdos_208.variants.log_bound"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos21.erdos_21.variants.three_n",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/21.lean",
-      "source_problem_number": 21,
-      "theorem": "Erdos21.erdos_21.variants.three_n"
     },
     {
       "reward_target_id": "fc-target:Erdos212.erdos_212",

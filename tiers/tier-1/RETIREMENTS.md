@@ -57,3 +57,7 @@
 - `Green9.green_9_iii` — 2026-09-30 — `WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)`
 
 - `Erdos456.erdos_456.parts.iii` — 2026-11-02 — `NOT_NOVEL` — NOT_NOVEL: David Turturean's September 2026 manuscript gives an unconditional proof of Erdos 456(iii), publicly documented on September 23 before this submission's November 2 acceptance. Review of Section 4 and Appendix D found no material gap. Policy v4 excludes a later independent proof or first Lean formalization of an already solved target. No plagiarism finding is made. [Decision](https://conjectures.io/results/a953a164-0fd7-4654-8486-e93deeae974b).
+
+- `Erdos111.erdos_111` — 2026-11-05 — `WITHDRAWN` — Withdrawn at the pool owner’s request after a report that Erdős 21 and 111 are solved. This withdrawal does not independently certify a proof of the exact selected target.
+
+- `Erdos21.erdos_21.variants.three_n` — 2026-11-05 — `WITHDRAWN` — Withdrawn at the pool owner’s request after a report that Erdős 21 and 111 are solved. This withdrawal does not independently certify a proof of the exact selected target.
