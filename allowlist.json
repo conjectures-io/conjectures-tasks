@@ -13847,7 +13847,7 @@
       "reward_target_count": 307,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:f525ea8cd0e5e4211c6ee56184061591906f361fcc2837915ba3a5fde68e9fb2",
+      "selection_audit_sha256": "sha256:35aae3579ec743f2ab3e9360f5da8e0138410ffaf56f93a83215d5a7fa026a7a",
       "source_category": "research open",
       "source_families": [
         "erdos",

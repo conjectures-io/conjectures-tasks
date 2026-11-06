@@ -206,7 +206,7 @@
       "sequence": 9
     },
     {
-      "allowlist_sha256": "sha256:d2aa297c8061c4dc9b3da39e15f41e8d6d70b65e54e65723105c395a7764cc97",
+      "allowlist_sha256": "sha256:156a68dbdf7dbf732b406c804760fa2680ee3a9425514992879ea9de21cd0f39",
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
       "sequence": 10
