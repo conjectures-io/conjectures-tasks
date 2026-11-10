@@ -2055,13 +2055,6 @@
       "theorem": "Math30Catalog.source26"
     },
     {
-      "reward_target_id": "fc-target:Math30Catalog.source27",
-      "source_family": "research-targets",
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "source_problem_number": "Math30",
-      "theorem": "Math30Catalog.source27"
-    },
-    {
       "reward_target_id": "fc-target:Math30Catalog.source28",
       "source_family": "research-targets",
       "source_path": "FormalConjectures/ResearchTargets/Math30.lean",

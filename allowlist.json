@@ -2052,13 +2052,6 @@
       "tier": "tier-1"
     },
     {
-      "index": 3784,
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "source_type_sha256": "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb",
-      "theorem": "Math30Catalog.source27",
-      "tier": "tier-1"
-    },
-    {
       "index": 3785,
       "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
       "source_type_sha256": "sha256:f082d84e174b8ecf4cc34a56d92a8654913aa2180b26ed6b6ab3ae86c6635c8a",
@@ -13288,44 +13281,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-17acb876-math30catalog-source27-4fb14d43bac409a28882385143fefb16-problem",
-      "reward_target_id": "fc-target:Math30Catalog.source27",
-      "source_indices": [
-        3784
-      ],
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "target_type_sha256s": [
-        "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb"
-      ],
-      "task_bundle_sha256": "sha256:6507b8eb1e265c78cbda53b564ffa9fcdf34a71d6f18dc03ad64e9207769ec9a",
-      "task_id": "fc-v2-math30catalog-source27-02a88056e221e72d2d6996e1-formalized",
-      "theorems": [
-        "Math30Catalog.source27"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-17acb876-math30catalog-source27-4fb14d43bac409a28882385143fefb16-problem",
-      "reward_target_id": "fc-target:Math30Catalog.source27",
-      "source_indices": [
-        3784
-      ],
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "target_type_sha256s": [
-        "sha256:47c23246141313c40b2add6e7cb6356faf2402bc30ae2ce90111534ddbef465a"
-      ],
-      "task_bundle_sha256": "sha256:abaf27ab53328f94932adcc8b3445003259d51c23600c755ddec64d6b86f458e",
-      "task_id": "fc-v2-math30catalog-source27-52cdb228b70424c595bfddd1-counterexample",
-      "theorems": [
-        "Math30Catalog.source27"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-17acb876-math30catalog-source28-7d3ef99c706ad345303efe0595cc2cab-problem",
       "reward_target_id": "fc-target:Math30Catalog.source28",
       "source_indices": [
@@ -13841,13 +13796,13 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 614,
-      "retired_conjectures_sha256": "sha256:eb0797343d874a0c7f78aa6014ab29321742ac8aaf3219899564e0dd0140686c",
-      "retired_source_theorems_sha256": "sha256:f120d97c790b937637515f1d25ca92a57bfd636fe1b3ebefb70a5916a8822c80",
-      "reward_target_count": 307,
+      "pool_size": 612,
+      "retired_conjectures_sha256": "sha256:5879cc23831da5de5204942a4d54af239b0d11fa920081813472e81a21b52dbb",
+      "retired_source_theorems_sha256": "sha256:6fdc3ba00317ff3cbea1c34df70eec12b0d5097aff9ab8f7e570d91da04efd80",
+      "reward_target_count": 306,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:35aae3579ec743f2ab3e9360f5da8e0138410ffaf56f93a83215d5a7fa026a7a",
+      "selection_audit_sha256": "sha256:a162d639b3a06ec36adba217a935f0f7ab3670fc679215486e6472484306090b",
       "source_category": "research open",
       "source_families": [
         "erdos",
@@ -13857,14 +13812,14 @@
         "research-targets",
         "wikipedia"
       ],
-      "source_theorem_count": 307,
+      "source_theorem_count": 306,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:4addd60b7b5631f5e1def64645ba7e3e158a91bab59b0247df60ca6fb425c8af"
+      "task_targets_sha256": "sha256:3f328f8d27083ecdafd6d53a54b06472ea768217d7a4180c2a2e183732c35e0b"
     }
   }
 }

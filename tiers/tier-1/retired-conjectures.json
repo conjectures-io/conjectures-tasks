@@ -4287,6 +4287,68 @@
       ],
       "theorem": "Math30Catalog.source22",
       "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://conjectures.io/results/058f3a08-542b-4ece-8888-63ea0bfc887b",
+      "pool_status": "retired",
+      "reason": "Tang and Wang published the strict Dirichlet Pólya inequality for all bounded simply connected planar domains and every positive index on October 9, 2026. This includes the bounded convex domains covered by this target. The proof predates the November 9 submission. See https://arxiv.org/html/2610.13139v1.",
+      "reason_code": "NOT_NOVEL",
+      "recovered_from_commit": "f2d5f0c0acd4c8d829c6a853a6086dbba3f85a3f",
+      "retired_on": "2026-11-10",
+      "reward_target_id": "fc-target:Math30Catalog.source27",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Incomplete challenge 27: All positive-index Dirichlet Polya inequalities on convex planar domains. Source: https://arxiv.org/html/2410.04769v2 ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ResearchTargets.Math30",
+        "pointer_target": null,
+        "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Math30Catalog.source27",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb",
+        "type_pretty": "Math30.Polya.Target27"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ResearchTargets.Math30\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Math30Catalog.source27\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-17acb876-math30catalog-source27-4fb14d43bac409a28882385143fefb16-problem",
+          "target_type_sha256": "sha256:161e5363b40529175fe04d51c47d4a6bad0aa52c5258fb1f5dde3e74d78fa4bb",
+          "task_bundle_sha256": "sha256:6507b8eb1e265c78cbda53b564ffa9fcdf34a71d6f18dc03ad64e9207769ec9a",
+          "task_id": "fc-v2-math30catalog-source27-02a88056e221e72d2d6996e1-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ResearchTargets.Math30\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Math30Catalog.source27\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-17acb876-math30catalog-source27-4fb14d43bac409a28882385143fefb16-problem",
+          "target_type_sha256": "sha256:47c23246141313c40b2add6e7cb6356faf2402bc30ae2ce90111534ddbef465a",
+          "task_bundle_sha256": "sha256:abaf27ab53328f94932adcc8b3445003259d51c23600c755ddec64d6b86f458e",
+          "task_id": "fc-v2-math30catalog-source27-52cdb228b70424c595bfddd1-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Math30Catalog.source27"
     }
   ],
   "schema_version": 1
