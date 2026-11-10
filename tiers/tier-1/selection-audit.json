@@ -5081,19 +5081,6 @@
       "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
       "source_problem_number": "Math30",
       "source_status": "open",
-      "theorem": "Math30Catalog.source27",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "partial-results-in-source"
-      ],
-      "open_prs_touching_source": [],
-      "source_family": "research-targets",
-      "source_path": "FormalConjectures/ResearchTargets/Math30.lean",
-      "source_problem_number": "Math30",
-      "source_status": "open",
       "theorem": "Math30Catalog.source28",
       "upstream_status": "research open"
     },
@@ -5290,5 +5277,5 @@
       "revision": "f732f6939640c944595346258c918ce929f59af8372a53c80cd3c58202fa180b"
     }
   ],
-  "target_status_audit_sha256": "sha256:1fe3264e1e496f849d1650f95b3aab4beedf778431314adfcf93eeb88b03ada0"
+  "target_status_audit_sha256": "sha256:415c5fd6c01eac52b0db5faba8ab7c1a5585c33271d4e32f86d5c5f6afdfa378"
 }
