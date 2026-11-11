@@ -1,0 +1,45 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $p$ be a prime and $$A_p = \\{ k! \\pmod{p} : 1\\leq k<p\\}.$$ Is it true that $$\\lvert A_p\\rvert \\sim (1-\\tfrac{1}{e})p?$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«478»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/478](https://www.erdosproblems.com/478)",
+    "[AnTa16] V. Andrejić and M. Tatarevic, *On distinct residues of factorials*. arXiv:1603.04086 (2016).",
+    "[GSSV24] Grebennikov, Alexandr and Sagdeev, Arsenii and Semchankau, Aliaksei and Vasilevskii, Aliaksei, *On the sequence {$n! \\bmod p$}*. Rev. Mat. Iberoam. (2024), 637--648.",
+    "[Gu04] Guy, Richard K., *Unsolved problems in number theory*. (2004), xviii+437.",
+    "[KlMu17] Klurman, Oleksiy and Munsch, Marc, *Distribution of factorials modulo {$p$}*. J. Théor. Nombres Bordeaux (2017), 169--177.",
+    "[RoSc60] Rokowska, B. and Schinzel, A., *Sur un problème de {M}. {E}rdős*. Elem. Math. (1960), 84--85.",
+    "[Tr13] T. Trudgian, *There are no socialist primes less than $10^9$*. arXiv:1310.6403 (2013)."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/478.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos478.erdos_478",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:33f7d8edb009f6455adccc836caf71c98814c5f34b9fb1fb6353e82cffb2dfd2",
+  "type_pretty": "Filter.Tendsto (fun p => ↑(Finset.image (fun k => k.factorial % p) (Finset.Ico 1 p)).card / ↑p)\n  (Filter.atTop ⊓ Filter.principal {p | Nat.Prime p}) (nhds (1 - 1 / Real.exp 1))"
+}

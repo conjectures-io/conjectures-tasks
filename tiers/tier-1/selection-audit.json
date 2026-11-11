@@ -1,5 +1,5 @@
 {
-  "audit_date_utc": "2026-11-04",
+  "audit_date_utc": "2026-11-11",
   "github_open_pr_count": 359,
   "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
   "schema_version": 3,
@@ -928,6 +928,21 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        6816
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/151.lean",
+      "source_problem_number": 151,
+      "source_status": "open",
+      "theorem": "Erdos151.erdos_151",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -1000,6 +1015,22 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        3588,
+        7494
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/159.lean",
+      "source_problem_number": 159,
+      "source_status": "open",
+      "theorem": "Erdos159.erdos_159",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -1032,6 +1063,21 @@
       "source_problem_number": 17,
       "source_status": "open",
       "theorem": "Erdos17.erdos_17",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        7494
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/173.lean",
+      "source_problem_number": 173,
+      "source_status": "open",
+      "theorem": "Erdos173.erdos_173",
       "upstream_status": "research open"
     },
     {
@@ -1649,6 +1695,21 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        4198
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/295.lean",
+      "source_problem_number": 295,
+      "source_status": "open",
+      "theorem": "Erdos295.erdos_295",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -1682,6 +1743,21 @@
       "source_problem_number": 307,
       "source_status": "verifiable",
       "theorem": "Erdos307.erdos_307",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        6855
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/311.lean",
+      "source_problem_number": 311,
+      "source_status": "open",
+      "theorem": "Erdos311.erdos_311",
       "upstream_status": "research open"
     },
     {
@@ -1736,6 +1812,19 @@
       "source_problem_number": 32,
       "source_status": "open",
       "theorem": "Erdos32.erdos_32",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/322.lean",
+      "source_problem_number": 322,
+      "source_status": "open",
+      "theorem": "Erdos322.erdos_322",
       "upstream_status": "research open"
     },
     {
@@ -1866,6 +1955,21 @@
       "source_problem_number": 340,
       "source_status": "open",
       "theorem": "Erdos340.erdos_340.variants.sub_hasPosDensity",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        7494
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/345.lean",
+      "source_problem_number": 345,
+      "source_status": "open",
+      "theorem": "Erdos345.erdos_345",
       "upstream_status": "research open"
     },
     {
@@ -2233,6 +2337,34 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/388.lean",
+      "source_problem_number": 388,
+      "source_status": "open",
+      "theorem": "Erdos388.erdos_388",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        4198
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/389.lean",
+      "source_problem_number": 389,
+      "source_status": "open",
+      "theorem": "Erdos389.erdos_389",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "discrete-domain",
         "standard-mathlib-surface"
@@ -2246,6 +2378,22 @@
       "source_problem_number": 39,
       "source_status": "open",
       "theorem": "Erdos39.erdos_39",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        6935,
+        7494
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/393.lean",
+      "source_problem_number": 393,
+      "source_status": "open",
+      "theorem": "Erdos393.erdos_393",
       "upstream_status": "research open"
     },
     {
@@ -2446,6 +2594,37 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        4198
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/422.lean",
+      "source_problem_number": 422,
+      "source_status": "open",
+      "theorem": "Erdos422.erdos_422",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        7622,
+        7668
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/423.lean",
+      "source_problem_number": 423,
+      "source_status": "open",
+      "theorem": "Erdos423.erdos_423",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -2458,6 +2637,19 @@
       "source_problem_number": 428,
       "source_status": "open",
       "theorem": "Erdos428.erdos_428",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/430.lean",
+      "source_problem_number": 430,
+      "source_status": "open",
+      "theorem": "Erdos430.erdos_430",
       "upstream_status": "research open"
     },
     {
@@ -2558,6 +2750,32 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/461.lean",
+      "source_problem_number": 461,
+      "source_status": "open",
+      "theorem": "Erdos461.erdos_461",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/462.lean",
+      "source_problem_number": 462,
+      "source_status": "open",
+      "theorem": "Erdos462.erdos_462",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -2575,6 +2793,47 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/467.lean",
+      "source_problem_number": 467,
+      "source_status": "open",
+      "theorem": "Erdos467.erdos_467",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        7030
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/472.lean",
+      "source_problem_number": 472,
+      "source_status": "open",
+      "theorem": "Erdos472.erdos_472",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/478.lean",
+      "source_problem_number": 478,
+      "source_status": "open",
+      "theorem": "Erdos478.erdos_478",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -2587,6 +2846,21 @@
       "source_problem_number": 479,
       "source_status": "open",
       "theorem": "Erdos479.erdos_479",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        3588
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/483.lean",
+      "source_problem_number": 483,
+      "source_status": "open",
+      "theorem": "Erdos483.erdos_483",
       "upstream_status": "research open"
     },
     {
@@ -2746,6 +3020,21 @@
       "source_problem_number": 535,
       "source_status": "open",
       "theorem": "Erdos535.erdos_535.variants.first_open_case",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "compact-formal-target"
+      ],
+      "open_prs_touching_source": [
+        7494
+      ],
+      "source_family": "erdos",
+      "source_path": "FormalConjectures/ErdosProblems/545.lean",
+      "source_problem_number": 545,
+      "source_status": "open",
+      "theorem": "Erdos545.erdos_545",
       "upstream_status": "research open"
     },
     {
@@ -5277,5 +5566,5 @@
       "revision": "f732f6939640c944595346258c918ce929f59af8372a53c80cd3c58202fa180b"
     }
   ],
-  "target_status_audit_sha256": "sha256:415c5fd6c01eac52b0db5faba8ab7c1a5585c33271d4e32f86d5c5f6afdfa378"
+  "target_status_audit_sha256": "sha256:edb86d7e8bb7a7a2521a3779327b4389ab12265cd6f6d19847897135c0f30d39"
 }

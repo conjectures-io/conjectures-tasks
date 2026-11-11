@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Is it true that for every $n \\geq 1$ there is a $k$ such that\n$$\n  n(n + 1) \\cdots (n + k - 1) \\mid (n + k) \\cdots (n + 2k - 1)?\n$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«389»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/389](https://www.erdosproblems.com/389)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/389.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos389.erdos_389",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:78b18b4d5320ca25a82c1c986a77eea8ef5236d3a7dd8c87781767d8d86548ad",
+  "type_pretty": "∀ n ≥ 1, ∃ k ≥ 1, ∏ i ∈ Finset.range k, (n + i) ∣ ∏ i ∈ Finset.range k, (n + k + i)"
+}

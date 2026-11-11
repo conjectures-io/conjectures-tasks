@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $m$ be sufficiently large and let $G$ be a graph with $m$ edges and no isolated vertices.\nIs the Ramsey number $R(G)$ maximised when $G$ is 'as complete as possible'?\nThat is, if $m=\\binom{n}{2}+t$ edges with $0\\leq t < n$\nthen is\n$$R(G)\\leq R(H),$$\nwhere $H$ is the graph formed by connecting a new vertex to $t$ of the vertices of $K_n$?\n\nA question of Erdős and Graham. The restriction to sufficiently large $m$ excludes the\nsmall counterexamples recorded on the source page.\n\nThis problem is #10 in Ramsey Theory in the graphs problem collection.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«545»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/545](https://www.erdosproblems.com/545)",
+    "[ErGr75] Erdős, P. and Graham, R. L., On partition theorems for finite graphs. Infinite and finite sets (1975), 515-527.",
+    "[Er84b] Erdős, P., On some problems in graph theory, combinatorial analysis and combinatorial number theory. Graph theory and combinatorics (Cambridge, 1983) (1984), 1-17."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/545.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos545.erdos_545",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:f4668f45e27b8fc8ca56dd5cf7a8c05a66a5a00f9420f7a3d2f66d27e5d0f04f",
+  "type_pretty": "∀ᶠ (m : ℕ) in Filter.atTop,\n  ∀ (n t : ℕ),\n    t < n →\n      m = n.choose 2 + t →\n        ∀ (V : Type) [inst : Fintype V] (G : SimpleGraph V) [inst_1 : DecidableRel G.Adj],\n          (∀ (v : V), 0 < G.degree v) →\n            G.edgeSet.ncard = m → G.diagonalGraphRamsey ≤ (Erdos545.knPlusTEdges n t).diagonalGraphRamsey"
+}

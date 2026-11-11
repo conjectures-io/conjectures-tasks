@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "There exists some constant $c>0$ such that\n$$R(C_4,K_n) \\ll n^{2-c}.$$\n\nThe prize of $100 is offered in [Er78] for a proof or disproof.\n\nThis problem is #17 in Ramsey Theory in the graphs problem collection.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«159»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/159](https://www.erdosproblems.com/159)",
+    "[Er78] Erdős, P., Problems and results in combinatorial analysis and combinatorial number theory. Proc. Ninth Southeastern Conf. Combinatorics, Graph Theory and Computing (1978), 29-40.",
+    "[Sp77] Spencer, J., Asymptotic lower bounds for Ramsey functions. Discrete Math. (1977), 69-76."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/159.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos159.erdos_159",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:60360e852c591068857b32f45153f70b35b17971268b92cc2b0bed5fbda12ac1",
+  "type_pretty": "∃ c,\n  ∃ (_ : 0 < c),\n    ∃ C,\n      ∀ (n : ℕ),\n        1 ≤ n → ↑((SimpleGraph.cycleGraph 4).graphRamsey (SimpleGraph.completeGraph (Fin n))) ≤ C * ↑n ^ (2 - c)"
+}

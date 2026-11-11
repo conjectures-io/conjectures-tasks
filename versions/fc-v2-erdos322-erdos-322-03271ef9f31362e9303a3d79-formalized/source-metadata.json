@@ -1,0 +1,43 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $k\\geq 3$ and $A\\subset \\mathbb{N}$ be the set of $k$th powers. What is the order of growth of $1_A^{(k)}(n)$, i.e. the number of representations of $n$ as the sum of $k$ many $k$th powers? Does there exist some $c>0$ and infinitely many $n$ such that $$1_A^{(k)}(n) >n^c?$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«322»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/322](https://www.erdosproblems.com/322)",
+    "[Er36] Erdős, Paul, *On the Representation of an Integer as the Sum of k k-th Powers*. J. London Math. Soc. (1936), 133-136.",
+    "[Er65b] Erdős, Paul, *Some recent advances and current problems in number theory*. Lectures on Modern Mathematics, Vol. III (1965), 196-244.",
+    "[Gu04] Guy, Richard K., *Unsolved problems in number theory*. (2004), xviii+437.",
+    "[Ma36] Mahler, Kurt, *Note on Hypothesis K of Hardy and Littlewood*. J. London Math. Soc. (1936), 136-138."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/322.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos322.erdos_322",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:56cc42f7c8336a2c7026adc3213cbe5ae061869c2e96473e799cb9270e990fef",
+  "type_pretty": "∀ (k : ℕ), 3 ≤ k → ∃ c > 0, {n | ↑n ^ c < ↑(Erdos322.representationCount k n)}.Infinite"
+}

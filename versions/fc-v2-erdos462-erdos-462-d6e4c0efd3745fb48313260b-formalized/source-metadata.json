@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $p(n)$ denote the least prime factor of $n$. Is there a constant $C>0$ such that\n$$\\sum_{x\\leq n\\leq x+C\\sqrt{x}(\\log x)^2}\\frac{p(n)}{n}\\gg 1$$\nfor all sufficiently large $x$?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«462»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/462](https://www.erdosproblems.com/462)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/462.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos462.erdos_462",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1",
+  "type_pretty": "∃ C c,\n  0 < C ∧ 0 < c ∧ ∀ᶠ (x : ℕ) in Filter.atTop, c ≤ ∑ n ∈ Finset.Icc x ⌊↑x + C * √↑x * Real.log ↑x ^ 2⌋₊, ↑n.minFac / ↑n"
+}

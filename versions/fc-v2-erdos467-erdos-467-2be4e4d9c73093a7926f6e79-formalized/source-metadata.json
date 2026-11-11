@@ -1,0 +1,39 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For every sufficiently large $x$, choose a congruence class $a_p\\pmod p$ for each prime $p\\leq x$.\nCan the primes be decomposed into two nonempty sets $A$ and $B$ such that every $n<x$ lies in a\nchosen class from $A$ and in a chosen class from $B$?\n\nThis follows the interpretation on the Erdős Problems website, which notes that the original\nsource omits some crucial quantifiers.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«467»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/467](https://www.erdosproblems.com/467)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/467.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos467.erdos_467",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9a5afb980d7966d9f601f59490df31bb4cc72ab09df07889e575011016cfe1c4",
+  "type_pretty": "∀ᶠ (x : ℕ) in Filter.atTop, ∃ residue A B, Erdos467.PrimePartitionUpTo x A B ∧ Erdos467.CongruenceCover x residue A B"
+}
