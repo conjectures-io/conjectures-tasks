@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $f(k)$ be the minimal $N$ such that if $\\{1,\\ldots,N\\}$ is $k$-coloured then\nthere is a monochromatic solution to $a+b=c$. Estimate $f(k)$. In particular, is it true\nthat $f(k) < c^k$ for some constant $c>0$?\n\nThe exponential bound is stated directly: for every positive number of colours, there is\na forcing interval of length strictly below $c^k$. This is equivalent to the bound on the\nleast forcing threshold and avoids choosing a default value for that threshold.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«483»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/483](https://www.erdosproblems.com/483)",
+    "[Er61] Erdős, Paul, *Some unsolved problems*. Magyar Tud. Akad. Mat. Kutató Int. Közl. (1961), 221-254, p.233, Problem 20."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/483.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos483.erdos_483",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:eaadb479fa1d84f73f93699c85e8b4353a0fddb0d8dfa9a33d358215e2a79912",
+  "type_pretty": "∃ C, 0 < C ∧ ∀ (k : ℕ), 0 < k → ∃ N, ↑N < C ^ k ∧ Erdos483.Forces k N"
+}

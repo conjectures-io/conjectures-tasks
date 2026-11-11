@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $s_t(n)$ be the $t$-smooth component of $n$ - that is, the product of all primes $p$ (with\nmultiplicity) dividing $n$ such that $p<t$. Let $f(n,t)$ count the number of distinct possible\nvalues for $s_t(m)$ for $m\\in [n+1,n+t]$. Is it true that\n$$f(n,t)\\gg t$$\n(uniformly, for all $t$ and $n$)?\n\nErdős and Graham report they can show\n$$f(n,t) \\gg \\frac{t}{\\log t}.$$\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«461»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/461](https://www.erdosproblems.com/461)",
+    "[ErGr80] Erdős, P. and Graham, R., *Old and new problems and results in combinatorial number theory*. Monographies de L'Enseignement Mathematique (1980)."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/461.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos461.erdos_461",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0b960bbb0b57641a804c11e503a46d3c84e2e270f56b55c155db1ddc0c3415ba",
+  "type_pretty": "∃ c, 0 < c ∧ ∀ (n t : ℕ), c * ↑t ≤ ↑(Erdos461.f n t)"
+}

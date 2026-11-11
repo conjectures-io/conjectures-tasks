@@ -1,0 +1,46 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Erdős Problem 423 [Er77c, p.71; ErGr80, p.83]:\n\nLet $a(1) = 1$, $a(2) = 2$, and for $k \\ge 3$ let $a(k)$ be the least integer greater\nthan $a(k-1)$ that is a sum of at least two consecutive terms of the sequence.\nWhat is the asymptotic behaviour of this sequence? It seems likely that $a_n = n + o(n)$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«423»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/423](https://www.erdosproblems.com/423)",
+    "[Er77c] Erdős, P., *Problems and results on combinatorial number theory. III*, Number theory day (Proc. Conf., Rockefeller Univ., New York, 1976), 1977, pp. 43–72.",
+    "[ErGr80] Erdős, P. and Graham, R., *Old and new problems and results in combinatorial number theory*, Monographies de L'Enseignement Mathématique (1980).",
+    "[Cu25] Cushman, A., *A Note on the Sum-Product Problem and the Convex Sumset Problem*. arXiv:2512.13849 (2025).",
+    "[Ta26] Tang, Q., *The Hofstadter consecutive-sum sequence omits infinitely many positive integers*. arXiv:2603.09939 (2026).",
+    "[Bolan] Bolan, M., *Hofstader–Ulam Sequence*, https://github.com/mjtb49/HofstaderUlam/blob/main/HofstaderUlamSequence.pdf",
+    "[OEIS A005243](https://oeis.org/A005243)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/423.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos423.erdos_423",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:e99ba372a74d97fd65d3302b3cbe3ff679b643749adb0a3b51bf533db63f7323",
+  "type_pretty": "∀ (a : ℕ → ℕ), Erdos423.IsHofstadterSeq a → (fun n => ↑(a n) - ↑n) =o[Filter.atTop] fun n => ↑n"
+}

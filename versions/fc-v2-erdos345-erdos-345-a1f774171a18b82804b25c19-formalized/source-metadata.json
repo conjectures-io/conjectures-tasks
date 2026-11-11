@@ -1,0 +1,42 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5,
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $A\\subseteq \\mathbb{N}$ be a complete sequence, and define the threshold of completeness\n$T(A)$ to be the least integer $m$ such that all $n\\geq m$ are in\n$$P(A) = \\left\\{\\sum_{n\\in B}n : B\\subseteq A\\textrm{ finite }\\right\\}$$\n(the existence of $T(A)$ is guaranteed by completeness).\n\nIs it true that there are infinitely many $k$ such that $T(n^k)>T(n^{k+1})$?\n\nHere $T(n^k)$ means the threshold of the positive $k$-th powers. Least-threshold witnesses\nensure that the thresholds exist. We restrict to $k\\geq 1$, since the zeroth powers form\n$\\{1\\}$, which is incomplete. Positive powers are complete [Ki17].\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«345»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/345](https://www.erdosproblems.com/345)",
+    "[ErGr80] Erdős, P. and Graham, R., *Old and new problems and results in combinatorial number theory*. Monographies de L'Enseignement Mathematique (1980), p. 55.",
+    "[Ki17] Kim, D., *On the largest integer that is not a sum of distinct positive nth powers*. Journal of Integer Sequences 20 (2017), Article 17.7.5. [arXiv:1610.02439](https://arxiv.org/abs/1610.02439)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/345.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos345.erdos_345",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0f1f06543ce32c9d4ef75a9e9beda83a5b7bf9af61cb2cb88e495252edf74a7d",
+  "type_pretty": "{k |\n    0 < k ∧\n      ∃ a b,\n        IsLeast (IsAddComplete.thresholds (Erdos345.kthPowers k)) a ∧\n          IsLeast (IsAddComplete.thresholds (Erdos345.kthPowers (k + 1))) b ∧ b < a}.Infinite"
+}

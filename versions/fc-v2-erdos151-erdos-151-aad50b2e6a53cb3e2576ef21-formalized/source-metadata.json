@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    5
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "For a graph $G$, let $\\tau(G)$ denote the minimal number of vertices that include at least one\nfrom each maximal clique of $G$ on at least two vertices. Let $H(n)$ be maximal such that every\ntriangle-free graph on $n$ vertices contains an independent set on $H(n)$ vertices.\n\nIf $G$ is a graph on $n$ vertices, is $\\tau(G)\\leq n-H(n)$?\n\nErdős remarked that this is perhaps completely wrongheaded [Er88].\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«151»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/151](https://www.erdosproblems.com/151)",
+    "[Er88] Erdős, P., *Problems and results in combinatorial analysis and graph theory*. Discrete Math. (1988), 81-92.",
+    "[EGT92] Erdős, P. and Gallai, T. and Tuza, Zs., *Covering the cliques of a graph with vertices*. Discrete Math. (1992), 279-289."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/151.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos151.erdos_151",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:8fe6fe1f34c475941fec16b696012279f56c5dbff94a1c1349a21048a017e61a",
+  "type_pretty": "∀ (n : ℕ) (G : SimpleGraph (Fin n)), Erdos151.cliqueTransversalNumber G ≤ n - Erdos151.H n"
+}

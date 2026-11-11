@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $\\delta(N)$ be the minimal non-zero value of $\\lvert 1-\\sum_{n\\in A}\\frac{1}{n}\\rvert$ as $A$\nranges over all subsets of $\\{1,\\ldots,N\\}$. Is it true that\n$$\\delta(N)=e^{-(c+o(1))N}$$\nfor some constant $c\\in (0,1)$?\n\nThe formulation in [ErGr80] has the additional condition that $A$ contains no $S$ with\n$\\sum_{n\\in S}\\frac{1}{n}=1$; Kovac (in the comments on the problem page) showed that the\nformulation above is equivalent. We state $\\delta(N)=e^{-(c+o(1))N}$ as\n$-\\log \\delta(N) / N \\to c$.\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«311»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/311](https://www.erdosproblems.com/311)",
+    "[ErGr80] P. Erdős and R. L. Graham, *Old and new problems and results in combinatorial number theory*. Monographies de L'Enseignement Mathématique (1980), p. 40."
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/311.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos311.erdos_311",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:abe6fdd0e3a7c30017ef0d318fa03fc47d6292023b2f55706483812dd7555e81",
+  "type_pretty": "∃ c ∈ Set.Ioo 0 1, Filter.Tendsto (fun N => -Real.log (Erdos311.delta N) / ↑N) Filter.atTop (nhds c)"
+}

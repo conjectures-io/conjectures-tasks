@@ -1,0 +1,38 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Let $f(1) = f(2) = 1$ and for $n > 2$\n$$\nf(n) = f(n - f(n - 1)) + f(n - f(n - 2)).\n$$\nDoes $f(n)$ miss infinitely many integers?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«422»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/422](https://www.erdosproblems.com/422)",
+    "[OEIS A005185](https://oeis.org/A005185)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/422.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos422.erdos_422",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:b9a8f308580e89d8fe02ffb3cc3ed52487d46cd258b95fd3b43588489913c2bf",
+  "type_pretty": "∀ (f : ℕ+ → ℕ+), Erdos422.IsHofstadterQ f → {n | ∀ (x : ℕ+), f x ≠ n}.Infinite"
+}

@@ -1,0 +1,37 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Given a finite sequence of primes $q_1<\\cdots<q_m$, extend it by taking $q_{n+1}$ to be the\nsmallest prime of the form $q_n+q_i-1$ for $n\\geq m$. Is there an initial sequence for which\nthis process continues forever?\n",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.ErdosProblems.«472»",
+  "pointer_target": null,
+  "references": [
+    "[erdosproblems.com/472](https://www.erdosproblems.com/472)"
+  ],
+  "source_path": "FormalConjectures/ErdosProblems/472.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "Erdos472.erdos_472",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx"
+  ],
+  "type_hash": "sha256:017e7aec7d11484ca73173cea388b2dbb2f8604642b29c14d940fa7bc8bee896",
+  "type_pretty": "∃ m q, Erdos472.UlamPrimeExtension m q"
+}
