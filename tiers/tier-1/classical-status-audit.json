@@ -456,6 +456,20 @@
       "number": 39,
       "source_path": "FormalConjectures/ErdosProblems/107.lean",
       "theorem": "Erdos107.erdos_107"
+    },
+    {
+      "audit_note": "Dirichlet GRH uses Mathlib analytic continuation, positive modulus, primitive characters, and the parity-correct trivial-zero exclusions. The conductor-one case agrees with RH; the upstream sanity theorem checks this. It is not the removed naive Dedekind-zeta statement. The recent quasi-RH proof scope gives 7/8, not the requested 1/2. No accepted full solution was identified in this bounded review. This is the Dirichlet part of the generalized-zeta theme of Hilbert #8, not the full number-field ERH.",
+      "checked_date": "2026-11-12",
+      "disposition": "retain_provisionally_open",
+      "external_sources": [
+        "https://github.com/google-deepmind/formal-conjectures/blob/a425ca3eb797fe927cb88c950565fdcbbbbada70/FormalConjectures/Millennium/RiemannHypothesis.lean",
+        "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/003.md",
+        "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html"
+      ],
+      "independent_status_review": "Primary upstream open statement and published partial-result scope checked 2026-11-12; not an exhaustive proof search or an independent second reviewer.",
+      "name": "Generalized Riemann hypothesis for Dirichlet L-functions",
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "theorem": "GRH.generalized_riemann_hypothesis"
     }
   ],
   "pr_review": {
@@ -518,5 +532,13 @@
   },
   "schema_version": 1,
   "scope": "36 new admissions only; status is a dated literature screen, not proof that no solution exists.",
+  "supplemental_admissions": [
+    {
+      "checked_date": "2026-11-12",
+      "production_type_sha256": "sha256:19f4c1959e1bdd118d84801a2fbdc6d73ba2a83678e3c90744dba7ee919bb57c",
+      "theorem": "GRH.generalized_riemann_hypothesis",
+      "upstream_commit": "a425ca3eb797fe927cb88c950565fdcbbbbada70"
+    }
+  ],
   "upstream_commit": "2f82a24192f64ac678557247e496b2381d3889a1"
 }

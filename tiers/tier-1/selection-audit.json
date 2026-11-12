@@ -1,5 +1,5 @@
 {
-  "audit_date_utc": "2026-11-04",
+  "audit_date_utc": "2026-11-12",
   "github_open_pr_count": 359,
   "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
   "schema_version": 3,
@@ -4599,6 +4599,19 @@
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [],
+      "source_family": "millennium",
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "source_problem_number": "RiemannHypothesis",
+      "source_status": "open",
+      "theorem": "GRH.generalized_riemann_hypothesis",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
       "source_family": "wikipedia",
       "source_path": "FormalConjectures/Wikipedia/GaussCircleProblem.lean",
       "source_problem_number": "GaussCircleProblem",
@@ -5259,12 +5272,12 @@
     {
       "family": "wikipedia",
       "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/classical-status-audit.json",
-      "revision": "d7f480071236d1688547a9c9e3201ccd6b8bc1962735f6f6358024d0908489ec"
+      "revision": "00227620db399eb1f57acc3e3996d65632c9cdcacd34b11609a13e0d5646ee8e"
     },
     {
       "family": "millennium",
       "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/classical-status-audit.json",
-      "revision": "d7f480071236d1688547a9c9e3201ccd6b8bc1962735f6f6358024d0908489ec"
+      "revision": "00227620db399eb1f57acc3e3996d65632c9cdcacd34b11609a13e0d5646ee8e"
     },
     {
       "family": "research-targets",
@@ -5277,5 +5290,5 @@
       "revision": "f732f6939640c944595346258c918ce929f59af8372a53c80cd3c58202fa180b"
     }
   ],
-  "target_status_audit_sha256": "sha256:415c5fd6c01eac52b0db5faba8ab7c1a5585c33271d4e32f86d5c5f6afdfa378"
+  "target_status_audit_sha256": "sha256:4a125469d63cb7e9acff693e3dcb28ea8c925b1e98cd69ae9a0e90b995078bb3"
 }

@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The **Generalized Riemann Hypothesis** asserts that all the non-trivial zeros of the\nDirichlet $L$-function $L(\\chi, s)$ of a primitive Dirichlet character $\\chi$ have real part\n$\\frac{1}{2}$. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": true,
+  "is_prop": true,
+  "module": "FormalConjectures.Millennium.RiemannHypothesis",
+  "pointer_target": null,
+  "references": [
+    "[The Clay Institute](https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf)",
+    "[Wikipedia: Riemann hypothesis](https://en.wikipedia.org/wiki/Riemann_hypothesis)",
+    "[Wikipedia: Generalized Riemann hypothesis](https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis)",
+    "[Wikipedia: Dedekind zeta function](https://en.wikipedia.org/wiki/Dedekind_zeta_function)",
+    "J. Neukirch, *Algebraic Number Theory*, Springer (Grundlehren 322), 1999, Chapter VII, §5.",
+    "D. A. Marcus, *Number Fields*, Springer (GTM 81), 1977, Chapter VII."
+  ],
+  "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "GRH.generalized_riemann_hypothesis",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:19f4c1959e1bdd118d84801a2fbdc6d73ba2a83678e3c90744dba7ee919bb57c",
+  "type_pretty": "∀ (q : ℕ) [inst : NeZero q] (χ : DirichletCharacter ℂ q),\n  χ.IsPrimitive → ∀ (s : ℂ), DirichletCharacter.LFunction χ s = 0 → s ∉ Int.cast '' GRH.trivialZeros χ → s.re = 1 / 2"
+}

@@ -216,6 +216,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
       "sequence": 11
+    },
+    {
+      "allowlist_sha256": "sha256:7aab5335f58e44032c86bbe989bab5fce71baf8cb961e77e45375e45663910de",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
+      "sequence": 12
     }
   ],
   "schema_version": 1,
@@ -39883,6 +39889,54 @@
       "task_id": "fc-v2-green47-green-47-e7065d1c45ae5ffa3c1f7473-formalized",
       "theorems": [
         "Green47.green_47"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "admissions": [
+        {
+          "build_provenance_sha256": "sha256:97f7f1c2a9fad88cd522c13e1f36fa6e46f1c8eb0cd7008358e48ea2e67ea485",
+          "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+          "first_publication": 12,
+          "problem_id": "fc-17acb876-grh-generalized-riemann-hypothesis-49f6cc468d2ac7c921508e87fddae1c9-problem",
+          "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf"
+        }
+      ],
+      "dependency_identity_sha256": "sha256:aef9c5d3bcb8a99caed3a7884d2f63b96e930ed18b29fdbb81233fe519d6ae1d",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "location": "versions/fc-v2-grh-generalized-riemann-hypothesis-24fd67a56cc7721f2c963305-formalized",
+      "mode": "formalized",
+      "provenance": "dependency-identity-v2",
+      "reward_target_id": "fc-target:GRH.generalized_riemann_hypothesis",
+      "state": "active",
+      "task_bundle_sha256": "sha256:1086b9a356a4c4064f243f601ec8d77391f22729fa5f2e42b8f3da8a57ac1701",
+      "task_id": "fc-v2-grh-generalized-riemann-hypothesis-24fd67a56cc7721f2c963305-formalized",
+      "theorems": [
+        "GRH.generalized_riemann_hypothesis"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "admissions": [
+        {
+          "build_provenance_sha256": "sha256:97f7f1c2a9fad88cd522c13e1f36fa6e46f1c8eb0cd7008358e48ea2e67ea485",
+          "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+          "first_publication": 12,
+          "problem_id": "fc-17acb876-grh-generalized-riemann-hypothesis-49f6cc468d2ac7c921508e87fddae1c9-problem",
+          "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf"
+        }
+      ],
+      "dependency_identity_sha256": "sha256:aef9c5d3bcb8a99caed3a7884d2f63b96e930ed18b29fdbb81233fe519d6ae1d",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "location": "versions/fc-v2-grh-generalized-riemann-hypothesis-7e66e2f7d3df6215f1379d93-counterexample",
+      "mode": "counterexample",
+      "provenance": "dependency-identity-v2",
+      "reward_target_id": "fc-target:GRH.generalized_riemann_hypothesis",
+      "state": "active",
+      "task_bundle_sha256": "sha256:cb45df34fc1375234a6a63b697746b269d8a9c88f55a377c1220736688b4e14c",
+      "task_id": "fc-v2-grh-generalized-riemann-hypothesis-7e66e2f7d3df6215f1379d93-counterexample",
+      "theorems": [
+        "GRH.generalized_riemann_hypothesis"
       ],
       "tier": "tier-1"
     },

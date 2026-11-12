@@ -1,5 +1,6 @@
 {
   "audit_date_utc": "2026-11-04",
+  "named_admission_date_utc": "2026-11-12",
   "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
   "retained_selection": [
     {
@@ -5329,6 +5330,25 @@
       "theorem": "Erdos111.erdos_111",
       "type_pretty": "∀ (V : Type) (G : SimpleGraph V),\n  G.chromaticCardinal = Cardinal.aleph 1 → Filter.Tendsto (fun n => ↑(Erdos111.hG G n) / ↑n) Filter.atTop Filter.atTop",
       "upstream_type_sha256": "5c32b51c218ebe6b95623e5131e8c27b5dcbc626bc2bf7dce29f371ed3a113f5"
+    },
+    {
+      "checked_date": "2026-11-12",
+      "checked_upstream_commit": "a425ca3eb797fe927cb88c950565fdcbbbbada70",
+      "decision": "eligible",
+      "hilbert_number": 8,
+      "number": "RiemannHypothesis",
+      "production_type_sha256": "sha256:19f4c1959e1bdd118d84801a2fbdc6d73ba2a83678e3c90744dba7ee919bb57c",
+      "references": [
+        "https://github.com/google-deepmind/formal-conjectures/blob/a425ca3eb797fe927cb88c950565fdcbbbbada70/FormalConjectures/Millennium/RiemannHypothesis.lean",
+        "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/003.md",
+        "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html"
+      ],
+      "review_note": "Dirichlet GRH uses Mathlib analytic continuation, positive modulus, primitive characters, and the parity-correct trivial-zero exclusions. The conductor-one case agrees with RH; the upstream sanity theorem checks this. It is not the removed naive Dedekind-zeta statement. The recent quasi-RH proof scope gives 7/8, not the requested 1/2. No accepted full solution was identified in this bounded review. This is the Dirichlet part of the generalized-zeta theme of Hilbert #8, not the full number-field ERH.",
+      "scope": "Dirichlet generalized Riemann hypothesis",
+      "source_family": "millennium",
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "target_source_status": "open",
+      "theorem": "GRH.generalized_riemann_hypothesis"
     }
   ],
   "upstream_commit": "5a2fb85045c86e4a184b15ce7531ba199a3c4580"

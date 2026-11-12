@@ -1824,6 +1824,13 @@
       "theorem": "FullOldProblemsCatalog.WangHadamardPermanentNonvanishing.conjecture"
     },
     {
+      "reward_target_id": "fc-target:GRH.generalized_riemann_hypothesis",
+      "source_family": "millennium",
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "source_problem_number": "RiemannHypothesis",
+      "theorem": "GRH.generalized_riemann_hypothesis"
+    },
+    {
       "reward_target_id": "fc-target:GaussCircleProblem.error_isBigO",
       "source_family": "wikipedia",
       "source_path": "FormalConjectures/Wikipedia/GaussCircleProblem.lean",

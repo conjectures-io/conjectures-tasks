@@ -1821,6 +1821,13 @@
       "tier": "tier-1"
     },
     {
+      "index": 3315,
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "source_type_sha256": "sha256:19f4c1959e1bdd118d84801a2fbdc6d73ba2a83678e3c90744dba7ee919bb57c",
+      "theorem": "GRH.generalized_riemann_hypothesis",
+      "tier": "tier-1"
+    },
+    {
       "index": 3318,
       "source_path": "FormalConjectures/Wikipedia/GaussCircleProblem.lean",
       "source_type_sha256": "sha256:1f76ab56a02baee83c2a82c5e205a500d35921f2db22f2c05378eacef44bb4ea",
@@ -12027,6 +12034,44 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
+      "problem_id": "fc-17acb876-grh-generalized-riemann-hypothesis-49f6cc468d2ac7c921508e87fddae1c9-problem",
+      "reward_target_id": "fc-target:GRH.generalized_riemann_hypothesis",
+      "source_indices": [
+        3315
+      ],
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "target_type_sha256s": [
+        "sha256:19f4c1959e1bdd118d84801a2fbdc6d73ba2a83678e3c90744dba7ee919bb57c"
+      ],
+      "task_bundle_sha256": "sha256:1086b9a356a4c4064f243f601ec8d77391f22729fa5f2e42b8f3da8a57ac1701",
+      "task_id": "fc-v2-grh-generalized-riemann-hypothesis-24fd67a56cc7721f2c963305-formalized",
+      "theorems": [
+        "GRH.generalized_riemann_hypothesis"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "counterexample",
+      "problem_id": "fc-17acb876-grh-generalized-riemann-hypothesis-49f6cc468d2ac7c921508e87fddae1c9-problem",
+      "reward_target_id": "fc-target:GRH.generalized_riemann_hypothesis",
+      "source_indices": [
+        3315
+      ],
+      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+      "target_type_sha256s": [
+        "sha256:e19c47ee4540e02f20f7f4eb35d07ef9e8ca4457b3c17774b7ce3da039f5c58b"
+      ],
+      "task_bundle_sha256": "sha256:cb45df34fc1375234a6a63b697746b269d8a9c88f55a377c1220736688b4e14c",
+      "task_id": "fc-v2-grh-generalized-riemann-hypothesis-7e66e2f7d3df6215f1379d93-counterexample",
+      "theorems": [
+        "GRH.generalized_riemann_hypothesis"
+      ],
+      "tier": "tier-1"
+    },
+    {
+      "completion_policy": "all_of",
+      "mode": "formalized",
       "problem_id": "fc-17acb876-gausscircleproblem-error-isbigo-e7de730ec16e5d558d780eda8709cb42-problem",
       "reward_target_id": "fc-target:GaussCircleProblem.error_isBigO",
       "source_indices": [
@@ -13773,7 +13818,7 @@
       "tier": "tier-1"
     }
   ],
-  "audit_date_utc": "2026-11-04",
+  "audit_date_utc": "2026-11-12",
   "default": "DENY",
   "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
   "schema_version": 9,
@@ -13796,13 +13841,13 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 612,
+      "pool_size": 614,
       "retired_conjectures_sha256": "sha256:5879cc23831da5de5204942a4d54af239b0d11fa920081813472e81a21b52dbb",
-      "retired_source_theorems_sha256": "sha256:6fdc3ba00317ff3cbea1c34df70eec12b0d5097aff9ab8f7e570d91da04efd80",
-      "reward_target_count": 306,
+      "retired_source_theorems_sha256": "sha256:ce28486b2086e428f33fa2aae2becded1ab29d1fa7ed01e51cfc7f22475c511c",
+      "reward_target_count": 307,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:a162d639b3a06ec36adba217a935f0f7ab3670fc679215486e6472484306090b",
+      "selection_audit_sha256": "sha256:f35bb315fce4d39c61a9ca3b9cfb9a13e4191224f21d489da8732cf1079ae748",
       "source_category": "research open",
       "source_families": [
         "erdos",
@@ -13812,14 +13857,14 @@
         "research-targets",
         "wikipedia"
       ],
-      "source_theorem_count": 306,
+      "source_theorem_count": 307,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:3f328f8d27083ecdafd6d53a54b06472ea768217d7a4180c2a2e183732c35e0b"
+      "task_targets_sha256": "sha256:8436708050c963e34f19340bb59dd78ffed880fafbfe92ef1e5e90713f2d9a4a"
     }
   }
 }
