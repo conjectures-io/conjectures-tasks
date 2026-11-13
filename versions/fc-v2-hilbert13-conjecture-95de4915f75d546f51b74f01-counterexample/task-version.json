@@ -1,0 +1,817 @@
+{
+  "dependency": {
+    "external_modules": [
+      [
+        "Init",
+        "Core"
+      ],
+      [
+        "Init",
+        "Data",
+        "Cast"
+      ],
+      [
+        "Init",
+        "Data",
+        "Zero"
+      ],
+      [
+        "Init",
+        "Prelude"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Equiv"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Hom"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "BigOperators",
+        "Group",
+        "Finset",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Field",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Action",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Finsupp"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Monoid"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Nat",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Submonoid",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Action",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Nat"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "NonZeroDivisors"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Module",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MonoidAlgebra",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MonoidAlgebra",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MvPolynomial",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Polynomial",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Polynomial",
+        "Eval",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Hom",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Subsemiring",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Complex",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finsupp",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Fintype",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Fintype",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "FunLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Int",
+        "Cast",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Nat",
+        "Cast",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "Operations"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "SetLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "IntermediateField",
+        "Adjoin",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "IntermediateField",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "IsAlgClosed",
+        "AlgebraicClosure"
+      ],
+      [
+        "Mathlib",
+        "GroupTheory",
+        "OreLocalization",
+        "OreSet"
+      ],
+      [
+        "Mathlib",
+        "LinearAlgebra",
+        "FiniteDimensional",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "LinearAlgebra",
+        "TensorProduct",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Order",
+        "Defs",
+        "PartialOrder"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "AlgebraicIndependent",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "Localization",
+        "FractionRing"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "OreLocalization",
+        "Ring"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "TensorProduct",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "SetTheory",
+        "Cardinal",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "SetTheory",
+        "Cardinal",
+        "Order"
+      ]
+    ],
+    "imports": {
+      "external_imports": [
+        [
+          [
+            "Init"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Lean"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Mathlib"
+          ],
+          "package:mathlib"
+        ],
+        [
+          [
+            "Qq",
+            "Typ"
+          ],
+          "package:Qq"
+        ],
+        [
+          [
+            "Qq"
+          ],
+          "package:Qq"
+        ]
+      ],
+      "local_modules": [
+        [
+          [
+            "FormalConjectures",
+            "HistoricalOpen",
+            "Hilbert13"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "Basic"
+            ],
+            [
+              "HilbertDrafts",
+              "Hilbert13"
+            ],
+            [
+              "Init"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "AMS"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Lean"
+            ],
+            [
+              "Qq",
+              "Typ"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "Basic"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "AMS"
+            ],
+            [
+              "Init"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "HilbertDrafts",
+            "Hilbert13"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Mathlib"
+            ]
+          ]
+        ]
+      ],
+      "module": [
+        "FormalConjectures",
+        "HistoricalOpen",
+        "Hilbert13"
+      ]
+    },
+    "local_constants": [
+      {
+        "kind": "theorem",
+        "module": [
+          "FormalConjectures",
+          "HistoricalOpen",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertCatalog",
+          "Hilbert13",
+          "conjecture"
+        ],
+        "sha256": "sha256:1734442e01727d22562a59a1f7c25e7346cb9f37f52a367c453e272f81f16def"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "AlgebraicHilbert13"
+        ],
+        "sha256": "sha256:5fe083c54809257e9adc1de3a1e1530a8545dfac641af1ece3ca691bc543c73a"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "AlgebraicLowerBound"
+        ],
+        "sha256": "sha256:512e932469837286737a4d120a437082a14e9cfca1636f1382b8b077c828df96"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "Ambient",
+          "_proof_1"
+        ],
+        "sha256": "sha256:81832803c2fa5100f802ffe076d3b604b29996b73ab702476b3c5679e7b4dd4f"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "Ambient"
+        ],
+        "sha256": "sha256:51f4ea509b2a534af2cbfccb390192ab7c61db042c419c2588a93bb9b5b21e59"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ClassicalUpperBound"
+        ],
+        "sha256": "sha256:25c052ed87886dd63e4ade719d6abedf0f5147d26ec296b4c97bd1e70858599d"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterField"
+        ],
+        "sha256": "sha256:fbc984f772725ee426884844bb2ed53b907396a8b205e540d64f5437c9c98396"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterRing"
+        ],
+        "sha256": "sha256:27affdbc88a1ce528daf7ed6a2ad79b6ab3a6257227dcd0c8e792355c4d4d898"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_1"
+        ],
+        "sha256": "sha256:075cfa813f1769dc90f581684bcad462d82429272145530f7c1b49bea9965538"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_2"
+        ],
+        "sha256": "sha256:4d03f387ff09e34802b5cea2a9f0ceced072f20d18004b0035000f07dfbc6b50"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_3"
+        ],
+        "sha256": "sha256:e356c4b55dcca157cb25a1503458ac3593b3903a298cca800dbb14279b22aad6"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_4"
+        ],
+        "sha256": "sha256:48997264f3727aec4535fd2db70acb59324a3d2978d98602476cbdae8a67a309"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_5"
+        ],
+        "sha256": "sha256:225b567025aaf8baa45df87070e1dbe2a01e489178e1a896c51659632c5af958"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_6"
+        ],
+        "sha256": "sha256:2fa3d29d96b2b7db8ab4cc046b0fa93f32edca6ef16f664e5ea9ec1929ee1c03"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_7"
+        ],
+        "sha256": "sha256:07c78653e151108f058897bece436c7704c8f468cf83fc2ffe2a4c5c9cab4704"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep",
+          "_proof_8"
+        ],
+        "sha256": "sha256:e7ef3a39c13c2e344d25ffaa02e64ba45c65a7b082a5ba2beb31904210470a8b"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterStep"
+        ],
+        "sha256": "sha256:ed67d9e17868d1da7eabc2e030f3e88c509400f6bdb77f7ecc052c6b209501e9"
+      },
+      {
+        "kind": "constructor",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterTower",
+          "refl"
+        ],
+        "sha256": "sha256:b69400666f64d5a73aa20518531a563d9ebf14f4b198b0d6907abe5a15bf2352"
+      },
+      {
+        "kind": "constructor",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterTower",
+          "snoc"
+        ],
+        "sha256": "sha256:d47ca85f572daa079976df127d9d6267e22aefed4bb9cbbee1c0689e36ed4bdc"
+      },
+      {
+        "kind": "inductive",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "ParameterTower"
+        ],
+        "sha256": "sha256:e1b886090c180282bcf25166ed89948e7621902bc4ea5d207aad745a215d8426"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "SolvableWithParameters"
+        ],
+        "sha256": "sha256:091f6aeb2efd43c4b8f8791a37601471a2dcfab4266f8c466afc5435bc704879"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "coefficientField"
+        ],
+        "sha256": "sha256:521033339918b9a3e11ca4c6c92b39d7b42b1ef3df204c42d8b2cea38646201b"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert13"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert13",
+          "genericSeptimic"
+        ],
+        "sha256": "sha256:98047a96c98499527dec7a4765eb6711b874bf3c114e8ad59841842ac6314c70"
+      }
+    ],
+    "module": [
+      "FormalConjectures",
+      "HistoricalOpen",
+      "Hilbert13"
+    ],
+    "schema_version": 1,
+    "statement_type_sha256": "sha256:9faaa7f0696d85d66bbc193995591a45b188fb9e4bac2f6bc77491476281c392",
+    "theorem": [
+      "HilbertCatalog",
+      "Hilbert13",
+      "conjecture"
+    ]
+  },
+  "dependency_identity_sha256": "sha256:996f2909420f1d49673055ff7212ba07eecd2c5415c3adc964a5d4369b5ac451",
+  "environment": {
+    "comparator_commit": "32bd61da1d68fbaa310234964e9b820b03a0f82f",
+    "generator_version": "fc-task-generator-v2.0",
+    "lake_packages": [
+      [
+        "Cli",
+        "2842b9871b04862f944c032e34052cb9448ccb71"
+      ],
+      [
+        "LeanSearchClient",
+        "95e037bfdc31d3916ac615446847fb01960e2719"
+      ],
+      [
+        "Qq",
+        "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+      ],
+      [
+        "aesop",
+        "75d936c7af167cc93fac0d31237682fc2204591d"
+      ],
+      [
+        "batteries",
+        "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+      ],
+      [
+        "importGraph",
+        "10930f8138f0462dbd744a91fc03a16fae0e046f"
+      ],
+      [
+        "mathlib",
+        "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+      ],
+      [
+        "plausible",
+        "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+      ],
+      [
+        "proofwidgets",
+        "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+      ]
+    ],
+    "lean4export_commit": "6cea97789dc088ea47fcea15692db85685aedac5",
+    "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "schema_version": 1,
+    "task_support_sha256": "sha256:58a80a223dbd7383d92eb2a57b1ec207c0991131a1a1bf24585a4452777c257e",
+    "verification_policy": {
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "static_policy_sha256": "sha256:881edec4c5d015eba055312e94554c8e6db2c5f23336374f483f6500d6e8be13",
+      "version": "fc-verification-policy-v1"
+    },
+    "workspace_template_sha256": "sha256:e67396023f995786c5b89ac5720ae8581c07b4d6a912892386b9437723e1f539"
+  },
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "nanoda_commit": null,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 1
+}

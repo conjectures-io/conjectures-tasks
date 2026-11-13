@@ -1,6 +1,6 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
+  "repository_commit": "33b3c405cc7f6499595ce65c50e86be40354d372",
   "schema_version": 3,
   "targets": [
     {
@@ -436,13 +436,6 @@
       "source_path": "FormalConjectures/ErdosProblems/17.lean",
       "source_problem_number": 17,
       "theorem": "Erdos17.erdos_17"
-    },
-    {
-      "reward_target_id": "fc-target:Erdos173.erdos_173",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/173.lean",
-      "source_problem_number": 173,
-      "theorem": "Erdos173.erdos_173"
     },
     {
       "reward_target_id": "fc-target:Erdos18.erdos_18b",
@@ -2046,6 +2039,20 @@
       "source_path": "FormalConjectures/Wikipedia/HardyLittlewood.lean",
       "source_problem_number": "HardyLittlewood",
       "theorem": "HardyLittlewood.second_hardy_littlewood_conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HilbertCatalog.Hilbert13.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
+      "source_problem_number": "Hilbert13",
+      "theorem": "HilbertCatalog.Hilbert13.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HilbertCatalog.RankOneAbelianStark.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/RankOneAbelianStark.lean",
+      "source_problem_number": "RankOneAbelianStark",
+      "theorem": "HilbertCatalog.RankOneAbelianStark.conjecture"
     },
     {
       "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",

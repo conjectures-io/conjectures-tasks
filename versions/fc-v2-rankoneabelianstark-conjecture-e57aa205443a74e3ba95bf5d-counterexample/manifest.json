@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:c6b98272ddd455899fc02ee756a54d4695dccb9f7497b158e8295339d6133ba3",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "HilbertCatalog.RankOneAbelianStark.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:dc47b6b2ba86de2e3be9a4603003303a320aef62be6288aa23018da33913985c",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.RankOneAbelianStark",
+  "source_path": "FormalConjectures/HistoricalOpen/RankOneAbelianStark.lean",
+  "source_theorem": "HilbertCatalog.RankOneAbelianStark.conjecture",
+  "source_type_hash": "sha256:49880c93c1484f8a5ef01c14a13f2044bcb7d522d063220054e2bf32cb8ed4ef",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-rankoneabelianstark-conjecture-e57aa205443a74e3ba95bf5d-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:ba34769aa9f42a1becdb48e6b8078435a01efa12b530511ebb8a06b5db4b5dac",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:067e5f686afbde9b3d59eb84cbd7a17438b93131c6e1c20a5f2c03dc7f562e3b",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:46ba084922dafbafa96248a2637b8b5454e5f49db6ba8fc8e1712a500359022a",
+    "task-version.json": "sha256:56d1d64622bb47e2f94f2bf44e38d1dc3a4f93524cdf7d510ed66f8a4b73613c"
+  }
+}

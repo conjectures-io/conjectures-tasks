@@ -11,11 +11,19 @@ history. Each bundle contains its challenge, manifest, comparator configuration,
 trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains one tier with 618 active bundles: proof/refutation pairs for 309 audited
-direct propositions (16 full historical open problems, 16 package-authored research targets,
-238 Erdős targets, 32 Wikipedia targets, one Millennium target, and 6 previously solved
-Green's Open Problems targets). The tier label is
-retained for compatibility and does not rank or classify the targets.
+The current snapshot contains 654 active bundles for 327 audited propositions.
+The November 13 release adds nineteen Erdős problems, algebraic Hilbert 13,
+and the rank-one abelian Stark conjecture associated with Hilbert 12 to the
+306-target production baseline. Erdős 173 has a prior matching solution and
+its public record carries that retirement.
+
+The complete reviewed formalizations of Hilbert 6, 12, algebraic 13 and 16 are
+published in the [review package](staged/hilbert-formulations-20261113/README.md).
+Hilbert 6 uses selected physical models. The general Hilbert 12 recipe contract
+leaves explicitness to mathematical assessment. Hilbert 16 has a general
+uniform-bound proof claim awaiting assessment. Submission targets are the
+algebraic Hilbert 13 statement and the separately named rank-one Stark conjecture.
+The tier label is retained for protocol compatibility.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or
 configuration requires a new task id and commitment. The deny-by-default allowlist, tier policy,
