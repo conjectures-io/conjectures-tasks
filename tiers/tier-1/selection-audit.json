@@ -1,7 +1,7 @@
 {
-  "audit_date_utc": "2026-11-11",
+  "audit_date_utc": "2026-11-13",
   "github_open_pr_count": 359,
-  "repository_commit": "17acb8768de75e168a43c7c828e933071aee63cf",
+  "repository_commit": "33b3c405cc7f6499595ce65c50e86be40354d372",
   "schema_version": 3,
   "screening_statement": "Plausibly attackable solver target; this is a comparative screen, not a claim that the conjecture is easy or guaranteed solvable.",
   "selected": [
@@ -1063,21 +1063,6 @@
       "source_problem_number": 17,
       "source_status": "open",
       "theorem": "Erdos17.erdos_17",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target"
-      ],
-      "open_prs_touching_source": [
-        7494
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/173.lean",
-      "source_problem_number": 173,
-      "source_status": "open",
-      "theorem": "Erdos173.erdos_173",
       "upstream_status": "research open"
     },
     {
@@ -5077,6 +5062,32 @@
         "standard-mathlib-surface"
       ],
       "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
+      "source_problem_number": "Hilbert13",
+      "source_status": "open",
+      "theorem": "HilbertCatalog.Hilbert13.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/RankOneAbelianStark.lean",
+      "source_problem_number": "RankOneAbelianStark",
+      "source_status": "open",
+      "theorem": "HilbertCatalog.RankOneAbelianStark.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
       "source_family": "wikipedia",
       "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
       "source_problem_number": "IdonealCompleteness",
@@ -5563,8 +5574,8 @@
     {
       "family": "historical-open",
       "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/historical-open-status-audit.json",
-      "revision": "f732f6939640c944595346258c918ce929f59af8372a53c80cd3c58202fa180b"
+      "revision": "1ba7ada0a700afe47f1fd584b91be48f2822de32cda9b4b49f66377bd745ceeb"
     }
   ],
-  "target_status_audit_sha256": "sha256:edb86d7e8bb7a7a2521a3779327b4389ab12265cd6f6d19847897135c0f30d39"
+  "target_status_audit_sha256": "sha256:8c668fc2d5adb0d7213093131628ac429b63398132777e0dac3bdf8d94cb4e03"
 }

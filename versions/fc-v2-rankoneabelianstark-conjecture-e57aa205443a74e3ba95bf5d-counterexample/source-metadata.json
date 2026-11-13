@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    11
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "The rank-one abelian Stark conjecture for number fields, with normalized places, partial zeta derivatives and the abelian root-extension condition. This is the specified Stark route associated with Hilbert 12. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.RankOneAbelianStark",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://math.berkeley.edu/~hhao/notes/Rank-one%20abelian%20Stark%20conjecture.pdf)",
+    "[Source 2](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/853876BFEE7F6C3686DB9381CB3BF08F/S0010437X03100371a.pdf/local_stark_conjecture_at_a_real_place.pdf)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/RankOneAbelianStark.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HilbertCatalog.RankOneAbelianStark.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:49880c93c1484f8a5ef01c14a13f2044bcb7d522d063220054e2bf32cb8ed4ef",
+  "type_pretty": "HilbertDrafts.Hilbert12Stark.RankOneAbelianStark"
+}

@@ -1,0 +1,40 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    12
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Generic complex septimic resolvent degree equals three. The precise formulation and its four-round independent review are published with the validator release. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.Hilbert13",
+  "pointer_target": null,
+  "references": [
+    "[Source 1](https://www.math.uchicago.edu/~farb/papers/RD.pdf)",
+    "[Source 2](https://doi.org/10.4171/DM/984)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HilbertCatalog.Hilbert13.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:9faaa7f0696d85d66bbc193995591a45b188fb9e4bac2f6bc77491476281c392",
+  "type_pretty": "HilbertDrafts.Hilbert13.AlgebraicHilbert13"
+}

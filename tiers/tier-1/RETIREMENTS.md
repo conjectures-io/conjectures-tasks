@@ -63,3 +63,4 @@
 - `Erdos21.erdos_21.variants.three_n` — 2026-11-05 — `WITHDRAWN` — Withdrawn at the pool owner’s request after a report that Erdős 21 and 111 are solved. This withdrawal does not independently certify a proof of the exact selected target.
 
 - November 10, 2026. Retired both modes of `Math30Catalog.source27` under `NOT_NOVEL`. The October 9 proof covers every convex domain and positive index in the target. [Tang and Wang](https://arxiv.org/html/2610.13139v1) · [Decision](https://conjectures.io/results/058f3a08-542b-4ece-8888-63ea0bfc887b)
+- `Erdos173.erdos_173` — 2026-11-13 — `PRIOR_SOLUTION (full matching formal solution accepted by erdosproblems.ai)`

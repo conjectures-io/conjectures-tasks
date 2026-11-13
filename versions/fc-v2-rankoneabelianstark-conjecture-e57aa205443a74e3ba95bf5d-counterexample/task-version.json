@@ -1,0 +1,987 @@
+{
+  "dependency": {
+    "external_modules": [
+      [
+        "Init",
+        "Classical"
+      ],
+      [
+        "Init",
+        "Core"
+      ],
+      [
+        "Init",
+        "Data",
+        "Cast"
+      ],
+      [
+        "Init",
+        "Data",
+        "Nat",
+        "Bitwise",
+        "Basic"
+      ],
+      [
+        "Init",
+        "Data",
+        "Zero"
+      ],
+      [
+        "Init",
+        "Prelude"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Equiv"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Operations"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Field",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Action",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "DivInvMonoid"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Monoid"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Action",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Hom"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Nat"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Module",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Module",
+        "Submodule",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Module",
+        "Submodule",
+        "Lattice"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Order",
+        "AbsoluteValue",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Order",
+        "Kleene"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Equiv"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Hom",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Subsemiring",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "CStarAlgebra",
+        "Classes"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Calculus",
+        "Deriv",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Calculus",
+        "FDeriv",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Complex",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Normed",
+        "Field",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Normed",
+        "Ring",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "SpecialFunctions",
+        "Log",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "SpecialFunctions",
+        "Pow",
+        "Complex"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Complex",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Finite",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Real",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Card"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finset",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "FunLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Int",
+        "Cast",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Nat",
+        "Cast",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "Operations"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "SetLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "Galois",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "IntermediateField",
+        "Adjoin",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "IntermediateField",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "FieldTheory",
+        "IsAlgClosed",
+        "AlgebraicClosure"
+      ],
+      [
+        "Mathlib",
+        "LinearAlgebra",
+        "FiniteDimensional",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "NumberTheory",
+        "NumberField",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "NumberTheory",
+        "NumberField",
+        "Completion",
+        "FinitePlace"
+      ],
+      [
+        "Mathlib",
+        "NumberTheory",
+        "NumberField",
+        "InfinitePlace",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "NumberTheory",
+        "NumberField",
+        "InfinitePlace",
+        "Ramification"
+      ],
+      [
+        "Mathlib",
+        "NumberTheory",
+        "NumberField",
+        "Units",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "NumberTheory",
+        "RamificationInertia",
+        "Ramification"
+      ],
+      [
+        "Mathlib",
+        "Order",
+        "Defs",
+        "PartialOrder"
+      ],
+      [
+        "Mathlib",
+        "Order",
+        "Notation"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "DedekindDomain",
+        "Ideal",
+        "Lemmas"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "Ideal",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "Ideal",
+        "Maps"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "Ideal",
+        "Norm",
+        "AbsNorm"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Algebra",
+        "InfiniteSum",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Algebra",
+        "InfiniteSum",
+        "SummationFilter"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Algebra",
+        "MulAction"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "MetricSpace",
+        "Pseudo",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "UniformSpace",
+        "Defs"
+      ]
+    ],
+    "imports": {
+      "external_imports": [
+        [
+          [
+            "Init"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Lean"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Mathlib"
+          ],
+          "package:mathlib"
+        ],
+        [
+          [
+            "Qq",
+            "Typ"
+          ],
+          "package:Qq"
+        ],
+        [
+          [
+            "Qq"
+          ],
+          "package:Qq"
+        ]
+      ],
+      "local_modules": [
+        [
+          [
+            "FormalConjectures",
+            "HistoricalOpen",
+            "RankOneAbelianStark"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "Basic"
+            ],
+            [
+              "HilbertDrafts",
+              "Hilbert12"
+            ],
+            [
+              "Init"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "AMS"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Lean"
+            ],
+            [
+              "Qq",
+              "Typ"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "Basic"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "AMS"
+            ],
+            [
+              "Init"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "HilbertDrafts",
+            "Hilbert12"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Mathlib"
+            ]
+          ]
+        ]
+      ],
+      "module": [
+        "FormalConjectures",
+        "HistoricalOpen",
+        "RankOneAbelianStark"
+      ]
+    },
+    "local_constants": [
+      {
+        "kind": "theorem",
+        "module": [
+          "FormalConjectures",
+          "HistoricalOpen",
+          "RankOneAbelianStark"
+        ],
+        "name": [
+          "HilbertCatalog",
+          "RankOneAbelianStark",
+          "conjecture"
+        ],
+        "sha256": "sha256:7bef9da1b11a71821388a4ecf3ad28d100315a0e6583181bad965fd4e9ac1a62"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "AbelianRootExtension",
+          "_proof_1"
+        ],
+        "sha256": "sha256:7a449b6d9613660a312e975db25b135cdafb3086fd6fa961f09c8f7aa4371fe4"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "AbelianRootExtension",
+          "_proof_2"
+        ],
+        "sha256": "sha256:3cf6fc7fb005c1f728e11727df6c144b9b0ee430eb9b678ab968b617e7f2dec2"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "AbelianRootExtension",
+          "_proof_3"
+        ],
+        "sha256": "sha256:9e6b86b2da50766bb8d0d979abd7f97e3f841507dd3dae39468f41a8aee2f82a"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "AbelianRootExtension"
+        ],
+        "sha256": "sha256:837aa1b6d5991519685f73e97b0f5144067b09675f95c44ee0f6b000c55277f0"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "AdmissiblePlaces"
+        ],
+        "sha256": "sha256:f68793fb8aae7ae90bf4c88d9d7d881fbf7ddd203ece146421d8731538062181"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "CoprimeToS"
+        ],
+        "sha256": "sha256:1cbc113fd373009469ffdab9c83a740056025eb89e5dc4d4203f4a1089a015d7"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "FinitePrime"
+        ],
+        "sha256": "sha256:8d77e0eff570e7f1a8f495af9f29f3b63dc5451a6f32f9b49ac9402cf13e6c5f"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "GaloisGroup"
+        ],
+        "sha256": "sha256:220806e98f12de526cca657d7f73bf3595764fd65da581e16df136303100d4a5"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "IsArtinMap",
+          "_proof_1"
+        ],
+        "sha256": "sha256:261fd82865a2341b89e411548bff36c2950e8939a47daaa9b23f87f2e0ea635f"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "IsArtinMap"
+        ],
+        "sha256": "sha256:59bac6b6f2de15c75d90e638357ed7526dd96dd9622cd1c228ecfe547c425a71"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "IsPartialZeta"
+        ],
+        "sha256": "sha256:4429991768c602c46a9a9ce99b4216f6ea08057a16c62a702971a0db2c103c4c"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "LiesAbove",
+          "_proof_1"
+        ],
+        "sha256": "sha256:adc28cccec7952133bfd70cbeeee7f260dbff02bf080378b8d53cd812bc44105"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "LiesAbove",
+          "_sparseCasesOn_1"
+        ],
+        "sha256": "sha256:2d054417ca9e79fb1e022c483ffbc035b62b67b95854d66c0244aa4f94fd2be0"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "LiesAbove",
+          "_sparseCasesOn_2"
+        ],
+        "sha256": "sha256:ab6a24e87a7ead9aa6d0e280ce7547b56fe68033f32befc2131db196150b64ee"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "LiesAbove",
+          "match_1"
+        ],
+        "sha256": "sha256:ea5944de3bbc44d0623f799310320b78e107003c61cd1848d9a72dc2a736da3e"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "LiesAbove"
+        ],
+        "sha256": "sha256:6e184f2305b7907ba52cd9304fc5e6520f4a05a64beefa388780af8a0364ef50"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "Place"
+        ],
+        "sha256": "sha256:1c98a1f5bd9fa3bdd4473f6b058932c452829f7da9a19096f4424838f254f779"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "RankOneAbelianStark",
+          "_proof_1"
+        ],
+        "sha256": "sha256:8dd8b82c7c96e668827aee769027740cc18819d0f3f54466fafbb559375665c0"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "RankOneAbelianStark"
+        ],
+        "sha256": "sha256:81c57936de5a8d1b86f0b69539056f68af32ded25427e4ce10cab3d49410f049"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "SplitsAt"
+        ],
+        "sha256": "sha256:a73c4c069f0a1e74d5c5ec4508b9189d0b14aa998c6a6669648049871bbe2fa2"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "StarkUnitCondition"
+        ],
+        "sha256": "sha256:7d248f610c5edfefa7b75f5ff045ed0012e2629f763804e8919362840fa09ab0"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "placeAbs",
+          "_proof_1"
+        ],
+        "sha256": "sha256:2075a94e5d013e8eabd79604f563037e99aaf5992f8a8682cfa0937fc21b7bd7"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "placeAbs",
+          "match_1"
+        ],
+        "sha256": "sha256:8405ddc6d314ad6f9c3a515a3f5b706059ec3d124d8fe967a789d86f252f3ead"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "placeAbs"
+        ],
+        "sha256": "sha256:089674893f364cc248e34cc407bbb356d8ddc37914293391f74aa62fbb76a9b5"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert12"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert12Stark",
+          "zetaTerm"
+        ],
+        "sha256": "sha256:adbee20abd66f59380e182d0bbe99609436f77d124a1ad525105e06b1220ef68"
+      }
+    ],
+    "module": [
+      "FormalConjectures",
+      "HistoricalOpen",
+      "RankOneAbelianStark"
+    ],
+    "schema_version": 1,
+    "statement_type_sha256": "sha256:49880c93c1484f8a5ef01c14a13f2044bcb7d522d063220054e2bf32cb8ed4ef",
+    "theorem": [
+      "HilbertCatalog",
+      "RankOneAbelianStark",
+      "conjecture"
+    ]
+  },
+  "dependency_identity_sha256": "sha256:c6b98272ddd455899fc02ee756a54d4695dccb9f7497b158e8295339d6133ba3",
+  "environment": {
+    "comparator_commit": "32bd61da1d68fbaa310234964e9b820b03a0f82f",
+    "generator_version": "fc-task-generator-v2.0",
+    "lake_packages": [
+      [
+        "Cli",
+        "2842b9871b04862f944c032e34052cb9448ccb71"
+      ],
+      [
+        "LeanSearchClient",
+        "95e037bfdc31d3916ac615446847fb01960e2719"
+      ],
+      [
+        "Qq",
+        "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+      ],
+      [
+        "aesop",
+        "75d936c7af167cc93fac0d31237682fc2204591d"
+      ],
+      [
+        "batteries",
+        "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+      ],
+      [
+        "importGraph",
+        "10930f8138f0462dbd744a91fc03a16fae0e046f"
+      ],
+      [
+        "mathlib",
+        "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+      ],
+      [
+        "plausible",
+        "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+      ],
+      [
+        "proofwidgets",
+        "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+      ]
+    ],
+    "lean4export_commit": "6cea97789dc088ea47fcea15692db85685aedac5",
+    "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "schema_version": 1,
+    "task_support_sha256": "sha256:58a80a223dbd7383d92eb2a57b1ec207c0991131a1a1bf24585a4452777c257e",
+    "verification_policy": {
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "static_policy_sha256": "sha256:881edec4c5d015eba055312e94554c8e6db2c5f23336374f483f6500d6e8be13",
+      "version": "fc-verification-policy-v1"
+    },
+    "workspace_template_sha256": "sha256:e67396023f995786c5b89ac5720ae8581c07b4d6a912892386b9437723e1f539"
+  },
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "nanoda_commit": null,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 1
+}
