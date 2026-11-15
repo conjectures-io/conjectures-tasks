@@ -1,0 +1,697 @@
+{
+  "dependency": {
+    "external_modules": [
+      [
+        "Init",
+        "Core"
+      ],
+      [
+        "Init",
+        "Data",
+        "Function"
+      ],
+      [
+        "Init",
+        "Data",
+        "Zero"
+      ],
+      [
+        "Init",
+        "Prelude"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Algebra",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Field",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "DivInvMonoid"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Finsupp"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Monoid"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Nat",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Group",
+        "Pi",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "GroupWithZero",
+        "Nat"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Module",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Module",
+        "Pi"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MonoidAlgebra",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MonoidAlgebra",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MonoidAlgebra",
+        "Module"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MvPolynomial",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MvPolynomial",
+        "Eval"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "MvPolynomial",
+        "PDeriv"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Notation",
+        "Pi",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Algebra",
+        "Ring",
+        "Hom",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "CStarAlgebra",
+        "Classes"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Complex",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Normed",
+        "Field",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Normed",
+        "Module",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "Normed",
+        "Ring",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Analysis",
+        "RCLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Complex",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Basic",
+        "Real",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Finsupp",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "FunLike",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Data",
+        "Set",
+        "Operations"
+      ],
+      [
+        "Mathlib",
+        "LinearAlgebra",
+        "Projectivization",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Order",
+        "SetNotation"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "Derivation",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "RingTheory",
+        "MvPolynomial",
+        "Homogeneous"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Connected",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Constructions"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Defs",
+        "Basic"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "Defs",
+        "Induced"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "MetricSpace",
+        "Pseudo",
+        "Defs"
+      ],
+      [
+        "Mathlib",
+        "Topology",
+        "UniformSpace",
+        "Defs"
+      ]
+    ],
+    "imports": {
+      "external_imports": [
+        [
+          [
+            "Init"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Lean"
+          ],
+          "lean"
+        ],
+        [
+          [
+            "Mathlib"
+          ],
+          "package:mathlib"
+        ],
+        [
+          [
+            "Qq",
+            "Typ"
+          ],
+          "package:Qq"
+        ],
+        [
+          [
+            "Qq"
+          ],
+          "package:Qq"
+        ]
+      ],
+      "local_modules": [
+        [
+          [
+            "FormalConjectures",
+            "HistoricalOpen",
+            "Hilbert16QuinticSurfaces"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "Basic"
+            ],
+            [
+              "HilbertDrafts",
+              "Hilbert16Open"
+            ],
+            [
+              "Init"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "AMS"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Lean"
+            ],
+            [
+              "Qq",
+              "Typ"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "FormalConjecturesUtil",
+            "Attributes",
+            "Basic"
+          ],
+          "source",
+          [
+            [
+              "FormalConjecturesUtil",
+              "Attributes",
+              "AMS"
+            ],
+            [
+              "Init"
+            ],
+            [
+              "Qq"
+            ]
+          ]
+        ],
+        [
+          [
+            "HilbertDrafts",
+            "Hilbert16"
+          ],
+          "source",
+          [
+            [
+              "Init"
+            ],
+            [
+              "Mathlib"
+            ]
+          ]
+        ],
+        [
+          [
+            "HilbertDrafts",
+            "Hilbert16Open"
+          ],
+          "source",
+          [
+            [
+              "HilbertDrafts",
+              "Hilbert16"
+            ],
+            [
+              "Init"
+            ]
+          ]
+        ]
+      ],
+      "module": [
+        "FormalConjectures",
+        "HistoricalOpen",
+        "Hilbert16QuinticSurfaces"
+      ]
+    },
+    "local_constants": [
+      {
+        "kind": "theorem",
+        "module": [
+          "FormalConjectures",
+          "HistoricalOpen",
+          "Hilbert16QuinticSurfaces"
+        ],
+        "name": [
+          "HilbertCatalog",
+          "Hilbert16QuinticSurfaces",
+          "conjecture"
+        ],
+        "sha256": "sha256:9c6487b6409aaf06dc3e6c81a3d241ac0a5b198643c9268f4a5294ed0d39acae"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "Admissible"
+        ],
+        "sha256": "sha256:01800cb7040282ee7fe51b5a3a004f955096789918a965885c4f15494cab789c"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "ComplexNonsingular"
+        ],
+        "sha256": "sha256:8297ba1440e0a45c572ee15d464be7e5e8939c04e368adebb3d31ecad7a6b5a0"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "ExactComponents"
+        ],
+        "sha256": "sha256:c37d37d2a149fc400dcd8ec16d8185232845ac7ab498aa377a47ef19562a88a6"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "Projective"
+        ],
+        "sha256": "sha256:51d1a674cd7bf64f5203c56541a80edb433c470d873a17b32ef8ef8c518142ab"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "Vector"
+        ],
+        "sha256": "sha256:97ddf8eb3113bba9a8e0aa8dfaf4dca6a420f715542206d8dace4f2e6cc87c83"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "projectiveTopology",
+          "_aux_1"
+        ],
+        "sha256": "sha256:077993005986afde58fded6059fb2f33aef0a92e1732ad8e898d4628c508aa63"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "projectiveTopology",
+          "_proof_3"
+        ],
+        "sha256": "sha256:f04615bc25aef4b4792b48e47076e6dd5fcb441af66c833adc537957a6d0498b"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "projectiveTopology",
+          "_proof_4"
+        ],
+        "sha256": "sha256:d1aba968137d2e911701bd20f1b0cfcf5c10f487de30f46a5758b9310549dbd4"
+      },
+      {
+        "kind": "theorem",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "projectiveTopology",
+          "_proof_5"
+        ],
+        "sha256": "sha256:ef0d65559559633635a152d7106396e5d0a6060e95ede2afe5c83391fb506ab7"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "projectiveTopology"
+        ],
+        "sha256": "sha256:1ef97dc50c5335367173fabb357d5842056aac81e94c44cc238d7df08b5007f2"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Classification",
+          "zeroLocus"
+        ],
+        "sha256": "sha256:31a96bd8b347c1281b3d6d1469ce0efa6e351feeacec55dfa20621fe0464e038"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16Open"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Open",
+          "QuinticSurfaceComponents"
+        ],
+        "sha256": "sha256:0e06782eafbf46afc9ff65d00533646d0df5eee2af0f7b4676dddbd17d5487e3"
+      },
+      {
+        "kind": "definition",
+        "module": [
+          "HilbertDrafts",
+          "Hilbert16Open"
+        ],
+        "name": [
+          "HilbertDrafts",
+          "Hilbert16Open",
+          "SurfaceComponentBound"
+        ],
+        "sha256": "sha256:a70305709b984d306cb16727c6d628b8cb5a2ff3cac5f0b0453af99fba98c694"
+      }
+    ],
+    "module": [
+      "FormalConjectures",
+      "HistoricalOpen",
+      "Hilbert16QuinticSurfaces"
+    ],
+    "schema_version": 1,
+    "statement_type_sha256": "sha256:6e4c06e1cf999c5dc013101e750352b9bc52f5eab6f810014b1f85b12aeaedc1",
+    "theorem": [
+      "HilbertCatalog",
+      "Hilbert16QuinticSurfaces",
+      "conjecture"
+    ]
+  },
+  "dependency_identity_sha256": "sha256:de181e85ef888871a2241838359d3902ad0ddf81beee23d57fdbed21bf778bdd",
+  "environment": {
+    "comparator_commit": "32bd61da1d68fbaa310234964e9b820b03a0f82f",
+    "generator_version": "fc-task-generator-v2.0",
+    "lake_packages": [
+      [
+        "Cli",
+        "2842b9871b04862f944c032e34052cb9448ccb71"
+      ],
+      [
+        "LeanSearchClient",
+        "95e037bfdc31d3916ac615446847fb01960e2719"
+      ],
+      [
+        "Qq",
+        "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334"
+      ],
+      [
+        "aesop",
+        "75d936c7af167cc93fac0d31237682fc2204591d"
+      ],
+      [
+        "batteries",
+        "ed9b316aabe389fec1ef43c3326ab48c7e59be42"
+      ],
+      [
+        "importGraph",
+        "10930f8138f0462dbd744a91fc03a16fae0e046f"
+      ],
+      [
+        "mathlib",
+        "065356127b1dc0016f66b7283ce0ce2c4055aa55"
+      ],
+      [
+        "plausible",
+        "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912"
+      ],
+      [
+        "proofwidgets",
+        "4c70ac059693669e5756e32a7a94b57ee1e99dc5"
+      ]
+    ],
+    "lean4export_commit": "6cea97789dc088ea47fcea15692db85685aedac5",
+    "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "schema_version": 1,
+    "task_support_sha256": "sha256:58a80a223dbd7383d92eb2a57b1ec207c0991131a1a1bf24585a4452777c257e",
+    "verification_policy": {
+      "permitted_axioms": [
+        "propext",
+        "Quot.sound",
+        "Classical.choice"
+      ],
+      "static_policy_sha256": "sha256:881edec4c5d015eba055312e94554c8e6db2c5f23336374f483f6500d6e8be13",
+      "version": "fc-verification-policy-v1"
+    },
+    "workspace_template_sha256": "sha256:e67396023f995786c5b89ac5720ae8581c07b4d6a912892386b9437723e1f539"
+  },
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "nanoda_commit": null,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 1
+}

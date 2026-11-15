@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:de181e85ef888871a2241838359d3902ad0ddf81beee23d57fdbed21bf778bdd",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:26296ce7de49497ac07945142279c482e3d1b9251d0a668a16973efc4b6bbdee",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.Hilbert16QuinticSurfaces",
+  "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuinticSurfaces.lean",
+  "source_theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture",
+  "source_type_hash": "sha256:6e4c06e1cf999c5dc013101e750352b9bc52f5eab6f810014b1f85b12aeaedc1",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-hilbert16quinticsurfaces-conjecture-473c475779865dd0078725bc-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:f0195af0267f4d5173a165b3ab10dbfaeb33b9b09cbf9aca3fb7ffd513a927a8",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:194618c8eff222490f2ca1f20209b39e7538023594bf20d3feef7dc06d8341fc",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:4a5422f729ede0ac61207b0b73b5a7d2909d87bf5262cc33f52a0021dfa11bce",
+    "task-version.json": "sha256:7d7a35e567c8de2e7039a888b9467a083deda7f759a3a50c5ca652f3907b566e"
+  }
+}

@@ -430,6 +430,30 @@
         "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/853876BFEE7F6C3686DB9381CB3BF08F/S0010437X03100371a.pdf/local_stark_conjecture_at_a_real_place.pdf"
       ],
       "theorem": "HilbertCatalog.RankOneAbelianStark.conjecture"
+    },
+    {
+      "checked_date": "2026-11-15",
+      "claim_screen": "Two independent fresh-context reviews on November 15 accepted the statement, and machine-checked witnesses show it is not vacuous. A bounded literature search on November 15 found the maximum still known only to be 23, 24 or 25, with no later construction or bound. Every real quintic surface in RP^3 with nonsingular complexification has at most 23 connected components. The maximum is known to be 23, 24 or 25. The target is the bound 23 only; a refutation leaves 24 and 25 to be separated. It is one case of one clause of Hilbert 16, not the whole problem.",
+      "disposition": "retain_provisionally_open",
+      "documented_by_year": 1900,
+      "formalization_kind": "closed proposition with reviewed definitions",
+      "full_original_question": true,
+      "full_resolution_claim_found": false,
+      "name": "Hilbert 16, first part: components of real quintic surfaces",
+      "production_type_sha256": "sha256:6e4c06e1cf999c5dc013101e750352b9bc52f5eab6f810014b1f85b12aeaedc1",
+      "scope": "Every real quintic surface in RP^3 with nonsingular complexification has at most 23 connected components. The maximum is known to be 23, 24 or 25. The target is the bound 23 only; a refutation leaves 24 and 25 to be separated. It is one case of one clause of Hilbert 16, not the whole problem.",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuinticSurfaces.lean",
+      "source_problem_number": "Hilbert16QuinticSurfaces",
+      "sources": [
+        "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html#prob16",
+        "https://www.math.univ-toulouse.fr/~orevkov/q23.pdf",
+        "https://arxiv.org/abs/math/0502127",
+        "https://arxiv.org/abs/1805.02030",
+        "https://arxiv.org/abs/2603.08094",
+        "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-11-15-hilbert16-open-cases/README.md"
+      ],
+      "theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture"
     }
   ],
   "claim_screen_limitation": "Bounded literature searches on 2026-10-21 and 2026-10-22; no full-resolution claim found for retained problems. Cantoni was subsequently excluded on 2026-10-23 after a user-supplied counterexample claim. Claim validity is unverified.",
@@ -467,6 +491,36 @@
       ],
       "theorem": "FullOldProblemsCatalog.Cantoni.conjecture",
       "years_since_documented_year": 76
+    },
+    {
+      "checked_date": "2026-11-15",
+      "claim_author": "Pablo Pedregal",
+      "claim_sources": [
+        "https://arxiv.org/abs/2103.07193v4"
+      ],
+      "claim_title": "Hilbert's 16th problem through Morse theory",
+      "claim_validity": "unverified; assessed as neither established nor refuted",
+      "decision_basis": "A live unrefereed preprint (Pedregal, arXiv:2103.07193v4, 3 November 2026) claims exactly H(2) = 4. The review found the claim neither established nor refuted. Admission is withheld pending an owner decision or a review that disposes of the claim. No judgment that the claimed proof is correct.",
+      "declaration": "HilbertDrafts.Hilbert16Open.QuadraticFourCycles",
+      "disposition": "hold_identified_full_resolution_claim",
+      "documented_by_year": 1900,
+      "formalization_kind": "closed proposition with reviewed definitions",
+      "full_original_question": true,
+      "full_resolution_claim_found": true,
+      "name": "Hilbert 16, second part: quadratic vector fields have at most four limit cycles",
+      "production_type_sha256": "sha256:8739dd833b3b8824c462b19f164250f18d5cb1ed7949604319da73c94f6b5523",
+      "scope": "Every real planar polynomial vector field of degree at most two has at most four limit cycles, counted as point sets in the whole affine plane.",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuadraticLimitCycles.lean",
+      "source_problem_number": "Hilbert16QuadraticLimitCycles",
+      "sources": [
+        "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html#prob16",
+        "https://www.ams.org/journals/bull/2002-39-03/S0273-0979-02-00946-1/",
+        "https://arxiv.org/abs/2407.13465",
+        "https://arxiv.org/abs/2610.12218",
+        "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-11-15-hilbert16-open-cases/README.md"
+      ],
+      "theorem": "HilbertCatalog.Hilbert16QuadraticLimitCycles.conjecture"
     }
   ],
   "prepared_date_utc": "2026-10-23",
