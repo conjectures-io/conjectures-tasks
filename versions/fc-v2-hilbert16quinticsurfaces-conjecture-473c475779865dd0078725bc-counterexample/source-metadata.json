@@ -1,0 +1,41 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    14
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Every real quintic surface in real projective three-space with nonsingular complexification has at most twenty-three connected components. The maximum is known to be twenty-three, twenty-four or twenty-five, so the statement may be true or false. It concerns only the number of sheets in degree five, the first degree left open by the question in the first part of Hilbert 16. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.Hilbert16QuinticSurfaces",
+  "pointer_target": null,
+  "references": [
+    "[Hilbert, Mathematical Problems, problem 16](https://mathcs.clarku.edu/~djoyce/hilbert/problems.html#prob16)",
+    "[Orevkov, Real quintic surface with 23 components](https://www.math.univ-toulouse.fr/~orevkov/q23.pdf)",
+    "[Kharlamov, Overview of topological properties of real algebraic surfaces](https://arxiv.org/abs/math/0502127)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuinticSurfaces.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:6e4c06e1cf999c5dc013101e750352b9bc52f5eab6f810014b1f85b12aeaedc1",
+  "type_pretty": "HilbertDrafts.Hilbert16Open.QuinticSurfaceComponents"
+}

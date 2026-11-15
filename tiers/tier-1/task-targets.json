@@ -1,6 +1,6 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "33b3c405cc7f6499595ce65c50e86be40354d372",
+  "repository_commit": "bc92995b0ab14ac035d3cd535cbca4a598097a8e",
   "schema_version": 3,
   "targets": [
     {
@@ -2046,6 +2046,13 @@
       "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
       "source_problem_number": "Hilbert13",
       "theorem": "HilbertCatalog.Hilbert13.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HilbertCatalog.Hilbert16QuinticSurfaces.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuinticSurfaces.lean",
+      "source_problem_number": "Hilbert16QuinticSurfaces",
+      "theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture"
     },
     {
       "reward_target_id": "fc-target:HilbertCatalog.RankOneAbelianStark.conjecture",

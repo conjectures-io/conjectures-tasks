@@ -1,5 +1,5 @@
 {
-  "audit_date_utc": "2026-11-13",
+  "audit_date_utc": "2026-11-15",
   "excluded_candidates": [
     {
       "decision": "hold_resolution_claim",
@@ -21,9 +21,20 @@
       ],
       "review_note": "The AI catalog accepts Plasma AI's October 19, 2026 claim as full and marks the problem solved. The pinned repository proves Erdos173.erdos_173 with the same arbitrary-coloring and triangle quantifiers as our selected target. I inspected Solution.lean, its definitions, README and comparator configuration, and read the project's replay and statement-fidelity records. Those records report successful compilation, statement comparison and kernel replay with only propext, Classical.choice and Quot.sound. I did not independently rebuild or replay it. The project reports no external referee examination. Bloom's OPEN label is therefore insufficient for eligibility. A stronger one-color-class historical formulation remaining open does not preserve eligibility of this selected theorem.",
       "theorem": "Erdos173.erdos_173"
+    },
+    {
+      "decision": "hold_resolution_claim",
+      "number": "Hilbert16QuadraticLimitCycles",
+      "production_type_sha256": "sha256:8739dd833b3b8824c462b19f164250f18d5cb1ed7949604319da73c94f6b5523",
+      "reason": "A live unrefereed preprint (Pedregal, arXiv:2103.07193v4, 3 November 2026) claims exactly H(2) = 4. The review found the claim neither established nor refuted. Admission is withheld pending an owner decision or a review that disposes of the claim. No judgment that the claimed proof is correct.",
+      "references": [
+        "https://arxiv.org/abs/2103.07193v4",
+        "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-11-15-hilbert16-open-cases/README.md"
+      ],
+      "theorem": "HilbertCatalog.Hilbert16QuadraticLimitCycles.conjecture"
     }
   ],
-  "repository_commit": "33b3c405cc7f6499595ce65c50e86be40354d372",
+  "repository_commit": "bc92995b0ab14ac035d3cd535cbca4a598097a8e",
   "retained_selection": [
     {
       "active_resolution_prs": [],
@@ -5769,6 +5780,25 @@
       "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
       "target_source_status": "open",
       "theorem": "HilbertCatalog.Hilbert13.conjecture"
+    },
+    {
+      "checked_date": "2026-11-15",
+      "decision": "eligible",
+      "number": "Hilbert16QuinticSurfaces",
+      "production_type_sha256": "sha256:6e4c06e1cf999c5dc013101e750352b9bc52f5eab6f810014b1f85b12aeaedc1",
+      "references": [
+        "https://mathcs.clarku.edu/~djoyce/hilbert/problems.html#prob16",
+        "https://www.math.univ-toulouse.fr/~orevkov/q23.pdf",
+        "https://arxiv.org/abs/math/0502127",
+        "https://arxiv.org/abs/1805.02030",
+        "https://arxiv.org/abs/2603.08094",
+        "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-11-15-hilbert16-open-cases/README.md"
+      ],
+      "review_note": "Two independent fresh-context reviews on November 15 accepted the statement, and machine-checked witnesses show it is not vacuous. A bounded literature search on November 15 found the maximum still known only to be 23, 24 or 25, with no later construction or bound. Every real quintic surface in RP^3 with nonsingular complexification has at most 23 connected components. The maximum is known to be 23, 24 or 25. The target is the bound 23 only; a refutation leaves 24 and 25 to be separated. It is one case of one clause of Hilbert 16, not the whole problem.",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuinticSurfaces.lean",
+      "target_source_status": "open",
+      "theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture"
     },
     {
       "checked_date": "2026-11-13",
