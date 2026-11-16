@@ -1,6 +1,6 @@
 {
   "policy": "one_task_one_audited_proposition",
-  "repository_commit": "bc92995b0ab14ac035d3cd535cbca4a598097a8e",
+  "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
   "schema_version": 3,
   "targets": [
     {
@@ -2034,6 +2034,20 @@
       "theorem": "HardyLittlewood.second_hardy_littlewood_conjecture"
     },
     {
+      "reward_target_id": "fc-target:HilbertCatalog.BorgerDeSmitQuestion4.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/BorgerDeSmitQuestion4.lean",
+      "source_problem_number": "BorgerDeSmitQuestion4",
+      "theorem": "HilbertCatalog.BorgerDeSmitQuestion4.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HilbertCatalog.Hilbert12LambdaGeometric.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert12LambdaGeometric.lean",
+      "source_problem_number": "Hilbert12LambdaGeometric",
+      "theorem": "HilbertCatalog.Hilbert12LambdaGeometric.conjecture"
+    },
+    {
       "reward_target_id": "fc-target:HilbertCatalog.Hilbert13.conjecture",
       "source_family": "historical-open",
       "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
@@ -2046,6 +2060,13 @@
       "source_path": "FormalConjectures/HistoricalOpen/Hilbert16QuinticSurfaces.lean",
       "source_problem_number": "Hilbert16QuinticSurfaces",
       "theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture"
+    },
+    {
+      "reward_target_id": "fc-target:HilbertCatalog.Hilbert6VlasovPoissonLimit.conjecture",
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert6VlasovPoissonLimit.lean",
+      "source_problem_number": "Hilbert6VlasovPoissonLimit",
+      "theorem": "HilbertCatalog.Hilbert6VlasovPoissonLimit.conjecture"
     },
     {
       "reward_target_id": "fc-target:HilbertCatalog.RankOneAbelianStark.conjecture",

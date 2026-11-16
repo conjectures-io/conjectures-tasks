@@ -1,0 +1,44 @@
+{
+  "adapter_version": 2,
+  "answer_policy": {},
+  "challenge_module": "Challenge",
+  "classification": "DIRECT_PROP",
+  "definition_names": [],
+  "dependency_identity_sha256": "sha256:bd26d9ab55f387a28483371de198d61bd491fdf9e2a95c2d94b83b2ab51fb6e1",
+  "enable_nanoda": false,
+  "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+  "forbidden_dependencies": [
+    "HilbertCatalog.Hilbert6VlasovPoissonLimit.conjecture"
+  ],
+  "generated_target_type_hash": "sha256:91e2e4fdac3a7bfefc803b3a6dc378f567923d1189e2724efbd5e9073136eed7",
+  "known_proof_collisions": [],
+  "max_submission_bytes": 31457280,
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "production_eligible": true,
+  "provenance": "dependency-identity-v2",
+  "schema_version": 3,
+  "solution_module": "Solution",
+  "source_module": "FormalConjectures.HistoricalOpen.Hilbert6VlasovPoissonLimit",
+  "source_path": "FormalConjectures/HistoricalOpen/Hilbert6VlasovPoissonLimit.lean",
+  "source_theorem": "HilbertCatalog.Hilbert6VlasovPoissonLimit.conjecture",
+  "source_type_hash": "sha256:0272a455c7e66e49c24c4a057161e2308bd2dec410983211ef5b3ddf26f6f81f",
+  "target_theorem": "Bounty.target",
+  "task_id": "fc-v2-hilbert6vlasovpoissonlimit-conjecture-ac019f6c5bf36b5128c469bc-counterexample",
+  "task_mode": "counterexample",
+  "theorem_names": [
+    "Bounty.target"
+  ],
+  "timeout_seconds": 14400,
+  "trusted_file_hashes": {
+    "Challenge.lean": "sha256:c49765817e78ba3e2c0406fddd5153924513b7e0b5544c785401d083130292a5",
+    "SolutionFooter.lean.txt": "sha256:0eed8ce76c1cdb94613104059cf4e58d4d7860cc95bd85c234db2d73534a5fb9",
+    "SolutionHeader.lean.txt": "sha256:51827c82b68582e5c9632af378b0e19f112baff1f8c4850047cddce73854ebcc",
+    "comparator-config.json": "sha256:7415f4e04c714829831824c8f31215983d0eafa25064418d4833de03e850bbf6",
+    "source-metadata.json": "sha256:08546a8c3229e664d9ac2ee731401c335b002f690e6ec90168f37c93097e0805",
+    "task-version.json": "sha256:3f7614281f95b9bff60499caf93a0cdab2828af23e597e19b8f18554617e5355"
+  }
+}

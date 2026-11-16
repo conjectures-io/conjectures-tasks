@@ -1,0 +1,43 @@
+{
+  "adapter_version": 2,
+  "ams_subjects": [
+    82,
+    35
+  ],
+  "answer_occurrences": [],
+  "category": "research open",
+  "classification": "DIRECT_PROP",
+  "contains_answer_annotation": false,
+  "contains_sorry_in_type": false,
+  "contains_sorry_in_value": false,
+  "declaration_kind": "theorem",
+  "depends_on_sorry": true,
+  "docstring": "Point particles in three-space under the repulsive Coulomb force scaled by one over their number, started from independent samples of a smooth compactly supported density, have empirical averages that converge in probability at each fixed time to those of the classical Vlasov–Poisson solution. The force is not truncated and no noise is added. The existence of that solution is a known theorem and is part of the statement. The limit is open in this setting and expected to be true. It is one instance of the particle-to-continuum programme associated with Hilbert 6, not the problem itself. ",
+  "finite_constructors": [],
+  "formal_proof_kind": null,
+  "formal_proof_link": null,
+  "has_parameters": false,
+  "is_prop": true,
+  "module": "FormalConjectures.HistoricalOpen.Hilbert6VlasovPoissonLimit",
+  "pointer_target": null,
+  "references": [
+    "[Hilbert, Mathematical Problems, problem 6](https://mathcs.clarku.edu/~djoyce/hilbert/problems.html#prob6)",
+    "[Jabin, A review of the mean field limits for Vlasov equations](https://www.math.umd.edu/~tadmor/ki_net/pubs/files/review_MF.pdf)",
+    "[Lazarovici and Pickl, A mean field limit for the Vlasov–Poisson system](https://arxiv.org/abs/1502.04608)",
+    "[Serfaty, Mean field limit for Coulomb-type flows](https://arxiv.org/abs/1803.08345)"
+  ],
+  "source_path": "FormalConjectures/HistoricalOpen/Hilbert6VlasovPoissonLimit.lean",
+  "supported_modes": [
+    "formalized",
+    "counterexample"
+  ],
+  "theorem": "HilbertCatalog.Hilbert6VlasovPoissonLimit.conjecture",
+  "transitive_axioms": [
+    "propext",
+    "sorryAx",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "type_hash": "sha256:0272a455c7e66e49c24c4a057161e2308bd2dec410983211ef5b3ddf26f6f81f",
+  "type_pretty": "HilbertDrafts.Hilbert6MeanField.VlasovPoissonMeanFieldLimit"
+}
