@@ -11,21 +11,26 @@ history. Each bundle contains its challenge, manifest, comparator configuration,
 trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains 656 active bundles for 328 audited propositions.
-The November 15 release adds one open case of Hilbert 16, the bound of 23
-connected components for real quintic surfaces, to the 327-target baseline.
-The quadratic limit-cycle case is published in the source and held while a
-claim of that exact result is unreviewed. Both statements, their reviews and
-the literature record are in the
-[open-case package](staged/hilbert16-open-cases-20261115/README.md).
+The current snapshot contains 660 active bundles for 330 audited propositions.
+The November 16 release adds three statements to the 327-target baseline:
+Hilbert 12 in the Λ-geometric form of Borger and de Smit, their Question 4, and
+the mean-field limit for the Vlasov–Poisson equation, an open problem of the
+particle-to-continuum programme associated with Hilbert 6. The statements,
+their reviews and the literature record are in the
+[Hilbert 6 and 12 package](staged/hilbert6-12-open-statements-20261116/README.md).
+The November 15 release added the quintic-surface case of Hilbert 16 and holds
+the quadratic limit-cycle case; see the
+[open-case package](staged/hilbert16-open-cases-20261115/README.md). Erdős 345
+was withdrawn on November 16.
 
 The complete reviewed formalizations of Hilbert 6, 12, algebraic 13 and 16 are
 published in the [review package](staged/hilbert-formulations-20261113/README.md).
 Hilbert 6 uses selected physical models. The general Hilbert 12 recipe contract
 leaves explicitness to mathematical assessment. Hilbert 16 has a general
 uniform-bound proof claim awaiting assessment. Submission targets are the
-algebraic Hilbert 13 statement, the separately named rank-one Stark conjecture
-and the quintic-surface case of Hilbert 16.
+algebraic Hilbert 13 statement, the separately named rank-one Stark conjecture,
+the quintic-surface case of Hilbert 16, the two Λ-geometric statements for
+Hilbert 12 and the Vlasov–Poisson mean-field limit for Hilbert 6.
 The tier label is retained for protocol compatibility.
 
 Published bundles are content-addressed and must not be edited in place. A changed challenge or

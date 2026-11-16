@@ -1,7 +1,7 @@
 {
-  "audit_date_utc": "2026-11-15",
+  "audit_date_utc": "2026-11-16",
   "github_open_pr_count": 359,
-  "repository_commit": "bc92995b0ab14ac035d3cd535cbca4a598097a8e",
+  "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
   "schema_version": 3,
   "screening_statement": "Plausibly attackable solver target; this is a comparative screen, not a claim that the conjecture is easy or guaranteed solvable.",
   "selected": [
@@ -5048,6 +5048,32 @@
       ],
       "open_prs_touching_source": [],
       "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/BorgerDeSmitQuestion4.lean",
+      "source_problem_number": "BorgerDeSmitQuestion4",
+      "source_status": "open",
+      "theorem": "HilbertCatalog.BorgerDeSmitQuestion4.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert12LambdaGeometric.lean",
+      "source_problem_number": "Hilbert12LambdaGeometric",
+      "source_status": "open",
+      "theorem": "HilbertCatalog.Hilbert12LambdaGeometric.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
       "source_path": "FormalConjectures/HistoricalOpen/Hilbert13.lean",
       "source_problem_number": "Hilbert13",
       "source_status": "open",
@@ -5065,6 +5091,19 @@
       "source_problem_number": "Hilbert16QuinticSurfaces",
       "source_status": "open",
       "theorem": "HilbertCatalog.Hilbert16QuinticSurfaces.conjecture",
+      "upstream_status": "research open"
+    },
+    {
+      "active_resolution_prs": [],
+      "feasibility_signals": [
+        "standard-mathlib-surface"
+      ],
+      "open_prs_touching_source": [],
+      "source_family": "historical-open",
+      "source_path": "FormalConjectures/HistoricalOpen/Hilbert6VlasovPoissonLimit.lean",
+      "source_problem_number": "Hilbert6VlasovPoissonLimit",
+      "source_status": "open",
+      "theorem": "HilbertCatalog.Hilbert6VlasovPoissonLimit.conjecture",
       "upstream_status": "research open"
     },
     {
@@ -5572,8 +5611,8 @@
     {
       "family": "historical-open",
       "locator": "https://github.com/conjectures-io/conjectures-tasks/blob/main/tiers/tier-1/historical-open-status-audit.json",
-      "revision": "59eb59832cdd977123183e860f67030180a4e3059e549cf95e7f07370ef4fcc0"
+      "revision": "4bb97515c5588cece4f7d012679dccc2978da0f03a0acf1d35299bacdf734bac"
     }
   ],
-  "target_status_audit_sha256": "sha256:dfb51c3ec33338f655bc24e63045f1a6ca8e4568b83da40be134661241c93fad"
+  "target_status_audit_sha256": "sha256:1121f4c62136fd7cc0d7216f1f98fc5ef0b419d3571c79bcfeb2f94b3d03bc15"
 }
