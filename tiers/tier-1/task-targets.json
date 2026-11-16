@@ -774,13 +774,6 @@
       "theorem": "Erdos340.erdos_340.variants.sub_hasPosDensity"
     },
     {
-      "reward_target_id": "fc-target:Erdos345.erdos_345",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/345.lean",
-      "source_problem_number": 345,
-      "theorem": "Erdos345.erdos_345"
-    },
-    {
       "reward_target_id": "fc-target:Erdos354.erdos_354.parts.i",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/354.lean",

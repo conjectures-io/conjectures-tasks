@@ -1478,6 +1478,77 @@
     {
       "decision_url": null,
       "pool_status": "retired",
+      "reason": "Withdrawn at the pool owner’s request after a report that Erdős 345 has been solved outside Conjectures. This withdrawal does not independently certify a proof of the exact selected target.",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "6f125a946aa8f0ac79d3807fdb494d9e25ab1da0",
+      "retired_on": "2026-11-16",
+      "reward_target_id": "fc-target:Erdos345.erdos_345",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $A\\subseteq \\mathbb{N}$ be a complete sequence, and define the threshold of completeness\n$T(A)$ to be the least integer $m$ such that all $n\\geq m$ are in\n$$P(A) = \\left\\{\\sum_{n\\in B}n : B\\subseteq A\\textrm{ finite }\\right\\}$$\n(the existence of $T(A)$ is guaranteed by completeness).\n\nIs it true that there are infinitely many $k$ such that $T(n^k)>T(n^{k+1})$?\n\nHere $T(n^k)$ means the threshold of the positive $k$-th powers. Least-threshold witnesses\nensure that the thresholds exist. We restrict to $k\\geq 1$, since the zeroth powers form\n$\\{1\\}$, which is incomplete. Positive powers are complete [Ki17].\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«345»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/345](https://www.erdosproblems.com/345)",
+          "[ErGr80] Erdős, P. and Graham, R., *Old and new problems and results in combinatorial number theory*. Monographies de L'Enseignement Mathematique (1980), p. 55.",
+          "[Ki17] Kim, D., *On the largest integer that is not a sum of distinct positive nth powers*. Journal of Integer Sequences 20 (2017), Article 17.7.5. [arXiv:1610.02439](https://arxiv.org/abs/1610.02439)"
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/345.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos345.erdos_345",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:0f1f06543ce32c9d4ef75a9e9beda83a5b7bf9af61cb2cb88e495252edf74a7d",
+        "type_pretty": "{k |\n    0 < k ∧\n      ∃ a b,\n        IsLeast (IsAddComplete.thresholds (Erdos345.kthPowers k)) a ∧\n          IsLeast (IsAddComplete.thresholds (Erdos345.kthPowers (k + 1))) b ∧ b < a}.Infinite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«345»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos345.erdos_345\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-bc92995b-erdos345-erdos-345-eccdff705ce20589bcb4f96ee31d84b2-problem",
+          "target_type_sha256": "sha256:0f1f06543ce32c9d4ef75a9e9beda83a5b7bf9af61cb2cb88e495252edf74a7d",
+          "task_bundle_sha256": "sha256:0da06ea6ab089b566eb75e62cc658d566c516197e9f17d274a929257504c26a4",
+          "task_id": "fc-v2-erdos345-erdos-345-a1f774171a18b82804b25c19-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«345»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos345.erdos_345\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-bc92995b-erdos345-erdos-345-eccdff705ce20589bcb4f96ee31d84b2-problem",
+          "target_type_sha256": "sha256:359075f88a70c426c0294fcb8e4e81999365adcdadf795e72f5666299dc618a9",
+          "task_bundle_sha256": "sha256:88dd60c906503c735f1eae3a0584f407716820180937c922da693b432c8df485",
+          "task_id": "fc-v2-erdos345-erdos-345-e4aed09746ceaab9ea79fa11-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos345.erdos_345",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": null,
+      "pool_status": "retired",
       "reason": "OWNER_ACCEPTED_PUBLICATION_CLOSURE (closed on the release owner's instruction of 2026-10-06T23:17:23Z to accept the public resolution claim in OpenAI math corpus family 012, commit adc7f1241b42e322a6451854ab7e4b4c146bf78a, first public 2026-10-06T21:58:50Z. Owner-directed acceptance: no independent proof replay or certification was performed. See OWNER-ACCEPTED-CLOSURES-2026-10-06.md.)",
       "reason_code": "OWNER_ACCEPTED_PUBLICATION_CLOSURE",
       "recovered_from_commit": "0b8bf749b349f94f016876686bdfc43c7fc459f2",
