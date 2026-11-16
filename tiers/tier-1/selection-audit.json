@@ -1945,21 +1945,6 @@
     {
       "active_resolution_prs": [],
       "feasibility_signals": [
-        "compact-formal-target"
-      ],
-      "open_prs_touching_source": [
-        7494
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/345.lean",
-      "source_problem_number": 345,
-      "source_status": "open",
-      "theorem": "Erdos345.erdos_345",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
         "compact-formal-target",
         "standard-mathlib-surface"
       ],
@@ -5590,5 +5575,5 @@
       "revision": "59eb59832cdd977123183e860f67030180a4e3059e549cf95e7f07370ef4fcc0"
     }
   ],
-  "target_status_audit_sha256": "sha256:2209f0391d6e6761ce90d521892d3e068c2202f2f25712382d19e9f1263017dd"
+  "target_status_audit_sha256": "sha256:dfb51c3ec33338f655bc24e63045f1a6ca8e4568b83da40be134661241c93fad"
 }
