@@ -2073,13 +2073,6 @@
       "tier": "tier-1"
     },
     {
-      "index": 3618,
-      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
-      "source_type_sha256": "sha256:f711719e1887b6bef588874bb6e5cd826f250fb9c2f0922b27912a2a3cce288a",
-      "theorem": "Idoneal.idoneal_numbers_completeness",
-      "tier": "tier-1"
-    },
-    {
       "index": 3624,
       "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",
       "source_type_sha256": "sha256:820357c1dbb276e0163f439f8acdb0f0803c025c7c85adc722171bc84b0b3154",
@@ -13563,44 +13556,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-6adcbe13-idoneal-idoneal-numbers-completeness-d569d91b97b7ff1d96a48b8cd5852531-problem",
-      "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
-      "source_indices": [
-        3618
-      ],
-      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
-      "target_type_sha256s": [
-        "sha256:f711719e1887b6bef588874bb6e5cd826f250fb9c2f0922b27912a2a3cce288a"
-      ],
-      "task_bundle_sha256": "sha256:b259beb3b9475b28998bc4c1be36d68be58a93c3263ccf63aa0418f254c3c83a",
-      "task_id": "fc-v2-idoneal-idoneal-numbers-completeness-64e433abe460ddf476d36eed-formalized",
-      "theorems": [
-        "Idoneal.idoneal_numbers_completeness"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6adcbe13-idoneal-idoneal-numbers-completeness-d569d91b97b7ff1d96a48b8cd5852531-problem",
-      "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
-      "source_indices": [
-        3618
-      ],
-      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
-      "target_type_sha256s": [
-        "sha256:df800bfb649d43f5dd159da5457da05969d9f0cab6366f892cf4bb0a8bcead38"
-      ],
-      "task_bundle_sha256": "sha256:08092a04036b0c180417bfca4b873575f02c602709e974a30732fd5d849765b8",
-      "task_id": "fc-v2-idoneal-idoneal-numbers-completeness-45b3c91b81c34eeb4b78903f-counterexample",
-      "theorems": [
-        "Idoneal.idoneal_numbers_completeness"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-6adcbe13-inscribedsquare-inscribed-square-problem-8209443e6203e30d5b6b11f3b04cfeed-problem",
       "reward_target_id": "fc-target:InscribedSquare.inscribed_square_problem",
       "source_indices": [
@@ -14876,13 +14831,13 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 660,
-      "retired_conjectures_sha256": "sha256:c5f0fb293cc161ed035d2377234e51a748a592bf255f8ef037ea3e8c49e1d17e",
-      "retired_source_theorems_sha256": "sha256:a056c74437d7ab232f548d12f8e62b8648e83aaa44e13664dbe3c411a5adde33",
-      "reward_target_count": 330,
+      "pool_size": 658,
+      "retired_conjectures_sha256": "sha256:d7af660013f564b4eaa6e381c58707f3749adb24a7d8ea9289e300dbc16d709b",
+      "retired_source_theorems_sha256": "sha256:ba6e2cf69c9581153aaaf73dcb261bcd2fdae7d163635da92d1e1caf7953a2e8",
+      "reward_target_count": 329,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:2f169efca29250b7997fd6e8b0a1d36180dba5ca447be8236ce4c295c44350fb",
+      "selection_audit_sha256": "sha256:265cf995db710986c63f8026573290e173be90a4d47cecd63ceb648a66071ac2",
       "source_category": "research open",
       "source_families": [
         "erdos",
@@ -14892,14 +14847,14 @@
         "research-targets",
         "wikipedia"
       ],
-      "source_theorem_count": 330,
+      "source_theorem_count": 329,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:e8f5b37065b71be7cd8a2342989ea1420f335614f4de31710374bef087393e06"
+      "task_targets_sha256": "sha256:d4ab7b7735fcade0f6e9ede858da6ae684b3dc77ae62efa021477f5f689789ec"
     }
   }
 }
