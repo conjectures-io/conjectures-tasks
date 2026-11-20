@@ -4367,6 +4367,75 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": "https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/The-Quasi-Riemann-Hypothesis-October-5-2026/build/paper2.tex",
+      "pool_status": "retired",
+      "reason": "The Dirichlet 7/8 zero-free theorem excludes the exceptional zeros required by the Elsenhans–Klüners–Nicolae classification. Grube’s reduction gives the completeness of Euler’s 65 idoneal numbers for the catalog’s triple criterion. This external result predates the November RH announcement.",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "f4a69dbc6a0e49059e8c43853e9e85e7c9887e18",
+      "retired_on": "2026-11-20",
+      "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Idoneal numbers completeness conjecture.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.Wikipedia.IdonealCompleteness",
+        "pointer_target": null,
+        "references": [
+          "[Wikipedia: Idoneal number](https://en.wikipedia.org/wiki/Idoneal_number)",
+          "[OEIS A000926](https://oeis.org/A000926)"
+        ],
+        "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Idoneal.idoneal_numbers_completeness",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:f711719e1887b6bef588874bb6e5cd826f250fb9c2f0922b27912a2a3cce288a",
+        "type_pretty": "True ↔ ∀ (n : ℕ), Idoneal.IsIdoneal n → n ∈ Idoneal.knownIdonealNumbers"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.Wikipedia.IdonealCompleteness\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Idoneal.idoneal_numbers_completeness\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-idoneal-idoneal-numbers-completeness-d569d91b97b7ff1d96a48b8cd5852531-problem",
+          "target_type_sha256": "sha256:f711719e1887b6bef588874bb6e5cd826f250fb9c2f0922b27912a2a3cce288a",
+          "task_bundle_sha256": "sha256:b259beb3b9475b28998bc4c1be36d68be58a93c3263ccf63aa0418f254c3c83a",
+          "task_id": "fc-v2-idoneal-idoneal-numbers-completeness-64e433abe460ddf476d36eed-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.Wikipedia.IdonealCompleteness\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Idoneal.idoneal_numbers_completeness\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-idoneal-idoneal-numbers-completeness-d569d91b97b7ff1d96a48b8cd5852531-problem",
+          "target_type_sha256": "sha256:df800bfb649d43f5dd159da5457da05969d9f0cab6366f892cf4bb0a8bcead38",
+          "task_bundle_sha256": "sha256:08092a04036b0c180417bfca4b873575f02c602709e974a30732fd5d849765b8",
+          "task_id": "fc-v2-idoneal-idoneal-numbers-completeness-45b3c91b81c34eeb4b78903f-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Idoneal.idoneal_numbers_completeness",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://conjectures.io/results/487cb5cc-804d-4a17-963a-c938408637a5",
       "pool_status": "held",
       "reason": "Prior public proof of Wilf’s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",

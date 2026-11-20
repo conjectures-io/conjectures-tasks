@@ -5124,19 +5124,6 @@
       "feasibility_signals": [
         "standard-mathlib-surface"
       ],
-      "open_prs_touching_source": [],
-      "source_family": "wikipedia",
-      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
-      "source_problem_number": "IdonealCompleteness",
-      "source_status": "open",
-      "theorem": "Idoneal.idoneal_numbers_completeness",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "standard-mathlib-surface"
-      ],
       "open_prs_touching_source": [
         4002
       ],
@@ -5614,5 +5601,5 @@
       "revision": "4bb97515c5588cece4f7d012679dccc2978da0f03a0acf1d35299bacdf734bac"
     }
   ],
-  "target_status_audit_sha256": "sha256:1121f4c62136fd7cc0d7216f1f98fc5ef0b419d3571c79bcfeb2f94b3d03bc15"
+  "target_status_audit_sha256": "sha256:92fee7a393eb4d3710bc98298078334006c5a99fba506399a71cd912268f4294"
 }

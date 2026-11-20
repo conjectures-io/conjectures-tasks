@@ -2076,13 +2076,6 @@
       "theorem": "HilbertCatalog.RankOneAbelianStark.conjecture"
     },
     {
-      "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
-      "source_family": "wikipedia",
-      "source_path": "FormalConjectures/Wikipedia/IdonealCompleteness.lean",
-      "source_problem_number": "IdonealCompleteness",
-      "theorem": "Idoneal.idoneal_numbers_completeness"
-    },
-    {
       "reward_target_id": "fc-target:InscribedSquare.inscribed_square_problem",
       "source_family": "wikipedia",
       "source_path": "FormalConjectures/Wikipedia/InscribedSquare.lean",

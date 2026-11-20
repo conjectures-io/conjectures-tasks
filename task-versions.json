@@ -264,6 +264,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
       "sequence": 17
+    },
+    {
+      "allowlist_sha256": "sha256:de503bc407a848aa2909b3ce9065ab11f15b94fd5c6dcfccc95df2ac74e49f88",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
+      "sequence": 18
     }
   ],
   "schema_version": 1,
@@ -49654,7 +49660,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:08092a04036b0c180417bfca4b873575f02c602709e974a30732fd5d849765b8",
       "task_id": "fc-v2-idoneal-idoneal-numbers-completeness-45b3c91b81c34eeb4b78903f-counterexample",
       "theorems": [
@@ -49706,7 +49712,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Idoneal.idoneal_numbers_completeness",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:b259beb3b9475b28998bc4c1be36d68be58a93c3263ccf63aa0418f254c3c83a",
       "task_id": "fc-v2-idoneal-idoneal-numbers-completeness-64e433abe460ddf476d36eed-formalized",
       "theorems": [
