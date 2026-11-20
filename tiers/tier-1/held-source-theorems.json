@@ -79,6 +79,19 @@
       "theorem": "Erdos887.erdos_887.parts.ii"
     },
     {
+      "audit_reference": "https://arxiv.org/abs/1508.05182",
+      "finding": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim.",
+      "held_on": "2026-11-20",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "required_resolution": "Independent verification of the stated result for Dirichlet L-functions and a review of its implication for the least prime primitive root.",
+      "reward_target_id": "fc-target:Erdos985.erdos_985",
+      "source_path": "FormalConjectures/ErdosProblems/985.lean",
+      "source_type_sha256s": [
+        "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b"
+      ],
+      "theorem": "Erdos985.erdos_985"
+    },
+    {
       "audit_reference": "https://conjectures.io/results/487cb5cc-804d-4a17-963a-c938408637a5",
       "finding": "Prior public proof of Wilf’s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
       "held_on": "2026-10-12",

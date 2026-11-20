@@ -4569,25 +4569,6 @@
       "active_resolution_prs": [],
       "feasibility_signals": [
         "compact-formal-target",
-        "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/985.lean",
-      "source_problem_number": 985,
-      "source_status": "open",
-      "theorem": "Erdos985.erdos_985",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
         "finite-or-finitary-structure",
         "standard-mathlib-surface"
       ],
@@ -5575,5 +5556,5 @@
       "revision": "4bb97515c5588cece4f7d012679dccc2978da0f03a0acf1d35299bacdf734bac"
     }
   ],
-  "target_status_audit_sha256": "sha256:5ea727986dbaa4957472ca8fd62c21277889e4e843493031d83c8ddc6253d90c"
+  "target_status_audit_sha256": "sha256:db1cea52812d4d28a425db78a00e715f7971c51f121038f36485f3e2474f275d"
 }

@@ -272,7 +272,7 @@
       "sequence": 18
     },
     {
-      "allowlist_sha256": "sha256:936b921975de9955c4e43bf4a2c47b583f34b9346f2d5b5107a431ca89d8c9d3",
+      "allowlist_sha256": "sha256:4ecf6a896329599ec3eb04bb8b0b145290bfac8d365ca52b1ed6917cb114b540",
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
       "sequence": 19
@@ -45996,7 +45996,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos985.erdos_985",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:3d50eed67776b2a53dec5a2aa0938662147ec57976c46507459a0f597d2697f1",
       "task_id": "fc-v2-erdos985-erdos-985-05185dcf4e7ef75d14cb08ab-counterexample",
       "theorems": [
@@ -46103,7 +46103,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos985.erdos_985",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:5fe96e2fce2447a55d60581936c824fec09d66dbbd62a1388284cbc5498bd787",
       "task_id": "fc-v2-erdos985-erdos-985-81a1e68e884f85314e937bba-formalized",
       "theorems": [

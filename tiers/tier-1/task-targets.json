@@ -1810,13 +1810,6 @@
       "theorem": "Erdos982.erdos_982"
     },
     {
-      "reward_target_id": "fc-target:Erdos985.erdos_985",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/985.lean",
-      "source_problem_number": 985,
-      "theorem": "Erdos985.erdos_985"
-    },
-    {
       "reward_target_id": "fc-target:Erdos99.erdos_99",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/99.lean",

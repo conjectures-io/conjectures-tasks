@@ -68,6 +68,17 @@
       ],
       "review_note": "The catalog’s sum includes primes. Under ordinary RH, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Independent verification of Alpöge’s announced RH proof is pending. Submissions are suspended during review.",
       "theorem": "Erdos462.erdos_462"
+    },
+    {
+      "decision": "hold_unverified_resolution_claim",
+      "number": 985,
+      "production_type_sha256": "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b",
+      "references": [
+        "https://alpo.ge/remark.pdf",
+        "https://arxiv.org/abs/1508.05182"
+      ],
+      "review_note": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim.",
+      "theorem": "Erdos985.erdos_985"
     }
   ],
   "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
@@ -4384,25 +4395,6 @@
       "source_problem_number": 982,
       "source_status": "falsifiable",
       "theorem": "Erdos982.erdos_982",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/985.lean",
-      "source_problem_number": 985,
-      "source_status": "open",
-      "theorem": "Erdos985.erdos_985",
       "upstream_status": "research open"
     },
     {

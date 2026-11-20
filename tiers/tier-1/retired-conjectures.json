@@ -2727,6 +2727,74 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": "https://arxiv.org/abs/1508.05182",
+      "pool_status": "held",
+      "reason": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim.",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "recovered_from_commit": "fc78d5dabefd8d1afe7542b704ccc1155f8577b3",
+      "retired_on": "2026-11-20",
+      "reward_target_id": "fc-target:Erdos985.erdos_985",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Is it true that, for every prime $p$, there is a prime $q \\leq p$ which is a primitive root modulo $p$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«985»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/985](https://www.erdosproblems.com/985)"
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/985.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos985.erdos_985",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b",
+        "type_pretty": "True ↔ ∀ (p : ℕ), Nat.Prime p → p ≠ 2 → ∃ q, Nat.Prime q ∧ q < p ∧ orderOf ↑q = p - 1"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«985»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos985.erdos_985\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos985-erdos-985-63f5511ecd70faa6a77f51d9046bbd58-problem",
+          "target_type_sha256": "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b",
+          "task_bundle_sha256": "sha256:5fe96e2fce2447a55d60581936c824fec09d66dbbd62a1388284cbc5498bd787",
+          "task_id": "fc-v2-erdos985-erdos-985-81a1e68e884f85314e937bba-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«985»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos985.erdos_985\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos985-erdos-985-63f5511ecd70faa6a77f51d9046bbd58-problem",
+          "target_type_sha256": "sha256:bc620098662cd4590bc5a9a37ffcf1eb4419d2d073322ba04ae6684c920727ac",
+          "task_bundle_sha256": "sha256:3d50eed67776b2a53dec5a2aa0938662147ec57976c46507459a0f597d2697f1",
+          "task_id": "fc-v2-erdos985-erdos-985-05185dcf4e7ef75d14cb08ab-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos985.erdos_985",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": null,
       "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the open catalog at Ben Green’s request; prior solved entries and results remain available)",
