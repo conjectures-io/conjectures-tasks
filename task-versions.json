@@ -270,6 +270,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
       "sequence": 18
+    },
+    {
+      "allowlist_sha256": "sha256:936b921975de9955c4e43bf4a2c47b583f34b9346f2d5b5107a431ca89d8c9d3",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
+      "sequence": 19
     }
   ],
   "schema_version": 1,
@@ -32193,7 +32199,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:ba44454fcfd1fca8a23f6b0a14da6bd2edcfb28e1e4964075bffae38bcf9b374",
       "task_id": "fc-v2-erdos462-erdos-462-5f5009e93fedf3a222355d5f-counterexample",
       "theorems": [
@@ -32238,7 +32244,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:2fe00f82a7878610a4240a85d7c32958464528450f7d5c9c9918c6b2b0a18b67",
       "task_id": "fc-v2-erdos462-erdos-462-d6e4c0efd3745fb48313260b-formalized",
       "theorems": [
@@ -66182,7 +66188,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:21825e821d68646b31651b01680961b83b404d55b00999ff5ae5ff7efde11645",
       "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-39b5159b80e4ab8044439720-formalized",
       "theorems": [
@@ -66258,7 +66264,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "state": "active",
+      "state": "held",
       "task_bundle_sha256": "sha256:0707363f5a6bba2c76aa1b93e5879f25a74ec7b5582d84e418e346bba88d0167",
       "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-5b794be2a83052f1fc0b9815-counterexample",
       "theorems": [

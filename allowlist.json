@@ -1079,13 +1079,6 @@
       "tier": "tier-1"
     },
     {
-      "index": 1924,
-      "source_path": "FormalConjectures/ErdosProblems/462.lean",
-      "source_type_sha256": "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1",
-      "theorem": "Erdos462.erdos_462",
-      "tier": "tier-1"
-    },
-    {
       "index": 1925,
       "source_path": "FormalConjectures/ErdosProblems/463.lean",
       "source_type_sha256": "sha256:20c3316fde211c926c0f24a4be33346603ee27b460f46825d43f1552d0d26465",
@@ -2287,13 +2280,6 @@
       "source_path": "FormalConjectures/Wikipedia/RegularPrimes.lean",
       "source_type_sha256": "sha256:7c6adcd3b9ba27a8970b596734bb96848d635f80c1041394f071d63390511892",
       "theorem": "RegularPrimes.regularprime_conjecture",
-      "tier": "tier-1"
-    },
-    {
-      "index": 5672,
-      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
-      "source_type_sha256": "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547",
-      "theorem": "RiemannHypothesis.riemannHypothesis",
       "tier": "tier-1"
     },
     {
@@ -8154,44 +8140,6 @@
       "task_id": "fc-v2-erdos461-erdos-461-d8d610360a6faa4dbb96643f-counterexample",
       "theorems": [
         "Erdos461.erdos_461"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
-      "problem_id": "fc-6adcbe13-erdos462-erdos-462-c1d37ee8adc314f63e8a0626bceb47a3-problem",
-      "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "source_indices": [
-        1924
-      ],
-      "source_path": "FormalConjectures/ErdosProblems/462.lean",
-      "target_type_sha256s": [
-        "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1"
-      ],
-      "task_bundle_sha256": "sha256:2fe00f82a7878610a4240a85d7c32958464528450f7d5c9c9918c6b2b0a18b67",
-      "task_id": "fc-v2-erdos462-erdos-462-d6e4c0efd3745fb48313260b-formalized",
-      "theorems": [
-        "Erdos462.erdos_462"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6adcbe13-erdos462-erdos-462-c1d37ee8adc314f63e8a0626bceb47a3-problem",
-      "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "source_indices": [
-        1924
-      ],
-      "source_path": "FormalConjectures/ErdosProblems/462.lean",
-      "target_type_sha256s": [
-        "sha256:9a18f46e6db2958fa5a8f967e521d35cd8894734718821630be0ca10cc02f020"
-      ],
-      "task_bundle_sha256": "sha256:ba44454fcfd1fca8a23f6b0a14da6bd2edcfb28e1e4964075bffae38bcf9b374",
-      "task_id": "fc-v2-erdos462-erdos-462-5f5009e93fedf3a222355d5f-counterexample",
-      "theorems": [
-        "Erdos462.erdos_462"
       ],
       "tier": "tier-1"
     },
@@ -14734,44 +14682,6 @@
     {
       "completion_policy": "all_of",
       "mode": "formalized",
-      "problem_id": "fc-6adcbe13-riemannhypothesis-riemannhypothesis-c722da6b682eda524b5830ae81071179-problem",
-      "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "source_indices": [
-        5672
-      ],
-      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
-      "target_type_sha256s": [
-        "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547"
-      ],
-      "task_bundle_sha256": "sha256:21825e821d68646b31651b01680961b83b404d55b00999ff5ae5ff7efde11645",
-      "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-39b5159b80e4ab8044439720-formalized",
-      "theorems": [
-        "RiemannHypothesis.riemannHypothesis"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "counterexample",
-      "problem_id": "fc-6adcbe13-riemannhypothesis-riemannhypothesis-c722da6b682eda524b5830ae81071179-problem",
-      "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "source_indices": [
-        5672
-      ],
-      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
-      "target_type_sha256s": [
-        "sha256:9a43c102663928d991bb3f4d96683c14d4df11c05e3199adbfc6fd8fcf499942"
-      ],
-      "task_bundle_sha256": "sha256:0707363f5a6bba2c76aa1b93e5879f25a74ec7b5582d84e418e346bba88d0167",
-      "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-5b794be2a83052f1fc0b9815-counterexample",
-      "theorems": [
-        "RiemannHypothesis.riemannHypothesis"
-      ],
-      "tier": "tier-1"
-    },
-    {
-      "completion_policy": "all_of",
-      "mode": "formalized",
       "problem_id": "fc-6adcbe13-twinprimes-twin-primes-2051c2058fac3cef12dcb27e86f2d2e5-problem",
       "reward_target_id": "fc-target:TwinPrimes.twin_primes",
       "source_indices": [
@@ -14821,7 +14731,7 @@
       "compiled_target_validation": true,
       "excluded_source_prefixes": [],
       "grouping": "none-single-target-v1",
-      "held_source_theorems_sha256": "sha256:610841114d4a54e13929be3cc2fff896b3163337520feb53e5c42b6a3e607ef4",
+      "held_source_theorems_sha256": "sha256:c7f12e5d2b2afa10c267831be32711fe79a7520d43d297808b6dd9cf9b74d8d9",
       "minimum_erdos_tasks": 218,
       "modes": [
         "formalized",
@@ -14831,30 +14741,29 @@
       "one_reward_per_problem": true,
       "one_reward_per_reward_target": true,
       "outcomes_per_problem": 2,
-      "pool_size": 658,
-      "retired_conjectures_sha256": "sha256:d7af660013f564b4eaa6e381c58707f3749adb24a7d8ea9289e300dbc16d709b",
+      "pool_size": 654,
+      "retired_conjectures_sha256": "sha256:f78c5470ab74bce28123485c3abaac38084869e34e200a7537ffcf2c4ae36b70",
       "retired_source_theorems_sha256": "sha256:ba6e2cf69c9581153aaaf73dcb261bcd2fdae7d163635da92d1e1caf7953a2e8",
-      "reward_target_count": 329,
+      "reward_target_count": 327,
       "reward_target_policy": "stable-theorem-target-v1",
       "selection": "audited-direct-propositions-v2",
-      "selection_audit_sha256": "sha256:265cf995db710986c63f8026573290e173be90a4d47cecd63ceb648a66071ac2",
+      "selection_audit_sha256": "sha256:1ca65055a1146c8b843cc803d02ef4b2d9ca7939d611b152ce324faa22a9d804",
       "source_category": "research open",
       "source_families": [
         "erdos",
         "greens-open-problems",
         "historical-open",
-        "millennium",
         "research-targets",
         "wikipedia"
       ],
-      "source_theorem_count": 329,
+      "source_theorem_count": 327,
       "target_relations": {
         "counterexample": "logical-negation",
         "formalized": "definitionally-equal"
       },
       "task_groups_sha256": "sha256:9dc69f266ef1d3628dd08d6071763650941570be48c4f504e53794ddb8c584b6",
       "task_scope": "direct_proposition",
-      "task_targets_sha256": "sha256:d4ab7b7735fcade0f6e9ede858da6ae684b3dc77ae62efa021477f5f689789ec"
+      "task_targets_sha256": "sha256:e986226ffb367fc39231d706c3cbd3a128594214134bbc20c92de3c063363126"
     }
   }
 }

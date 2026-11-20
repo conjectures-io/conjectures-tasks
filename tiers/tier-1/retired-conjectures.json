@@ -1684,6 +1684,74 @@
       "theorem": "Erdos456.erdos_456.parts.iii"
     },
     {
+      "decision_url": "https://arxiv.org/abs/1708.04122",
+      "pool_status": "held",
+      "reason": "The catalog’s sum includes primes. Under ordinary RH, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Independent verification of Alpöge’s announced RH proof is pending. Submissions are suspended during review.",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "recovered_from_commit": "fc78d5dabefd8d1afe7542b704ccc1155f8577b3",
+      "retired_on": "2026-11-20",
+      "reward_target_id": "fc-target:Erdos462.erdos_462",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $p(n)$ denote the least prime factor of $n$. Is there a constant $C>0$ such that\n$$\\sum_{x\\leq n\\leq x+C\\sqrt{x}(\\log x)^2}\\frac{p(n)}{n}\\gg 1$$\nfor all sufficiently large $x$?\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«462»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/462](https://www.erdosproblems.com/462)"
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/462.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos462.erdos_462",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1",
+        "type_pretty": "∃ C c,\n  0 < C ∧ 0 < c ∧ ∀ᶠ (x : ℕ) in Filter.atTop, c ≤ ∑ n ∈ Finset.Icc x ⌊↑x + C * √↑x * Real.log ↑x ^ 2⌋₊, ↑n.minFac / ↑n"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«462»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos462.erdos_462\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos462-erdos-462-c1d37ee8adc314f63e8a0626bceb47a3-problem",
+          "target_type_sha256": "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1",
+          "task_bundle_sha256": "sha256:2fe00f82a7878610a4240a85d7c32958464528450f7d5c9c9918c6b2b0a18b67",
+          "task_id": "fc-v2-erdos462-erdos-462-d6e4c0efd3745fb48313260b-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«462»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos462.erdos_462\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos462-erdos-462-c1d37ee8adc314f63e8a0626bceb47a3-problem",
+          "target_type_sha256": "sha256:9a18f46e6db2958fa5a8f967e521d35cd8894734718821630be0ca10cc02f020",
+          "task_bundle_sha256": "sha256:ba44454fcfd1fca8a23f6b0a14da6bd2edcfb28e1e4964075bffae38bcf9b374",
+          "task_id": "fc-v2-erdos462-erdos-462-5f5009e93fedf3a222355d5f-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos462.erdos_462",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": null,
       "pool_status": "retired",
       "reason": "WITHDRAWN (removed from the active solver pool by maintainer request)",
@@ -4559,6 +4627,79 @@
         }
       ],
       "theorem": "Math30Catalog.source27"
+    },
+    {
+      "decision_url": "https://alpo.ge/remark.pdf",
+      "pool_status": "held",
+      "reason": "Levent Alpöge’s November 20 release states the exact Mathlib Riemann hypothesis. Independent verification of the released proof is pending. Submissions are suspended during review.",
+      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "recovered_from_commit": "fc78d5dabefd8d1afe7542b704ccc1155f8577b3",
+      "retired_on": "2026-11-20",
+      "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "The **Riemann Hypothesis**: all non-trivial zeros of the Riemann zeta function have real\npart $\\frac{1}{2}$. That is, if $\\zeta(s) = 0$, $s \\neq 1$, and $s$ is not a trivial zero\n$-2(n+1)$ for some $n \\in \\mathbb{N}$, then $\\operatorname{Re}(s) = \\frac{1}{2}$.\n\nThis is the official Millennium Prize Problem as posed by the\n[Clay Mathematics Institute](https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf).\n\nThis uses the `RiemannHypothesis` type from Mathlib, which is defined as\n`∀ (s : ℂ), riemannZeta s = 0 → (¬∃ n : ℕ, s = -2 * (n + 1)) → s ≠ 1 → s.re = 1 / 2`. ",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.Millennium.RiemannHypothesis",
+        "pointer_target": null,
+        "references": [
+          "[The Clay Institute](https://www.claymath.org/wp-content/uploads/2022/05/riemann.pdf)",
+          "[Wikipedia: Riemann hypothesis](https://en.wikipedia.org/wiki/Riemann_hypothesis)",
+          "[Wikipedia: Generalized Riemann hypothesis](https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis)",
+          "[Wikipedia: Dedekind zeta function](https://en.wikipedia.org/wiki/Dedekind_zeta_function)",
+          "J. Neukirch, *Algebraic Number Theory*, Springer (Grundlehren 322), 1999, Chapter VII, §5.",
+          "D. A. Marcus, *Number Fields*, Springer (GTM 81), 1977, Chapter VII."
+        ],
+        "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "RiemannHypothesis.riemannHypothesis",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547",
+        "type_pretty": "RiemannHypothesis"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.Millennium.RiemannHypothesis\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"RiemannHypothesis.riemannHypothesis\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-riemannhypothesis-riemannhypothesis-c722da6b682eda524b5830ae81071179-problem",
+          "target_type_sha256": "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547",
+          "task_bundle_sha256": "sha256:21825e821d68646b31651b01680961b83b404d55b00999ff5ae5ff7efde11645",
+          "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-39b5159b80e4ab8044439720-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.Millennium.RiemannHypothesis\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"RiemannHypothesis.riemannHypothesis\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-riemannhypothesis-riemannhypothesis-c722da6b682eda524b5830ae81071179-problem",
+          "target_type_sha256": "sha256:9a43c102663928d991bb3f4d96683c14d4df11c05e3199adbfc6fd8fcf499942",
+          "task_bundle_sha256": "sha256:0707363f5a6bba2c76aa1b93e5879f25a74ec7b5582d84e418e346bba88d0167",
+          "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-5b794be2a83052f1fc0b9815-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "RiemannHypothesis.riemannHypothesis",
+      "tier": "tier-1"
     }
   ],
   "schema_version": 1

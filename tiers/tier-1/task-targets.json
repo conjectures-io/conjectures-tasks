@@ -1082,13 +1082,6 @@
       "theorem": "Erdos461.erdos_461"
     },
     {
-      "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/462.lean",
-      "source_problem_number": 462,
-      "theorem": "Erdos462.erdos_462"
-    },
-    {
       "reward_target_id": "fc-target:Erdos463.erdos_463",
       "source_family": "erdos",
       "source_path": "FormalConjectures/ErdosProblems/463.lean",
@@ -2291,13 +2284,6 @@
       "source_path": "FormalConjectures/Wikipedia/RegularPrimes.lean",
       "source_problem_number": "RegularPrimes",
       "theorem": "RegularPrimes.regularprime_conjecture"
-    },
-    {
-      "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "source_family": "millennium",
-      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
-      "source_problem_number": "RiemannHypothesis",
-      "theorem": "RiemannHypothesis.riemannHypothesis"
     },
     {
       "reward_target_id": "fc-target:TwinPrimes.twin_primes",
