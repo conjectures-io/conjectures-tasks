@@ -12,3 +12,9 @@ retirement log's format.
 - `Erdos887.erdos_887.parts.ii` — 2026-10-06 — `HOLD_UNVERIFIED_RESOLUTION_CLAIM (a public repository claims the full bound, but its endpoint assumes an external hypothesis that is not instantiated. Admission is suspended pending substantive review; the target is not solved and not retired. See HOLDS-2026-10-06.md.)`
 
 - `Math30Catalog.source22` — 2026-10-12 — `PRIOR_PUBLIC_PROOF (Wilf e=4; public complete proof before submission; reversible admission hold with proof and decision history preserved)`
+
+- `RiemannHypothesis.riemannHypothesis` — 2026-11-20 — `HOLD_UNVERIFIED_RESOLUTION_CLAIM`. Levent Alpöge’s November 20 release states the exact Mathlib Riemann hypothesis. Independent verification of the released proof is pending. Submissions are suspended during review. [Evidence](https://alpo.ge/remark.pdf)
+
+- `Erdos462.erdos_462` — 2026-11-20 — `HOLD_UNVERIFIED_RESOLUTION_CLAIM`. The catalog’s sum includes primes. Under ordinary RH, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Independent verification of Alpöge’s announced RH proof is pending. Submissions are suspended during review. [Evidence](https://arxiv.org/abs/1708.04122)
+
+- `Erdos985.erdos_985` — 2026-11-20 — `HOLD_UNVERIFIED_RESOLUTION_CLAIM`. Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim. [Evidence](https://arxiv.org/abs/1508.05182)
