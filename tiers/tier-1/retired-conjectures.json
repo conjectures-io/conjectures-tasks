@@ -767,6 +767,74 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": "https://github.com/mapice/erdos-143-candidate-disproof/tree/0f4b96940c97c7e0c36d17b584ec2bf1d842c02a",
+      "pool_status": "retired",
+      "reason": "Mattia Apicella’s Lean construction gives a countable set A of rationals in [2, ∞) with |ka − b| ≥ 1 for all distinct a, b in A and every integer k ≥ 1, for which the sum of 1/(a log a) diverges. This disproves the catalog statement, and the Erdős problems page records the formalised negative answer. The catalog review rebuilt the project offline and checked a bridge to the exact catalog counterexample statement; both depend only on the three standard axioms.",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "85cfaba5faee2b8738d56c959d0acc774964a399",
+      "retired_on": "2026-11-25",
+      "reward_target_id": "fc-target:Erdos143.erdos_143.parts.ii",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Or\n$$\n\\sum_{x \\in A} \\frac{1}{x \\log x} < \\infty,\n$$\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«143»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/143](https://www.erdosproblems.com/143)"
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/143.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos143.erdos_143.parts.ii",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:d67e6578eee8f3a70ba0d0b5c0035e56073ee6d2505bee0c99f768e41e21e73d",
+        "type_pretty": "∀ (A : Set ℝ), Erdos143.WellSeparatedSet A → Summable fun x => 1 / (↑x * Real.log ↑x)"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«143»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos143.erdos_143.parts.ii\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-parts-ii-2b6d6b3f0016923af5781819ccc6f426-problem",
+          "target_type_sha256": "sha256:d67e6578eee8f3a70ba0d0b5c0035e56073ee6d2505bee0c99f768e41e21e73d",
+          "task_bundle_sha256": "sha256:76e5c99446d241e3d702eaf4b375c02bb54ecff0f3bfdb921bd56a79194d140e",
+          "task_id": "fc-v2-parts-ii-d3badd6ab63cd25eec477446-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«143»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos143.erdos_143.parts.ii\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-parts-ii-2b6d6b3f0016923af5781819ccc6f426-problem",
+          "target_type_sha256": "sha256:14eb34f1c55a61ae7e546b131e428afd2df88a35c489c8b817f8a686ae333b6a",
+          "task_bundle_sha256": "sha256:24bf82ab978419a2de04f8b61ed6363b1f5a45a8b10476f95ea0df4bec70260b",
+          "task_id": "fc-v2-parts-ii-5a760eeda330ce6e8fab27e0-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos143.erdos_143.parts.ii",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-08-05-erdos-15.md",
       "pool_status": "retired",
       "reason": "SOURCE_MISMATCH + EXPLOITABLE (the informal problem asks for real convergence; Lean states Summable over ℚ, so failure of ℚ-summability does not establish real divergence; the counterexample exploited this domain mismatch)",
@@ -1616,6 +1684,144 @@
       "tier": "tier-1"
     },
     {
+      "decision_url": "https://arxiv.org/abs/2611.05217",
+      "pool_status": "retired",
+      "reason": "Withdrawn at the pool owner’s request after a review found that the finiteness of solutions to n! = a_1!⋯a_k! would follow from Christophe Soulé’s November 3 preprint on a weak form of the abc conjecture. The preprint has not been independently verified. This withdrawal does not independently certify a proof of the exact selected target.",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "85cfaba5faee2b8738d56c959d0acc774964a399",
+      "retired_on": "2026-11-25",
+      "reward_target_id": "fc-target:Erdos373.erdos_373",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Show that the equation `n!=a_1!a_2!···a_k!`, with `n−1 > a_1 ≥ a_2 ≥ ··· ≥ a_k`, has\nonly finitely many solutions.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«373»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/373](https://www.erdosproblems.com/373)"
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/373.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos373.erdos_373",
+        "transitive_axioms": [
+          "sorryAx"
+        ],
+        "type_hash": "sha256:62fced4a3e14f77cbd9003cf8673a3aebc0fd436361417c06b9ed720bef0d830",
+        "type_pretty": "Erdos373.S.Finite"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«373»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos373.erdos_373\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos373-erdos-373-475e3b5e9bba2d1feeb023b2d50f1ea3-problem",
+          "target_type_sha256": "sha256:62fced4a3e14f77cbd9003cf8673a3aebc0fd436361417c06b9ed720bef0d830",
+          "task_bundle_sha256": "sha256:98cfaa02703b0ceefcc1c4ec432cd81718e28cc27b0b4dfd76118f06dc220271",
+          "task_id": "fc-v2-erdos373-erdos-373-7083f61e64f5ba1cb1f54db7-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«373»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos373.erdos_373\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos373-erdos-373-475e3b5e9bba2d1feeb023b2d50f1ea3-problem",
+          "target_type_sha256": "sha256:d41c08432cec0c555e96fa8da41685139d6b21533a084bd40be887633d7583aa",
+          "task_bundle_sha256": "sha256:c3d858fa680bbc7be305fecdf12e7c9eef37d3895d12ddbfa6f007d613e96a47",
+          "task_id": "fc-v2-erdos373-erdos-373-5c84d9b0ae25696bdbd43e95-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos373.erdos_373",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://arxiv.org/abs/2611.05217",
+      "pool_status": "retired",
+      "reason": "Withdrawn at the pool owner’s request after a review found that f(n) → ∞ would follow from Christophe Soulé’s November 3 preprint on a weak form of the abc conjecture. The preprint has not been independently verified. This withdrawal does not independently certify a proof of the exact selected target.",
+      "reason_code": "WITHDRAWN",
+      "recovered_from_commit": "85cfaba5faee2b8738d56c959d0acc774964a399",
+      "retired_on": "2026-11-25",
+      "reward_target_id": "fc-target:Erdos393.erdos_393",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $f(n)$ denote the minimal $m\\geq 1$ such that\n$$n! = a_1\\cdots a_t$$\nwith $a_1<\\cdots <a_t=a_1+m$. What is the behaviour of $f(n)$?\n\nWe formalise the question as: does $f(n) \\to \\infty$? A result of Luca [Lu02] implies a positive\nanswer, conditional on the $abc$ conjecture (see `Erdos393.erdos_393.variants.luca`).\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«393»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/393](https://www.erdosproblems.com/393)",
+          "[ErGr80] Erdős, P. and Graham, R., *Old and new problems and results in combinatorial number theory*. Monographies de L'Enseignement Mathematique (1980).",
+          "[BeOs92] Berend, Daniel and Osgood, Charles F., *On the equation $P(x)=n!$ and a question of Erdős*. J. Number Theory 42 (1992), 189-193.",
+          "[BPZ23] Bui, Hung M. and Pratt, Kyle and Zaharescu, Alexandru, *Power savings for counting solutions to polynomial-factorial equations*. Adv. Math. 422 (2023), Paper No. 109021, 32 pp. [arXiv:2204.08423](https://arxiv.org/abs/2204.08423)",
+          "[Lu02] Luca, Florian, *The Diophantine equation $P(x)=n!$ and a result of M. Overholt*. Glas. Mat. Ser. III 37 (2002), 269-273.",
+          "[OEIS A388302](https://oeis.org/A388302): the values $f(n)$ for $n \\geq 2$."
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/393.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos393.erdos_393",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:3d9205a8df3dd343b5022ee9201b88577e9d5df7d970aa9ac4ce73f6c41a925b",
+        "type_pretty": "Filter.Tendsto Erdos393.f Filter.atTop Filter.atTop"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«393»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos393.erdos_393\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos393-erdos-393-55867d1ada8f5b99199ab325aaab9fef-problem",
+          "target_type_sha256": "sha256:3d9205a8df3dd343b5022ee9201b88577e9d5df7d970aa9ac4ce73f6c41a925b",
+          "task_bundle_sha256": "sha256:c6db0be8f0e784b31ddefaafc5ed24043eebe7f8bc1b2cafd5ff72aaaf4768d7",
+          "task_id": "fc-v2-erdos393-erdos-393-e48570164356c9e48d57dbbb-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«393»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos393.erdos_393\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos393-erdos-393-55867d1ada8f5b99199ab325aaab9fef-problem",
+          "target_type_sha256": "sha256:6f0e17a427bb0d7810b0b4e7f7d1e4610b92df1c211738e16364bc75fab801ca",
+          "task_bundle_sha256": "sha256:9adc84ed387b3e958f71743b4aad5cc73b3b798a8ab6d527a84b7fff8cd9026d",
+          "task_id": "fc-v2-erdos393-erdos-393-f89682c83b393cc813f0b371-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos393.erdos_393",
+      "tier": "tier-1"
+    },
+    {
       "decision_url": "https://conjectures.io/results/a953a164-0fd7-4654-8486-e93deeae974b",
       "pool_status": "retired",
       "reason": "NOT_NOVEL: David Turturean's September 2026 manuscript gives an unconditional proof of Erdos 456(iii), publicly documented on September 23 before this submission's November 2 acceptance. Review of Section 4 and Appendix D found no material gap. Policy v4 excludes a later independent proof or first Lean formalization of an already solved target. No plagiarism finding is made.",
@@ -1685,11 +1891,11 @@
     },
     {
       "decision_url": "https://arxiv.org/abs/1708.04122",
-      "pool_status": "held",
-      "reason": "The catalog’s sum includes primes. Under ordinary RH, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Independent verification of Alpöge’s announced RH proof is pending. Submissions are suspended during review.",
-      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "pool_status": "retired",
+      "reason": "The catalog’s sum includes primes. Under the Riemann hypothesis, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Alpöge’s Lean proof of the Riemann hypothesis has passed independent verification, so the statement holds.",
+      "reason_code": "SOLVED_EXTERNALLY",
       "recovered_from_commit": "fc78d5dabefd8d1afe7542b704ccc1155f8577b3",
-      "retired_on": "2026-11-20",
+      "retired_on": "2026-11-25",
       "reward_target_id": "fc-target:Erdos462.erdos_462",
       "source": {
         "adapter_version": 2,
@@ -1889,6 +2095,150 @@
         }
       ],
       "theorem": "Erdos477.erdos_477.variants.monomial",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/An-exponential-bound-for-sunflowers-November-24-2026/paper.pdf",
+      "pool_status": "retired",
+      "reason": "OpenAI’s November 24 release proves the Erdős–Rado sunflower conjecture for every fixed number of petals, with a Lean formalization. Erdős’s reduction, which encodes an integer as its set of prime-power divisors and splits off the smooth part, then gives f_r(N) ≤ N^(C_r / log log N) for every r ≥ 3, which is the catalog statement. The catalog review checked the reduction and did not replay the Lean proof.",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "85cfaba5faee2b8738d56c959d0acc774964a399",
+      "retired_on": "2026-11-25",
+      "reward_target_id": "fc-target:Erdos535.erdos_535",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "Let $r \\geq 3$, and let $f_r(N)$ denote the size of the largest subset of $\\{1,\\ldots,N\\}$\nsuch that no subset of size $r$ has the same pairwise greatest common divisor between all\nelements. Erdős [Er64] proved that $f_3(N) > N^{c/\\log\\log N}$ for some constant $c > 0$, and\nconjectured this should also be an upper bound; here we state the conjectural upper bound\nfor all $r \\geq 3$.\n\nSee also [536].\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": true,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«535»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/535](https://www.erdosproblems.com/535)",
+          "[Er64](https://users.renyi.hu/~p_erdos/1964-10.pdf) P. Erdős, _On a problem in elementary number theory and a combinatorial problem_. Math. Comp. (1964), 644–646.",
+          "[AbHa70](https://doi.org/10.1112/blms/2.3.324) H. L. Abbott and D. Hanson, _An extremal problem in number theory_. Bull. London Math. Soc. (1970), 324–326.",
+          "[Er73](https://users.renyi.hu/~p_erdos/1973-21.pdf) P. Erdős, _Problems and results on combinatorial number theory_, in *A Survey of Combinatorial Theory*, North-Holland, 1973."
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/535.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos535.erdos_535",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:0681c713f97422d3f50a03ba25c825135ae3ca9a618dc041add3eeb402e64fb8",
+        "type_pretty": "∀ r ≥ 3, ∃ c > 0, ∀ᶠ (N : ℕ) in Filter.atTop, ↑(Erdos535.f r N) ≤ ↑N ^ (c / Real.log (Real.log ↑N))"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«535»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos535.erdos_535\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos535-erdos-535-f8bd7411cbb94f936b844cea4b84ba82-problem",
+          "target_type_sha256": "sha256:0681c713f97422d3f50a03ba25c825135ae3ca9a618dc041add3eeb402e64fb8",
+          "task_bundle_sha256": "sha256:e4eefda46267ab587175d765734bf20714fc8fde5acf8ddf6638dc2d1ed18510",
+          "task_id": "fc-v2-erdos535-erdos-535-ffadc9a1e6834497b5faff03-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«535»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos535.erdos_535\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-erdos535-erdos-535-f8bd7411cbb94f936b844cea4b84ba82-problem",
+          "target_type_sha256": "sha256:4d2c55a8c1c59276988dec626770819b46bef648109656168d3e920aecef0dc8",
+          "task_bundle_sha256": "sha256:f3f055d5fc6dffa7ee98bcbd076f59b70a2392ddb325967f9844ef67a3129503",
+          "task_id": "fc-v2-erdos535-erdos-535-6f1dd1524aad5ef1ef430f7b-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos535.erdos_535",
+      "tier": "tier-1"
+    },
+    {
+      "decision_url": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/An-exponential-bound-for-sunflowers-November-24-2026/paper.pdf",
+      "pool_status": "retired",
+      "reason": "OpenAI’s November 24 release proves the Erdős–Rado sunflower conjecture for every fixed number of petals, with a Lean formalization. Erdős’s reduction, which encodes an integer as its set of prime-power divisors and splits off the smooth part, then gives f_3(N) ≤ N^(C / log log N), which is the catalog statement. The catalog review checked the reduction and did not replay the Lean proof.",
+      "reason_code": "SOLVED_EXTERNALLY",
+      "recovered_from_commit": "85cfaba5faee2b8738d56c959d0acc774964a399",
+      "retired_on": "2026-11-25",
+      "reward_target_id": "fc-target:Erdos535.erdos_535.variants.first_open_case",
+      "source": {
+        "adapter_version": 2,
+        "ams_subjects": [
+          5,
+          11
+        ],
+        "answer_occurrences": [],
+        "category": "research open",
+        "classification": "DIRECT_PROP",
+        "contains_answer_annotation": false,
+        "contains_sorry_in_type": false,
+        "contains_sorry_in_value": false,
+        "declaration_kind": "theorem",
+        "depends_on_sorry": true,
+        "docstring": "The first open case of Erdős Problem 535 is $r = 3$: there should exist $c > 0$ such that\n$f_3(N) \\leq N^{c/\\log\\log N}$ for all sufficiently large $N$.\n",
+        "finite_constructors": [],
+        "formal_proof_kind": null,
+        "formal_proof_link": null,
+        "has_parameters": false,
+        "is_prop": true,
+        "module": "FormalConjectures.ErdosProblems.«535»",
+        "pointer_target": null,
+        "references": [
+          "[erdosproblems.com/535](https://www.erdosproblems.com/535)",
+          "[Er64](https://users.renyi.hu/~p_erdos/1964-10.pdf) P. Erdős, _On a problem in elementary number theory and a combinatorial problem_. Math. Comp. (1964), 644–646.",
+          "[AbHa70](https://doi.org/10.1112/blms/2.3.324) H. L. Abbott and D. Hanson, _An extremal problem in number theory_. Bull. London Math. Soc. (1970), 324–326.",
+          "[Er73](https://users.renyi.hu/~p_erdos/1973-21.pdf) P. Erdős, _Problems and results on combinatorial number theory_, in *A Survey of Combinatorial Theory*, North-Holland, 1973."
+        ],
+        "source_path": "FormalConjectures/ErdosProblems/535.lean",
+        "supported_modes": [
+          "formalized",
+          "counterexample"
+        ],
+        "theorem": "Erdos535.erdos_535.variants.first_open_case",
+        "transitive_axioms": [
+          "propext",
+          "sorryAx",
+          "Classical.choice",
+          "Quot.sound"
+        ],
+        "type_hash": "sha256:4940f37b482af2f8dde043c96224ee6c7df8b9909463615304905090c881a800",
+        "type_pretty": "∃ c > 0, ∀ᶠ (N : ℕ) in Filter.atTop, ↑(Erdos535.f 3 N) ≤ ↑N ^ (c / Real.log (Real.log ↑N))"
+      },
+      "tasks": [
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«535»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : fcTypeOfName% \"Erdos535.erdos_535.variants.first_open_case\" := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-variants-first-open-case-b2de7f8749b8d1a7f19be25db0a77e6a-problem",
+          "target_type_sha256": "sha256:4940f37b482af2f8dde043c96224ee6c7df8b9909463615304905090c881a800",
+          "task_bundle_sha256": "sha256:e05f64bea9bfed6f7bda2ac75ac48fd07820d318ca76d0acd4c428e595029816",
+          "task_id": "fc-v2-variants-first-open-case-b34234d64ec66b0174958ad3-formalized",
+          "task_mode": "formalized"
+        },
+        {
+          "challenge_lean": "import Mathlib\nimport FormalConjectures.ErdosProblems.«535»\nimport TaskSupport\n\nnamespace Bounty\n\ntheorem target : ¬ (fcTypeOfName% \"Erdos535.erdos_535.variants.first_open_case\") := by\n  sorry\n\nend Bounty\n",
+          "problem_id": "fc-6adcbe13-variants-first-open-case-b2de7f8749b8d1a7f19be25db0a77e6a-problem",
+          "target_type_sha256": "sha256:aa523a570b31449a344fa19270daa0d12188b25248ae2889f40a47f15bb47ee5",
+          "task_bundle_sha256": "sha256:95fbdb536ba4d955597e508e7e90a0e44e71f3ced7bbb951a455e22dbc53c438",
+          "task_id": "fc-v2-variants-first-open-case-c9d4e7d282ad7bd1772e63b4-counterexample",
+          "task_mode": "counterexample"
+        }
+      ],
+      "theorem": "Erdos535.erdos_535.variants.first_open_case",
       "tier": "tier-1"
     },
     {
@@ -2728,11 +3078,11 @@
     },
     {
       "decision_url": "https://arxiv.org/abs/1508.05182",
-      "pool_status": "held",
-      "reason": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim.",
-      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "pool_status": "retired",
+      "reason": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Alpöge’s Lean proof of that hypothesis has passed independent verification, so the statement holds.",
+      "reason_code": "SOLVED_EXTERNALLY",
       "recovered_from_commit": "fc78d5dabefd8d1afe7542b704ccc1155f8577b3",
-      "retired_on": "2026-11-20",
+      "retired_on": "2026-11-25",
       "reward_target_id": "fc-target:Erdos985.erdos_985",
       "source": {
         "adapter_version": 2,
@@ -4697,12 +5047,12 @@
       "theorem": "Math30Catalog.source27"
     },
     {
-      "decision_url": "https://alpo.ge/remark.pdf",
-      "pool_status": "held",
-      "reason": "Levent Alpöge’s November 20 release states the exact Mathlib Riemann hypothesis. Independent verification of the released proof is pending. Submissions are suspended during review.",
-      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
+      "decision_url": "https://github.com/Hertaspace/alpoge-rh-lean-verification/tree/33cc74b261cdfc988bd8baa5f87f86d32234aecb",
+      "pool_status": "retired",
+      "reason": "Levent Alpöge’s Lean proof states the exact Mathlib Riemann hypothesis. Independent replays report that the project compiles, depends only on the three standard axioms, and is accepted by Lean’s kernel and by several independent checkers.",
+      "reason_code": "SOLVED_EXTERNALLY",
       "recovered_from_commit": "fc78d5dabefd8d1afe7542b704ccc1155f8577b3",
-      "retired_on": "2026-11-20",
+      "retired_on": "2026-11-25",
       "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
       "source": {
         "adapter_version": 2,

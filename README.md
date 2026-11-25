@@ -11,7 +11,7 @@ history. Each bundle contains its challenge, manifest, comparator configuration,
 trusted hashes, and solution wrapper. The opaque `task_id` inside each manifest is
 the stable protocol identity and intentionally does not depend on the directory name.
 
-The current snapshot contains 652 active bundles for 326 audited propositions.
+The current snapshot contains 642 active bundles for 321 audited propositions.
 The November 16 release adds three statements to the 327-target baseline:
 Hilbert 12 in the Λ-geometric form of Borger and de Smit, their Question 4, and
 the mean-field limit for the Vlasov–Poisson equation, an open problem of the
