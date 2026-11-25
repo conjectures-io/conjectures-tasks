@@ -276,6 +276,12 @@
       "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
       "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
       "sequence": 19
+    },
+    {
+      "allowlist_sha256": "sha256:4a770f1cfce25f092a483171ce991d76dc8ff3c108b2574e62a9ef93011456ac",
+      "environment_identity_sha256": "sha256:99d8786c19a5df8bd927a0735e11c39cd40849596933134f685ed74f0b43b3f2",
+      "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
+      "sequence": 20
     }
   ],
   "schema_version": 1,
@@ -27938,7 +27944,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos373.erdos_373",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:c3d858fa680bbc7be305fecdf12e7c9eef37d3895d12ddbfa6f007d613e96a47",
       "task_id": "fc-v2-erdos373-erdos-373-5c84d9b0ae25696bdbd43e95-counterexample",
       "theorems": [
@@ -27990,7 +27996,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos373.erdos_373",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:98cfaa02703b0ceefcc1c4ec432cd81718e28cc27b0b4dfd76118f06dc220271",
       "task_id": "fc-v2-erdos373-erdos-373-7083f61e64f5ba1cb1f54db7-formalized",
       "theorems": [
@@ -29181,7 +29187,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos393.erdos_393",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:c6db0be8f0e784b31ddefaafc5ed24043eebe7f8bc1b2cafd5ff72aaaf4768d7",
       "task_id": "fc-v2-erdos393-erdos-393-e48570164356c9e48d57dbbb-formalized",
       "theorems": [
@@ -29226,7 +29232,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos393.erdos_393",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:9adc84ed387b3e958f71743b4aad5cc73b3b798a8ab6d527a84b7fff8cd9026d",
       "task_id": "fc-v2-erdos393-erdos-393-f89682c83b393cc813f0b371-counterexample",
       "theorems": [
@@ -32199,7 +32205,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "state": "held",
+      "state": "retired",
       "task_bundle_sha256": "sha256:ba44454fcfd1fca8a23f6b0a14da6bd2edcfb28e1e4964075bffae38bcf9b374",
       "task_id": "fc-v2-erdos462-erdos-462-5f5009e93fedf3a222355d5f-counterexample",
       "theorems": [
@@ -32244,7 +32250,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "state": "held",
+      "state": "retired",
       "task_bundle_sha256": "sha256:2fe00f82a7878610a4240a85d7c32958464528450f7d5c9c9918c6b2b0a18b67",
       "task_id": "fc-v2-erdos462-erdos-462-d6e4c0efd3745fb48313260b-formalized",
       "theorems": [
@@ -34344,7 +34350,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos535.erdos_535",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:f3f055d5fc6dffa7ee98bcbd076f59b70a2392ddb325967f9844ef67a3129503",
       "task_id": "fc-v2-erdos535-erdos-535-6f1dd1524aad5ef1ef430f7b-counterexample",
       "theorems": [
@@ -34420,7 +34426,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos535.erdos_535",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:e4eefda46267ab587175d765734bf20714fc8fde5acf8ddf6638dc2d1ed18510",
       "task_id": "fc-v2-erdos535-erdos-535-ffadc9a1e6834497b5faff03-formalized",
       "theorems": [
@@ -45996,7 +46002,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos985.erdos_985",
-      "state": "held",
+      "state": "retired",
       "task_bundle_sha256": "sha256:3d50eed67776b2a53dec5a2aa0938662147ec57976c46507459a0f597d2697f1",
       "task_id": "fc-v2-erdos985-erdos-985-05185dcf4e7ef75d14cb08ab-counterexample",
       "theorems": [
@@ -46103,7 +46109,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos985.erdos_985",
-      "state": "held",
+      "state": "retired",
       "task_bundle_sha256": "sha256:5fe96e2fce2447a55d60581936c824fec09d66dbbd62a1388284cbc5498bd787",
       "task_id": "fc-v2-erdos985-erdos-985-81a1e68e884f85314e937bba-formalized",
       "theorems": [
@@ -62590,7 +62596,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos143.erdos_143.parts.ii",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:24bf82ab978419a2de04f8b61ed6363b1f5a45a8b10476f95ea0df4bec70260b",
       "task_id": "fc-v2-parts-ii-5a760eeda330ce6e8fab27e0-counterexample",
       "theorems": [
@@ -64185,7 +64191,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos143.erdos_143.parts.ii",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:76e5c99446d241e3d702eaf4b375c02bb54ecff0f3bfdb921bd56a79194d140e",
       "task_id": "fc-v2-parts-ii-d3badd6ab63cd25eec477446-formalized",
       "theorems": [
@@ -66188,7 +66194,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "state": "held",
+      "state": "retired",
       "task_bundle_sha256": "sha256:21825e821d68646b31651b01680961b83b404d55b00999ff5ae5ff7efde11645",
       "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-39b5159b80e4ab8044439720-formalized",
       "theorems": [
@@ -66264,7 +66270,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "state": "held",
+      "state": "retired",
       "task_bundle_sha256": "sha256:0707363f5a6bba2c76aa1b93e5879f25a74ec7b5582d84e418e346bba88d0167",
       "task_id": "fc-v2-riemannhypothesis-riemannhypothesis-5b794be2a83052f1fc0b9815-counterexample",
       "theorems": [
@@ -68658,7 +68664,7 @@
       "mode": "formalized",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos535.erdos_535.variants.first_open_case",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:e05f64bea9bfed6f7bda2ac75ac48fd07820d318ca76d0acd4c428e595029816",
       "task_id": "fc-v2-variants-first-open-case-b34234d64ec66b0174958ad3-formalized",
       "theorems": [
@@ -68710,7 +68716,7 @@
       "mode": "counterexample",
       "provenance": "dependency-identity-v2",
       "reward_target_id": "fc-target:Erdos535.erdos_535.variants.first_open_case",
-      "state": "active",
+      "state": "retired",
       "task_bundle_sha256": "sha256:95fbdb536ba4d955597e508e7e90a0e44e71f3ced7bbb951a455e22dbc53c438",
       "task_id": "fc-v2-variants-first-open-case-c9d4e7d282ad7bd1772e63b4-counterexample",
       "theorems": [

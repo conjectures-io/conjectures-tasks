@@ -51,7 +51,7 @@
       "theorem": "Erdos345.erdos_345"
     },
     {
-      "decision": "hold_unverified_resolution_claim",
+      "decision": "exclude_external_solution",
       "number": 462,
       "production_type_sha256": "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1",
       "references": [
@@ -64,21 +64,86 @@
         "https://www.erdosproblems.com/forum/thread/462",
         "https://www.erdosproblems.com/forum/thread/462/proof-claims",
         "https://alpo.ge/remark.pdf",
-        "https://arxiv.org/abs/1708.04122"
+        "https://arxiv.org/abs/1708.04122",
+        "https://github.com/Hertaspace/alpoge-rh-lean-verification/tree/33cc74b261cdfc988bd8baa5f87f86d32234aecb"
       ],
-      "review_note": "The catalog’s sum includes primes. Under ordinary RH, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Independent verification of Alpöge’s announced RH proof is pending. Submissions are suspended during review.",
+      "review_note": "The catalog’s sum includes primes. Under the Riemann hypothesis, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Alpöge’s Lean proof of the Riemann hypothesis has passed independent verification, so the statement holds.",
       "theorem": "Erdos462.erdos_462"
     },
     {
-      "decision": "hold_unverified_resolution_claim",
+      "decision": "exclude_external_solution",
       "number": 985,
       "production_type_sha256": "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b",
       "references": [
         "https://alpo.ge/remark.pdf",
-        "https://arxiv.org/abs/1508.05182"
+        "https://arxiv.org/abs/1508.05182",
+        "https://github.com/Hertaspace/alpoge-rh-lean-verification/tree/33cc74b261cdfc988bd8baa5f87f86d32234aecb"
       ],
-      "review_note": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim.",
+      "review_note": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Alpöge’s Lean proof of that hypothesis has passed independent verification, so the statement holds.",
       "theorem": "Erdos985.erdos_985"
+    },
+    {
+      "decision": "exclude_external_solution",
+      "number": 143,
+      "production_type_sha256": "sha256:d67e6578eee8f3a70ba0d0b5c0035e56073ee6d2505bee0c99f768e41e21e73d",
+      "references": [
+        "https://github.com/mapice/erdos-143-candidate-disproof/tree/0f4b96940c97c7e0c36d17b584ec2bf1d842c02a",
+        "https://www.erdosproblems.com/143"
+      ],
+      "review_note": "Mattia Apicella’s Lean construction gives a countable set A of rationals in [2, ∞) with |ka − b| ≥ 1 for all distinct a, b in A and every integer k ≥ 1, for which the sum of 1/(a log a) diverges. This disproves the catalog statement, and the Erdős problems page records the formalised negative answer. The catalog review rebuilt the project offline and checked a bridge to the exact catalog counterexample statement; both depend only on the three standard axioms.",
+      "theorem": "Erdos143.erdos_143.parts.ii"
+    },
+    {
+      "decision": "exclude_external_solution",
+      "number": 535,
+      "production_type_sha256": "sha256:0681c713f97422d3f50a03ba25c825135ae3ca9a618dc041add3eeb402e64fb8",
+      "references": [
+        "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/ComparatorChallenges/Sunflower.lean",
+        "https://www.erdosproblems.com/535"
+      ],
+      "review_note": "OpenAI’s November 24 release proves the Erdős–Rado sunflower conjecture for every fixed number of petals, with a Lean formalization. Erdős’s reduction, which encodes an integer as its set of prime-power divisors and splits off the smooth part, then gives f_r(N) ≤ N^(C_r / log log N) for every r ≥ 3, which is the catalog statement. The catalog review checked the reduction and did not replay the Lean proof.",
+      "theorem": "Erdos535.erdos_535"
+    },
+    {
+      "decision": "exclude_external_solution",
+      "number": 535,
+      "production_type_sha256": "sha256:4940f37b482af2f8dde043c96224ee6c7df8b9909463615304905090c881a800",
+      "references": [
+        "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/lean/ComparatorChallenges/Sunflower.lean",
+        "https://www.erdosproblems.com/535"
+      ],
+      "review_note": "OpenAI’s November 24 release proves the Erdős–Rado sunflower conjecture for every fixed number of petals, with a Lean formalization. Erdős’s reduction, which encodes an integer as its set of prime-power divisors and splits off the smooth part, then gives f_3(N) ≤ N^(C / log log N), which is the catalog statement. The catalog review checked the reduction and did not replay the Lean proof.",
+      "theorem": "Erdos535.erdos_535.variants.first_open_case"
+    },
+    {
+      "decision": "exclude_owner_withdrawn",
+      "number": 373,
+      "production_type_sha256": "sha256:62fced4a3e14f77cbd9003cf8673a3aebc0fd436361417c06b9ed720bef0d830",
+      "references": [
+        "https://arxiv.org/abs/2611.05217",
+        "https://www.erdosproblems.com/373"
+      ],
+      "review_note": "Withdrawn at the pool owner’s request after a review found that the finiteness of solutions to n! = a_1!⋯a_k! would follow from Christophe Soulé’s November 3 preprint on a weak form of the abc conjecture. The preprint has not been independently verified. This withdrawal does not independently certify a proof of the exact selected target.",
+      "theorem": "Erdos373.erdos_373"
+    },
+    {
+      "decision": "exclude_owner_withdrawn",
+      "number": 393,
+      "production_type_sha256": "sha256:3d9205a8df3dd343b5022ee9201b88577e9d5df7d970aa9ac4ce73f6c41a925b",
+      "references": [
+        "https://arxiv.org/abs/2204.08423",
+        "https://erdosproblems.ai/problems/393",
+        "https://erdosproblems.ai/wiki/problems/factorials_binomials/E0393",
+        "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-11-11-erdos20-literature/README.md",
+        "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/393.lean",
+        "https://web.math.pmf.unizg.hr/glasnik/vol_37/no2_04.html",
+        "https://www.erdosproblems.com/393",
+        "https://www.erdosproblems.com/forum/thread/393",
+        "https://www.erdosproblems.com/forum/thread/393/proof-claims",
+        "https://arxiv.org/abs/2611.05217"
+      ],
+      "review_note": "Withdrawn at the pool owner’s request after a review found that f(n) → ∞ would follow from Christophe Soulé’s November 3 preprint on a weak form of the abc conjecture. The preprint has not been independently verified. This withdrawal does not independently certify a proof of the exact selected target. Prior admission note: Luca (2002) proves finiteness for polynomial-factorial equations assuming abc, which implies the selected conclusion under that conjecture. Bui–Pratt–Zaharescu give unconditional power savings in counting solutions, not the required eventual absence for every bounded span. The 2026 Turturean claim also assumes abc. None removes the hypothesis from our theorem.",
+      "theorem": "Erdos393.erdos_393"
     }
   ],
   "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
@@ -966,24 +1031,6 @@
       "source_problem_number": 141,
       "source_status": "open",
       "theorem": "Erdos141.erdos_141.variants.eleven",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/143.lean",
-      "source_problem_number": 143,
-      "source_status": "open",
-      "theorem": "Erdos143.erdos_143.parts.ii",
       "upstream_status": "research open"
     },
     {
@@ -2174,25 +2221,6 @@
       "source_path": "FormalConjectures/ErdosProblems/373.lean",
       "source_problem_number": 373,
       "source_status": "open",
-      "theorem": "Erdos373.erdos_373",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        4004,
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/373.lean",
-      "source_problem_number": 373,
-      "source_status": "open",
       "theorem": "Erdos373.erdos_373.variants.maximal_solution",
       "upstream_status": "research open"
     },
@@ -2784,46 +2812,6 @@
       "source_problem_number": 52,
       "source_status": "open",
       "theorem": "Erdos52.erdos_52",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        3422,
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/535.lean",
-      "source_problem_number": 535,
-      "source_status": "open",
-      "theorem": "Erdos535.erdos_535",
-      "upstream_status": "research open"
-    },
-    {
-      "active_resolution_prs": [],
-      "feasibility_signals": [
-        "compact-formal-target",
-        "discrete-domain",
-        "partial-results-in-source",
-        "standard-mathlib-surface"
-      ],
-      "open_prs_touching_source": [
-        3422,
-        4198,
-        4688
-      ],
-      "source_family": "erdos",
-      "source_path": "FormalConjectures/ErdosProblems/535.lean",
-      "source_problem_number": 535,
-      "source_status": "open",
-      "theorem": "Erdos535.erdos_535.variants.first_open_case",
       "upstream_status": "research open"
     },
     {
@@ -5460,32 +5448,6 @@
       "theorem": "Erdos389.erdos_389",
       "type_pretty": "∀ n ≥ 1, ∃ k ≥ 1, ∏ i ∈ Finset.range k, (n + i) ∣ ∏ i ∈ Finset.range k, (n + k + i)",
       "upstream_type_sha256": "78b18b4d5320ca25a82c1c986a77eea8ef5236d3a7dd8c87781767d8d86548ad"
-    },
-    {
-      "decision": "eligible",
-      "number": 393,
-      "original_blockers": [],
-      "parent_problem_status": "open",
-      "production_type_pretty": "Filter.Tendsto Erdos393.f Filter.atTop Filter.atTop",
-      "production_type_sha256": "sha256:3d9205a8df3dd343b5022ee9201b88577e9d5df7d970aa9ac4ce73f6c41a925b",
-      "references": [
-        "https://arxiv.org/abs/2204.08423",
-        "https://erdosproblems.ai/problems/393",
-        "https://erdosproblems.ai/wiki/problems/factorials_binomials/E0393",
-        "https://github.com/conjectures-io/conjectures-validator/blob/main/docs/review-decisions/2026-11-11-erdos20-literature/README.md",
-        "https://github.com/google-deepmind/formal-conjectures/blob/main/FormalConjectures/ErdosProblems/393.lean",
-        "https://web.math.pmf.unizg.hr/glasnik/vol_37/no2_04.html",
-        "https://www.erdosproblems.com/393",
-        "https://www.erdosproblems.com/forum/thread/393",
-        "https://www.erdosproblems.com/forum/thread/393/proof-claims"
-      ],
-      "review_note": "Luca (2002) proves finiteness for polynomial-factorial equations assuming abc, which implies the selected conclusion under that conjecture. Bui–Pratt–Zaharescu give unconditional power savings in counting solutions, not the required eventual absence for every bounded span. The 2026 Turturean claim also assumes abc. None removes the hypothesis from our theorem.",
-      "scope_note": "No unconditional full solution found; abc gives a conditional answer.",
-      "source_path": "FormalConjectures/ErdosProblems/393.lean",
-      "target_source_status": "open",
-      "theorem": "Erdos393.erdos_393",
-      "type_pretty": "Filter.Tendsto Erdos393.f Filter.atTop Filter.atTop",
-      "upstream_type_sha256": "3d9205a8df3dd343b5022ee9201b88577e9d5df7d970aa9ac4ce73f6c41a925b"
     },
     {
       "decision": "eligible",

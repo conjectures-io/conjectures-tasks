@@ -40,19 +40,6 @@
       "theorem": "Erdos282.erdos_282"
     },
     {
-      "audit_reference": "https://arxiv.org/abs/1708.04122",
-      "finding": "The catalog’s sum includes primes. Under ordinary RH, Theorem 5 of Carneiro, Milinovich and Soundararajan supplies a prime in the interval, contributing 1. Independent verification of Alpöge’s announced RH proof is pending. Submissions are suspended during review.",
-      "held_on": "2026-11-20",
-      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
-      "required_resolution": "Independent verification of ordinary RH for the stated Mathlib proposition and a review of the catalog disposition.",
-      "reward_target_id": "fc-target:Erdos462.erdos_462",
-      "source_path": "FormalConjectures/ErdosProblems/462.lean",
-      "source_type_sha256s": [
-        "sha256:192631b03cd4b86cc2bf7f320ccb697179d6ca2373fec3f03925cfe68fdcf2e1"
-      ],
-      "theorem": "Erdos462.erdos_462"
-    },
-    {
       "audit_reference": "catalog audit version 1 (sha256 c0f2a1de1e99b6e806d26ad40d6dcee3668e8193632be47f77fcaee13fe736b6), record fc-target:Erdos564.erdos_564",
       "finding": "The constant c is untyped in the pinned source and elaborates as Nat (upstream PR 5790), so the exact target is not the intended positive-real-c problem; the baseline canonical type re-exported at UID 10001 binds c : Nat. Upstream now types c as a positive real.",
       "held_on": "2026-10-06",
@@ -79,19 +66,6 @@
       "theorem": "Erdos887.erdos_887.parts.ii"
     },
     {
-      "audit_reference": "https://arxiv.org/abs/1508.05182",
-      "finding": "Under GRH for Dirichlet L-functions, Theorem 1 of McGown, Treviño and Trudgian bounds the least prime primitive root modulo each prime p > 2791 by sqrt(p) − 2. Direct verification covers all 405 odd primes up to 2791. Submissions are suspended pending independent verification of Alpöge’s Dirichlet GRH claim.",
-      "held_on": "2026-11-20",
-      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
-      "required_resolution": "Independent verification of the stated result for Dirichlet L-functions and a review of its implication for the least prime primitive root.",
-      "reward_target_id": "fc-target:Erdos985.erdos_985",
-      "source_path": "FormalConjectures/ErdosProblems/985.lean",
-      "source_type_sha256s": [
-        "sha256:a66cacd589599950865cfc08574c03585d8d6b3791a90b594ce5a407c069329b"
-      ],
-      "theorem": "Erdos985.erdos_985"
-    },
-    {
       "audit_reference": "https://conjectures.io/results/487cb5cc-804d-4a17-963a-c938408637a5",
       "finding": "Prior public proof of Wilf’s inequality for embedding dimension four; owner-directed reward withdrawal on 2026-10-12. Admission held with history preserved. The Lean verification is not disputed.",
       "held_on": "2026-10-12",
@@ -103,19 +77,6 @@
         "sha256:7d85074569abb05c8183cef2eb968b8a53430a1cf79401790a4117c767993043"
       ],
       "theorem": "Math30Catalog.source22"
-    },
-    {
-      "audit_reference": "https://alpo.ge/remark.pdf",
-      "finding": "Levent Alpöge’s November 20 release states the exact Mathlib Riemann hypothesis. Independent verification of the released proof is pending. Submissions are suspended during review.",
-      "held_on": "2026-11-20",
-      "reason_code": "HOLD_UNVERIFIED_RESOLUTION_CLAIM",
-      "required_resolution": "Independent verification of ordinary RH for the stated Mathlib proposition and a review of the catalog disposition.",
-      "reward_target_id": "fc-target:RiemannHypothesis.riemannHypothesis",
-      "source_path": "FormalConjectures/Millennium/RiemannHypothesis.lean",
-      "source_type_sha256s": [
-        "sha256:7024d428ede1c873b201a0801e42593ab9afd4e632c16c492678886797602547"
-      ],
-      "theorem": "RiemannHypothesis.riemannHypothesis"
     }
   ],
   "repository_commit": "6adcbe13652f4e7c69ad02a783465ae2a99d5cb3",
